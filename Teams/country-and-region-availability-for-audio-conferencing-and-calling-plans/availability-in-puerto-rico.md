@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams和服務。
-ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于波多黎各商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 00cd5b7068d6feaa14a78623c3c0c50269fead4e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605912"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271868"
 ---
 # <a name="availability-in-puerto-rico"></a>波多黎各的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams和服務。
+以下是適用于波多黎各商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -59,10 +59,10 @@ ms.locfileid: "58605912"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的分鐘數  <br/> |國內 3000 分鐘或 600 分鐘國際 (以每個日曆月的第一次到達者為准) 。 美國國內通話包括美國所有 50 個州和波多黎各的通話。 指派授權使用位置為美國和/或波多黎各的使用者共用相同的分鐘數。  <br/> |
-|可以撥打付費號碼外接電話嗎？ <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。  <br/> |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
+|撥出電話可以撥打進階號碼嗎？ <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括這些國家/ [地區](users-can-make-outbound-calls-to-these-countries-and-regions.md)。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

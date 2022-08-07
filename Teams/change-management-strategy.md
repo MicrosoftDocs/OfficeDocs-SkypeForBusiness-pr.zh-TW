@@ -15,12 +15,14 @@ description: 透過識別重要的專案關係人、業務成果、成功措施�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562372"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268779"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立 Microsoft Teams 的變更管理策略
 
@@ -149,4 +151,4 @@ Teams 變更管理的最佳做法：
 
 在組織中推動變更是進行中的活動，而不是活動。 您的啟動會議只是讓人員更有效效率地共同作業的開頭。 請務必規劃此旅程中強調成功、介紹新功能，以及與整體 Microsoft 365 或Office 365服務策略保持聯繫，這是 IT 部門會打造的。 確保您的使用者參與而非不知所措，可減少他們改變的疲勞，並支援他們放開舊習慣，例如透過電子郵件寄送附件等，以產生新事物，例如將檔儲存在雲端。
 
-在 Microsoft 技術社群網站上的[「推動採用](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)」社群中，分享有關 Teams 與 Microsoft 365 或 Office 365 服務採用的問題。 我們一直希望聽到您的心聲，並協助您進行採用之旅。
+在Microsoft Technical Community網站上的[「推動採用](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)」社群中，分享有關 Teams 與 Microsoft 365 或 Office 365 服務採用的問題。 我們一直希望聽到您的心聲，並協助您進行採用之旅。

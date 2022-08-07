@@ -1,5 +1,5 @@
 ---
-title: 檢查您的網際網路Teams 電話系統
+title: 檢查 Teams Phone System 的網際網路連線
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,74 +9,72 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: 檢查您的網際網路是否已準備好Teams 電話系統
+description: 檢查您的網際網路是否已準備好使用 Teams Phone System
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b165f540fe3c6280f1c6a7c2b4dec716a1fa611
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 5cbc8613a91e2b776faff922fb9a3a98b3dd545e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053092"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271048"
 ---
-# <a name="check-your-internet-connection-for-teams-phone-system"></a>檢查您的網際網路Teams 電話系統
+# <a name="check-your-internet-connection-for-teams-phone-system"></a>檢查 Teams Phone System 的網際網路連線
 
-Teams 電話系統 Microsoft 的技術，可于雲端Microsoft Teams內Microsoft 365功能。 每個使用Microsoft Teams電話系統裝置都需要網際網路連接。
+Teams Phone System 是 Microsoft 的技術，可在 Microsoft Teams 中使用 Microsoft 365 雲端啟用手機功能。 使用 Microsoft Teams 和手機系統的每個裝置都需要連線到網際網路。
 
-若要獲得最佳電話系統體驗，您需要寬頻網際網路連接，可支援貴組織可能隨時撥打的電話上限。 您也需要確定網路上的電腦可以與Microsoft 365聯繫。
+若要獲得最佳的電話系統體驗，您需要寬頻網際網路連線，以支援貴組織可隨時撥打的最大通話數目。 您也必須確定您網路上的電腦可以連線到 Microsoft 365 服務。
 
-## <a name="check-your-internet-connection-speed"></a>檢查網際網路連線速度
+## <a name="check-your-internet-connection-speed"></a>檢查您的網際網路連線速度
 
-本文可協助判斷您的網際網路連線速度是否夠快，適合需要撥打電話的人。 您將提供有關貴組織的資訊，並取得一份報表，其中顯示您的網際網路連接會由Teams電話系統。
+本文可協助判斷您的網際網路連線是否夠快，以容納需要撥打電話的人數。 您將提供組織的相關資訊，並取回一份報告，顯示 Teams 和電話系統將使用多少網際網路連線。
 
-### <a name="gather-information-about-your-internet-connection-and-users"></a>收集您的網際網路連接和使用者相關資訊
+### <a name="gather-information-about-your-internet-connection-and-users"></a>收集您的網際網路連線和使用者的相關資訊
 
 開始之前，您需要下列資訊：
 
-* 網際網路連接的速度
-* 有多少人會使用您的電話系統主要來自您的辦公室
-* 主要從遠端電話系統，例如家用辦公室使用
+* 網際網路連線的速度
+* 有多少人主要從您的辦公室使用電話系統
+* 有多少人主要從遠端位置使用電話系統，例如家庭辦公室
 
 ### <a name="enter-your-information-into-the-network-planner"></a>將您的資訊輸入網路規劃中心
 
 請遵循下列步驟：
 
-1. 在瀏覽器中，前往 [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com) 。 使用具備全域系統管理員權限的帳戶登入。 您用來註冊帳戶的帳戶Microsoft 365這些許可權。
+1. 在瀏覽器中，移至 [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com) 。 使用具備全域系統管理員權限的帳戶登入。 您用來註冊 Microsoft 365 的帳戶具有這些許可權。
 2. 開啟 **[規劃]**，並選取 **[網路規劃中心]**。
 3. 在 **[網路規劃]** 底下，選取 **[新增]**。 為您的規劃輸入名稱，然後選取 **[套用]**。
 4. 選取網路規劃名稱。
 5. 在下一頁，於 **[網站]** 索引標籤底下選取 **[新增網路站台]**。
-6. 填寫網路 **網站名稱**、**網路使用者** 和 **網際網路連結容量欄位**，然後 **選取儲存。** 讓這個畫面上的其他欄位保留空白，且不要選取 **[ExpressRoute]** 或 **[連線至 WAN]** 選項。
+6. 填寫 **[網路] 網站名稱**、[ **網路使用者**] 和 [ **網際網路連結] 容量** 欄位，然後選取 [ **儲存]**。 讓這個畫面上的其他欄位保留空白，且不要選取 **[ExpressRoute]** 或 **[連線至 WAN]** 選項。
 7. 在 **[報告]** 索引標籤，選取 **[開始報告]**。
-8. 輸入 **報表名稱，** 以及網路使用者 **(Office遠端**) ，然後選取產生報表以建立報表，顯示 Teams 的頻寬需求。**** 我們將在下一節中告訴您如何閱讀報告。
+8. 在 **[報告名稱**] 及 [Office **] 和 [****遠端**)  (**的網路使用者** 數目中輸入，然後選取 [**產生報** 表] 以建立顯示 Teams 頻寬需求的報告。 我們會告訴您如何在下一節閱讀報告。
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>尋找最低網際網路連線速度
 
-當您選取產生 **報表** 時，Microsoft 365建立報表。
+當您選取 **[產生報表**] 時，Microsoft 365 會建立報表。
 
-此數位 **會顯示** 您的網際網路Office 365欄和Teams電話系統。 我們建議您此數位不超過您網際網路總連線速度的 30%。 例如，如果您的網際網路連接是 *60Mbps*，Teams和電話系統使用不超過 *18Mbps*。
+在 [**影響**] 欄和 **Office 365** 列中，此數位會顯示 Teams 和手機系統將使用多少網際網路連線。 我們建議此數位不超過您網際網路總連線速度的 30%。 例如，如果您的網際網路連線為 *60 Mbps*，Teams 和手機系統應該使用不超過 *18 Mbps*。
 
-使用此等式來判斷您的最低網際網路連線速度：<*影響> / 0.3*。  
+使用此方程式來判斷最低網際網路連線速度：<*影響號碼> / 0.3*。  
 
-假設影響數位是 *4.6875Mbps*。 尋找最低網際網路連線速度的計算為 *4.6875 / 0.3 = 15.6*。 在這種情況下，網際網路連線速度至少應為 *15.6Mbps*。
+假設 [影響] 數位為 *4.6875 Mbps*。 尋找最低網際網路連線速度的計算方式是 *4.6875 / 0.3 = 15.6*。 在此情況下，網際網路連線速度至少應為 *15.6 Mbps*。
 
-如果Teams電話系統超過網際網路總連線速度的 30%，則 **影響號碼會顯示** 為紅色。 在這種情況下，您可能需要升級網際網路連接。
+如果 Teams 和手機系統會使用超過您網際網路總連線速度的 30%， **影響** 號碼會顯示為紅色。 在這種情況下，您可能需要升級網際網路連線。
 
 ![連線速度警告。](../media/network-planner-report-speed-warning.png)
 
 >[!NOTE]
-> 網路規劃工具所提供的頻寬影響只是預估值。 建議您使用通話[品質儀表板](../cqd-what-is-call-quality-dashboard.md)，主動監控與組織內部人員進行音訊Microsoft Teams通話的使用者體驗。
+> Network Planner 提供的頻寬影響僅為估計值。 建議您使用 [通話品質儀表板](../cqd-what-is-call-quality-dashboard.md) ，在組織內部使用 Microsoft Teams 主動監控使用者的音訊和視訊通話體驗。
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>確定您網路上的電腦和裝置能夠連線至 Microsoft 365
 
-使用網路的電腦電話系統裝置必須使用特定的網路埠來與Microsoft 365通訊。 這些埠基本上就是裝置透過網路或網際網路彼此交談的門。 您的防火牆需要允許您網路上的裝置透過下列 *輸出* 網路連接埠來連線至 Microsoft 365：
+使用電話系統的電腦和裝置必須使用特定的網路埠，才能與 Microsoft 365 服務通訊。 這些埠基本上是裝置透過網路或網際網路互相交談的門。 您的防火牆需要允許您網路上的裝置透過下列 *輸出* 網路連接埠來連線至 Microsoft 365：
 
 * **TCP 連接埠** 80 和 443
 * **UDP 連接埠** 3478、3479、3480 和 3481
 
-檢查防火牆是否允許在這些網路埠上通訊最簡單的方法是使用 Microsoft 365[網路](/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool)連接工具，從您想要測試的辦公室位置執行連接測試。 完成測試後，請確認結果和建議。
+檢查防火牆是否允許在這些網路埠上進行通訊的最簡單方式，就是使用 [Microsoft 365 網路連線工具](/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool) ，從您要測試的辦公室執行連線測試。 完成測試後，確認結果和建議。

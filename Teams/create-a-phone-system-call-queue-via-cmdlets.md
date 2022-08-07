@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何透過 Cmdlet 設定通話佇列
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674575"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268798"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>透過 Cmdlet 建立通話佇列
 
@@ -51,9 +50,9 @@ ms.locfileid: "65674575"
 
 2. 您擁有租使用者管理許可權
 3. 您已購買 Microsoft Teams 電話
-4. 以下參照的代理程式、通訊群組清單和Teams頻道已經建立
+4. 以下所述的代理程式、通訊群組清單和 Teams 頻道已經建立
 
-注意：下列Teams通道 Cmdlet 是 Teams PowerShell 模組的公開預覽版本的一部分。  如需詳細資訊，請[參閱安裝 powerShell Teams公開預覽](teams-powershell-install.md)，並[參閱Microsoft Teams PowerShell 版本資訊。](teams-powershell-release-notes.md)
+注意：以下使用的 Teams 通道 Cmdlet 是 Teams PowerShell 模組的公開預覽版本的一部分。  如需詳細資訊，請參閱 [安裝 Teams PowerShell 公開預覽](teams-powershell-install.md) ，並參閱 [Microsoft Teams PowerShell 版本資訊](teams-powershell-release-notes.md)。
 
 已安裝 MicrosoftTeams 模組的使用者應 `Update-Module MicrosoftTeams` 確保已安裝最新版本。
 
@@ -129,7 +128,7 @@ ms.locfileid: "65674575"
 
 ## <a name="login"></a>登錄
 
-系統會提示您輸入Teams系統管理員認證。
+系統會提示您輸入 Teams 系統管理員認證。
 
 ```powershell
 $credential = Get-Credential

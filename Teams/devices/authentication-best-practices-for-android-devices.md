@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Android裝置共用裝置管理的驗證最佳做法。
+title: Microsoft Teams 共用 Android 裝置管理的驗證最佳做法。
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -13,67 +13,66 @@ description: 在 Teams 中共用 Android 裝置管理的最佳做法。 這項�
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eef76052f662b26f946bf80839a62186c287b68
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 0f658a70235440563d7cb3910830c56923b60f3e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635459"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270098"
 ---
-# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>在Android裝置上Teams共用裝置管理的驗證最佳做法
+# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Android 裝置上 Teams 共用裝置管理的驗證最佳做法
 
-搭配裝置使用的目標Teams需要不同的裝置管理原則。 例如，單一銷售人員所使用的個人商務平板電腦，與許多客戶服務人員共用的通話電話有不同的需求。
+與 Teams 搭配使用的裝置目標需要不同的裝置管理原則。 例如，單一銷售人員所使用的個人商務平板電腦，與許多客戶服務人員共用的通話電話有不同的需求。
 
 安全性系統管理員和營運團隊必須針對組織中可用的裝置進行規劃。 他們必須實作最適合每個用途 *的安全* 性措施。 本文提供的建議可讓您更輕鬆地做出其中一些決策。
 
 >[!NOTE]
->條件式存取需要 Azure Active Directory (Azure AD) 進階版訂閱。
+>條件式存取需要 Azure Active Directory (Azure AD) Premium 訂閱。
 
 >[!NOTE]
->Android行動裝置的原則可能不適用於Teams Android裝置。
+>Android 行動裝置的原則可能不適用於 Teams Android 裝置。
 
 ## <a name="authentication-recommendations-are-different-for-personal-versus-shared-android-devices"></a>個人與共享 Android 裝置的驗證建議不同
 
-共用Teams裝置無法對個人裝置上使用的註冊和合規性使用相同的要求。 將個人裝置驗證需求套用至共用裝置會導致登入問題。
+共用的 Teams 裝置無法對個人裝置上使用的註冊和合規性使用相同的要求。 將個人裝置驗證需求套用至共用裝置會導致登入問題。
 
 1.  **裝置已登出，因為密碼原則。**
 
-在Teams裝置上使用的帳戶有密碼過期原則。 與共享裝置搭配使用的帳戶不會有特定使用者在密碼過期時更新並還原到正常運作狀態。 如果貴組織要求密碼必須過期並偶爾重設，這些帳戶會在Teams裝置上停止運作，直到Teams系統管理員重設密碼並重新登入為止。
+在 Teams 裝置上使用的帳戶有密碼過期原則。 與共享裝置搭配使用的帳戶不會有特定使用者在密碼過期時更新並還原到正常運作狀態。 如果貴組織要求密碼必須過期並偶爾重設，這些帳戶將會在 Teams 裝置上停止運作，直到 Teams 系統管理員重設密碼並重新登入為止。
 
-**挑戰**：存取時。 從裝置Teams，人員的帳戶有密碼過期原則。 密碼即將過期時，只要變更密碼即可。 但是在 *共用裝置* 上使用的帳戶 (資源帳戶) 可能無法連線到可以視需要變更密碼的單一人員。 這表示密碼可能會過期並讓員工不知如何繼續工作。
+**挑戰**：存取時。 來自裝置的 Teams，人員的帳戶有密碼過期原則。 密碼即將過期時，只要變更密碼即可。 但是在 *共用裝置* 上使用的帳戶 (資源帳戶) 可能無法連線到可以視需要變更密碼的單一人員。 這表示密碼可能會過期並讓員工不知如何繼續工作。
 
-當貴組織要求重設密碼或強制執行密碼到期時，請確定Teams系統管理員已準備好重設密碼，以便這些共用帳戶可以重新登入。
+當貴組織要求重設密碼或強制執行密碼到期時，請確定已準備好讓 Teams 系統管理員重設密碼，讓這些共用帳戶可以重新登入。
 
 2.  **裝置無法登入，因為條件式存取原則。**
 
 **挑戰**：共用裝置無法遵守使用者帳戶或個人裝置的 Azure AD 條件式存取原則。 如果共用裝置是依條件式存取原則與使用者帳戶或個人裝置分組，則登入將會 *失敗*。
 
-例如，如果存取Teams需要多重要素驗證，使用者必須輸入驗證碼才能完成驗證。 共用裝置通常沒有單一使用者可以設定及完成多重要素驗證。 此外，如果帳戶必須每隔 X 天重新撰寫一次，共用裝置就無法在沒有使用者介入的情況下解決此挑戰。
+例如，如果存取 Teams 需要多重要素驗證，使用者必須輸入驗證碼才能完成驗證。 共用裝置通常沒有單一使用者可以設定及完成多重要素驗證。 此外，如果帳戶必須每隔 X 天重新撰寫一次，共用裝置就無法在沒有使用者介入的情況下解決此挑戰。
 
 共用裝置不支援多重要素驗證。 使用方法如下所述。
 
 ## <a name="best-practices-for-the-deployment-of-shared-android-devices-with-teams"></a>使用 Teams 部署共用 Android 裝置的最佳做法
 
-當您在貴組織中部署Teams裝置時，Microsoft 建議使用下列設定。
+在貴組織中部署 Teams 裝置時，Microsoft 建議您使用下列設定。
 
 ### <a name="use-a-resource-account-and-curtail-its-password-expiration"></a>**使用資源帳戶並取消密碼到期**
 
-Teams共用裝置應該使用[Exchange資源信箱](/exchange/recipients-in-exchange-online/manage-resource-mailboxes)。 建立這些信箱會自動產生帳戶。 這些帳戶可以從 Active Directory 同步處理至 Azure AD，或直接在 Azure AD 中建立。 使用者的任何密碼到期原則也會套用至Teams共用裝置上使用的帳戶，因此，若要避免密碼過期原則造成的干擾，請將共用裝置的密碼到期原則設為永不過期。
+Teams 共用裝置應使用 [Exchange 資源信箱](/exchange/recipients-in-exchange-online/manage-resource-mailboxes)。 建立這些信箱會自動產生帳戶。 這些帳戶可以從 Active Directory 同步處理至 Azure AD，或直接在 Azure AD 中建立。 使用者的任何密碼到期原則也會套用至 Teams 共用裝置上使用的帳戶，因此，若要避免密碼過期原則造成的干擾，請將共用裝置的密碼到期原則設為永不過期。
 
-從 Teams 手機) 和[CY2021 更新](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android)#2 (Teams (Teams 版本[1449](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)/1.0.94.202102240 Teams 3 開始，Android) Microsoft Teams 會議室 的 (Teams 版本 1449/1.0.96.2021051904， 租使用者系統管理員可以登入Teams 遠端裝置。 租使用者系統管理員應使用遠端登入來發行驗證碼，而不是與技術人員共用密碼來設定裝置。 您可以從Teams系統管理中心為這些裝置登入。
+從 Teams 裝置 CY21[更新開始 #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (適用于 Android) 的 Teams 手機版 Teams 版本 1449/1.0.94.2021022403) 和[CY2021 更新 #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams 版本 1449/1.0.96.202105190 Microsoft Teams 會議室4， 租使用者系統管理員可以遠端登入 Teams 裝置。 租使用者系統管理員應使用遠端登入來發行驗證碼，而不是與技術人員共用密碼來設定裝置。 您可以從 Teams 系統管理中心登入這些裝置。
 
-如需詳細資訊，請參閱[遠端布建和登入Teams Android裝置](/MicrosoftTeams/devices/remote-provision-remote-login)。 
+如需詳細資訊，請參閱 [Teams Android 裝置的遠端布建和登入](/MicrosoftTeams/devices/remote-provision-remote-login)。 
 
 ### <a name="review-these-conditional-access-policies"></a>**檢閱這些條件式存取原則**
 
-Azure AD 條件式存取會設定裝置在登入時必須符合的其他需求。 對於Teams裝置，請檢閱下列指導方針，以判斷您是否撰寫允許共用裝置使用者執行其工作的原則。
+Azure AD 條件式存取會設定裝置在登入時必須符合的其他需求。 針對 Teams 裝置，請檢閱下列指導方針，以判斷您是否已撰寫允許共用裝置使用者執行其工作的原則。
 
 > [!TIP]
 > 如需條件式存取的概觀，請參閱 [什麼是條件式存取](/azure/active-directory/conditional-access/overview)？
@@ -94,7 +93,7 @@ Azure AD 條件式存取會設定裝置在登入時必須符合的其他需求�
 >[!NOTE]
 >裝置合規性需要Intune授權。
 
-如果您要將共用裝置註冊到 Intune，您可以將裝置合規性設定為條件式存取中的控制項，以便只有相容的裝置可以存取您的公司資源。 Teams裝置可以根據裝置合規性來設定條件式存取原則。 如需詳細資訊，請參閱 [條件式存取：需要符合規範或混合式 Azure AD 加入的裝置](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)。
+如果您要將共用裝置註冊到 Intune，您可以將裝置合規性設定為條件式存取中的控制項，以便只有相容的裝置可以存取您的公司資源。 Teams 裝置可以根據裝置合規性來設定條件式存取原則。 如需詳細資訊，請參閱 [條件式存取：需要符合規範或混合式 Azure AD 加入的裝置](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)。
 
 若要使用Intune設定裝置的合規性設定，請參閱[使用合規性原則為您使用Intune管理的裝置設定規則](/intune/protect/device-compliance-get-started)。
 

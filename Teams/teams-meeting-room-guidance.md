@@ -1,5 +1,5 @@
 ---
-title: 會議室Teams指引
+title: Teams 會議室指引
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,25 +9,23 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 含有會議室解決方案和裝置Teams會議室優化的查閱簿和指南。
+description: 含有 Teams 會議室解決方案和裝置的會議室優化外觀簿和指南。
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 8abd332f29ab23cbdf2dd36150942de06228f645
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823398"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272238"
 ---
-# <a name="meeting-room-guidance-for-teams"></a>會議室Teams指引
+# <a name="meeting-room-guidance-for-teams"></a>Teams 會議室指引
 
 本文旨在引導使用者瞭解如何使用Microsoft Teams 會議室解決方案和裝置優化會議空間。 它包含有關Teams 會議室裝置和解決方案使用方式、版面配置和規格的資訊。
 
@@ -49,13 +47,13 @@ Microsoft Teams 會議室解決方案可在傳統會議室所沒有的空間中�
 
 會議和共同建立會議通常不太正式，且優先于共同建立、筆跡和白板。 存取個人檔案也是此貯體的焦點。 裝置可以是行動裝置，鼓勵使用者與裝置保持聯繫、收集裝置並與之互動。
 
-適當的空間能順暢地架設使用者與科技，甚至能讓大多數的新手使用者免去摩擦。 Teams裝置的設計可讓年幼學生或新使用者能夠順暢地進行流覽，並讓授課者或系統管理員從初次使用開始控制和自訂。
+適當的空間能順暢地架設使用者與科技，甚至能讓大多數的新手使用者免去摩擦。 Teams 裝置的設計非常方便，讓年幼學生或新使用者能夠順暢地流覽，並讓授課者或系統管理員從初次使用開始控制和自訂。
 
 **開會及共同建立空間配置：** 資料表和共同建立設備可以具有彈性的位置，且應能容納在資料表或設備上工作的一群人。
 
 ### <a name="presentation-and-co-creation-focused-meetings"></a>簡報和共同建立焦點會議
 
-請記住，這兩種類型的聊天室都可以在需要時處理這兩種類型的體驗。 會議室也可以設計成讓兩者都能夠輕鬆地容納，方法是讓每個使用都具備技術。 請務必記住，無論您正在使用何種空間，從私人辦公室到講堂，都必須Teams啟用。
+請記住，這兩種類型的聊天室都可以在需要時處理這兩種類型的體驗。 會議室也可以設計成讓兩者都能夠輕鬆地容納，方法是讓每個使用都具備技術。 請務必記住，無論您正在使用何種空間，從私人辦公室到講堂，都必須啟用 Teams。
 
 **組合簡報和共同建立空間版面配置：** 其他會議案例的使用案例組合可以結合成多用途的會議室，讓簡報導向的會議以及共同建立工作能以相同的效率達成，通常同時進行。
 
@@ -65,29 +63,29 @@ Microsoft Teams 會議室解決方案可在傳統會議室所沒有的空間中�
 
 ### <a name="native-teams-rooms-experiences-versus-other-devices"></a>原生Teams 會議室體驗與其他裝置
 
-Teams 會議室提供獨一無二的會議室功能，例如單點連接、內容攝影機以智慧方式將實體白板共用至會議，以及像是順暢地將Teams會議從個人裝置移轉至會議室等近接式功能，以超越個人裝置上的Teams功能。
+Teams 會議室提供獨一無二的會議室功能，例如單點觸控加入、以智慧方式共用實體白板的內容攝影機，以及像是順暢地將 Teams 會議從個人裝置移轉到會議室等近接式功能，來超越個人裝置上的 Teams 功能。
 
-依賴外部服務或隨身攜帶裝置連線的非原生和自我建置系統，永遠不會真正符合原生Teams空間的便於使用或沈浸式品質。
+依賴外部服務或隨身攜帶裝置連線的非原生和自我建置系統，永遠不會真正符合原生 Teams 會議室的輕鬆使用或沈浸式品質。
 
-根據瞭解，在部署過程中，可能需要進行中繼步驟 (，例如快速部署帶入您自己的裝置會議室，) 在會議空間中實作，以取得完全原生Teams體驗。
+據瞭解，在部署過程中，可能需要進行中繼步驟 (，例如快速部署帶入您自己的裝置會議室) 在會議空間中實現完整原生 Teams 體驗的路徑上實作。
 
-### <a name="using-teams-to-create-the-best-possible-meeting-experience"></a>使用Teams建立最佳的會議體驗
+### <a name="using-teams-to-create-the-best-possible-meeting-experience"></a>使用 Teams 建立最佳的會議體驗
 
-將兩個Teams放在所有個人裝置上，並在所有空間中正確部署Microsoft Teams 會議室，就能為每一個使用者提供最佳的會議體驗。 當您計畫要獲得最佳可能體驗時，就技術部署和使用者指導方針與訓練而言，您必須同時處理所有空格。
+將兩個 Teams 都放在所有個人裝置上，並在所有空間中正確部署Microsoft Teams 會議室，您就能為每一個使用者提供最佳的會議體驗。 當您計畫要獲得最佳可能體驗時，就技術部署和使用者指導方針與訓練而言，您必須同時處理所有空格。
 
-在規劃大規模全公司推行計畫時，一般會分階段進行，某些會議室會看到在不同時間新增技術，甚至比其他元件更早安裝某些元件， (例如，在) 一次安裝Teams 會議室解決方案時，部署Teams面板以便在特定建築物的每個會議室排程。
+在規劃大規模全公司推行計畫時，一般會分階段進行，其中有些會議室會看到不同時間新增的技術，甚至是比其他元件更早安裝某些元件 (例如，在) 一次安裝Teams 會議室解決方案時，將 Teams 面板部署在特定建築物的每個房間排程。
 
-為您的使用者做好分階段執行此動作的準備，以便在過程中的每個時間點最大化Teams會議體驗。
+為您的使用者做好分階段執行此動作的準備，以在過程中的每一點最大化您的 Teams 會議體驗。
 
 #### <a name="good-experience--personal-devices-alone-in-a-meeting-space"></a>良好體驗 – 只在會議空間中使用個人裝置
 
-您可以從此計畫開始，解決所有非 AV 或非共同作業配備的會議空間。 即使會議室尚未安裝Teams裝置，您仍然可以利用會議室中的Teams。
+您可以從此計畫開始，解決所有非 AV 或非共同作業配備的會議空間。 即使會議室尚未安裝 Teams 裝置，您仍然可以利用會議室中的 Teams。
 
-*音訊：* 建立完整Teams 會議室的一大橋樑是規劃會議技術，方法是為您的個別使用者提供小型會議室和群組的Teams認證音訊裝置，或是在完整Teams 會議室解決方案前面部署這些音訊裝置，以供小型裝置無法剪下的大型群組使用。
+*音訊：* 建立完整Teams 會議室的一大橋樑是規劃會議技術，方法是為個別使用者提供適用于小型會議室和群組的 Teams 認證音訊裝置，或是在完整Teams 會議室解決方案之前將其部署在會議室中，以供小型裝置無法剪下的大型群組使用。
 
-*視頻：* 使用這些會議室時，個別使用者可以攜帶自己的裝置來共用Teams會議內容，並使用個別相機擷取運算式。 使用者接著可以指定某人為本機群組的單一音訊來源，將該個人裝置連線到經過認證的音訊裝置，讓所有 (本機和遠端) 都能獲得正面的會議音訊體驗。
+*視頻：* 使用這些會議室時，個別使用者可以攜帶自己的裝置來共用 Teams 會議內容，並使用個別相機擷取運算式。 使用者接著可以指定某人為本機群組的單一音訊來源，將該個人裝置連線到經過認證的音訊裝置，讓所有 (本機和遠端) 都能獲得正面的會議音訊體驗。
 
-*訂婚：* 即使需要使用個人裝置和周邊設備，啟用會議室以獲得更佳的Teams會議體驗，仍可讓您的使用者擴充可使用Teams執行的動作。 當您的使用者位於私人辦公室和個別工作站時，Teams除了與遠端參與者互動之外，還可促進親自討論。
+*訂婚：* 啟用您的會議室以獲得更好的 Teams 會議體驗，即使需要使用個人裝置和周邊裝置，仍可讓您的使用者擴展他們可以使用 Teams 執行的動作。 當您的使用者位於私人辦公室和個別工作站時，Teams 除了與遠端參與者互動之外，還可促進親自討論。
 
 #### <a name="better-experience--teams-rooms-solutions-and-no-personal-devices"></a>更好的體驗 – Teams 會議室解決方案，而且沒有個人裝置
 
@@ -109,11 +107,11 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 *訂婚：* 所有參與者、本機和遠端參與者、參與度和參與度皆可保持動態。 從Teams 會議室和透過個別相機進行視訊分享，可讓遠端參與者感受到與每個人的互動。
 
-在所有裝置上使用Teams，可確保本機會議室使用者和遠端使用者對會議的參與度相同。
+在所有裝置上使用 Teams 可確保本機會議室使用者和遠端使用者對會議的參與度相同。
 
 ## <a name="technology-considerations"></a>技術考慮
 
-正確的音訊和視訊技術選項可協助使用者充分利用Microsoft Teams會議。
+正確的音訊和視訊技術選項可協助使用者充分發揮其 Microsoft Teams 會議的效用。
 
 ### <a name="audio"></a>音訊
 
@@ -139,7 +137,7 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 *每個空間的相機正確無誤*：
 
-高品質視訊與音訊一樣重要，也是現代化Teams共同作業的必要條件。 相機技術有了大幅的進階，高品質的相機現在可供所有空間使用。
+高品質影片與音訊一樣重要，也是新式 Teams 共同作業的必要條件。 相機技術有了大幅的進階，高品質的相機現在可供所有空間使用。
 
 - 膝上型電腦和平板電腦等裝置中隨附的相機應該用於所有會議，以確保每個人都能看到並聽到。 對於想要為 **個人空間** 提供更豐富的視訊體驗的使用者，外部攝影機代表內嵌裝置的上一步，可在更多案例和設定中使用，確保通話參與者能分享自己的最佳品質檢視。 這些裝置可透過在每個電腦上找到的簡易 USB 連線輕鬆安裝。
 
@@ -147,13 +145,13 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 - 在 **較大的會議室** 中，相機採用可在不同距離的不同位置擷取參與者所需的技術。 這些相機可以擷取群組或聚焦于特定個人，同時保持絕佳的視覺清晰度。 只能追蹤並只使用主動式喇叭的裝置，會經常在較大的空間中使用，讓許多參與者在參與整個會議時，都能在參與會議時個別受到精選。
 
-# <a name="enhanced-microsoft-teams-room"></a>[增強Microsoft Teams會議室](#tab/emtr)
+# <a name="enhanced-microsoft-teams-room"></a>[增強型 Microsoft Teams 會議室](#tab/emtr)
 
-## <a name="enhanced-microsoft-teams-room"></a>增強Microsoft Teams會議室
+## <a name="enhanced-microsoft-teams-room"></a>增強型 Microsoft Teams 會議室
 
 ![美化會議室的轉譯。](media/emr1.png)
 
-本節將探討 Microsoft 如何將標準會議室轉換為增強Microsoft Teams 會議室，以提供最佳的新Teams前列體驗。 本文提供會議室設計與技術指導方針、建議產品，以及 Microsoft 企業設施參考規格。
+本節將探討 Microsoft 如何將標準會議室轉換為增強Microsoft Teams 會議室，以提供最佳的全新 Teams 前列體驗。 本文提供會議室設計與技術指導方針、建議產品，以及 Microsoft 企業設施參考規格。
 
 ## <a name="microsofts-vision-for-the-future-of-meeting-rooms"></a>Microsoft 對於未來會議室的願景
 
@@ -163,11 +161,11 @@ Microsoft 會在未來看到會議是沈浸式的，而且在人員周圍設計�
 
 未來會議的願景是以簡單的信念為根據：會議應該提供的不只是一次性交易而已。 會議是專為所有人設計，無論他們在會議室或在世界各地。
 
-## <a name="what-is-an-enhanced-microsoft-teams-room"></a>什麼是增強Microsoft Teams室？
+## <a name="what-is-an-enhanced-microsoft-teams-room"></a>什麼是增強的 Microsoft Teams 會議室？
 
-在 Microsoft 的混合式工作場所中，遠端和會議室參與者的需求會告知下一代會議室標準。 增強式會議室是一個Microsoft Teams會議室，專門用來提供 *提升* 的混合式會議體驗，促進更自然且沈浸式的連線，同時讓會議中的每個人都感到包含在內、有表現和生產力。 會議室會遵循一組由Teams 會議室軟硬體功能和會議室設定指導方針結合而實作的原則。
+在 Microsoft 的混合式工作場所中，遠端和會議室參與者的需求會告知下一代會議室標準。 增強式會議室是專為提供 *提升* 的混合式會議體驗而設計的 Microsoft Teams 會議室，可促進更自然且沈浸式的連線，同時讓會議中的每個人都感到包含在內、有呈現且具生產力。 會議室會遵循一組由Teams 會議室軟硬體功能和會議室設定指導方針結合而實作的原則。
 
-增強型Microsoft Teams會議室的概念是針對一組體驗原則支援的兩個主要目標所設計。
+增強型 Microsoft Teams 會議室的概念是針對一組體驗原則支援的兩個主要目標所設計。
 
 **目標 1：會議中的每個人都覺得包含在內、有呈現且具生產力。**
 
@@ -189,19 +187,19 @@ Microsoft 會在未來看到會議是沈浸式的，而且在人員周圍設計�
 
 特定功能部署的範例：
 
-- 在所有類型的會議空間中，如果有支援該功能的Microsoft Teams會議室解決方案，請善用我們全新的前列前方會議室顯示體驗。
+- 在有 Microsoft Teams 會議室解決方案支援的情況下，利用我們在所有類型的會議空間中的新前列前方顯示器體驗。
 
-- 實作具有傳統Microsoft Teams會議室體驗的弧形表格和前方版面配置，以促進會議室中更好的人性化連線，同時在所有會議空間保持經驗的連續性。
+- 實作具有傳統 Microsoft Teams 會議室體驗的弧形表格和前方版面配置，以促進會議室中更好的人性化連線，同時在所有會議空間中保持持續性體驗。
 
 ## <a name="when-should-you-deploy-this-room-type"></a>您應該何時部署此聊天室類型？
 
-增強Microsoft Teams 會議室不應取代貴組織內所有其他的會議空間，而是用來補充使用Microsoft Teams的現有會議空間。 它們應該以策略性的方式部署到與遠端會議參與者進行面對面互動的空格和位置。
+增強Microsoft Teams 會議室並非要取代貴組織中所有其他的會議空間，而是用來補充使用 Microsoft Teams 的現有會議空間。 它們應該以策略性的方式部署到與遠端會議參與者進行面對面互動的空格和位置。
 
-Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體驗，並透過軟體更新提供。 不過，有些硬體技術和會議室設定指引在優化一些增強的體驗方面扮演關鍵角色。 這是這些元件的組合，組成了增強Microsoft Teams空間。 評估要進化為增強Microsoft Teams會議室的Microsoft Teams 會議室數時，請考慮下列事項：
+Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體驗，並透過軟體更新提供。 不過，有些硬體技術和會議室設定指引在優化一些增強的體驗方面扮演關鍵角色。 這是這些元件的組合，組成了增強的 Microsoft Teams 會議室。 評估您要發展為增強型 Microsoft Teams 會議室的Microsoft Teams 會議室數時，請考慮下列事項：
 
 - 需要進行哪些硬體升級和/或投資。
 
-- 大部分的會議室是設計來最大化寶貴的方塊片段，且會議室維度與會議室容量之間有密切的關係。 增強Microsoft Teams會議室可將會議體驗優先于最大化方塊片段。 並非每個組織都可以針對每個會議空間排列這種優先順序，因為它可能會減少其會議室數目。
+- 大部分的會議室是設計來最大化寶貴的方塊片段，且會議室維度與會議室容量之間有密切的關係。 增強的 Microsoft Teams 會議室會將會議體驗優先于最大化方塊片段。 並非每個組織都可以針對每個會議空間排列這種優先順序，因為它可能會減少其會議室數目。
 
 ### <a name="understanding-this-space"></a>瞭解此空間
 
@@ -213,9 +211,9 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 ### <a name="what-is-this-space-used-for"></a>此空間用途為何？
 
-這個空間專為實體會議室中的一小群人提供最沈浸式Teams會議體驗。
+這個空間專為實體會議室中的一小群人提供最沈浸式的 Teams 會議體驗。
 
-就像一般Microsoft Teams會議室一樣，會議參與者可以在進行簡報和共同建立內容的同時，從遠端和本機進行會議，以順暢地共同作業。
+就像典型的 Microsoft Teams 會議室一樣，會議參與者可以在進行簡報和共同建立內容的同時，從遠端和本機進行會議，以順暢地共同作業。
 
 ### <a name="how-is-this-space-laid-out"></a>此空間是如何佈置出來的？
 
@@ -239,21 +237,21 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 ### <a name="how-do-the-front-of-room-displays-work"></a>前方顯示器如何運作？
 
-此聊天室已針對稱為前列的Microsoft Teams 會議室版面配置進行優化，並透過特殊短交高解析度投影機顯示，建立專為Teams會議設計的沈浸式前室體驗。
+此聊天室已針對稱為前列的Microsoft Teams 會議室版面配置進行優化，並透過特殊短交高解析度投影機顯示，建立專為 Teams 會議設計的沈浸式前室體驗。
 
 ### <a name="what-is-front-row"></a>什麼是前列？
 
 為了讓會議室中的人員與遠端參與者有更大的連線感，並支援在會議之前、期間及之後進行共同作業，Microsoft 為Microsoft Teams 會議室稱為前列推出了新的內容版面配置。 透過視覺效果，這個新的版面配置會將視訊庫移到畫面底部，並以特定比例進行修正，讓臉部保持逼真大小。 使用此版面配置，會議室參與者可以在水準平面上看到遠端同事面對面交談，類似他們是否在同一個房間。
 
-會議內容會被議程、工作和記事等關聯式流體元件所環繞，這些元件可以即時更新，協助參與者保持參與並提高生產力。 此外，會議聊天會清楚顯示，因此從Teams會議室加入Teams會議時，您可以輕鬆地即時查看及參與交談。 在增強Microsoft Teams會議室中，此內容會顯示在寬寬長寬比畫面上，以最大化會議內容的大小，以及可同時檢視的參與者數目。
+會議內容會被議程、工作和記事等關聯式流體元件所環繞，這些元件可以即時更新，協助參與者保持參與並提高生產力。 此外，會議聊天會清楚顯示，因此從 Teams 會議室加入 Teams 會議時，您可以輕鬆地即時查看並參與交談。 在增強的 Microsoft Teams 會議室中，此內容會顯示在寬寬長寬比畫面上，以最大化會議內容的大小，以及可同時檢視的參與者數目。
 
-單一和雙顯示設定皆支援此版面配置。 前列配置在增強型會議室中尤其具影響力，但無論傢俱與硬體設定為何，前列都可用於在Windows上執行的任何Teams會議室。
+單一和雙顯示設定皆支援此版面配置。 前列配置在增強型會議室中尤其具影響力，但無論傢俱與硬體設定為何，前列都可以用於任何在 Windows 上執行的 Teams 會議室。
 
 ### <a name="how-do-you-co-create-content"></a>如何共同建立內容？
 
-在Microsoft Teams 會議室中，使用者可以使用智慧擷取功能來利用傳統類比白板。 為了獲得所有參與者可以一起繪圖和手繪的現代化體驗，您可以使用觸控螢幕前方顯示器、電腦、手機或平板電腦等隨附裝置，以及透過Microsoft Surface Hub存取Microsoft Whiteboard。
+在Microsoft Teams 會議室中，使用者可以使用智慧擷取功能來利用傳統類比白板。 為了獲得所有參與者可以一起繪圖和手繪的現代化體驗，您可以使用觸控螢幕前方顯示器、電腦、手機或平板電腦等隨附裝置，以及透過Microsoft Surface Hub存取 Microsoft Whiteboard。
 
-## <a name="enhanced-microsoft-teams-room-design-guidance"></a>增強Microsoft Teams室設計指引
+## <a name="enhanced-microsoft-teams-room-design-guidance"></a>增強型 Microsoft Teams 會議室設計指引
 
 本節旨在涵蓋從頭開始建置會議室。
 
@@ -267,7 +265,7 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 #### <a name="room-capacity"></a>會議室容量
 
-此增強Microsoft Teams室已針對 6 到 8 個人優化。
+這個增強的 Microsoft Teams 會議室已針對 6 到 8 個人優化。
 
 #### <a name="room-furniture"></a>會議室傢俱
 
@@ -277,11 +275,11 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 #### <a name="equipment-mounting"></a>設備安裝
 
-選取硬體位置通常是由選取指定會議空間內所用Teams經過會議室認證的硬體所驅動。
+選取硬體位置通常是由選取指定會議空間內所使用的 Teams 會議室認證硬體所驅動。
 
 為了在 Microsoft 設施內初始部署增強型會議室，我們選擇在表格中安裝Microsoft Teams 會議室計算和觸控主控台，其中包含整合式相機和音效列裝置 (空間音訊的獨立左通道和右通道音訊) 安裝在特殊傢俱上，位於顯示的影像下方，以及會議室前方投影和表格之間。 請務必讓主機與參與者接觸，而不要妨礙他們使用表格來處理個人裝置和/或檔。 針對顯示器，會使用短鍵高解析度投影機。
 
-大部分的參與者會選擇透過個人裝置加入Teams會議，以共用這類會議室中的內容。 不過，會議室內本機視訊簡報也應以易於存取的方式提供給無法加入會議通話的人員。
+大部分的參與者會選擇透過個人裝置加入 Teams 會議，以共用這類會議室中的內容。 不過，會議室內本機視訊簡報也應以易於存取的方式提供給無法加入會議通話的人員。
 
 #### <a name="touch-console-placement"></a>觸控主機位置
 
@@ -289,7 +287,7 @@ Microsoft Teams 會議室觸控主控台應該會安裝在表格中央，方便�
 
 #### <a name="local-video-presentation"></a>本機視訊簡報
 
-雖然許多參與者可以選擇透過個人裝置加入Teams會議來共用這類會議室中的內容，Teams通話，但會議室內的本機視訊簡報也應以易於存取的方式在表格中提供。
+雖然許多參與者可以選擇透過個人裝置透過 Teams 會議加入 Teams 會議，以共用這類會議室中的內容，但會議室內的本機視訊簡報也應以易於存取的方式在表格中提供。
 
 ## <a name="infrastructure"></a>基礎 設施
 
@@ -321,7 +319,7 @@ Microsoft Teams 會議室觸控主控台應該會安裝在表格中央，方便�
 
 ### <a name="microsoft-teams-rooms-solution"></a>Microsoft Teams 會議室解決方案
 
-Microsoft Teams增強的會議室需要在 Microsoft Windows 上使用Microsoft Teams 會議室。
+Microsoft Teams 增強的會議室需要在 Microsoft Windows 上使用Microsoft Teams 會議室。
 
 ### <a name="cameras"></a>相機
 
@@ -395,17 +393,17 @@ Microsoft Teams增強的會議室需要在 Microsoft Windows 上使用Microsoft 
 
 #### <a name="microsoft-whiteboard"></a>Microsoft Whiteboard
 
-所有Teams 會議室都能夠透過互動式共同作業裝置來利用Microsoft Whiteboard，例如Microsoft Surface Hub、觸控式螢幕前方顯示器，以及透過電腦、手機或平板電腦等隨附裝置。
+所有Teams 會議室都能夠透過互動式共同作業裝置來利用 Microsoft Whiteboard，例如Microsoft Surface Hub、觸控式螢幕前方顯示器，以及透過電腦、手機或平板電腦等隨附裝置。
 
 #### <a name="traditional-whiteboard"></a>傳統白板
 
-Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要內容相機，在Teams會議中運用傳統白板。
+Windows 上的所有Teams 會議室都可以使用智慧型擷取功能和次要內容相機，在 Teams 會議中運用傳統白板。
 
 ## <a name="recommended-products-for-this-space"></a>此空間的建議產品
 
-### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams會議室主機和計算
+### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams 會議室主機和計算
 
-- 以Windows為基礎的Microsoft Teams 會議室解決方案。
+- Windows 型Microsoft Teams 會議室解決方案。
 
 如圖所示：
 
@@ -572,7 +570,7 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 - [哈茲利畫布](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
 
-- [Logitech BRIO Content 相機 Kit](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- [Logitech BRIO 內容相機套件](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 互動式觸控式裝置：
 

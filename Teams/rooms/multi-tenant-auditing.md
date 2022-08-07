@@ -10,26 +10,26 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: TRM 的稽核記錄。
 f1keywords: ''
-ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676606"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269100"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams 會議室受管理服務中的稽核記錄
 
 Teams 會議室 Managed (TRM) 服務中的稽核可讓您搜尋由使用者和系統管理員在入口網站中執行之活動的稽核記錄。 此功能預設為啟用。 只有受管理的服務系統管理員具有匯出並檢視記錄的許可權。
 
 > [!NOTE]
-> 在 TRM 服務中執行的動作不會記錄在Microsoft 365或Office 365稽核中 
+> 在 TRM 服務中執行的動作不會記錄在 Microsoft 365 或Office 365稽核中 
 
 ## <a name="exporting-logs"></a>匯出記錄
 
@@ -37,7 +37,7 @@ Teams 會議室 Managed (TRM) 服務中的稽核可讓您搜尋由使用者和�
 
 **下載記錄檔** 
 
-1. 移至 **設定 >一般>稽核記錄]**。
+1. 移至 **[一般] > [稽核記錄] >** [設定]。
 1. 若要定義興趣記錄的日期範圍，請輸入 **開始日期** 和 **結束日期。**
 
    > [!NOTE]

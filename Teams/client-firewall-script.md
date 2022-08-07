@@ -1,5 +1,5 @@
 ---
-title: 範例腳本 - Microsoft Teams防火牆 PowerShell 腳本
+title: 腳本範例 - Microsoft Teams 防火牆 PowerShell 腳本
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,23 +8,22 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 範例腳本，可用來設定Windows，Teams防火牆Windows連結。
+description: 可用來設定 Windows 以允許 Teams 透過 Windows 防火牆連線的範例腳本。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1131868af2b81b1d786bd760518f56633ec8aa83
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: b15c8e141f8a3cd5cde1915901d3dbcd9e29b23a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893754"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269398"
 ---
-# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>範例腳本 - Microsoft Teams防火牆 PowerShell 腳本
+# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>腳本範例 - Microsoft Teams 防火牆 PowerShell 腳本
 
 此指令碼範例必須在系統管理員帳戶權限已提升的用戶端電腦上執行，才能為 c:\users 中的每個使用者資料夾建立新的輸入防火牆規則。 當 Teams 找到此規則時，該規則會防止 Teams 應用程式在使用者第一次從 Teams 進行通話時，提示使用者建立防火牆規則。
 

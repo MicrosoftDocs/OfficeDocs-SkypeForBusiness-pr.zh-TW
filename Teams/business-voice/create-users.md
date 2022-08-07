@@ -1,5 +1,5 @@
 ---
-title: 建立Microsoft 365使用者、使用Teams 電話方案套件授權新增電話號碼，以及指派電話號碼
+title: 建立 Microsoft 365 使用者、新增 Teams Phone 搭配通話方案套件授權，以及指派電話號碼
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,34 +9,33 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: 瞭解如何與通話方案Teams 電話系統使用者建立和授權，並指派電話號碼給他們。
+description: 瞭解如何使用通話方案建立及授權 Teams 電話系統，將使用者統合併指派電話號碼給他們。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb60d60a12949cbb2a0b9ac60e727cfab393de12
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: ac665f46c7be619d26b0c6da371ba57e554a07ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053272"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271998"
 ---
-# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>使用通話方案Teams 電話系統使用者建立和授權，並指派電話號碼給他們
+# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>使用通話方案建立及授權 Teams 電話系統，將使用者搭售並指派電話號碼給他們
 
-若要在通話Teams 電話系統方案套件中使用通話方案，您需要具有Microsoft 365方案Teams 電話方案授權的帳戶。 當您有帳戶和授權時，您可以開始指派電話號碼。
+若要搭配通話方案套件使用 Teams 電話系統，您需要具備 Teams 電話與通話方案套件套件授權的 Microsoft 365 帳戶。 當您有帳戶和授權時，您可以開始指派電話號碼。
 
 ## <a name="create-and-license-users"></a>建立並授權使用者
 
 按照以下 [個別新增或大量新增使用者](/microsoft-365/admin/add-users/add-users)，與 [指派授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)之步驟。
 
 > [!NOTE]
-> 在指派 **產品授權窗格中**，選取 **Teams 電話通話方案**。
+> 在 [ **指派產品授權]** 窗格中，選取 **[有通話方案的 Teams 電話]**。
 
 ## <a name="assign-phone-numbers-to-users"></a>將電話號碼指派給使用者
 
-使用通話方案套件授權建立Teams 電話指派使用者之後，您可以指派電話號碼給他們。 針對需要撥打或接聽外部電話號碼的使用者，每位使用者皆需要一個未指派的電話號碼。 如果您未指派的電話號碼不夠，請參閱本文稍後的[取得更多電話號碼](#get-more-phone-numbers)。
+在您建立使用者並指派給擁有通話方案套件授權的 Teams Phone 之後，您可以指派電話號碼給他們。 針對需要撥打或接聽外部電話號碼的使用者，每位使用者皆需要一個未指派的電話號碼。 如果您未指派的電話號碼不夠，請參閱本文稍後的[取得更多電話號碼](#get-more-phone-numbers)。
 
 1. 移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。
 2. 輸入電話號碼要求的名稱和描述。

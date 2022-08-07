@@ -13,15 +13,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供 Microsoft Teams Android 裝置支援的概觀和功能。
-ms.openlocfilehash: 5522c29c74eb9679d26d13627dcb69b315dc33fd
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: ef30268ef966eca00a75a583c9acb6ae608a7a81
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790308"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267798"
 ---
 # <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>在 Android 上使用 Intune 部署 Teams 手機、Teams 顯示器、Teams 面板和Microsoft Teams 會議室
 

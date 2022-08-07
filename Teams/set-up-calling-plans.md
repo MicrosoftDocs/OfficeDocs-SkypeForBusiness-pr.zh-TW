@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - m365solution-voice
 - m365solution-scenario
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -25,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解如何設定通話方案，包括檢視您所在地區可用的方案、購買&指派授權、取得電話號碼，以及&位置新增緊急位址。
-ms.openlocfilehash: ddf2cc5559ae61a741de24e5b2157826617e5ca2
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: a4acb51bad8e8ad309357fcd497c1554fc568928
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156671"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271568"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 

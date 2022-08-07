@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何透過 Cmdlet 設定自動語音應答
-ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
-ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
+ms.openlocfilehash: fa52f84f822635505e3d3390855195ba579406f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66744319"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270138"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>透過 Cmdlet 建立自動語音應答
 
@@ -58,7 +57,7 @@ ms.locfileid: "66744319"
 
 ## <a name="scenario"></a>案例
 
-將會建立下列自動語音應答通話流程：
+下列自動語音應答通話流程將會建立：
 
 ![使用 Cmdlet 建置自動語音應答通話流程的圖表。](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 

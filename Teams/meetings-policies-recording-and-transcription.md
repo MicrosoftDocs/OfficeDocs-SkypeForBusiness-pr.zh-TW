@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: 瞭解如何在Teams中管理會議原則設定，以進行錄製和轉譯。
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: 瞭解如何在 Teams 中管理會議原則設定，以進行錄製和轉譯。
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646362"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268978"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>記錄&轉錄的會議原則設定
 
@@ -31,7 +31,7 @@ ms.locfileid: "65646362"
 
 - [允許轉錄](#allow-transcription)
 - [允許雲端錄製](#allow-cloud-recording)
-- [Microsoft Store您國家或地區以外的錄製內容](#store-recordings-outside-of-your-country-or-region)
+- [儲存您國家或地區以外的錄製內容](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>允許轉錄
 
@@ -39,7 +39,7 @@ ms.locfileid: "65646362"
 
 開啟此設定將建立與會議錄製內容一起儲存的文字記錄，從而在會議錄製內容中啟用 **[搜尋]**、**[CC]** 和 **[文字記錄]**。
 
-錄製會議的轉譯目前僅支援在Teams會議中設定語言或說英文的使用者。
+錄製會議的轉譯目前僅支援在 Teams 會議中設定語言或說英文的使用者。
 
 ## <a name="allow-cloud-recording"></a>允許雲端錄製
 
@@ -65,11 +65,12 @@ ms.locfileid: "65646362"
 
 若要深入了解雲端會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>Microsoft Store您國家或地區以外的錄製內容
+## <a name="store-recordings-outside-of-your-country-or-region"></a>儲存您國家或地區以外的錄製內容
 
-此原則會控制會議記錄是否可以永久儲存在其他國家或地區。 如果已啟用，則無法移轉錄製內容。 如需有關雲端會議以及儲存錄製位置的詳細資訊，請參[閱Teams雲端會議錄製](cloud-recording.md)。
+此原則會控制會議記錄是否可以永久儲存在其他國家或地區。 如果已啟用，則無法移轉錄製內容。 如需有關雲端會議以及儲存錄製內容的詳細資訊，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 - [在 Teams 中指派原則給使用者](policy-assignment-overview.md)
 - [雲端會議錄製](cloud-recording.md)
+- [Microsoft Teams 中的會議原則和會議到期日](meeting-expiration.md)

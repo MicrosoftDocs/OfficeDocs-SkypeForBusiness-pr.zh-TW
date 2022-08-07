@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文將說明如何設定及設定Microsoft Teams 會議室主機及其周邊裝置。
-ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761255"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270108"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>建立Microsoft Teams 會議室圖像
 
@@ -29,7 +30,7 @@ ms.locfileid: "65761255"
 > [!NOTE]
 > 下列步驟僅適用于為大量部署建立 [WIM 影像](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) 。 如果您正在復原個別裝置，請連絡原始設備製造商 (OEM) 尋求支援。
 
-只有在必要Microsoft Teams或商務用 Skype，且Exchange帳戶已如部署Microsoft Teams 會議室中所述建立和測試時[，](rooms-deploy.md)您才應該執行這些步驟。 您需要Microsoft Teams 會議室[需求](requirements.md)中所述的硬體和軟體。 本主題包含下列各節：
+只有在必要的 Microsoft Teams 或 商務用 Skype 和 Exchange 帳戶已建立和測試時，您才應該執行這些步驟[，如部署Microsoft Teams 會議室中](rooms-deploy.md)所述。 您需要Microsoft Teams 會議室[需求](requirements.md)中所述的硬體和軟體。 本主題包含下列各節：
   
 - [準備安裝媒體](console.md#Prep_Media)
 - [在主機上安裝私人 CA 憑證](console.md#Certs)
@@ -46,10 +47,10 @@ ms.locfileid: "65761255"
 > 無法根據這些指示建立Microsoft Teams 會議室安裝媒體，可能會導致非預期的行為。
 
 > [!NOTE]
-> 下列程式是建立安裝媒體來映射新Microsoft Teams 會議室裝置。 根據預設，現有裝置會自動從 Windows Update 和Windows Microsoft Store更新。
+> 下列程式是建立安裝媒體來映射新Microsoft Teams 會議室裝置。 根據預設，現有裝置會自動從 Windows Update 和 Windows 市集更新。
 
 > [!IMPORTANT]
-> 用來建立Microsoft Teams 會議室安裝媒體的Windows 10電腦必須與目標安裝媒體的Windows版本相同或更新版本。
+> 用來建立Microsoft Teams 會議室安裝媒體的Windows 10電腦必須與目標安裝媒體位於相同或更新版本的 Windows 上。
   
 1. 下載 [CreateSrsMedia.ps1腳本](https://go.microsoft.com/fwlink/?linkid=867842)。
 2. 從Windows 10電腦上提升許可權的提示執行CreateSrsMedia.ps1腳本。
@@ -62,7 +63,7 @@ ms.locfileid: "65761255"
 CreateSrsMedia.ps1腳本會自動化下列工作：
 
 1. 下載適用于 Microsoft Teams 會議室 的最新 MSI 安裝程式。
-2. 決定使用者必須提供之Windows的組建。 最新發行的版本可能經過測試，且不支援搭配Microsoft Teams 會議室裝置使用。
+2. 決定使用者必須提供的 Windows 組建。 最新發行的版本可能經過測試，且不支援搭配Microsoft Teams 會議室裝置使用。
 3. 下載必要的支援元件。
 4. 在安裝媒體上組合所需的元件。
 
@@ -91,7 +92,7 @@ CreateSrsMedia.ps1腳本會自動化下列工作：
 
     b. 按下再放開電源按鈕。
 
-    C。 Windows設定開機後，放開音量降低 () 按鈕。
+    C。 Windows 設定開機後，放開音量降低 () 按鈕。
 
 8. 安裝完成後，系統就會關機。
     
@@ -111,9 +112,9 @@ CreateSrsMedia.ps1腳本會自動化下列工作：
 
 1. 切換到管理員模式。
     
-2. 選取[開始] 功能表。
+2. 選取 [開始] 功能表。
     
-3. 選取齒輪圖示以啟動 **設定** 應用程式。
+3. 選取齒輪圖示以啟動 [ **設定]** 應用程式。
     
 4. 選取 **[時間 &amp; ] 語言**。
     
@@ -125,7 +126,7 @@ CreateSrsMedia.ps1腳本會自動化下列工作：
     
 8. 安裝語言功能。
     
-9. 請勿核取 [設為我的Windows顯示語言]。
+9. 請勿核取 [設定為我的 Windows 顯示語言]。
     
 10. 選取 **[安裝]**。
     
@@ -152,22 +153,22 @@ CreateSrsMedia.ps1腳本會自動化下列工作：
 ## <a name="initial-set-up-of-the-console"></a>主機的初始設定
 <a name="Initial"> </a>
 
-安裝Windows之後，Microsoft Teams 會議室應用程式將會進入其初始設定程式。
+安裝 Windows 之後，Microsoft Teams 會議室應用程式將會進入其初始設定程式。
   
 1. [使用者帳戶] 畫面隨即出現。 輸入 Microsoft Exchange Resource 帳戶登入位址 (user@domain格式) 要搭配主機使用的聊天室帳戶。
     
 2. 輸入聊天室帳戶的密碼，然後重新輸入以進行驗證。
    
-3. 選取支援的會議模式 - Microsoft Teams僅限商務用 Skype，或兩個混合模式選項的其中之一。 如有需要，請啟用新式驗證。
+3. 選取支援的會議模式 - 僅限 Microsoft Teams、僅商務用 Skype，或兩個混合模式選項的其中之一。 如有需要，請啟用新式驗證。
 
 4. 選取 **[下一步]**。
     
-5. 如果使用 商務用 Skype，且商務用 Skype SIP 網域與使用者的Exchange網域不同，請在 [進階] 區段中設定商務用 Skype Server的 FQDN。 如果您使用的不是 商務用 Skype 或 SIP 網域符合Exchange網域，請將本節留白。
+5. 如果使用 商務用 Skype，且商務用 Skype SIP 網域與使用者的 Exchange 網域不同，請在 [進階] 區段中設定商務用 Skype Server的 FQDN。 如果您使用的不是 商務用 Skype 或 SIP 網域符合 Exchange 網域，請將此區段留白。
 6. 選取 **[下一步]**。
     
 7. 選取 [ **完成]**。
     
-Microsoft Teams 會議室應用程式應該使用上述輸入的認證登入Microsoft Teams或商務用 Skype Server，並且應該開始使用相同的認證來同步處理行事曆與Exchange。 如需使用Teams 會議室的詳細資訊，請參閱[Microsoft Teams 會議室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+Microsoft Teams 會議室應用程式應該使用上述輸入的認證登入 Microsoft Teams 或商務用 Skype Server，並且應該使用相同的認證開始將其行事曆與 Exchange 同步處理。 如需使用Teams 會議室的詳細資訊，請參閱[Microsoft Teams 會議室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
 > Microsoft Teams 會議室仰賴通過認證的主機硬體。 即使已正確建立且包含Microsoft Teams 會議室主機應用程式的影像，除非偵測到主機硬體，否則不會開機通過初始設定程式。 針對Surface Pro型解決方案，Surface Pro必須連線至其隨附的擴充座硬體，才能通過此檢查。
@@ -180,7 +181,7 @@ Microsoft Teams 會議室應用程式應該使用上述輸入的認證登入Micr
 > [!NOTE]
 > 下列情況僅適用于將 Teams 會議室 連線至 商務用 Skype。
 
-Microsoft Teams 會議室必須信任所連線伺服器所使用的憑證。 如果憑證頒發機構單位是私人的，例如使用 Active Directory 和 Windows 憑證授權單位單位的內部部署，您可以透過幾種方式將憑證新增至Microsoft Teams 會議室：
+Microsoft Teams 會議室必須信任所連線伺服器所使用的憑證。 如果憑證頒發機構單位是私人的，例如使用 Active Directory 和 Windows 憑證授權單位單位的內部部署，您可以使用幾種方式將憑證新增至Microsoft Teams 會議室：
   
 - 您可以將主機加入 Active Directory，並自動將憑證授權單位單位的必要憑證發佈到 Active Directory (一般部署選項) 。
     
@@ -188,7 +189,7 @@ Microsoft Teams 會議室必須信任所連線伺服器所使用的憑證。 如
     
 ### <a name="to-manually-install-the-certificate"></a>手動安裝憑證
 
-1. 將 CA 憑證下載到您的電腦，並儲存至「C：\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer」。
+1. 將 CA 憑證下載到您的電腦，並儲存到「C：\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer」。
     
 2. 將主機置於系統管理模式 (請參[閱管理員模式和裝置管理](rooms-operations.md#AdminMode)) 。
     
@@ -233,7 +234,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 |完成 |檢查 |
 |:-----:|:-----|
 |☐   |會議室帳戶名稱和手機 # (啟用 PSTN 時，) 正確顯示   |
-|☐   |Windows電腦名稱稱設定正確 (適用于遠端系統管理)    |
+|☐   |Windows 電腦名稱稱設定正確 (適用于遠端系統管理)    |
 |☐   |系統管理員帳戶密碼設定和驗證   |
 |☐   |已套用所有韌體更新   |
    
@@ -241,10 +242,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 
 |完成 |檢查 |
 |:-----:|:-----|
-|☐   |相機介面韌體版本在適用 ()    |
-|☐   |相機功能和位置優化   |
+|☐   |相機周邊韌體版本若適用， (正確)    |
+|☐   |相機功能和最佳位置   |
 |☐   |[播放預設裝置] 和 [播放預設通訊裝置] 設定為預定音訊周邊裝置的設定   |
-|☐   |錄製預設通訊裝置的設定設定為預定的音訊周邊設備   |
+|☐   |錄製預設通訊裝置設定為預定音訊周邊的設定   |
 |☐   |如果適用的話，音訊周邊韌體版本 (正確)    |
 |☐   |音訊輸入裝置可運作且位置最佳   |
 |☐   |音訊輸出裝置運作正常且位置最佳   |

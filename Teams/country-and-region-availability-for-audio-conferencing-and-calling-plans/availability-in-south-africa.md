@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于南非Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+description: 以下是適用于南非的 商務用 Skype 和 Microsoft Teams 適用的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 34b45b9cbff9808d94aaeb44611565c6666b46a5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070572"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270988"
 ---
 # <a name="availability-in-south-africa"></a>南非的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于南非Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于南非的 商務用 Skype 和 Microsoft Teams 適用的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -59,12 +59,12 @@ ms.locfileid: "63070572"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
-|可以撥打付費號碼的外接電話嗎？  <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家和地區，包括[這些。](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
+|撥出電話可以撥打進階號碼嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 適用于 196 個國家或地區，包括 [這些國家](users-can-make-outbound-calls-to-these-countries-and-regions.md)或地區。<br/> |
 
-如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
+如果無法購買通話方案，請參閱 [所有可用選項的 PSTN 連線選項](../pstn-connectivity.md) 。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

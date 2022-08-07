@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 報告有關健康情況與報告使用方式的節點資料
 f1keywords: ''
-ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674815"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271428"
 ---
 # <a name="health-and-usage-reports"></a>健康情況與使用方式報告
 
@@ -123,7 +123,7 @@ ms.locfileid: "65674815"
 - 多少人沒有預約任何預定的會議，無論是離線或線上
 - 租使用者中會議室使用率的百分比
 - 透過 Exchange 預定的會議總數
-- 包含Skype或Teams連結的預定會議百分比
+- 包含 Skype 或 Teams 連結的預定會議百分比
 - 會議室參與的總通話數目
 - 所有通話都以「良好」品質分類到所有通話的匯總通話效能分數。 
 
@@ -132,7 +132,7 @@ ms.locfileid: "65674815"
 |列|描述|
 |---|---|
 |利用|會議室在所選期間的上班時間內預約的時間百分比。 前。 時間週期設定為 7 天。 超過預約會議室 32/40 小時之表示的 80% 使用率|
-|已線上預約|在已預訂的會議中，已啟用Teams的百分比。 前。 已預約 10 個會議。 其中，8 個具有Teams連結。 已預約線上 = 80%|
+|已線上預約|已預訂的會議中，已啟用 Teams 的百分比。 前。 已預約 10 個會議。 其中，8 個具有 Teams 連結。 已預約線上 = 80%|
 |排定的會議|會議室中排程的會議絕對數目|
 |總通話數|以參與者身分撥打會議室的通話絕對數目。|
 通話效能|有「良好」評等的通話百分比。 系統會評估每個通話，並收到良好、不佳、未知的評分。 此計量是從良好通話/總通話量計算|
@@ -141,11 +141,11 @@ ms.locfileid: "65674815"
 
 ## <a name="usage-details-of-a-room"></a>會議室的使用詳細資料
 
-按一下清單檢視中的會議室會提示含有更深入資訊的飛出視窗。 飛出視窗的 [使用率] 索引標籤底下有一個圖表，顯示過去五個工作天的使用時間。 每天有兩個長條：藍色代表預定的會議時間;紫色表示已排定Teams/Skype啟用的會議時間。 最後會計算過去五個工作天的平均會議預約和持續時間。
+按一下清單檢視中的會議室會提示含有更深入資訊的飛出視窗。 飛出視窗的 [使用率] 索引標籤底下有一個圖表，顯示過去五個工作天的使用時間。 每天有兩個長條：藍色代表預定的會議時間;紫色代表 Teams/Skype 已啟用的會議排程時間。 最後會計算過去五個工作天的平均會議預約和持續時間。
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-[**通話]** 表格顯示會議室參與Teams通話的會議。 會議室音訊品質只會評估會議室，而非所有參與者。 若要檢視特定通話中所有參與者的通話品質，請按一下 [開始時間] 來選取通話。
+[ **通話]** 表格顯示會議室參與 Teams 通話的會議。 會議室音訊品質只會評估會議室，而非所有參與者。 若要檢視特定通話中所有參與者的通話品質，請按一下 [開始時間] 來選取通話。
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

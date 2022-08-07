@@ -1,5 +1,5 @@
 ---
-title: Teams教育版裝置
+title: Teams 教育版裝置
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -13,29 +13,27 @@ description: 為授課者概述Teams 會議室系統和裝置在各種空間和�
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc9b577b545ff7658b0317baca7eb6098dd335
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675135"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269348"
 ---
-# <a name="teams-devices-for-education"></a>Teams教育版裝置
+# <a name="teams-devices-for-education"></a>Teams 教育版裝置
 
 ## <a name="overview"></a>概觀
 
 ### <a name="hybrid-and-blended-education-is-here-to-stay"></a>混合式和混合式教育在這裡可以保持
 
-Learning未來將會混合並混合。 授課者和學生都需要在一系列空格上獲得流暢的體驗，而且在學習進行的方式和地點時，都需要有彈性的動力。 教育不會局限于實體教室或嚴格虛擬環境;遠端參與將和親自學習一樣動態。 混合式學習和混合式學習提供的彈性雖然並非全部新手，但對許多人而言都是新手，而且會產生深遠的影響。
+未來的學習將會是混合式和混合的。 授課者和學生都需要在一系列空格上獲得流暢的體驗，而且在學習進行的方式和地點時，都需要有彈性的動力。 教育不會局限于實體教室或嚴格虛擬環境;遠端參與將和親自學習一樣動態。 混合式學習和混合式學習提供的彈性雖然並非全部新手，但對許多人而言都是新手，而且會產生深遠的影響。
 
-現代化的混合式教室將無邊界。 學生和授課者將透過同步和非同步學習，以及針對每一種情況中符合每一個學生需求而設計的互動式多態互動來獲得授權。 Teams裝置的設計目的是支援一系列空格，讓您聽不出任何聲音。
+現代化的混合式教室將無邊界。 學生和授課者將透過同步和非同步學習，以及針對每一種情況中符合每一個學生需求而設計的互動式多態互動來獲得授權。 Teams 裝置的設計目的是要支援一系列空格，讓您聽不出任何聲音。
 
 ### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>學生和授課者都具備Microsoft Teams 會議室
 
@@ -43,7 +41,7 @@ Learning未來將會混合並混合。 授課者和學生都需要在一系列�
 
 - 在數位或混合式學習環境中使用個人和共用裝置，可協助學生進行社交活動，並取得他們一生會使用的重要技能。
 
-- Teams功能不限於教室。 授課者與系統管理員可以輕鬆地從同一所學校或整個學區中，從他們家中、辦公室或其環境優化的任何地方，與其他教職員聯繫。 透過Teams，隨時隨地都能存取專業發展。
+- Teams 功能不限於教室。 授課者與系統管理員可以輕鬆地從同一所學校或整個學區中，從他們家中、辦公室或其環境優化的任何地方，與其他教職員聯繫。 有了 Teams，就可以隨時隨地進行專業開發。
 
 ### <a name="bring-digital-flexibility-to-physical-spaces"></a>為實體空間帶來數位彈性
 
@@ -52,27 +50,27 @@ Learning未來將會混合並混合。 授課者和學生都需要在一系列�
 ![顯示遠端出席者顯示在實體會議室的未來技術轉譯。 ](media/devices1.png)
 *此影像代表未來的技術。*
 
-## <a name="why-choose-a-native-teams-experience"></a>為什麼要選擇原生Teams體驗？
+## <a name="why-choose-a-native-teams-experience"></a>為什麼要選擇原生 Teams 體驗？
 
-Microsoft Teams認證的周邊設備和會議室是專為您打造的原生通話和會議解決方案，可在Teams認證的第一方和協力廠商硬體上提供完整的Teams會議體驗，以及高畫質音訊和視訊。
+Microsoft Teams 認證的周邊設備和會議室是專為您打造的原生通話和會議解決方案，可在 Teams 認證的第一方和協力廠商硬體上提供完整的 Teams 會議體驗，以及高畫質音訊和視訊。
 
-當我們說「用途內建和原生」時，我們表示此體驗是由 Microsoft 為Teams使用者特別且精心設計。
+當我們說「用途內建和原生」時，我們表示此體驗是由 Microsoft 為 Teams 使用者特別且精心設計。
 
-Teams 會議室提供獨一無二的會議室功能，例如單點連接、內容攝影機以智慧方式將實體白板共用至會議，以及像是順暢地將Teams會議從個人裝置移轉至會議室等近接式功能，以超越個人裝置上的Teams功能。
+Teams 會議室提供獨一無二的會議室功能，例如單點觸控加入、以智慧方式共用實體白板的內容攝影機，以及像是順暢地將 Teams 會議從個人裝置移轉到會議室等近接式功能，來超越個人裝置上的 Teams 功能。
 
-依賴外部服務或隨身攜帶裝置連線的非原生和自我建置系統，永遠不會真正符合原生Teams空間的便於使用或沈浸式品質。
+依賴外部服務或隨身攜帶裝置連線的非原生和自我建置系統，永遠不會真正符合原生 Teams 會議室的輕鬆使用或沈浸式品質。
 
-**專為Teams而建置**：
+**專為 Teams 打造**：
 
 進階音訊和視訊及共用
 
 **適用于任何房間的寬度裝置組合**：
 
-從Android或Windows作業系統的完整模組化或整合式表單因素中選取
+在 Android 或 Windows 作業系統上從完全模組化或整合的表單因素中選取
 
 **重新構想的會議室體驗**：
 
-加入Teams會議，以參與學生和授課者的包容性共同作業會議
+使用無摩擦力加入 Teams 會議，參與學生和授課者的包容性共同作業會議
 
 **從單一位置輕鬆管理**：
 
@@ -90,23 +88,23 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 對於新的空間，預定使用房間時應同時考慮傢俱與技術。 例如，設計一個旨在促進多種用途 (例如個別工作和群組互動) 的聊天室時，空間應分成兩個不同的區域，以獲得最大效率。
 
-下列影像將說明現有教室空間中優化Teams設定 (頂端) 以及位於底部 (新多用途空間) ：
+下列一組影像說明現有教室空間中優化的 Teams 設定， (頂端) 以及位於底部 (新多用途空間中) ：
 
-![顯示現有教室中Teams裝置的轉譯。](media/devices2.png) ![在專門設計的空間中顯示原生Teams設定。](media/devices3.png)
+![顯示現有教室中 Teams 裝置的轉譯。](media/devices2.png) ![呈現在專門設計的空間中顯示原生 Teams 設定。](media/devices3.png)
 
 ### <a name="what-is-the-function-of-the-space"></a>空間的函數為何？
 
 *空間中的活動會著重于共同作業共同建立嗎？*
 
-創意需要以使用者共同作業為中心的版面配置和技術部署。 適當的空間可協助使用者與技術間順暢地工作，甚至能排除大多數新手使用者的摩擦力。 Teams裝置的設計可讓年幼學生順暢地流覽，並讓授課者從初次使用開始控制和自訂。
+創意需要以使用者共同作業為中心的版面配置和技術部署。 適當的空間可協助使用者與技術間順暢地工作，甚至能排除大多數新手使用者的摩擦力。 Teams 裝置的設計非常方便，讓年幼學生能夠順暢地流覽，並讓授課者從初次使用開始控制和自訂。
 
 *當內容與遠端參與者共用是優先順序的空格時，該怎麼辦？*
 
-每個內容共用和遠端共同作業都需要不同的實體版面配置和技術體驗。 適當的空間可促進討論，並讓每個人都能輕鬆查看及檢閱共用的內容。 無論您具備何種空間，從休眠空間到講堂，都必須Teams啟用。
+每個內容共用和遠端共同作業都需要不同的實體版面配置和技術體驗。 適當的空間可促進討論，並讓每個人都能輕鬆查看及檢閱共用的內容。 無論您具備何種空間，從休眠空間到講堂，都必須啟用 Teams。
 
 ## <a name="technology-considerations"></a>技術考慮
 
-正確的音訊和視訊技術選項可協助使用者充分利用Microsoft Teams會議。
+正確的音訊和視訊技術選項可協助使用者充分發揮其 Microsoft Teams 會議的效用。
 
 *音訊*：
 
@@ -131,7 +129,7 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 ### <a name="what-are-the-right-cameras-for-each-space"></a>每個空間的相機最適合什麼？
 
-高品質影片是現代化Teams共同作業的必要條件。 相機技術有了大幅的進階，高品質的相機現在可供所有空間使用。
+高品質影片是新式 Teams 共同作業的必要專案。 相機技術有了大幅的進階，高品質的相機現在可供所有空間使用。
 
 - 膝上型電腦與平板電腦等裝置中隨附的相機是參與視訊通話的使用者使用的好起點。 對於想要為個人空間提供更豐富的視訊體驗的使用者，外部攝影機代表內嵌裝置的上一步，可在更多案例和設定中使用，確保通話參與者能分享自己的最佳品質檢視。 這些裝置可透過在每個電腦上找到的簡易 USB 連線輕鬆安裝。
 
@@ -141,13 +139,13 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 ### <a name="how-do-you-interact-virtually-beyond-video-streams"></a>如何在視訊串流之外進行虛擬互動？
 
-Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同的方式可以分享內容並與之動態互動。
+Teams 會議不只適用于參與者的音訊和視訊通話。 有多種不同的方式可以分享內容並與之動態互動。
 
 常見的情況是直接從參與者的裝置共用內容。 個別使用者可以從個別應用程式或其畫面的整個內容直接共用完整的音訊和視覺體驗到會議，讓每個人都能檢視。 這會延伸至所有已安裝裝置的共用空間。 Microsoft Teams 會議室也可以選擇使用有線監視器連線，讓參與者共用，即使他們無法個別加入會議。
 
-對於來自實體世界的內容，具有Microsoft Teams會議室系統的空格可以處理白板或檔相機，以便從空間協調檢閱及討論內容。
+對於來自實體世界的內容，具備 Microsoft Teams 會議室系統的空格可以處理白板或檔相機，以便從空間協調檢閱及討論內容。
 
-為獲得完全互動式的體驗，互動式顯示器 (例如Surface Hub系列產品和 Microsoft 數位白板) 讓您輕鬆以互動方式為親身學生及遠端學生建立內容。
+為獲得完全互動式的體驗，互動式顯示器 (例如 Surface Hub 產品系列和 Microsoft 數位白板) 讓您輕鬆以互動方式為親身學生及遠端學生建立內容。
 
 ## <a name="example-spaces"></a>範例空格
 
@@ -159,11 +157,11 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *顯示的解決方案為：*
 
-搭配已認證Teams頭戴式裝置使用的個人電腦裝置。
+搭配經過認證的 Teams 頭戴式裝置使用的個人電腦裝置。
 
 *為什麼這個版面配置和裝置類型？*
 
-執行Teams的膝上型電腦可確保使用者不會被限制在一個工作區域，而且不需要登入和登出任何會議即可移動其設定。 配備內建麥克風的耳機會將音訊限制為會議參與者，並篩選背景雜音。 膝上型電腦的內建相機可確保所有會議參與者都能看到使用者。
+執行 Teams 的膝上型電腦可確保使用者不限於一個工作區域，而且不需要登入和登出任何會議即可移動其設定。 配備內建麥克風的耳機會將音訊限制為會議參與者，並篩選背景雜音。 膝上型電腦的內建相機可確保所有會議參與者都能看到使用者。
 
 *範例**裝置：*
 
@@ -185,7 +183,7 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *範例 A：*
 
-![使用個人喇叭轉譯個人電腦設定，Teams在桌面上執行。](media/devices5.png)
+![使用個人喇叭和在桌面上執行的 Teams 來呈現個人電腦設定。](media/devices5.png)
 
 *顯示的解決方案為：*
 
@@ -193,7 +191,7 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *為什麼這個版面配置和裝置類型？*
 
-較小、更安靜、更專注的個人空間表示使用者不會因為公用共用空間或傳統教室而分心。 執行Teams的電腦可使用專用工作區，而 USB 攝影機可確保使用者在會議中看到高品質。 免持聽筒裝置最適合在會議音訊不需要與其他噪音和干擾相互競爭的私人空間中使用。
+較小、更安靜、更專注的個人空間表示使用者不會因為公用共用空間或傳統教室而分心。 執行 Teams 的電腦可提供專用的工作區，而 USB 攝影機可確保使用者在會議中看到高品質。 免持聽筒裝置最適合在會議音訊不需要與其他噪音和干擾相互競爭的私人空間中使用。
 
 *顯示的裝置：*
 
@@ -213,7 +211,7 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *為什麼這個版面配置和裝置類型？*
 
-此解決方案與範例 A 的用途相同，可解決焦點式的個人空間。 執行Teams的電腦可將專用工作區與 USB 相機、麥克風和喇叭音效列組合在一起。
+此解決方案與範例 A 的用途相同，可解決焦點式的個人空間。 執行 Teams 的電腦可將專用工作區與 USB 相機、麥克風和喇叭音效列組合在一起。
 
 *顯示的裝置：*
 
@@ -229,7 +227,7 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 教室，包括傳統教室和反向教室，需要在場的每個人進行主動參與。 多方之間的有效指示、討論和共同作業是關鍵。
 
-![呈現配備Teams裝置的教室。](media/devicesnew2.jpg)
+![呈現配備 Teams 裝置的教室。](media/devicesnew2.jpg)
 
 *顯示的解決方案為：*
 
@@ -237,14 +235,14 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *為什麼這個版面配置和裝置類型？*
 
-大型顯示器可讓遠端參與者在會議室內有實體目前狀態，並可讓所有參與者聽到他們的聲音，即使是來源最遠的辦公桌也能聽到他們的聲音。 麥克風位於會議室的前方，讓所有教師和學生都能聽到。 可擷取會議室系統中的傳統類比內容白板，並與會議室內和遠端參與者共用。 數位Microsoft Whiteboard也是遠端學生和親自共同作業以及課程後參考的好解決方案。
+大型顯示器可讓遠端參與者在會議室內有實體目前狀態，並可讓所有參與者聽到他們的聲音，即使是來源最遠的辦公桌也能聽到他們的聲音。 麥克風位於會議室的前方，讓所有教師和學生都能聽到。 可擷取會議室系統中的傳統類比內容白板，並與會議室內和遠端參與者共用。 數位 Microsoft Whiteboard 也是遠端學生和親自共同作業以及課程後參考的好解決方案。
 
 *顯示的裝置：*
 
 - 會議室系統 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - 請注意，Surface Hub解決方案代表共同作業和互動式使用方式的進階體驗。 與大型顯示器配對[的Microsoft Teams會議室解決方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)，可在此相同案例中做為替代方案。
+  - 請注意，Surface Hub 解決方案代表共同作業和互動式使用方式的優質體驗。 與大型顯示器配對的 [Microsoft Teams 會議室解決方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) ，可在此相同案例中做為替代方案。
 
-- 類比白板擷取 – [Logitech Brio Content 相機 Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- 類比白板擷取 – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 - 相機和音訊 - [Logitech 方塊加號套件](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
 
@@ -258,7 +256,7 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 與教室非常類似，講堂包含許多學生，他們必須專注于授課者，以及他們所展示的任何資訊。 不過，講堂通常不需要學生之間的相同互動量。 焦點會放在資訊上，而不是共同作業上。
 
-![呈現配備Teams裝置的講堂。](media/devices9.png)
+![呈現配備 Teams 裝置的講堂。](media/devices9.png)
 
 *顯示的解決方案為：*
 
@@ -270,31 +268,31 @@ Teams會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *顯示的裝置：*
 
-- 會議室系統 – 提供配備已安裝投影機和以購物車為基礎的顯示器[的 Teams 版 Cres括住 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- 會議室系統 – 使用已安裝的投影機和以購物車為基礎的顯示器[，適用于 Teams 的 Cres括弧 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 選用的數位白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
-- 相機 – [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
+- 相機 – [AVer CAM520 專業版](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
 
 - 已安裝的音訊 – [適用于大型會議室的 QSC 和 Sennheiser](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
 *安裝或設定此解決方案是：*
 
-非常複雜。 此聊天室的實體安裝需要知識知識庫的 AV 部署合作夥伴，以正確規劃及部署相機和音訊解決方案，以便為空間中的使用者順暢地工作。 安裝需要與Microsoft Teams會議室系統及相關Surface Hub 2 裝置的佈線、音訊設定以及正確設定相關的專業知識。
+非常複雜。 此聊天室的實體安裝需要知識知識庫的 AV 部署合作夥伴，以正確規劃及部署相機和音訊解決方案，以便為空間中的使用者順暢地工作。 安裝需要與佈線、音訊設定以及 Microsoft Teams 會議室系統及相關 Surface Hub 2 裝置正確設定相關的專業知識。
 
 ### <a name="multi-purpose-spaces"></a>多重用途空格
 
-Teams幾乎可以在任何您能想到的教育或多用途空間中實作。 媒體櫃、混合使用簡報和共同作業空間、咖啡廳空間和開放式空格都可以使用Teams系統或Teams裝置進行裝管。
+Teams 幾乎可以在任何您能想到的教育或多用途空間中實作。 媒體櫃、混合使用的簡報和共同作業空間、咖啡廳空間和開放式空格都可以使用 Teams 系統或 Teams 裝置進行裝配。
 
-![Teams裝置的多用途空間影像。](media/devices11.png)
+![Teams 裝置的多重用途空間影像。](media/devices11.png)
 
 *顯示的解決方案為：*
 
-會議室系統，內含大型投影機式前方顯示器、可操作的多部觸控主控台，以及多部Surface Hub 2 部裝置，可供各種用途使用。
+會議室系統，內含大型投影機前方顯示器、多個觸控主控台供操作，以及多個適用于各種用途的 Surface Hub 2 裝置。
 
 *顯示的裝置：*
 
-- 會議室系統 – 配備已安裝投影機[的 Teams 版 Cres要彈性 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- 會議室系統 – 使用已安裝投影機[的 Teams 版 Cres要彈性 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 選用雙數位白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -304,20 +302,20 @@ Teams幾乎可以在任何您能想到的教育或多用途空間中實作。 �
 
 *安裝或設定此解決方案是：*
 
-非常複雜。 如所述，多用途空間需要知識熟知的 AV 部署合作夥伴，以正確規劃及部署投影機型顯示器、相機和音訊解決方案，以及正確設定Microsoft Teams會議室系統以及相關聯的Surface Hub 2 裝置，以便在空間中順暢地為使用者工作。
+非常複雜。 如所述，多用途空間需要知識熟知的 AV 部署合作夥伴，以正確規劃及部署投影機式顯示器、相機和音訊解決方案，以及正確設定 Microsoft Teams 會議室系統和相關聯的 Surface Hub 2 裝置，以便為空間中的使用者順暢地工作。
 
 ## <a name="dont-forget-security"></a>別忘了安全性
 
-確保您的解決方案能安全地抵禦網路威脅至關重要。 使用Teams 會議室系統或裝置時，Microsoft 會使用最新 AI 和自動化來保護資料和私人資訊的安全。 保護您的學校或機構首先透過Intune/AutoPilot) ，透過Azure Active Directory) 和裝置管理 (身分識別及存取管理 (。
+確保您的解決方案能安全地抵禦網路威脅至關重要。 使用Teams 會議室系統或裝置時，Microsoft 會使用最新 AI 和自動化來保護資料和私人資訊的安全。 透過 Azure Active Directory) 和裝置管理 (透過 Intune/AutoPilot) ，從身分識別和存取管理 (開始保護您的學校或機構。
 
 ## <a name="more-information"></a>詳細資訊
 
-檢視下列頁面以深入瞭解Teams裝置和合作夥伴：
+檢視下列頁面以深入瞭解 Teams 裝置和合作夥伴：
 
-[Microsoft Teams 教育版](https://www.microsoft.com/education/products/teams)– 在教育版中使用Microsoft Teams的絕佳資訊來源
+[Microsoft Teams 教育版](https://www.microsoft.com/education/products/teams)– 在教育版中使用 Microsoft Teams 的絕佳資訊來源
 
-[Microsoft Teams認證的裝置](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)– 通過Microsoft Teams認證之裝置的完整清單
+[Microsoft Teams 認證的裝置](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) – Microsoft Teams 認證的裝置完整清單
 
 [深入瞭解Microsoft Teams 會議室](/microsoftteams/rooms)– Microsoft Teams 會議室指南，涵蓋規劃、部署和使用方式
 
-[Teams 會議室合作夥伴計畫](https://cloudpartners.transform.microsoft.com/teams-mrpp)– 全球合作夥伴清單，可協助您規劃及部署Teams會議室系統
+[Teams 會議室合作夥伴計畫](https://cloudpartners.transform.microsoft.com/teams-mrpp) – 全球合作夥伴清單，可協助您規劃及部署 Teams 會議室系統

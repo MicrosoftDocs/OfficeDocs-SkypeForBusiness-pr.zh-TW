@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 使用 Microsoft Teams 通話品質儀表板 (CQD) ) PSTN 直接路由報告來監控和疑難排解 Microsoft Teams 中的 PSTN 通話。
-ms.openlocfilehash: 8d6e971adc3cd7e4ec9b4038356e744d4451146f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7b7205658358cfa3aa90824718c03731fa33a534
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789888"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270708"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN 直接路由報表
 
-我們在 2020 年 3 月新增了 Microsoft Teams 通話品質儀表板 (CQD) PSTN 直接路由報告至可下載 [的 Power BI 查詢 CQD 範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
+Microsoft Teams 通話品質儀表板 (CQD) PSTN 直接路由報表可在我們的可下載 [的 CQD Power BI 查詢範本](https://www.microsoft.com/download/details.aspx?id=102291)中使用。 
 
 
 CQD PSTN 直接路由報告 (CQD PSTN 直接路由報告.pbit) 協助您瞭解 PSTN 服務的使用模式和品質。 使用此報告來監控服務使用量、會話框線控制器 (SBC) 的相關資訊、電話語音服務、網路參數和網路有效性比例詳細資料。 此資訊可協助您找出問題，包括中斷通話的原因。 例如，您可以查看降低音量的時機、受影響的通話數，以及原因為何。

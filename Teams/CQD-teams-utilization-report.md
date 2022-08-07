@@ -9,25 +9,24 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 使用 Teams 使用 Power BI 報告存取 Microsoft Teams 通話品質儀表板 (CQD) 資料來追蹤貴組織中的 Microsoft Teams 使用量。
-ms.openlocfilehash: 6e96f9dd06f872f2907d04aa335e2af2d7a75f2b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: bd579fa3f57c6e3b50a363eb77523f577c750efb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790338"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270688"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>使用 CQD 資料檢視 Power BI 中的 Microsoft Teams 使用率
 
-我們在 2020 年 3 月新增了一份 Teams 使用方式報告到可下載 [的 Power BI 查詢範本中，以供 CQD 使用](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
+Teams 使用方式報告是作為適用于 [CQD 的可下載 Power BI 查詢範本](https://www.microsoft.com/download/details.aspx?id=102291)的一部分提供。 
 
-這個新的 Teams 使用率報告可讓您存取 Teams 通話品質儀表板 (CQD) 資料，以查看使用者使用 Microsoft Teams 的 (程度，以及使用者使用 Microsoft Teams 的) 程度。 這些報告是一個集中式位置，系統管理員和商務主管都可以快速移至此資料。
+此報告可讓您存取 Teams 通話品質儀表板 (CQD) 資料，以查看使用者使用 Microsoft Teams 的 (程度，以及使用者使用 Microsoft Teams 的) 程度。 這些報告是一個集中式位置，系統管理員和商務主管都可以快速移至此資料。 請注意，由於 [通話品質遙測的性質，我們建議不要將此資料依賴于具體數位](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)。
 
 Teams 使用量 Power BI 報表包含兩個主要報告： **[通話計數摘要](#call-count-summary-report)** 和 **[音訊通話分鐘數摘要](#audio-minutes-summary-report)**。 當使用者利用下列描述所述的向下切入報告時， [[每日使用量](#daily-usage)]、 [[地區音訊詳細](#regional-audio-details)資料]、[ [會議詳細](#conference-details) 資料] 和 [ [使用者清單](#user-list) ] 報告就會生效。
 

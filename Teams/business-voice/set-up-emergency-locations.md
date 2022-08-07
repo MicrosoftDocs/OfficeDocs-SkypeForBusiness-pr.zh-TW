@@ -1,5 +1,5 @@
 ---
-title: 設定Microsoft Teams 電話系統方案緊急位置
+title: 使用通話方案緊急位置設定Microsoft Teams 電話系統
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,39 +9,38 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: 瞭解如何使用通話方案Microsoft Teams 電話系統緊急位置。
+description: 瞭解如何使用通話方案設定Microsoft Teams 電話系統的緊急位置。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db47c18edafcac62e00bae659b78c25acab6c417
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+- M365initiative-voice
+ms.openlocfilehash: bf2e790e177ca388fd184ee4e1dff41032ef7166
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053022"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267398"
 ---
-# <a name="step-1-set-up-a-teams-phone-system-emergency-location"></a>步驟 1：設定緊急Teams 電話系統位置
+# <a name="step-1-set-up-a-teams-phone-system-emergency-location"></a>步驟 1：設定 Teams Phone System 緊急位置
 
-當貴組織中有人撥打緊急服務電話時，例如火警、警車或急救車時，會使用緊急位置。 當人員撥打緊急服務時，已配置為貴組織的緊急位址的位址會送到服務。 此步驟會設定貴組織的主要緊急位置。 此位置將在稍後的步驟中與公司的主要電話號碼相關聯。
+當貴組織中的某人撥打火災、員警或緊急服務等緊急服務時，會使用緊急位置。 當某人撥打緊急服務電話時，設定為您組織的緊急位址的位址會傳送至服務。 此步驟會設定您組織的主要緊急位置。 在稍後的步驟中，此位置將會與您公司的主要電話號碼相關聯。
 
-如果您有多個位置的使用者，例如家用辦公室或其他城市的辦公室，您可以設定其他緊急位置。 您甚至可以在位置中設定特定位置。 位置可以是不同的建築物、樓層、辦公室，或是使用者可能位於位置的其他位置。 當您使用通話方案完成初始設定之後，Teams 電話系統其他位置和地點。
+如果您的使用者位於多個位置，例如在其他城市的住家辦公室或辦公室，您可以設定其他緊急位置。 您甚至可以設定某個位置中的特定位置。 地點可以是不同的建築物、樓層、辦公室，或使用者可能位於某個位置的其他位置。 在您使用通話方案完成 Teams 電話系統的初始設定後，可以新增其他位置和地點。
 
 ## <a name="add-an-emergency-location"></a>新增緊急位置
 
-1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員的使用者登入。這通常是您用來註冊帳戶Microsoft 365。
-2. 在左側流覽窗格中，前往 <a href="https://admin.teams.microsoft.com/locations" target="_blank"> **LocationsEmergency** ****  >  位址</a>。
+1. 開啟 Microsoft Teams 系統管理中心，並使用全域系統管理員的使用者帳戶登入。此帳戶通常是您用來註冊 Microsoft 365 的帳戶。
+2. 在左側功能窗格中，移至 <a href="https://admin.teams.microsoft.com/locations" target="_blank"> **[緊急位址位置**  >  **]**</a>。
 3. 按一下 [新增 **]**。
 4. 輸入位置的名稱和描述。
-5. 選取國家/地區，然後輸入位址。
+5. 選取國家或地區，然後輸入位址。
 
    > [!NOTE]
-   > 在比利時、法國、德國、愛爾蘭、荷蘭和西班牙，您必須瞭解，若要在 Microsoft 365 或 Office 365 中成功啟用電話號碼，緊急位置中用來取得號碼的位址必須與電話號碼的區碼相符。
+   > 在比利時、法國、德國、愛爾蘭、荷蘭和西班牙，請務必瞭解若要在 Microsoft 365 或 Office 365 成功啟用電話號碼，在緊急位置中設定的位址必須符合電話號碼的區碼。
 
-6. 如果找不到位址，而您想要手動編輯位址，請開啟手動 **編輯位址**。
+6. 如果找不到位址，而且您想要手動編輯位址，請開啟 **[手動編輯位址]**。
 7. 按一下 [儲存]。
 
 > [!div class="nextstepaction"]

@@ -9,19 +9,17 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: 瞭解如何使用通話品質儀表板Teams 電話系統通話方案通話品質監控通話品質。
+description: 瞭解如何使用通話品質儀表板，以通話方案通話品質監控 Teams 電話系統。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d06d9fd80b2f77ec4b017a9d4a056685f3a5706
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 4994b04f2b90ded22523d7e580eda00f94120e35
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053232"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270438"
 ---
 [!INCLUDE [turning-on-and-using-call-quality-dashboard](../turning-on-and-using-call-quality-dashboard.md)]

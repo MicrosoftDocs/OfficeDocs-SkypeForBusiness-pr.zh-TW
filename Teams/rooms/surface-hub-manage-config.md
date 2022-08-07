@@ -1,7 +1,7 @@
 ---
-title: 在 Microsoft Teams 管理Surface Hub組Surface Hub
-ms.author: czawideh
-author: cazawideh
+title: 在 Surface Hub 上管理 Microsoft Teams 設定
+ms.author: dstrome
+author: dstrome
 ms.reviewer: rahulmi
 manager: serdars
 audience: ITPro
@@ -9,29 +9,30 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 使用Microsoft Teams設定Surface Hub管理Microsoft Intune Windows設定
-ms.openlocfilehash: a07751ebf601e665254c1dc6c83eb546592b2e28
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+description: 使用 Microsoft Intune 和 Windows 設定設計工具在 Surface Hub 上管理 Microsoft Teams 設定
+ms.openlocfilehash: 6e99922ebb7bb30db1b5e94fd1a4d30b8ec653b8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503920"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272208"
 ---
-# <a name="manage-microsoft-teams-settings-on-surface-hub"></a>管理Microsoft Teams上的Surface Hub
+# <a name="manage-microsoft-teams-settings-on-surface-hub"></a>在 Surface Hub 上管理 Microsoft Teams 設定
 
-您可以使用設定設計Microsoft Teams管理Surface Hub上的Windows設定Microsoft Intune或Microsoft 端點管理員。 若要變更Windows設定，Microsoft Intune需要具備設定設計工具或Teams知識。 有關這些選項的詳細資訊，請參閱下列文章：
+您可以使用 Windows 設定設計工具或 Microsoft 端點管理員 中的Microsoft Intune，在 Surface Hub 上管理 Microsoft Teams 設定。 您必須瞭解 Windows 設定設計工具或Microsoft Intune，才能對 Teams 設定進行變更。 如需這些選項的詳細資訊，請參閱下列文章：
 
-- [建立適用于您Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
-- [什麼是Microsoft Intune管理？](/mem/intune/remote-actions/device-management)
+- [建立Windows 10的布建套件](/windows/configuration/provisioning-packages/provisioning-create-package)
+- [什麼是Microsoft Intune裝置管理？](/mem/intune/remote-actions/device-management)
 
-Windows只有一些裝置，而且您可以輕鬆地存取Surface Hub設計工具是不錯的選擇。 如果您有許多 Surface Hub，或者它們位於遠端位置，請使用 Microsoft Intune Microsoft 端點管理員部署在貴組織中。 無論您選擇哪種方法，您都需要建立 XML 設定檔，以變更Teams上的Surface Hub。
+如果您只有少數幾個 Surface Hub 裝置且可以輕鬆存取，Windows 設定設計工具是不錯的選擇。 如果您有許多 Surface Hub，或者它們位於遠端位置，請在 Microsoft 端點管理員 中使用Microsoft Intune，如果它部署在您的組織中。 無論您選擇哪種方法，您都需要建立 XML 組態檔來變更 Surface Hub 上的 Teams 設定。
 
-## <a name="teams-configuration-file-syntax"></a>Teams組設定檔語法
+## <a name="teams-configuration-file-syntax"></a>Teams 組態檔語法
 
-Teams上的Surface Hub是使用 XML 檔案定義。 XML 檔案包含可用來控制其運作方式Teams設定。 組Windows設計工具Microsoft Intune使用相同的 XML 語法。 以下是組Teams XML 檔案的範例：
+Surface Hub 上的 Teams 設定是使用 XML 檔案定義。 XML 檔案包含所有可用來控制 Teams 運作方式的設定。 Windows 設定設計工具和Microsoft Intune使用相同的 XML 語法。 以下是 Teams 設定 XML 檔案的範例：
 
 ```xml
 <SurfaceHubSettings>
@@ -47,112 +48,112 @@ Teams上的Surface Hub是使用 XML 檔案定義。 XML 檔案包含可用來控
 </SurfaceHubSettings>
 ```
 
-下表說明組設定檔中所有可用的設定設定：
+下表說明組態檔中所有可用的組態設定：
 
 | 父母                  | 元素                                   | 屬性 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------|-------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 無                    | `<SurfaceHubSettings>`                    |           | 包含所有組Teams組Surface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| `<SurfaceHubSettings>`  | `<BluetoothAdvertisementEnabled>`         |           | 決定是否Surface Hub該連結是否可供藍牙使用。<br>接受的值： `true` ， `false`                                                                                                                                                                                                                                                                                                                                                                                         |
-| `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | 決定Teams是否會自動接受鄰近式會議。<br>接受的值： `true` ， `false`                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | 包含所有協調會議的配置元素。                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                         |                                           | `enabled` | 判斷Teams是否已配置為與其他裝置參與協調會議。<br>接受的值： `true` ， `false`                                                                                                                                                                                                                                                                                                                                                                                |
-| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 這是每個 Teams 會議室裝置或 Surface Hub 裝置應接受會議加入邀請，或應寄到哪些會議加入邀請的 UPN 逗號分隔清單。<br>接受的值：字串                                                                                                                                                                                                                                                                                                                         |
-| `<CoordinatedMeetings>` | `<Settings>`                              |           | 包含協調會議的配置音訊和視音訊組組元素                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `<Settings>`            | `<Audio>`                                 |           | 控制Teams上Surface Hub的音訊Surface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                         |                                           | `default` | 決定會議開始時，麥克風會位於哪個裝置上。 只有一 (裝置Teams 會議室裝置) `true` `false` 可以設定此欄位，而其他裝置必須設定此欄位以避免音訊回音和意見回應。<br>接受的值： `true` ， `false`                                                                                                                                                                                                           |
-|                         |                                           | `enabled` | 決定會議參與者是否可以開啟或關閉麥克風。 設定為 **音訊** `false` `false` 預設值的裝置應設定此設定，讓參與者不會不小心開啟麥克風，並造成音訊回音或意見回應。<p>如果 **音訊預設值** 設為 `true` ，此設定會被忽略，參與者可以將麥克風設為靜音或取消靜音。<br>接受的值： `true` ， `false`                                                                               |
-| `<Settings>`            | `<Video>`                                 |           | 控制視Teams視Surface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                         |                                           | `default` | 決定會議開始時相機會使用哪個裝置。 為了獲得最佳體驗，我們建議您只將Teams 會議室設定 `true` 為 ，而所有其他裝置都設為 `false` 。<br>接受的值： `true` ， `false`                                                                                                                                                                                                                                                                  |
-|                         |                                           | `enabled` | 決定會議參與者是否可以開啟或關閉相機。 您可以在活動 `true` 參與者想要共用不同視 (，例如參與者使用 Surface Hub 白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將其設定為 `false` 。<p> 如果 **視音訊預設值** 設定為 `true` ，此設定會被忽略，參與者可以開啟或關閉相機。<br>接受的值： `true` ， `false` |
+| 無                    | `<SurfaceHubSettings>`                    |           | 包含 Surface Hub 上 Teams 設定的所有組態元素。                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `<SurfaceHubSettings>`  | `<BluetoothAdvertisementEnabled>`         |           | 判斷 Surface Hub 是否公告其適用于藍牙連線。<br>公認的值： `true``false`                                                                                                                                                                                                                                                                                                                                                                                         |
+| `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | 決定 Teams 是否會自動接受近接式會議。<br>公認的值： `true``false`                                                                                                                                                                                                                                                                                                                                                                                                     |
+| `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | 包含協調會議的所有組態元素。                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                         |                                           | `enabled` | 判斷 Teams 是否設定為與其他裝置參與協調會議。<br>公認的值： `true``false`                                                                                                                                                                                                                                                                                                                                                                                |
+| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 這是每個 Teams 會議室裝置或 Surface Hub 的逗號分隔 UPN 清單，裝置應接受會議加入邀請，或應傳送會議加入要求。<br>公認的值：字串                                                                                                                                                                                                                                                                                                                         |
+| `<CoordinatedMeetings>` | `<Settings>`                              |           | 包含協調會議的設定音訊和視訊組態元素                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `<Settings>`            | `<Audio>`                                 |           | 控制 Surface Hub 上 Teams 的音訊設定。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                         |                                           | `default` | 決定當會議開始時，麥克風會在哪個裝置上作用中。 通常只有一個裝置 (Teams 會議室裝置) 可以將此欄位設定為 `true` ，而其他裝置必須設定此欄位，以避免 `false` 音訊回音和意見反應。<br>公認的值： `true``false`                                                                                                                                                                                                           |
+|                         |                                           | `enabled` | 判斷會議中的參與者是否可以開啟或關閉麥克風。 設為 `false` **Audio 預設** 值的裝置應將此設定設為 `false` ，讓參與者無法意外開啟麥克風並造成音訊回音或意見反應。<p>如果 **音訊預設** 值設為 `true` ，此設定會被忽略，參與者可以將麥克風設為靜音或取消靜音。<br>公認的值： `true``false`                                                                               |
+| `<Settings>`            | `<Video>`                                 |           | 控制 Surface Hub 上 Teams 的視訊設定。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                         |                                           | `default` | 決定會議開始時相機會在哪個裝置上使用。 為獲得最佳體驗，建議您在所有其他裝置都設 `false` 為 `true` 時，只設定Teams 會議室裝置。<br>公認的值： `true``false`                                                                                                                                                                                                                                                                  |
+|                         |                                           | `enabled` | 判斷會議中的參與者是否可以開啟或關閉相機。 您可以將此設定在 `true` 活動參與者想要分享不同視訊觀點的任何其他裝置上， (例如參與者正在使用 Surface Hub 白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將此設定設為 `false` 。<p> 如果 **[視訊] 預設** 值設為 `true` ，則會忽略此設定，且參與者可以開啟或關閉相機。<br>公認的值： `true``false` |
 
-## <a name="apply-teams-settings-to-surface-hub"></a>將Teams設定Surface Hub
+## <a name="apply-teams-settings-to-surface-hub"></a>將 Teams 設定套用至 Surface Hub
 
-在 Teams上Surface Hub設定設定Windows或Microsoft Intune設定Microsoft 端點管理員。
+在 Microsoft 端點管理員 中使用 Windows 設定設計工具或Microsoft Intune，在 Surface Hub 上套用或更新 Teams 設定。
 
-### <a name="use-windows-configuration-designer"></a>使用 Windows設計工具
+### <a name="use-windows-configuration-designer"></a>使用 Windows 設定設計工具
 
-您可以使用設定Windows設計工具建立一個設定套件，您可以使用該套件將 Teams設定套用至 Surface Hub。 您將上述所建立之 XML 檔案貼到Windows設計工具中，以建立資源配置套件。
-
-> [!IMPORTANT]
-> 如果您已經使用Teams套件將Surface Hub套用至您的部署套件，並想要變更，您需先移除現有的部署套件。 若要詳細資訊，請參閱移除由組Windows[所建立的配置套件](#remove-a-provisioning-package-created-by-windows-configuration-designer)。
-
-請執行下列操作，在組Windows中建立部署套件：
-
-1. 從Windows市Windows安裝組Windows設計工具並開啟
-2. 選取 **在Surface Hub中置備**，**然後切換到進位編輯器**
-3. 在下一個畫面上展開 **WindowsTeamSettings**  >  Teams **並選取****設定**
-4. 在中間窗格的組 **塊旁的** 欄位中，貼上您上方所建立的單行 XML
-5. 選取 **匯出**  >  **Provisioning 套件**
-6. 在名稱中提供部署套件的名稱 **，然後選取** **NextNext**   > 
-7. 指定儲存置備套件的位置，然後選取下 **一步**
-8. 選取 **建立** 以建立部署 **套件，然後** 選取完成
-
-最後，建立部署套件之後，請執行下列操作，將部署套件套用至您的Surface Hub：
-
-1. 將您上述所建立之部署套件儲存至 USB 磁碟機
-2. 將 USB 磁碟機插入您的Surface Hub
-3. 在 Surface Hub上，開啟 [開始] 功能表，選取所有 **應用程式**，**然後選取 設定**
-4. 提供您的系統管理員使用者名稱和密碼， **然後選取**
-5. 前往 **Surface Hub、****裝置管理**、**新增或移除部署套件**，然後 **新增套件**
-6. 在 **選取套件下****，選取您的** 部署套件旁的新增，然後重新開機Surface Hub
-
-### <a name="use-microsoft-intune"></a>使用Microsoft Intune
-
-如果您的 Surface Hub 是使用 Microsoft 端點管理中的 Microsoft Intune管理，您可以使用它來將 Teams設定適用于您的 Surface Hub。 您將建立一個新的組組設定檔，然後將您上述所建立之 XML 檔案貼到檔案中。
+您可以使用 Windows 設定設計工具來建立布建套件，以便用來將 Teams 設定套用到 Surface Hub。 您將將上述建立的 XML 檔案貼到 Windows 設定設計工具中，以建立布建套件。
 
 > [!IMPORTANT]
-> 您的 Surface Hub 必須位在裝置群組中，Microsoft Intune識別要將組式設定檔用於哪些裝置。 若要瞭解如何建立裝置群組，請參閱新增 [群組以組織使用者和裝置](/mem/intune/fundamentals/groups-add)。
+> 如果您已經使用布建套件將 Teams 設定套用到 Surface Hub，而且想要變更，您必須先移除現有的布建套件。 如需詳細資訊，請參閱 [移除由 Windows 設定設計工具建立的布建套件](#remove-a-provisioning-package-created-by-windows-configuration-designer)。
 
-請執行下列操作來建立設定設定檔，以將Teams設定適用于您的 Surface Hub：
+請執行下列動作以在 Windows 設定設計工具中建立布建套件：
 
-1. 請流覽以Microsoft 端點管理員登錄https://endpoint.microsoft.com/
-2. 流覽至 **DevicesConfiguration**   >  設定檔，然後選取 **建立設定檔**
-3. 在 **平臺** 下，選取 **Windows 10及稍後**
-4. 在 **[設定檔** 中， **選取自訂**，然後按一下 **建立**
-5. On the **Basics** tab, in **Name**, provide a descriptive name for your configuration profile and select **Next**
-6. 在設定 **設定選項卡** 上 **，選取新增**
-7. 在新增 **列窗格中** ，執行下列操作：
-    1. 提供描述性名稱，並選擇性地提供Teams新增之設定的描述
-    2. 在 **OMA-URI** 中，輸入 `./Vendor/MSFT/SurfaceHub/InBoxApps/Teams/Configurations`
-    3. 在 **資料類型中**，選取 **XML 檔案 (字串)**
-    4. 開啟檔案瀏覽器，選取您上述所建立之 XML 檔案，然後 **開啟**
-8. 選取 **新增** ，然後選取下 **一步**
-9. 在 " **作業"** 選項卡上，確定 **已** 設定為已選取 **的群組**
-10. 在 **選取的群組** 下，選取 **要** 包含的群組，然後選擇包含 Surface Hub 的群組， **然後選取選取**
-11. 選取 **下一個**， **下一個**
-12. 在評論 **+ 建立上****，選取建立**
+1. 在本機電腦上從 Windows 市集安裝 Windows 設定設計工具並開啟它
+2. 選 **取 [布建 Surface Hub 裝置** ]，然後 **切換到進階編輯器**
+3. 在下一個畫面上，展開 **[WindowsTeamSettings Teams]**  >  ，然後選取 [**設定]** ****
+4. 在中間窗格中 [設定] 旁邊 **的** 欄位中，貼上您在上方建立的 XML 單一線條
+5. 選 **取 [匯出**  >  **布建套件]**
+6. 在 [**名稱**] 中提供布建套件的名稱，然後選取 **[下一步**  >  **]**
+7. 指定儲存布建套件的位置，然後選取 [ **下一步]**
+8. 選 **取 [組建** ] 以建立布建套件，然後選取 [ **完成]**
 
-## <a name="remove-teams-settings-from-a-surface-hub"></a>從Teams移除Surface Hub
+最後，在您建立布建套件之後，請執行下列動作，將布建套件套件套用到 Surface Hub：
 
-在 Teams使用 Surface Hub 設定設計工具Windows或Microsoft Intune移除Microsoft 端點管理員。
+1. 將您于上述建立的布建套件儲存到 USB 磁片磁碟機
+2. 將 USB 磁片磁碟機插入 Surface Hub
+3. 在 Surface Hub 上，開啟 [開始] 功能表，選取 **[所有應用程式**]，然後選取 [ **設定]**
+4. 提供您的系統管理員使用者名稱和密碼，然後選取 [ **是]**
+5. 移至 **[Surface Hub**]、[ **裝置管理]**、 **[新增或移除布建套** 件]，然後 **[新增套件]**
+6. 在 **[選取包裹**] 底下，選取布建套件旁的 [ **新增** ]，然後重新開機 Surface Hub
 
-### <a name="remove-a-provisioning-package-created-by-windows-configuration-designer"></a>移除由組Windows建立的配置套件
+### <a name="use-microsoft-intune"></a>使用 Microsoft Intune
 
-如果您使用由 Teams建立Surface Hub套件將設定套用至 Windows，請使用下列步驟移除套件及其設定：
+如果您的 Surface Hub 是使用 Microsoft 端點管理中的Microsoft Intune來管理，您可以使用它來將 Teams 設定套用到 Surface Hub。 您將建立新的組態設定檔，然後將您在上面建立的 XML 檔案貼到其中。
 
-1. 在 Surface Hub上，開啟 [開始] 功能表，選取所有 **應用程式**，**然後選取 設定**
-2. 提供您的系統管理員使用者名稱和密碼， **然後選取**
-3. 請前往 **Surface Hub****裝置管理，** 然後 **新增或移除資源調配套件**
-4. 在您想要移除的部署套件旁邊， **選取移除**
-5. 請前往 **Surface Hub**，然後 **使用應用程式&功能**
-6. 尋找 **Microsoft Teams選項Surface Hub**，然後選取進 **一Surface Hub選項**
-7. 選取 **重** 設，然後 **再次重設**
-8. 重新開機Surface Hub
+> [!IMPORTANT]
+> 您的 Surface Hub 必須位於裝置群組中，Microsoft Intune才能識別要套用組態設定檔的裝置。 如需如何建立裝置群組的相關資訊，請參閱 [新增群組來組織使用者和裝置](/mem/intune/fundamentals/groups-add)。
 
-### <a name="remove-settings-applied-by-microsoft-intune"></a>移除應用程式所Microsoft Intune
+執行下列動作以建立設定設定檔，以將 Teams 設定套用至 Surface Hub：
 
-如果您在 Microsoft 端點管理Teams中Surface Hub設定Microsoft Intune設定，請使用下列步驟移除設定設定檔及其設定：
+1. 流覽以登入 Microsoft 端點管理員https://endpoint.microsoft.com/
+2. 流覽至 **[裝置**  >  **設定] 設定檔，** 然後選取 **[建立設定檔]**
+3. 在 [**平臺]** 底下，選 **取 [Windows 10及更新版本]**
+4. 在 **[設定檔**] 底下，選取 [ **自訂**]，然後按一下 [ **建立]**
+5. 在 [ **基本功能] 索引** 標籤的 [ **名稱**] 中，為您的組態設定檔提供描述性名稱，然後選取 [ **下一步]**
+6. 在 [ **設定設定] 索引標籤上** ，選取 [ **新增]**
+7. 在 [ **新增列** ] 窗格中，執行下列動作：
+    1. 提供描述性名稱，並選擇性地提供您要新增的 Teams 設定描述
+    2. 在 **OMA-URI 中**，輸入 `./Vendor/MSFT/SurfaceHub/InBoxApps/Teams/Configurations`
+    3. 在 **[資料類型]** 中，選 **取 [字串 (XML 檔案)**
+    4. 開啟檔案瀏覽器，選取您在上面建立的 XML 檔案，然後 **開** 啟
+8. 選取 **[新增** ]，然後選取 **[下一步]**
+9. 在 [ **作業] 索引標籤上** ，確定 [ **指派至** ] 已設定為 [ **選取的群組]**
+10. 在 **[選取的群組**] 底下，**選取 [選取要包含的群組**]，然後選擇包含 Surface Hub 的群組，然後選取 **[選取**]
+11. 選取 **[下一步****]、[下一步]**
+12. 在 [ **校閱 + 建立]** 上，選取 [ **建立]**
 
-1. 請流覽以Microsoft 端點管理員登錄https://endpoint.microsoft.com/
-2. 流覽至 **DevicesConfiguration 設定檔**   > 
-3. 選取包含您想要移除之協調會議設定的配置設定檔
-4. 在組設定檔詳細資料頁面上，選取 **刪除** ，然後選取 **確定**
+## <a name="remove-teams-settings-from-a-surface-hub"></a>從 Surface Hub 移除 Teams 設定
 
-移除包含您會議協調會議設定之組Surface Hub之後，請使用下列步驟重設 Teams 應用程式Surface Hub：
+在 Microsoft 端點管理員 中使用 Windows 設定設計工具或Microsoft Intune，移除 Surface Hub 上的 Teams 設定設定。
 
-1. 在 Surface Hub上，開啟 [開始] 功能表，選取所有 **應用程式**，**然後選取 設定**
-2. 提供您的系統管理員使用者名稱和密碼， **然後選取**
-3. 請前往 **Surface Hub**，然後 **使用應用程式&功能**
-4. 尋找 **Microsoft Teams選項Surface Hub**，然後選取進 **一Surface Hub選項**
-5. 選取 **重** 設，然後 **再次重設**
-6. 重新開機Surface Hub
+### <a name="remove-a-provisioning-package-created-by-windows-configuration-designer"></a>移除由 Windows 設定設計工具建立的布建套件
+
+如果您使用 Windows 設定設計工具所建立的布建套件，將 Teams 設定套用到 Surface Hub，請使用下列步驟來移除套件及其設定：
+
+1. 在 Surface Hub 上，開啟 [開始] 功能表，選取 **[所有應用程式**]，然後選取 [ **設定]**
+2. 提供您的系統管理員使用者名稱和密碼，然後選取 [ **是]**
+3. 移至 **Surface Hub**、 **裝置管理** ，然後 **新增或移除布建套件**
+4. 在您要移除的布建套件旁邊，選 **取 [移除]**
+5. 移至 **Surface Hub** ，然後 **移至應用程式&功能**
+6. 尋找 **Surface Hub 版 Microsoft Teams** ，然後選取 [ **進階選項]**
+7. 選取 **[重設**]，然後再次 **選取 [重設** ]
+8. 重新開機 Surface Hub
+
+### <a name="remove-settings-applied-by-microsoft-intune"></a>移除Microsoft Intune套用的設定
+
+如果您在 Microsoft 端點管理中使用 Microsoft Intune 將 Teams 設定套用至 Surface Hub，請使用下列步驟移除組態設定檔及其設定：
+
+1. 流覽以登入 Microsoft 端點管理員https://endpoint.microsoft.com/
+2. 流覽至 **裝置**  >  **設定設定檔**
+3. 選取包含您要移除之 [協調會議] 設定的組態設定檔
+4. 在 [設定設定檔詳細資料] 頁面上，選 **取 [刪除** ]，然後選取 [ **確定]**
+
+移除 Surface Hub 中包含 [協調會議] 設定的組態設定檔之後，請使用下列步驟在 Surface Hub 上重設 Teams 應用程式：
+
+1. 在 Surface Hub 上，開啟 [開始] 功能表，選取 **[所有應用程式**]，然後選取 [ **設定]**
+2. 提供您的系統管理員使用者名稱和密碼，然後選取 [ **是]**
+3. 移至 **Surface Hub** ，然後 **移至應用程式&功能**
+4. 尋找 **Surface Hub 版 Microsoft Teams** ，然後選取 [ **進階選項]**
+5. 選取 **[重設**]，然後再次 **選取 [重設** ]
+6. 重新開機 Surface Hub

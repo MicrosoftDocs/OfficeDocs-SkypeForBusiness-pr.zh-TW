@@ -9,6 +9,7 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 4c2426b2a63feadfc9fc1569efaffbca99771e16
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f78ef3b4d637f166ac3c20d50e16532eff9db790
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175697"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271328"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -101,6 +102,8 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號 | 韌體版本 | 目前的認證結束日期  | Android OS 版本 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Cres}UC-P8-TD |`1.0.0.42`| 2023 年 8 月 5 日 |  9  |
+| Cres 括弧 UC-P10-TD |`1.0.0.42`| 2023 年 8 月 5 日 |  9  |
 |Lenovo ThinkSmart 檢視|`CD-18781Y.201006.099`| 2022 年 12 月 5 日 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>通過認證的 Teams 面板

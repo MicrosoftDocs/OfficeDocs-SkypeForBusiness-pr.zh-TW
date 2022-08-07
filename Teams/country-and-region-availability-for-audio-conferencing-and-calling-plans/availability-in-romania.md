@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于羅馬尼亞商務用 Skype Microsoft Teams和Microsoft Teams服務。
-ms.openlocfilehash: 101b240bd79aa7ef867e4dd5a26452a28676759d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于羅馬尼亞的 商務用 Skype 和 Microsoft Teams 服務。
+ms.openlocfilehash: 52528dbc23ddf0d0970099dc024a94d459059a65
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618599"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269968"
 ---
 # <a name="availability-in-romania"></a>羅馬尼亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是羅馬尼亞Microsoft 365 Office 365的商務用 Skype Microsoft Teams服務。
+以下是適用于羅馬尼亞的 商務用 Skype 和 Microsoft Teams 適用的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |電話號碼不會連結至特定城市或位置。 如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |電話號碼不會連結到特定城市或位置。 如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>電話系統
@@ -59,16 +59,16 @@ ms.locfileid: "58618599"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>[Prezentare general Microsoft Teams的協助工具支援， accesibilitate Microsoft Teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms ()  (羅馬尼亞文)  (2021 年 2 月) ](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
-|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul> Microsoft Teams [Prezentare 一般協助工具支援ă accesibilitate a Microsoft Teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms (WW)  (羅馬尼亞文)  (2021 年 2 月) ](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|撥出電話可以撥打進階號碼嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括這些國家/ [地區](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> | 電話號碼不會連結至特定城市或位置。 <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> | 電話號碼不會連結到特定城市或位置。 <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    

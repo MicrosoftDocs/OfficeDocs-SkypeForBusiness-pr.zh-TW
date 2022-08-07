@@ -1,7 +1,7 @@
 ---
-title: 使用 Microsoft Teams 會議室 部署商務用 Skype Server
-ms.author: czawideh
-author: cazawideh
+title: 使用 商務用 Skype Server 部署Microsoft Teams 會議室
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,23 +12,24 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: 請閱讀本主題，以瞭解如何使用 Microsoft Teams 會議室 部署商務用 Skype Server。
+description: 如需如何使用商務用 Skype Server部署Microsoft Teams 會議室的相關資訊，請閱讀本主題。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 53903052efe28a85400ba8b418bd8869ef2dec4e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503480"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271678"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用 Microsoft Teams 會議室 部署商務用 Skype Server
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用 商務用 Skype Server 部署Microsoft Teams 會議室
   
-本主題說明如何在擁有單一樹Microsoft Teams 會議室部署時新增資源帳戶。
+本主題說明當您擁有單一森林內部部署時，如何新增Microsoft Teams 會議室的資源帳戶。
   
-如果您有使用 Exchange 2013 SP1 或更新版及 商務用 Skype Server 2015 或更新版的單一林內部部署，則您可以使用提供的 Windows PowerShell 腳本來建立裝置帳戶。 如果您使用的是多林部署，您可以使用會產生相同結果的對等 Cmdlet。 本節將說明這些 Cmdlet。
+如果您使用 Exchange 2013 SP1 或更新版本及 2015 年 商務用 Skype Server 或更新版本的單一森林內部部署，則可以使用提供的Windows PowerShell腳本來建立裝置帳戶。 如果您使用多林部署，可以使用同等的 Cmdlet 來產生相同的結果。 本節說明這些 Cmdlet。
   
-開始部署Microsoft Teams 會議室，請確定您擁有執行關聯的 Cmdlet 的許可權。
+開始部署Microsoft Teams 會議室之前，請確定您擁有執行相關聯 Cmdlet 的正確許可權。
   
 
    ``` Powershell
@@ -42,9 +43,9 @@ ms.locfileid: "63503480"
    Import-PSSession $sessLync
    ```
 
-   請注意，$strExchangeServer是 Exchange 伺服器之完整功能變數名稱 (FQDN) ，$strLyncFQDN 是您 商務用 Skype Server 部署的 FQDN。
+   請注意，$strExchangeServer是 Exchange 伺服器 (FQDN) 的完整功能變數名稱，而 $strLyncFQDN 是您商務用 Skype Server部署的 FQDN。
 
-2. 建立會話之後，您可以建立新信箱，並啟用為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這會允許帳戶驗證Microsoft Teams 會議室。
+2. 建立會話之後，您將建立新的信箱並將其啟用為 RoomMailboxAccount，或是變更現有會議室信箱的設定。 這可讓帳戶驗證以Microsoft Teams 會議室。
 
     如果您要變更現有的資源信箱：
 
@@ -53,14 +54,14 @@ ms.locfileid: "63503480"
    -AsPlainText -Force)
    ```
 
-   如果您要建立新資源信箱：
+   如果您要建立新的資源信箱：
 
    ``` Powershell
    New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Alias ConferenceRoom01 -Name "Conference Room 01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 您可以在資源帳戶Exchange各種Teams 會議室屬性，以改善人員的會議體驗。 您可以在屬性區段查看需要設定哪些Exchange屬性。
+3. 您可以在Teams 會議室資源帳戶上設定各種 Exchange 屬性，以改善人員的會議體驗。 您可以在 [Exchange 屬性] 區段中查看需要設定哪些屬性。
 
    ``` Powershell
    Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -74,22 +75,22 @@ ms.locfileid: "63503480"
    Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 
-5. 啟用 Active Directory 中的資源帳戶，以便驗證Microsoft Teams 會議室。
+5. 在 Active Directory 中啟用資源帳戶，以便驗證以Microsoft Teams 會議室。
 
    ``` Powershell
    Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. 在資源商務用 Skype Server上啟用Microsoft Teams 會議室 Active Directory 帳戶，以啟用商務用 Skype Server帳戶：
+6. 在商務用 Skype Server集區上啟用Microsoft Teams 會議室 Active Directory 帳戶，以商務用 Skype Server啟用資源帳戶：
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    將 和 `-DomainController` `-RegistrarPool` 屬性變更為適合您環境的值。
+    `-DomainController`將和 `-RegistrarPool` 屬性變更為適合您環境的值。
 
-7. **選。** 您也可以為您的帳戶Microsoft Teams 會議室 PSTN (PSTN) 公用電話交換企業語音網路。 企業語音不是您所需的Microsoft Teams 會議室，但如果您想要 PSTN 撥號功能Microsoft Teams 會議室，以下是啟用方式：
+7. **選。** 您也可以允許Microsoft Teams 會議室啟用帳戶的企業語音， (PSTN) 電話撥打和接聽公用交換電話網路。 企業語音不是Microsoft Teams 會議室的需求，但如果您想要 PSTN 撥號功能以供Microsoft Teams 會議室使用，以下是啟用方式：
 
    ``` Powershell
    Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -98,9 +99,9 @@ ms.locfileid: "63503480"
    Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName DP1
    ```
 
-   同樣，您必須以您自己的資訊取代所提供的網域控制站和電話號碼範例。 參數值$true保持不變。 您也需要取代語音策略和撥號方案策略名稱。
+   同樣地，您必須以自己的資訊取代提供的網域控制站和電話號碼範例。 參數值$true保持不變。 您也需要取代語音原則和撥號對應表原則名稱。
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>範例：內部部署Exchange商務用 Skype Server會議室帳戶設定
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>範例：Exchange 和 商務用 Skype Server 內部部署中的會議室帳戶設定
 
 ``` Powershell
 New-Mailbox -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) -UserPrincipalName ConferenceRoom01@contoso.com
@@ -116,7 +117,7 @@ Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName e15dp2.contoso.com
 
 ## <a name="related-topics"></a>相關主題
 
-[設定帳戶Microsoft Teams 會議室](rooms-configure-accounts.md)
+[設定Microsoft Teams 會議室帳戶](rooms-configure-accounts.md)
 
 [規劃 Microsoft Teams 會議室](rooms-plan.md)
   

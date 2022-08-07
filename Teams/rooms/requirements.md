@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 271e75787c9659dc453eeb1d6f3260aa7bd0dd3b
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4222f0fa1b0e52634e0e12cede50d3d9c5d0bba8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156811"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268348"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -30,7 +31,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 
 您的部署涉及建立和設定Teams 會議室的資源帳戶，如[部署Microsoft Teams 會議室中](rooms-deploy.md)所述。
 
-指：
+請參閱：
 
 - [根據您方案的授權選項：Microsoft Teams 會議室](rooms-licensing.md)
 

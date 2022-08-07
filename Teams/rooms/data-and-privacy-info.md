@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 資料與隱私權資訊
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057083"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270298"
 ---
 # <a name="approach"></a>方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "66057083"
 > [!Note]
 > 個別使用者的附隨性參照可能會在使用裝置期間出現在活動記錄檔中。
 
-## <a name="who-can-access-data"></a>神秘可以存取資料
+## <a name="who-can-access-data"></a>誰可以存取資料
 
 受管理的服務會採取強烈措施，協助保護客戶資料，避免未經授權的人員不當存取或使用。 這些措施包括限制 Microsoft 人員和轉包商的存取權。
 
@@ -73,8 +73,8 @@ Microsoft 受到資料傳輸、儲存、使用和保留的嚴格標準所規範�
  
 |類別|詳細資料|查詢理由|
 | :- | :- | :- |
-|持續的資料收集與管理|IP 位址、會議室帳戶 (Exchange的身分識別、商務用 Skype和/或Teams) 、位置座標、與 Microsoft 或軟體在入口網站內的電子郵件和通訊|識別並聯機到管理下的系統;識別、診斷及減輕失敗;追蹤使用狀況、分析和深入資訊;查詢與修復線上狀態|
-|臨機操作資料收集與管理|事件記錄資訊、使用者登入記錄檔的使用者活動/身分識別，以及診斷資訊、Windows系統查詢 (範例：USB 裝置清單、電源狀態等) |識別、診斷及減輕失敗，以及使用方式、分析和深入解析|
+|持續的資料收集與管理|IP 位址、Exchange (聊天室帳戶的身分識別、商務用 Skype和/或 Teams) 、位置座標、與 Microsoft 或軟體在入口網站內的電子郵件和通訊|識別並聯機到管理下的系統;識別、診斷及減輕失敗;追蹤使用狀況、分析和深入資訊;查詢與修復線上狀態|
+|臨機操作資料收集與管理|事件記錄資訊、使用者登入記錄檔之聊天室的使用者活動/身分識別，以及診斷資訊、Windows 系統查詢 (範例：USB 裝置清單、電源狀態等) |識別、診斷及減輕失敗，以及使用方式、分析和深入解析|
 
 [裝置活動] 記錄檔中的某些機密資料會在本機轉帳 (不受 Managed Services) 收集：
 
@@ -100,4 +100,4 @@ Managed Services 會透過歐洲 (歐盟) 、亞太地區 (APAC) 以及美國 (�
 
 ## <a name="more-resources"></a>更多資源
 
-Microsoft Teams 會議室安全性：/microsoftteams/rooms/security Microsoft 隱私權聲明： https://aka.ms/privacyMicrosoft 的資料管理： https://www.microsoft.com/trust-center/privacy/data-management 受管理的服務服務描述：[Microsoft Teams Room Managed Service](microsoft-teams-rooms-premium.md)
+Microsoft Teams 會議室安全性：/microsoftteams/rooms/security Microsoft 隱私權聲明： https://aka.ms/privacyMicrosoft 的資料管理： https://www.microsoft.com/trust-center/privacy/data-management 受管理的服務服務描述：[Microsoft Teams Room 受管理的服務](microsoft-teams-rooms-premium.md)

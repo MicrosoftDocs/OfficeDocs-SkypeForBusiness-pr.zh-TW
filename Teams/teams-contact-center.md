@@ -13,12 +13,14 @@ f1.keywords:
 description: 整合式連絡人中心做為 Microsoft Teams 服務 (CCaaS) 解決方案的概觀
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78dc2c412302aa4fdcadde6c77e56dcf6757f3cf
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 3125c79c5af23106420e2f6825128f170db4ff82
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642738"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269978"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合
 
@@ -26,7 +28,7 @@ ms.locfileid: "66642738"
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合是什麼？
 
-Microsoft Teams 透過在聊天、視訊會議和通話等通訊模式中擔任內部和外部客戶連線的中樞，以支援客戶互動工作串流。 對於某些組織來說，Microsoft Teams 的[雲端語音功能](./cloud-voice-landing-page.md)，包括[自動語音應答](./what-are-phone-system-auto-attendants.md)和[通話佇列](./create-a-phone-system-call-queue.md)，都符合其需求。
+Microsoft Teams 透過在聊天、視訊會議和通話等通訊模式中擔任內部和外部客戶連線的中樞，以支援客戶互動工作串流。 對於某些組織來說，Microsoft Teams 的 [雲端語音功能](./cloud-voice-landing-page.md)，包括 [自動語音應答](./what-are-phone-system-auto-attendants.md) 和 [通話佇列](./create-a-phone-system-call-queue.md)，都符合其需求。
 
 對於想要使用商務工具和工作流程來推動客戶旅程的組織，Microsoft Teams 的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者將其解決方案整合至 Teams。
 

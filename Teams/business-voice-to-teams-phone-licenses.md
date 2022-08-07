@@ -1,5 +1,5 @@
 ---
-title: 從商務語音移至Teams 電話授權
+title: 從商務語音轉換至 Teams Phone 授權
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,27 +7,26 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: 瞭解如何將您的商務語音授權變更為Teams 電話授權。
+description: 瞭解如何將商務語音授權變更為 Teams Phone 授權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 6e7622e4b78e57f45209b90a525eb5fefbe8cd66
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057093"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271228"
 ---
-# <a name="move-from-business-voice-to-teams-phone-licenses"></a>從商務語音移至Teams 電話授權
+# <a name="move-from-business-voice-to-teams-phone-licenses"></a>從商務語音轉換至 Teams Phone 授權
 
 到 2022 年 6 月底為止，將淘汰 Business Voice，因此我們[建議企業切換到Microsoft Teams 電話含通話方案套件組合授權](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/teams-phone-with-calling-plan-available-in-33-markets-on-january/ba-p/2967643)。
 
-Business Voice 搭售下列三Teams附加元件授權：
+Business Voice 搭售下列三個 Teams 附加元件授權：
 
-- **Microsoft Teams** 中雲端型電話系統Microsoft Teams 電話。
+- **Microsoft Teams 電話** Microsoft Teams 中的雲端式手機系統。
 - 會議電話撥入式會議和撥出式會議的 **音訊** 會議。
 - 國內公用交換電話網路 (PSTN) 連線的 Microsoft **通話方案**。
 
@@ -54,8 +53,8 @@ Business Voice 搭售下列三Teams附加元件授權：
 
 | 舊授權方案 | 建議的授權方案 | 描述 |
 | ---------------- | ------------------------ | ----------- |
-| 附帶通話方案的 Business Voice | 使用撥出到 USA/CAN 的通話方案和Microsoft Teams音訊會議Teams 電話 | 提供雲端式電話系統功能、以 Microsoft 做為 PSTN 提供者的國內通話方案，以及由授權使用者召集的會議出席者的電話撥入和撥出功能。 |
-| 不含通話方案的商務語音 | Teams 電話標準方案和Microsoft Teams音訊會議，並撥出到 USA/CAN | 提供雲端式電話系統功能，這些功能可以[與 PSTN 提供者搭配的協力廠商通話方案結合，使用電信業者連線或直接路由](pstn-connectivity.md)和撥入和撥出功能給授權使用者召集的會議出席者。 |
+| 附帶通話方案的 Business Voice | Teams Phone with Calling Plan and Microsoft Teams 音訊會議 with dial-out to USA/CAN | 提供雲端式電話系統功能、以 Microsoft 做為 PSTN 提供者的國內通話方案，以及由授權使用者召集的會議出席者的電話撥入和撥出功能。 |
+| 不含通話方案的商務語音 | Teams 電話標準方案和Microsoft Teams 音訊會議使用撥出到 USA/CAN | 提供雲端式電話系統功能，可使用運算子連線或直接路由、撥入和撥出功能，與 [PSTN 提供者的協力廠商通話方案](pstn-connectivity.md) 結合，以供授權使用者召集的會議出席者使用。 |
 
 ## <a name="how-to-update-licenses"></a>如何更新授權
 
@@ -78,7 +77,7 @@ Business Voice 搭售下列三Teams附加元件授權：
 1. 在 [ **授權與應用程式]** 畫面上，取消選取商務語音授權。
     > [!IMPORTANT]
     > 請勿儲存變更。 如果您儲存變更而不新增新的授權，使用者帳戶將會遭到撤銷，且電話號碼會被取消指派。
-1. 取消選取商務語音之後，請檢查新的Teams 電話和音訊會議授權。
+1. 取消選取商務語音之後，請檢查新的 Teams 電話和音訊會議授權。
 1. 現在您可以選取 [儲存變更]，安全地儲存 **變更**。
 
 使用者的授權將會更新，且不應影響服務可用性。
@@ -96,13 +95,13 @@ Business Voice 搭售下列三Teams附加元件授權：
     > [!IMPORTANT]
     > **[取代]** 選項會移除所選使用者的所有現有授權。  因此，您必須為使用者選取想要的授權狀態，包括任何其他使用中的授權，例如Microsoft 365 商務進階版。
     >
-    > 此外，如果選取的使用者有不同的基本授權設定，則會使用您選取的授權覆寫這些設定，這可能會影響Microsoft 365的其他區域。
+    > 此外，如果選取的使用者有不同的基本授權設定，則會以您選取的授權覆寫這些設定，這可能會影響到 Microsoft 365 的其他區域。
     >
     > 對於具有混合授權設定的租使用者，建議您搭配 [PowerShell 腳本使用大量更新選項](#option-3-bulk-user-license-update-using-a-powershell-script)。
 1. 在 [ **授權與應用程式]** 畫面上，取消選取商務語音授權。
     > [!IMPORTANT]
     > 請勿儲存變更。 如果您儲存變更而不新增新的授權，則會撤銷所選使用者的帳戶，以及未指派的電話號碼。
-1. 取消選取商務語音之後，請檢查新的Teams 電話和音訊會議授權。
+1. 取消選取商務語音之後，請檢查新的 Teams 電話和音訊會議授權。
 1. 現在您可以選取 [儲存變更]，安全地儲存 **變更**。
   使用者的授權將會更新，且不應影響服務可用性。
 
@@ -115,10 +114,10 @@ Business Voice 搭售下列三Teams附加元件授權：
 若要使用此方法，您將遵循下列一般步驟：
 
 1. 取得您目前商務語音授權的租使用者特定授權方案識別碼。
-1. 取得新Teams 電話和音訊會議授權方案的租使用者特定識別碼。
+1. 取得新 Teams Phone 和音訊會議授權方案的租使用者特定識別碼。
 1. 驗證新的授權方案是否與目前的商務語音授權具有相同的服務方案。
 1. 尋找獲得商務語音 (授權的租使用者使用者，或是修改腳本以包含篩選，以在需要時選取使用者子集) 。
-1. 使用Teams 電話和音訊會議方案更新使用者的授權設定。
+1. 使用 Teams Phone 和音訊會議方案更新使用者的授權設定。
 
 > [!IMPORTANT]
 > 提供的腳本為程式碼範例。 腳本不應該像目前一樣複製，並在生產租使用者中執行，而不需針對您的特定環境進行測試、驗證和自訂。
@@ -132,7 +131,7 @@ Business Voice 搭售下列三Teams附加元件授權：
     Import-Module AzureAD
     ```
 
-1. 連線至您的Microsoft 365租使用者，並提供租使用者系統管理員認證。
+1. 連線到您的 Microsoft 365 租使用者，並提供租使用者系統管理員認證。
 
     ```powershell
     Connect-AzureAD
@@ -167,16 +166,16 @@ Business Voice 搭售下列三Teams附加元件授權：
     $skuSourceBV = Get-AzureADSubscribedSku  | where {$_.SkuPartNumber -eq "BUSINESS_VOICE_MED2_TELCO"}
     ```
 
-1. 請使用下表來識別您的新Teams 電話和音訊會議授權 SKU 代碼。
+1. 請使用下表來識別新的 Teams Phone 和音訊會議授權 SKU 代碼。
 
     | SKU 代碼 | 授權類型 |
     | -------- | ------------ |
     | MCOTEAMS_ESSENTIALS | 含通話方案的 Teams 電話 |
     | MCOEV | Teams 電話標準方案 (無通話方案)  |
     | MCOMEETADV | 音訊會議 |
-    | Microsoft_Teams_Audio_Conferencing_select_dial_out | Microsoft Teams音訊會議] 選取 [撥出] |
+    | Microsoft_Teams_Audio_Conferencing_select_dial_out | Microsoft Teams 音訊會議選取 [撥出] |
 
-1. 建立 PowerShell 變數以儲存唯一的Teams 電話和音訊會議 SKU 代碼。
+1. 建立 PowerShell 變數以儲存唯一的 Teams 手機和音訊會議 SKU 代碼。
     1. 請務必將標籤取代 `SkuPartNumber` 為您租使用者中可用的 SKU 代碼。
     1. 在此範例中 `MCOTEAM_ESSENTIALS` ，我們使用的是和 `MCOMEETADV` SKU 代碼。
 
@@ -193,7 +192,7 @@ Business Voice 搭售下列三Teams附加元件授權：
     $servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
     ```
 
-1. 在繼續之前，請先驗證來源 SKU (Business Voice) 和目標 SKU (Teams 電話 和音訊會議) 是否包含相同的服務方案。
+1. 在繼續之前，請先驗證來源 SKU (商務語音) 和目標 SKU (Teams 電話與音訊會議) 是否包含相同的服務方案。
     1. 不相符可能會觸發授權變更，而中斷使用者的語音和音訊會議服務。
     2. 建立變數以驗證來源 SKU 中的所有服務方案是否會以相同的目標服務方案取代。
 
@@ -249,14 +248,14 @@ Business Voice 搭售下列三Teams附加元件授權：
     Get-AzureAdUser | ForEach { $BVlicensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If($_.AssignedLicenses[$i].SkuId -eq $skuSourceBV.SkuId) { $BVlicensed=$true } } ; If( $BVlicensed -eq $true) { $usersLicensedOldSKU.Add($_)} }
     ```
 
-1. 現在，使用新的使用者清單，執行更新活動以移除商務語音授權，並使用 ``$LicensesToUpdate`` 您先前建立的物件來新增Teams 電話和音訊會議授權。
+1. 現在，使用新的使用者清單，執行更新活動以移除商務語音授權，並使用 ``$LicensesToUpdate`` 您先前建立的物件來新增 Teams 電話和音訊會議授權。
 
     ```powershell
     $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -AssignedLicenses $LicensesToUpdate; Write-Host "Completed Update of user " $_.UserPrincipalName;  }
     ```
 
 > [!NOTE]
-> 如果您沒有足夠的可用Teams 電話和/或音訊會議授權來取代商務語音，您會在使用者指派期間收到使用 **SKU GUID 訂閱未收到任何可用授權** 的錯誤。只要授權集區出現。
+> 如果您沒有足夠的可用 Teams Phone 和/或音訊會議授權來取代商務語音，您會在使用者指派期間收到使用 **SKU GUID 訂閱未取得任何可用授權** 的錯誤。只要授權集區已減少。
 
 ### <a name="full-script"></a>完整腳本
 
@@ -341,7 +340,7 @@ Azure 群組授權管理可讓您將訂閱和服務方案指派給群組。
 ### <a name="how-to-bulk-update-licenses-using-group-based-licensing"></a>如何使用群組授權大量更新授權
 
 1. 移至 [portal.azure.com](https://portal.azure.com) ，並使用系統管理員認證登入。
-1. 移至 **[Azure Active Directory**]，然後在左側功能表上選取 [**授權]**。
+1. 移至 **Azure Active Directory** ，然後在左側功能表上選取 **[授權]**。
 1. 若要確認哪些群組已指派商務語音授權，請選擇 **[所有產品]** ，然後選取 [商務語音] 方案。
 1. 選 **取 [授權群組** ] 或 **[授權使用者]**。 您會在右側窗格中找到授權群組清單。
 1. 選取組名以開啟群組作業詳細資料。
@@ -363,4 +362,4 @@ Azure 群組授權管理可讓您將訂閱和服務方案指派給群組。
 1. 選取工具列上的 **[管理產品授權** ]。
 1. 在 [ **授權與應用程式** ] 畫面上，檢閱他們已指派給哪些授權。
 
-如果所有目標使用者都已指派正確的授權，表示您已完成將商務語音授權更新為Teams 電話和音訊會議授權。
+如果所有目標使用者都已指派正確的授權，表示您已完成將商務語音授權更新為 Teams Phone 和音訊會議授權。

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解國家或地區是否可使用音訊會議、電話系統、通話方案、通訊點數，以及免付費電話號碼和免付費電話號碼。
-ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682462"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269178"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -205,6 +205,11 @@ ms.locfileid: "66682462"
 請使用頁面頂端的下拉式清單來搜尋國家/地區以及可用的服務。
 
 ### <a name="calling-plans"></a>通話方案
+
+|功能     |詳細資料  |
+|----------|-----------|
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
 
 與電話系統一起使用時，通話方案可讓使用者撥打及接聽電話。 您會先取得使用者 (使用者) 電話號碼 (而不是服務號碼，) 指派給使用者，然後指派通話方案。 有兩種類型的通話方案可用： **國內** 和 **國際**。 如需詳細資訊，請參閱[電話系統和通話方案](../calling-plan-landing-page.md)。
 

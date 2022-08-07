@@ -18,12 +18,12 @@ description: 瞭解在 Microsoft Teams 中將原則和原則套件指派給使�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156511"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268418"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>在 Teams 中指派原則 – 快速入門
 
@@ -63,7 +63,7 @@ ms.locfileid: "67156511"
 
 在指派原則給個別使用者或群組之前，請先 [設定全域 (組織的預設) 原則](#set-the-global-policies) ，以套用至貴組織中人數最多的使用者。  設定全域原則後，您只需要將原則指派給需要特殊原則的使用者。
 
-|執行此動作  |如果。。。  | 用。。。
+|執行此動作  |如果。。。  | 使用。。。
 |---------|---------|----|
 |[指派原則給個別使用者](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | 您剛開始使用 Teams，或者只需要將一或多個原則指派給少數使用者。 |Teams PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet
 |[指派原則給群組](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |根據使用者的群組成員資格指派原則。 例如，將原則指派給安全性群組或通訊群組清單中的所有使用者。| Teams PowerShell 模組中的 Microsoft Teams 系統管理中心或 PowerShell Cmdlet|
@@ -83,9 +83,9 @@ ms.locfileid: "67156511"
 
 1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至您要更新的原則類型原則頁面。 例如，**Teams Teams**  >  **原則**、**會議**  >  **會議原則**、**訊息原則** 或 **語音**  >  **通話原則**。
 2. 選取 **全域 (組織的預設)** 原則以檢視目前的設定。
-3. 視需要更新原則，然後選取 [ **套用]**。
+3. 視需要更新原則，然後選取 [儲存 **]**。
 
-![在 Teams 系統管理中心更新全域原則。](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="顯示 Teams 系統管理中心中更新全域原則的螢幕擷取畫面。" lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
@@ -125,7 +125,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 當您在 Microsoft Teams 系統管理中心將原則指派給使用者時，您可以在 [[活動] 記錄](https://admin.teams.microsoft.com/activitylog)檔中檢視這些原則指派的狀態。 活動記錄顯示過去 30 天內，來自 Teams 系統管理中心和 PowerShell 的網路記錄上傳資訊、群組原則作業，以及來自 Teams 系統管理中心) 超過 20 個使用者 (批次原則作業。
 
-![[活動記錄] 頁面的螢幕擷取畫面。](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="[活動記錄] 頁面的螢幕擷取畫面。" lightbox="media/Activity_Log.png":::
 
 若要在 [活動] 記錄中檢視您的原則操作：
 

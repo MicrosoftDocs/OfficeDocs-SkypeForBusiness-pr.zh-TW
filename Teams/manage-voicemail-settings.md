@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 管理使用者的語音信箱設定。
-ms.openlocfilehash: 80dad0b2088518c9d6f08ee005eba25cc1e10e2b
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494838"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269598"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>管理使用者的雲端語音信箱設定
 

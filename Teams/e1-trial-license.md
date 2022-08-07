@@ -12,15 +12,14 @@ ms.localizationpriority: high
 description: 如果您沒有 Microsoft Teams 且急需要使用它，請為因應 COVID-19 (冠狀病毒) 爆發，需要從遠端工作或在家工作 (WFH) 的使用者推出 Office 365 E1 試用版。
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496b0d912ba88c17106d4941edacd2777bfcec97
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 9982f85ee8ff3262a246ec2df7f9ed3511c1c20c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562562"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270238"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 

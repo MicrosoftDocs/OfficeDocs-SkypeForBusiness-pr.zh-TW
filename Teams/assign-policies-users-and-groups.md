@@ -18,12 +18,12 @@ description: 瞭解在 Microsoft Teams 中將原則指派給使用者和群組�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156561"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267578"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>指派原則給使用者和群組
 
@@ -41,7 +41,7 @@ ms.locfileid: "67156561"
 2. 按一下使用者名稱左側以選取使用者，然後選取 **[編輯設定]**。
 3. 選取您要指派的原則，然後選取 [ **套用]**。
 
-![在 Teams 系統管理中心將原則指派給使用者。](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="[管理使用者] 底下的 [編輯設定] 窗格螢幕擷取畫面。" lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > 若要取消指派特定原則給使用者，您可以將每個原則設定為 **全域 (組織預設)**。 您也可以為直接指派給原則的所有使用者大量移除原則指派。 若要深入瞭解，請閱讀 [大量取消指派原則](#unassign-policies-in-bulk)。
@@ -50,11 +50,11 @@ ms.locfileid: "67156561"
 
 1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至原則頁面。
 2. 按一下原則名稱左邊，選取您要指派的原則。
-3. 選取 [管理使用者]。
+3. 選 **取 [指派使用者]**。
 4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 5. 當您完成新增使用者時，選取 [ **套用]**。
 
-![透過第二種方法，在 Teams 系統管理中心將原則指派給使用者。](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="螢幕擷取畫面顯示如何在 Teams 系統管理中心透過第二種方法指派原則給使用者。" lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### <a name="use-powershell"></a>使用 PowerShell
 
@@ -122,7 +122,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 例如，假設您有兩個群組：[Microsoft Store 員工] 和 [市集管理員]。 這兩個群組都會分別獲指派 Teams 通話原則、Microsoft Store 員工通話原則和 Microsoft Store 管理員通話原則。 對於同時位於這兩個群組中的店面管理員，其經理角色會比其員工角色更相關，因此指派給 [市集管理員] 群組的通話原則的排名應該較高。
 
-|群 |Teams 通話原則名稱  |排|
+|組 |Teams 通話原則名稱  |排名|
 |---------|---------|---|
 |市集管理員   |Microsoft Store 管理員通話原則         |1|
 |Microsoft Store 員工    |Microsoft Store 員工通話原則      |2|
@@ -142,7 +142,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 選取您要指派的原則。
     4. 選取 [ **套用]**。
 
-![指派原則給 Teams 系統管理中心的群組。](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="顯示如何在 Teams 系統管理中心將原則指派給群組的螢幕擷取畫面。" lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 若要移除群組原則指派，請在原則頁面的 [ **群組原則指派** ] 索引標籤上，選取群組作業，然後選取 [ **移除]**。
 
@@ -189,7 +189,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 以下是 Teams 會議原則的原則指派和優先順序清單。
 
-|組名  |原則名稱  |排|
+|組名  |原則名稱  |排名|
 |---------|---------|---------|
 |銷售    |銷售原則       | 1        |
 |西部地區     |西部地區原則         |2         |
@@ -198,7 +198,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 如果我們從 [西部地區] 群組移除西部地區原則，則原則指派和優先順序會如下所示更新。
 
-|組名  |原則名稱  |排|
+|組名  |原則名稱  |排名|
 |---------|---------|---------|
 |銷售    |銷售原則       | 1        |
 |劃分    |除法原則         |2         |

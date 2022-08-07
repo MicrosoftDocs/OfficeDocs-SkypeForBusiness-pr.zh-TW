@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft 直接路由如何讓您將受支援的客戶提供的會話框線控制器 (SBC) 連線至電話系統。
-ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695056"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267778"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -256,8 +256,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 將從下列子網解析為 IP 位址：
 
 |交通|從|自|來源埠|目的地埠|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|在 SBC (針對 Office 365 GCC High/DoD 上定義的僅限埠 5061) |
-SIP/TLS|SBC|SIP Proxy|定義于 SBC|5061|
+|SIP/TLS|SIP Proxy|Sbc|1024 – 65535|在 SBC (針對 Office 365 GCC High/DoD 上定義的僅限埠 5061) |
+SIP/TLS|Sbc|SIP Proxy|定義于 SBC|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>SIP 訊號的容錯移轉機制
@@ -266,7 +266,7 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 下表摘要說明主要、次要和次要資料中心之間的關聯性：
 
-|如果主要資料中心是|EMEA|NOAM|亞洲|
+|如果主要資料中心是|Emea|NOAM|亞洲|
 |:--- |:--- |:--- |:--- |
 |次要資料中心 (sip2.pstnhub.microsoft.com) |我們|歐盟|我們|
 |集中的資料中心 (sip3.pstnhub.microsoft.com) |亞洲|亞洲|歐盟|
@@ -295,8 +295,8 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 |交通|從|自|來源埠|目的地埠|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|媒體處理器|SBC|3478-3481 和 49152 – 53247|定義于 SBC|
-|UDP/SRTP|SBC|媒體處理器|定義于 SBC|3478-3481 和 49152 – 53247|
+|UDP/SRTP|媒體處理器|Sbc|3478-3481 和 49152 – 53247|定義于 SBC|
+|UDP/SRTP|Sbc|媒體處理器|定義于 SBC|3478-3481 和 49152 – 53247|
 
   > [!NOTE]
   > Microsoft 建議至少在 SBC 上同時通話兩個埠。
@@ -344,6 +344,8 @@ Microsoft 僅支援通過認證的 SB 與直接路由配對。 由於企業語�
 
 如需支援的 SBC 的詳細資訊，請參閱 [通過直接路由認證的會話框線控制器](direct-routing-border-controllers.md)。
 
+## <a name="support-boundaries"></a>支援邊界
+與認證裝置一起使用時，Microsoft 僅支援具有直接路由的電話系統。 如果發生問題，您必須先與您的 SBC 廠商的客戶支援聯繫。 如有必要，SBC 廠商會透過內部管道將問題呈報給 Microsoft。 Microsoft 保留拒絕非認證裝置透過直接路由連接到電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，則客戶需要與 SBC 廠商重新聯繫以尋求支援。
  
 ## <a name="see-also"></a>另請參閱
 

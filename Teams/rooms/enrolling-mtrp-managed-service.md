@@ -10,35 +10,35 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在Microsoft Teams 會議室進階版受管理的服務中註冊Microsoft Teams 會議室帳戶。
 f1keywords: ''
-ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635451"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270998"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>在Microsoft Teams 會議室進階版受管理的服務中註冊裝置
 
-若要在Teams 會議室 進階版管理的服務中註冊Microsoft Teams 會議室裝置，您必須將一或多個使用者指派給受管理的服務系統管理員，然後使用該使用者完成註冊步驟。
+若要在 Teams 會議室 Premium 受管理服務中註冊Microsoft Teams 會議室裝置，您必須將一或多個使用者指派給受管理的服務系統管理員，然後使用該使用者完成註冊步驟。
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>指派使用者給受管理的服務系統管理員角色
 
 完成下列步驟，將使用者指派給受管理的服務系統管理員角色：
 
-1. 使用與登入[Microsoft 365 系統管理中心](https://portal.rooms.microsoft.com/)相同的系統管理員許可權，登入Teams 會議室 進階版入口網站。
-2. 流覽至 **設定**  >  **設定**  >  **Roles**，然後選取 **[受管理的服務系統管理員]**。
+1. 使用與登入Microsoft 365 系統管理中心相同的系統管理員許可權登入[Teams 會議室進](https://portal.rooms.microsoft.com/)階版入口網站。
+2. 流覽至 **[設定**  >  **設定**  >  **角色]**，然後選取 [**受管理的服務系統管理員]**。
 3. 在 [ **受管理的服務系統管理員]** 底下，選取 [ **作業] 索引卷** 標，然後選取 [ **新增]**。
 4. 請依照精靈為作業命名，然後選取應新增至作業的使用者。 作業將套用至所有會議室和會議室群組。
 5. 在作業精靈的結尾，選取 **[新增作業]**。
 
-獲指派受管理服務系統管理員角色的使用者，負責管理及監控Teams 會議室 進階版管理的服務入口網站。
+獲指派受管理服務系統管理員角色的使用者，負責管理及監控Teams 會議室進階版管理服務入口網站。
 
 將使用者指派給受管理的服務系統管理員角色之後，請繼續[前往註冊Teams 會議室裝置](enroll-a-device.md)以將Teams 會議室裝置新增至受管理的服務入口網站。
 

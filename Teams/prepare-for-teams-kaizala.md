@@ -1,5 +1,5 @@
 ---
-title: 繪製您Kaizala Teams旅程的圖表
+title: 繪製 Kaizala 到 Teams 旅程的圖表
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -7,32 +7,33 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 本文說明如何準備從Kaizala移至Microsoft Teams。
+description: 本文說明如何準備從 Kaizala 移至 Microsoft Teams。
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 913d8991678a4da384d9208378e359cec016f1b8
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635401"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271418"
 ---
-# <a name="charting-your-kaizala-to-teams-journey"></a>繪製您Kaizala Teams旅程的圖表
+# <a name="charting-your-kaizala-to-teams-journey"></a>繪製 Kaizala 到 Teams 旅程的圖表
 
-您決定要從Kaizala移至Microsoft Teams。
+您決定從 Kaizala 移至 Microsoft Teams。
 
 在開始之前，請務必回答下列兩個問題：
 
-- 要移至Teams的使用者群組為何？  
+- 哪些使用者群組將移至 Teams？  
 
-- 您要Teams的路徑為何？
+- 您前往 Teams 的路徑為何？
 
 ## <a name="identify-user-groups"></a>識別使用者群組
 
-*貴組織中有哪些群組？神秘將使用Teams和作法？這些群組需要哪些需求才能有效進行團隊合作？* 若要開始進行Teams，請先 **識別轉換的使用者群組。**  使用者群組是您員工中的一組員工，可在公司中的類似領域進行工作。 
+*貴組織中有哪些群組？誰將使用 Teams 以及如何使用？這些群組需要哪些需求才能有效進行團隊合作？* 若要開始您的 Teams 之旅，請先 **識別轉換的使用者群組。**  使用者群組是您員工中的一組員工，可在公司中的類似領域進行工作。 
 
 我們已找出三個常見的使用者群組，以協助您識別共同作業需求。 就通訊而言，每個使用者群組都有其獨特的需求。 
 
@@ -70,35 +71,35 @@ ms.locfileid: "65635401"
 
 與外部使用者 (供應商/供應商) 連線的使用者可以使用：
 
-- [Microsoft Teams使用者可以與組織外部的任何Teams使用者聊天](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
+- [Microsoft Teams 使用者可以與組織外部的任何 Teams 使用者聊天](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [新增或邀請Teams組織外部的人員加入聊天](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
+- [新增或邀請 Teams 組織外部的人員加入聊天](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>判斷路徑
 
-確認使用者群組的共同作業需求之後，您將能夠判斷從Kaizala到Teams路徑的外觀。 每個組織都是獨一無二的，而且員工的旅程不會完全相同。 目前未使用Teams的組織必須做出額外的策略性決策，以確保順利移轉。 決定路徑將協助您找出應該完成的任何重要動作，以便順利轉換。
+確認使用者群組的共同作業需求之後，您將能夠判斷從 Kaizala 到 Teams 的路徑的外觀。 每個組織都是獨一無二的，而且員工的旅程不會完全相同。 目前未使用 Teams 的組織必須做出額外的策略性決策，以確保順利移轉。 決定路徑將協助您找出應該完成的任何重要動作，以便順利轉換。
 
 我們已根據您組織的目前使用方式，概述路徑可能包含哪些專案：  
 
-對於 **未使用Teams** 的組織：
+對於 **未使用 Teams 的** 組織：
 
-![目前未使用Teams的組織路徑](media/kaizala-not-using-teams.png)
+![目前未使用 Teams 的組織路徑](media/kaizala-not-using-teams.png)
 
  1. 為您的組織構想團隊合作
 
- 2. 試驗Teams
+ 2. 試驗 Teams
   
- 3. 部署Teams
+ 3. 部署 Teams
   
- 4. 使用Kaizala和Teams
+ 4. 使用 Kaizala 和 Teams
   
  5. 管理變更
 
- 6. 規劃採用Teams
+ 6. 規劃採用 Teams
 
- 7. 將貴組織移至Teams
+ 7. 將貴組織移至 Teams
 
-對於 **已使用Teams** 的組織：
+對於 **已使用 Teams** 的組織：
 
 ![目前使用 Teams 的組織路徑](media/kaizala-using-teams.png)
 
@@ -110,4 +111,4 @@ ms.locfileid: "65635401"
 
 <a name="ControlSyncThroughput"> </a>
 
-[規劃成功轉換至Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)
+[規劃成功轉換到 Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)

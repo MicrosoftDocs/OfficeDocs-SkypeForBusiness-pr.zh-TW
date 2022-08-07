@@ -16,12 +16,14 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200edfcbe8c93c2f629f176a17959e60f70cb902
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 170f62afd6cd75d5060243271fb951cf9dd4aa5c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564241"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270888"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>設定 Microsoft Teams 核心功能
 

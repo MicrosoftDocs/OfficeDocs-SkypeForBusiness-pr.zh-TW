@@ -1,7 +1,7 @@
 ---
-title: 管理Windows更新Microsoft Teams 會議室
-ms.author: czawideh
-author: cazawideh
+title: 管理適用于 Microsoft Teams 會議室 的 Windows 更新
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,47 +12,48 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.assetid: ''
-description: 系統管理員可以瞭解如何管理Windows更新Windows更新Microsoft Teams 會議室。
+description: 管理員可以瞭解如何管理 Microsoft Teams 會議室 的 Windows 更新 和 Windows 功能更新。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 95b99e8869ed9fa63a372c6c40d1d0d2be28c019
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 1df5521bdfafe38854a0b6a3821e86218ce95a0b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503750"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272178"
 ---
-# <a name="manage-windows-updates"></a>管理Windows更新
+# <a name="manage-windows-updates"></a>管理 Windows 更新
 
-Microsoft Teams 會議室于 Windows 10 企業版 IoT 或 Windows 10 企業版 (VL) 上執行，並Windows與標準桌上型電腦相同的更新和作業系統建立。
+Microsoft Teams 會議室在 Windows 10 企業版 IoT 或 Windows 10 企業版 (VL) 上執行，並收到與標準桌上型電腦相同的 Windows 更新 和作業系統組建。
 
-Windows更新可以管理，如下列各節所述：
+Windows 更新可依照下列各節所述進行管理：
 
-## <a name="hands-off-approach"></a>離開方法 
+## <a name="hands-off-approach"></a>免持方式 
 
-- 根據預設，更新會直接從更新Windows自動更新，並會在非工作時間安裝。
-- 不可延遲的更新會在發行的第一天自動安裝。
+- 根據預設，更新會直接從 Windows 下載更新自動安裝，並在下班時間安裝。
+- 不可延後更新自動安裝第一天發行版本。
 - 品質更新和驅動程式會自動下載並安裝一天。
-- 功能更新。 請參閱下列筆記。
+- 功能更新。 請參閱後續的筆記。
 
-## <a name="windows-updates-for-business-gpo-or-intune"></a>Windows GPO 或 Intune (商務用更新)   
+## <a name="windows-updates-for-business-gpo-or-intune"></a>商務用 Windows 更新 (GPO 或 Intune)   
 
-- [Windows商務用更新下載](/windows/deployment/update/waas-manage-updates-wufb)
-- 更新會從 Windows 或您的 WSUS Windows Server Update Services (下載) 但已配置的延遲會過原始發行日期。
-- 您可以使用多個 OUs 或篩選後的政策來建立部署「圈」，讓系統管理員Teams 會議室先安裝哪些裝置品質更新，以及稍後安裝哪些裝置。 在整個部署中推出更新之前，可以在裝置子集上測試可靠性和Windows，而不需要在 Configuration Manager 中管理Windows更新。
-- 如果您想要同時Windows頻寬管理和商務用更新的控制權，可以同時[](/windows/deployment/update/waas-integrate-wufb)Windows商務用更新。
-- 功能更新。 請參閱下列筆記。
+- [商務用 Windows 更新](/windows/deployment/update/waas-manage-updates-wufb)下載
+- 更新是從 Windows Update 或您的 Windows Server Update Services (WSUS) 下載，但已設定超過原始發行日期的延遲。
+- 您可以使用多個 OU 或篩選的原則來建立部署「頻道」，讓系統管理員可以指定哪些Teams 會議室裝置先安裝品質更新，然後再安裝哪些裝置。 可靠性和效能可先在一部分裝置上測試，然後在整個部署中推出更新，而不需要在Configuration Manager中管理 Windows 更新的負荷。
+- 如果您需要頻寬管理和商務用 Windows 更新提供的控制措施，可以[同時](/windows/deployment/update/waas-integrate-wufb)設定 WSUS 和商務用 Windows 更新。
+- 功能更新。 請參閱後續的筆記。
 
 ## <a name="wsusconfiguration-manager"></a>WSUS/Configuration Manager
 
-- [WSUS/Configuration Manager](/windows/deployment/update/waas-manage-updates-configuration-manager) 下載
-- 就像Windows商務用更新，但在每個「圈」或整個部署中，有一個將特定 KB 作為目標的額外選項。 每個更新都可以依需要個別部署和測試，而不是只仰賴延遲。
-- 功能更新。 請參閱下列筆記。
+- [WSUS/Configuration Manager](/windows/deployment/update/waas-manage-updates-configuration-manager)下載
+- 很像商務用 Windows Update，但要讓特定 KB 在每個「通道」或整個部署內設定特定 KB 目標的其他選項。 每個更新都可以個別部署和測試，而不是只依賴延遲。
+- 功能更新。 請參閱後續的筆記。
 
 ### <a name="feature-updates"></a>功能更新
 
-與品質與不可延遲更新不同，Windows 10主要作業系統版本 (的 「功能更新」) 只會在 Microsoft 測試並驗證使用 Microsoft Teams 會議室 的給定更新功能之後安裝。 即使您將更新發行至 Semi-Annual 通道 (或已設定目標，如果您將系統設定為測試) 或手動推送，Microsoft Teams 會議室 也不允許安裝未測試的更新。
+不同于品質與不可延遲的更新，Windows 10「功能更新」 (主要作業系統版本) 只會在 Microsoft 測試並驗證特定的Microsoft Teams 會議室更新功能之後才安裝。 即使更新已發行至Semi-Annual通道 (或已設定目標，如果您已將系統設定為該通道以測試) 或手動推送，Microsoft Teams 會議室不會允許安裝未經測試的更新。
 
-Microsoft Teams 會議室使用「開箱即用」函數。 Teams 會議室下載更新，並等待下次重新開機以安裝更新。 除非有人手動重新開機，安裝只會在自動夜間重新開機時執行。 Windows聊天室中的更新應該是透明的，而且正常作業不應受到更新Windows干擾。
+Microsoft Teams 會議室用免持即用的方法來「開箱即用」函數。 Teams 會議室下載更新，並等待下一次重新開機以安裝更新。 除非有人手動重新開機，否則安裝只會在自動夜間重新開機時進行。 Windows 更新在會議室中應該是透明的，正常運作不應受到 Windows 更新干擾。
 
-如果您選擇將加入裝置網域，您可以使用 Microsoft Endpoint Configuration Manager WSUS。 請特別注意導致裝置更新或工作時間強制重新開機的政策或動作。 Teams 會議室使用期間不應重新開機，或提醒Windows使用時間期間，Windows UI 更新。 如果發生此行為，請檢查您的組組。
+如果您加入宣告裝置網域，您可以使用 Microsoft Endpoint Configuration Manager 或 WSUS。 特別注意導致裝置更新或在上班時間強制重新開機的原則或動作。 Teams 會議室在使用期間不應該重新開機，或在使用時段內透過 UI 對 Windows 更新發出警示。 如果發生該行為，請檢閱您的設定。

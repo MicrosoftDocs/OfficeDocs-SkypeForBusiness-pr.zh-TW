@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是立陶宛Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 0eb3979986546f9b99437bba568a1d9cd9e69460
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: 以下是適用于立陶宛商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 194e633a8e441ed30d32d684f39498d1b4b4d491
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942066"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271008"
 ---
 # <a name="availability-in-lithuania"></a>立陶宛的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是立陶宛Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于立陶宛商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -44,7 +44,7 @@ ms.locfileid: "59942066"
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li> 維爾紐斯</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> |需要通訊信用額度  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> |需要通訊點數  <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
@@ -59,10 +59,10 @@ ms.locfileid: "59942066"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
-|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家和地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
+|撥出電話可以撥打進階號碼嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 適用于 196 個國家或地區，包括 [這些國家](users-can-make-outbound-calls-to-these-countries-and-regions.md)或地區。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是加拿大Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于 商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593137"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270508"
 ---
 # <a name="availability-in-canada"></a>加拿大的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是加拿大Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于 商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
 
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -59,16 +59,16 @@ ms.locfileid: "58593137"
 
 | **功能**                                        | **詳細資料**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 可以購買通話方案嗎？  <br/>    | 是  <br/>                                                                                                                                                                                                                                                                  |
-| 通話方案可用的通話分鐘數。               | 每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>3000 分鐘的國內通話方案</li></li><li>國內及國際通話方案：3000 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li>|
-| 可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。<br/>                                                                                                                                                                                                                                            |
-| 可以向外撥打電話嗎？  <br/>                 | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/>                                                                                                                                                                  |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
+| 撥出電話可以撥打進階號碼嗎？  <br/> | 目前不支援。<br/>                                                                                                                                                                                                                                            |
+| 可以向外撥打電話嗎？  <br/>                 | 到 196 個國家/地區，包括這些國家/ [地區](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/>                                                                                                                                                                  |
 
 > [!Note]
-> 當美國 (國內或國內) 使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策，將使用者的撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者將無法撥打美國使用者。
+> 當通話方案 (在美國境內或國內及國際) 使用者撥打加拿大的電話號碼時，將會被視為國內通話。 這也是當加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案原則將使用者撥出限制為僅限國內，美國使用者將無法撥打加拿大電話，同樣地，加拿大使用者也無法撥打美國使用者的電話。
 
 > [!Note]
-> 美國電話會視為國內通話。
+> 撥打到美國的通話會視為國內通話。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

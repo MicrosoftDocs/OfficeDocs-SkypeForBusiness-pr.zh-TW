@@ -1,5 +1,5 @@
 ---
-title: 在比利時的可用性
+title: 比利時的可用性
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于比利時Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 1aeb19d2cf8f423f3af9fd207771f47e419961de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于比利時的 商務用 Skype 和 Microsoft Teams 適用的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 31277c977f35f1ff07fce42708edccee69b380c2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607830"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268638"
 ---
-# <a name="availability-in-belgium"></a>在比利時的可用性
+# <a name="availability-in-belgium"></a>比利時的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于比利時Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于比利時的 商務用 Skype 和 Microsoft Teams 適用的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -59,20 +59,20 @@ ms.locfileid: "58607830"
     
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li> |
-|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
+|撥出電話可以撥打進階號碼嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括這些國家/ [地區](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> | <ul><li>布魯日<li>  布魯塞爾 <li>Charleroi <li>  根特 <li>  老爺子 <li>  Namur </ul> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> | <ul><li>布魯日<li>  布魯塞爾 <li>Charleroi <li>  根特 <li>  老爺子 <li>  納裡 </ul> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
+ 如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得 商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通訊點數
 

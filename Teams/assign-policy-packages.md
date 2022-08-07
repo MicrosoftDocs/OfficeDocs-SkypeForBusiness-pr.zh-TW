@@ -1,5 +1,5 @@
 ---
-title: 指派原則套件給使用者和群組
+title: 將原則套件指派給使用者和群組
 author: mkbond007
 ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
@@ -14,51 +14,49 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解將原則套件指派給Microsoft Teams使用者和群組的不同方式。
+description: 瞭解在 Microsoft Teams 中將原則套件指派給使用者和群組的不同方式。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 48391db005ca7d40081c0aeb22f71be58fcc9f9f
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: cd6cbaab900ce1e9e5f4a2bd19731573c66ab7eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646522"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272048"
 ---
-# <a name="assign-policy-packages-to-users-and-groups"></a>指派原則套件給使用者和群組
+# <a name="assign-policy-packages-to-users-and-groups"></a>將原則套件指派給使用者和群組
 
-本文將檢閱將原則套件指派給Microsoft Teams使用者和群組的不同方式。 閱讀之前，請確定您已閱讀[Teams 中的指派原則 - 開始使用](policy-assignment-overview.md)。
+本文將檢閱在 Microsoft Teams 中將原則套件指派給使用者和群組的不同方式。 閱讀之前，請確定您已閱讀 [Teams 中的指派原則 - 開始使用](policy-assignment-overview.md)。
 
 > [!NOTE]
 > 每位使用者都需要 [進階通訊] 附加元件，才能接收自訂原則套件指派。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 ## <a name="assign-a-policy-package-to-users"></a>指派原則套件給使用者
 
-Teams中的原則套件是一組預先定義的原則和原則設定，您可以將這些設定指派給組織中具有相同或相似角色的使用者。 每個原則套件都是針對使用者角色而設計，並包含預先定義的原則和原則設定，可支援該角色的一般活動。 一些原則套件範例包括教育 (教師) 套件和醫療保健 (醫療工作者) 套件。 若要深入瞭解，請參閱[管理Teams中的原則套件](manage-policy-packages.md)。
+Teams 中的原則套件是預先定義的原則和原則設定集合，您可以將這些設定指派給組織中具有相同或相似角色的使用者。 每個原則套件都是針對使用者角色而設計，並包含預先定義的原則和原則設定，可支援該角色的一般活動。 一些原則套件範例包括教育 (教師) 套件和醫療保健 (醫療工作者) 套件。 若要深入瞭解，請參閱 [管理 Teams 中的原則套件](manage-policy-packages.md)。
 
 ### <a name="assign-a-policy-package-to-one-user"></a>指派原則套件給一個使用者
 
-1. 在 Microsoft Teams系統管理中心的左側導覽中，移至 [**使用者**]，然後選取該使用者。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 [ **使用者**]，然後選取該使用者。
 
 2. 在使用者的頁面上，選取 [ **原則**]，然後選取 [ **原則套** 件] 旁邊的 [ **編輯]**。
 
-3. 在 [ **指派原則套** 件] 窗格中，選取您要指派的套件，然後選取 [儲存 **]**。
+3. 在 [ **指派原則套** 件] 窗格中，選取您要指派的套件，然後選取 [ **套用]**。
 
-![Teams系統管理中心將原則套件指派給使用者的螢幕擷取畫面。](media/assign-policypackages-user.png)
+    :::image type="content" source="media/assign-policy-package-one-user.png" alt-text="顯示 Teams 系統管理中心將原則套件指派給使用者的螢幕擷取畫面。" lightbox="media/assign-policy-package-one-user-expanded.png":::
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>指派原則套件給多位使用者
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 [**原則套件**]，然後按一下套件名稱左側，選取您要指派的原則套件。
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 [ **原則套件**]，然後按一下套件名稱左側，選取您要指派的原則套件。
 
 2. 選取 [管理使用者]。
 
 3. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 
-4. 當您完成新增使用者時，請選取 [ **儲存]**。
+4. 當您完成新增使用者時，選取 [ **套用]**。
 
-
-![Teams系統管理中心將原則套件指派給多位使用者的螢幕擷取畫面。](media/assign-policypackages-multipleusers.png)
-
+    :::image type="content" source="media/assign-policy-package-multiple-users.png" alt-text="顯示 Teams 系統管理中心原則套件指派給多位使用者的螢幕擷取畫面。" lightbox="media/assign-policy-package-multiple-users-expanded.png":::
 
 ## <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
 
@@ -73,13 +71,11 @@ Teams中的原則套件是一組預先定義的原則和原則設定，您可以
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>在系統管理中心將原則套件指派給一組使用者
 
-1. 登入 Teams 系統管理中心。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 [ **原則套件** ] 頁面。
 
-2. 在左側導覽中，移至原則套件頁面。
+2. 選取 [ **群組套件指派] 索引** 標籤。
 
-3. 選取 [群組原則指派] 索引標籤。
-
-4. 選取 **[新增群組**]，然後在 [將原則套件指派給群組] 窗格中，執行下列動作：
+3. 選取 **[新增**]，然後在 [ **指派原則套件至群組** ] 窗格中，執行下列動作：
 
     1. 搜尋並新增您要指派原則套件的群組。
 
@@ -89,18 +85,17 @@ Teams中的原則套件是一組預先定義的原則和原則設定，您可以
 
     1. 選取 [ **套用]**。
 
+       :::image type="content" source="media/assign-policy-package-group.png" alt-text="將原則套件指派給群組窗格的螢幕擷取畫面。" lightbox="media/assign-policy-package-group-expanded.png":::
 
-       ![顯示群組原則指派。](media/group-pkg-assignment.png)
+4. 若要管理特定原則類型的排名，請流覽至特定的原則頁面。
 
-5. 若要管理特定原則類型的排名，請流覽至特定的原則頁面。
-
-6. 若要將原則套件重新指派給群組，請先移除群組原則指派。 然後，依照上述步驟將原則套件指派給群組。
+5. 若要將原則套件重新指派給群組，請先移除群組原則指派。 然後，依照上述步驟將原則套件指派給群組。
 
 ### <a name="work-with-powershell"></a>使用 PowerShell
 
 #### <a name="get-the-teams-powershell-module"></a>取得 Teams PowerShell 模組
 
-如需逐步指引，請參閱[安裝 powerShell Teams](teams-powershell-install.md)。
+如需逐步指引，請參閱 [安裝 Teams PowerShell](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>指派原則套件給一組使用者
 
@@ -122,13 +117,13 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ### <a name="use-the-teams-powershell-module"></a>使用 Teams PowerShell 模組
 
-如果您尚未) ，請執行下列動作來安裝[Microsoft Teams PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams) (。 請確定您已安裝版本 1.0.5 或更新版本。
+如果您尚未) ，請執行下列步驟來安裝 [Microsoft Teams PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams) (。 請確定您已安裝版本 1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-執行下列動作以連線至Teams並啟動會話。
+執行下列動作以連線至 Teams 並開始會話。
 
 ```powershell
 Connect-MicrosoftTeams
@@ -162,7 +157,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="related-topics"></a>相關主題
 
-- [使用原則管理Teams](manage-teams-with-policies.md)
-- [管理Microsoft Teams中的原則套件](manage-policy-packages.md)
+- [使用原則管理 Teams](manage-teams-with-policies.md)
+- [在 Microsoft Teams 中管理原則套件](manage-policy-packages.md)
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
 - [在 Teams 中指派原則 - 快速入門](policy-assignment-overview.md)

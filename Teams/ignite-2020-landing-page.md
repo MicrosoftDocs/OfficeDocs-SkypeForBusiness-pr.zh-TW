@@ -8,13 +8,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 manager: serdars
+ms.collection:
+- M365-collaboration
 ROBOTS: NOINDEX
-ms.openlocfilehash: 763c65fae26956483f6950a9f573b1b41d7efa9e
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 1dc9c743c6d122b55b69efffca5e9b9d110f2f18
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175817"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269898"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 的 Teams 會話
 
@@ -92,7 +94,7 @@ ms.locfileid: "67175817"
 |[建置無摩擦力的應用程式&使用授權和驗證功能啟用順暢採用，以及 Microsoft Graph](https://aka.ms/PR137)|開發具有強大功能的應用程式，例如單一Sign-On (SSO) 、Resource-Specific同意 (RSC) ，以及細度許可權。 IT 系統管理員可以瞭解如何運用圖形 API 來自動化應用程式生命週期/管理。|400|王Kramer|
 
 
-### <a name="industry"></a>工業
+### <a name="industry"></a>行業
 
 | 標題 | 抽象            | 水準| 揚聲器 |
 |---|----------|---|---|

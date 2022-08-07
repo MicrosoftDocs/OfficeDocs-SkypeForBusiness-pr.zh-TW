@@ -10,17 +10,16 @@ search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 description: 瞭解 IT 系統管理員如何在 Teams Q&A 中設定、使用及管理 Q&A，以結構化的方式收集問題、組織討論、刪除個別訊息、使用可用的語言，以及瞭解資料生命週期以及資料保留和刪除原則。
-ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: edcf1578b70bf39ccf330b7a328b7d0de7558263
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880427"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268628"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>在 Teams 會議中管理 Q&A
 
@@ -34,6 +33,7 @@ Q&A 可讓簡報者回答出席者的問題，並即時回答。 這項功能最
 - 若要允許貴組織中的使用者將 Q&A 新增至 Teams 會議，您必須確認已在 Azure Active Directory 中啟用Office 365 Yammer 服務的登入。 請依照下列步驟確認已啟用登入：
   - 移至 **Azure AD 系統管理中心**  >  **所有服務**  >  **企業應用程式**  >  **Office 365 Yammer**  >  **內容。**
   - 如 **需 [使用者可以** 登入？] 選項，請視需要選取 [ **是** ]。
+- 確認您尚未在[Teams 應用程式](/MicrosoftTeams/manage-apps)中封鎖 Q&A (Native) 應用程式
 
 ## <a name="who-can-use-qa"></a>誰可以使用 Q&A
 

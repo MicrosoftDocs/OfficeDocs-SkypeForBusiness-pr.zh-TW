@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 請參閱Microsoft Teams將電話撥入式會議授權和會議 ID 指派給使用者及許多其他電話撥入式會議設定的步驟。
-ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+description: 請參閱 Microsoft Teams 將電話撥入式會議授權和會議 ID 指派給使用者和許多其他電話撥入式會議設定的步驟。
+ms.openlocfilehash: 4bfb813b6e7b472ad7a9ab58e6403b92f60fd039
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106328"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271218"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 管理貴組織的音訊會議設定
 
-您可能更容易在單一位置查看Microsoft Teams的所有音訊會議設定。
+您可能更容易在單一位置查看 Microsoft Teams 的所有音訊會議設定。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,20 +39,20 @@ ms.locfileid: "65106328"
 ## <a name="assign-an-audio-conferencing-license"></a>指派音訊會議授權
 
 > [!NOTE]
-> 您無法使用Teams指派授權。 您必須使用Microsoft 365 系統管理中心。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+> 您無法使用 Teams 指派授權。 您必須使用Microsoft 365 系統管理中心。 請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 ### <a name="to-assign-a-license-for-a-user"></a>指派授權給使用者
 
-1. 使用公司或學校帳戶登入Microsoft 365。
+1. 使用公司或學校帳戶登入 Microsoft 365。
 
-2. 在Microsoft 365 系統管理中心左側導 **覽** 中，移至 [**使用者**  >  **作用中的使用者**]，然後從可用使用者清單中選取使用者或使用者。
+2. 在Microsoft 365 系統管理中心左側導 **覽** 中，移至 [**使用者**  >  **作用中使用者]**，然後從可用使用者清單中選取使用者或使用者。
 
     > [!NOTE]
     > 如果您要同時指派授權給最多 20 個使用者，您可以使用 **[選取檢視** ] 下拉式清單，然後選擇其中一個選項或建立您自己的檢視。 然後按一下 **[編輯**]， **按兩次 [下一步** ]，然後選取授權，然後按一下 [ **提交]**。  
   
 3. 在 [產品授權] 下的 [動作] 窗格 **中**，按一下 [ **編輯]**。
 
-4. 在 [ **產品授權]** 頁面上，開啟 **[音訊會議]** ，然後按一下 [ **儲存]**。 如需授權的詳細資訊，[請參閱Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+4. 在 [ **產品授權]** 頁面上，開啟 **[音訊會議]** ，然後按一下 [ **儲存]**。 如需授權的詳細資訊，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
    > [!NOTE]
    > 指派授權之後，Microsoft 一開始可能不會以音訊會議提供者的形式出現在清單中。 如果發生這種情況，請登出系統管理中心，或按 CTRL+F5 重新整理瀏覽器視窗。
@@ -62,7 +61,7 @@ ms.locfileid: "65106328"
 
 ### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心啟用或停用
 
-1. 在左側導覽中，移至 **[會議**  >  **會議橋樑]**。
+1. 在左側導覽中，移至 **[會議**  >  **橋樑]**。
 
 2. 在 [ **會議橋** ] 頁面頂端，按一下 [ **橋接器設定]**。
 
@@ -72,11 +71,11 @@ ms.locfileid: "65106328"
 
 ### <a name="enable-or-disable-using-windows-powershell"></a>使用 Windows PowerShell 啟用或停用
 
-如需詳細資訊，請參閱[Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)。
+如需詳細資訊，請參閱 [Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps) 。
   
 ## <a name="reset-the-meeting-conference-id"></a>重設會議 ID
 
-### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>使用系統管理中心重設會議 ID Microsoft Teams
+### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心重設會議 ID
 
 1. 在左側導覽中，按一下 [ **使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -90,7 +89,7 @@ ms.locfileid: "65106328"
 
 使用者排程的每個會議都會獲指派一個唯一的會議 ID。 雖然會議 ID 會自動建立並指派給使用者，但有時候使用者可能不想使用此會議 ID，而您想要將它設定為特定號碼，或是您的使用者不記得或遺失其會議 ID。
 
-### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>使用Microsoft Teams系統管理中心重設會議召集人的 PIN
+### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心重設會議召集人的 PIN
 
 1. 在左側導覽中，按一下 [ **使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -102,7 +101,7 @@ ms.locfileid: "65106328"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>傳送含有音訊會議資訊的電子郵件給使用者
 
-### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>使用系統管理中心傳送電子郵件Microsoft Teams
+### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心傳送電子郵件
 
 1. 在左側導覽中，按一下 [ **使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -115,18 +114,18 @@ ms.locfileid: "65106328"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>設定邀請中包含的電話號碼
 
-### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>使用系統管理中心設定邀請電話號碼Microsoft Teams
+### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心設定邀請電話號碼
 
-請參閱[在 Microsoft Teams 中設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
+請參閱 [在 Microsoft Teams 中設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 > [!NOTE]
-> 您也可以將電話號碼新增至 *TeamsAudioconferencingpolicy* ，並將原則指派給使用者，藉此設定電話號碼。 新增到原則的付費和免付費電話號碼會優先于透過音訊會議設定窗格個別為使用者設定的電話號碼。 如果未將電話號碼新增至 *Teamsaudioconferencingpolicy*，則透過音訊會議設定窗格個別設定的電話號碼將會顯示在會議邀請Microsoft Teams。 [付費和免付費電話號碼的音訊會議原則設定](audio-conferencing-toll-free-numbers-policy.md) 有更多資訊。
+> 您也可以將電話號碼新增至 *TeamsAudioconferencingpolicy* ，並將原則指派給使用者，藉此設定電話號碼。 新增到原則的付費和免付費電話號碼會優先于透過音訊會議設定窗格個別為使用者設定的電話號碼。 如果未將電話號碼新增至 *Teamsaudioconferencingpolicy*，則透過音訊會議設定窗格個別為使用者設定的電話號碼將會顯示在 Microsoft Teams 會議邀請中。 [付費和免付費電話號碼的音訊會議原則設定](audio-conferencing-toll-free-numbers-policy.md) 有更多資訊。
 
 ## <a name="choose-audio-conferencing-bridge-settings"></a>選擇音訊會議橋接器設定
 
-### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>使用系統管理中心設定來電者加入會議時 Microsoft Teams的會議體驗
+### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心設定來電者加入會議時的會議體驗
 
-1. 在左側導覽中，移至 **[會議**  >  **會議橋樑]**。
+1. 在左側導覽中，移至 **[會議**  >  **橋樑]**。
 
 2. 在 [ **會議橋** ] 頁面頂端，按一下 [ **橋接器設定]**。
 
@@ -145,7 +144,7 @@ ms.locfileid: "65106328"
   
 ### <a name="set-the-pin-length-for-meetings"></a>設定會議的 PIN 長度
 
-1. 在左側導覽中，移至 **[會議**  >  **會議橋樑]**。
+1. 在左側導覽中，移至 **[會議**  >  **橋樑]**。
 
 2. 在 [ **會議橋** ] 頁面頂端，按一下 [ **橋接器設定]**。
 
@@ -157,7 +156,7 @@ ms.locfileid: "65106328"
 
 ### <a name="enable-or-disable-email-from-being-sent-to-audio-users"></a>啟用或停用傳送給音訊使用者的電子郵件
 
-1. 在左側導覽中，移至 **[會議**  >  **會議橋樑]**。
+1. 在左側導覽中，移至 **[會議**  >  **橋樑]**。
 
 2. 在 [ **會議橋** ] 頁面頂端，按一下 [ **橋接器設定]**。
 
@@ -173,9 +172,9 @@ ms.locfileid: "65106328"
 
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋接器上查看及設定主要 (預設) 及次要 () 語言
 
-### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>使用系統管理中心查看主要和次要語言Microsoft Teams
+### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心查看主要和次要語言
 
-1. 在左側導覽中，移至 **[會議**  >  **會議橋樑]**。
+1. 在左側導覽中，移至 **[會議**  >  **橋樑]**。
 
 2. 從清單中選取電話號碼，然後按一下 [ **編輯]**。
 
@@ -187,7 +186,7 @@ ms.locfileid: "65106328"
   
 ## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心查看音訊會議撥入號碼
 
-1. 在左側導覽中，移至 **[會議**  >  **會議橋樑]**。
+1. 在左側導覽中，移至 **[會議**  >  **橋樑]**。
 
 2. 從清單中選取電話號碼，然後按一下 [ **編輯]**。 您可以在這裡：
 
@@ -199,13 +198,13 @@ ms.locfileid: "65106328"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解Windows PowerShell嗎？
 
-Windows PowerShell是管理使用者，以及允許或不允許使用者執行的動作。 透過Windows PowerShell，您可以使用單點系統管理來管理Microsoft 365或Office 365，以簡化當您有多個工作要執行的日常工作。 若要開始使用Windows PowerShell，請參閱下列主題：
+Windows PowerShell是管理使用者，以及允許或不允許使用者執行的動作。 透過Windows PowerShell，您可以使用單點系統管理來管理 Microsoft 365 或 Office 365，以簡化多項日常工作。 若要開始使用Windows PowerShell，請參閱下列主題：
 
 - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Windows PowerShell 管理Microsoft 365或Office 365的最佳方式](/previous-versions//dn568025(v=technet.10))
+- [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](/previous-versions//dn568025(v=technet.10))
 
-如需Windows PowerShell的詳細資訊，請參閱[powerShell Microsoft Teams參照](/powershell/module/teams/?view=teams-ps)以取得詳細資訊。
+如需Windows PowerShell的詳細資訊，請參[閱 Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)資訊以取得詳細資訊。
 
 ## <a name="related-topics"></a>相關主題
 

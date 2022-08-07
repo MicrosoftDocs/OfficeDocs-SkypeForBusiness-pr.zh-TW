@@ -11,21 +11,19 @@ search.appverid: MET150
 ms.reviewer: ''
 description: 比較 Windows 和 Android 之間共用空間功能的 Teams 裝置指南。
 ms.collection:
-- M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: 4f9c4cf77b544e731e143f245a30e710417bebca
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810165"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272368"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windows 和 Android 之間共用空間功能比較的 Teams 裝置 
 Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都有獨特的需求，這就是為什麼 Microsoft 提供各種選項，包括 Windows 和 Android 上的Teams 會議室。 

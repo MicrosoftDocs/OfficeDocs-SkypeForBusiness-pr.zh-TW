@@ -9,26 +9,27 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 瞭解管理Microsoft Teams 會議室。
-ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761055"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272218"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 會議室維護與作業
  
  
-Microsoft Teams 會議室是 Microsoft 的會議解決方案，旨在將會議室轉換成豐富的共同作業體驗。 使用者將享有熟悉的Microsoft Teams或商務用 Skype介面，而 IT 系統管理員將會喜歡輕鬆部署和管理Windows 10 Teams 會議室應用程式。 Microsoft Teams 會議室是設計用來運用現有設備來輕鬆安裝，將Microsoft Teams或商務用 Skype帶入會議室。
+Microsoft Teams 會議室是 Microsoft 的會議解決方案，旨在將會議室轉換成豐富的共同作業體驗。 使用者將享有熟悉的 Microsoft Teams 或商務用 Skype介面，而且 IT 系統管理員將會喜歡輕鬆部署和管理Windows 10 Teams 會議室應用程式。 Microsoft Teams 會議室是設計用來利用現有設備輕鬆安裝，將 Microsoft Teams 或商務用 Skype帶入會議室。
     
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>收集 Microsoft Teams 會議室 上的記錄
 <a name="Logs"> </a>
 
-若要在 Teams 系統管理中心收集記錄，請移至 **Windows 上的 Teams 部裝置> Teams 會議室**。 選取您要記錄檔之裝置的顯示名稱。 在頂端面板中，選取 [下載裝置記錄檔]。 確認之後，記錄檔將在幾分鐘後於 [歷程記錄] 索引標籤中準備下載。
+若要在 Teams 系統管理中心收集記錄，請移至 **Windows 上的 Teams 裝置> Teams 會議室**。 選取您要記錄檔之裝置的顯示名稱。 在頂端面板中，選取 [下載裝置記錄檔]。 確認之後，記錄檔將在幾分鐘後於 [歷程記錄] 索引標籤中準備下載。
 
 您也可以使用 PowerShell 來收集記錄。 您必須叫用隨附于 Microsoft Teams 會議室 應用程式的記錄收集腳本。 在[管理員模式中](rooms-operations.md)，啟動提升許可權的命令提示字元，併發出下列命令：
   
@@ -60,11 +61,11 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 若要設定遠端顯示 [會議室前方] 的縮放比例和解析度，請參閱使用[XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定](xml-config-file.md#set-front-of-room-scale-and-resolution)。
 
-若要在 [Teams室系統管理員設定中手動設定縮放比例和解析度：
+若要在 Teams 會議室系統管理設定中手動設定縮放比例和解析度：
 
-1. 在Teams會議室中，切換至[系統管理模式](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+1. 在 Teams 會議室中，切換至 [系統管理模式](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
-2. 選取 [開始] 圖示。 然後 **設定 >系統>顯示器**
+2. 選取 [開始] 圖示。 然後 **[設定] > [系統>顯示器]**
 
 3. 移至 [ **縮放比例與版面配置**]，然後 **變更文字、應用程式及其他專案的大小**，並將縮放比例設為 100%。
 
@@ -83,10 +84,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 會議室重設 (原廠還原) 
 <a name="Reset"> </a>
 
-如果Microsoft Teams 會議室無法順利執行，執行原廠重設可能會有説明。 若要這麼做，請使用[Microsoft Teams Room 修復工具](recovery-tool.md)，並依照原廠還原指示進行。
+如果Microsoft Teams 會議室無法順利執行，執行原廠重設可能會有説明。 若要這麼做，請使用 [Microsoft Teams 會議室復原工具](recovery-tool.md) ，並依照原廠還原指示進行。
 
 > [!NOTE]
-> 有一個已知的問題是，如果 [**保留我的檔案 - 移除應用程式和設定]，但** 會在 [重設] 程式期間選取 [保留您的個人檔案] 選項，Windows Microsoft Teams 會議室會變得無法使用。 *請勿* 使用此選項。
+> 在已知的問題中，如果 [**保留我的檔案 - 移除應用程式和設定]，但** Windows 重設程式期間選取了 [保留您的個人檔案] 選項，Microsoft Teams 會議室會變得無法使用。 *請勿* 使用此選項。
   
 ## <a name="supported-remote-options"></a>支援的遠端選項
 <a name="RemoteOptions"> </a>
@@ -98,7 +99,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |:-----|:-----|:-----|
 |重新 啟動  <br/> |Teams 系統管理中心  <br/> 遠端桌面  <br/> 遠端 PowerShell  <br/> | <br/>遠端桌面 (需要進一步的設定)   <br/> 遠端 PowerShell (需要進一步的設定)   <br/> Configuration Manager  <br/> |
 |更新作業系統  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|應用程式更新  <br/> |Windows Microsoft Store  <br/> |Windows Microsoft Store  <br/> Configuration Manager  <br/> |
+|應用程式更新  <br/> |Windows 市集  <br/> |Windows 市集  <br/> Configuration Manager  <br/> |
 |帳戶設定  <br/> |Teams 系統管理中心  <br/> |Teams 系統管理中心  <br/> |
 |Access 記錄檔  <br/> |Teams 系統管理中心  <br/> PowerShell  <br/> |Teams 系統管理中心 <br/> PowerShell  <br/>  |
    
@@ -111,7 +112,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 - 加入網域Teams 會議室可讓您授與網域使用者和群組系統管理許可權。 如此一來，您就不需要記住本機電腦層級系統管理員帳戶密碼。
 
-- 您可以將Windows服務品質設定部署到Teams 會議室。
+- 您可以將 Windows 服務品質設定部署到Teams 會議室。
 
 - 如果使用商務用 Skype，加入Teams 會議室網域會自動匯入貴組織的私人根憑證鏈。
 
@@ -137,10 +138,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |啟用Microsoft Teams 會議室開機  <br/> |
 |電源管理 - \> 在 AC 上，10 分鐘後關閉螢幕  <br/> 電源管理 - \> 在 AC 上，絕不讓系統進入睡眠狀態  <br/> |啟用Microsoft Teams 會議室關閉附加顯示器並自動喚醒  <br/> |
-|net accounts /maxpwage：unlimited  <br/> 或是停用本機帳戶密碼到期的同等方式。 若無法執行此動作，最終會導致Skype帳戶無法登入抱怨密碼過期。 請注意，這會影響電腦上的所有本機帳戶，因此設定失敗也會造成方塊上的系統管理帳戶最終也會過期。  <br/> |啟用Skype帳戶永遠登入  <br/> |
+|net accounts /maxpwage：unlimited  <br/> 或是停用本機帳戶密碼到期的同等方式。 若無法執行此動作，最終會導致 Skype 帳戶無法登入抱怨密碼過期。 請注意，這會影響電腦上的所有本機帳戶，因此設定失敗也會造成方塊上的系統管理帳戶最終也會過期。  <br/> |讓 Skype 帳戶永遠都能登入  <br/> |
 
 > [!NOTE]
-> 當Microsoft Teams 會議室與下一版的 Windows 10 作業系統相容時，Teams 會議室會透過 Windows Update 自動更新到下一個版本。 Microsoft Teams 會議室不應透過手動升級至下一個Windows 10版本，或透過啟用商務用 Windows Update (WUFB) 群組原則「選取您要接收之更新的Windows整備層級」，以及透過 GPO「在收到預覽組建和功能更新時選取」。 Teams 會議室啟用這些群組原則時，已知會遇到作業系統更新Windows 10問題。
+> 當Microsoft Teams 會議室與下一版的 Windows 10 作業系統相容時，Teams 會議室會透過 Windows Update 自動更新到下一個版本。 Microsoft Teams 會議室不應透過手動升級至下一個Windows 10版本，或透過啟用商務用 Windows Update (WUFB) 群組原則「選取您要接收之更新的 Windows 整備層級」，以及透過 GPO「在收到預覽組建和功能更新時選取」。 Teams 會議室啟用這些群組原則時，已知會遇到作業系統更新Windows 10問題。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 遠端系統管理
 <a name="RemotePS"> </a>
@@ -162,7 +163,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 1. 在Microsoft Teams 會議室裝置上以管理員身分登入。
 2. 開啟提升許可權的 PowerShell 命令提示字元。
 3. 輸入下列命令： `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 開啟本機安全性原則，並將系統 *管理員* 安全性群組新增至 **安全性設定**  >  **本地原則**  >  **使用者權利指派**  >  **從網路存取此電腦**。
+4. 開啟本機安全性原則，並將系統 *管理員* 安全性群組新增至 **安全性設定**  >  **本機原則**  >  **使用者權利指派**  >  **，從網路存取此電腦**。
 
 若要執行管理作業：
   
@@ -221,9 +222,9 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>軟體更新
 <a name="SWupdate"> </a>
 
-根據預設，Microsoft Teams 會議室嘗試連線到Windows Microsoft Store以取得最新版本的 Microsoft Teams 會議室 軟體。 因此，Teams 會議室需要定期存取網際網路。 在連絡 Microsoft 以解決支援問題之前，請確定Microsoft Teams 會議室已載入最新版本的應用程式。
+根據預設，Microsoft Teams 會議室嘗試連線到 Windows 市集以取得最新版本的Microsoft Teams 會議室軟體。 因此，Teams 會議室需要定期存取網際網路。 在連絡 Microsoft 以解決支援問題之前，請確定Microsoft Teams 會議室已載入最新版本的應用程式。
   
-Microsoft Teams 會議室連線至Windows Update以擷取作業系統和周邊裝置韌體更新。 它也會連線至Microsoft Store以擷取應用程式更新。
+Microsoft Teams 會議室連線至Windows Update以擷取作業系統和周邊裝置韌體更新。 它也會連線到 Microsoft Store 以擷取應用程式更新。
 
 如果您需要手動管理應用程式更新，但無法按照一般程式[商務用 Microsoft Store](https://businessstore.microsoft.com/store)[散佈離線應用程式](/microsoft-store/distribute-offline-apps)，您可以取得Teams 會議室更新套件，以在支援的作業系統上執行應用程式更新。 更新版本可能會跟 Microsoft Store 版本落後，而且可能不一定總是符合最新可用的組建。 若要深入瞭解，請參閱[手動更新Microsoft Teams 會議室裝置](manual-update.md)。
 
@@ -235,10 +236,10 @@ Microsoft Teams 會議室連線至Windows Update以擷取作業系統和周邊�
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切換至管理員模式，並在Microsoft Teams 會議室應用程式執行時返回
 
 1. 掛斷任何進行中的通話，然後返回主畫面。
-2. 選取 [齒輪] 圖示並顯示功能表， (**設定、****協助工具** 和 **重新開機裝置**) 選項。
+2. 選取齒輪圖示，並顯示功能表 (選項為 **[設定**]、[ **協助工具]** 和 [ **重新開機裝置** ] ) 。
 3. 選 **取 [設定]**。
 4. 輸入系統管理員密碼。 安裝程式畫面隨即出現。  如果裝置未加入網域，預設會使用本機系統管理帳戶 (使用者名稱「管理員」) 。 此帳戶的預設密碼為 'sfb'。 請儘快變更此密碼。 如果電腦已加入網域，您可以使用適當許可權的網域帳戶登入。
-5. 選 **Windows 設定** 左欄。
+5. 選取左欄中的 **[Windows 設定** ]。
 6. 使用您的系統管理認證登入桌面。 您將擁有管理裝置的必要許可權。
 7. 執行必要的系統管理工作。
 8.  完成後，重新開機電腦。
@@ -247,20 +248,20 @@ Microsoft Teams 會議室連線至Windows Update以擷取作業系統和周邊�
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切換至管理員模式，並在Microsoft Teams 會議室應用程式當機時返回
 
-1. 快速連續按Windows鍵五次。 這會將您帶到Windows登入畫面。 
+1. 快速連續按下 Windows 鍵五次。 這會將您帶到 Windows 登入畫面。 
 2. 使用您的系統管理認證登入桌面。
 3. 執行必要的系統管理工作。
 4. 完成後，重新開機電腦。
 
     > [!NOTE]
-    > 此方法不會將Skype使用者登出，也不會有寬限地終止應用程式，但如果應用程式沒有回應且無法使用其他方法，您就會使用此方法。 
+    > 此方法不會將 Skype 使用者登出或寬限地終止應用程式，但如果應用程式沒有回應且無法使用其他方法，您就會使用此方法。 
 
    主機會重新開機為正常運作模式，並執行Microsoft Teams 會議室應用程式。 如果您連接鍵盤以完成此程式，您可以移除鍵盤。
    ## <a name="troubleshooting-tips"></a>疑難排解秘訣
    <a name="TS"> </a>
 
-- 會議邀請在跨網域範圍傳送時可能不會出現 (例如，兩家公司之間) 。 在這種情況下，IT 系統管理員應決定是否要允許外部使用者排程會議。 請參閱Exchange PowerShell Cmdlet [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing)一文，特別是「ProcessExternalMeetingMessages」參數。
-- Microsoft Teams 會議室不支援透過 Exchange 2010 Exchange自動探索重新導向。
+- 會議邀請在跨網域範圍傳送時可能不會出現 (例如，兩家公司之間) 。 在這種情況下，IT 系統管理員應決定是否要允許外部使用者排程會議。 請參閱 Exchange PowerShell Cmdlet [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing)一文，特別是「ProcessExternalMeetingMessages」參數。
+- Microsoft Teams 會議室不支援 Exchange 自動探索透過 Exchange 2010 重新導向。
 - 一般而言，IT 系統管理員最好停用他們不打算使用的任何音訊端點。
 - 如果在會議室預覽中顯示鏡像影像，IT 系統管理員可以使用相機設定來迴圈攝影機電源或翻轉影像方向來更正。
 - 已知會遺失主機觸控螢幕存取權。 在這種情況下，有時會重新開機Teams 會議室來解決此問題。

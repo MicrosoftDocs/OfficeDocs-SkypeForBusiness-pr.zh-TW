@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: 瞭解如何設定來電轉接和委派的使用者設定。
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681994"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272228"
 ---
 # <a name="configure-call-settings-for-your-users"></a>為您的使用者設定通話設定
 
@@ -37,17 +35,17 @@ ms.locfileid: "65681994"
 - 您需要檢查部門中所有使用者的來電轉接設定，並視需要加以修正。
 - 已雇用新的助理，您必須將助理新增為一組員工的代理人。
 
-您可以使用Teams系統管理中心或Teams PowerShell Cmdlet 來檢視及變更使用者的通話設定。
+您可以使用 Teams 系統管理中心或 Teams PowerShell Cmdlet 來檢視及變更使用者的通話設定。
 
-若要設定使用者的通話設定，使用者必須擁有已指派的Microsoft 電話系統授權。
+若要設定使用者的通話設定，使用者必須擁有指派的 Microsoft 電話系統授權。
 
-## <a name="use-the-teams-admin-center"></a>使用Teams系統管理中心
+## <a name="use-the-teams-admin-center"></a>使用 Teams 系統管理中心
 
-您可以使用Teams系統管理中心為您的使用者設定來電轉接和未接聽的設定、群組通話接聽，以及通話委派。
+您可以使用 Teams 系統管理中心為您的使用者設定來電轉接和未接聽的設定、群組通話接聽，以及通話委派。
 
 若要設定立即來電轉接設定：
 
-1. 在Teams系統管理中心，移至 [**使用者**  >  **管理使用者**] 並選取使用者。
+1. 在 Teams 系統管理中心，移至 [**使用者**  >  **管理使用者**] 並選取使用者。
 
 2. 在 [使用者詳細資料] 頁面上，移至 [ **語音] 索引** 標籤。
 

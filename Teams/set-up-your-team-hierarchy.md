@@ -10,17 +10,16 @@ search.appverid: MET150
 description: 瞭解如何在貴組織中設定團隊階層，將內容發佈到一大組團隊。
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 877b081e4964d07a7df0372688eee589bbde8fac
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: aa18168c9e8755a9b6b895ba48c38f8f79005177
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563781"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271078"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 

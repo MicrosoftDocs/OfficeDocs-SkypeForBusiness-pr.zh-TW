@@ -1,5 +1,5 @@
 ---
-title: 音訊會議Microsoft 365
+title: Microsoft 365 中的音訊會議
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -24,17 +23,17 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: 瞭解音訊會議Microsoft 365 Office 365使用者如何從他們的電話撥打會議。
-ms.openlocfilehash: b75d7c7fe50d658390a760b998a49a02ba2a0e84
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 瞭解 Microsoft 365 或 Office 365 中的音訊會議如何允許使用者從其電話撥入會議。
+ms.openlocfilehash: 1a8ed17474bc3fbcf2a9f227be4010df70d6da64
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055673"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272028"
 ---
-# <a name="audio-conferencing-in-microsoft-365"></a>音訊會議Microsoft 365
+# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 中的音訊會議
 
-音訊會議Microsoft 365 Office 365使用者可以從他們的電話撥打會議。 音訊會議最多允許 1000 個電話出席者。
+Microsoft 365 和 Office 365 中的音訊會議可讓使用者從手機撥入會議。 音訊會議可讓最多 1000 位手機出席者參加。
 
 ## <a name="what-is-audio-conferencing"></a>什麼是音訊會議？
 
@@ -76,7 +75,7 @@ ms.locfileid: "62055673"
   
  **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。 您必須取得這些語言的服務電話號碼。
   
- **共用電話號碼** 是可與其他 365 Microsoft 365共用Office電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
+ **共用電話號碼** 是可與其他 Microsoft 365 或 Office 365 共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
 雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼] 連結，來取得可用來加入會議的電話號碼清單。
 
@@ -100,7 +99,7 @@ ms.locfileid: "62055673"
 
 - **使用商務用 Skype 系統管理中心。** 針對某些國家/地區，您可以使用商務用 Skype 系統管理中心來為您的會議橋接器取得號碼。 請參閱[取得服務電話號碼](./getting-service-phone-numbers.md)。
 
-- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電話電信公司移轉或移轉Microsoft 365或Office 365。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，協助您完成此作業。  
+- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電信業者移轉至 Microsoft 365 或Office 365。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，協助您完成此作業。  
   
 - **使用表單要求新號碼。** 有時候 (視您的國家/地區而定) 您無法使用商務用 Skype 系統管理中心取得新的電話號碼，或者您將需要特定的電話號碼或區碼。 若是如此，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 

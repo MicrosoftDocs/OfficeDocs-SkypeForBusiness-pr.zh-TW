@@ -1,5 +1,5 @@
 ---
-title: '英國和英國 (的可用性) '
+title: '英國 () '
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于英國Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 62c19b6e0fd029068238da0e654dc6c30ac1783d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于英國商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: e22ffd5870bd28232ff4358fbb532c8a9e6b40d8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610360"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271628"
 ---
-# <a name="availability-in-the-united-kingdom-uk"></a>英國和英國 (的可用性) 
+# <a name="availability-in-the-united-kingdom-uk"></a>英國 () 
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于英國Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于英國商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -59,16 +59,16 @@ ms.locfileid: "58610360"
     
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li> 
-|可以撥打付費號碼外接電話嗎？ <br/> | 部分支援：使用通訊信用額度每分鐘付款，支援撥打共用成本號碼 (首碼 44843、44844、44845、44870、44871、44872) 。  不支援撥打 449XX 首碼。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>| 
+|撥出電話可以撥打進階號碼嗎？ <br/> | 部分支援：共用成本號碼 (首碼 44843、44844、44845、44870、44871、44872) 的通話會使用通訊點數每分鐘付款。  449XX 首碼的呼叫不受支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括這些國家/ [地區](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>伯明罕 <li>  博爾頓 <li>  伯恩第斯 <li>  布拉德福德 <li>  布萊頓 <li>  布里斯托爾 <li>  考文垂 <li>  船體 <li>  里茲 <li>  萊斯特 <li>  利物浦 <li>  倫敦 <li>  曼徹斯特 <li>  紐卡斯爾 <li>  諾 丁 漢 <li>  普利茅斯 <li>  謝菲爾德 <li>  斯達克-on-Trent <li>  Teesside (Middlesbrough)  </ul> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>伯明罕 <li>  博爾頓 <li>  伯恩第斯 <li>  布拉德福德 <li>  布萊頓 <li>  布里斯托爾 <li>  考文垂 <li>  船體 <li>  里茲 <li>  萊斯特 <li>  利物浦 <li>  倫敦 <li>  曼徹斯特 <li>  紐卡斯爾 <li>  諾 丁 漢 <li>  普利茅斯 <li>  謝菲爾德 <li>  層級 <li>   (Middlesbrough)  </ul> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    

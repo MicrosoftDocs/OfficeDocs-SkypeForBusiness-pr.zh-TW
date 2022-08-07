@@ -10,17 +10,16 @@ search.appverid: ''
 description: 了解在 Microsoft Teams 中，用來管理應用程式的應用程式權限原則、應用程式設定原則和自訂應用程式原則。
 audience: admin
 ms.localizationpriority: high
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 547db7e0545247629ade5ed49d039a2b9ac95556
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: a4f70ab7efcd0c2d51063ef2b0466c99bd878cc8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175637"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270668"
 ---
 # <a name="overview-of-app-policies-used-to-manage-apps"></a>用來管理應用程式的應用程式原則概觀
 

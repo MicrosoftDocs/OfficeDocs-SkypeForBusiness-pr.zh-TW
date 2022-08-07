@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是瑞典Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: d825ccafac9dee90ce1b30d2a477977f9beb163b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于瑞典商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: aa610d0f804c3104142ef0fe511ec3b8c6b53015
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623335"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268578"
 ---
 # <a name="availability-in-sweden"></a>瑞典的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是瑞典Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于瑞典商務用 Skype和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於： <br/><ul><li> 斯德哥爾摩</ul>如果您想要專用電話號碼，請參閱取得 [服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於： <br/><ul><li> 斯德哥爾摩</ul>如果您想要專用電話號碼，請參閱 [取得服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>電話系統
@@ -59,20 +59,20 @@ ms.locfileid: "58623335"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是  <br/> |
-|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li> |
-|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|可以購買通話方案嗎？  |是          |   
+|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
+|撥出電話可以撥打進階號碼嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括這些國家/ [地區](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>哥德堡 <li>  赫爾辛堡 <li>  Linkoping <li>  Malmo <li>  Orebro <li>  斯德哥爾摩 <li>  烏普薩拉 <li>  Vasteras </ul> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>哥德堡 <li>  赫爾辛堡 <li>  Linkoping <li>  Malmo <li>  Orebro <li>  斯德哥爾摩 <li>  烏普薩拉 <li>  瓦蓋拉 </ul> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得 [服務電話號碼](../getting-service-phone-numbers.md)。
+ 如果您想要取得音訊會議、自動語音應答和通話佇列的付費和免付費電話號碼，請參閱 [取得服務電話號碼](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通訊點數
 

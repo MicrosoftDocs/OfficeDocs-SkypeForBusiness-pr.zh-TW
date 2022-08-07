@@ -13,15 +13,16 @@ ms.localizationpriority: medium
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom:
 - seo-marvel-mar2020
 description: 遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題和建立主設定檔案。
-ms.openlocfilehash: b31c6519c04070c644d297071b07cc75c7dfc0f6
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005343"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272098"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定
 
@@ -162,7 +163,7 @@ ms.locfileid: "67005343"
 | `<GreenComponent>`                          | 位元組 (0-255)                 |                | 代表綠色元件。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<BlueComponent>`                           | 位元組 (0-255)                 |                | 代表藍色元件。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `<CoordinatedMeetings>`                     | 布林值&#x2777;            | 第一個&#x2776; | 協調會議之組態元素的容器。 此元素有一個屬性：<ul><li><b>啟用</b> 判斷 Teams 是否設定為與其他裝置參與協調會議。</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `<TrustedAccounts>`                         | String                      |                | 這是每個 Teams 會議室裝置或 Surface Hub 的逗號分隔 UPN 清單，裝置應接受會議加入邀請，或應傳送會議加入要求。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `<TrustedAccounts>`                         | String                      |                | 這是每個Teams 會議室裝置或 Surface Hub 的逗號分隔 UPN 清單，裝置應接受會議加入邀請，或傳送會議加入要求。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | `<Settings>`                                | 容器                   |                | 協調會議之設定音訊和視訊組態元素的容器。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | `<Audio>`                                   | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的音訊設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定當會議開始時，麥克風會在哪個裝置上作用中。 通常只有一個裝置 (Teams 會議室裝置) 可以將此欄位設定為 `true` ，而其他裝置必須設定此欄位，以避免 `false` 音訊回音和意見反應。</li><li><b>啟用</b> 判斷會議中的參與者是否可以開啟或關閉麥克風。 設為 `false` **Audio 預設** 值的裝置應將此設定設為 `false` ，讓參與者無法意外開啟麥克風並造成音訊回音或意見反應。<p>如果 **音訊預設** 值設為 `true` ，則會忽略 **啟用音訊的** 設定，且參與者可以將麥克風設為靜音或取消靜音。</li></ul>                        |
 | `<Video>`                                   | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的視訊設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定會議開始時相機會在哪個裝置上使用。 為獲得最佳體驗，建議您在所有其他裝置都設 `false` 為 `true` 時，只設定Teams 會議室裝置。</li><li><b>啟用</b> 判斷會議中的參與者是否可以開啟或關閉相機。 您可以將此設定在 `true` 活動參與者想要分享不同視訊觀點的任何其他裝置上， (例如參與者正在使用 Surface Hub 白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將此設定設為 `false` 。<p> 如果 **[視訊] 預設** 值設為 `true` ，則會忽略 **啟用視訊的** 設定，且參與者可以開啟或關閉相機。</li></ul> |
@@ -286,7 +287,7 @@ XML 組態檔必須在裝置啟動時更新，才能辨識主題影像。 處理
 
 若要設定 [會議室前] 顯示器的縮放比例和解析度，請使用容器新 `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` 增至您的 XML 組態檔 `<MainFoRDisplay>` 。 如果您的裝置使用雙顯示器，也包括 `<ExtendedFoRDisplay>` 容器。 
 
-如果您使用單一顯示器同時在 Teams 會議室中使用兩 `<MainFoRDisplay>` 者和 `<ExtendedFoRDisplay>` 容器， `<ExtendedFoRDisplay>` 則會忽略容器。 如需詳細資訊，請參閱上面的 XML 和元素表範例。
+如果您使用單一顯示器同時為Teams 會議室使用兩 `<MainFoRDisplay>` 者和 `<ExtendedFoRDisplay>` 容器， `<ExtendedFoRDisplay>` 則會忽略容器。 如需詳細資訊，請參閱上面的 XML 和元素表範例。
 
 ## <a name="see-also"></a>另請參閱
 

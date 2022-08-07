@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解Microsoft Teams 會議室受管理的服務。
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741875"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269578"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 會議室受管理的服務
 
@@ -60,10 +60,10 @@ Microsoft Teams 會議室管理服務是以 Microsoft 在支援軟體管理端�
 |**會議室規劃與推行**   |會議室規劃功能可讓您瞭解會議室設備庫存，並決定新會議室部署的設備標準。         |
 |**監控與疑難排解**  |會議室健康情況監控，可偵測會議室系統和周邊設備的問題，並提供由 Microsoft 驅動的主動事件管理回應。         |
 |**更新管理**    |管理及傳遞由 Microsoft 所執行之房間系統及其周邊裝置的應用程式和韌體更新。         |
-|**Insights與建議**     |Insights客戶健康情況、使用方式、使用率及設備可靠性。         |
+|**深入解析與建議**     |深入瞭解客戶健康情況、使用方式、使用率及設備可靠性。         |
 |**合規性與認證**   |符合 Microsoft Online Services 的所有適用標準。         |
 |**客戶支援**   |24x7x365 票證支援，透過 SOC) 專用Microsoft Teams 會議室受管理服務服務運算中心 (。 適用時，代表您向其他主要廠商上報。 若要深入瞭解，請參閱 [客戶支援](#customer-support)。|
-|**支援的裝置**    |已認證Microsoft Teams 會議室系統及其周邊設備。<br>*2021 下半年Surface Hub支援*        |
+|**支援的裝置**    |已認證Microsoft Teams 會議室系統及其周邊設備。<br>*2021 下半年將提供 Surface Hub 支援*        |
 |**支援的地區**    |請參閱 [支援的地區](#supported-regions)。        |
 |**集成**    |立即與客戶託管的服務整合。         |
 
@@ -79,7 +79,7 @@ Microsoft Teams 會議室管理服務是以 Microsoft 在支援軟體管理端�
 |**監視**    |應用程式、作業系統、周邊和韌體健康情況監控。 因周邊健康情況等問題而影響會議體驗問題的自動化事件偵測。 透過Microsoft Teams 會議室管理的服務入口網站，整個房間的房地產和事件的健康情況概觀。|
 |**疑難排解與補救**     |適用時自動診斷和自動補救。 Microsoft Teams 會議室受管理的服務 SOC 協助非自動化案例的事件補救。 事件協調的 [立即服務] 整合。         |
 |**更新管理**   |根據客戶可設定的部署頻道，自動化會議應用程式和韌體更新協調         |
-|**Insights與建議**   |使用狀況、事件、健康情況和整體報告 (歷程記錄檢視)          |
+|**深入解析與建議**   |使用狀況、事件、健康情況和整體報告 (歷程記錄檢視)          |
 
 ## <a name="service-prerequisites"></a>服務先決條件
 
@@ -124,7 +124,7 @@ Microsoft Teams 會議室進階版授權可在下列國家/地區使用音訊會
 |包含的內容 |排除的內容 |排除專案的支援通道  |
 |---------|---------|---------|
 |**服務設定**   |         |         |
-|Microsoft Teams 會議室 Windows設定的調查與指導方針，包括Microsoft Teams 會議室應用程式設定、第一方網路設定、第一方軟體設定，以及建議的電源設定和設定。     |任何不屬於「Microsoft Teams會議室」應用程式的協力廠商軟體設定和調查。 此外，任何需要在第一方視窗以外的設定，或Microsoft Teams會議室應用程式設定的 OEM 特定設定。         |協力廠商標準支援通道         |
+|Microsoft Teams 會議室 Windows 設定的調查與指導方針，包括Microsoft Teams 會議室應用程式設定、第一方網路設定、第一方軟體設定，以及建議的電源設定和設定。     |任何不屬於 Microsoft Teams 會議室應用程式的協力廠商軟體設定和調查。 此外，任何需要在第一方視窗以外進行設定的 OEM 特定設定，或 Microsoft Teams 會議室應用程式設定。         |協力廠商標準支援通道         |
 |**會議室帳戶設定**    |         |         |
 |會議室帳戶設定的可用檔指示。 針對登入或帳戶設定問題，會執行初始調查。     |執行建議的補救或執行建議補救的問題、協力廠商驗證提供者的設定，以及個人帳戶功能的設定。        |Microsoft 主要支援和協力廠商驗證提供者支援         |
 |**周邊支援**    |         |         |

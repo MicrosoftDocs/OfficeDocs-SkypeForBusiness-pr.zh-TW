@@ -9,12 +9,14 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 瞭解如何在 Microsoft Teams 系統管理中心管理稱讚應用程式。
-ms.openlocfilehash: 0b2e733478f309df8ff1c8253b21f01f92d800f9
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 0f30a508fd1c0f2e82dcab3c22d3ade94d4e0118
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842239"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269418"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理稱讚應用程式
 
