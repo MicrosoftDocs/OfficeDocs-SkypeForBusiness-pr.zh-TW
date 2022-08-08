@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156681"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270258"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
@@ -43,7 +43,7 @@ ms.locfileid: "67156681"
 
 ## <a name="core-apps"></a>核心應用程式
 
-根據預設，某些 Teams 功能 (例如活動摘要、頻道、聊天、行事曆和通話) 會預設為可用，並且釘選供終端使用者輕鬆存取。 身為系統管理員，您可以使用此[設定原則](/microsoftteams/teams-app-setup-policies)來修改預設行為。
+某些 Teams 功能，例如：活動摘要、小組、聊天、行事曆、通話、檔案和作業 (教育界租用戶) 會預設為可用，並且預設為釘選以供終端使用者輕鬆存取。 對於前線員工而言，僅有活動、班次、聊天和通話可供使用和釘選。 身為系統管理員，您可以使用此[設定原則](/microsoftteams/teams-app-setup-policies)來修改預設行為。
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心應用程式是預設釘選在 Teams 中的應用程式。" lightbox="media/core-apps-pinned2.png":::
 
