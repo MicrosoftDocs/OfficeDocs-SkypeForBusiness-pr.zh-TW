@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
+ms.openlocfilehash: a7cb846cfeafeff3009890b8745e9b13fc6bdd97
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952767"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268378"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>在 Microsoft Teams 中 Reflect 的 IT 系統管理員指南
 
-本文件提供與 [Reflect](https://aka.ms/reflect) 有關的資訊 ，這是 [Microsoft Teams 教育版 Insights](class-insights.md) 不可或缺的一部分。 Reflect 提供定期分享和聆聽的機會，協助學生辨識並瀏覽他們的心得。 Reflect 可協助拓展學習者的情緒詞彙，並加強對同儕的同理心，同時也為了健康的課堂社群，向授課者提供寶貴的意見反應。
+本文件提供與 [Microsoft 反思](https://aka.ms/reflect)有關的資訊 ，這是 [Microsoft Teams 教育版 Insights](class-insights.md) 不可或缺的一部分。 Reflect 提供定期分享和聆聽的機會，協助學生辨識並瀏覽他們的心得。 Reflect 可協助拓展學習者的情緒詞彙，並加強對同儕的同理心，同時也為了健康的課堂社群，向授課者提供寶貴的意見反應。
 
-此簽入應用程式使用表情圖示和有研究支持的情緒細微度，來支援授課者在已經忙碌的例行工作中新增社交和情緒學習。
+這個免費的調查應用程式使用表情圖示和角色，協助學習者發展情緒粒度。 研究顯示，明確教導社交和情緒技巧可改善學生的學業和行為表現，並能帶來終生的正面影響。
 
 ## <a name="privacy-and-security"></a>隱私權和安全性
 
@@ -69,16 +69,7 @@ Reflect 遵循與[教育版 Insights](class-insights.md) 相同的隱私權和�
 > 如需詳細資料，請參閱[如何允許應用程式或將其新增到班級團隊](manage-apps.md#allow-and-block-apps)。
 
 ## <a name="where-do-educators-find-reflect"></a>授課者可以在哪裡找到 Reflect？
-啟用 Reflect 之後，授課者可以前往班級，然後選取 [新增交談 **]**。 然後，他們會選取 [...]**** 來顯示傳訊擴充功能，然後在搜尋列輸入 **Reflect**。 對話方塊會引導他們定義問題，以及誰可以看到問題。
-
-:::image type="content" source="media/reflect-add-app.png" alt-text="將 Reflect 新增到班級團隊。":::
-
-他們可以用滑鼠右鍵按一下 Reflect 圖示，然後選取 **[釘選]** 以輕鬆存取。
-
-:::image type="content" source="media/reflect-pin-app.png" alt-text="釘選 Reflect 應用程式。":::
-
-> [!TIP]
-> 您也可以透過此連結找到 Reflect 應用程式：[https://aka.ms/getReflect](https://aka.ms/getReflect)
+根據預設，任何班級或教職員小組都可使用「反思」。 若要存取應用程式，請瀏覽至您想要的小組，然後選取 [反思] 索引標籤。
 
 > [!TIP]
 > 如需其他詳細資料，請瀏覽 [Reflect 支援頁面](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)。此頁面提供授課者和學生的指導方針，以及有助於建立他們的第一個 Reflect 簽入的方式。
