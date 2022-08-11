@@ -1,9 +1,8 @@
 ---
 title: Microsoft Teams 應用程式權限和考量。
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: 管理員可以瞭解 Microsoft Teams 應用程式向組織要求的資料和權限。
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175667"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299062"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 應用程式權限和考量。
 
@@ -191,7 +190,7 @@ RECEIVE_MESSAGE、REPLYTO_MESSAGE。 可以接收來自使用者的訊息並回�
 
 * 外寄 Webhook 與 Bot 類似，但權限較少。 它們必須明確提及，就像 Bot 一樣。
 
-* 當外寄 Webhook 註冊時會產生一個密碼，可讓外寄 Webhook 確認寄件者是 Microsoft Teams，而不是惡意攻擊者。 這個密碼應保持祕密; 任何有權存取它的人都可以模擬 Microsoft Teams。 如果密碼遭到盜用，便可刪除並重新建立外寄的 webhook，並產生新的密碼。
+* 當外寄 Webhook 註冊時會產生一個密碼，可讓外寄 Webhook 確認寄件者是 Microsoft Teams，而不是惡意攻擊者。 這個密碼應保持祕密; 任何有權存取它的人都可以模擬 Microsoft Teams。 如果密碼遭到盜用，請刪除並重新建立外寄的 webhook，以產生新的密碼。
 
 * 雖然可以建立不會驗證密碼的外寄 webhook，但我們建議您不要這樣做。
 

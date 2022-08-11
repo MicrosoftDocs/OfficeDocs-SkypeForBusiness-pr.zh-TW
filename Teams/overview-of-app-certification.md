@@ -1,6 +1,5 @@
 ---
 title: Microsoft 應用程式認證概觀
-ms.reviewer: ''
 description: 了解適用於協力廠商應用程式安全性、合規性和隱私權的 Microsoft 365 應用程式合規性計畫。
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880417"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299082"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>適用於第三方應用程式安全性、合規性和隱私權的 Microsoft 365 應用程式合規性計畫
 
@@ -35,7 +34,7 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
 ## <a name="publisher-verification"></a>發行者驗證
 
-應用程式開發人員必須先經過驗證，才能將應用程式提交給 Microsoft。 發行者使用其 Microsoft 合作夥伴網路 (MPN) 帳戶驗證其身分識別，並將此 MPN 帳戶與其應用程式註冊建立關聯。 發行者驗證可協助系統管理員和使用者了解應用程式開發人員的真實性。 發行者驗證具有下列優點：
+應用程式開發人員必須先經過驗證，才能將應用程式提交給 Microsoft。 開發人員使用其 Microsoft 合作夥伴網路 (MPN) 帳戶驗證其身分識別，並將此 MPN 帳戶與其應用程式註冊建立關聯。 發行者驗證可協助系統管理員和使用者了解應用程式開發人員的真實性。 發行者驗證具有下列優點：
 
 * 提高客戶的透明度和降低風險 - 這項功能可協助客戶瞭解其組織中使用的應用程式是由他們信任的開發人員所發佈。
 * 改良的商標 - `verified` 徽章會顯示在 Azure Active Directory 同意提示、企業應用程式頁面，以及使用者和系統管理員使用的其他使用者介面上。
