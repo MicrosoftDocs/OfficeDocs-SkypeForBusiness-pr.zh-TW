@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解如何將免費的 Teams Phone 資源帳戶授權或付費Teams 電話標準方案使用者授權指派給貴組織中的資源帳戶。
-ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615399"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298293"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 電話資源帳戶授權
 
@@ -34,7 +34,7 @@ ms.locfileid: "66615399"
 所有自動語音應答和通話佇列都需要相關聯的資源帳戶。 需要電話號碼的資源帳戶需要免費 *Microsoft Teams 電話資源帳戶* 授權或付費 *Teams 電話標準方案* 使用者授權，才能將電話號碼套用至資源帳戶。
 
 > [!TIP]
-> 沒有指派電話號碼的巢狀自動語音應答或通話佇列使用的資源帳戶不需要授權。 請參閱下圖以取得參考。
+> 沒有指派電話號碼的巢狀自動語音應答或通話佇列使用的資源帳戶不需要授權。
 
 ## <a name="resource-account-license-allocation"></a>資源帳戶授權配置
 
@@ -43,7 +43,7 @@ ms.locfileid: "66615399"
 > [!NOTE]
 > Teams 電話標準方案和含通話方案的 Teams Phone 都是可供所有 Microsoft 365 訂閱者使用的附加元件授權。 Teams 電話標準方案授權也會包含在Microsoft 365 E5方案中。
 
-如果貴組織在建立自動語音應答或通話佇列節點時使用免費 *Microsoft Teams 電話資源帳戶* 授權，您仍然可以將付費 *Teams 電話標準方案* 授權搭配資源帳戶使用。 大部分的組織會根據縮放比例計畫擁有足夠的資源帳戶授權。
+如果貴組織在建立自動語音應答或通話佇列節點時使用免費 *Microsoft Teams 電話資源帳戶* 授權，您仍然可以使用付費 *Teams 電話標準方案* 授權搭配資源帳戶。 大部分的組織會根據縮放比例計畫擁有足夠的資源帳戶授權。
 
 ### <a name="license-allocation-example"></a>授權配置範例
 

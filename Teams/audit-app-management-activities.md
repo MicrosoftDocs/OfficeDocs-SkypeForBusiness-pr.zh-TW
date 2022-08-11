@@ -1,6 +1,6 @@
 ---
 title: 搜尋應用程式管理事件的稽核記錄
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,13 +13,13 @@ f1keywords: ''
 description: 了解如何稽核貴組織中使用者和系統管理員的 Teams 應用程式活動。
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269718"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299252"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>適用於應用程式管理活動和事件的稽核
 
@@ -69,7 +69,7 @@ Teams 中應用程式事件的稽核記錄可協助您調查特定動作。 雖�
 > [!NOTE]
 > 當上述其中一項活動是由使用者或系統管理員執行時，Teams 會產生並儲存稽核記錄。 在稽核 (標準版) 中，記錄都會保留 90 天，這意味著您可以搜尋過去三個月內發生的活動。
 
-## <a name="see-also"></a>另請參閱
+## <a name="related-articles"></a>相關文章
 
 * [使用稽核記錄調查 Microsoft Power Platform 安裝活動](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [在合規性入口網站中搜尋稽核記錄](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。

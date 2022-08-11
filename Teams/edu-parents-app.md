@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958138"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278767"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中設定父系連線
 
@@ -181,7 +181,7 @@ Teams 教育版中的家長連線可協助授課者使用 Teams 安全地與班�
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>在 Teams 系統管理中心開啟家長應用程式
 
-家長 App 預設為關閉，因此班級團隊擁有者必須透過 Teams 系統管理中心才能在班級團隊中看到它。 在 Teams 系統管理中心使用 [ [允許被發行者封鎖的應用程式](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers)] 開啟 [家長] 應用程式。
+家長 App 預設為關閉，因此班級團隊擁有者必須透過 Teams 系統管理中心才能在班級團隊中看到它。 在 Teams 系統管理中心使用允許 [被開發人員封鎖的應用程式](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers)開啟 [家長] 應用程式。
 
 您可以隨時使用 Teams 系統管理中心的 [[允許並封鎖應用程式](manage-apps.md#allow-and-block-apps) ]，在租使用者層級關閉應用程式。 如果在租使用者層級關閉此設定，即使已開啟使用者層級許可權，也會封鎖所有使用者。
 
