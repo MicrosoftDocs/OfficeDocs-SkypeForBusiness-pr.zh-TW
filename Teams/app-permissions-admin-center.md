@@ -1,24 +1,23 @@
 ---
 title: 在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 系統管理中心的 [管理應用程式] 頁面上，檢視應用程式要求的權限，以及將系統管理員同意授與應用程式。
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175647"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299052"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意
 
@@ -86,9 +85,9 @@ RSC 權限是在應用程式資訊清單中定義，而不是在 Azure AD 中定
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>有些要求權限的協力廠商應用程式的 [權限] 欄位中不會顯示 [檢視詳細資料] 連結
 
-目前，在 Azure AD 中註冊並要求權限的所有協力廠商應用程式都無法檢閱權限和授與同意。 您會在 **[權限]** 欄位中看到 **--**，而不是 **[檢視詳細資料]** 連結。 我們正與 ISV 合作，為其應用程式啟用此功能。
+並非所有協力廠商應用程式都具有檢閱權限和授與同意的能力。 通常，當應用程式要求權限時，協力廠商應用程式在 Azure Active Directory 中註冊。 您會在 [權限] 欄位中看到 **`--`**，而不是 **[檢視詳細資料]** 連結。
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
 * [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
 * [Microsoft 身分識別平台端點中的權限與同意](/azure/active-directory/develop/v2-permissions-and-consent)

@@ -18,12 +18,12 @@ description: 瞭解如何管理 Teams 應用程式。 瞭解如何允許或封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bda9146bf2f5fd8a4b321be498e50e39be8f5965
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271838"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298862"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理 Teams 應用程式
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271838"
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>應用程式管理使用案例和可用的介面
 
-Teams 系統管理中心提供可完成大部分應用程式管理使用案例的選項。 此外，一些選項也可在相同入口網站的其他入口網站或不同的系統管理中心頁面中提供。
+Teams 系統管理中心提供可完成大部分應用程式管理使用案例的選項。 此外，其他入口網站或 Teams 系統管理中心的不同頁面中也提供了一些選項。
 
 | 應用程式管理使用案例 | 連結至介面 | 文件 |
 |:----|:----|:----|
@@ -55,7 +55,7 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 | Teams 應用程式使用方式報告會提供哪些應用程式使用中、作用中使用者．及其他應用程式使用狀況資訊的相關資訊。 | [使用情況報告](https://admin.teams.microsoft.com/analytics/reports) | [Teams 應用程式使用報告 ](teams-analytics-and-reports/app-usage-report.md) |
 | 使用者可以在主持會議或與其他來賓聊天時新增應用程式。 當他們加入由外部主持的會議或聊天時，他們也可以使用由來賓共用的應用程式。 將會套用主持使用者組織的資料原則，以及該使用者組織共用的任何協力廠商應用程式的資料共用做法。 | [外部存取](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [取決於使用者類型之應用程式行為](non-standard-users.md) |
 | 使用來賓存取，您可以提供應用程式和其他 Teams 功能的存取權給組織外部人員，同時維持公司資料的控制權。 | [來賓存取](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Teams 中的來賓存取](guest-access.md) |
-| 更新原則可用來管理會在 Teams 應用程式中看到搶鮮版或預覽版功能的 Teams 和 Office 預覽版使用者。  | [Teams 更新原則](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams 公開預覽](public-preview-doc-updates.md) |
+| 更新原則用於管理 Teams 和 Office 預覽版使用者，這些使用者將在 Teams 應用程式中看至發行前或預覽功能。 | [Teams 更新原則](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams 公開預覽](public-preview-doc-updates.md) |
 | **Teams 外部系統管理中心** | | |
 | 在 Microsoft 365 系統管理中心管理協力廠商應用程式的授權和訂閱 | [Microsoft 365 系統管理中心](https://admin.microsoft.com/#/licenses) | [管理協力廠商應用程式訂閱](/microsoft-365/commerce/manage-saas-apps) |
 | 稽核 Microsoft Purview 合規性入口網站上的 Teams 應用程式事件。 | [稽核](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 活動](audit-app-management-activities.md) |
@@ -67,7 +67,7 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 
 ## <a name="allow-and-block-apps"></a>允許和封鎖應用程式
 
-[管理應用程式] 頁面是您在組織層級允許或封鎖個別應用程式的地方。 此頁面會顯示所有可用的應用程式及其目前的組織層級應用程式狀態。 應用程式清單包括 Microsoft、協力廠商開發人員及組織內開發人員所提供的應用程式。
+[管理應用程式] 頁面是您在組織層級允許或封鎖個別應用程式的地方。 此頁面會顯示所有可用的應用程式及其目前的組織層級應用程式狀態。 應用程式清單包括 Microsoft、協力廠商開發人員和貴組織內開發人員提供的應用程式。
 
 若要允許或封鎖應用程式：
 
@@ -80,27 +80,27 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 
 使用者只有在允許應用程式透過全租用戶設定並透過權限原則允許使用者時，才能安裝和使用應用程式。
 
-## <a name="manage-user-requests-to-unblock-apps"></a>管理使用者要求以解除封鎖應用程式
+## <a name="manage-user-requests-to-allow-apps"></a>管理使用者要求以允許應用程式
 
-您可以檢視要求，讓封鎖的應用程式可供使用。 要求會傳送給 IT 系統管理員，其可以在 Teams 系統管理中心檢視和管理使用者要求。
+終端使用者可以檢視但不能使用 Teams Store 中已封鎖的應用程式。 對於已封鎖的應用程式，可以選擇要求系統管理員核准。 這些要求在 Teams 系統管理中心進行自動分頁，系統管理員可以在需要時檢視和管理這些要求。 我們強烈建議定期對終端使用者要求進行分級檢查。
 
-  :::image type="content" source="media/user-request.png" alt-text="提出封鎖應用程式核准的要求":::
+  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="透過在 Teams Store 中選取 [要求核准] 選項，要求系統管理員核准已封鎖的應用程式。":::
 
 ### <a name="view-a-request"></a>檢視要求
 
- 1. 登入 Teams 系統管理中心，然後選取 [[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)
+ 1. 登入 Teams 系統管理中心並選取 **[Teams 應用程式]** > **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
     :::image type="content" source="media/requested-apps1.png" alt-text="已封鎖應用程式的使用者要求會顯示在 Teams 系統管理中心的標題為 [使用者要求] 的欄位中。" lightbox="media/requested-apps.png":::
 
- 1. 若要檢視及檢查每個應用程式的要求數目，請在 **[依使用者要求]** 欄位中排序要求。
- 1. 選取您要解除封鎖的應用程式名稱，它會開啟應用程式詳細資料頁面。
- 1. 選取 **[管理要求]**，並完成快顯對話方塊中顯示的步驟。 核准應用程式的步驟會根據用來封鎖它的方法而有所不同。
+ 1. 若要檢視及檢查每個應用程式的要求數目，請在 **[依使用者要求]** 欄位中排序要求。 您無法檢視要求應用程式的使用者名稱。
+ 1. 若要允許應用程式，請選取應用程式的名稱，並開啟應用程式詳細資訊頁面。
+ 1. 選取 **[管理要求]**，並完成快顯對話方塊中顯示的步驟。 根據用於封鎖應用程式的方法，需要以下一個或多個步驟來解除封鎖：
 
     * 如果使用權限原則封鎖應用程式，請修改 [[權限原則]](teams-app-permission-policies.md) 以允許應用程式。
     * 如果已封鎖所有使用者的應用程式，[請允許該應用程式](#allow-and-block-apps)。
     * 如果所有使用者都已封鎖所有應用程式，請修改[全組織設定](#manage-org-wide-app-settings)。
 
- 如果系統管理員允許應用程式，則不會通知使用者已處理他們的要求。 使用者必須瀏覽市集中的應用程式，以檢查應用程式是否已解除封鎖。
+ 如果系統管理員允許應用程式，那麼 Teams 不會通知終端使用者其要求已經處理。 使用者可以在 Teams Store 中檢視應用程式，以檢查是否可以將應用程式新增至其 Teams 用戶端。 如果應用程式取得系統管理員的核准，使用者可以新增它。 或者，如果和系統管理員不核准要求並將其解除，則終端使用者可以再次要求。
 
 ### <a name="dismiss-a-user-request"></a>解除使用者要求
 
@@ -108,21 +108,23 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
  1. 選取 **[管理要求]**，然後選取 **[解除對話方塊上的所有要求]**。
  1. 當要求被解除時，會將使用者要求重設為零。
 
-  :::image type="content" source="media/reject.png" alt-text="個已封鎖的應用程式拒絕。"border="true":::
+  :::image type="content" source="media/reject.png" alt-text="系統管理員可以透過允許應用程式核准使用者要求，也可以解除要求且不執行任何動作。":::
 
-如果系統管理員解除要求，則不會通知使用者已處理他們的要求。 使用者必須瀏覽市集中的應用程式，以檢查應用程式是否已解除封鎖。
+如果系統管理員解除要求，則不會通知使用者已處理他們的要求。 系統管理員解除要求後，終端使用者可以再次要求應用程式。
 
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>允許被開發人員封鎖的應用程式
 
-當開發人員將應用程式發佈到 Teams 應用程式市集時，可能需要系統管理員來設定或自訂應用程式體驗。 系統管理員會在設定應用程式時為使用者提供體驗。
+當開發人員將應用程式發佈至 Teams Store 時，一些應用程式可能需要系統管理員來設定應用程式。 設定完應用程式後，系統管理員向終端使用者提供應用程式。
 
-例如，Contoso Electronics 為一獨立軟體廠商 (ISV)，可為 Microsoft Teams 建立技術支援中心應用程式。 Contoso Electronics 希望其客戶設定應用程式的特定屬性，當使用者與應用程式互動時，應用程式可如預期般運作。 系統管理員允許或封鎖應用程式之前，該應用程式會在 Teams 系統管理中心顯示為 **[被發行者封鎖]**，而且根據預設會向使用者隱藏該應用程式。 在遵循發行者的指引設定應用程式之後，您可以將狀態變更為 **[允許]**，讓使用者使用此應用程式。
+例如，Contoso Electronics 是為 Microsoft Teams 建立技術支援中心應用程式的應用程式開發人員。 Contoso Electronics 希望其客戶設定應用程式的特定屬性，當使用者與應用程式互動時，應用程式可如預期般運作。 在系統管理員允許或封鎖應用程式之前，其會在 Teams 系統管理中心顯示為 **[已由發行者封鎖]**，而且預設對使用者隱藏。 在遵循發行者的指引設定應用程式之後，您可以將狀態變更為 **[允許]**，讓使用者使用此應用程式。
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 系統管理中心的發行者狀態封鎖的螢幕擷取畫面。":::
 
+如需開發人員在預設情況下如何封鎖應用程式的資訊，請參閱 [隱藏應用程式，直至系統管理員核准](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
+
 ## <a name="manage-org-wide-app-settings"></a>管理全組織應用程式設定
 
-使用全組織應用程式設定來控制擁有 [F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者是否能獲得量身打造的第一線應用程式體驗、使用者是否可以安裝協力廠商應用程式，以及使用者是否可以上傳或與您組織中的自訂應用程式互動。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
+使用全組織應用程式設定來控制擁有 [F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者是否能獲得量身打造的第一線應用程式體驗、使用者是否可以安裝協力廠商應用程式，以及使用者是否可以上傳或與您組織中的自訂應用程式互動。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。
 
 > [!NOTE]
 > 若要瞭解如何在 Microsoft 365 政府版 - 政府社群雲端高 GCCH 和美國國防部 (DOD) Teams 部署中使用全組織應用程式設定，請參閱 [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)。
