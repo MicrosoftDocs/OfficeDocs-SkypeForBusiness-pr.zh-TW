@@ -3,7 +3,6 @@ title: 修改貴組織 Teams Store 中的應用程式外觀
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何透過編輯應用程式詳細資料和中繼資料，變更應用程式的外觀並重新命名應用程式。
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269078"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298882"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>在貴組織的 Teams store 中自訂應用程式的外觀
 
@@ -102,13 +101,13 @@ Microsoft Teams 可讓系統管理員自訂 Teams 應用程式，以增強 Micro
 
 請注意下列關於自訂應用程式的詳細資料：
 
-* 當您自訂應用程式，以及與應用程式相關的任何描述時，請確定您遵循任何由應用程式發行者在其文件或使用規定中所提供的自訂指導方針。 您也有責任尊重其他人對於您可能使用之任何協力廠商影像的權利。
+* 當您自訂應用程式，以及與應用程式相關的任何描述時，請確定您遵循任何由應用程式開發人員在其文件或使用規定中所提供的自訂指導方針。 您也有責任尊重其他人對於您可能使用之任何協力廠商影像的權利。
 
 * 管理員所提供的自訂資料會儲存在最接近的地區。
 
 * 您有責任確保使用規定或隱私權原則的連結有效。
 
-* 如果應用程式發行者不再允許可自訂欄位，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更將會還原為原始值。
+* 如果應用程式開發人員不再允許可自訂欄位，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更將會還原為原始值。
 
 * 建議您先在 Teams 測試租用戶中測試應用程式自訂變更，然後才在生產環境中進行這些變更。
 
