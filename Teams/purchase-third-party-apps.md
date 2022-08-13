@@ -15,12 +15,12 @@ description: 了解如何使用信用卡、轉帳卡或發票結算，從 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 9da0b39582238f10fc3d76d7299afd0b004048fd
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270828"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299192"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>為 Teams 購買第三方應用程式
 
@@ -34,8 +34,7 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心購買應用程式
 
-> [!IMPORTANT]
-> 當您啟用應用程式購買時，它也會啟用應用程式內購買。 使用者可能會看到應用程式內購買優惠，這些優惠是由其應用程式的 ISV 所控制。 如果您想要封鎖使用者購買應用程式，您必須封鎖該應用程式。 如需如何封鎖應用程式的詳細資訊，請參閱[管理應用程式原則](app-policies.md)或[了解如何在組織層級封鎖應用程式](manage-apps.md#allow-and-block-apps)。
+若要在 Teams 系統管理中心購買應用程式，請遵循下列步驟： 
 
 1. 在 Microsoft Teams 系統管理中心的左側窗格中，移至 **[Teams 應用程式]** > **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)**。 您必須為全域管理員或 Teams 服務系統管理員，才能存取頁面。
 
@@ -47,7 +46,7 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
 1. 當您找到應用程式時，請選取 **[購買]** 以移至應用程式詳細資料頁面的 **[方案和定價]** 索引標籤。 檢視適用於此應用程式之 SaaS 供應項目的方案和價格資訊。 如果您需要更多資訊，請選取 **[深入了解]** 以移至 [AppSource](https://appsource.microsoft.com/) 上的應用程式頁面。
 
    > [!NOTE]
-   > 私人方案也可能會列在購買清單中，包括貴組織先前與 ISV 所洽詢的特殊價格。 這些方案會在方案名稱底下顯示 **[私人方案]** 標籤。
+   > 私人方案也可能會列在購買清單中，包括貴組織可以個別與應用程式開發人員協商的特殊價格。 這類方案會在方案名稱底下顯示 **[私人計劃]** 標籤。
 
 1. 若要訂閱應用程式，請選擇您想要的方案，然後選取 **[購買]**。 結帳流程會直接在 Teams 系統管理中心開啟。
 
@@ -62,7 +61,7 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
 
 1. 選取 **[下單]**。
 
-1. 選取 **[設定]** 以在發行者的網站上啟用您的訂用帳戶。 如果您未在購買後設定訂用帳戶，您可以稍後選取 **[管理授權]**。
+1. 選取 **[設定]** 以在應用程式開發人員網站上啟用您訂閱。 如果您未在購買後設定訂用帳戶，您可以稍後選取 **[管理授權]**。
 
 購買與 Teams 應用程式相關聯的 SaaS 供應項目之後，您可以在應用程式詳細資料頁面的 **[方案和價格]** 索引標籤上檢視下列購買詳細資料。
 
@@ -76,7 +75,10 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
 全域系統管理員可以新增更多授權、移除授權並取消由組織中的任何人所購買的訂閱。 Teams 服務系統管理員可以針對自己進行的購買執行相同的動作。 不過，如果 Teams 服務系統管理員也有計費系統管理員角色，他們可以管理由組織中任何人所進行的購買。
 
 > [!NOTE]
-> 如果全域系統管理員想要管理另一個全域系統管理員購買的訂閱，他們必須位於相同的帳單帳戶中。 您可以在[ Microsoft 365 系統管理中心](https://admin.microsoft.com)中選取應用程式，提供您所購買之訂閱的另一個全域系統管理員存取權。 從該處，移至 **檢視帳單設定檔** >  **選取計費帳戶** > **指派角色**  >  **新增其他全域系統管理員**。
+> 如果全域系統管理員想要管理另一個全域系統管理員購買的訂閱，他們必須位於相同的帳單帳戶中。 您可以在[ Microsoft 365 系統管理中心](https://admin.microsoft.com)中選取應用程式，提供您所購買之訂閱的另一個全域系統管理員存取權。 在系統管理中心，存取 **檢視帳單設定檔** >  **選取計費帳戶** > **指派角色**  >  **新增其他全域系統管理員**。
+
+> [!IMPORTANT]
+> 當您啟用應用程式購買時，它也會啟用應用程式內購買。 使用者可能會看到應用程式內購買優惠，這些優惠是由其應用程式的應用程式開發人員所控制。 若要阻止使用者購買應用程式，您必須封鎖該應用程式。
 
 ### <a name="invoice-billing"></a>發票結算
 
