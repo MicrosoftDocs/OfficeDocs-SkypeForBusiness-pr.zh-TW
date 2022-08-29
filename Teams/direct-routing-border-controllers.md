@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
-ms.translationtype: HT
+ms.openlocfilehash: 15363373b2959007cb2883b6d63ee70520df1846
+ms.sourcegitcommit: a28b193d695402b37a53ffd0406568774801ef6c
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838848"
+ms.lasthandoff: 08/16/2022
+ms.locfileid: "67347288"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -65,11 +65,11 @@ Microsoft 可與每個廠商合作，以：
 ||Mediant 9000  SBC|&#10004;|&#10004;|支援 7.20A.258 (建議 7.40A.100 或 7.40A.250) |&#10004;|&#10004;|
 ||Virtual Edition SBC|&#10004;|&#10004;|支援 7.20A.258 (建議 7.40A.100 或 7.40A.250) |&#10004;|&#10004;|
 ||Mediant Cloud Edition SBC|&#10004;|&#10004;|支援 7.20A.258 (建議 7.40A.100 或 7.40A.250) |&#10004;|&#10004;|
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|支援 9.2、8.2 和 7.2 (建議 10.1)|&#10004;||
-||SBC 5200/5210|&#10004;|&#10004;|支援 9.2、8.2 和 7.2 (建議 10.1)|&#10004;||
-||SBC 5400|&#10004;|&#10004;|支援 9.2、8.2 和 7.2 (建議 10.1)|&#10004;||
-||SBC 7000|&#10004;|&#10004;|支援 9.2、8.2 和 7.2 (建議 10.1)|&#10004;||
-||SBC SWe|&#10004;|&#10004;|支援 9.2、8.2 和 7.2 (建議 10.1)|&#10004;||
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) |&#10004;||
+||SBC 5200/5210|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) |&#10004;||
+||SBC 5400|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) ) |&#10004;||
+||SBC 7000|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) |&#10004;||
+||所有 SBC SWe 變體，包括託管優惠|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) |&#10004;||
 ||SBC 1000|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
 ||SBC 2000|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
 ||SBC SWe Lite|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|

@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6ca0590f254a0567eec8946ae3c4323bf541f05
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d7d705d09dc9ded8ee2b831e41ed18921fbb7381
+ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299232"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "67314005"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft 針對所有 Teams 應用程式執行的驗證
 
@@ -41,14 +41,14 @@ Microsoft 需要所有應用程式通過強制驗證，才能列入終端用途�
 
 * 確定應用程式要求的 Graph 權限確實是應用程式功能需要的權限，而不是任何額外的權限。 會定期檢查現有應用程式的 Graph 權限，以確保應用程式不需要額外的權限。
 * 要求使用者登入的應用程式有登出選項。
-* 所有應用程式開發人員都會在 Microsoft 合作夥伴中心進行詳細的驗證流程。 驗證包括電子郵件驗證、商務驗證等等。 若要深入了解應用程式發佈，請參閱 [開發人員如何建立合作夥伴中心帳戶](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)、[適用於開發人員的提交指南](/office/dev/store/add-in-submission-guide)，以及 [開發人員如何發佈應用程式](https://aka.ms/PublishToTeamsStore)。
+* 所有應用程式的開發人員都會在 Microsoft 合作夥伴中心進行詳細的驗證程式。 驗證包括電子郵件驗證、商務驗證等等。 若要深入了解應用程式發佈，請參閱 [開發人員如何建立合作夥伴中心帳戶](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)、[適用於開發人員的提交指南](/office/dev/store/add-in-submission-guide)，以及 [開發人員如何發佈應用程式](https://aka.ms/PublishToTeamsStore)。
 * 只有經過驗證的開發人員提供的應用程式才能向使用者尋求 Graph 權限。
 * 沒有應用程式可以下載可執行檔。
 * 應用程式經測試不包含廣告及對其他應用程式的促銷。
 * 應用程式經測試，不具攻擊性語言、網路攻擊機器人、垃圾郵件或詐騙內容而適當地運作。
 * 應用程式中的所有連結都可正常運作，且僅與應用程式供應方案相關。
 * 我們會定期測試和評估所有已發佈的 Teams 應用程式，做為應用程式市集健康情況檢查的一部分。
-* 涵蓋 Teams 應用程式的隱私權原則和使用規定是由應用程式開發人員所發佈。
+* 涵蓋 Teams 應用程式的隱私權原則和使用規定是由應用程式開發人員提供。
 * 應用程式開發人員的連絡人詳細資料可在 Microsoft 市集清單及其個別的[發行者證明頁面](/microsoft-365-app-certification/teams/teams-apps)上取得。
 
 此外，Microsoft 鼓勵應用程式開發人員參與其合規性計畫，這是確保應用程式品質、安全性和合規性的雙層嚴格方法。 Teams 市集中有數百個應用程式，這些應用程式除了符合已詳細列出的驗證指導方針之外，也遵循這些計畫。

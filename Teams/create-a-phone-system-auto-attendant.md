@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中設定和管理自動語音應答。
-ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176097"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443400"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -46,6 +46,15 @@ ms.locfileid: "67176097"
 
 > [!NOTE]
 > 將通話重新導向至 **組織中的人員** 時，該人員必須具備語音功能。 如需啟用語音的詳細資訊，請參閱 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+>
+> 雖然定義 **運** 算符是選用的，但建議您使用運算子。  如果來電者未在功能表上進行選取、重複選取不正確選項，或是依名稱或號碼重複撥號失敗，自動語音應答會將呼叫重新導向至電信業者。  如果未定義電信業者，自動語音應答會捨棄通話。
+
+## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>過去 6 個月自動語音應答的新功能
+ 
+ - 8 月 - [通話流程] 中的 **[播放] 功能表選項** 、下班後通話流程和假日期間的通話流程現在支援 \* (星號) ， (\# 井) 鍵。
+ - 7 月 - 假日期間的通話流程現在支援 **[播放] 功能表選項**。
+ 
+## <a name="steps-to-create-an-auto-attendant"></a>建立自動語音應答的步驟
 
 新增自動語音應答的步驟如下：
 
@@ -99,10 +108,9 @@ ms.locfileid: "67176097"
 
 #### <a name="play-menu-options"></a>[播放] 功能表選項
 
-如需撥號選項，請將電話鍵臺上的 0-9 按鍵指派給其中一個通話路由目的地。  (星號) 和 \# (井字型大小) 按鍵 \* 是由系統保留，無法重新指派。 按下其中一個按鍵將會重複目前的功能表。
+*新增 - \* (星號) 和 \# (磅) 鍵現在可用於功能表選項中。*
 
-> [!NOTE]
-> # 鍵只會備份到最新的自動語音應答。 一旦邊界劃過新的自動語音應答，#鍵將無法帶您前往上一個語音應答。
+若是撥號選項，請將 0-9 (\* 星號) ，然後 \# 在電話鍵盤上 (井) 鍵指派給其中一個通話路由目的地。 
 
 按鍵對應不一定為連續。 您可以建立一個功能表，其中按鍵 0、1 和 3 對應至選項，而數位 2 鍵則不會使用。
 
@@ -159,6 +167,8 @@ ms.locfileid: "67176097"
 
 您的自動語音應答可以為 [您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您可以為每個自動語音應答新增最多 20 個排定的假日。
 
+*新增 - **[播放] 功能表選項** 現在可在假日通話流程中使用。*
+
 1. 在 [假日通話設定] 頁面上，選取 [ **新增]**。
 
 1. 輸入此佳節設定的名稱。
@@ -167,7 +177,7 @@ ms.locfileid: "67176097"
 
 1. 選擇您要使用的問候語類型。
 
-1. 選擇您要中斷聯 **機** 或 **重新導向** 通話。
+1. 選擇是否要 **中斷連線**、 **重新導向** 或 **播放功能表選項** 。
 
     1. 如果您選擇重新導向，請選擇通話的呼叫路由目的地。
     1. 如果您選擇播放功能表選項，請設定 [ **播放] 功能表選項**。

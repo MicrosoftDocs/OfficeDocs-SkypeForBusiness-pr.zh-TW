@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft Teams 會議中非教育租使用者受監督的聊天。
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
+ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270458"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "67446766"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育租使用者受監督的聊天
 
@@ -56,7 +56,7 @@ ms.locfileid: "67270458"
 
 ## <a name="allow-supervised-chat"></a>允許受監督的聊天
 
-您的租使用者預設會停用受監督的聊天。 設定使用者的聊天許可權角色之後，您可以移至 [全組織設定 **Teams** **設定** \> ] 並將 [**角色型聊天** 許可權原則] 設定為 [**開** 啟]，在租使用者內啟用受監督的聊天。 您也可以使用 PowerShell 將 AllowRoleBasedChatPermissions 設為 True 來啟用受監督的聊天。 此 Cmdlet 位於 [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)底下。
+您的租使用者預設會停用受監督的聊天。 設定使用者的聊天許可權角色之後，您可以移至 **[Teams Teams** \> **設定** ] 並將 [ **角色型聊天** ] 許可權原則設定為 [ **開** 啟]，在租使用者內啟用受監督的聊天。 您也可以使用 PowerShell 將 AllowRoleBasedChatPermissions 設為 True 來啟用受監督的聊天。 此 Cmdlet 位於 [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)底下。
 
 租使用者中的所有使用者都必須啟用受監督的聊天功能，而且您只能為部分使用者啟用。
 

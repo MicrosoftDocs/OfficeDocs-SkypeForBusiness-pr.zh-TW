@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268118"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418642"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams 中的迴圈元件概觀
 
@@ -90,6 +90,6 @@ OneDrive 保留原則會套用至 .fluid 檔案，就像套用到使用者建立
 - 在租使用者預設檔案許可權設定為 [ *特定人員* ] (使用者指定的人員) ，在與超過 20 位成員的群組聊天中建立即時元件，將需要寄件者手動選取元件的許可權選項。
 - 在 Teams 搜尋中搜尋迴圈元件時，會傳回 office.com 元件的連結，而不是聊天訊息本身。
 - 同盟聊天會停用迴圈元件。
-- B2B 來賓無法在透過公司共用連結與他們共用的即時元件上共同作業。 將 **目前在此聊天中的** 人員許可權設定為與 B2B 來賓共用元件。
+- 來賓無法針對透過公司共用連結與其共用的即時元件進行共同作業。 設定 **目前在此聊天中人員** 許可權，以與來賓共用元件。
 - Teams 頻道不支援迴圈元件。
 - 只有當檔案移至不同的文件庫時，聊天中的迴圈元件才會載入。 如果檔案移到不同的資料夾，則檔案會繼續載入在聊天中。
