@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解訊息中心原則，以及如何在 Teams 中用來控制聊天訊息。
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563961"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396514"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息傳遞原則
 
@@ -112,6 +112,7 @@ ms.locfileid: "66563961"
 - **建議的回復**  開啟此設定可為聊天訊息啟用建議的回復。
 - **聊天許可權角色** 使用此設定來定義使用者受監督的聊天角色。 深入了解[監督的聊天](supervise-chats-edu.md)。
 - **擁有完整聊天許可權的使用者可以刪除任何訊息** 使用此設定可讓具有完整許可權的使用者刪除任何群組或會議聊天訊息。
+- **視訊訊息** 如果您希望組織中的使用者能夠使用 Teams 應用程式在聊天中傳送視訊訊息給其他人，請開啟此設定。
 
 > [!NOTE]
 > 其中有些設定，例如使用 Giphy，也可以由團隊擁有者在團隊層級，以及透過頻道擁有者在私人或共用頻道層級設定。

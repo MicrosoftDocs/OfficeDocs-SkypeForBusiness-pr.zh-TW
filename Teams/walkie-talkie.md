@@ -14,31 +14,41 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27410562a32f620d8a20e058b0d460c1209e0121
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842219"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396444"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
-Teams 中的 [無線對講機] 應用程式可為您的團隊提供即時推播 (對講) 通訊，現在可在 Android & iOS 上使用。 無線對講機可讓使用者使用屬於其成員的相同基礎頻道與其團隊連線。 只有連線到頻道中無線對講機的使用者會成為參與者，而且可以一次一個按鍵對講功能彼此通訊。
+Teams 中的 [無線對講機] 應用程式可為您的團隊提供即時推入式 (式 PTT) 通訊，而且可在 Android 和 iOS 上使用。 無線對講機可讓使用者使用屬於其成員的相同基礎頻道與其團隊連線。 只有連線到頻道中無線對講機的使用者會成為參與者，而且可以一次使用一個推播式對講機彼此通訊。
 
-透過 Teams 中的無線對講機，第一線工作人員現在可以安全地與熟悉的 PTT 體驗通訊，而不需要攜帶大量無線電，而無線對講機可在 WiFi 或行動網路網際網路連線的任何地方使用。
+有了 Teams 中的無線對講機，第一線工作人員就可以安全地與熟悉的 PTT 體驗通訊，而不需要攜帶大量無線電，而且無線對講機可以在 WiFi 或行動網路網際網路連線的任何地方使用。
 
 > [!NOTE]
 > 中國目前不提供無線對講機。
 
-## <a name="getting-started"></a>快速入門
-
-### <a name="deploying-walkie-talkie"></a>部署無線對講機
+## <a name="deploying-walkie-talkie"></a>部署無線對講機
 
 搭配 Google Mobile Services (MCS) 和 iOS 裝置的 Android 裝置支援無線對講機。
+
+### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>啟用或停用組織中的無線對講機
+
+根據預設，組織中所有的 Teams 使用者都會啟用無線對講機。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
+
+1. 在 Teams 系統管理中心的左側導覽中，移至 **[Teams 應用程式]** > **[管理應用程式]**。
+2. 在應用程式清單中，搜尋 [無線對講機] 應用程式，選取它，然後將 **[狀態** ] 切換為 [ **已封鎖** ] 或 [ **允許]**。
+
+### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>為貴組織中的特定使用者啟用或停用無線對講機
+
+若要允許或封鎖貴組織中的特定使用者使用無線對講機，請確定貴組織已在 [ [管理應用程式](manage-apps.md) ] 頁面上開啟 [無線對講機]。 然後建立自訂應用程式許可權原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
 ### <a name="pin-walkie-talkie-to-teams"></a>將無線對講機釘選到 Teams
 
@@ -58,9 +68,9 @@ Teams 中量身打造的第一線應用程式體驗可為擁有 [F 授權](https
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="螢幕擷取畫面顯示在 [新增釘選的應用程式] 窗格中，將 [無線對講機] 新增至釘選的應用程式清單。" lightbox="media/deploy-walkie-talkie-2.png":::
 
-### <a name="network-documentation"></a>網路檔
+## <a name="network-documentation"></a>網路檔
 
-Teams 中的無線對講機需要網際網路連線，而在網路條件之下，才能獲得最佳體驗。
+Teams 中的無線對講機需要網際網路連線。 您必須有下列網路條件才能獲得最佳體驗。
 
 |度量 | 必要 |
 |---|---|
@@ -70,42 +80,50 @@ Teams 中的無線對講機需要網際網路連線，而在網路條件之下�
 
 如上所述，透過 IP 網路即時媒體的品質受到網路連線品質的極大影響，尤其是受以下情況影響：
 
-- **延遲** - 這是從 A 點取得 IP 封包到網路上指向 B 所需的時間。 此網路傳播延遲基本上是與兩點之間的實體距離和光速系結，包括兩者之間各種路由器所佔用的額外負荷。 延遲是以 RTT)  (來回時間來測量。
-- **送達間抖動** - 這是連續封包之間延遲的平均變更。
-- **封包遺失** - 這通常定義為在指定時間範圍中遺失的封包百分比。 封包遺失會直接影響音訊品質，從幾乎沒有影響的小型、個別遺失封包，到造成完整音訊完全中斷的連續中斷。
+- **延遲** - 從 A 點取得 IP 封包到網路上指向 B 所需的時間。 此網路傳播延遲基本上是與兩點之間的實體距離和光速系結，包括兩者之間各種路由器所佔用的額外負荷。 延遲是以 RTT)  (來回時間來測量。
+- **送達間抖動** - 連續封包之間的延遲平均值變更。
+- **封包遺失** - 封包遺失通常是定義為在指定時間範圍中遺失的封包百分比。 封包遺失會直接影響音訊品質，從幾乎沒有影響的小型、個別遺失封包，到造成完整音訊完全中斷的連續中斷。
 
 傳送或接收音訊時，無線對講機的預期資料使用量大約為 20 Kb/s。 閒置時，可忽略無線對講機的預期資料使用量。
 
-### <a name="walkie-talkie-devices"></a>無線對講機裝置
+## <a name="walkie-talkie-devices"></a>無線對講機裝置
 
 即使在手機遭到鎖定時，第一線工作人員仍需要使用無線對講機通話並接聽電話。 此體驗可透過具有專用 PTT 按鈕的專用裝置來體驗。
 
-- **耳機**
-  - iOS & Android)  (無線耳機
-    - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - Android (有線耳機僅) 
-    - [器克電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **崎嶇不平的 Android 手機**
-  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    - 手動設定 - 安裝 Teams 後，流覽至 [設定] > [進階功能] > XCover/Active 鍵。 開啟 [使用應用程式控制 XCover 金鑰]，然後選取 [Teams]
-    - [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、 [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html)、 [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html)、 [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)、 [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html)、 [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html)、 [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
-    - 手動設定 - 安裝 Teams 後，依預設專用 PTT 按鈕 (LEFT_TRIGGER_2) 可與無線對講機搭配使用
-    
+#### <a name="headsets"></a>耳機
+
+- iOS 和 Android (無線耳機) 
+  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+- Android (有線耳機僅) 
+  - [器克電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+
+#### <a name="rugged-android-phones"></a>崎嶇不平的 Android 手機
+
+- 交叉處理 [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html)、 [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html)、 [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html)、 [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html)和 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
+  - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **] 按鈕**。 在 [專用] 按鈕 (1 或 2) ，選取 [ **長按**]，然後選擇 **[PTT 應用程式]**。 選取 [ **自訂]** 旁邊的藍色滾輪，然後選 **取 [Teams]**。
+- Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) 和 [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
+  - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **程式化] 按鍵**。 根據裝置) ，選擇 **[PTT 鍵** ] 或 [ **按住** 不放 (]，然後選 **取 [Teams]**。
+- Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+  - 手動設定：安裝 Teams 之後，移至 **[設定****進階**  >  功能  >  **XCover/Active 鍵]**。 開啟 **[搭配應用程式控制 XCover 金鑰]** ，然後選 **取 [Teams]**。
+  - [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
+- Sonim [XP8](https://www.sonimtech.com/products/devices/xp8/)
+  - 手動設定：安裝 Teams 之後，移至 **[設定**  >  **程式化金鑰]**。 選擇 **[選取 PTT 鍵應用程式**]，然後選 **取 [Teams]**。
+- Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、 [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html)、 [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html)、 [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)、 [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html)、 [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html)、 [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+  - 手動設定：安裝 Teams 後，依預設專用 PTT 按鈕 (LEFT_TRIGGER_2) 可與無線對講機搭配使用。
+
 > [!NOTE]
 > 這些裝置未通過 Teams 認證。 他們已通過驗證，可搭配 Teams 無線對講機使用。
 
-### <a name="license-requirements"></a>授權需求
+## <a name="license-requirements"></a>授權需求
 
 Office 365訂閱中的所有 Teams 付費授權中都包含無線對講機[應用程式](/office365/servicedescriptions/teams-service-description)。 如需取得 Teams 的詳細資訊，請參[閱如何?取得 Microsoft Teams 的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="further-information"></a>進一步資訊
+## <a name="more-information"></a>詳細資訊
 
-- IT 系統管理員可以透過應用程式原則來控制誰正在使用無線對講機。
 - 如果您的前線員工使用行動資料透過 Teams 進行通訊，無線對講機會使用相同的方法。
 - 無線對講機在頻寬不足或智慧型手機連線正常運作的情況下，應該可以正常運作。 完全沒有連線時，無線對講機就無法運作。
 
-如需進一步閱讀使用者體驗，請參閱：
+若要深入瞭解使用者體驗，請參閱：
 
 - [開始使用 Teams 無線對講機](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
 - [使用無線對講機與您的小組通訊](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)

@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a82e6f57ca819194554c38bbd51504567bc65d37
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: e82dbc8ad122e3d427b86a52c39a10f89df88098
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298902"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396834"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -50,8 +50,7 @@ ms.locfileid: "67298902"
 
 如果您想要控制可供不同使用者群組使用的應用程式，請使用一或多個自訂應用程式權限原則。 您可以根據應用程式是否由 Microsoft、第三方或您的組織發佈，來建立並指派個別的自訂原則。 如果已在全組織應用程式設定中停用第三方應用程式，您在建立自訂原則之後就無法再變更。
 
-1. 登入 [Teams 系統管理中心](https://admin.teams.microsoft.com/dashboard)
-1. 在左側面板中，移至 [Teams 應用程式 **]**  >  [權限原則 **]**。
+1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[許可權原則](https://admin.teams.microsoft.com/policies/app-permission)**。
 1. 選取 [新增 **]**。
 
    ![新增應用程式權限原則的螢幕擷取畫面。](media/app-permission-policies-new-policy.png)
@@ -77,7 +76,7 @@ ms.locfileid: "67298902"
 
 您可以使用 Teams 系統管理中心來編輯原則，包括您建立的全域原則和自訂原則。
 
-1. 在 Microsoft Teams 系統管理中心的左側面板中，移至 [Teams 應用程式 **]**  >  [權限原則 **]**。
+1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[許可權原則](https://admin.teams.microsoft.com/policies/app-permission)**。
 1. 按一下原則名稱左側來選取原則，然後選取 [編輯 **]**。
 1. 從此處，進行您需要的變更。 您可以根據應用程式開發人員來管理設定，並根據允許/封鎖設定來新增和移除應用程式。
 1. 選取 [儲存 **]**。
@@ -99,7 +98,7 @@ ms.locfileid: "67298902"
 
 ### <a name="for-gcc-clouds"></a>針對 GCC 雲端
 
-1. 在 **[管理應用程式]** 頁面上，選取 **[全組織應用程式設定]**。 然後您就可以在面板中設定您要的設定。
+1. 在 **[Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**] 頁面上，選取 **[全組織應用程式設定]**。 然後您就可以在面板中設定您要的設定。
 
    ![GCC 中全組織應用程式設定的螢幕擷取畫面。](media/app-permission-policies-gcc-org-wide.png)
 
@@ -116,11 +115,12 @@ ms.locfileid: "67298902"
 
 ### <a name="for-gcch-and-dod-clouds"></a>針對 GCCH 和 DoD 雲端
 
-1. 在 [權限原則 **]** 頁面上，選取 [全組織應用程式設定 **]**。 然後您就可以在面板中設定您要的設定。
+1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[許可權原則](https://admin.teams.microsoft.com/policies/app-permission)**。
 
-   ![GCCH 和 DoD 中全組織應用程式設定的螢幕擷取畫面。](media/app-permission-policies-gcch-dod-org-wide.png)
+1. 選取 **[全組織應用程式設定]**。 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在 Teams 的 Microsoft 365 Government - GCCH 和 DoD 部署中，預設會將所有第三方應用程式新增至此清單。 在全組織封鎖某個應用程式時，會自動為所有使用者封鎖該應用程式，而無論任何應用程式權限原則中是否允許該應用程式。
 
-1. 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在 Teams 的 Microsoft 365 Government - GCCH 和 DoD 部署中，預設會將所有第三方應用程式新增至此清單。 在全組織封鎖某個應用程式時，會自動為所有使用者封鎖該應用程式，而無論任何應用程式權限原則中是否允許該應用程式。
+   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="GCCH 和 DoD 中全組織應用程式設定的螢幕擷取畫面。":::
+
 1. 選取 **[儲存]**，讓全組織應用程式設定生效。
 
 ## <a name="faq"></a>常見問題集

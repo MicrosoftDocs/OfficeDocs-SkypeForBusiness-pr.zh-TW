@@ -3,15 +3,15 @@ title: 了解 Microsoft Teams 中的應用程式
 ms.reviewer: ''
 description: 了解應用程式，並根據您的組織設定檔和商務需求，決定 Teams 中允許哪些應用程式。
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270258"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397194"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
@@ -49,7 +49,7 @@ ms.locfileid: "67270258"
 
 ## <a name="microsoft-provided-apps"></a>使用 Microsoft 提供的應用程式
 
-Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使用者可透過在系統管理中心尋找 Microsoft 列為「發行者」(Publisher)，或在 Teams 市集中列為「提供者」(Provider)，以找到這些應用程式。
+Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使用者可以在 Teams 系統管理中心尋找列為 Publisher 的 Microsoft，或在 Teams 市集中列為「提供者」，藉此找到這些應用程式。
 
 Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在初始推出 Teams 時包括精選的應用程式，例如 Microsoft Planner。
 
@@ -65,29 +65,21 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 由貴組織中的開發人員建立的應用程式稱為自訂應用程式 (或企業營運應用程式)。 貴組織可能會針對組織特定的需求委託建立自訂應用程式。 您有權為整個組織或特定使用者允許或封鎖此類應用程式。 貴組織的開發人員可以使用與 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 整合的 Teams 來建立自訂低程式碼解決方案。
 
-當系統管理員允許使用自訂應用程式後，使用者可以在 Teams 市集的左側瀏覽中按一下 **[專為貴組織打造]** 來尋找這類應用程式。
+當系統管理員允許使用自訂應用程式後，使用者可以在 Teams 市集的左側流覽中選取 **[為您的組織打造** ] 來尋找這類應用程式。
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 傳統型應用程式中 Teams 市集中自訂應用程式的螢幕擷取畫面。" lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>瞭解自訂應用程式側載
-
-開發自訂應用程式，並在發佈給終端使用者之前，開發人員會先將應用程式新增至 Microsoft Store 以進行測試。 開發人員可以自行或使用指定的使用者群組進行測試，但該應用程式不會提供給組織中的其他終端使用者使用。 此方法稱為側載應用程式，僅適用於自訂應用程式。
-
-開發人員可以側載應用程式，將它提供給特定團隊的成員使用，通常是用來測試開發中的應用程式。 以這種方式使用應用程式會限制應用程式開發人員的使用，而且只要系統管理員允許在 Teams 中側載，就不需要系統管理員核准。 身為系統管理員，您可以不允許所有開發人員側載應用程式。
-
-如果您不允許側載，開發人員仍然可以透過[建立個別的測試租用戶](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)來測試其應用程式。 自訂應用程式開發完成後，開發人員會要求系統管理員將自訂應用程式發佈給使用者。 如需詳細資料，請參閱 [如何發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 身為系統管理員，您可以允許或不允許特定使用者使用自訂應用程式。
+如需詳細資訊，請參 [閱瞭解及管理自訂及側載的應用程式](custom-app-overview.md)。
 
 ## <a name="about-app-templates"></a>關於應用程式範本
 
-Teams 的應用程式範本功能多樣且已準備就緒的範例應用程式，由 Microsoft 建立，以達成下列目標:
+使用應用程式開發方法，Microsoft 會建立並提供功能與生產就緒的範例應用程式。 這些應用程式統稱為 Teams 的應用程式範本，並提供給：
 
-* 圖解熱門使用案例。
-* 展示應用程式開發的最佳做法。
-* 提供開發人員可以延伸以建立自訂應用程式的開放原始碼應用程式。
+* 說明 Teams 中的一些共同作業使用案例。
+* 展示應用程式開發的最佳做法和方法。
+* 提供開放原始碼應用程式，讓開發人員可以擴充以建立自己的應用程式。
 
-您的組織開發人員對 GitHub 中可用的程式碼進行簡單的變更，以自訂應用程式範本。 您為使用者提供這些應用程式做為自訂應用程式，以符合任何組織的需求。
+您的組織開發人員會透過簡易變更提供的原始程式碼來自訂應用程式範本。 您為使用者提供這些應用程式做為自訂應用程式，以符合任何組織的需求。
 
 若要深入了解，請參閱 [Microsoft Teams 應用程式範本](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
 
@@ -175,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>相關文章
+
+* [深入瞭解 Teams 的應用程式範本](/microsoftteams/platform/samples/app-templates)。
