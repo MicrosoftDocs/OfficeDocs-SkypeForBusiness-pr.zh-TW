@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解自動語音應答和通話佇列，以及如何使用自動語音應答和通話佇列來協助來電者在功能表系統之間移動，以連絡組織中的人員或部門。
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070734"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443350"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>規劃 Teams 自動語音應答和通話佇列
 
@@ -175,6 +175,18 @@ ms.locfileid: "67070734"
 
 - [設定自動語音應答](create-a-phone-system-auto-attendant.md)
 - [建立通話佇列](create-a-phone-system-call-queue.md)
+
+> [!IMPORTANT]
+> 使用者的 Azure Active Directory (AAD) GUID 權杖會在使用者設定為：
+>
+>  - 自動語音應答或通話佇列 **授權使用者**。
+>  - 自動語音應答 **運算子**。
+>  - **組織轉移點中的人員**。
+>  - 通話佇列的個別成員。
+> 
+> 自動語音應答和通話佇列設定未與 AAD 生命週期事件同步處理。  Teams 系統管理員必須手動更新自動語音應答和通話佇列設定，以便在設定中包含的使用者離開組織時移除此個人資料。
+>
+> 這不適用於透過通訊群組清單或頻道設定的通話佇列代理成員資格。 也不適用於透過自動語音應答的 [ **以名稱撥號** ] 或 [ **以號碼撥號** 方式撥號] 功能聯繫的使用者。
 
 如果您需要更廣泛的功能，例如與工作流程、Bot 和簡訊整合，請考慮[Azure 通訊服務](/azure/communication-services/overview)。
 

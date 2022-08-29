@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: d206a4249a086914bb9bf1cf168c03dd1544eb3c
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 8dda15990385db8e8ca9aeba7c56eba9d6b400ce
+ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790258"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67291419"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
@@ -237,8 +237,8 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |**UserAgent** | | | |
 | 第一個網域  | String  | 第一個端點使用者的網域。 如果第一個端點是會議服務器，則會使用會議召集人的網域。 可能也是案例中所使用的服務帳戶網域。  <br/> **範例值：** contoso.com <span></span> | |
 | 第二個網域  | String  | 第二個端點使用者的網域。 如果第二個端點是會議服務器，則會使用會議召集人的網域。 可能也是案例中所使用的服務帳戶網域。 <br/> **範例值：** contoso.com <span></span>  | |
-| 第一個使用者代理程式類別  | String  | 第一個端點的使用者代理程式類別。 <br/> **範例值：** OC | &bull; 使用者代理程式目前沒有對應    |
-| 第二個使用者代理程式類別  | String  | 第二個端點的使用者代理程式類別。 <br/> **範例值：** OC | &bull; 使用者代理程式目前沒有對應    |
+| 第一個使用者代理程式類別  | String  | 第一個端點的使用者代理程式類別。 <br/> **範例值：** Oc | &bull; 使用者代理程式目前沒有對應    |
+| 第二個使用者代理程式類別  | String  | 第二個端點的使用者代理程式類別。 <br/> **範例值：** Oc | &bull; 使用者代理程式目前沒有對應    |
 | 第一個使用者代理程式  | String  | 第一個端點的使用者代理程式字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (商務用 Skype)  | &bull; 第一個端點未報告任何使用者代理程式   |
 | 第二個使用者代理程式  | String  | 第二個端點的使用者代理程式字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (商務用 Skype)  | &bull; 第二個端點未回報任何使用者代理程式   |
 | 會議類型  | 枚舉 <br/>**可能的值：** <br/>&bull; conf：applicationsharing <br/>&bull; conf：audio-video <br/>&bull; conf：focus | 會議 URI 類型。  <br/> **範例值：** conf：audio-video | &bull; 非會議案例。   |
@@ -247,7 +247,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個用戶端應用程式版本  | String  | 用於第二個端點之應用程式的版本。 資料會從使用者代理程式字串剖析。 <br/> **範例值：** 16.0.7766.2047 | &bull; 無法剖析版本字串 <br/>&bull; 未回報該值。 |
 |會議 ID |String |建立會議時產生的會議識別碼。  <br/> **範例值：** 19：meeting_MzB...zIw@thread.v2| |
 |**網路**||| |
-| 運輸  | 枚舉 <br/>**可能的值：** <br/>&bull; UDP <br/>&bull; TCP <br/>&bull; 未知  | 串流所使用的網路傳輸類型。  無法辨識表示系統無法判斷傳輸類型是否為 TCP 或 UDP。  | &bull; 未報告傳輸類型 <br/>&bull; 尚未建立媒體路徑  |
+| 運輸  | 枚舉 <br/>**可能的值：** <br/>&bull; Udp <br/>&bull; Tcp <br/>&bull; 未知  | 串流所使用的網路傳輸類型。  無法辨識表示系統無法判斷傳輸類型是否為 TCP 或 UDP。  | &bull; 未報告傳輸類型 <br/>&bull; 尚未建立媒體路徑  |
 | 第一次連線冰  | 枚舉 <br/>**可能的值：** <br/>&bull; DIRECT= Direct 網路路徑 <br/>&bull; RELAY = 透過轉送 <br/>&bull; HTTP = 透過 HTTP Proxy <br/>&bull; FAILED = 連線失敗 | 第一個端點使用的 ICE 連線類型。  |&bull; 未報告傳輸類型 <br/>&bull; 尚未建立媒體路徑   |
 | 第二個連線冰  | 枚舉 <br/>**可能的值：** <br/>&bull; DIRECT= Direct 網路路徑 <br/>&bull; RELAY = 透過轉送 <br/>&bull; HTTP = 透過 HTTP Proxy <br/>&bull; FAILED = 連線失敗  | 第二個端點使用的 ICE 連線類型。    | &bull; 未報告傳輸類型 <br/>&bull; 尚未建立媒體路徑    |
 | 第一個 IP 位址  | String  | 第一個端點的 IP 位址。 請注意，此維度可能有太多列，無法做為報表中的維度。 您可以改用做為篩選。 <br/> **範例值：** 10.0.0.10  | &bull; 未報告傳輸類型 <br/>&bull; 尚未建立媒體路徑   |
@@ -469,7 +469,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |**通話診斷**||||
 | 錯誤報表寄件者  | String  | 指出傳送串流之通話錯誤報表的端點。 此報告包含額外的遙測，可能表示通話設定或通話置放問題。 <br/> **範例值：** 第一 | &bull; 表示未收到通話錯誤報表。  |
 | 是媒體錯誤  | String  | 指出串流的通話錯誤報表是否為媒體層級錯誤。 此報告包含額外的遙測，可能表示通話設定或通話置放問題。    | &bull; 表示未收到通話錯誤報表。 |
-| 媒體失敗類型  | 枚舉 <br/>**可能的值：** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull;  NotMediaFailure。 | 與串流相關聯的媒體失敗類型。 <br/> 注意：「NotMediaFailure」並不表示發生非媒體失敗，只是沒有發生任何媒體失敗。   | &bull; 表示未收到通話錯誤報表。   |
+| 媒體失敗類型  | 枚舉 <br/>**可能的值：** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull; MediaFailureUnknownType <br/>&bull;  NotMediaFailure | 與串流相關聯的媒體失敗類型。 <br/> 注意：「NotMediaFailure」並不表示發生非媒體失敗，只是沒有發生任何媒體失敗。 MediaFailureUnknownType 表示偵測到媒體失敗，但因邊緣案例或缺少遙測而未歸入 MidCall 或 CallSetup 分類。   | &bull; 表示未收到通話錯誤報表。   |
 | 通話分類| 枚舉 |指派給通話的可靠性分類。 <br/> **可能的值**：成功、失敗、ClassificationUnavailable | |
 | 分類原因|String|將分類指派給串流的原因。| |
 | 測試通話類型|枚舉|指出此通話是一般通話還是測試通話。 如果是測試通話，這表示測試通話的類型。 <br/>**可能的值：** NonTest、Silent、UserInitiated、方塊 <br/>**意義：** <br/> NonTest – 一般通話 <br/> 無訊息 – 無訊息測試通話 <br/> UserInitiated – User 啟動測試通話 <br/>層級 – ST 端點啟動通話||
@@ -481,7 +481,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 有媒體診斷 Blob  | Boolean  | 如果會話有媒體診斷資料，則為 True，否則為 False。   | &bull; 未針對此串流收集某些訊號資料   |
 | 通話設定失敗原因  | 枚舉  | 無法針對通話建立媒體連線的分類。 <br/>**可能的值：** <br/> **遺失 FW 深度封包檢查免稅規則** - 表示該路徑上的網路設備可能因為深度封包檢查規則而導致媒體路徑無法建立。 這可能是因為 Proxy 或防火牆規則未正確設定所導致。 <br/> **遺失 FW IP 封鎖免稅規則**- 表示沿著可能阻止媒體路徑建立至Office 365網路的路徑的網路設備。 這可能是因為 Proxy 或防火牆規則未正確設定為允許存取用於商務用 Skype流量的 IP 位址和埠。 <br/> **其他** - 表示無法建立通話的媒體路徑，但無法分類根本原因。 <br/> 非媒體失敗 - 表示未偵測到媒體路徑的重新部署問題。  | &bull; 因不明媒體問題而無法設定通話  |
 | 會話類型  | 枚舉 <br/>**可能的值：** <br/> Conf、P2P  | 表示通話會話類型是否為會議 (Conf) 或對等通話 (P2P) 案例。 <br/> **範例值：** Conf | |
-| CDR 回應原因  | 枚舉 <br/>**可能的值：** <br/> 0 或 200 = 「OK」 <br/> 410 = 「MediaConnectivityErrors」<br/> 480 = 「UserUnavailable」<br/> 487 = 「PickupTimedOut」 <br/> 603 = 「CallDeclined」 <br/> 所有其他 CDR 代碼 = 「Other」 | 提供通話會話結束、通話成功與否的原因，並允許在未接聽、忙碌、拒絕 () 和未接聽的通話之間區分不完整的通話， (媒體記錄) 。 <br/> **範例值：** 還行 | <br/>&bull; 「其他」值表示回應程式碼在 Microsoft 工程團隊之外在診斷上沒有用處 |
+| CDR 回應原因  | 枚舉 <br/>**可能的值：** <br/> 0 或 200 = 「OK」 <br/> 410 = 「MediaConnectivityErrors」<br/> 480 = 「UserUnavailable」<br/> 487 = 「PickupTimedOut」 <br/> 603 = 「CallDeclined」 <br/> 所有其他 CDR 代碼 = 「Other」 | 提供通話會話結束、通話成功與否的原因，並允許在未接聽、忙碌、拒絕 () 和未接聽的通話之間區分不完整的通話， (媒體記錄) 。 請注意，410 錯誤不一定會與「失敗」分類相互關聯;這是因為已識別排除專案，因此不視為影響媒體失敗。 <br/> **範例值：** 還行 | <br/>&bull; 「其他」值表示回應程式碼在 Microsoft 工程團隊之外在診斷上沒有用處 |
 |**DNS**||||
 | 已使用 DNS 解析快取  | Boolean  | 如果端點使用 DNS 快取解決媒體轉送位址，則為 True，否則為 False。    | <br/>&bull; 端點未回報此資料    |
 |**UserData**| |||

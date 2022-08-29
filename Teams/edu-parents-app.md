@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278767"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418622"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中設定父系連線
 
@@ -42,7 +42,7 @@ Teams 教育版中的家長連線可協助授課者使用 Teams 安全地與班�
 家長連線可讓授課者和監護人使用 Teams 聊天、傳送電子郵件和通話。
 
 - 授課者可以與監護人開始聊天。
-  - 如果監護人沒有 Teams 消費者帳戶，他們會收到授課者的初始訊息和移至 Teams 的電子郵件邀請。
+  - 如果監護人沒有 Teams 消費者帳戶或尚未加入 Teams，他們將會收到來自教育人員的訊息，並附上前往 Teams 的電子郵件邀請。 只有在未達到邀請限制，且聊天是從父系連線重新輸入的新聊天或現有聊天時，才會套用此功能。
 - 它適用于受監督的聊天。 如需詳細資訊，請參閱 [在 Microsoft Teams 中使用受監督的聊天](supervise-chats-edu.md)。
   - 根據預設，監護人具有限制的許可權，因此他們無法與學生聊天或將使用者從聊天中移除。
   - 租使用者管理員可以變更此設定。

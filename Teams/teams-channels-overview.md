@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616279"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396924"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -85,6 +85,10 @@ Teams 中的兩個主要角色如下：
 > 在 Teams 中建立新的小組或私人或共用頻道時，會自動在 SharePoint 中建立小組網站。 若要編輯此小組網站的網站描述或分類，請前往對應頻道的 [Microsoft Teams 中的設定](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d)。
 >
 > 深入了解如何管理 [Microsoft Teams 連線的小組網站](/SharePoint/teams-connected-sites)。
+
+這段影片示範檢視和管理使用者團隊成員資格的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
 
 ## <a name="channel-feature-comparison"></a>頻道功能比較
 

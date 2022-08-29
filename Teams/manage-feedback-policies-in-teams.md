@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的 Teams 使用者是否可以將 Teams 相關的意見反應提交給 Microsoft。
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156521"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339797"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理意見反應原則
 
@@ -68,6 +68,7 @@ ms.locfileid: "67156521"
 
  - **問卷**：將 **ReceiveSurveysMode** 參數 **設定為啟用** ，以允許獲派原則的使用者接收問卷。 若要讓使用者收到問卷並允許他們退出宣告，請將參數設定為 **enabledUserOverride**。 在 Teams 中，使用者可以接著移至 **[設定**  >  **隱私權**]，並選擇是否要參與問卷調查。 將參數設定為 **停** 用會關閉此功能，而獲指派原則的使用者將不會收到問卷調查。
 
+ - **螢幕擷取畫面**：使用 **AllowScreenshotCollection** 旗標來新增使用者的螢幕擷取畫面集合加入宣告。
  - **Email**：使用 **AllowEmailCollection** 標幟來新增電子郵件欄位。
  - **記錄收集**：使用 **AllowLogCollection** 標幟為使用者新增記錄集合加入宣告。 記錄收集功能目前僅在行動裝置上啟用。 如需有關透過記錄共用哪些資料的詳細資料，請 [深入瞭解](https://go.microsoft.com/fwlink/?linkid=2168178)。
 
@@ -92,4 +93,4 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
+- [在 Teams 中將原則指派給使用者](policy-assignment-overview.md)

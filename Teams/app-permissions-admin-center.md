@@ -12,22 +12,22 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: f9ec44990728feac5982641ce80ff15442bcaf7d
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299052"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396484"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意
 
-Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁面可讓您檢視和管理貴組織的所有 Teams 應用程式。 例如，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至貴組織的應用程式市集、在組織層級封鎖或允許應用程式，以及管理全組織的應用程式設定。
+系統管理員可從 Teams 系統管理中心的 [管理應用程式] 頁面檢視及管理所有 Teams 應用程式。 您可以管理在組織內建立且僅供使用者使用的自訂應用程式，以及管理 Teams App 市集中提供的協力廠商。 例如，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至貴組織的 App 市集、允許組織層級或個別使用者的應用程式。
 
 您也可以在這裡將整個組織的系統管理員同意授與應用程式，以為應用程式要求存取資料的權限，及檢視資源特定同意 (RSC)的權限。
 
 ## <a name="grant-org-wide-admin-consent-to-an-app"></a>將全組織的系統管理員同意授與應用程式
 
-如果您是全域系統管理員，您可以代表貴組織中的所有使用者檢閲並向要求權限的應用程式授與同意。 如此一來，使用者就不必在啟動應用程式時，檢閱並接受應用程式要求的權限。 此外，根據 Azure Active Directory (Azure AD) 中的使用者[同意設定](/azure/active-directory/manage-apps/configure-user-consent)，某些使用者可能不受允許將同意授與存取公司資料的應用程式。
+如果您是全域系統管理員，您可以檢閱並同意代表貴組織中所有使用者要求許可權的應用程式。 如此一來，使用者就不必在啟動應用程式時，檢閱並接受應用程式要求的權限。 此外，根據 Azure Active Directory (Azure AD) 中的使用者[同意設定](/azure/active-directory/manage-apps/configure-user-consent)，某些使用者可能不受允許將同意授與存取公司資料的應用程式。
 
 應用程式要求的權限範例包括讀取儲存在小組中的資訊、讀取使用者的設定檔，以及代表使用者傳送電子郵件的功能。 若要深入了解，請參閱 [Microsoft 身分識別平台端點中的權限與同意](/azure/active-directory/develop/v2-permissions-and-consent)。
 
@@ -38,7 +38,7 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)**.。
 
 1. 執行下列其中一項：
-    * 搜尋您想要的應用程式，按一下應用程式名稱以移至應用程式詳細資料頁面，然後選取 **[權限]** 索引標籤。
+    * 搜尋您想要的應用程式，選取應用程式名稱以移至應用程式詳細資料頁面，然後選取 [ **許可權] 索引卷** 標。
     * 依遞減順序對 **[權限]** 欄位進行排序以尋找應用程式，然後選取 **[檢視詳細資料]**。 執行此工作將進入應用程式詳細資料頁的 **[權限]** 索引標籤。
 
 1. 在 **[全組織權限]** 下，選取 **[檢閲權限和同意]**。
@@ -54,9 +54,9 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
     > [!IMPORTANT]
     > 將全組織同意授與應用程式，讓應用程式存取您組織的資料。 在您授與同意之前，請仔細檢閱應用程式要求的權限。
 
-1. 如果您同意應用程式要求的權限，請按一下 **[接受]** 以授與同意。 頁面頂部會暫時顯示橫幅，告知您已為應用程式授與要求的權限。 應用程式現在可以存取貴組織中所有使用者的指定資源，並且不會提示其他人檢閲權限。
+1. 如果您同意應用程式要求的許可權，請選取 [ **接受** ] 以授與同意。 頁面頂部會暫時顯示橫幅，告知您已為應用程式授與要求的權限。 應用程式現在可以存取貴組織中所有使用者的指定資源，並且不會提示其他人檢閲權限。
 
-接受權限後，您將在應用程式詳細資料頁面上的 **[全組織權限]** 下看到告知已授與同意的訊息。 若要檢視應用程式權限的詳細資料，請按一下 **Azure Active Directory** 連結，前往 Azure AD 入口網站中的應用程式頁面。
+接受權限後，您將在應用程式詳細資料頁面上的 **[全組織權限]** 下看到告知已授與同意的訊息。 若要檢視應用程式許可權的詳細資料，請選取 **Azure Active Directory** 連結，以移至 Azure AD 入口網站中的應用程式頁面。
 
 :::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="授與同意時顯示訊息的螢幕擷取畫面。":::
 
@@ -76,7 +76,7 @@ RSC 權限是在應用程式資訊清單中定義，而不是在 Azure AD 中定
 若要檢視應用程式的 RSC 權限，請遵循下列步驟：
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-1. 搜尋您想要的應用程式，按一下應用程式名稱以移至應用程式詳細資料頁面，然後選取 **[權限]** 索引標籤。
+1. 搜尋您想要的應用程式，選取應用程式名稱以移至應用程式詳細資料頁面，然後選取 [ **許可權] 索引卷** 標。
 1. 在 **[Microsoft Graph 資源特定同意 (RSC) 權限]** 下，檢閱應用程式要求的 RSC 權限。
 
     :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="應用程式 RSC 權限的螢幕擷取畫面。":::

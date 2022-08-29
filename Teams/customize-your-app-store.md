@@ -17,25 +17,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何新增標誌、自訂背景和自訂文字色彩，以自訂群組織的 Teams 應用程式市集。
-ms.openlocfilehash: 01648e3c45540e5f9e7a0eb82921cf74937d9f62
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269068"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397034"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>在 Microsoft Teams 中自訂貴組織的應用程式市集
 
-現在，您可以在 Teams 中自訂您的組織的應用程式市集以使用公司商標，方法是新增您的標誌、自訂背景和自訂文字色彩，讓它看起來對使用者更具吸引力。
+您可以自訂群組織的 App Store，以反映貴公司的品牌。 您可以新增標誌、自訂背景和自訂文字色彩，讓它更吸引使用者。
 
-> [!NOTE]
-> 品牌的變更最多可能需要 24 小時才能生效。
-
-您可以在系統管理中心存取自訂的市集，方法是選取 **[Teams 應用程式]** > **[自訂市集]**。
-
-  ![已強調顯示系統管理主控台自訂市集功能。](media/customize-app-store.png)
-
-此文章說明自訂應用程式市集功能及其使用方法。
+您可以選取 **Teams 應用程式**  >  自訂市集，以存取 Teams 系統管理中心的自訂 **[存放區](https://admin.teams.microsoft.com/policies/customize-appstore)**。 請依照下列指示取得變更的詳細資料。
 
 ## <a name="customize-your-organization-logo"></a>自訂貴組織標誌
 
@@ -87,14 +80,14 @@ Teams 市集會在 **[專為您的租用戶打造]** 區段旁顯示標誌。
 
 當您選取 **[選擇自訂色彩]** 時，色彩選擇器隨即會開啟。 調整色彩選擇器縮放，以選取您想要的顏色。
 
- ![色彩選擇器。](media/choose-a-custom-color.png)
+:::image type="content" source="media/choose-a-custom-color.png" alt-text="選擇色彩之對話方塊的螢幕擷取畫面。":::
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>完成小組應用程式市集的自訂
 
 當您完成自訂應用程式市集時，請務必選取 **[儲存]** 以儲存您的變更。
 若要預覽您的變更，請選取 **[預覽應用程式市集]** 以查看自訂應用程式市集的呈現方式。
 
-![自訂應用程式市集的預覽。](media/PowerAppsInStore650w.png)
+:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="顯示自訂應用程式市集範例的螢幕擷取畫面。":::
 
 > [!NOTE]
 > 呈現方式可能會與自訂應用程式市集的最終版本有所不同，因為某些預設色彩是以使用者的 Teams 用戶端版本作為基礎。

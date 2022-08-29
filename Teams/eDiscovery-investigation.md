@@ -16,12 +16,12 @@ description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c77cb7cda26b6061ee1e4fce05bf5ff326b7116b
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269058"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283114"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>對 Microsoft Teams 中的內容進行電子檔探索調查
 
@@ -35,25 +35,24 @@ ms.locfileid: "67269058"
 
 並非所有 Teams 內容都可電子檔探索。 下表顯示您可以使用 Microsoft eDiscovery 工具搜尋的內容類型：
 
-|內容類型|eDiscoverable|注釋|
-|---|---|---|
-|音訊錄製|是||
-|卡片內容|是|如需詳細資訊，請參閱 [搜尋卡片內容](#search-for-card-content) 。|
-|聊天連結|是||
-|聊天訊息|是|這包括標準 Teams 頻道中的內容、1 對 1 聊天、1：N 群組聊天，以及與來賓使用者參與者聊天。|
-|程式碼片段|否||
-|編輯的郵件|是|如果使用者保留，先前編輯的郵件版本也會保留。|
-|Emoji、GIF 和貼圖|是||
-|摘要通知|否||
-|內嵌影像|是||
-|迴圈元件|是|迴圈元件中的內容會儲存在儲存在傳送迴圈元件之使用者商務用 OneDrive帳戶中的 .fluid 檔案中。 這表示在迴圈元件中搜尋內容時，您必須將 OneDrive 包含為數據源。|
-|會議 IM 交談|是||
-|會議中繼資料<sup>1</sup>|是||
-|頻道名稱|是||
-|報價|是|可搜尋引用的內容。 不過，搜尋結果不會指出已引用內容。|
-| (贊、心和其他反應等反應) |是|2022 年 6 月 1 日之後，所有商業客戶都支援反應。 在此日期之前所出現的圖釋不適用於電子檔探索。 我們已規劃政府雲端支援。 圖釋沒有法律保留支援。|
-|主題|是||
-|表|是||
+|內容類型|注釋|
+|---|---|
+|音訊錄製||
+|卡片內容|如需詳細資訊，請參閱 [搜尋卡片內容](#search-for-card-content) 。|
+|聊天連結||
+|聊天訊息|這包括標準 Teams 頻道中的內容、1 對 1 聊天、1：N 群組聊天，以及與來賓使用者參與者聊天。|
+|程式碼片段||
+|編輯的郵件|如果使用者保留，先前編輯的郵件版本也會保留。|
+|Emoji、GIF 和貼圖||
+|內嵌影像||
+|迴圈元件|迴圈元件中的內容會儲存在儲存在傳送迴圈元件之使用者商務用 OneDrive帳戶中的 .fluid 檔案中。 這表示在迴圈元件中搜尋內容時，您必須將 OneDrive 包含為數據源。|
+|會議 IM 交談||
+|會議中繼資料<sup>1</sup>||
+|頻道名稱||
+|報價|可搜尋引用的內容。 不過，搜尋結果不會指出已引用內容。|
+| (贊、心和其他反應等反應) |2022 年 6 月 1 日之後，所有商業客戶都支援反應。 在此日期之前所出現的圖釋不適用於電子檔探索。 我們已規劃政府雲端支援。 圖釋沒有法律保留支援。|
+|主題||
+|表||
 
 <sup>1</sup> 會議 (和通話) 中繼資料包含下列專案：
 

@@ -1,5 +1,5 @@
 ---
-title: 管理會議Microsoft Teams
+title: 在 Microsoft Teams 中管理會議原則
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,15 +18,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
-description: 瞭解如何管理會議中的會議Teams，並使用這些設定來控制提供給會議參與者的功能，供使用者排程的會議使用。
-ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+description: 瞭解如何在 Teams 中管理會議原則設定，並使用這些設定來控制使用者排定之會議參與者可用的功能。
+ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205533"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396544"
 ---
-# <a name="manage-meeting-policies-in-microsoft-teams"></a>管理會議Microsoft Teams
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議原則
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -43,9 +43,9 @@ ms.locfileid: "61205533"
 
 |實作類型  |描述  |
 |---------|---------|
-|每一召集人    |當您實作每一召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動** 准許人員是每個召集人的政策，並控制使用者是否直接加入會議，或是在大廳等候指派該政策的使用者排程的會議。          |
-|每一使用者    |當您實作每一使用者原則時，僅會套用每一使用者原則，以限制召集人和/或會議參與者的某些功能。 例如，頻道 **中的現在開會** 是每個使用者的策略。     |
-|每一召集人和每一使用者     |當您實作每一召集人和每一使用者的原則組合時，系統會根據參與者的原則和召集人的原則，限制會議參與者的某些功能。 例如， **雲端錄製** 是每個召集人和每個使用者的政策。 開啟此設定，讓會議召集人和參與者開始和停止錄製。
+|每一召集人    |當您實作每一召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動准許人員** 為每個召集人的原則，並控制使用者是否直接加入會議，或是在大廳等候被指派原則的使用者排程的會議。          |
+|每一使用者    |當您實作每一使用者原則時，僅會套用每一使用者原則，以限制召集人和/或會議參與者的某些功能。 例如，在 **頻道中立即開會** 是個別使用者的原則。     |
+|每一召集人和每一使用者     |當您實作每一召集人和每一使用者的原則組合時，系統會根據參與者的原則和召集人的原則，限制會議參與者的某些功能。 例如， **雲端錄製** 是每個召集人和個別使用者的原則。 開啟此設定可讓會議召集人和參與者開始和停止錄製。
 
 您可以編輯全域原則中的設定，或建立並指派一或多個自訂原則。 除非您建立並指派自訂原則，否則使用者將會取得全域原則。
 
@@ -65,15 +65,19 @@ ms.locfileid: "61205533"
 在 [音訊與視訊] 下：
 
 - 關閉雲端錄製。
-- 關閉 IP 影片。
+- 關閉 IP 視訊。
 
 在 [內容共用] 下：
 
 - 停用 [螢幕畫面分享模式]。
 - 關閉 Whiteboard。
-- 關閉共用筆記。
+- 關閉 [共用記事]。
 
 然後，將原則指派給使用者。
+
+這段影片將示範建立自訂會議原則並指派給使用者 (或使用者) 的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
 ## <a name="edit-a-meeting-policy"></a>編輯會議原則
 
@@ -87,6 +91,10 @@ ms.locfileid: "61205533"
 > [!NOTE]
 > 一次只能為使用者指派一個會議原則。
 
+這段影片將示範編輯全組織預設會議原則的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
+
 ## <a name="assign-a-meeting-policy-to-users"></a>將會議原則指派給使用者
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
@@ -96,11 +104,11 @@ ms.locfileid: "61205533"
 
 ## <a name="meeting-policy-settings"></a>會議原則設定
 
-當您在會議政策頁面上選取現有策略或選取新增以新增策略時，您可以設定下列設定。
+當您在 [ **會議** 原則] 頁面上選取現有原則，或選取 [ **新增** ] 以新增原則時，您可以為下列設定。
 
 - [一般](meeting-policies-in-teams-general.md)
 - [音訊與視訊](meeting-policies-audio-and-video.md)
-- [錄製&文字](meetings-policies-recording-and-transcription.md)
+- [錄製&稿](meetings-policies-recording-and-transcription.md)
 - [內容共用](meeting-policies-content-sharing.md)
 - [參與者與來賓](meeting-policies-participants-and-guests.md)
 

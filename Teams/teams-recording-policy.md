@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915211"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418482"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&會議的 Teams 原則型錄製簡介
 
@@ -111,7 +111,7 @@ Teams 提供各種功能，可 [讓您方便](./cloud-recording.md) 且有功能
 合規性錄製解決方案已與 Teams 整合，如下圖所示：
 
 > [!div class="mx-imgBorder"]
-> ![顯示團隊自訂應用程式設定的螢幕擷取畫面。](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "影像顯示 Teams 會議或電話傳送和接聽時的流程。")
+> ![顯示小組自訂應用程式設定的螢幕擷取畫面。](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "影像顯示 Teams 會議或電話傳送和接聽時的流程。")
 
 > [!NOTE]
 > 此解決方案是專為啟用 Teams 的原則合規性記錄所設計。 將不支援任何其他使用此解決方案的功能。
@@ -244,7 +244,7 @@ IT 系統管理員可以建立並指派合規性錄製原則，決定要錄製�
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
-|Redwood Technologies |[https://www.contentguru.com/compliance-recording-for-microsoft-teams/](https://www.contentguru.com/compliance-recording-for-microsoft-teams/) |
+|Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/) |
 
 
 隨著更多合作夥伴加入並符合認證準則，此清單將會更新。

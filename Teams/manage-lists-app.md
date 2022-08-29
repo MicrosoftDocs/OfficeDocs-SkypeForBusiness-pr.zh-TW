@@ -21,15 +21,16 @@ ms.collection:
 - microsoftcloud-healthcare
 - microsoftcloud-retail
 - m365initiative-lists
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842229"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396274"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
@@ -95,7 +96,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 您的組織中的所有 Teams 使用者預設會啟用 [清單]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
-1. 在 Microsoft Teams 系統管理中心的左窗格中，移至 **Teams 應用程式**  >  **管理應用程式**。
+1. 在 Microsoft Teams 系統管理中心的左側窗格中，移至 **[Teams 應用程式]** > **[管理應用程式]**。
 2. 執行下列其中一項：
 
     - 若要關閉貴組織的清單，請搜尋清單應用程式，選取它，然後選取 **[封鎖]**。

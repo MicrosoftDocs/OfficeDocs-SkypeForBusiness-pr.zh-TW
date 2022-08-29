@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299062"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396864"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 應用程式權限和考量。
 
@@ -96,7 +96,7 @@ Microsoft Teams 應用程式是一種將一或多個功能匯總到可安裝、�
 
 * 當使用者與 Bot 交談時，如果 Bot 儲存使用者的識別碼，它可以隨時傳送直接訊息給使用者。
 
-* 理論上來說，Bot 訊息可能包含網路釣魚或惡意程式碼網站的連結。 不過，Bot 可以由使用者、租用戶系統管理員，或 Microsoft 全域封鎖。 [應用程式驗證和驗證檢查](overview-of-app-validation.md)可確保 Teams 市集中沒有假的應用程式。
+* 理論上來說，Bot 訊息可能包含網路釣魚或惡意程式碼網站的連結。 不過，Bot 可以由使用者、租用戶系統管理員，或 Microsoft 全域封鎖。 [應用程式驗證和驗證檢查](overview-of-app-validation.md) 可確保 Teams 市集中沒有可用的任意應用程式。
 
 * Bot 可以擷取 (且可能儲存) 已新增應用程式的小組成員，或個人或群組聊天中個別使用者的基本身分識別資訊。 若要取得這些使用者的進一步資訊，Bot 必須要求他們登入 Azure Active Directory (Azure AD)。
 
@@ -105,8 +105,6 @@ Microsoft Teams 應用程式是一種將一或多個功能匯總到可安裝、�
 * 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者登入; 使用者登入後，Bot 就會有存取權杖，以使用該權杖執行其他動作。 這些其他項目的確切功能取決於 Bot 以及使用者登入的位置：Bot 是在 https://apps.dev.microsoft.com/ 註冊的 Azure AD 應用程式，而且能擁有自己的一組權限。
 
 * 當檔案傳送給 Bot 時，檔案會離開公司網路。 傳送和接收檔案需要使用者核准每個檔案。
-
-* 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者登入; 使用者登入後，Bot 就會有存取權杖，以使用該權杖執行其他動作。 這些額外項目的確切功能取決於 Bot 以及使用者登入的位置：Bot 是一個在[應用程式註冊入口網站](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList)註冊的 Azure AD 應用程式，而且能擁有自己的一組權限。
 
 * 每當新增使用者或從團隊中刪除使用者時，系統就會通知 Bot。
 

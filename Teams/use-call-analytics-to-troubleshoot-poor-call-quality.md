@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用每個使用者的通話分析有關裝置、網路和連線能力的詳細資料，來疑難排解 Microsoft Teams 通話和會議的使用者問題。
-ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: c83ecbad418dc471f1db2c9c71b88fa621fe4a11
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794311"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397094"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解不良通話品質
 
@@ -54,6 +54,10 @@ ms.locfileid: "66794311"
 若要取得特定會話的其他相關資訊，包括詳細的媒體和網路統計資料，請按一下會話以查看詳細資料。
 
 ![通話分析使用者會話資料的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+
+這段影片將示範檢視使用者會議和通話資訊的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
 
 ## <a name="what-does-each-teams-support-role-do"></a>每個 Teams 支援角色的功能為何？
 
@@ -93,7 +97,7 @@ ms.locfileid: "66794311"
 
    在每個通話或會議的會話詳細資料中，小問題會以黃色顯示。 如果某個專案是黃色，表示它超出一般範圍，而且可能造成問題，但不太可能是問題的主要原因。 如果出現紅色專案，則表示這是嚴重的問題，且可能是此會話通話品質不佳的主要原因。
 
-在少數情況下，音訊會話不會收到體驗品質資料。 這通常是由中斷通話或與用戶端的連線終止所導致。 發生這種情況時，會話分級 **就無法使用**。
+在少數情況下，音訊會話不會收到體驗品質資料。 這通常是由通話中斷或與用戶端的連線終止所導致。 發生這種情況時，會話分級 **就無法使用**。
 
 針對確實具備體驗品質 (QoE) 資料的音訊會話，下表說明將會話資格視為 **不佳** 的主要問題。
 

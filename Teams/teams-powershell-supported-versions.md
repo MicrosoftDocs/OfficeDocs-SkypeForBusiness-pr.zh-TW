@@ -12,12 +12,12 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組支援的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175d9785cd32d18db7eebd363d08840538baa0df
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819548"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397284"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模組 - 支援的版本
 
@@ -48,6 +48,8 @@ ms.locfileid: "66819548"
   - Get-CsTenant中的參數變更 - [Get-CsTenant](/powershell/module/skype/get-cstenant) (訊息中心文章 - MC365397) 中的詳細資料。
   
   - 如果您的腳本使用 New/Set of Policy 或 Configuration Cmdlet 搭配 PSListModifier 類型參數，建議您使用最新版本的 (4.2.0 或更新版本) 。 訊息中心文章供參考 - MC397428。
+
+  - [新增|Get]-CsCloudCallDataConnection Cmdlet 現在支援版本 4.6.0 或更新版本， (訊息中心文章 - MC408993) 。
 
 - 使用 TPM 4.x.x 或更新版本時，建議不要使用 [以下](#deprecated-cmdlets)所述任何已取代或不支援的 Cmdlet。
 

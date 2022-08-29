@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 通話方案
+title: Microsoft Teams 通話方案
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,14 +27,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解商務用 Skype 選項的通話方案 (PSTN 通話方案) ，以及如何取得貴組織的授權。
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269218"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396844"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 通話方案
+# <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams 通話方案
 
 撥打電話給其他商務用 Skype和 Microsoft Teams 使用者是免費的，但如果您希望使用者能夠撥打一般電話，而您還沒有服務提供者可以撥打語音電話，則必須購買通話方案。 如需詳細資訊，請參閱 [電話系統和通話方案](calling-plan-landing-page.md)。
   
@@ -44,7 +44,11 @@ ms.locfileid: "67269218"
 
 - **國際通話方案**：授權使用者可以根據使用者的位置，撥打到其 Microsoft 365 授權指派給使用者之國家/地區的號碼，以及 [196 個國家/地區的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)國際號碼。 包含無限的來電分鐘數。 待發分鐘數會根據購買的授權包含在內。
 
-- **隨時隨地付費通話方案**：授權使用者可以根據使用者的位置，撥打到其 Microsoft 365 授權指派給使用者之國家/地區的號碼，以及  [196 個國家/地區的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)國際號碼。 包含無限的來電分鐘數。 不含撥出分鐘數。 所有撥出電話都是根據使用通訊點數或付款後計費的分鐘數來計費。
+- **隨時隨地付費通話方案**：授權使用者可以根據使用者的位置，撥打到其 Microsoft 365 授權指派給使用者之國家/地區的號碼，以及  [196 個國家/地區的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)國際號碼。 包含無限的來電分鐘數。 不含撥出分鐘數。 所有撥出電話都是根據使用通訊點數或付款後計費的分鐘數來計費。 授權會根據使用者的位置指派給使用者。 有 2 個選項可供選擇：
+  - **隨地付費通話方案區域-1**：購買此方案給美國中的使用者，包括波多黎各、加拿大和英國。
+    - 區域 1 授權目前不適用於美國和波多黎各，但如果是在其他國家/地區購買，則可布建給美國和波多黎各的使用者。
+  - **Pay-As-You-Go 通話方案區域-2**：針對奧地利、比利時、克羅埃西亞、捷克共和國、丹麥、愛沙尼亞、芬蘭、法國、德國、匈牙利、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、荷蘭、紐西蘭、挪威、波蘭、葡萄牙、羅馬尼亞、新加坡、斯洛伐克、斯洛維尼亞、南非、西班牙、瑞典和瑞士的使用者購買此方案。
+    - 美國和波多黎各目前不提供第 2 區授權供銷售。
 
 相同國家/地區的所有使用者 (這是Microsoft 365 系統管理中心) 授權區域中定義的使用者國家/地區位置，且相同的通話方案共用通話分鐘方案。 例如，如果您有 100 個使用者位於相同的國家/地區，且已指派 120 分鐘的國內通話方案，則他們共用一個 12，000 分鐘的集區。 超過這些分鐘數的所有通話都會按分鐘計費。
 

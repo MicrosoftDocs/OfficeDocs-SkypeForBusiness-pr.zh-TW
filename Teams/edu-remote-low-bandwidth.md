@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 教育版的低頻寬指導方針
+title: 疑難排解 Teams 的低頻寬案例
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
-description: Microsoft Teams 教育版文章，有助於解決與低頻寬有關的會議和視訊問題。 無論您身為家長、老師還是 IT 系統管理員，都可有改善 Teams 使用體驗的選項。
+description: 取得有關 Teams 中頻寬不足問題的會議和視訊問題的說明。 無論您是家長、授課者或 IT 管理員，您都可以選擇改善 Teams 的使用體驗。
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -17,79 +17,88 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87800943dc6e6a615e09b7995a613d109ebcf30c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 7f60095f20d62ed14b19d7c23493553efc39b872
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269048"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426810"
 ---
-# <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>協助解決 Teams 教育版的低頻寬情況。
+# <a name="troubleshoot-low-bandwidth-scenarios-for-teams"></a>疑難排解 Teams 的低頻寬案例
 
-使用 Microsoft Teams 時，有許多網路元素可能會影響效能，低頻寬正是可能會讓您覺得完全失控的其中一種情況: 
+本文將為 IT 系統管理員提供在 Teams 中處理低頻寬問題的最佳做法。
+
+許多網路元素可能會影響使用 Microsoft Teams 時的效能。
 
 - 學校的低速網際網路連線。
 - 一或多個學生的低速網際網路連線。
 - 一天當中不時會因為某個區域的網路使用量而導致低頻寬的情形。
-- 不是學校和學生所引起的服務中斷而導致低頻寬期間，雖然如此，但仍影響到效能。
-- 偽裝成低頻寬問題的非頻寬問題 (例如硬體問題)。
-
-本文會針對各種 Teams 活動，提供當您遇到低頻寬問題時可以遵循的最佳做法。
+- 學校或學生的本機中斷，但會影響效能。
+- 造成低頻寬問題的硬體問題。
 
 > [!IMPORTANT]
-> 這裡有 [Microsoft Teams 如何使用記憶體](teams-memory-usage-perf.md)的相關資訊，因為除了低頻寬問題外，您的裝置也可能遇到資源問題。 如果您要尋找 Microsoft Teams 的網路指導方針，請檢閱[針對 Microsoft Teams 準備組織的網路](prepare-network.md)。
+> 閱讀 [Microsoft Teams 如何使用記憶體](teams-memory-usage-perf.md) 來限制裝置的資源。
+>
+>如需 Teams 網路指導方針，請參閱 [為 Microsoft Teams 準備貴組織的網路](prepare-network.md)。
 
-## <a name="resolving-low-bandwidth-issues-for-admins"></a>為 IT 系統管理員解決低頻寬問題
+## <a name="resolving-low-bandwidth-issues-for-it-admins"></a>解決 IT 系統管理員的低頻寬問題
 
-請務必牢記，身為 IT 系統管理員，雖然您有很多能迅速解決此廣泛出現的低頻寬問題的解決方案，但使用前請先仔細思考，因為有些問題或許以教育者或甚至學生/家長層級採用的更小焦點就能夠解決。
+有些問題可能只會在個別使用者層級以縮小焦點來解決。
 
-簡言之，如果是眾多學生遇到低頻寬問題，那麼以 IT 系統管理員的角色來採取行動便很合理，同樣地，如果在學生/老師層級採取行動沒有用，則以 IT 系統管理員的角色來採取行動也很合理。
+如果許多使用者發生頻寬問題，或在使用者層級採取的動作沒有説明，則下一步就是整個學校的動作。
 
 > [!NOTE]
-> 如果您有空，[體驗品質的審查指南](quality-of-experience-review-guide.md)值得一讀 (這雖非教育版專用指南，但仍有寶貴資訊)。 本指南可讓有經驗的 IT 系統管理員深入了解老師和學生所獲得的體驗。
+> 您也可以閱讀 [體驗品質檢閱指南](quality-of-experience-review-guide.md)。 它不是 EDU 專用，但有寶貴的資訊。
 
 ### <a name="meetings-and-video"></a>會議與視訊
 
-低頻寬問題的主要焦點是會議; 特別是會議中的視訊。IT 系統管理員在處理學生或教育者所報告有關在教育環境中獲得最佳會議體驗的問題時，應考慮下列動作。
+處理網路頻寬不足的相關會議問題時，請考慮下列動作。
 
-#### <a name="meeting-policies"></a>會議原則
+#### <a name="meeting-video-policies"></a>會議視訊原則
 
-就會議而言，低頻寬情況最令人擔憂的其中一點就是進行視訊。 除了 Teams 能夠自動調整為偵測到的頻寬之外，您作為 IT 系統管理員，還有可在每個召集人和/或每位使用者層級設定的原則選項。 這些選項使您可以根據每個人在給定時間必須使用的頻寬，為他們提供最佳的體驗。
+Teams 會自動將會議品質調整為使用者偵測到的頻寬。 不過，您可以設定進一步的限制來保留頻寬。
 
-可透過原則來設定的部分內容包括：
+您可以透過原則設定的一些限制包括：
 
-- 完全停用影片，讓所有人都無法啟用影片。
-- 媒體位元速率 (根據每位使用者設定)。
+- 完全關閉視訊，讓沒有人可以使用視訊。
+- 限制每個使用者設定的媒體位元速率。
 
-若要深入了解您的選項，並逐步查看必須為會議和視訊設定的具體原則，請參閱 [Teams 中的會議原則設定：音訊和視訊](meeting-policies-audio-and-video.md)。
+如需您應針對會議和視訊設定的更多原則，請參閱 [Teams 中的會議原則設定：音訊和視訊](meeting-policies-audio-and-video.md)。
 
 #### <a name="screen-sharing-policies"></a>螢幕共用原則
 
-在其他情況下，老師可能會與學生共用其整個螢幕，這個時候，共用範圍應限制在與所授課程有關的應用程式上。 也可以透過原則來設定此設定，如果這樣做是比讓老師單獨進行選擇更可取的方法。
+在 Teams 中，使用者可以共用整個螢幕或個別視窗。
 
-有關您可以透過原則設定限制螢幕畫面分享的方法的好主意，請查看 [Teams 中的會議原則設定：音訊與視訊](meeting-policies-audio-and-video.md)。
+共用整個螢幕會使用比只共用視窗更多的頻寬。
+
+- 限制使用者無法透過原則共用整個螢幕。
+- 指示授課者只共用應用程式，而不是整個螢幕。
+
+在 [Teams 中的會議原則設定：音訊和視訊](meeting-policies-audio-and-video.md)瞭解螢幕共用原則。
 
 #### <a name="dial-in-number-for-meetings"></a>會議的撥入號碼
 
-讓某些學生嘗試撥入某些教室工作階段可能會更方便。 您可以為 Teams 會議提供撥入號碼，讓想要發問的學生可以打電話進來而非參加視訊會議。
+對於某些學生來說，撥入教室會話可能會比較容易。
 
-如需這方面的詳細資訊，請參閱[將電話號碼設定為包含在 Microsoft Teams 的邀請中](set-the-phone-numbers-included-on-invites-in-teams.md)。
+- 提供 Teams 會議的撥入號碼，做為參加視訊會議的替代方案。
+
+如需詳細資訊，請參閱 [在 Microsoft Teams 中設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 ## <a name="low-bandwidth-scenarios-as-an-educator"></a>身為老師的低頻寬案例
 
-老師應該會覺得他們有能力採取某些步驟來解決低頻寬問題，而且在下列情況時，可能是比由 IT 系統管理員採取行動還要好的選擇：
+在下列情況下，讓授課者疑難排解頻寬問題可能是比 IT 動作更好的選擇：
 
-- 如果問題間歇發生，或持續時間相對短暫。
-- 如果您預料當天的特定時間會發生問題，或可以一定程度地預測到低頻寬期間。
+- 這是間歇性的問題。
+- 您可以在一天的特定時間預期發生問題。
 
-如果有這些情況，您就可以採取某些動作。
-
-如需詳細資訊，請參閱[在低頻寬時使用 Teams 來完成學校作業](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262)。
+如需授課者可採取的解決頻寬問題的步驟，請參閱 [在頻寬不足時使用 Teams 進行學校作業](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262)。
 
 ## <a name="low-bandwidth-scenarios-as-a-parent-or-student"></a>身為家長或學生的低頻寬案例
 
-也有一些情況是您應該主動與老師討論的，因為頻寬問題可能是出在學生這邊 (例如，大量學生能夠正常觀看影片課程，但少數學生卻會發生問題)。
+頻寬問題有時會位在學生的側邊。
 
-希望許多家長有能力排解這些問題並不合理，而且低頻寬問題可能不是學生或家長能夠控制的 (其住家可能沒有高頻寬、其附近可能有很多人使用頻寬而影響其可以採取的行動、網際網路可能不穩定等等)。
+- 他們的住家可能無法存取高頻寬。
+- 他們的直接區域中可能有許多人也會耗用頻寬。
+- 可能有網際網路不穩定。
 
-我們也將家長和學生的指導方針一起放在[在低頻寬時使用 Teams 來完成學校作業](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262)一文內供您檢閱，如果遇到任何問題，則可以嘗試這些建議。
+針對家長和學生，當 [頻寬偏低時，我們已在使用 Teams 進行學校作業](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) 中整理指導方針。

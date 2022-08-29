@@ -16,12 +16,12 @@ description: 了解如何將 Adobe Acrobat 設定為預設的 PDF 檢視器，�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299242"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396704"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>將 Adobe Acrobat 做為 Microsoft Teams 中的預設 PDF 檢視器
 
@@ -39,11 +39,11 @@ ms.locfileid: "67299242"
 
 在設定應用程式之前，請確定您允許在租用戶中使用應用程式、明確允許 Adobe Acrobat 應用程式，且應用程式權限原則允許 Adobe Acrobat 應用程式。 若要將 Adobe Acrobat 設定為 PDF 檔案的預設應用程式，請遵循下列步驟：
 
-1. 登入 Teams 系統管理中心，然後移至 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**。
+1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
-1. 搜尋 Adobe Acrobat 應用程式，然後選取它。
+1. 搜尋 Adobe Acrobat 應用程式，然後選取它。 它會開啟應用程式詳細資料頁面。
 
-1. 在 **[權限]** 索引標籤中，選取 **[檢閱權限]**。
+1. 選取 [ **許可權] 索引卷** 標，然後選取 [ **檢閱許可權]**。
 
    :::image type="content" source="media/permission-policy.png" alt-text="Microsoft Teams 系統管理中心的應用程式權限螢幕擷取畫面。" lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

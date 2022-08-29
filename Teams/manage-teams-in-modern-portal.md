@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023996"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396324"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理團隊
 
@@ -44,7 +44,7 @@ ms.locfileid: "67023996"
 
 ## <a name="teams-overview-grid"></a>Teams 概觀格線
 
-Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節點下方。(在系統管理中心，選取 [Teams **]** > [管理 Teams **]**。) 每個小組都會受到 Microsoft 365 群組支援，而此節點可提供您的組織中由 Microsoft Teams 啟用之群組的檢視。
+Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節點下方。  (在系統管理中心中，選取 **[Teams**  >  **管理團隊**]。) 每個團隊都由 Microsoft 365 群組支援，而此節點提供已在貴組織中啟用 Microsoft Teams 的群組檢視。
 
 ![Teams 概觀格線的螢幕擷取畫面。](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -54,7 +54,7 @@ Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節�
 - **頻道** - 團隊中的所有頻道計數，包括預設的 [一般] 頻道。
 - **小組成員** - 使用者總數，包括您的租用戶中的擁有者、來賓和成員。
 - **擁有者** - 此團隊的擁有者計數。
-- **來賓** - 身為此團隊成員的 Azure Active Directory B2B 來賓使用者計數。
+- **來賓** - 這是 Azure Active Directory B2B 來賓的計數，他們都是此團隊的成員。
 - **隱私權** - 支援 Microsoft 365 群組的 Visibility/AccessType。
 - **狀態** - 此團隊的已封存或使用中狀態。 深入瞭解在 [封存或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 中的封存 Teams。
 - **描述** - 支援 Microsoft 365 群組的描述。
@@ -71,9 +71,17 @@ Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節�
 > [!NOTE]
 > 新建立的團隊可以立即在 Microsoft Teams 系統管理中心內管理，與 Outlook 等其他用戶端的體驗不同。
 
+這段影片將示範建立新團隊的步驟，以及為他們建立頻道的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### <a name="edit"></a>編輯
 
 若要編輯群組和團隊特定的設定，按一下小組名稱左側以選取團隊，然後選取 **編輯**。
+
+這段影片示範檢視及編輯現有團隊詳細資料的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 
 ### <a name="archive"></a>封存
 

@@ -16,17 +16,18 @@ ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: 瞭解如何在 Teams 系統管理中心管理及使用醫療保健小組範本, 以及使用 Microsoft Graph 快速且輕鬆地為醫療保健組織建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 015b752b6cfeeae64c7e4713059a7d7344b97dac
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271608"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396914"
 ---
 # <a name="use-healthcare-team-templates"></a>使用醫療保健團隊範本
 

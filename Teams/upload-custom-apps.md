@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 瞭解如何將您的自訂應用程式上傳到您組織的 Microsoft Teams 系統管理中心中的應用程式市集。
-ms.openlocfilehash: 52977d9663f5dbee915e2227075127fe1c6575ad
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d95635546da7337c9c18ee0fddf7b40a5bf061c3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299022"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397114"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>透過上傳應用程式套件發佈自訂應用程式
 
@@ -55,23 +55,23 @@ Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](ov
 
 1. 開啟 **[允許與自訂應用程式互動]** 的全組織設定。 若要執行此動作：
 
-    1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**，然後選取 **[全組織應用程式設定]**。
+    1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[Teams 應用程式**  >  **管理應用程式**]，然後選取 [**全組織應用程式設定]**。
 
-    1. 在 **[自訂應用程式]** 底下，開啟 **[允許與自訂應用程式互動]**，然後按一下 **[儲存]**。
+    1. 在 [ **自訂應用程式]** 底下，開啟 [ **允許與自訂應用程式互動**]，然後選取 [ **儲存]**。
 
 1. 關閉全域應用程式設定原則中的 **[上傳自訂應用程式]** 設定。 若要執行此動作：
 
-    1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[設定原則]**，然後按一下 **[全域] (全組織預設)** 原則。
+    1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[Teams 應用程式**  >  **設定原則**]，然後選 **取全域 (組織的預設)** 原則。
 
-    1. 關閉 **[上傳自訂應用程式]**，然後按一下 **[儲存]**。
+    1. 關閉 **[上傳自訂應用程式**]，然後選取 [ **儲存]**。
 
 1. 建立新的應用程式設定原則，允許上傳自訂應用程式，並將它指派給您信任的使用者集合。 若要執行此動作：
 
-    1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[設定原則]**，然後按一下 **[新增]**。 為新原則命名和描述，開啟 **[上傳自訂應用程式]**，然後按一下 **[儲存]**。
+    1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[Teams 應用程式**  >  **設定原則**]，然後選取 [**新增]**。 為新原則命名和描述、開啟 **[上傳自訂應用程式]**，然後選取 [儲存 **]**。
 
-    1. 選取您建立的新原則，然後按一下 **[管理使用者]**。 搜尋使用者，按一下 **[新增]**，然後按一下 **[套用]**。 重複此步驟，將原則指派給所有您信任的使用者。
+    1. 選取您建立的新原則，然後選取 **[管理使用者]**。 搜尋使用者，選取 **[新增**]，然後選取 [ **套用]**。 重複此步驟，將原則指派給所有您信任的使用者。
 
-       ![[新增應用程式設定原則] 頁面的螢幕擷取畫面](media/manage-your-lob-apps-new-app-setup-policy.png)
+       :::image type="content" source="media/manage-your-lob-apps-new-app-setup-policy.png" alt-text="[新增應用程式設定原則] 頁面的螢幕擷取畫面。":::
 
 這些使用者現在可以上傳應用程式資訊清單，以驗證應用程式在生產租用戶中是否正常運作。
 
@@ -80,9 +80,10 @@ Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](ov
 若要將應用程式提供給貴組織應用程式市集中的使用者，請上傳應用程式。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)**。
-1. 選取 **[上傳]**，按一下 **[上傳]**，選取您從開發人員收到的應用程式套件，然後選取 **[開啟]**。
 
-   ![在系統管理中心上傳應用程式的螢幕擷取畫面。](media/manage-your-lob-apps-upload-new-app.png)
+1. 選 **取 [上傳**]，選取 **[上傳**]，選取您從開發人員收到的應用程式套件，然後選取 [ **開啟]**。
+
+   ![系統管理中心中自訂應用程式上傳的螢幕擷取畫面。](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="set-up-and-manage"></a>設定及管理
 
@@ -92,7 +93,7 @@ Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](ov
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>釘選並安裝應用程式，以供使用者探索
 
-根據預設，使用者必須前往貴組織的應用程式市集並瀏覽或搜尋應用程式，才能找到該應用程式。 若要讓使用者輕鬆存取應用程式，您可以將應用程式釘選到 Teams 中的應用程式列。 若要這麼做，請建立應用程式設定原則，並將它指派給使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
+根據預設，使用者必須前往貴組織的應用程式市集並瀏覽或搜尋應用程式，才能找到該應用程式。 若要讓使用者輕鬆存取應用程式，您可以將應用程式釘選到 Teams 中的應用程式列。 若要釘選應用程式，請建立應用程式設定原則，並將它指派給使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>搜尋 Teams 應用程式事件的稽核記錄
 
@@ -108,24 +109,24 @@ Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](ov
 
 如果您已建立並指派了應用程式設定原則，應用程式會釘選到 Teams 中的應用程式列，以便獲指派原則的使用者輕鬆存取。
 
-## <a name="update"></a>更新
+## <a name="update-a-custom-app"></a>更新自訂應用程式
 
 若要更新應用程式，開發人員必須依照 [建立您的應用程式](#create-your-app) 和 [驗證](#validate) 區段中的步驟進行。
 
-您可以在 Microsoft Teams 系統管理中心的管理應用程式頁面上更新應用程式。 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[管理應用程式]**。 按一下應用程式名稱，然後按一下 **[更新]**。 這樣做會取代現有的應用程式，而且更新的應用程式仍會強制執行所有應用程式權限原則和應用程式設定原則。
+您可以在 Microsoft Teams 系統管理中心的管理應用程式頁面上更新應用程式。 若要更新應用程式，請在 Microsoft Teams 系統管理中心的左側導覽中，移至 **Teams 應用程式**  >  **管理應用程式**。 選取應用程式名稱，然後選取 **[更新]**。 更新應用程式會取代現有的應用程式，而更新的應用程式仍會強制執行所有應用程式許可權原則和應用程式設定原則。
 
 ### <a name="end-user-update-experience"></a>使用者更新體驗
 
 在大多數情況下，當您完成應用程式更新後，新版本會自動向使用者顯示。 如需詳細資訊，請參閱 [使用者更新體驗](apps-update-experience.md)。
 
-## <a name="remove"></a>移除
+## <a name="remove-a-custom-app-from-your-organizations-store"></a>從貴組織的市集移除自訂應用程式
 
 若要移除應用程式，請遵循下列步驟：
 
 1. 登入 Teams 系統管理中心。
 1. 前往 **[Teams 應用程式]** > **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)** 頁面。
 1. 按一下應用程式名稱以開啟應用程式詳細資料頁面。
-1. 在應用程式橫幅旁，選取 **[動作]** > **[刪除]**。
+1. 在應用程式橫幅旁邊，選取 **[刪除動作**  >  **]**。
 1. 在對話方塊中，選取 **[刪除]**。
 
 ## <a name="related-articles"></a>相關文章

@@ -18,12 +18,12 @@ description: 瞭解在 Microsoft Teams 中將原則指派給使用者和群組�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a57c038242c06f4305410e68cff907aef6889841
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267578"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396647"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>指派原則給使用者和群組
 
@@ -140,13 +140,17 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     1. 搜尋並新增您要指派原則的群組。
     2. 設定群組作業的排名。
     3. 選取您要指派的原則。
-    4. 選取 [ **套用]**。
+    4. 選取 **套用**。
 
         :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="顯示如何在 Teams 系統管理中心將原則指派給群組的螢幕擷取畫面。" lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 若要移除群組原則指派，請在原則頁面的 [ **群組原則指派** ] 索引標籤上，選取群組作業，然後選取 [ **移除]**。
 
 若要變更群組作業的排名，您必須先移除群組原則指派。 然後，依照上述步驟將原則指派給群組。
+
+這段影片將示範建立和指派自訂會議原則給群組的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
 
 ### <a name="use-the-powershell-option"></a>使用 PowerShell 選項
 

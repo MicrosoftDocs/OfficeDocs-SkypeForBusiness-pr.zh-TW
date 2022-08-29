@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams：教育版系統管理員的資源
-author: DaniEASmith
-ms.author: danismith
+title: 共用 Teams 採用資源
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: 教育系統管理員可以瞭解 Microsoft Teams 中可用的資源，以啟用遠端學習。
+description: 教育系統管理員會尋找 Microsoft Teams 的資源，以協助使用者採用 Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -17,22 +17,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f655d049d7b821e4ab4747f5ef11fe29c42ae55
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: e30d912ebcc0937bf0168c1adee972eb6d5f1a8f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789138"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426830"
 ---
-# <a name="microsoft-teams-resources-for-education-admins"></a>適用於 Microsoft Teams 教育版管理員的資源
+# <a name="share-teams-adoption-resources"></a>共用 Teams 採用資源
 
 ## <a name="resources-for-remote-learning"></a>遠端學習的資源
 
-您的學校或大學是否需要啟用 Microsoft Teams 進行遠端學習？ 使用[消費者入門單頁消費者入門](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)及下列任何採用資料快速上手！
+使用[消費者入門單頁消費者入門](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，以及下列任何採用資料，協助使用者開始使用。
 
 ## <a name="adoption-content"></a>採用內容
 
-讓您的學校對 Microsoft Teams 感到興奮，其中包含電子郵件、海報、講義，以及您現在可以免費使用的更多資源。 您也可以使用充滿橫幅、GIF 和影片的全新數位工具組，在線上和整個園區與學生聯繫。 立即開始使用！
+透過免費的電子郵件、海報、講義等功能，讓您的學校對 Microsoft Teams 感到興奮。
+
+您也可以使用我們的橫幅、GIF 和影片數位工具組，在線上和整個園區與學生聯繫。
 
 使用這些資料之前，請先閱讀 [條款及條件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 。
 
@@ -46,7 +48,7 @@ ms.locfileid: "66789138"
 
 ### <a name="digital-assets"></a>數位資產
 
-請務必查看 [數位工具組指引](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) ，以最大化您的 Teams 啟動！ 
+請參閱 [數位工具組指導方針](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) ，以協助您的 Teams 啟動。
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,17 +58,17 @@ ms.locfileid: "66789138"
 
 ## <a name="call-to-action"></a>行動信號
 
-- 流覽[Teams 教育版頁面](https://www.microsoft.com/en-us/education/products/teams/default.aspx)以進行訓練、影片和互動式示範
-- 開啟 Microsoft 365 系統管理中心 中的 Teams [ (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)以Office 365系統管理員身分登入) 
-- 下載 Teams 用戶端： [在您的所有裝置上取得 Teams](https://teams.microsoft.com/downloads)
-- 若要深入瞭解教育Office 365，請參閱[教育版說明中心](https://support.office.com/education)
+- 流覽[Teams 教育版頁面](https://www.microsoft.com/education/products/teams/default.aspx)，瞭解訓練、影片和互動式示範。
+- 在[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)中開啟 Teams。
+- 下載 Teams 用戶端： [在您的所有裝置上取得 Teams](https://teams.microsoft.com/downloads)。
+- 若要深入瞭解 Microsoft 365 教育版，請參閱 [教育版說明中心](https://support.office.com/education)。
 
 ## <a name="additional-resources"></a>其他資源
 
-- [Teams 藍圖](https://aka.ms/teamsroadmap)
-- 隨時掌握 [我們的技術社群部落格](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
-- [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [傳送建議](https://aka.ms/eduuservoice)
-- [連絡客戶支援](https://aka.ms/o365portal)
-- [詢問 Teams 社群](https://aka.ms/msteamscommunity)
-- [尋找更多教育資源](https://education.microsoft.com/)
+- [Teams 藍圖](https://aka.ms/teamsroadmap)。
+- 隨時掌握 [我們的技術社群部落格](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。
+- [Teams PowerShell 概觀](teams-powershell-overview.md)。
+- [傳送建議](https://aka.ms/eduuservoice)。
+- [連絡客戶支援](https://aka.ms/o365portal)。
+- [詢問 Teams 社群](https://aka.ms/msteamscommunity)。
+- [尋找更多教育資源](https://education.microsoft.com/)。

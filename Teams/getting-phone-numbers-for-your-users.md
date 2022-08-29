@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何取得 Teams 的新號碼、移轉號碼或移轉現有號碼，以及如何向使用者顯示變更。
-ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156541"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396334"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -89,6 +89,10 @@ ms.locfileid: "67156541"
 
 > [!NOTE]
 > 如果您需要取得的電話號碼超過此數量，請[連絡商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products)。
+
+這段影片將示範指派電話號碼給使用者的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
 ## <a name="related-articles"></a>相關文章
 

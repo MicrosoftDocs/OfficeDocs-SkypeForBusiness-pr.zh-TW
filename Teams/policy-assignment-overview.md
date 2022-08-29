@@ -18,12 +18,12 @@ description: 瞭解在 Microsoft Teams 中將原則和原則套件指派給使�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7c9855a56031d3eb22cdcbc1ac1b27dfa075db49
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268418"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418452"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>在 Teams 中指派原則 – 快速入門
 
@@ -87,6 +87,9 @@ ms.locfileid: "67268418"
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="顯示 Teams 系統管理中心中更新全域原則的螢幕擷取畫面。" lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> 提交任何原則作業之後，系統會提示您使用快顯對話方塊進行確認。 這包括原則指派、變更現有原則，以及建立新的自訂原則。 您必須確認要開始原則操作，也可以取消，稍後再回來。
+
 ### <a name="using-powershell"></a>使用 PowerShell
 
 若要使用 PowerShell 設定全域原則，請使用全域識別碼。  首先檢閱目前的全域原則，以判斷您要變更的設定。
@@ -148,6 +151,10 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 > [!NOTE]
 > 您也可以從 [ **使用者** ] 頁面移至 [活動] 記錄檔。 選取 [ **套** 用] 以提交大量原則指派後，您會在頁面頂端看到橫幅。 選取橫幅中的 **[活動記錄** 檔] 連結。
+
+這段影片將示範檢視和管理使用者獲指派和有效原則的步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
 ## <a name="related-topics"></a>相關主題
 

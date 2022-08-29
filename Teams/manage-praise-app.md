@@ -11,12 +11,13 @@ ms.localizationpriority: medium
 description: 瞭解如何在 Microsoft Teams 系統管理中心管理稱讚應用程式。
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 0f30a508fd1c0f2e82dcab3c22d3ade94d4e0118
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 36f904f40fdb878480addc0d753b4ccb44a3f2d9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269418"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396684"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理稱讚應用程式
 
@@ -33,7 +34,7 @@ Microsoft Teams 中的 [稱讚] 應用程式可協助使用者對貴組織或教
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams 系統管理中心 [稱讚] 應用程式詳細資料頁面的螢幕擷取畫面，顯示 [狀態] 切換開關。":::
 
-1. 在 Microsoft Teams 系統管理中心的左窗格中，移至 **Teams 應用程式**  >  **管理應用程式**。
+1. 在 Microsoft Teams 系統管理中心的左側窗格中，移至 **[Teams 應用程式]** > **[管理應用程式]**。
 2. 在應用程式清單中，搜尋 [稱讚] 應用程式，選取它，然後將 **[狀態** ] 切換為 [ **封鎖** ] 或 [ **允許]**。
 
 請記住，這項設定會同時影響 Teams 中Viva Insights應用程式中的稱讚應用程式和稱讚功能。

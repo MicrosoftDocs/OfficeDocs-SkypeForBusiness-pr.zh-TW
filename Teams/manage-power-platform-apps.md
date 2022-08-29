@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心使用 Microsoft Power Platform 來管理自訂應用程式組建的存取權。
-ms.openlocfilehash: fd1d6d3d190d22995ab72966510871868b7ba401
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78ca37b95b98ad1668264f13539626cbb2b9b56b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298852"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397014"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心管理 Microsoft Power Platform 應用程式
 
@@ -65,15 +65,15 @@ ms.locfileid: "67298852"
 
 根據預設，貴組織中的所有 Teams 使用者皆可使用 **共用 Power Apps** 和 **共用 Power Virtual Agent Apps**。 您可以在 Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁面上封鎖或允許組織層級的應用程式。  
 
-1. 在 Microsoft Teams 系統管理中心的左側窗格中，移至 **[Teams 應用程式]** > **[管理應用程式]**。 您必須為全域系統管理員或 Teams 服務系統管理員，才能存取頁面。
-2. 在應用程式清單中，執行下列其中一項。
+1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)** 您必須是全域系統管理員或 Teams 服務系統管理員才能存取頁面。
+1. 在應用程式清單中，執行下列其中一項。
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="顯示共用的 Microsoft Power Platform 應用程式 [管理應用程式] 頁面的螢幕擷取畫面。":::
 
     * 若要封鎖在 Power Apps 或 Power Virtual Agents 中為貴組織中的所有使用者建立的應用程式，請搜尋 **[共用 Power Apps** ] 或 **[共用 Power Virtual Agent Apps]**，選取該應用程式，然後選取 **[封鎖]**。
     * 若要允許在 Power Apps 或 Power Virtual Agents 中為貴組織中的所有使用者建立應用程式，請搜尋 **[共用 Power Apps]** 或 **[共用 Power Virtual Agent Apps]**，選取該應用程式，然後選取 **[允許]**。
 
-### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>允許或封鎖特定使用者的 Microsoft Power Platform 應用程式
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>允許特定使用者使用 Microsoft Power Platform 應用程式
 
 若要允許或封鎖貴組織中的特定使用者存取在 Power Apps 或 Power Virtual Agents 中建立的應用程式，請建立並指派一或多個自訂[應用程式權限原則](teams-app-permission-policies.md)。
 

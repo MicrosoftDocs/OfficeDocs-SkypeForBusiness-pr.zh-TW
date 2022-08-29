@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4ba1715ccf7b1ea2f0dbf12b58fd5aa6556b24
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271258"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396314"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 通訊協定
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271258"
 | 連絡頁首 | 聯繫： <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> SIP 標頭在所使用的 SIP URI 中不包含 userinfo。 根據 [RFC 3261，區段 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1)，URI 的 userinfo 部分是選用的，當目的地主機沒有使用者概念，或當主機本身是被識別的資源時，可能會遺失。 如果 @ 符號出現在 SIP URI 中，則使用者欄位不得為空白。
+> SIP 標頭在所使用的 SIP URI 中不包含 userinfo。 根據 [RFC 3261，區段 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1)，URI 的 userinfo 部分是選用的，當目的地主機沒有使用者概念或主機本身為識別資源時，可能會遺失。 如果 @ 符號出現在 SIP URI 中，則使用者欄位不得為空白。
 > 請注意，SIPS URI 不應與直接路由搭配使用，因為它不受支援。
 > 檢查會話框線控制器設定，並確認您未在 SIP 要求中使用「取代」標頭。 直接路由會拒絕已定義取代標頭的 SIP 要求。
 

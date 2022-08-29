@@ -18,12 +18,12 @@ ms.custom:
 description: 訓練影片、PowerPoint 投影片組、教學課程，以及系統管理員如何規劃、部署和執行 Microsoft Teams 的其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4dc2bb1055853bdd5b06b85303ea6dceda934dc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: cc931e442b5777c129482ad22e7698b9446e5695
+ms.sourcegitcommit: 10bb44fdd23d0b42a81229028d1b86515f88e7bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269298"
+ms.lasthandoff: 08/25/2022
+ms.locfileid: "67435289"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -67,14 +67,14 @@ ms.locfileid: "67269298"
 
 | 模組 | 影片 | PowerPoint 投影片組 (PDF)   |
 | ------------ | -------------------- | -------------------- |
-| 模組 1：Microsoft Teams 會議室 (18：29 分鐘簡介)  | [視訊](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| 模組 2：Microsoft Teams 網路 (34：10 分鐘)  | [視訊](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| 模組 3： (18：45 分鐘選擇正確的裝置)  | [視訊](https://www.youtube.com/watch?v=jUac7mT7xP4) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| 模組 4：部署Microsoft Teams 會議室 (56：36 分鐘)  | [視訊](https://www.youtube.com/watch?v=IJZPczMAsEM) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| 模組 5：設定和開始Microsoft Teams 會議室 (32：27 分鐘)  | [視訊](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| 模組 6：管理Microsoft Teams 會議室，第 1 部分 (18：31 分鐘)  | [視訊](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| 模組 7：管理Microsoft Teams 會議室，第 2 部分 (41：06 分鐘)  | [視訊](https://www.youtube.com/watch?v=vDCYM5sKylc) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| 模組 8：Microsoft Teams 會議室--秘訣、技巧和疑難排解 (18：14 分鐘) |[視訊](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 模組 1：Microsoft Teams 會議室 (18：29 分鐘簡介)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| 模組 2：Microsoft Teams 網路 (34：10 分鐘)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| 模組 3： (18：45 分鐘選擇正確的裝置)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| 模組 4：部署Microsoft Teams 會議室 (56：36 分鐘)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| 模組 5：設定和開始Microsoft Teams 會議室 (32：27 分鐘)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| 模組 6：管理Microsoft Teams 會議室，第 1 部分 (18：31 分鐘)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| 模組 7：管理Microsoft Teams 會議室，第 2 部分 (41：06 分鐘)  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| 模組 8：Microsoft Teams 會議室--秘訣、技巧和疑難排解 (18：14 分鐘) | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | 單點觸控加入指示 |  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Microsoft Teams 會議室受管理服務簡介 |  | [甲板](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 

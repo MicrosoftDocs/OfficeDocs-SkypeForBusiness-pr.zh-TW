@@ -1,6 +1,6 @@
 ---
 title: 為 Teams 購買第三方應用程式
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: 了解如何使用信用卡、轉帳卡或發票結算，從 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299192"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396304"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>為 Teams 購買第三方應用程式
 
@@ -34,9 +34,9 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心購買應用程式
 
-若要在 Teams 系統管理中心購買應用程式，請遵循下列步驟： 
+若要在 Teams 系統管理中心購買應用程式，請遵循下列步驟：
 
-1. 在 Microsoft Teams 系統管理中心的左側窗格中，移至 **[Teams 應用程式]** > **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)**。 您必須為全域管理員或 Teams 服務系統管理員，才能存取頁面。
+1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**。 您必須為全域管理員或 Teams 服務系統管理員，才能存取頁面。
 
 1. 依應用程式名稱搜尋您想要的應用程式。 若要識別含有付費的 SaaS 訂閱之應用程式，請查看 **[授權]** 欄位。 每個應用程式都有下列其中一個值：
     * **購買**：此應用程式提供 SaaS 訂閱且可供購買。  

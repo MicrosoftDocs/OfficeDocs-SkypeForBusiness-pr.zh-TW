@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269008"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405135"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -90,6 +91,17 @@ Teams 中 [的原則套](../../manage-policy-packages.md) 件是一組預先定�
 
 我們建議您使用第一線工作人員和一線管理員原則套件，以簡化、簡化及協助在管理前線員工的原則時提供一致性。
 
+### <a name="enable-shift-based-tags-in-teams"></a>在 Teams 中啟用 Shift 型標籤
+
+Teams[中的標籤](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)可讓使用者輕鬆地與團隊中的一部分人員聯繫。 使用 Shift 型標籤時，系統會自動指派符合排程的標籤，以及 Shifts 中的班組名稱。 標籤可用於聊天中的 [收件者] 行@mentions，或在團隊任何標準頻道的貼文中使用。
+
+Shift 型標籤可讓您的使用者即時聯繫上班的人員。 只有在聊天或頻道貼文中使用標籤時，通知才會傳送給上班的人員。 例如：
+
+- 商店經理會使用@Cashiers標籤，將公告張貼至所有輪班收納者的通道。
+- 一位護士使用@CardiologistsOnCall標籤開始與所有通話記錄人員聊天。
+
+您可以在 Microsoft Teams 系統管理中心開啟或關閉此功能。 若要深入了解，請參閱[如何在 Teams 中管理標記](../../manage-tags.md)。
+
 ## <a name="search-the-audit-log-for-shifts-events"></a>搜尋班次活動的稽核記錄檔
 
 **(預覽)**
@@ -104,4 +116,4 @@ Teams 中 [的原則套](../../manage-policy-packages.md) 件是一組預先定�
 - [Shifts 資料常見問題](shifts-data-faq.md)
 - [Shifts 連接器](/microsoft-365/frontline/shifts-connectors)
 - [第一線員工的輪班說明](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [將原則指派給 Teams 中的使用者](../../policy-assignment-overview.md)
+- [在 Teams 中將原則指派給使用者](../../policy-assignment-overview.md)

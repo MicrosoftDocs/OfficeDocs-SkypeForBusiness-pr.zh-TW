@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心管理及使用零售團隊範本, 以及使用 Microsoft Graph 快速且輕鬆地為零售組織建立團隊。
@@ -19,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046339"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396294"
 ---
 # <a name="use-retail-team-templates"></a>使用零售團隊範本
 
@@ -45,7 +46,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 身為系統管理員, 您可以在 Microsoft Teams 系統管理中心管理團隊範本。 您可以在這裡檢視每個範本的詳細資訊。 您也可以[建立及指派範本原則](templates-policies.md)給職員, 以控制他們在 Teams 中[建立團隊](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)時看到的範本。
 
-若要深入了解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
+若要深入瞭解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
 我們目前提供下列預先建立的零售團隊範本。 若要查看, 請前往 Teams 系統管理中心左側版面配置, 前往 **Teams** > **團隊範本**。
 
@@ -65,7 +66,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 | 範本類型| TemplateId | 此範本提供的屬性 |
 | ------------------|- |----------------------------------------------------- |
-|零售管理員|`retailManagerCollaboration` |頻道： <ul><li>一般<li>營運<ul><li>工作 (作業工作)&sup1;</li><li>檢查&sup1;</li></ul></li><li>Learning<ul><li>工作 (Learning 工作)&sup1;</li></ul></li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>檢查</li></ul>|
+|零售管理員|`retailManagerCollaboration` |頻道： <ul><li>一般<li>營運<ul><li>工作 (作業工作)&sup1;</li><li>檢查&sup1;</li></ul></li><li>學習<ul><li>工作 (Learning 工作)&sup1;</li></ul></li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>檢查</li></ul>|
 ||||
 
 &sup1;應用程式已做為索引標籤新增到頻道
@@ -110,7 +111,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 ### <a name="how-to-use-team-templates-with-microsoft-graph"></a>如何用 Microsoft Graph 使用團隊範本
 
-若要使用這些範本, 請將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateIds。  若要了解如何部署團隊範本, 請參閱 Microsoft Graph 如何[建立團隊](/graph/api/team-post?view=graph-rest-beta)一文。
+若要使用這些範本, 請將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateIds。  若要瞭解如何部署團隊範本, 請參閱 Microsoft Graph 如何[建立團隊](/graph/api/team-post?view=graph-rest-beta)一文。
 
 > [!NOTE]
 > 範本中的頻道會自動在 **[一般]** 索引標籤下建立。

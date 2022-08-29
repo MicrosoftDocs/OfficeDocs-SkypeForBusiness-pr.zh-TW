@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272258"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397224"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -70,6 +70,9 @@ ms.locfileid: "67272258"
 如果共用頻道擁有者是一或多個共用頻道的最後一位擁有者，則無法透過 Teams 用戶端將其移除。
 
 如果最後一個共用頻道擁有者離開貴組織，或是從與小組相關聯的 Microsoft 365 群組中被移除，則會自動將共用頻道的一位成員升級為共用頻道擁有者。請考慮新增多個擁有者，以避免這種情況。
+
+> [!NOTE]
+> 如果在 Azure Active Directory 中兩者不相符，則必須使用 UPN 來新增外部參與者，而非其電子郵件地址。
 
 ## <a name="channel-owner-settings"></a>頻道擁有者設定
 
@@ -154,7 +157,7 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 
 - 除了 Stream、Planner 和 Forms 之外，共用頻道支援其他索引標籤。
 
-- 不支援 LOB 應用程式、Bot、連接器和訊息擴充功能。
+- 不支援 Bot、連接器和訊息擴充功能。
 
 - 當您從現有小組建立小組時，不會複製現有小組中任何的共用頻道。
 

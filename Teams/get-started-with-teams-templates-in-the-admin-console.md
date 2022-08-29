@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: 瞭解團隊範本，以及如何在 Microsoft Teams 系統管理中心管理它們。
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819354"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396724"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在 Teams 系統管理中心開始使用團隊範本
 
@@ -43,7 +44,7 @@ Microsoft Teams 中的團隊範本是針對業務需求或專案所設計的團�
 本文提供在 Teams 系統管理中心使用團隊範本的概觀。 您將瞭解範本支援的屬性、我們提供的預先建置範本、範本大小限制、如何建立及管理範本等等。
 
 > [!NOTE]
-> 您的使用者可以 [從 Teams 應用程式中預先建立或自訂的團隊範本](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 建立團隊。 開發人員也可以使用 Microsoft Graph，以程式設計方式從預先建立的團隊範本建立團隊。 若要深入瞭解，請參閱 [開始使用 Microsoft Graph 的小組範本](get-started-with-teams-templates.md)。
+> 您的使用者可以 [從 Teams 應用程式中預先建立或自訂的團隊範本](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 建立團隊。 開發人員也可以使用 Microsoft Graph，以程式設計方式從預先建立或自訂的團隊範本建立團隊。 若要深入瞭解，請參閱 [開始使用 Microsoft Graph 的小組範本](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>團隊範本功能
 
@@ -54,7 +55,7 @@ Microsoft Teams 中的團隊範本是針對業務需求或專案所設計的團�
 | 範本類型 | 團隊成員資格 |
 | 小組名稱 | 團隊圖片 |
 | 團隊描述 | 頻道設定 |
-| 公開或私人)  (小組可見度 | 連接 |
+| 公開或私人)  (小組可見度 | 連接器 |
 | 團隊設定 (例如成員、來賓、@ 提及)  | 檔案和內容 |
 | Autofavorite 通道 | |
 | 已安裝的應用程式 | |

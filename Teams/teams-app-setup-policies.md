@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2788c1caeef3c6fcc1c0464c8e9289bcbd65508f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298872"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396694"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式設定原則
 
@@ -41,7 +41,7 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 
 ## <a name="pin-apps"></a>釘選應用程式
 
-釘選應用程式可讓您突顯組織中使用者最需要的應用程式。 釘選適用於 Teams 中所有類型的應用程式：核心應用程式、Microsoft 提供的應用程式、第三方應用程式，以及在您的組織內開發的自訂應用程式。 透過應用程式設定原則釘選應用程式也會安裝它，前提是若允許使用者使用該應用程式。 使用應用程式設定原則，您可以執行下列工作：
+釘選應用程式可讓您突顯組織中使用者最需要的應用程式。 釘選適用于 Teams 中的所有應用程式類型—核心應用程式、Microsoft 提供的應用程式、協力廠商應用程式，以及您組織內開發的自訂應用程式。 透過應用程式設定原則釘選應用程式也會安裝它，前提是若允許使用者使用該應用程式。 使用應用程式設定原則，您可以執行下列工作：
 
 * 自訂使用者的 Microsoft Teams，以突顯對他們來說最重要的應用程式。 您可以選擇要釘選的應用程式，以及應用程式顯示的順序。
 * 控制使用者是否可以釘選應用程式。
@@ -80,6 +80,9 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 1. 選取 [儲存 **]**。
 
 > [!NOTE]
+> 在 Teams 教育版中，預設會在全域原則中釘選作業應用程式，即使您未在全域原則中看見它列出亦然。
+
+> [!NOTE]
 > 針對組織的前線員工，建議您使用量身打造的前線應用程式體驗。 此功能會針對擁有 [F 授權](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的使用者，在 Teams 中釘選最相關的應用程式。 若要深入了解，請參閱 [為您的前線員工量身打造 Teams 應用程式](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)。
 
 ## <a name="install-apps"></a>安裝應用程式
@@ -89,23 +92,18 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 * 為使用者在其個人 Teams 環境中安裝應用程式。
 * 為使用者安裝應用程式做為[訊息延伸模組](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)。
 
-如果[應用程式權限原則](teams-app-permission-policies.md)允許，且在使用者租用戶上允許應用程式本身，則使用者可以自行安裝應用程式。
+如果 [應用程式](teams-app-permission-policies.md) 許可權原則允許使用者且 Teams 系統管理員允許該應用程式，使用者就可以自行安裝應用程式。相反地，如果某個使用者或組織已封鎖應用程式，使用者就可以 [要求系統管理員核准](manage-apps.md#manage-user-requests-to-allow-apps)。
 
-若要建立應用程式設定原則以安裝應用程式，請遵循下列步驟：
+若要使用應用程式設定原則安裝應用程式，請遵循下列步驟：
 
 1. 登入 Teams 系統管理中心並存取 [Teams 應用程式 **]**  >  **[[設定原則]](https://admin.teams.microsoft.com/policies/app-setup)**。
-
 1. 選取 [新增 **]**。
-
 1. 提供原則的名稱和描述。
-
 1. 在 [安裝的應用程式 **]** 區段中，選取 [新增應用程式 **]**。
-
 1. 在 [新增已安裝的應用程式 **]** 窗格中，搜尋您想要為使用者安裝的應用程式。 您也可以依應用程式權限原則篩選應用程式。
-
 1. 選取 [新增 **]**。
 
-:::image type="content" source="media/install-apps-in-meeting.png" alt-text="安裝應用程式原則。":::
+:::image type="content" source="media/install-apps-in-meeting.png" alt-text="透過應用程式原則安裝應用程式的螢幕擷取畫面。":::
 
 ## <a name="manage-app-setup-policies"></a>管理應用程式設定原則
 
@@ -117,10 +115,9 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 
 ### <a name="edit-an-app-setup-policy"></a>編輯應用程式設定原則
 
-您可以使用 Microsoft Teams 系統管理中心來編輯原則，包括您建立的全域 (全組織預設) 原則和自訂原則。
+您可以使用 Microsoft Teams 系統管理中心來編輯原則，包括您建立的全域 (全組織預設) 原則和自訂原則。 編輯或指派原則之後，變更可能需要幾個小時的時間才會生效。
 
 1. 登入 Teams 系統管理中心並存取 [Teams 應用程式 **]**  >  **[[設定原則]](https://admin.teams.microsoft.com/policies/app-setup)**。
-
 1. 選擇您想要編輯的原則，然後選取 [編輯 **]**。
 
 1. 進行您想要的變更。
@@ -171,15 +168,15 @@ Teams 行動用戶端 (iOS 和 Android) 支援具有靜態索引標籤的個人�
 
 第三方應用程式 (可從 Teams 市集下載) 必須先經過核准，才會在行動裝置上顯示。 如果系統管理員釘選應用程式，但其未經 Microsoft for Mobile 核准，它將會顯示在 Teams 桌面上，但不會顯示在行動裝置上。 如需詳細資訊，請參閱[行動用戶端](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients)。
 
-使用 Teams 行動用戶端，使用者會看到核心 Teams 應用程式，例如，活動、聊天和 Teams，而且您可以釘選 Microsoft 提供的應用程式。
+透過 Teams 行動用戶端，使用者會看到核心 Teams 應用程式，例如活動、聊天和 Teams，而且您可以釘選一些 Microsoft 提供的應用程式。
 
-#### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>使用者可以透過原則變更原則釘選應用程式的順序嗎？
+#### <a name="order-of-apps-pinned-through-a-policy"></a>透過原則釘選的應用程式順序
 
 如果已開啟 [使用者釘選 **]** 選項，則使用者可以變更 Teams 桌面和行動用戶端上其釘選應用程式的順序。 使用者無法變更 Teams Web 用戶端上其釘選應用程式的順序。
 
 #### <a name="does-user-pinning-take-precedence"></a>使用者釘選是否優先
 
-系統管理員釘選一律優先。 如果開啟 [使用者釘選 **]** 選項，則使用者會將其釘選的應用程式保留在系統管理員釘選的應用程式下方。 如果關閉 [使用者釘選 **]** 選項，則使用者將會失去其原有的釘選，且應用程式列中將只會顯示系統管理員釘選的應用程式。
+系統管理員釘選一律優先。 如果 [ **使用者釘選** ] 選項已開啟，則由使用者釘選的應用程式會顯示在系統管理員釘選的應用程式下方。 如果 [ **使用者釘選** ] 選項已關閉，則使用者會遺失現有的 PIN 碼，而且應用程式行中只會提供由系統管理員釘選的應用程式。
 
 ### <a name="custom-teams-apps"></a>自訂 Teams 應用程式
 

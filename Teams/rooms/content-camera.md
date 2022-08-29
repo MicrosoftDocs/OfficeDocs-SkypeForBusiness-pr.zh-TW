@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 ms.custom:
 - seo-marvel-mar2020
-description: 在 Microsoft Teams 會議室中使用內容攝影機，與影像處理軟體互動，讓簡報者能夠在類比白板上繪圖。
-ms.openlocfilehash: 090a9bafb101805797afd61e014893c681b6032f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: 在Microsoft Teams 會議室中使用內容相機與影像處理軟體互動，讓簡報者能夠在類比白板上繪圖。
+ms.openlocfilehash: 08d360e62cd2d254f2c207e9b9eee9adea424c34
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270468"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396664"
 ---
 # <a name="content-cameras"></a>內容相機
 
-您現在可以搭配 Microsoft Teams 會議室系統使用內容攝影機。 內容相機會與特殊的影像處理軟體和白板互動，讓簡報者能夠在類比白板上繪圖，並與遠端參與者共用內容。
+您現在可以將內容相機與Microsoft Teams 會議室系統搭配使用。 內容相機會與特殊的影像處理軟體和白板互動，讓簡報者能夠在類比白板上繪圖，並與遠端參與者共用內容。
 
 請參閱下列影片以瞭解內容相機功能的範例。
 

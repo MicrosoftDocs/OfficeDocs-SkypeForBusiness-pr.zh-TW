@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563761"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283094"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -91,7 +91,7 @@ ms.locfileid: "66563761"
 
 下列的商務用 Skype 管理設定與 Teams 不同：
 
-- 在 Teams 中，組織的使用者一律啟用目前狀態共用。 Teams 不提供「隱私」設定功能 (該功能允許您訂定誰可查看目前狀態)。
+- 在 Teams 中，除非啟用隱私權模式，否則組織中的使用者一律會啟用目前狀態分享。 在隱私權模式中，外部使用者無法看到目前狀態。
 - Teams 中的使用者一律啟用與所有人 (包括同盟服務) 共用目前狀態。 他們的連絡人清單 (如果他們在商務用 Skype 中有此清單) 會顯示在 [聊天] > [連絡人] 底下或在 [通話] > [連絡人] 底下。
 - Teams 中的使用者一律啟用用戶端的「請勿打擾」和「突破」功能。
 - 當 Teams 與 Outlook 整合時，一律為使用者啟用行事曆 (包括外出和其他行事曆資訊) 整合。
