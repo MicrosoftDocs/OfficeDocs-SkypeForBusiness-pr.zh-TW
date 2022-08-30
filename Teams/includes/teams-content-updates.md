@@ -3,6 +3,36 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>2022 年 8 月 22 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 8/22/2022 | [管理組織的 [班次] 應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 改 性 |
+| 8/22/2022 | [在 Microsoft Teams 中管理標籤](/MicrosoftTeams/manage-tags) | 改 性 |
+| 8/22/2022 | [建立會議室和共用 Teams 裝置的資源帳戶](/MicrosoftTeams/rooms/with-office-365) | 改 性 |
+| 8/23/2022 | [使用來賓存取和外部存取與組織外的人員共同作業](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 改 性 |
+| 8/23/2022 | [管理內容共用的會議原則](/MicrosoftTeams/meeting-policies-content-sharing) | 改 性 |
+| 8/23/2022 | [Teams：管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 改 性 |
+| 8/24/2022 | [快速入門 - 設定Microsoft Teams 教育版](/MicrosoftTeams/teams-quick-start-guide-edu) | 添加 |
+| 8/24/2022 | 快速入門 - Microsoft Teams 教育版系統管理員 | 刪除 |
+| 8/24/2022 | [疑難排解 Teams 的低頻寬案例](/MicrosoftTeams/edu-remote-low-bandwidth) | 改 性 |
+| 8/24/2022 | [Microsoft Teams 教育版](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 改 性 |
+| 8/24/2022 | [適用于 IT 系統管理員的 Microsoft 教育版常見問題](/MicrosoftTeams/plan-teams-governance-edu) | 改 性 |
+| 8/24/2022 | [管理 Microsoft Teams 教育版的原則套件](/MicrosoftTeams/policy-packages-edu) | 改 性 |
+| 8/24/2022 | [開始使用 Microsoft Teams 進行遠端學習](/MicrosoftTeams/remote-learning-edu) | 改 性 |
+| 8/24/2022 | [共用 Teams 採用資源](/MicrosoftTeams/resources-teams-edu) | 改 性 |
+| 8/24/2022 | [指派 Microsoft Teams 教育版授權](/MicrosoftTeams/teams-edu-licensing) | 改 性 |
+| 8/24/2022 | [管理電話號碼的使用方式](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | 添加 |
+| 8/25/2022 | [管理員訓練資源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 改 性 |
+| 8/26/2022 | [自動語音應答&通話佇列歷史報告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 改 性 |
+| 8/26/2022 | [設定 Microsoft Teams 的自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 改 性 |
+| 8/26/2022 | [設定 Microsoft Teams 的自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 改 性 |
+| 8/26/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 改 性 |
+| 8/26/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
+| 8/26/2022 | [規劃 Teams 自動語音應答和通話佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 改 性 |
+
+
 ## <a name="week-of-august-15-2022"></a>2022 年 8 月 15 日周
 
 
@@ -194,25 +224,3 @@
 | 7/26/2022 | [合作夥伴的多租使用者客戶管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 改 性 |
 | 7/26/2022 | [指派 Teams 附加元件授權給使用者](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 改 性 |
 | 7/29/2022 | [管理貴組織的電話號碼](/MicrosoftTeams/manage-phone-numbers-landing-page) | 改 性 |
-
-
-## <a name="week-of-july-18-2022"></a>2022 年 7 月 18 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 7/18/2022 | [了解 Microsoft Teams 中的應用程式](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 改 性 |
-| 7/18/2022 | [在 Microsoft Teams 中管理應用程式設定原則](/MicrosoftTeams/teams-app-setup-policies) | 改 性 |
-| 7/18/2022 | 為一線員工大規模佈建 Microsoft Teams | 刪除 |
-| 7/19/2022 | [管理 Microsoft 365 和自訂連接器](/MicrosoftTeams/office-365-custom-connectors) | 改 性 |
-| 7/19/2022 | [了解 Microsoft Teams 中的應用程式](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 改 性 |
-| 7/19/2022 | [在 Microsoft Teams 系統管理中心管理 Microsoft Power Platform 應用程式](/MicrosoftTeams/manage-power-platform-apps) | 改 性 |
-| 7/19/2022 | [在 Teams 會議中管理 Q&A](/MicrosoftTeams/manage-qna-for-teams) | 改 性 |
-| 7/19/2022 | [Microsoft 應用程式認證概觀](/MicrosoftTeams/overview-of-app-certification) | 改 性 |
-| 7/19/2022 | [為 Teams 購買第三方應用程式](/MicrosoftTeams/purchase-third-party-apps) | 改 性 |
-| 7/20/2022 | [設定運算子連線](/MicrosoftTeams/operator-connect-configure) | 改 性 |
-| 7/21/2022 | [Microsoft Teams 中 Education Insights 的 IT 系統管理員指南](/MicrosoftTeams/class-insights) | 改 性 |
-| 7/21/2022 | [Microsoft Teams 中的應用程式更新體驗](/MicrosoftTeams/apps-update-experience) | 改 性 |
-| 7/21/2022 | [在 Microsoft Teams 系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 改 性 |
-| 7/21/2022 | [使用 Teams 應用程式提交 API 來提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 改 性 |
-| 7/21/2022 | [在 Microsoft Teams 系統管理中心上傳您的自訂應用程式](/MicrosoftTeams/upload-custom-apps) | 改 性 |
