@@ -21,46 +21,46 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中尋找音訊會議可用的電話撥入式Microsoft Teams。
-ms.openlocfilehash: 233b9817ca2c7d065af360b6aa3a2767159a7c49
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 瞭解如何查詢 Microsoft Teams 內音訊會議可用的電話撥入式會議號碼。
+ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
+ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055903"
+ms.lasthandoff: 08/30/2022
+ms.locfileid: "67460626"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在清單中查看音訊會議號碼Microsoft Teams
+# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>查看 Microsoft Teams 中的音訊會議號碼清單
 
-當您為使用者設定音訊會議Microsoft Teams，您可以查看他們可用於音訊會議的電話號碼。 此清單會包含貴組織可用的所有音訊會議電話號碼。
+當您為 Microsoft Teams 使用者設定音訊會議時，您可以檢視他們可用來進行音訊會議的電話號碼。 此清單會包含貴組織可使用的所有音訊會議電話號碼。
+   
+**在尋找價格嗎？** 檢閱 [音訊會議](https://www.microsoft.com/microsoft-teams/audio-conferencing)中的 **音訊會議費率** 一節。
   
- **想要尋找價格嗎？** 在 **音訊會議中查看** 音訊會議 [費率區段](https://www.microsoft.com/microsoft-teams/audio-conferencing)。
+如果貴組織中只有一個電話號碼可用，它會做為您所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在 Microsoft Teams 會議邀請中。
   
-如果貴組織中只有一個電話號碼可用，它會做為所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在會議邀請Microsoft Teams中。
-  
-您可以看見設定 [邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md) ，以變更單一使用者的撥入電話號碼。
+您可以參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md) ，以變更單一使用者的撥入電話號碼。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音訊會議電話號碼
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>檢視音訊會議電話號碼
 
-使用 Microsoft Teams系統管理中心：
+使用 Microsoft Teams 系統管理中心：
 
-1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。
-2. 查看音訊會議可用的電話號碼。
+1. 在左側導覽中，移至 **會議**  >  **橋接器**。
+2. 檢視音訊會議可用的電話號碼。
 
-- 您也可以查看音訊會議自動語音機使用的位置和主要語言。
+- 您也可以檢視音訊會議自動語音應答所使用的位置和主要語言。
 
-## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解Windows PowerShell嗎？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell是管理使用者，以及允許或不允許使用者執行的動作。 透過Windows PowerShell，您可以使用單點系統管理來管理 Microsoft 365 或 Office 365，以簡化當您有多個工作要執行的日常工作。 若要開始使用Windows PowerShell，請參閱下列主題：
 
-- [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](/previous-versions//dn568025(v=technet.10))
 
-如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
+如需Windows PowerShell的詳細資訊，請參[閱 Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)資訊以取得詳細資訊。
   
 ## <a name="related-topics"></a>相關主題
 
-[嘗試或購買音訊會議Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

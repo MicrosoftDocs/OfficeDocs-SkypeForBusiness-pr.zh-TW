@@ -20,16 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何變更電話號碼的使用方式，以做為服務號碼或使用者號碼。
-ms.openlocfilehash: f2db1b3bd0b0e437d02bf1fbfe9a92690877b2eb
-ms.sourcegitcommit: dcf4664ea8ceb6ed40d0a406e7f4467e14d6817b
+ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
+ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67432115"
+ms.lasthandoff: 08/30/2022
+ms.locfileid: "67460693"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>管理電話號碼的使用方式
 
 您可能需要變更電話號碼在取得或移轉到貴組織之後的使用方式。 不論電話號碼是服務或使用者號碼，都可以使用 Teams 系統管理中心變更電話號碼使用量。
+
+## <a name="how-to-manage-the-usage-of-a-phone-number"></a>如何管理電話號碼的使用方式
 
 若要使用 Teams 系統管理中心變更電話號碼的使用方式：
 
