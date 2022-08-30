@@ -14,16 +14,19 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 65fdd80fe8eb9073c53267da3ea390ab570cfc96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c3b83f33db2c4c91a5f2e8ad00706e225f4b01d5
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270318"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457123"
 ---
 # <a name="navigate-microsoft-teams"></a>流覽 Microsoft Teams
 
 現在，您已清楚瞭解貴組織的獨特路徑和需求，就可以開始使用 Microsoft Teams 進行強大的共同作業。 請使用下列章節來瞭解如何在 Teams 中流覽 Kaizala 的功能。
+
+> [!Important]
+> Microsoft Kaizala 將于 2023 年 8 月 31 日淘汰。 我們建議移至 Microsoft Teams 以持續連線、共用和共同作業。 在淘汰日期之後，將會中止對 Kaizala 的存取及支援。
 
 | 從 Kaizala | 移至 Teams |
 |---------|-----------------------|

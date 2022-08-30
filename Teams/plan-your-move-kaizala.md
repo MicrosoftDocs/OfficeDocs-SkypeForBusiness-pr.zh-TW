@@ -7,30 +7,30 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 本文說明如何規劃從 Kaizala 成功轉換到 Microsoft Teams。
+description: 本文說明如何規劃從 Kaizala 成功移轉到 Microsoft Teams。
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 0e9c9920826a664aaa948a6b6c9d5470a4dd3298
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 319a2d981899dce509633992fdcf61dc002a193f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443450"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457253"
 ---
-# <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>規劃從 Kaizala 成功轉換到 Microsoft Teams
+# <a name="planning-for-a-successful-move-from-kaizala-to-microsoft-teams"></a>規劃從 Kaizala 成功移轉到 Microsoft Teams
 
 > [!Important]
-> Microsoft Kaizala 將于 2023 年 8 月 31 日淘汰。 我們建議升級至 Microsoft Teams 以持續連線、共用和共同作業。 在淘汰日期之後，將會中止對 Kaizala 的存取及支援。
+> Microsoft Kaizala 將于 2023 年 8 月 31 日淘汰。 我們建議移至 Microsoft Teams 以持續連線、共用和共同作業。 在淘汰日期之後，將會中止對 Kaizala 的存取及支援。
 
 當您從 Kaizala 移轉到 Microsoft Teams 時，請務必花點時間 [規劃](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) 一次成功的轉換。 穩固的轉換計畫可為您的移動提供結構，並確保所有專案關係人都正在努力達成共同的目標。 使用經驗證的架構來實作變更，可協助您立即開始轉換。
 
-## <a name="transition-framework"></a>轉換架構
+## <a name="framework-for-your-move"></a>移動架構
 
-![描繪轉場指導方針的影像](media/plan-for-successful-transition.png)
+![描述移動指引的影像](media/plan-for-successful-transition.png)
 
 我們已在下方概述成功轉換的建議方法，並鼓勵您按照順序遵循階段，因為架構中的每一個步驟都是在前一步建立的。
 

@@ -1,5 +1,5 @@
 ---
-title: 繪製 Kaizala 到 Teams 旅程的圖表
+title: 準備將 Kaizala 移至 Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -14,17 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 73376cbc26708cc5ec810e13b710e057ba603a44
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: cecde847cb6d72f63dd51915084ba3c7c7349524
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443470"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457263"
 ---
-# <a name="charting-your-kaizala-to-teams-journey"></a>繪製 Kaizala 到 Teams 旅程的圖表
+# <a name="prepare-for-your-kaizala-to-teams-move"></a>準備將 Kaizala 移至 Teams
 
 > [!Important]
-> Microsoft Kaizala 將于 2023 年 8 月 31 日淘汰。 我們建議升級至 Microsoft Teams 以持續連線、共用和共同作業。 在淘汰日期之後，將會中止對 Kaizala 的存取及支援。
+> Microsoft Kaizala 將于 2023 年 8 月 31 日淘汰。 我們建議移至 Microsoft Teams 以持續連線、共用和共同作業。 在淘汰日期之後，將會中止對 Kaizala 的存取及支援。
 
 您決定從 Kaizala 移至 Microsoft Teams。
 

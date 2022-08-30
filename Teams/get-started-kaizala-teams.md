@@ -14,17 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: fd039c732d1a7e55a3cfb8aa59a3f78cf5f2cfe9
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 90d2135a03e8881c41cdc4d280cef9f144bdbd16
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443480"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457243"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala 和 Microsoft Teams 
 
->[!Important]
-> Microsoft Kaizala 將于 2023 年 8 月 31 日淘汰。 我們建議升級至 Microsoft Teams 以持續連線、共用和共同作業。 在淘汰日期之後，將會中止對 Kaizala 的存取及支援。
+> [!Important]
+> Microsoft Kaizala 將于 2023 年 8 月 31 日淘汰。 我們建議移至 Microsoft Teams 以持續連線、共用和共同作業。 在淘汰日期之後，將會中止對 Kaizala 的存取及支援。
 
 在 2019 年 4 月，我們 [宣佈](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) 計畫將 Kaizala 與 Microsoft Teams 整合在一起。 Kaizala 的功能補充 Teams 強大的通訊和共同作業功能，Teams 是 Microsoft 365 中的團隊合作中心。
 

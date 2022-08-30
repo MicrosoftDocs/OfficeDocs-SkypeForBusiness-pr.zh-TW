@@ -14,12 +14,12 @@ description: 了解如何稽核貴組織中使用者和系統管理員的 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299252"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457273"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>適用於應用程式管理活動和事件的稽核
 
@@ -68,6 +68,9 @@ Teams 中應用程式事件的稽核記錄可協助您調查特定動作。 雖�
 
 > [!NOTE]
 > 當上述其中一項活動是由使用者或系統管理員執行時，Teams 會產生並儲存稽核記錄。 在稽核 (標準版) 中，記錄都會保留 90 天，這意味著您可以搜尋過去三個月內發生的活動。
+
+> [!TIP]
+> 身為系統管理員，如果您想要建立每個使用者的報告，以瞭解使用者是否已封鎖或將 Bot 設為靜音，請參閱 [瞭解誰已封鎖、靜音或卸載 Bot](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot)。
 
 ## <a name="related-articles"></a>相關文章
 

@@ -15,44 +15,45 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 請閱讀本主題，瞭解如何處理從 Teams 到會話邊界控制器或 SBC (的外) 。
-ms.openlocfilehash: 83320e93df7cbf476d71b3b9165d50ca387292b9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 請閱讀本主題，瞭解如何在從 Teams 到會話框線控制器 (SBC) 的撥出電話上處理主機容錯移轉。
+ms.openlocfilehash: 0fa0d452a2611874be570f4e80a746bb07da0163
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727862"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457133"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>輸出呼叫上的主幹容錯移轉
 
-本主題說明如何避免外線通話的主幹容錯移轉，從 Teams 到會話邊界控制器 (SBC) 。
+本主題說明如何避免撥出電話上的主幹容錯移轉，從 Teams 到會話框線控制器 (SBC) 。
 
-## <a name="failover-on-network-errors"></a>網路錯誤容錯移轉
+## <a name="failover-on-network-errors"></a>網路錯誤的容錯移轉
 
-如果主幹因為任何原因無法連接，將會嘗試從不同的 Microsoft 資料中心連接到同一個主幹。 例如，如果連接遭到拒絕、TLS 有超時，或是有任何其他網路層級問題，則主幹可能未連接。
-例如，如果系統管理員僅限制從已知 IP 位址存取 SBC，但忘記將所有 Microsoft Direct 路由資料中心的 IP 位址放在 SBC 的存取控制清單 (ACL) 上，則連接可能會失敗。 
+如果因任何原因無法連接樹幹，則會嘗試從不同的 Microsoft 資料中心連線到同一個主幹。 資料中心可能位於您目前地理區域以外的其他地理區域。 如果拒絕連線、TLS 逾時，或有任何其他網路層級的問題，則可能無法連接主幹。
 
-## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>從會話邊界控制器接收特定 SIP 代碼的容錯移轉 (SBC) 
+例如，如果系統管理員僅限制從已知 IP 位址存取 SBC，但卻忘記將所有 Microsoft 直接路由資料中心的 IP 位址放在 SBC 存取控制清單 (ACL) 上，連線可能會失敗。 
 
-如果 Direct Routing 收到回應外發邀請的任何 4xx 或 6xx SIP 錯誤碼，則通話預設會視為已完成。 外撥是指從 Teams 用戶端撥打到公用交換電話網絡 (PSTN) 的通話，其流量如下：Teams 用戶端 -> 直接路由 -> SBC -> 電話網絡。
+## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>從會話框線控制器 (SBC) 接收的特定 SIP 代碼容錯移轉
 
-SIP 代碼清單可在 SIP ([RFC 的](https://tools.ietf.org/html/rfc3261)會話初始通訊) 找到。
+如果直接路由在回應外寄邀請時收到任何 4xx 或 6xx SIP 錯誤碼，則預設會將通話視為已完成。 撥出表示從 Teams 用戶端到公用交換電話網路 (PSTN) 的通話，流量如下：Teams 用戶端 ->直接路由 -> SBC ->電話語音網路。
 
-假設 SBC 以「408 要求超時」代碼回復傳入邀請的情況：伺服器無法于適當的時間內產生回應，例如，如果伺服器無法判斷使用者的時間位置。 用戶端稍後可能會重複要求，而不需要修改。」
+SIP 代碼清單可在 [會話初始通訊協定 (SIP) RFC 中](https://tools.ietf.org/html/rfc3261)找到。
 
-這個特定的 SBC 可能無法連接到受話者，可能是因為網路設定錯誤或其他錯誤。 不過，路由中可能還有一個 SBC 可以到達受叫者。
+假設 SBC 在傳入邀請上回複了代碼「408 要求逾時：伺服器無法在適當時間內產生回應，例如，如果伺服器無法及時判斷使用者的位置。」 用戶端可能會隨時重複要求而不修改。」
 
-在下列圖表中，當使用者撥打電話號碼時，路由中可能有兩個 SBC 可以傳送此通話。 一開始 SBC1.contoso.com 已選取通話，SBC1.contoso.com 網路問題導致無法連絡 PTSN 網路。
-根據預設，通話將于此時完成。 
+這個特定的 SBC 可能因為網路設定錯誤或其他錯誤，而無法連線到來電者。 不過，路由中還有一個 SBC 可以連絡來電者。
+
+在下列圖表中，當使用者撥打電話號碼時，路由中有兩個 SB 可以接通此通話。 一開始會選取 SBC1.contoso.com 來進行通話，但 SBC1.contoso.com 因為網路問題而無法連線到 PTSN 網路。
+根據預設，此時會完成通話。 
  
-![顯示 SBC 因網路問題而無法連絡 PSTN 的圖表。](media/direct-routing-failover-response-codes1.png)
+![顯示 SBC 因網路問題而無法連線 PSTN 的圖表。](media/direct-routing-failover-response-codes1.png)
 
-但路由中可能還有一個 SBC 可以傳送通話。
-如果您設定參數，將會嘗試第二 `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` 個 SBC，SBC2.contoso.com 圖表所示：
+路由中還有一個可能傳遞通話的 SBC。
+如果您設定參數 `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` ，將會在下列圖表中嘗試 (SBC2.contoso.com 第二個 SBC) ：
 
-![顯示路由至第二個 SBC 的圖表。](media/direct-routing-failover-response-codes2.png)
+![顯示路由到第二個 SBC 的圖表。](media/direct-routing-failover-response-codes2.png)
 
-設定參數 -FailoverResponseCodes 並指定代碼，可協助微調路由，並避免 SBC 因為網路或其他問題而無法撥打電話時發生潛在問題。
+設定參數 -FailoverResponseCodes 並指定程式碼可協助您微調路由，並避免當 SBC 因網路或其他問題而無法撥打電話時可能發生的問題。
 
 預設值：408、503、504
 
