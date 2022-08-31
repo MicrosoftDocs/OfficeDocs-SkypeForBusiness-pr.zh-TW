@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270038"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465971"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧喇叭的語音辨識技術控制項
 
@@ -71,12 +71,12 @@ ms.locfileid: "67270038"
 
    ![智慧型喇叭設定，喇叭會直接連接到主機。](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > EPOS 和 Yealink 裝置的前置詞應該是「EPOS」或「Yealink」，並在喇叭名稱中包含「UAC2_RENDER」，麥克風名稱則為「UAC2_TEAMS」。 如果您在下拉式功能表中找不到這些麥克風和喇叭名稱，請重新開機智慧型喇叭裝置。
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>啟用智慧喇叭使用者辨識
 
-您可以在任何使用智慧喇叭的會議中使用語音設定檔資料。 如需會議設定的相關資訊，請參閱 [Teams 會議原則](../meetings-policies-recording-and-transcription.md#allow-transcription) 和 [PowerShell 會議 Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) 。
+您可以在任何使用智慧喇叭的會議中使用語音設定檔資料。 如需會議設定的相關資訊，請參閱 [Teams 會議原則](../meetings-policies-recording-and-transcription.md#transcription) 和 [PowerShell 會議 Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) 。
 
 當原則設為區分或非會議受邀者會在會議期間參與時，會建立使用者的語音設定檔資料。 會議結束時會拒絕語音設定檔資料。
 
@@ -163,4 +163,4 @@ ms.locfileid: "67270038"
 
 ## <a name="related-topics"></a>相關主題
 
-[支援文章：使用智慧型喇叭識別會議室內的參與者 ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[支援文章：使用智慧型喇叭識別會議室內的參與者](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

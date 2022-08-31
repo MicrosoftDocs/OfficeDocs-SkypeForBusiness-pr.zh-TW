@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用下表尋找在斯洛伐克取得和管理 Microsoft Teams 電話號碼的相關資訊。
-ms.openlocfilehash: 05f953c2ff98a71586cced881f21cc91786c30c5
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: c29dbf6493e106d0c2b6560b53c79dd3ae0f1967
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789608"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466081"
 ---
 # <a name="phone-number-management-for-slovakia"></a>斯洛伐克的電話號碼管理
 
@@ -38,10 +38,10 @@ ms.locfileid: "66789608"
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
 |取得未列在 Microsoft Teams 系統管理中心的新使用者或服務電話號碼。 |在斯洛伐克，您可以使用 Microsoft Teams 系統管理中心取得貴組織的電話號碼。 您也可以下載表單以提交新的電話號碼要求，並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。<br/><br/>[新的斯洛伐克電話號碼要求 (v.1.0)  (en-sk) ](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf)。 <br/><br/> 在將電話號碼指派給您之前，您必須先下載「瞭解您的客戶」表單、完整完成，然後 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。<br/><br/>新訂單可能需要兩到三周的時間才能進入這個市場。  |
-|將電話號碼移轉給我們。   | 下載此表單。 <br/>[斯洛伐克的授權 (LOA)  ()  (v.1.1)  (en-sk) 的所有數位 ](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf)。 <br/> <br/>[斯洛伐克的授權 (LOA)  ()  (v.1.0)  (sk-sk) 的所有數位 ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf)。 <br/><br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 <br/><br/>在此市場中，移轉數位可能需要四到五周的時間。 <br/><br/>這些數位目前無法用於會議。 |
+|將電話號碼移轉給我們。   | 下載此表單。 <br/>[斯洛伐克的授權 (LOA)  ()  (v.1.1)  (en-sk) 的所有數位 ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/LOA-SK-GEO-EN.pdf)。 <br/><br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 <br/><br/>在此市場中，移轉數位可能需要四到五周的時間。 <br/><br/>這些數位目前無法用於會議。 |
 |發佈/解除發佈電話號碼 (國家電話目錄中的) 。  <br/> |如需有關您要發佈/解除發佈之電話號碼清單的指示，請連絡[TNS 服務台](contact-tns-service-desk.md)。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |如需有關您要轉換為服務號碼之使用者號碼清單的指示，請[連絡 TNS 服務台](contact-tns-service-desk.md)。 <br/> |
-|將目錄服務更新為撥號佇列或自動語音應答號碼|若要新增或變更通話佇列或自動語音應答號碼，請連絡[TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 |
+|更新目錄服務以撥打佇列或自動語音應答號碼|若要新增或變更通話佇列或自動語音應答號碼，請連絡 [TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 |
    
 ## <a name="related-topics"></a>相關主題
 
