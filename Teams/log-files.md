@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft Teams 產生的偵錯、媒體和桌面記錄檔、可找到這些記錄的位置，以及如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7883fe7f3d8f9938e66151bb784fa5fc45a91c74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005363"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466031"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>在 Teams 中設定記錄檔以進行監視和疑難排解
 
@@ -118,7 +118,7 @@ ms.locfileid: "67005363"
 
 ### <a name="end-user-configuration"></a>使用者設定
 
-使用者必須開啟 Teams 用戶端中的選項，才能記錄 Teams 會議的診斷資料。 他們會移至 [一 **般****設定**  >  ]，選取 [**啟用會議診斷** 記錄 (需要重新開機 Teams) 核取方塊、重新開機 Teams，並重現問題。 必須重新開機 Teams 用戶端，才能開始記錄。 使用者可以以滑鼠右鍵按一下其 Dock (Mac) 或工作列中的圖示， (Windows) 並選取 [結束]，即可重新開機。 結束之後，他們可以按一下應用程式圖示，再次開啟 Teams。
+使用者必須開啟 Teams 用戶端中的選項，才能記錄 Teams 會議的診斷資料。 他們會移至 [一 **般****設定**  >  ]，選 **取 [啟用媒體記錄檔 (音訊、視訊和螢幕共用的診斷資料。需要重新開機 Teams)** (需要重新開機 Teams) 核取方塊、重新開機 Teams，並重現問題。 必須重新開機 Teams 用戶端，才能開始記錄。 使用者可以以滑鼠右鍵按一下其 Dock (Mac) 或工作列中的圖示， (Windows) 並選取 [結束]，即可重新開機。 結束之後，他們可以按一下應用程式圖示，再次開啟 Teams。
 
 > [!NOTE]
 > 當您的使用者登出 Teams 時，媒體記錄會重設為預設值。

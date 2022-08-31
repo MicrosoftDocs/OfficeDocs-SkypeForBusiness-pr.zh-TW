@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396444"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465991"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
@@ -48,7 +48,7 @@ Teams 中的 [無線對講機] 應用程式可為您的團隊提供即時推入�
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>為貴組織中的特定使用者啟用或停用無線對講機
 
-若要允許或封鎖貴組織中的特定使用者使用無線對講機，請確定貴組織已在 [ [管理應用程式](manage-apps.md) ] 頁面上開啟 [無線對講機]。 然後建立自訂應用程式許可權原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用無線對講機，請確定貴組織已在 [ [管理應用程式](manage-apps.md) ] 頁面上開啟 [無線對講機]。 然後建立自訂應用程式許可權原則、將它新增至應用程式設定原則，然後將它指派給這些使用者。 若要深入瞭解，請參閱 [在 Teams 中管理應用程式許可權原則](teams-app-permission-policies.md) 和 [在 Microsoft Teams 中管理應用程式設定原則](teams-app-setup-policies.md)。
 
 ### <a name="pin-walkie-talkie-to-teams"></a>將無線對講機釘選到 Teams
 

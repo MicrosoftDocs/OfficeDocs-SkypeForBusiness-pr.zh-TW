@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268568"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466001"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -52,7 +52,6 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 
 > [!TIP]
 > 請觀看下列部分以深入了解會議：[IT 專業人員適用的 Microsoft Teams 中的會議簡介](https://aka.ms/teams-meetings-intro)。
-
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>會議和召集會議必要條件
 
@@ -150,7 +149,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 | 問問自己 | 動作 |
 |--------------|--------|
-| 我將開啟會議轉錄服務嗎？|請參閱[開啟或關閉錄製轉錄](meetings-policies-recording-and-transcription.md#allow-transcription)|
+| 我將開啟會議轉錄服務嗎？|請參閱[開啟或關閉錄製轉錄](meetings-policies-recording-and-transcription.md#transcription)|
 
 ### <a name="live-events-policies"></a>即時事件原則
 
@@ -203,6 +202,7 @@ Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話�
 |我的組織中的哪些人員將負責管理會議服務？ | 請確定這個人員擁有管理您的會議服務所需的 Teams 系統管理員權限。 若要深入了解 Teams 系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色管理來管理 Teams](using-admin-roles.md)。|
 
 ## <a name="next-steps"></a>後續步驟
+
 - 在您的組織中推動會議和召集會議的[採用](adopt-microsoft-teams-landing-page.md)。
 - [新增音訊會議](deploy-audio-conferencing-teams-landing-page.md)
 - [推出雲端語音](cloud-voice-landing-page.md)

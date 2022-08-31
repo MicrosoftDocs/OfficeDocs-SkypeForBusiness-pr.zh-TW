@@ -17,292 +17,338 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc10aa6220d325ac650d753ae2d4321505efa0d8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 231007549102b8cddc02a0d2a5d29266662b4b2f
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268368"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466021"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
-如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[遠端學習首頁](https://www.microsoft.com/education/remote-learning)。
+本文涵蓋 IT 系統管理步驟，讓您的教育機構使用 Microsoft Teams 設定遠端學習。
 
-您可在[Microsoft Office 365 教育版中的遠端教學和學習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)中取得協助教育人員和學生進行遠端學習的資源。
+在 Teams **中，授課者** 可以：
 
-本文涵蓋為您的教育機構設定遠端學習所需之實際操作步驟。
+- 與學生快速交談。
+- 共用檔案和網站。
+- 建立 OneNote 課程筆記本。
+  - 整理互動式課程。
+  - 提供有效且及時的意見反應。
+- 發佈作業並評分作業。
+- 在專業學習社群中共用說明材料。
 
-> [!Note]
-> 如需有關不同平台上的遠端學習功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+**教育系統管理員和教職員** 可以：
 
-> [!NOTE]
-> 如果您是授課者、教育主管或 IT 專業人員，這些資源可能會有所幫助：
->
-> - 您可以使用 [**單頁入門**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，迅速建立整個教育機構的資料，並在 Teams 中執行。
-> - 下載 [**如何開始使用 Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：適用於 IT 專業人員的指南，其中包含有關安全性和變更管理的實用作法。
-> - 專為授課者撰寫的文章集合，包括最重要之 [**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
-> - Microsoft 教育工作者中心的 1 小時線上課程，說明授課者如何在其專業領域中使用 Teams。[**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
-> - Microsoft 教育工作者中心的 1 小時線上課程，引導授課者在班級 團隊中進行教學。 [**使用班級 Teams 營造共同學習環境**](https://education.microsoft.com/course/b1e15cfc/overview)。
-> - 如果您是授課者、學生、家長或監護人，請透過 [**使用 Office 365 遠端教學和學習**](https://aka.ms/RemoteLearningHelp)取得更多指引。
-> - 家長和監護人也可以前往我們的 [**家長支援頁面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，取得遠端學習的協助。
+- 隨時掌握最新事件。
+- 使用教職員 Teams 共同作業以進行公告和主題交談。
 
-不要錯過 2020 年 3 月 4 日的部落格，[學校如何使用 Microsoft Teams 輕鬆提升遠端學習計劃](https://aka.ms/teamseduremoteblog)。
-
-線上學習可以是個人化、在教室中學習般的互動和社交聯繫。 學生和授課者可以保持連絡、使用交談互相幫助，並使用即時會議而感覺像是面對面的開會。 授課者可以使用 [作業] 來追蹤學生每日作業的進度。 沒有人該有置身事外的感受。 許多學生都表示比起在教室上課，使用線上學習更能表達意見，並與授課者和同學更有聯繫。 就像在教室中一樣，授課者可以使用 Teams 的 App 和功能來支援其最佳運作方式。
-
-Microsoft Teams 是一種數位中心，可將交談、內容、作業和 App 結合於一處，便於授課者建立充滿活力的學習環境。 建立共同作業的教室、在專業學習社群中相互聯繫，並與同事交流；以上通通可以藉由單一體驗完成。
-
-在 Teams 內，授課者可以迅速與學生交談、共用檔案和網站、建立 OneNote 課程筆記本，以及發佈作業和為作業評分。 內建的 OneNote 課程筆記本和端對端作業管理功能可讓授課者組織互動課程，並提供有效和及時的意見反應。 教育機構系統管理員和教職員可使用教職員 Teams 進行公告和主題性交談，來掌握最新資訊並共同作業。 授課者可使用「專業學習社群」來共用教學教材。
-
-使用本文中的最佳做法，開始將 Teams 運用於您的教學需求，以實現遠端學習功能。 班級 Teams 可用來建立共同作業的課程空間、提供虛擬會議平台、加速作業與意見反應的學習，以及主導與學生進行的即時通話。
-
-Teams 具有[用戶端](get-clients.md)以供桌面 (Windows、Mac 和 Linux)、Web 和行動裝置 (Android 和 iOS) 使用，以確保所有的教職員和學生都能保持連線。
-
-若要進一步了解 Teams 使用案例，請前往 [Teams 教育版網路研討會系列](https://aka.ms/TeamsEDUWebinars)。
+# <a name="accounts--licenses"></a>[帳戶&授權](#tab/accounts)
 
 ## <a name="user-accounts-licenses-and-identity-security"></a>使用者帳戶、授權和身分識別安全性
 
-Teams 利用 Microsoft 365 功能來驗證使用者和提供服務。 教職員、講師和學生應建立身分識別，以利於共同作業。 如果身分識別尚不存在，請遵循此程序來建立。
+Teams 會使用 Microsoft 365 驗證使用者並提供服務。 所有使用者都應該建立 Microsoft 365 身分識別以促進共同作業。
 
-[必須指派授權給使用者](teams-edu-licensing.md)，他們才能使用 Teams 功能。 Teams 依賴其他 Microsoft 365 功能，例如 [Microsoft 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+如果使用者身分識別不存在，請依照此程式建立：
 
-Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如需有關如何部署 Office 365 並讓整個教育機構開始使用 Teams 的 IT 指導方針，請參閱[此頁](/microsoft-365/education/deploy/create-your-office-365-tenant)。 若要取得支援，可以在[這裡](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提出支援票證；若要取得 Teams 的訓練課程，請造訪當地的 Microsoft Store 實體商店與專業人員洽詢。
+1. [使用學校資料同步處理建立使用者](/microsoft-365/education/deploy/school-data-sync)。
+2. [指派授權給使用者](teams-edu-licensing.md)。
+3. [建立 Microsoft 365 群組](Office-365-groups.md)。
+4. [設定 Exchange](Exchange-Teams-interact.md)。
+5. [設定 SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)。
+6. [設定擁有 Google 電子郵件的使用者](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
-> [!NOTE]
-> 如需有關教育界部署的最新資訊，請參閱 COVID-19 的[《M365 教育界部署更新指南》](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)。
+Microsoft Teams 包含在所有 Microsoft 365 方案中，包括免費的 A1 教育版方案。
+
+如需部署 Microsoft 365 和設定 Teams 的指導方針，請參閱 [建立您的 Microsoft 365 租使用者](/microsoft-365/education/deploy/create-your-office-365-tenant)。
+
+# <a name="set-up-teams"></a>[設定 Teams](#tab/setup)
 
 ## <a name="easily-set-up-teams"></a>輕鬆設定 Teams
 
-以下是要立即啟動並執行 Teams，您需要執行的兩個步驟：
+以下是啟動並執行 Teams 所需的兩件事：
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允許使用者建立 Teams
 
-當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊**。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Microsoft 365 群組和團隊的建立[限制於您環境中的特定安全性群組](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+**根據預設，每個人都可以建立 Microsoft 365 群組和 Teams**，但這項功能不一定適合。
 
-當您讓每個人 (包括學生) 為班級、研究、群組專案及研究群組建立團隊時，高等教育機構更能從中獲益。 中小學學校可能會想要限制學生建立 Teams，以確保所有學生與學生之間的通訊會在包含成人的論壇內進行。 在此情況下，您可以將 Microsoft 365 群組和 Teams 的建立限制為所有授課者和教職員。
+例如，有些學校可能會想要限制學生不監督地建立 Teams。 Microsoft 365 群組和團隊建立可以 [限制于特定安全性群組](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
-如需如何建立 Teams 的逐步解說，請參閱[在 Microsoft Teams 中建立班級團隊](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)。
+對於教育機構，我們建議允許包括學生在內的所有人建立班級、研究、群組專案和研究群組的團隊。
+
+如需如何建立 Teams 的逐步解說，請參閱 [在 Microsoft Teams 中建立班級團隊](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)。
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 使用原則設定使用者體驗
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> 深入了解用來保護學生必須採取的動作，您可以查看[使用 Teams 進行遠程學習時確保學生安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。 如果您想深入瞭解我們的系統管理員教育原則建議，您應移至[適用於教育界的 Teams 原則和原則套件](policy-packages-edu.md)。
+> 請參閱 [在 Teams 中保護學生安全，以進行遠距學習](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。
+>
+> 如果您想要檢視我們的教育原則建議，請參閱 [Teams 教育版原則和原則套件](policy-packages-edu.md)。
 
-Teams 原則能讓您控制特定使用者或使用者群組可用的選項。 您可以套用原則來定義應允許哪些人員使用私人聊天、私人通話、會議排程、可以共用的內容類型等等。
+Teams 原則可控制特定使用者或群組可用的功能。 原則可以定義誰應允許使用私人聊天、私人通話、會議排程、可共用的內容類型等等。
 
-**高等教育教職員、授課者和學生** 都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動謄寫會議](meetings-policies-recording-and-transcription.md#allow-transcription)。
+**教育人員、教育人員和學生** 可以使用預設 (全域) 原則。 您可以調整原則，為 Teams 新增更多功能，包括 [翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings) 和 [自動會議轉譯](meetings-policies-recording-and-transcription.md#transcription)。
 
-**中小學學校學生** 可能需要為學生提供受限制的功能。 原則會設定學生可以執行動作的範圍。 因為學生人口通常是最大的使用者集合，而且通常會取得最受限制的設定，建議您將學生原則變更為 [全域 (全組織預設)] 原則。
+**中等學校學生** 可能需要受限制的功能。 建議您變更全域 (全組織預設) 的原則。
+
+應指派授與重要功能的 **中學教職員和授課者** 原則，例如允許私人聊天和會議排程。 [將這些原則大量指派給您的教職員和授課者](batch-group-policy-assignment-edu.md)。
 
 > [!IMPORTANT]
-> 對於指派給任何使用者的會議原則，我們建議您將 [自動准許人員] 設定設為 [組織中的所有人]。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [[Teams 管理會議原則]](meeting-policies-participants-and-guests.md#automatically-admit-people)。
+> 對於指派給任何使用者的會議原則，建議您設定 **[自動允許人員** 進入 **貴組織中的每個人] 設定**。 這可確保未經驗證的使用者必須先獲准進入大廳，才能加入 Teams 會議。
+>
+> 如需詳細資訊，請參閱[在 Teams 中管理會議原則](meeting-policies-participants-and-guests.md#automatically-admit-people)。
 
-**小學教職員和授課者** 應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [將這些原則大量指派給您的教職員和授課者](batch-group-policy-assignment-edu.md)。
+# <a name="class-teams"></a>[班級團隊](#tab/class-teams)
 
-## <a name="start-using-teams"></a>開始使用 Teams
+## <a name="create-class-teams-for-secure-classroom-use"></a>建立班級團隊以確保教室使用安全
 
-### <a name="create-class-teams-for-secure-classroom-use"></a>建立班級團隊以確保教室使用安全
+Microsoft Teams 教育版提供[特定團隊類型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)供教育使用。 [班級團隊類型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)專為教室使用設計，並隨附支援教室需求的特定功能，包括：
 
-Microsoft Teams 教育版提供[特定團隊類型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)供教育使用。 [班級團隊類型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)專為教室使用設計，並隨附支援教室需求的特定功能，包括：  
+- 作業。
+- 成績。
+- OneNote 教室筆記本。
+- 用於保護學生唯讀內容的[[課程教材](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)] 資料夾。
+- [深入解析](./class-insights.md) 針對每個教室提供學生參與情況、作業及健康的即時資料。
+- 在新增學生之前，[優先授課者可以](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)設定班級。
+- 將干擾學生和其他特殊許可權設為靜音的功能。
 
-- 作業
-- 成績
-- OneNote 教室筆記本  
-- [課程教材資料夾](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)用於保護學生的唯讀內容
-- [深入解析](./class-insights.md) 針對每個教室提供學生參與情況、作業及健康的即時資料。 
-- [優先的授課者存取權](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)，可在加入學生之前完成班級設定 
-- 能夠讓會干擾的學生靜音和其他特殊權限  
+您可以透過下列方式建立班級團隊：
 
-您可以利用幾個方式來建立班級團隊，而 Teams 教育版擁有一組獨特的部署工具，能讓您輕鬆完成。
+- [學校資料同步 (SDS) ](#automatic-team-creation-using-sds)。
+- [使用 Microsoft 365 課程群組以授課者為導向的創作作品](#educator-led-team-creation-from-microsoft-365-class-groups)。
+- [使用圖形 API 的 PowerShell 腳本](#powershell-script-using-graph-apis)。
+- [手動建立團隊](#manual-team-creation)。
 
- - [使用 SDS 自動建立團隊](#automatic-team-creation-using-sds)
- - [透過 Microsoft Office 365 班級群組建立由授課者引導的團隊](#educator-led-team-creation-from-office-365-class-groups)
- - [使用 Graph API 的 PowerShell 指令碼 ](#powershell-script-using-graph-apis)
- - [手動建立團隊](#manual-team-creation)
+我們將逐步執行各種選項，協助您選擇最符合您需求的正確部署路徑。
 
-我們將逐步執行各種選項，協助您選擇最符合您需求的正確部署路徑。  
+### <a name="automatic-team-creation-using-sds"></a>使用 SDS 自動建立團隊
 
-#### <a name="automatic-team-creation-using-sds"></a>使用 SDS 自動建立團隊
+[學校資料同步 (SDS) ](/SchoolDataSync) 會讀取機構記錄系統的資料，例如學生資訊系統 (SIS) 或學習管理系統 (LMS) 。
 
-自動化的團隊建立能夠同時節省 IT 系統管理員和授課者的時間。 這可確保授課者在登入時，已建立好各自的班級團隊，並做好進行設定的準備。 [學校資料同步 (SDS)](/SchoolDataSync) 是免費的 Office 365 教育版工具，它會從教育機構的記錄系統 (例如，學生資訊系統 (SIS) 或學習管理系統 (LMS)) 中讀取資料。 SDS 會以許多方式使用該資料來強化 Office 365 設定，這些方式包括大量建立班級團隊，並與您的資訊系統保持同步，以讓講師和學生成員資格隨著註冊變更而更新。 SDS 可以從任何記錄系統匯入資料，並具有與世界各地許多現有 [SIS 廠商](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)的內建連接器。 我們強烈建議您使用 SDS，因為它提供下列優點。  
+SDS 可以從任何記錄系統匯入資料，並擁有內建連接器至許多 [SIS 廠商](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)。  
 
-###### <a name="benefits"></a>優點
+#### <a name="benefits-of-sds"></a>SDS 的優點
 
-- 自動建立及維護班級團隊 － 授課者將能在登入 Teams 後立即開始教學工作。
-- 成員資格會與 SIS/LMS 同步，以維護學生成員資格變更。
-- EDU 客戶成功團隊可提供免費部署協助。
-- [優先的授課者存取權](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)：授課者在將學生加入之前，有時間準備其團隊。  
-- 選擇性地建立使用者並套用 Office 365 授權。
-- 建立安全性群組，在各 Office 365 (包括 Teams 原則) 間使用。
-- 建立系統管理單元，用於限定範圍的系統管理委派和[教師密碼重設](/schooldatasync/how-to-enable-teacher-password-reset)。 
-- 內建的錯誤和重試處理、節流輪詢，以及用於大規模處理的工作階段穩定性，以減少系統管理員的工作。  
-- 內建的清理功能可在群組和團隊過期之後將其重新命名和封存。
-- [成績同步](/schooldatasync/grade-sync)：授課者可在 Teams 中進行所有評分，並讓成績從 Teams 自動寫回到 SIS 成績表。  
-- [學生資料保護](/schooldatasync/protecting-student-personal-data)：防止學生使用非 Microsoft 應用程式，並追蹤及管理家長同意。 
-- 匯入的資料可用來運用使用者角色、組織 (學校) 和其他重要資料以強化教育深入解析。  
+- 自動建立使用者並套用授權。
+- 自動建立及維護班級團隊。
+- 與 SIS/LMS 同步處理以維護學生成員資格變更。
+- [可讓授課者先準備課程，然後再新增學生](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)。
+- 可以自動建立安全性群組。
+- 建立限定管理委派範圍的系統管理單位。
+- [允許授課者密碼重設](/schooldatasync/how-to-enable-teacher-password-reset)。
+- 具有可重新命名和封存群組和團隊的內建清理功能。
+- [將成績從 Teams 同步處理到 SIS](/schooldatasync/grade-sync)。
+- [保護學生個人資料](/schooldatasync/protecting-student-personal-data)。
+- 追蹤及管理監護人同意。
+- 提供更好的教育版 Insights資料。
 
-##### <a name="considerations"></a>考量
+#### <a name="considerations-for-sds"></a>SDS 的考慮
 
-SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Directory (Azure AD) 中建立 Microsoft 365 群組，而第二個步驟會自動將該群組轉換成團隊。 建立團隊的第二個步驟在 SDS 中為選擇性。 取決於部署時間和可能造成的未使用團隊數量，系統管理員可能不想要自動建立團隊。 我們建議擁有 50 萬或更多個團隊的機構，在 SDS 中關閉自動團隊建立切換，並使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)。  
+SDS 會透過兩個步驟建立團隊：
 
-##### <a name="get-started"></a>入門
+1. SDS 會在 Azure Active Directory (Azure AD) 中建立 Microsoft 365 群組。
+2. SDS 會自動將該群組轉換為團隊。
 
-若要開始使用，請前往[學校資料同步 (SDS)](/SchoolDataSync)，並連絡 [https://aka.ms/sdssupport](https://aka.ms/sdssupport) 部署協助。  
+建立團隊的第二個步驟在 SDS 中為選擇性。 取決於部署時間和可能造成的未使用團隊數量，系統管理員可能不想要自動建立團隊。 請改為參閱 [授課者帶領的團隊建立方法](#educator-led-team-creation-from-microsoft-365-class-groups)。  
 
-#### <a name="educator-led-team-creation-from-office-365-class-groups"></a>來自 Office 365 班級群組之由授課者引導的團隊建立
+#### <a name="get-started-with-sds"></a>開始使用 SDS
 
-如果想要讓授課者更輕鬆、快速地建立其所需的班級，建立由授課者引導的團隊是絕佳的部署選項。 我們也建議擁有超過 50 萬個團隊的機構使用此方法來將外部建立的團隊數量最小化。  
+若要開始使用，請移至 [學校資料同步 (SDS) ](/SchoolDataSync) 並連絡 [https://aka.ms/sdssupport](https://aka.ms/sdssupport) 以取得免費的部署協助。  
 
-此混合式方法可讓您使用 SDS 為每個班級建立群組 (建議)，或由您自己使用 [Graph API](/graph/api/educationroot-post-classes) 為他們建立群組。 班級群組備妥之後，授課者就能使用 [建議的班級] 圖示，將其群組轉換成團隊。
+### <a name="educator-led-team-creation-from-microsoft-365-class-groups"></a>由授課者帶領的團隊從 Microsoft 365 課程群組建立
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="螢幕擷取畫面，顯示建議的班級圖示。":::
+授課者所帶領的團隊建立功能可讓授課者輕鬆建立所需的課程。  
 
-##### <a name="benefits"></a>優點
+此方法可讓您使用 SDS 為每個班級建立群組 (建議) 或使用[圖形 API](/graph/api/educationroot-post-classes)自行建立群組。
 
-- [優先的授課者存取權](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)：授課者在將學生加入之前，有時間準備其團隊。  
-- 減少未使用和不必要的團隊數量。 班級已備妥並提出建議，但除非教師要使用它們，否則不會建立班級。 針對擁有超過 50 萬個團隊的大型機構，我們建議使用此選項，以減少雜亂。
-- SDS
-    - 成員資格會與 SIS/LMS 同步，以維護學生成員資格變更。
-    - EDU 客戶成功團隊可提供免費部署協助。
-    - 選擇性地建立使用者並套用 Office 365 授權。
-    - 建立安全性群組，在各 Office 365 (包括 Teams 原則) 間使用。
-    - 建立系統管理單元，用於限定範圍的系統管理委派和[教師密碼重設](/schooldatasync/how-to-enable-teacher-password-reset)。
-    - 內建的錯誤和重試處理、節流輪詢，以及用於大規模處理的工作階段穩定性，以減少系統管理員的工作。 
-    - 內建的清理功能可在群組和團隊過期之後將其重新命名和封存。 
-    - [成績同步](/schooldatasync/grade-sync)：授課者可在 Teams 中進行所有評分，並讓成績從 Teams 自動寫回到 SIS 成績表。  
-    - [學生資料保護](/schooldatasync/protecting-student-personal-data)：防止學生使用非 Microsoft 應用程式，並追蹤及管理家長同意。 
-    - 匯入的資料可用來運用使用者角色、組織 (學校) 和其他重要資料以強化教育深入解析。
-- Graph API
-    - 額外的彈性和控制。
-    - 不要求使用 SDS 整合。
+準備好班級群組之後，授課者可以將其群組轉換成團隊：
 
-##### <a name="considerations"></a>考量
+1. 選取 Teams 中的 [Teams] 索引標籤。
+2. 在用戶端頂端，選取 **[建議的課程]** 圖示。
+
+#### <a name="benefits-of-educator-led-team-creation"></a>授課者主導團隊建立的好處
+
+- 除非授課者打算使用課程，否則系統會準備並建議課程，但不會建立。
+- 對於擁有超過 500，000 個團隊的機構，此方法可減少不必要的團隊數目。
+- [SDS 權益](#benefits-of-sds)。
+- 圖形 API權益。
+  - 讓授課者控制要建立哪些班級。
+  - 不要求使用 SDS 整合。
+
+#### <a name="considerations-for-educator-led-team-creation"></a>授課者主導團隊建立的考慮事項
 
 - 並非完全自動化，需要授課者執行一些動作。
-- 沒有建立團隊權限的授課者仍可從現有的群組建立團隊，如[此處](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)所示。
-- Graph API 需要高階技術專業知識和時間來建立及執行指令碼，並修正建立班級群組時所發生的任何問題。
+- 沒有建立團隊許可權的授課者仍然可以 [從現有的群組建立團隊](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)。
+- 圖形 API需要高階的技術專長、建立和執行腳本的時間，以及修正任何問題的時間。
 
-##### <a name="get-started"></a>開始使用
+#### <a name="get-started-with-educator-led-team-creation"></a>開始使用授課者帶領的團隊建立
 
-若要使用 SDS 方法開始使用，請前往[學校資料同步 (SDS)](/SchoolDataSync)，並連絡 [https://aka.ms/sdssupport](https://aka.ms/sdssupport) 部署協助。 
+若要開始使用 SDS 方法，請移至 [學校資料同步 (SDS) ](/SchoolDataSync) 並連絡 [https://aka.ms/sdssupport](https://aka.ms/sdssupport) 以取得免費的部署協助。
+
+- 您必須關閉 SDS 設定檔中的自動團隊建立開關。
+- 您可以使用兩個 SDS 設定檔，為班級團隊使用自動和授課者導向的團隊建立組合。
 
 若要使用 Graph API 方法，請參閱 [Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) 和[建立班級團隊](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)。  
 
-> [!NOTE]
-> 若要使用此方法搭配 SDS，您必須將 SDS 設定檔中的自動團隊切換關閉。 您也可以使用自動與由教育工作者引導的團隊建立組合，使用兩個 SDS 設定檔來建立必要和選用的班級團隊。
+### <a name="powershell-script-using-graph-apis"></a>使用 Graph API 的 PowerShell 指令碼
 
-#### <a name="powershell-script-using-graph-apis"></a>使用 Graph API 的 PowerShell 指令碼
+您可以使用 PowerShell 撰寫腳本來建立團隊和頻道，並自動設定設定。
 
-利用 PowerShell，您可以編寫指令碼來建立團隊、頻道並自動進行設定。 這需要系統管理員先建立群組、新增授課者和學生，然後建立團隊，如[此處](/graph/teams-create-group-and-team)所示。 您也可以使用 Microsoft Graph API 來建立、設定、複製及封存團隊。 如需詳細資訊，請參閱[使用 Microsoft Graph API 來搭配使用 Microsoft Teams](/graph/api/resources/teams-api-overview)、[Microsoft Teams PowerShell](/powershell/module/teams) 和[建立班級團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true)。 使用 Graph API 是獲得更多控制和彈性的絕佳方式，但它需要具備高階的技術專業知識，並且最初需要較多時間來設定。
+此方法需要系統管理員 [先建立群組、新增授課者和學生，然後建立團隊](/graph/teams-create-group-and-team)。
 
-##### <a name="benefits"></a>優點
+您也可以使用[Microsoft 圖形 API來建立、設定、複製及封存團隊](/graph/api/resources/teams-api-overview)。
 
-- 額外的彈性和控制。
-- 建立早期授課者存取團隊或立即讓學生存取團隊的選項。  
-- 如果您[從群組建立團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)，則授課者會有優先存取權，並將學生成員資格的變更同步至 Azure AD 群組。
+#### <a name="benefits-of-powershell-scripts"></a>PowerShell 腳本的優點
 
-##### <a name="considerations"></a>考量
+- 讓 IT 系統管理員控制班級建立。
+- 建立早期授課者存取團隊或立即讓學生存取團隊的選項。
+- [將學生成員資格變更同步處理至 Azure AD 群組](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)。
+
+#### <a name="considerations-for-powershell-scripts"></a>PowerShell 腳本的考慮
 
 - 需要高階技術專業知識和時間來建立及執行指令碼，並修正建立班級群組時所發生的任何問題。
 - 沒有內建的錯誤處理或重試邏輯。
-- 成員資格變更不會與 SIS 同步。 
+- 成員資格變更不會與 SIS 同步處理。
 
 > [!NOTE]
-> 班級團隊需要隱藏的群組成員資格，所以只有班級內的授課者和學生可以看到該班級的所有成員。 若要建立 Office 365 班級團隊，請參閱[建立班級團隊](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)，以符合相同的隱私權需求。
+> 班級團隊需要隱藏的群組成員資格，所以只有班級內的授課者和學生可以看到該班級的所有成員。 若要建立 Microsoft 365 課程群組，請參閱 [建立班級團隊](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) 以符合隱私權需求。
 
-#### <a name="manual-team-creation"></a>手動建立團隊
+### <a name="manual-team-creation"></a>手動建立團隊
 
-當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立團隊。 授課者設定自己的班級類型團隊，並邀請學生，如[此處](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)所述。 授課者透過[將學生新增至團隊](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共用加入代碼](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共用團隊的連結](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)來邀請學生。 若可能，最好是由授課者將學生新增至團隊，以確保學生取得存取權，並收到已將他們新增至團隊的通知。
+使用者可以建立自己的團隊，藉此量身打造自己的 Teams 體驗。
 
-##### <a name="benefits"></a>優點
+根據使用者的許可權，他們可以：
 
-- 為授課者提供額外的彈性。
-- 立即建立團隊和存取。  
+- [設定自己的團隊並邀請使用者，包括學生](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)。
+- [手動將使用者新增至團隊](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)。
+- [共用聯結代碼](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)。
+- [與團隊共用連結](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)。
 
-##### <a name="considerations"></a>考量
+建議授課者將學生新增至團隊，以確保學生能夠存取，並收到已新增學生的通知。
+
+#### <a name="benefits-of-manual-team-creation"></a>手動建立團隊的好處
+
+- 讓授課者完全控制班級建立。
+- 課程團隊會立即建立。
+
+#### <a name="considerations-for-manual-team-creation"></a>手動建立團隊的考慮
 
 - 需要授課者執行動作和時間。
-- 學生成員資格不會與 SIS 同步處理，需要手動管理。
-- 不會提供授課者存取團隊的優先權。 學生可以立即取得存取權。
+- 學生成員資格未與 SIS 同步處理，需要手動管理。
+- 學生將立即取得班級團隊的存取權。
 
-#### <a name="recommended-best-practices"></a>建議的最佳做法
+### <a name="recommended-best-practices"></a>建議的最佳做法
 
-- 盡早部署！盡早部署，以確保各個項目都能可靠地運作，且備妥供學校的第一天使用。
-- 如果您有超過 50 萬個團隊，建議您使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)。 透過只建立相關且需要的班級團隊，該方法能夠減少未使用的團隊和雜亂。  
-- 如果 SDS 自動化建立團隊發生任何問題 (例如班級遺失)，而授課者立即需要使用這些團隊，則可以使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)來重試。[手動建立團隊](#manual-team-creation)則是另一個解決方案，然而它無法更新您的團隊會員資格。  
-- 租用戶團隊的限制為 50 萬個團隊。 因此，系統管理員應積極嘗試減少未使用的團隊數量，以避免到達這些限制並延長其設定時間。 如需有關限制的詳細資訊，請參閱 [Microsoft Teams 的限制和規格](limits-specifications-teams.md)。  
+- 盡早部署，以確保各個項目都能可靠運作，且備妥供學校的第一天使用。
 
-#### <a name="early-access-to-class-teams"></a>優先存取班級團隊
+- 對於 SDS 自動建立團隊的問題，授課者可以使用 [授課者帶領的團隊建立方法](#educator-led-team-creation-from-microsoft-365-class-groups) 來重試。 [手動建立團隊](#manual-team-creation) 是另一個解決方案，但課程不會與 SIS 同步。
 
-[優先存取班級團隊] 可讓授課者在學生可以檢視並開始參與之前，優先存取班級團隊。 這步驟可讓授課者在給予學生授權存取之前，有時間進行設定、新增檔案並進行整理。 當他們準備好讓學生存取團隊時，可輕鬆 [啟用班級](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)。 身為系統管理員，您在建立及設定 [優先存取班級團隊] 方面擁有額外的控制和功能。
+- 租用戶團隊的限制為 50 萬個團隊。 因此，系統管理員應減少未使用的團隊數目，以避免達到這些限制。 如需詳細資訊，請參閱 [Microsoft Teams 的限制和規格](limits-specifications-teams.md)。  
 
-##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>我該如何建立班級團隊，以允許授課者可以在學生加入前，搶先存取並設定團隊？
+# <a name="educator-early-access"></a>[授課者優先存取](#tab/early-access)
 
-從群組（透過 SDS、授課者引導的或 Graph API）建立的團隊會預設自動建立優先存取團隊。 若要使用 Graph API 建立您自己的優先存取團隊，您需要[建立班級](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)和[從群組建立團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)。
+## <a name="early-access-to-class-teams"></a>優先存取班級團隊
 
-##### <a name="how-do-i-check-if-a-class-is-activated"></a>我該如何檢查我的班級是否已啟用？
+早期存取課程 Teams 可讓授課者先存取班級團隊，學生才能檢視。 授課者有時間設定、新增檔案並整理，然後再授與學生存取權。
 
-在 [團隊資源類型](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true)中，我們新增了一個[isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true)屬性，可以決定是否要啟用班級。 使用 [取得 Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) 以查詢特定班級的```isMembershipLimitedToOwners```屬性。 若已啟用該團隊，查詢的回傳值為 false。  若團隊擁有者尚未啟用該團隊，查詢的回傳值則為 true。 
+當學生準備好存取團隊時，他們可以 [啟用他們的班級](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)。
 
-##### <a name="how-do-i-activate-a-class-for-an-educator"></a>我該如何為授課者啟用班級？
+### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>我該如何建立班級團隊，以允許授課者可以在學生加入前，搶先存取並設定團隊？
 
-使用[更新 Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) 並將 ```isMembershipLimitedToOwners``` 屬性設定為 false 以代表您的授課者啟用這個團隊。 請注意，啟用團隊之後，啟用狀態是無法還原的。
+從群組（透過 SDS、授課者引導的或 Graph API）建立的團隊會預設自動建立優先存取團隊。
+
+若要使用 Graph API 建立您自己的優先存取團隊，您將會需要 [建立班級](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) 和 [從群組建議團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)。
+
+### <a name="how-do-i-check-if-a-class-is-activated"></a>我該如何檢查我的班級是否已啟用？
+
+在 [小組資源類型](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true)中，檢視屬性 [為MembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true)，以查看是否已啟用班級。
+
+使用 [取得 Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) 以查詢特定班級的```isMembershipLimitedToOwners```屬性。 若已啟用該團隊，查詢的回傳值為 false。  如果團隊尚未啟用，它會傳回 True 值。
+
+### <a name="how-do-i-activate-a-class-for-an-educator"></a>我該如何為授課者啟用班級？
+
+使用 [[更新小組 API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true)]，並將屬性設 ```isMembershipLimitedToOwners``` 為 false，以代表授課者啟用團隊。 小組啟用之後，就無法反轉。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>建立教職員團隊來進行教職員通訊和共同作業
 
-[教職員工類型團隊](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf)專為教育機構的系統管理員和教職員設計，以輕鬆共用資訊以及就整個機構的計劃共同作業，包括公告、設定會議、共用內容，以及引入外部應用程式 (例如[用於工作追蹤的 Planner](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2))。 教育機構系統管理員可以將教職員成員新增至團隊，方法是透過團隊建立精靈、[在建立團隊後新增成員](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9)，或[共用團隊的加入代碼或連結](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)。 [建立頻道](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525)是按工作流或主旨組織交談和檔案的絕佳方式。 [團隊擁有者上手指南](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4)十分適合用來了解團隊擁有者的職責和功能。
+[教職員類型團隊](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf) 適用于教育系統管理員和教職員，以共用資訊並共同處理整個機構的方案。
+
+教育系統管理員可以使用團隊建立精靈將教職員新增至團隊、在 [團隊建立後新增成員](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9)，或 [是共用加入代碼或連結至團隊](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)。
+
+# <a name="meeting-scenarios"></a>[會議案例](#tab/scenarios)
 
 ## <a name="teams-meeting-scenarios"></a>Teams 會議案例
 
 ### <a name="collaborative-meetings-for-virtual-classes"></a>虛擬班級的共同會議
 
-[Microsoft Teams 會議](./tutorial-meetings-in-teams.yml)最多可支援 250 個並行的出席者，包括音訊、視訊、[內容共用](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7)、白板和共用筆記等功能。 您可以在 Teams 用戶端中以[私人空間或團隊頻道內進行會議](./tutorial-meetings-in-teams.yml)的形式排程會議，使所有團隊成員知道該相關資訊。 您可以錄製會議並儲存會議，以供出席者稍後檢閱。 您也可以[謄寫這些錄製檔以輕鬆尋找討論過的內容](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308)。 膝上型電腦或行動電話網路攝影機、麥克風和喇叭可供會議使用，您可以從 [Microsoft Teams 最佳化裝置](https://products.office.com/microsoft-teams/across-devices/devices)獲得優質音訊/視頻品質。
+[Microsoft Teams 會議](./tutorial-meetings-in-teams.yml)最多可支援 250 個並行的出席者，包括音訊、視訊、[內容共用](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7)、白板和共用筆記等功能。
 
-在 Teams 中，會議召集人可以結束所有參與者的會議。 使用這項功能，授課者就能在課程完成之後，確保學生不會留在會議中而不受監督。
+會議可以是：
+
+- [在 Teams 用戶端內排程](./tutorial-meetings-in-teams.yml)。
+- 記錄並儲存，供出席者稍後檢閱。
+- [轉譯可輕鬆尋找內容](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308)。
+- 使用膝上型電腦或行動電話網路攝影機、麥克風和喇叭存取。
+- [針對特定裝置優化](https://products.office.com/microsoft-teams/across-devices/devices)。
+- 所有參與者都已結束，以確保學生不會在會議不受監督的情況下參加。
 
 ### <a name="districtuniversity-events-or-updates"></a>校區/大學活動或更新
 
-部分指示需要更多的對象和其他生產功能。 這些會議通常已定義簡報者、製作人和控管式問與答。 Teams 使用 [Microsoft Teams 即時活動](teams-live-events/what-are-teams-live-events.md)來支援這些工作階段。 針對整個校區或大學的更新、處理領導權，以及用於大型班級或學生群組的指示或延伸至您的社群之類的案例，可以使用「即時活動」。 在下列位置進一步了解有關執行即時工作階段：[規劃和排程即時活動](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)、[產生即時活動](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb)、[出席即時活動](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac)，以及[控管問與答](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76)。
+有些會議有大量觀眾和額外的生產需求。 這些會議通常已定義簡報者、製作人和控管式問與答。
 
-## <a name="recommended-tips--tricks"></a>建議的秘訣與技巧
+Teams 使用 [Microsoft Teams 即時活動](teams-live-events/what-are-teams-live-events.md)來支援這些工作階段。
 
-若要進一步了解 Teams 在教育中的使用方式，請前往：[Microsoft Teams 教育版](https://support.office.com/article/Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)。
+即時事件可用於案例，例如：
 
-> [!NOTE]
-> 部分重要的 Teams 功能並非專為教育所用。 您可以在下列位置找到核心 Teams 功能的秘訣與訣竅：[Microsoft Teams 說明與學習](https://support.office.com/teams)。
+- 地區或全校更新。
+- 領導權位址。
+- 適用于大型班級或學生群組的指示。
+- 延伸至您的社群。
 
-### <a name="prevent-users-from-changing-their-profile-photo"></a>防止使用者變更其個人資料相片
+瞭解如何進行即時會話，請參閱：
 
-Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果 **[-SetPhotoEnabled]** 設定為關閉狀態，使用者將無法新增、變更或移除他們的個人資料相片。 若要防止學生或教職員變更或移除個人資料相片，請在指派給其 Outlook 網頁版信箱原則中關閉這項設定。
+- [規劃及排程即時活動](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
+- [製作即時活動](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb)。
+- [參加即時活動](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac)。
+- [調製 Q&A](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76)。
 
-例如，如果學生上傳由教育機構 IT 或人力資源部門核准的個人資料相片，其則不需要採取任何動作。 然而，如果學生上傳了不適當的相片，則請根據教育機構的內部政策變更相片。
+# <a name="resources"></a>[資源](#tab/resources)
 
-## <a name="adoption-content"></a>採用內容
+## <a name="support-resources"></a>支援資源
 
-Microsoft 已針對部署 Teams 開發了[採用內容](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76)和策略指導方針。 [Teams 採用指南](https://teamworktools.azurewebsites.net/tft/index.html)提供可用內容的良好概觀，而 [Teams 客戶成功套件](https://aka.ms/TeamsCustomerSuccess)則提供許多可用於促進 Teams 認知的許多範本。 Microsoft Educator Center 提供教育有關如何在教室中使用 [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) 和 [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) 的特定訓練。
+如需轉換到遠端學習的概觀， [請從這裡開始](https://www.microsoft.com/education/remote-learning)
 
-其他採用資源包括：
+如果您是 IT 系統管理員、授課者、學生或監護人，這些資源可協助您使用 Teams：
 
-- ["You can in :90" 快速提示影片](https://www.youtube.com/playlist?list=PLiluTszfwwMKx-yVe7ekBX6gsLIHf1Z8k)
-- [Teams 教育版影片播放清單](https://www.youtube.com/playlist?list=PLiluTszfwwMKicAo6agloFALEB5WvYNYs)
-- [部落格：看看這個學校如何使用 Teams 來進行遠距學習](https://www.wellingtoncollege.cn/tianjin-international/teaching-and-learning-update/)
+- **IT 系統管理員**
+  - [依平臺的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+  - [下載併發布 Teams 用戶端](get-clients.md)。
+  - [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)。
+  - [適用于虛擬化桌面基礎結構的 Teams](./teams-for-vdi.md)。
+  - [監控及管理通話品質](monitor-call-quality-qos.md)。
+  - [確認 Teams 的服務健康情況](service-health.md)。
+  - [針對遠端員工優化 Microsoft 365 流量](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
+  - [Teams 的支援連絡人](/microsoft-365/admin/contact-support-for-business-products)。
+  - [Teams 教育版網路研討會](https://aka.ms/TeamsEDUWebinars)。
 
-## <a name="support-readiness"></a>支援整備
+- **授課者**
+  - [適用于授課者的說明中心](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)。
+  - [遠端學習說明](https://aka.ms/RemoteLearningHelp)。
+  - [下載 Teams](get-clients.md)。
+  - [Teams 教育版網路研討會](https://aka.ms/TeamsEDUWebinars)。
+  - [適用于使用 Teams 之授課者的線上課程](https://education.microsoft.com/course/9c9f5c11/overview)。
+  - [線上課程，與 Teams 打造共同作業學習環境](https://education.microsoft.com/course/b1e15cfc/overview)。
+  - [提交支援票證](https://www.microsoft.com/microsoft-teams/download-app)。
 
-IT 專業人員和支援人員能運用 [Teams IT 架構海報](teams-architecture-solutions-posters.md)和[管理員技術訓練](itadmin-readiness.md)，搭配 Teams 架構和 Microsoft 365 功能的基本使用來快速上手。
+- **學生**
+  - [學生的說明中心](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)。
+  - [遠端學習說明](https://aka.ms/RemoteLearningHelp)。
+  - [下載 Teams](https://www.microsoft.com/microsoft-teams/download-app)。
 
-其他支援資源包括：
+- **監護人**
+  - [遠端學習說明](https://aka.ms/RemoteLearningHelp)。
+  - [下載 Teams](https://www.microsoft.com/microsoft-teams/download-app)。
 
-- [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)
-- [Microsoft Teams 安裝和更新問題的疑難排解](troubleshoot-installation.md)
-- [發出支援票證 (可供教職員使用)](https://aka.ms/edusupport)
-- [適用於使用 Teams 的教育人員的支援和說明中心](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
-- [學生說明中心](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
-- [適用於虛擬桌面架構的 Teams](./teams-for-vdi.md)
-- [如何為遠端員工快速最佳化 Office 365 流量](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [監控及管理通話品質](monitor-call-quality-qos.md)
-- [驗證 Teams 的服務健康情況](service-health.md)
-- [Teams 的支援資源](/microsoft-365/admin/contact-support-for-business-products)
-- [Teams 說明中心](https://support.office.com/teams)
+---

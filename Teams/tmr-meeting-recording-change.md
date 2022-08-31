@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc315353e1ece0b4d455937c1677e35e3c18d152
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: e78cbb4740b5839af7c6c2d09450220a080d036f
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794151"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466112"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 商務用 OneDrive 和 SharePoint 或 Stream 來錄製會議
 
@@ -49,7 +49,7 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 從傳統Microsoft St
 - Teams 會議錄製內容 (TMR) 的保留原則 (S+C E5 自動偵測標籤)
 - 受惠于商務用 OneDrive與 SharePoint 資訊控管
 - 易於設定權限和共用
-- 僅透過明確共用與來賓 (外部使用者) 共用錄製内容
+- 僅以明確共用方式與來賓共用錄製內容
 - 要求存取流程
 - 供應商務用 OneDrive和 SharePoint 共用連結
 - 可更快取得會議錄製内容
@@ -67,7 +67,7 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 從傳統Microsoft St
 
 會議錄製選項是 Teams 原則層級的設定。 下列範例顯示如何設定全域原則。 請確定為已指派給使用者的一個或多個原則設定了會議錄製選項。
 
-> [!Note]
+> [!NOTE]
 > Teams 會議原則變更需要一段時間來傳播。設定完成的幾小時後再返回檢查，然後登出並再次登入至 Teams 桌面版應用程式，或僅是重新啟動電腦。
 
 1. 安裝 Teams PowerShell。
@@ -95,14 +95,13 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 從傳統Microsoft St
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
-> [!Note]
+> [!NOTE]
 > 如果您的某些使用者已指派每位召集人或個別使用者的原則，如果您希望他們同時將會議錄製儲存在 商務用 OneDrive 和 SharePoint 中，您必須在此原則上設定此設定。 如需詳細資訊，請參閱[在 Teams 中管理會議原則](meeting-policies-overview.md)。
-
 
 ## <a name="permissions-or-role-based-access"></a>許可權或角色型存取
 
-> [!Note]
-> 我們建議收件者必須是共用 Teams 會議錄製時的登入使用者。 當您 **在** [SharePoint 檔案或資料夾](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)中共用檔案時，選取 [ (組織中的人員]) 選項。 外部共用並非專為發佈大型檔案或大量檔案所設計。 若要防止詐騙和濫用案例，您可能會在共用大量資料給外部使用者時遇到問題。
+> [!NOTE]
+> 我們建議收件者必須是共用 Teams 會議錄製內容時的登入使用者。 當您在 [SharePoint 檔案或資料夾](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)中共用檔案時，選取 **[ (貴組織])** 中的 [人員] 選項。 外部共用並非專為發佈大型檔案或大量檔案所設計。
 
 |會議類型                               | 是誰按了一下 [錄製]？| 錄製內容在哪裡？                               |誰可以存取？ R/W、R 或共用                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -113,9 +112,9 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 從傳統Microsoft St
 |群組通話                                 |通話的任何成員 |按一下 [錄製] 之商務用 OneDrive 帳戶的群組成員  |按一下 [錄製] 的成員擁有完整的權限。 <br /><br /> 來自相同租使用者的其他群組成員具有讀取權限。 <br /><br /> 其他來自不同租使用者的群組成員沒有該群組成員的許可權。|
 |Adhoc/Scheduled 會議                    |召集人              |召集人的商務用 OneDrive 帳戶                     |召集人擁有完整的錄製權限。 <br /><br /> 會議的其他所有成員都具有讀取權限。|
 |Adhoc/Scheduled 會議                    |其他會議成員   |按一下 [錄製] 的會議成員                                  |按一下 [錄製] 的成員擁有完整的錄製權限。 <br /><br />召集人有編輯權限並可以共用。<br /><br /> 所有其他會議成員都有讀取權。|
-|與外部使用者的 Adhoc/Scheduled 會議|召集人              |召集人的商務用 OneDrive 帳戶                     |召集人擁有完整的錄製權限。<br /> <br /> 來自與召集人同一租使用者的會議其他所有成員都具有讀取權限。 <br /><br /> 所有其他外部成員皆沒有存取權，而召集人必須與他們公用。|
-|與外部使用者的 Adhoc/Scheduled 會議|其他會議成員   |按一下 [錄製] 的成員                                  |按一下 [錄製] 的成員擁有完整的錄製權限。 召集人有編輯權限並可以共用。 <br /><br /> 來自與召集人同一租使用者的會議其他所有成員都具有讀取權限。 <br /><br />所有其他外部成員皆沒有存取權，而召集人必須與他們公用。|
-|頻道會議                            |頻道成員         |該頻道的 Teams SharePoint 位置。 **注意**：IP 限制不支援將通道會議錄製上傳到 SharePoint。 建議您使用 [Azure 條件式存取](/azure/active-directory/conditional-access/overview)。 |按一下 [錄製] 的成員擁有錄製的編輯許可權。 <br /> <br />其他每位成員的許可權皆以通道 SharePoint 許可權為基礎。|
+|與外部參與者的 Adhoc/Scheduled 會議|召集人              |召集人的商務用 OneDrive 帳戶                     |召集人擁有完整的錄製權限。<br /> <br /> 來自與召集人同一租使用者的會議其他所有成員都具有讀取權限。 <br /><br /> 所有其他外部參與者都無法存取，而召集人必須將它分享給他們。|
+|與外部參與者的 Adhoc/Scheduled 會議|其他會議成員   |按一下 [錄製] 的成員                                  |按一下 [錄製] 的成員擁有完整的錄製權限。 召集人有編輯權限並可以共用。 <br /><br /> 來自與召集人同一租使用者的會議其他所有成員都具有讀取權限。 <br /><br />所有其他外部參與者都無法存取，而召集人必須將它分享給他們。|
+|頻道會議                            |頻道成員         |該頻道的 Teams SharePoint 位置。 **注意**：IP 限制不支援將通道會議錄製上傳到 SharePoint。 建議您使用 [Azure 條件式存取](/azure/active-directory/conditional-access/overview)。 |按一下 [錄製] 的成員擁有錄製的編輯許可權。 <br /> <br />每個其他成員的權限都是以 Channel SharePoint 權限為基礎。|
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
@@ -123,11 +122,11 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 從傳統Microsoft St
 
 - 對於非通道會議，錄製內容會儲存在名為 [**錄製**] 的資料夾中，該資料夾位於啟動會議錄製人員所屬的商務用 OneDrive最上層。 範例：
 
-  <i>錄製器的商務用 OneDrive</i> / **記錄**
+  *錄製器的商務用 OneDrive* / **記錄**
 
 - 針對頻道會議，錄製內容會儲存在 Teams 網站文件庫中名為 [ **錄製] 的資料夾中**。 範例：
 
-  <i>團隊名稱 - 頻道名稱</i> /**檔** /**錄音**
+  *團隊名稱 - 頻道名稱* /**檔** /**錄音**
 
 **當串流檔案 (例如錄製) 儲存在 SharePoint/OneDrive 中時，該如何決定它們的所在位置？系統管理員是否能夠變更移至何處？**
 
@@ -139,7 +138,7 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 從傳統Microsoft St
 
 **誰有權檢視會議錄製內容？**
 
-- 針對非頻道的會議，除了外部使用者以外，所有會議受邀者都會自動取得個人共用連結。 外部使用者必須由會議召集人或開始錄製會議的人員明確新增至共用清單。
+- 針對非頻道的會議，除了外部參與者以外，所有會議受邀者都會自動取得個人共用連結。 外部參與者必須由會議召集人或開始錄製會議的人員明確新增到共用清單。
 
 - 針對頻道會議，許可權是從頻道中的擁有者和成員清單繼承而來。
 
@@ -148,7 +147,7 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 從傳統Microsoft St
 
 **如何管理輔助字幕？**
 
-只有當使用者在錄製時已開啟謄寫功能，才能在播放期間使用 Teams 會議錄製的隱藏式輔助字幕。 系統管理員必須 [開啟錄製轉譯](meetings-policies-recording-and-transcription.md#allow-transcription) ，以確保其使用者可以選擇使用轉譯來錄製會議。
+只有當使用者在錄製時已開啟謄寫功能，才能在播放期間使用 Teams 會議錄製的隱藏式輔助字幕。 系統管理員必須 [開啟錄製轉譯](meetings-policies-recording-and-transcription.md#transcription) ，以確保其使用者可以選擇使用轉譯來錄製會議。
 
 字幕可協助建立適用於所有能力之觀眾的包容性內容。作為擁有者，您可以在會議錄製中隱藏字幕，不過除非您在 Teams 中刪除會議文字記錄，否則會議文字記錄仍可使用。
 
