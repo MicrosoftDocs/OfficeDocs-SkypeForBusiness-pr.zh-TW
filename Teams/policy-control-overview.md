@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams 原則控制的概覽。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142809"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041255"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 原則控制概覽
 
@@ -87,9 +87,6 @@ Teams 軟體有三個層級的診斷資料可供選擇：
 此診斷資料不包含使用者名稱、其電子郵件地址或其他使用者內容，例如 Teams 中共用的 Office 檔案、在 Teams 中發送的聊天訊息，或在 Teams 頻道中發佈之文章的文字。 我們的系統會建立一個唯一的識別碼，該識別碼會與使用者的診斷資料建立關聯。 當我們收到的診斷資料顯示我們的 Teams 應用程式當機了 100 次，這個唯一識別碼可讓我們判斷是單一使用者當機了 100 次，還是 100 個不同的使用者各當機一次。 我們不會使用此唯一識別碼來識別出特定使用者。
 
 若要查看傳送給 Microsoft 的是哪些診斷資料，您可以使用診斷資料檢視器，您可以自 Microsoft Store 免費下載並安裝該工具。 如需詳細資訊，請參閱[使用 Office 的診斷資料檢視器](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
-
-> [!NOTE]
-> 針對診斷資料檢視器的支援，可在執行 Android 裝置的 Teams 上取得。 針對執行 Windows、macOS 或 iOS 裝置上的 Teams 支援正在處理中。
 
 ## <a name="required-service-data-for-connected-experiences"></a>連線體驗的必要服務資料
 

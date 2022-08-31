@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams 適用的原則控制項的行動裝置屬性和事件清單。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
-ms.translationtype: HT
+ms.openlocfilehash: 91203a9e35954e695bea5482c41674137320b487
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114122"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674235"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -39,6 +39,7 @@ ms.locfileid: "53114122"
 > [!NOTE]
 > 如需 PanelAction事件屬性的詳細資訊，請參閱[隨著面板動作事件傳送的屬性](#properties-sent-with-panelaction-events)。
 
+- **acceptUser** - 使用者已接受一對一聊天。
 - **accessibilityUserConfiguration** - 當使用者切換協助工具功能時。
 - **acknowledgeSettingChange** - 確認 [我們已更新通知設定] 對話方塊中的更新。 這是用來確認更新通知並決定整體通知可靠性的功能成功度量值。
 - **actionComposeMenu**
@@ -69,6 +70,7 @@ ms.locfileid: "53114122"
 - **admitAll** -從 [會議廳] 區段中選取 **[允許所有]** 按鈕的次數。
 - **admitParticipant** - 從會議名單中允許某人進入會議的次數。
 - **alertsNavAlert** - 點選摘要專案。
+- **aliasDiscoverabilitySettingOpened** - 進入點以探索探索性設定。
 - **android：null** - 將聊天機器人設為靜音或取消靜音。 這會加強聊天中現有的遙測，只會增加應用程式資訊。
 - **anonymousMeetingJoin** - 系統在匿名加入提供名稱頁面中選取 **[加入會議]**，或在名稱對話方塊中點選 **[確定]**。
 - **anonymousMeetingJoinWelcome** - 系統在匿名加入會議登陸頁面中選取 **[以來賓身分加入]**。
@@ -222,7 +224,7 @@ ms.locfileid: "53114122"
   - 關閉視訊。
   - 在即時會議或通話中，已選取 [視訊] 按鈕。
 - **callPark** - 觸發時機：
-  - 已在 **[...]** 功能表中選取 **[駐留通話]**。
+  - 已在 **[...**] 功能表中選取 [**駐留通話**]。
   - **[擷取]** 按鈕已選取。
   - 已在 [擷取] 對話方塊中選取 **[選取]**。
   - 已在 [擷取] 對話方塊中選取 **[取消]**。
@@ -450,6 +452,8 @@ ms.locfileid: "53114122"
 - **detailsTabClicked** - 已在會議中選取 **[詳細資料]** 索引標籤。
 - **deviceAddressBookSync** - 當 [設定] 頁面開啟通訊錄同步處理時，觸發。
 - **deviceAddressBookUnsync** - 當 [設定] 頁面關閉通訊錄同步處理時，觸發。
+- **deviceSyncEnabled** - 已啟用裝置同步處理。
+- **deviceSyncDisabled** - 裝置同步處理已停用。
 - **dialIn** - 使用者選擇 [撥入] 會議 (不同的位置)。
 - **dialInBadNetworkBanner** -  已針對不良連線橫幅選取 **[撥入]**。
 - **dialInBadNetworkBannerCancel** - 已在原生對話方塊中取消 **撥入**。
@@ -629,6 +633,7 @@ ms.locfileid: "53114122"
 - **launchLinksGallery** -當使用者從儀表板輸入連結資源庫時。
 - **launchSlideshow** - 使用者從三個可能的應用程式功能位置之一啟動投影片全螢幕影像檢視器。 
 - **啟動來源，例如直接、連結、appShortcut** -直接或透過連結啟動 (錄製行動應用程式管理(MAM)，或行動裝置管理(MDM)遙測，以收集作用中使用者的資料)。
+- **lastSearchableAliasTurnedOff** - 使用者已停用帳戶的所有可搜尋別名。
 - **leaveChat** -確認離開聊天。
 - **legacyChatLink** -已選取舊版聊天的連結。
 - **link** - 使用者透過輸入 Teams 應用程式以啟動邀請連結兌換。
@@ -688,7 +693,7 @@ ms.locfileid: "53114122"
 - **meetingDetailDeleteMeetingforSelf** - 為某人從 [會議詳細資料] 頁面刪除 [會議]。
 - **meetingDetailJoin** - 已選取 [會議詳細資料] 頁面上的 **[會議加入]** 按鈕。
 - **meetingDetailParticipants** - 從 [會議詳細資料] 頁面上查看所有參與者。
-- **meetingDetailScheduledMeeting** - 已從 [排定的會議物件] (**[...]**) 中選取 [會議詳細資料] 頁面，或選取已排定會議的 **[詳細資料]** 索引標籤。
+- **meetingDetailScheduledMeeting** - 從排定的會議物件中選取 [會議詳細資料] 頁面 (**...**) ，或選取已排程會議的 [ **詳細** 資料] 索引標籤。
 - **meetingDetailSearchParticipants** -已選取 **[搜尋]** 會議排程中的會議參與者。
 - **meetingInsightFileClick** - 按一下會議相關的檔案項目。
 - **meetingInsightFileLocatorClick** - 按一下會議相關內容定位器提示按鈕。
@@ -724,6 +729,7 @@ ms.locfileid: "53114122"
 - **meetingUserGuest** -來賓使用者已加入會議。
 - **meetingUserTenant** -租使用者已加入會議。
 - **memeGenerated** - 提供使用者輸入的影像和文字資料後，產生 Meme 的時機。 
+- **meProfileFetch** - 表示設定檔擷取成功並建立。
 - **messageCopyMessage** - 複製訊息。
 - **messageDelete** - 訊息刪除。
 - **messageEditMessage** - 編輯訊息。
@@ -738,6 +744,7 @@ ms.locfileid: "53114122"
 - **MicrosoftWhiteboardClicked** - 已在 **[頻道檔案]** 索引標籤或 **[會議交談檔案]** 索引標籤上選取 [Microsoft 白板]。
 - **moreOptionsClicked** - 當已選取工作專案編輯器畫面上的 **[...]** 功能表右上角時，觸發。
 - **moveTaskClicked** - 工作專案更多選項清單內的選項。
+- **msaAddDeleteAliasLinkClicked** - 在 MSA 設定檔頁面面上設定別名的連結。
 - **multiCallEndFromUFD** -使用者在多重通話案例中以等候接聽方式結束通話的次數。
 - **multiCallResumeFromUFD** -使用者選取以從等候中繼續通話的次數。
 - **multiCallSwitch** -使用者選取選項來切換通話且顯示出保留通話清單的次數。
@@ -851,6 +858,7 @@ ms.locfileid: "53114122"
 - **parental_consent_grant** -使用者在其 MSFamily 中授與權限，以使用 TFL 中的即時位置功能。
 - **parental_consent_remove** -使用者在其 MSFamily 中移除權限，以使用 TFL 中的即時位置功能。
 - **pauseVoicemail** - 已在語音信箱專案上點選 **[暫停]**。
+- **peoplePickerDismissed** - 表示人員選擇器已遭解除。
 - **peoplePickerInvoked** - 在 Teams 行動裝置中的七個位置使用 [人員選擇器]，包括 (但不限於)：
   - 新增聊天選擇器。
   - 轉寄訊息。
@@ -893,6 +901,7 @@ ms.locfileid: "53114122"
 - **privateMeetingJoin** -  已從 [私人會議聊天] 點選 **[會議加入]** 按鈕。
 - **processInBG** - 處理背景中的內送通知(Android)。
 - **processInFG** - 處理前景中的內送通知(Android)。
+- **profileNameSaved** - 設定檔名稱已更新。
 - **progressItemClicked** - 確認使用者已成功開啟工作的進度選擇器。
 - **promotedToPresenter** - 使用者提升出席者 - 對話方塊中的 **[變更]** 按鈕。
 - **provideFeedbackDismiss** - 關閉詢問使用者是否要傳送有關為什麼不喜歡應用程式的意見反應之快顯提示。
@@ -1035,7 +1044,7 @@ ms.locfileid: "53114122"
 - **shareScreen** -開始或停止螢幕共用。
 - **shareShift** -共用班次時所提供的資訊。
 - **shareShiftsClicked** -待認領班次的詳細資料。
-- **shareTray** - **共用…** 會操作列表中選取。
+- **shareTray**  - **共用。。。** 已在動作工作表中選取。
 - **shiftAssigneeClicked** - 顯示特定班次詳細資料的 [班次行事曆] 檢視。
 - **shiftDetails** -這可讓您查看班次的詳細資料。
 - **shiftDetailsCalendar** -使用者移至班次詳細資料。
@@ -1260,6 +1269,7 @@ ms.locfileid: "53114122"
 > 
 - **acquire_resource_token_interactive** - 互動式登入取得驗證權杖時觸發的必要服務呼叫。 
 - **acquire_resource_token_silent** - 無訊息登入取得驗證權杖時觸發的必要服務呼叫。
+- **add_buddy** - 擷取新增連絡人的狀態。
 - **app_crash2** - 當應用程式意外當機時觸發。 提供 Teams 應用程式當機頻率的相關資訊。 
 - **app_incremental_sync_launch** - 確認框計數會針對冷啟動成功更新。
 - **app_incremental_sync_resume** - 確認框計數會針對熱啟動成功更新。
@@ -1299,6 +1309,7 @@ ms.locfileid: "53114122"
 - **delete_planner_plan** - 確認已成功刪除共用工作清單。
 - **delete_planner_task** - 確認已成功刪除共用工作專案。
 - **json_parse_failure** - 提供 JSON 剖析問題頻率的相關資訊。
+- **fetch_me_profile** - 使用者個人檔案建立狀態。
 - **getProfilePicture** - 取得使用者個人資料圖片的必要服務呼叫。 
 - **get_resource_token_async**：以非同步方式取得 Azure Active Directory 資源權杖的必要服務呼叫。
 - **get_resource_token_sync**：以同步方式取得 Azure Active Directory 資源權杖的必要服務呼叫。
@@ -1344,6 +1355,7 @@ ms.locfileid: "53114122"
 - **show_meeting_participants** - 確認顯示會議參與者清單成功或失敗。
 - **search** - 確認整個搜尋工作階段成功或失敗。
 - **time_based_retention_shared_channel** - 擷取剪除資料庫的效能資料。
+- **toggle_searchability** - 擷取網路通話狀態以戳記/解除標記別名。
 - **sync_user_entitlements_and_app_definitions** - 需要服務呼叫才能擷取 aggregatedEntitlements。
 - **bots_load_mediacards** - 在聊天和頻道中設定連接器卡片時，擷取執行個體。
 - **bots_load_one_card** - 擷取在與 Bot 聊天時，是否至少有一張卡片存在並載入。
@@ -1358,7 +1370,7 @@ ms.locfileid: "53114122"
 
 ## <a name="oneplayer-events"></a>OnePlayer 事件
 > [!NOTE]
-> 針對 OnePlayer 事件，僅適用 [OnePlayer 事件的屬性清單](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events)中所列的屬性。
+> 針對 OnePlayer 事件，僅適用 [OnePlayer 事件的屬性清單](#property-lists-for-oneplayer-events)中所列的屬性。
 ### <a name="oneplayer-user-action-events"></a>OnePlayer 使用者動作事件
 - **PlayerPlay** - 確認使用者是否在 OnePlayer 檢視中點選播放按鈕。
 - **PlayerPause** - 確認使用者是否在 OnePlayer 檢視中點選暫停按鈕。
@@ -1383,7 +1395,7 @@ ms.locfileid: "53114122"
 
 ### <a name="properties-sent-with-all-events"></a>隨著所有事件傳送的屬性
 
-| 屬性名稱                    | 說明                                                          |
+| 屬性名稱                    | 描述                                                          |
 |----------------------------------|----------------------------------------------------------------------|
 | EventInfo_Time                   | 事件產生時間                                                |
 | EventInfo_Name                   | 事件名稱 - 用來區分事件類型               |
@@ -1423,7 +1435,7 @@ ms.locfileid: "53114122"
 
 ### <a name="properties-sent-with-panelaction-events"></a>隨著面板動作事件傳送的屬性
 
-| 屬性名稱         | 說明                                                        |
+| 屬性名稱         | 描述                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Action_DestinationUri | 透過使用者動作存取之資源的 URI                  |
 | Panel_Uri             | 傳送給使用者的面板的 URI                             |
@@ -1465,7 +1477,7 @@ ms.locfileid: "53114122"
 
 ### <a name="properties-sent-with-scenario-events"></a>隨著案例事件傳送的屬性
 
-| 屬性名稱        | 說明 |
+| 屬性名稱        | 描述 |
 |----------------------|-------------|
 | Scenario_Status      | 案例狀態 - 放棄/確定/錯誤 |
 | Scenario_Step        | 當案例包含多個具有不同失敗點的步驟時，此屬性會擷取該步驟的詳細資料 |
@@ -1473,7 +1485,7 @@ ms.locfileid: "53114122"
 
 ### <a name="properties-sent-with-trace-events"></a>使用追蹤事件傳送的屬性
 
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | 包含錯誤字串和可能發生失敗的原因之詳細資料 |
 
@@ -1481,7 +1493,7 @@ ms.locfileid: "53114122"
 
 ### <a name="1-properties-sent-with-all-oneplayer-events"></a>1. 隨著所有 OnePlayer 事件傳送的屬性
 ##### <a name="11-standard-properties"></a>1.1 標準屬性
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | eventType | 事件類型 (AppLogic、ErrorAlert、Performance、UserAction) |
 | accountType   | 使用者帳戶類型 (例如，商務) |
@@ -1493,7 +1505,7 @@ ms.locfileid: "53114122"
 | aadUserId     | 使用者識別碼 |                                
 
 ##### <a name="12-player-properties"></a>1.2 播放器屬性
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | engineName    | 基礎播放器名稱 (iOS 為 AVFoundation/Android 為 ExoPlayer) |
 | engineVersion | 作業系統版本 |
@@ -1501,7 +1513,7 @@ ms.locfileid: "53114122"
 | playbackSessionId | 播放的工作階段識別碼 |
 
 ##### <a name="13-host-properties"></a>1.3 主機屬性 
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | hostIntegrationType | 主機整合類型 (例如 Package、OneUp) |
 | hostPlatform  | 主應用程式的平台 |
@@ -1510,7 +1522,7 @@ ms.locfileid: "53114122"
 | hostVersion   | 主應用程式的版本 |
 
 ##### <a name="14-experimentation-properties"></a>1.4 實驗屬性
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | ring          | 使用者所屬的通道 |
 | hostSettings  | 主應用程式所設定的屬性 (moreOptionsEnabled、shareFeatureEnabled、playbackQualityFeatureEnabled、playbackSpeedFeatureEnabled) |
@@ -1518,7 +1530,7 @@ ms.locfileid: "53114122"
 | flightsOverridden | 是否覆寫正式發行前小眾測試版的布林值 |
 
 ##### <a name="15-service-properties"></a>1.5 服務屬性
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | contentType   | 提供的內容類型 |
 | environment   | 環境名稱  |
@@ -1528,30 +1540,30 @@ ms.locfileid: "53114122"
 | correlationId | 媒體的相互關聯識別碼 (如果有) |
 
 ### <a name="2-properties-sent-with-all-oneplayer-user-action-events"></a>2. 隨著所有 OnePlayer 使用者動作傳送的屬性 
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | actionType    | 執行的動作類型，例如點選、拖曳和撥動 (僅適用 iOS)|
 | isIntentional | 動作是否為刻意的布林值 (僅適用 iOS) |
 
 #### <a name="21-properties-sent-with-changeplaybackquality-event"></a>2.1 隨著 changePlaybackQuality 事件傳送的屬性
-| 屬性名稱 | 說明                                                                                    |
+| 屬性名稱 | 描述                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | currentPlaybackQuality | 目前的播放品質 |
 
 #### <a name="22-properties-sent-with-changeplaybackspeed-event"></a>2.2 隨著 ChangePlaybackSpeed 事件傳送的屬性
-| 屬性名稱 | 說明 |
+| 屬性名稱 | 描述 |
 |---------------|------------------------------------------------------------------------------------------------|
 | previousPlaybackRate  | 影片先前的播放速率 (僅適用 iOS) |
 | currentPlaybackRate   | 影片目前的播放速率 |
 
 #### <a name="23-properties-sent-with-playerseek-event-ios-only"></a>2.3 隨著 PlayerSeek 事件傳送的屬性 (僅適用 iOS)
-| 屬性名稱 | 說明 |
+| 屬性名稱 | 描述 |
 |---------------|------------------------------------------------------------------------------------------------|
 | seekSource    | 尋找的來源 (seekbar、forwardButton、backwardButton) |
 | seekValue     | 尋找位置 |
 
 ### <a name="3-properties-sent-with-oneplayer-heartbeat-event"></a>3. 隨著 OnePlayer 活動訊號事件傳送的屬性
-| 屬性名稱 | 說明 |
+| 屬性名稱 | 描述 |
 |---------------|------------------------------------------------------------------------------------------------|
 | mediaCurrentTime | 媒體目前的播放時間 (僅適用 iOS)|
 | isLoaded | 媒體是否載入 |
