@@ -607,8 +607,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: 從使用者移除 RestrictedAnonymousAccess 會議原則
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: 會議原則與會議到期時間
-            href: meeting-expiration.md
+          - name: 管理誰可以開始和排程會議
+            href: manage-who-can-schedule-meetings.md
           - name: 管理會議設定
             href: meeting-settings-in-teams.md
           - name: 在使用者設定變更時傳送給他們的電子郵件
@@ -863,8 +863,6 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 電信業者連線
             items:
-              - name: 新增功能
-                href: operator-connect-whats-new.md
               - name: 電信業者連線計劃
                 href: operator-connect-plan.md
               - name: 設定電信業者連線
@@ -953,6 +951,8 @@ items:
             href: search-for-phone-numbers-for-users.md
           - name: 指派、變更或移除使用者的電話號碼
             href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: 管理電話號碼的使用量
+            href: manage-the-usage-of-a-phone-number.md
           - name: 查看組織的電話號碼清單
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: 管理通話方案的電話號碼
@@ -1068,7 +1068,7 @@ items:
               - name: 步驟 5：將電話號碼指派給使用者
                 href: business-voice/set-up-assign-numbers.md
               - name: 步驟 6：設定自動語音應答
-                href: create-a-phone-system-auto-attendant.md
+                href: create-a-phone-system-auto-attendant-smb.md
               - name: 步驟 7：連接埠電話號碼 (選用)
                 href: business-voice/port-phone-numbers.md
               - name: 安裝後資源
@@ -1084,7 +1084,7 @@ items:
               - name: 建立更多使用者
                 href: business-voice/create-users.md
               - name: 設定通話佇列
-                href: create-a-phone-system-call-queue.md
+                href: create-a-phone-system-call-queue-smb.md
           - name: 管理您的電話系統設定
             items:
               - name: 管理裝置
@@ -1135,6 +1135,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: 盧森堡的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: 墨西哥的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: 紐西蘭的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: 挪威的電話號碼管理
@@ -1579,44 +1581,65 @@ items:
             href: apps-update-experience.md
           - name: 稽核應用程式管理活動
             href: audit-app-management-activities.md
-          - name: 應用程式使用報告和分析
+          - name: 檢視應用程式使用量報告和分析
             href: teams-analytics-and-reports/app-usage-report.md
   - name: 產業和政府指引
     items:
       - name: 概觀
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Teams 教育版
-        href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: 快速入門 - Teams 教育版系統管理員
-            href: teams-quick-start-edu.yml
-          - name: 開始使用遠端學習
-            href: remote-learning-edu.md
-          - name: Teams EDU 原則和原則套件
-            href: policy-packages-edu.md
-          - name: 將原則指派給大型使用者集合
-            href: batch-group-policy-assignment-edu.md
-          - name: 用來建立適用於授課者和學生的安全性群組的 PowerShell 指令碼
-            href: scripts/powershell-script-security-groups-edu.md
-          - name: 教育版系統管理員的低頻寬指導方針
-            href: edu-remote-low-bandwidth.md
-          - name: Teams 教育版原則精靈
-            href: easy-policy-setup-edu.md
-          - name: Microsoft Teams 教育版中的家長聯繫
-            href: edu-parents-app.md
-          - name: 職涯教練
+          - name: Teams 教育版概觀
+            href: expand-teams-across-your-org/teams-for-education-landing-page.md
+          - name: 開始使用Teams 教育版
             items:
-              - name: 開始使用「職涯教練」
-                href: career-coach.md
-              - name: 安裝和設定「職涯教練」
-                href: career-coach-set-up-steps.md
-              - name: 疑難排解「職涯教練」
-                href: career-coach-troubleshoot.md
-              - name: 「職涯教練」的資源
-                href: career-coach-resources.md
-          - name: 監督 Teams 中的聊天
-            href: supervise-chats-edu.md
-          - name: 教育深入解析
+              - name: 快速入門 - 設定Teams 教育版
+                href: teams-quick-start-guide-edu.md
+              - name: 開始使用遠端學習
+                href: remote-learning-edu.md
+              - name: 針對低頻寬案例進行疑難排解
+                href: edu-remote-low-bandwidth.md
+              - name: 指派教育用 Teams 授權
+                href: teams-edu-licensing.md
+              - name: 適用于 IT 系統管理員的 Microsoft 教育版常見問題
+                href: plan-teams-governance-edu.md
+              - name: 共用 Teams 採用資源
+                href: resources-teams-edu.md
+              - name: 教育版 SKU 參考
+                href: sku-reference-edu.md
+          - name: 適用于教育的 Teams 原則
+            items:
+              - name: 管理 Teams 原則和原則套件
+                href: policy-packages-edu.md
+              - name: 快速設定使用者的原則
+                href: easy-policy-setup-edu.md
+              - name: 將原則指派給大型使用者集合
+                href: batch-group-policy-assignment-edu.md
+              - name: 為授課者和學生建立安全性群組
+                href: scripts/powershell-script-security-groups-edu.md
+          - name: 設定授課者功能
+            items:
+              - name: 在 Teams 中設定受監督的聊天
+                href: supervise-chats-edu.md
+              - name: 在 Teams 中設定指派
+                href: expand-teams-across-your-org/assignments-in-teams.md
+              - name: 在 Teams 中設定父連線
+                href: edu-parents-app.md
+              - name: 職涯教練
+                items:
+                  - name: 開始使用「職涯教練」
+                    href: career-coach.md
+                  - name: 安裝和設定「職涯教練」
+                    href: career-coach-set-up-steps.md
+                  - name: 疑難排解「職涯教練」
+                    href: career-coach-troubleshoot.md
+                  - name: 「職涯教練」的資源
+                    href: career-coach-resources.md
+          - name: LMS 和 LTI 整合
+            items:
+              - name: 安裝 Moodle LMS 整合
+                href: install-moodle-integration.md
+          - name: 瞭解具有教育版 Insights的學生
             items:
               - name: 開始使用深入解析
                 href: class-insights.md
@@ -1624,23 +1647,11 @@ items:
                 href: education-insights-sis-data-sync.md
               - name: 管理使用者對深入解析的存取
                 href: education-insights-manage-access.md
-              - name: 開始使用 Reflect
+              - name: 設定反映以取得情緒深入解析
                 href: reflect.md
               - name: 了解朗讀進展的深入解析
                 href: insights-for-reading-progress.md
-          - name: Teams 教育版中的作業
-            href: expand-teams-across-your-org/assignments-in-teams.md
-          - name: Teams 教育版系統管理員的資源
-            href: resources-teams-edu.md
-          - name: 適用於系統管理員的 Microsoft 教育版控管常見問題集
-            href: plan-teams-governance-edu.md
-          - name: 安裝 Moodle 整合
-            href: install-moodle-integration.md
-          - name: Teams 教育版授權
-            href: teams-edu-licensing.md
-          - name: 教育版 SKU 參考
-            href: sku-reference-edu.md
-          - name: 教育版 Teams 裝置
+          - name: 尋找適用于教育的 Teams 裝置
             href: devices-for-education.md
       - name: 適用於前線員工的 Teams
         items:
@@ -1720,13 +1731,13 @@ items:
             href: get-started-with-teams-essentials.md
           - name: 將 Teams 基本版 (AAD 身分識別) 連結至電子郵件
             href: connect-teams-essentials-to-email.md
-      - name: 從 Kaizala 升級
+      - name: 從 Kaizala 移動
         items:
-          - name: 開始使用
+          - name: 快速入門
             href: get-started-kaizala-teams.md
-          - name: 準備升級
+          - name: 準備移動
             href: prepare-for-teams-kaizala.md
-          - name: 規劃您的升級旅程
+          - name: 規劃移至 Kaizala
             href: plan-your-move-kaizala.md
           - name: 瀏覽 Microsoft Teams
             href: navigate-teams.md
