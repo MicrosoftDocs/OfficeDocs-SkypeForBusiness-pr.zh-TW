@@ -1,6 +1,6 @@
 ---
 title: 管理整個 Microsoft 365 的 Teams 應用程式存取權
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: v-tbasra
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何管理整個 Microsoft 365 的 Teams 應用程式存取權。
-ms.openlocfilehash: ee9f614fa3d33ecb9fb8e7e0985ef074440570d5
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: a555343fc8207a3c538b6b2d8901ad5a3602cf9f
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460686"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486968"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>管理整個 Microsoft 365 的 Teams 應用程式存取權
 

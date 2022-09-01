@@ -2,7 +2,7 @@
 title: Microsoft 應用程式驗證和應用程式測試概觀
 description: 了解根據市集認證原則的 Teams 應用程式驗證指導方針。 了解 Microsoft 如何確保 Teams 應用程式遵守高標準的隱私權和安全性。
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d7d705d09dc9ded8ee2b831e41ed18921fbb7381
-ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.openlocfilehash: 3ac3cc841c243558581ff1e3dfad3d3e2a8e4197
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "67314005"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67487108"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft 針對所有 Teams 應用程式執行的驗證
 

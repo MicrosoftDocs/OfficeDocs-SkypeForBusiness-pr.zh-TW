@@ -15,12 +15,12 @@ description: 了解如何使用信用卡、轉帳卡或發票結算，從 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396304"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486718"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>為 Teams 購買第三方應用程式
 
@@ -28,7 +28,7 @@ Teams 應用程式可以免費安裝，有些應用程式可能需要購買服�
 
 Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁面可讓您檢視和管理貴組織的所有 Teams 應用程式。 例如，您可以查看應用程式的組織層級狀態和屬性、上傳新的自訂應用程式至貴組織的應用程式市集、在組織層級封鎖或允許應用程式，以及管理全組織的應用程式設定。
 
-您也可以在這裡為貴組織中的使用者購買協力廠商應用程式所提供的服務授權。 資料表中的 **[授權]** 欄位指出應用程式是否提供 SaaS 訂閱以供購買。
+您也可以在這裡為貴組織中的使用者購買協力廠商應用程式所提供的服務授權。 資料表中的 **[授權]** 欄位指出應用程式是否提供 SaaS 訂閱以供購買。 使用者可以使用信用卡、轉帳卡或發票帳單來購買應用程式。
 
 ![[購買授權管理應用程式] 頁面的螢幕擷取畫面。](media/manage-apps-new-page.png)
 

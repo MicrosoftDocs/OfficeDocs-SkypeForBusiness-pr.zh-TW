@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我們向想要使用音訊會議的客戶提出的一些常見問題。
-ms.openlocfilehash: b6b14397282a365931dc58e6da20f2b3da3ab6c8
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1f2e45a68b1f964453645c1d06794f9016019beb
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023744"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486978"
 ---
 # <a name="audio-conferencing-common-questions"></a>音訊會議的常見問題
 
@@ -142,7 +142,7 @@ ms.locfileid: "67023744"
 | 命令名稱                   | 命令按鍵 | 描述                                                 |
 |--------------------------------|--------------|-------------------------------------------------------------|
 | [全部准許]                      | \*21         | 按 \* 21 以准許所有在大廳等候的參與者。  |
-| 全部靜音                       | \*22         | 按 \* 21 以將召集人) 以外的所有 (參與者設為靜音。 |
+| 全部靜音                       | \*22         | 按 \* 22 以將召集人) 以外的所有 (參與者設為靜音。 |
 | 切換 Enter/Exit 宣告 | \*23         | 按 \* 23 以啟用或停用 Enter/Exit 宣告。    |
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>出席者是否可以在參加 商務用 Skype 或 Microsoft Teams 會議時撥出國際電話號碼？

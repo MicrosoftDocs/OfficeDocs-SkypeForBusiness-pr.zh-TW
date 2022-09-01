@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: eaf165759e2310402fdec6147ba2153ec0ce792b
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443330"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486758"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -361,11 +361,11 @@ ms.locfileid: "67443330"
 |`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*建議* |
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**專員路由選項**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*建議* |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*預設* |
 |`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*預設*     |
 |**傳輸模式**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*建議* |
-|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*預設*              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*預設* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**共同作業通話**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**動態來電者識別碼**            |                          |          |                |     |          |                      |                          |   |

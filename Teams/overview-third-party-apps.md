@@ -16,16 +16,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 456661bd19eb140647dceca6d2b400366bdf8bdc
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: e44cd87189033d6082f38a2d4534738c83187e7b
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299113"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486998"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Microsoft Teams 中的協力廠商應用程式概觀
 
-除了 Microsoft 提供的應用程式之外，Teams 市集還提供許多由協力廠商軟體開發人員所建立的實用應用程式。 雖然這些應用程式是由第三方提供者建立，但 Microsoft 會對這些應用程式的功能、可用性和安全性進行嚴格的驗證。 只有通過驗證之後，Microsoft 才會在 Teams 市集中提供應用程式。 若要讓使用者從豐富的應用程式生態系統獲益，由系統管理員主導應用程式控管是關鍵的一步。 身為系統管理員，設定應用程式控管流程，以平衡使用者廣泛的應用程式需求，以及內部 IT 原則、標準和風險設定檔的限制。
+除了 Microsoft 提供的應用程式之外，Teams 市集還提供許多由協力廠商軟體開發人員所建立的實用應用程式。 若要使用這些應用程式，身為系統管理員，您必須設定應用程式控管程式，在使用者的眾多需求與貴組織的 IT 原則、標準和風險設定檔之間取得平衡。 雖然這些應用程式是由第三方提供者建立，但 Microsoft 會對這些應用程式的功能、可用性和安全性進行嚴格的驗證。 只有通過驗證之後，Microsoft 才會在 Teams 市集中提供應用程式。 若要讓使用者從豐富的應用程式生態系統獲益，由系統管理員主導應用程式控管是關鍵的一步。
 
 Microsoft Teams 中的協力廠商應用程式不受 Microsoft 控制或擁有，也不受 Microsoft 線上訂用帳戶訂閱合約規範。 貴組織使用每一個協力廠商應用程式時，均受該應用程式的條款及條件和隱私權聲明所規範。 Teams 系統管理中心可讓您在允許使用應用程式之前，先驗證應用程式的所有權限、隱私權聲明和使用規定。 一如往常，您可以允許少數特定使用者或所有使用者使用應用程式。 對於協力廠商應用程式，針對自訂應用程式，Microsoft Teams 可讓系統管理員允許、不允許、控管及分析應用程式的使用。
 

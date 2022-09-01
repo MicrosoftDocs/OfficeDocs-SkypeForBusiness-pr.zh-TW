@@ -19,18 +19,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397194"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486908"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
 應用程式是彙集工作場所工具與服務，並與他人共同作業的絕佳方式。 應用程式可協助使用者在日常工作中提高生產力、共同作業並發揮效率。 組織會使用應用程式與客戶聯繫、提供服務及分享資訊。 例如，使用者在 Teams 中使用釘選行事曆應用程式快速與其他人共同作業、應用程式具有機器人功能，可通知使用者 Teams 頻道中 Web 服務的品質，以及共用和指派工作給頻道中各種使用者的應用程式。
 
-在我們 Teams Store 中各式各樣經過驗證且安全的應用程式，可供使用者取得貴組織每天需要的工具和服務。 Microsoft Teams 應用程式是不需要部署的網路型軟體即服務 (SaaS) 應用程式。 終端使用者只能根據您提供的[權限](app-policies.md)，使用 Teams 中的應用程式。 身為系統管理員，您可以使用企業級原則來允許或封鎖貴組織使用者的任何應用程式。 您可以控制每個使用者在會議、聊天和頻道等各種內容中的應用程式可用性。
+我們在 Teams 市集中廣泛列出經過驗證且安全的應用程式 [目錄](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) ，可讓使用者存取貴組織每天需要的工具和服務。 Microsoft Teams 應用程式是不需要部署的網路型軟體即服務 (SaaS) 應用程式。 終端使用者只能根據您提供的[權限](app-policies.md)，使用 Teams 中的應用程式。 身為系統管理員，您可以使用企業級原則來允許或封鎖貴組織使用者的任何應用程式。 您可以控制每個使用者在會議、聊天和頻道等各種內容中的應用程式可用性。
 
 此文章可協助您了解應用程式類型，以及使用者可從何處存取這些應用程式。 若要深入了解應用程式的使用，請參閱[適用於終端使用者的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 

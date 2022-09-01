@@ -1,6 +1,6 @@
 ---
 title: 修改貴組織 Teams Store 中的應用程式外觀
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何透過編輯應用程式詳細資料和中繼資料，變更應用程式的外觀並重新命名應用程式。
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298882"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486918"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>在貴組織的 Teams store 中自訂應用程式的外觀
 
-Microsoft Teams 可讓系統管理員自訂 Teams 應用程式，以增強 Microsoft Store 體驗並忠於其組織的品牌。 應用程式開發人員可以允許 Teams 系統管理員自訂其應用程式。接著，您可以在 Teams 系統管理中心的 [管理應用程式] 頁面中，根據組織需求更新應用程式屬性。 您可以自訂的詳細資料如下：
+Microsoft Teams 可讓系統管理員自訂 Teams 應用程式，以增強 Microsoft Store 體驗並遵守組織品牌。 應用程式開發人員可以允許 Teams 系統管理員自訂其應用程式。接著，您可以在 Teams 系統管理中心的 [管理應用程式] 頁面中，根據組織需求更新應用程式屬性。 您可以自訂的詳細資料如下：
 
 * 簡短名稱
 * 簡短描述

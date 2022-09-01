@@ -1,6 +1,6 @@
 ---
 title: 在 Teams 中自訂您的應用程式市集
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何新增標誌、自訂背景和自訂文字色彩，以自訂群組織的 Teams 應用程式市集。
-ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 4d26ba44fa9c9618476f7afdc7a59d7a4afd66ca
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397034"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486958"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>在 Microsoft Teams 中自訂貴組織的應用程式市集
 
@@ -36,23 +36,11 @@ ms.locfileid: "67397034"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您可以在此上傳組織標誌。 選取的標誌會出現在 Teams 用戶端中，**[應用程式]** > **[專為您的租用戶打造]** 頁面中。
+您可以在此上傳組織標誌。 選取的標誌會顯示在 **[專為您的組織建立** 的 **應用程式**  >  ] 頁面的 Teams 用戶端中。
 
 當您選取 **[選擇圖片]** 選項時，您可以上傳您所選擇的檔案。 標誌應為 240x60，否則會縮放成該大小。 不應大於 5 MB。 支援的格式為 .svg、.png 和 .jpg。
 
 標誌會顯示在 Teams 市集中租用戶應用程式目錄的右上角。
-
-## <a name="customize-your-small-logo"></a>自訂您的小標誌
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-貴組織標誌或小型標誌是一種影像或符號，代表著您的組織品牌，但不包含您公司的名稱。 心型標記可協助小組成員識別應用程式市集。 選取的標誌會出現在 Teams 用戶端內的 [應用程式] 頁面中。
-
-選取 **[選擇圖片]** 選項 ，然後上傳您所選擇的檔案。 將標誌標記解析度維持在 32x32 像素，或縮小取樣到此解析度。 將檔案大小保持在 5 MB 以下。 支援的格式為 .svg、.png 和 .jpg。
-
-Teams 市集會在 **[專為您的租用戶打造]** 區段旁顯示標誌。
 
 ## <a name="customize-the-background-color"></a>自訂背景色彩
 
@@ -60,7 +48,7 @@ Teams 市集會在 **[專為您的租用戶打造]** 區段旁顯示標誌。
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-請確定背景與文字有足夠的對比，讓使用者可以清晰讀取文字。 此背景會出現在 Teams 用戶端中 **[應用程式]** > **[專為您的租用戶打造]** 標頭上。
+請確定背景與文字有足夠的對比，讓使用者可以清晰讀取文字。 背景會顯示在 **專為組織標題建立** 的 **應用程式**  >  中的 Teams 用戶端中。
 
 您的選擇包括︰
 
@@ -76,7 +64,7 @@ Teams 市集會在 **[專為您的租用戶打造]** 區段旁顯示標誌。
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-請為文字色彩提供與背景相較之下足夠的對比，以讓終端使用者能夠清楚地閱讀貴組織的名稱。 文字會出現在 Teams 用戶端中的 **[應用程式]** > **[專為您的租用戶打造]** 標頭上。
+請為文字色彩提供與背景相較之下足夠的對比，以讓終端使用者能夠清楚地閱讀貴組織的名稱。 文字會顯示在 **專為組織標題建立** 的 **應用程式**  >  的 Teams 用戶端中。
 
 當您選取 **[選擇自訂色彩]** 時，色彩選擇器隨即會開啟。 調整色彩選擇器縮放，以選取您想要的顏色。
 
