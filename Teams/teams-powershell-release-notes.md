@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fc979e9c4c6aa12fb4538210ad5c5264ad49aa6
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396674"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572053"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,6 +31,7 @@ ms.locfileid: "67396674"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 9 月 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>修正在 PS ISE 和 dotnet 應用程式上使用模組時的程式清理問題。</li><li>在 GA 中發行 [取得 \| 新]-CsBatchTeamsDeployment Cmdlet。</li><li>發行 [新 \| 集]-CSTeamsShiftsConnectionInstance，Test-CsTeamsShiftsConnectionValidate UKG Dimensions 的支援。</li><li>修正使用 Connect-MicrosoftTeams 中的 AccountId 參數在多個帳戶之間選擇時，無法正確擷取權杖的問題。</li><li>New-CsCallQueue Cmdlet 的會議模式&目前狀態模式屬性的預設值會從 false 變更為 True。</li>
 | 2022 年 8 月 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>修正在 PS ISE 和 dotnet 應用程式上使用模組時的程式清理問題。</li>
 | 2022 年 7 月 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>釋出 Get-CsOnlineUser Cmdlet 的 AccountType 參數，可查詢特定類型的使用者。</li><li>AccountType 屬性會新增到指出使用者類型的Get-CsOnlineUser輸出中。 AccountType 的可能值為：[使用者] (使用者帳戶) 、app 端點或資源帳戶 (的 [ResourceAccount]) 、「來賓」 (來賓帳戶) &「未知」 (使用者類型為未知) 。</li><li>修正 Grant-Cs \<PolicyName\> Cmdlet 中 Rank & Group 參數的問題。</li><li>發行 [取得 \| 設定 \| 新的 \| 移除授與 \| ]-CsTeamsEventsPolicy Cmdlets。</li><li>移除所有已取代的&不支援的 Cmdlet。 [Teams PowerShell 支援版本](teams-powershell-supported-versions.md#deprecated-cmdlets)的詳細資料。</li><li>發行現代化版本的 [New \| Get]-CsCloudCallDataConnection Cmdlets。</li><li>版本 [取得 \| 移除]-SharedWithTeam Cmdlet。</li><li>版本Get-TeamAllChannel Cmdlet。</li><li>版本Get-TeamIncomingChannel Cmdlet。</li><li>版本Get-AssociatedTeam Cmdlet。</li><li>版本Get-SharedWithTeamUser Cmdlet。</li><li>支援 Add-TeamChannelUser Cmdlet 的 TenantId 選擇性參數。</li><li>版本Get-TeamTargetingHierarchyStatus & [移除 \| 集]-TeamTargetingHierarGet-TeamTargetingHierarchyStatus & Cmdlet。</li>
 | 2022 年 7 月 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>釋出 Get-CsOnlineUser Cmdlet 的 AccountType 參數，可查詢特定類型的使用者。</li><li>AccountType 屬性會新增到指出使用者類型的Get-CsOnlineUser輸出中。 AccountType 的可能值為：[使用者] (使用者帳戶) 、app 端點或資源帳戶 (的 [ResourceAccount]) 、「來賓」 (來賓帳戶) &「未知」 (使用者類型為未知) 。</li><li>修正 Grant-Cs \<PolicyName\> Cmdlet 中 Rank & Group 參數的問題。</li>
