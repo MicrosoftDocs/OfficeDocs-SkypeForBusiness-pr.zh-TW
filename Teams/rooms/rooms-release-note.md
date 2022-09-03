@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270078"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590180"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -40,6 +40,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 |釋放 |發佈至 <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -94,6 +95,19 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 會議室功能簡介和問題解決方式
+
+### <a name="414240-922022"></a>4.14.24.0 (2022 年 9 月 2 日) 
+
+在此更新中推出：
+
+- 前列版面配置體驗更新 <sup>1</sup> 
+- 釘選和隱藏會議室影片 <sup>1</sup> 
+- 關閉雙顯示Teams 會議室<sup>1</sup>中分割圖庫的系統管理員設定
+- 雙顯示Teams 會議室現在最多可顯示 18 個參與者視訊串流<sup>2</sup>
+
+<sup>1</sup>透過 XML 關閉分割圖庫的系統管理員設定可在使用[XML 組態檔從遠端系統管理Microsoft Teams 會議室主機設定](../rooms/xml-config-file.md)中找到。
+
+<sup>2</sup> 這項功能即將在 Teams Web 用戶端推出，大約需要兩周的時間完成。 如需詳細資訊，請參閱 [Teams 更新](../teams-client-update.md)。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (2022/8/2) 
 

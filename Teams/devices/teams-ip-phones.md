@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 74f8a25955d112548b5bbd311a0e51d110c4944d
-ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67426840"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590190"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -267,6 +267,12 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.13.0.368067` | 2022 更新#2A   |
+| Poly Studio X50 | `3.13.0.368067` | 2022 更新#2A |
+| Poly TC8        | `3.13.0.210799`          | 2022 更新#2A   |
+| Yealink 會議列 A20 | `133.310.0.25 `   | 2022 更新#2A  |
+| Yealink 會議列 A30 | `133.310.0.25 `   | 2022 更新#2A  |
+| Yealink CTP18 | `137.15.0.80`   | 2022 更新#2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 更新#2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022 更新 #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 更新 #1  |

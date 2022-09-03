@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題和建立主設定檔案。
-ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 74ae005ceae3c17d64403990eda067e3d8bd7cfc
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272098"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590160"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定
 
@@ -52,7 +52,7 @@ ms.locfileid: "67272098"
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>true</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <WebexMeetingsEnabled>true</WebexMeetingsEnabled>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
@@ -106,6 +106,8 @@ ms.locfileid: "67272098"
       <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
       <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
   </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
 </SkypeSettings>
 ```
 
@@ -169,12 +171,14 @@ ms.locfileid: "67272098"
 | `<Video>`                                   | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的視訊設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定會議開始時相機會在哪個裝置上使用。 為獲得最佳體驗，建議您在所有其他裝置都設 `false` 為 `true` 時，只設定Teams 會議室裝置。</li><li><b>啟用</b> 判斷會議中的參與者是否可以開啟或關閉相機。 您可以將此設定在 `true` 活動參與者想要分享不同視訊觀點的任何其他裝置上， (例如參與者正在使用 Surface Hub 白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將此設定設為 `false` 。<p> 如果 **[視訊] 預設** 值設為 `true` ，則會忽略 **啟用視訊的** 設定，且參與者可以開啟或關閉相機。</li></ul> |
 | `<Whiteboard>`                              | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的白板設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定白板會在會議開始時使用哪個裝置。 為獲得最佳體驗，建議您將Teams 會議室裝置設定為 `false` ，並讓您在 Surface Hub 上使用白板。</li><li><b>啟用</b> 決定會議中的參與者是否可以開啟或關閉白板。 如果您不希望參與者在裝置上開啟或關閉白板，請將此設定設為 `false` 。<p> 如果 **Whiteboard 預設** 設定 `true` 為 ， **啟用白板的** 設定會被忽略，參與者可以開啟或關閉白板。</li></ul>                                                                                                                                                   |
 | `<EnableResolutionAndScalingSetting>` | 布林值&#x2777; | 第一個&#x2776; | 預設會停用。 如果您想要變更 [會議室前方] 的解析度和縮放比例，請將它設為 True。 如果為 True，將會套用顯示器解析度和縮放比例設定。 啟用此設定後，此設定會同時影響主 FoR 和延伸 FoR。 |
-| `<MainFoRDisplay>` | 容器 | | 如果您的裝置使用單一顯示模式，請使用此容器。<br><br>在雙顯示模式下，會議室 (FoR) 的主要前方是會議) 中時鐘 (離開會議) 和自我預覽視訊 (的畫面。 `<MainFoRDisplayResolution>` 並且 `<MainFoRDisplayScaling>` 一次必須一起設定。 如果您只使用其中一 `<MainFoRDisplayResolution>` 種或 `<MainFoRDisplayScaling>` ，則會忽略。 |
+| `<MainFoRDisplay>` | 容器 |第一個&#x2776; | 如果您的裝置使用單一顯示模式，請使用此容器。<br><br>在雙顯示模式下，會議室 (FoR) 的主要前方是會議) 中時鐘 (離開會議) 和自我預覽視訊 (的畫面。 `<MainFoRDisplayResolution>` 並且 `<MainFoRDisplayScaling>` 一次必須一起設定。 如果您只使用其中一 `<MainFoRDisplayResolution>` 種或 `<MainFoRDisplayScaling>` ，則會忽略。 |
 | `<MainFoRDisplayResolution>` | String | | Width、Height (的輸入數值，例如 1920，1080) 。 如果您的 FoR 不支援此功能，則會忽略此設定。|
 | `<MainFoRDisplayScaling>` | 數量 | | 縮放比例的輸入數值。 有效的值為建議) 、125、150、175、200、225、250、300、350、400、450 和 500 的 100 (值。 如果您輸入 500 且 FoR 支援最多 300 個，則會設定為 300。|
-| `<ExtendedFoRDisplay>` | 容器 | | 在雙顯示模式下，[會議室外延前 (FoR) 是您在會議) 中看到共用內容 (的畫面。  `<ExtendedFoRDisplayResolution>` 並且 `<ExtendedFoRDisplayScaling>` 一次必須一起設定。 如果您只使用其中一 `<ExtendedFoRDisplayResolution>` 種或 `<ExtendedFoRDisplayScaling>` ，則會忽略。 |
+| `<ExtendedFoRDisplay>` | 容器 |第一個&#x2776;| 在雙顯示模式下，[會議室外延前 (FoR) 是您在會議) 中看到共用內容 (的畫面。  `<ExtendedFoRDisplayResolution>` 並且 `<ExtendedFoRDisplayScaling>` 一次必須一起設定。 如果您只使用其中一 `<ExtendedFoRDisplayResolution>` 種或 `<ExtendedFoRDisplayScaling>` ，則會忽略。 |
 | `<ExtendedFoRDisplayResolution>` | String | |例如：1920，1080) Width、Height (的輸入數值。 如果您的 FoR 不支援該值，則會忽略該值。 |
 | `<ExtendedFoRDisplayScaling>` | 數量 | | 縮放比例的輸入數值。 有效的值為建議) 、125、150、175、200、225、250、300、350、400、450 和 500 的 100 (值。 如果您輸入 500 且 FoR 支援最多 300 個，則會設定為 300。 |
+| `<EnableDeviceEndToEndEncryption>` | 布林值&#x2777; | | 預設值為 `false` 。 指定 `true` 啟用一對一 Teams 通話的端對端加密。 來電者和收件者都需要啟用端對端加密，此功能才能正常運作。 |
+| `<SplitVideoLayoutsDisabled>` |  布林值&#x2777; | | 預設值為 `false` 。 此設定僅適用于雙顯示器會議室。 指定 `true` 停用兩個螢幕的分割視訊庫。 這也會停用前列版面配置，以及與前列版面配置相關聯的任何設定。 |
 
 &#x2776;所有第一層元素都是選用的。 如果省略第一層元素，裝置上的所有子參數都會保持不變。
   

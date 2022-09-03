@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713361"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590200"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -86,7 +86,7 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 - 使用者必須啟用 Microsoft 365 群組建立才能在 Microsoft Teams 中建立團隊。
 
   > [!IMPORTANT]
-  > 如果您在將使用者移至 **[僅 Teams]** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office 應用程式中的目前狀態可能會停止運作。 目前狀態在 Teams 中可正常運作。 若要解决此問題，請選取 Microsoft Teams 右上角的個人資料圖片，然後選取 **[設定]**。 在 **[應用程式]** 下的 **[一般]** 索引標籤上，選取 **[將 Teams 登記為 Office 的聊天應用程式] (需要重新啟動 Office 應用程式)**。 選取此選項後，請關閉並重新開啟所有 Office 應用程式 (包括 Outlook)。 開啟 Outlook 後，目前狀態將可用。
+  > 如果您在將使用者移至 **[僅 Teams]** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office 應用程式中的目前狀態可能會停止運作。 目前狀態在 Teams 中可正常運作。 若要解決此問題，請選取 Microsoft Teams 右上角個人檔案圖片左側的省略號按鈕，然後選取 [ **設定]**。 在 **[應用程式]** 下的 **[一般]** 索引標籤上，選取 **[將 Teams 登記為 Office 的聊天應用程式] (需要重新啟動 Office 應用程式)**。 選取此選項後，請關閉並重新開啟所有 Office 應用程式 (包括 Outlook)。 開啟 Outlook 後，目前狀態將可用。
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>為內部部署主控的的郵箱建立和檢視會議的需求
 

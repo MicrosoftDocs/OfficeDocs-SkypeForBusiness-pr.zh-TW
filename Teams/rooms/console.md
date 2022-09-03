@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文將說明如何設定及設定Microsoft Teams 會議室主機及其周邊裝置。
-ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 40d49597ab3354eeaacc8d7c562917fbf653e727
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270108"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590170"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>建立Microsoft Teams 會議室圖像
 
@@ -171,7 +171,7 @@ CreateSrsMedia.ps1腳本會自動化下列工作：
 Microsoft Teams 會議室應用程式應該使用上述輸入的認證登入 Microsoft Teams 或商務用 Skype Server，並且應該使用相同的認證開始將其行事曆與 Exchange 同步處理。 如需使用Teams 會議室的詳細資訊，請參閱[Microsoft Teams 會議室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
-> Microsoft Teams 會議室仰賴通過認證的主機硬體。 即使已正確建立且包含Microsoft Teams 會議室主機應用程式的影像，除非偵測到主機硬體，否則不會開機通過初始設定程式。 針對Surface Pro型解決方案，Surface Pro必須連線至其隨附的擴充座硬體，才能通過此檢查。
+> Microsoft Teams 會議室仰賴通過認證的主機硬體。 即使已正確建立且包含Microsoft Teams 會議室主機應用程式的影像，除非偵測到主機硬體，否則不會開機通過初始設定程式。 針對Surface Pro型解決方案，Surface Pro必須連線至其隨附的擴充座硬體，才能通過此檢查。 如需支援硬體的詳細資訊，請[參閱Microsoft Teams 會議室需求](requirements.md)。
   
 > [!NOTE]
 > 在初始設定期間，某些非英文語言的使用者可能需要將實體鍵盤連接到主機，以防觸控式鍵盤不支援符號。

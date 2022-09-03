@@ -12,16 +12,16 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組支援的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d28e16c248957518ca16eb3eff7e082ebe6bd9bd
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397284"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590320"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模組 - 支援的版本
 
-4.x.x 系列或更新版本中的 Microsoft Teams PowerShell 模組 (TPM) 版本是目前唯一支援的版本。 自 2022 年 6 月 15 日起，所有舊版都已完全停用，&將會停止運作 (訊息中心文章以供參考 - MC350371) 。 
+4.x.x 系列或更新版本中的 Microsoft Teams PowerShell 模組 (TPM) 版本是目前唯一支援的版本。 自 2022 年 6 月 15 日起，所有舊版都會在商業環境中完全停用，&將會停止 (訊息中心文章以供參考 - MC350371) 。 
 
 建議您更新至最新的 Teams PowerShell 模組版本。
 
