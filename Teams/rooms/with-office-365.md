@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請閱讀本文，瞭解如何建立會議室和共用裝置的資源帳戶，包括Microsoft Teams 會議室、Surface Hub 上的Teams 會議室，以及 Teams 的快捷方式顯示器。
-ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405155"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606222"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>建立及設定會議室和共用 Teams 裝置的資源帳戶
 
@@ -266,7 +266,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       如需 Active Directory 的詳細資料，請參閱 [Azure Active Directory (MSOnline) ](/powershell/azure/active-directory/overview?view=azureadps-1.0)。
+       如需 Active Directory 的詳細資料，請參閱 [Azure Active Directory (MSOnline) ](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)。
 
 2. 使用下列語法將密碼設為永不過期：
 
@@ -309,7 +309,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 資源帳戶需要 Microsoft 365 或Office 365授權才能登入 Microsoft Teams。
 
 > [!NOTE]
-> Microsoft Teams 會議室標準版和Microsoft Teams 會議室進階版是共用會議室裝置的兩種可用 SKU，包括Teams 會議室。 具有桌面功能的 Teams 顯示器需要會議室授權。 如需詳細資訊，請參閱 [Teams 會議室授權](rooms-licensing.md)。
+> Microsoft Teams 會議室 Basic 和 Microsoft Teams 會議室 Pro 是共用會議室裝置的兩種可用 SKU，包括Teams 會議室。 具有桌面功能的 Teams 顯示器需要會議室授權。 如需詳細資訊，請[參閱Microsoft Teams 會議室授權](rooms-licensing.md)。
 
 若要使用Microsoft 365 系統管理中心指派授權，請參閱[指派授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。 若要使用 Azure AD 指派授權，請參閱下列其中一個索引標籤：
 
@@ -322,7 +322,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
     Connect-AzureAD
     ```
 
-     如需 Active Directory 的詳細資料，請參閱 [適用于圖形的 Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)。
+     如需 Active Directory 的詳細資料，請參閱 [適用于圖形的 Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0&preserve-view=true)。
     
 2. 使用 `Set-AzureADUser` Cmdlet 將使用位置指派給您的資源帳戶。 這會決定可用的授權 SKU。
 
@@ -363,7 +363,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
    Connect-MsolService
    ```
 
-    如需 Active Directory 的詳細資料，請參閱 [Azure Active Directory (MSOnline) 。](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    如需 Active Directory 的詳細資料，請參閱 [Azure Active Directory (MSOnline) 。](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
 
 2.  使用 `Set-MsolUser` Cmdlet 將使用位置指派給您的資源帳戶。 這會決定可用的授權 SKU。
 
@@ -402,7 +402,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 ### <a name="configure-distribution-groups-for-teams-calendar"></a>設定 Teams 行事曆的通訊群組
 
-若要整理會議室位置，您可以將裝置資源帳戶新增至 Exchange 通訊群組。 例如，如果您在三個不同的地理位置設有辦公室，您可以建立三個通訊群組，並將適當的資源帳戶新增至每個位置。 如需詳細資訊，請參閱 [建立會議室清單](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list)。
+若要整理會議室位置，您可以將裝置資源帳戶新增至 Exchange 通訊群組。 例如，如果您在三個不同的地理位置設有辦公室，您可以建立三個通訊群組，並將適當的資源帳戶新增至每個位置。 如需詳細資訊，請參閱 [建立會議室清單](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list)。
 
 ### <a name="configure-places-for-outlook-calendar"></a>設定Outlook 行事曆地點
 若要讓會議室位置顯示在 Outlook 會議室尋找工具中，您必須使用 exchange PowerShell Cmdlet Set-Place。 Set-Place不只填入 Outlook 中的 [會議室尋找工具]，還可讓您新增額外的中繼資料，例如會議室的容量或建置會議室的樓層。 如需詳細資訊，請參閱 [設定位置](/powershell/module/exchange/set-place)。

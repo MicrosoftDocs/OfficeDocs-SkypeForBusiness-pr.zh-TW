@@ -18,16 +18,16 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 9109f26abc953fd131e96440bd62d147cac8114f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023694"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606032"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
-Microsoft 通話方案、運算子連線和直接路由的動態緊急通話功能可設定和路由緊急通話，並根據 Teams 用戶端的目前位置通知安全性人員。  
+Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 的動態緊急通話，以及直接路由功能，可根據 Teams 用戶端的目前位置設定和路由緊急通話，並通知安全性人員。  
 
 根據與租使用者系統管理員定義之緊急位址) 相關聯的網路拓撲 (網路元素，Teams 用戶端會在連至定位資訊服務 (LIS) 的要求中提供網路連線資訊。 如果有相符專案，LIS 會傳回用戶端的位置。
 
@@ -42,7 +42,7 @@ Teams 用戶端會在緊急通話中包含位置資料。 然後緊急服務提�
    - 如果有符合網站的網路設定 –緊急通話原則會從該網站傳回至 Teams 用戶端。  (如需原則的詳細資訊，請參閱) 設定 [緊急](#configure-emergency-policies) 原則。
 
    - 如果有 LIS 相符 ，Teams 用戶端連線的網路元素會傳回至 Teams 用戶端的緊急位置。 會依照下列循序執行比對，並傳回第一個相符的結果：
-       - WAP
+       - Wap
        - 乙太網路開關/埠
        - 乙太網路切換
        - 子網路
@@ -51,7 +51,7 @@ Teams 用戶端會在緊急通話中包含位置資料。 然後緊急服務提�
 
 自動路由到適當 [Public Safety Answer point] (PSAP) 的能力，取決於 Teams 使用者的使用國家/地區。
 
-Microsoft 通話方案和運算子連線合作夥伴為美國和加拿大的使用者提供動態緊急路由服務。
+Microsoft 通話方案、運算子連線合作夥伴和電信業者連線行動合作夥伴都包含適用于美國和加拿大使用者的動態緊急路由服務。
 
 不過，對於直接路由，路由緊急電話需要額外的設定，而且可能還需要合作夥伴連線。 系統管理員必須確定已設定傳送緊急電話的 PSTN 閘道，將線上 PSTN 閘道物件上的參數 PidfloSupported 設為 True，以將位置資訊新增至外寄 INVITE (。 此外，系統管理員必須設定與緊急路由服務 (ERS) 提供者的連線， (美國和加拿大) **或** 針對緊急位置識別編號 (ELIN) 應用程式設定會話框線控制器 (SBC) 。 如需 ERS 提供者的相關資訊，請參閱 [通過直接路由認證的會話框線控制器](direct-routing-border-controllers.md)。
 
@@ -105,7 +105,7 @@ Microsoft 通話方案和運算子連線合作夥伴為美國和加拿大的使�
 
 - 撥打給方案使用者。
 
-- To Operator Connect 使用者 &mdash; 取決於指派給該號碼的功能，電信業者將這些功能上傳至客戶的庫存。
+- To Operator Connect and 電信業者連線行動 users &mdash; depending the capabilities assigned to the number when the carrier upload them to a customer's inventory.
 
 - 移至動態取得位置所需的網路識別碼。 
 
@@ -144,7 +144,7 @@ Azure 地圖服務用於位置型服務。 當您使用 Microsoft Teams 系統�
 
 
 
-**針對通話方案和電信業者連線使用者：**
+**針對通話方案、運算子連線和電信業者連線行動使用者：**
 
 - 如果需要安全性中心通知的動態設定，您必須同時設定受信任的 IP 位址和網路網站。
 
@@ -191,13 +191,13 @@ Teams 用戶端會從與不同網路識別碼相關聯的位置取得緊急位�
 
 - **緊急通話路由原則 - 僅適用于直接路由**。 此原則會設定緊急號碼、視需要遮罩每一個數位，以及每個號碼的 PSTN 路由。 您可以將此原則指派給使用者、網路網站或兩者。 若要深入瞭解，請參閱 [管理直接路由的緊急通話路由原則](manage-emergency-call-routing-policies.md)。  
 
-    (通話方案和電信業者連線使用者會根據他們的 Microsoft 365 或Office 365使用位置，自動使用來自國家/地區的緊急號碼進行緊急通話。) 
+    (通話方案、運算子連線和電信業者連線行動使用者會根據其 Microsoft 365 或Office 365使用位置，自動使用來自國家/地區的緊急號碼進行緊急通話。) 
 
-- **緊急通話原則 - 適用于通話方案、運算子連線和直接路由。** 這項原則會在撥打緊急電話時設定安全性中心通知體驗。 您可以設定要通知的人員，以及他們收到通知的方式。 例如，若要自動通知貴組織的安全性服務台，並讓他們聆聽緊急電話。  這個原則可以指派給使用者或網路網站，或同時指派給兩者。 若要深入瞭解，請參閱 [管理 Teams 中的緊急通話原則](manage-emergency-calling-policies.md)。
+- **緊急通話原則 - 適用于通話方案、電信業者連線、電信業者連線行動和直接路由。** 這項原則會在撥打緊急電話時設定安全性中心通知體驗。 您可以設定要通知的人員，以及他們收到通知的方式。 例如，若要自動通知貴組織的安全性服務台，並讓他們聆聽緊急電話。  這個原則可以指派給使用者或網路網站，或同時指派給兩者。 若要深入瞭解，請參閱 [管理 Teams 中的緊急通話原則](manage-emergency-calling-policies.md)。
 
 ## <a name="enable-users-and-sites"></a>啟用使用者和網站
 
-您可以將緊急通話路由原則和緊急通話原則指派給使用者和網站。 請記住，緊急通話路由原則僅適用于直接路由。  (雖然可以將此原則指派給通話方案或運算子連線使用者，但原則不會生效。) 
+您可以將緊急通話路由原則和緊急通話原則指派給使用者和網站。 請記住，緊急通話路由原則僅適用于直接路由。  (雖然可以將此原則指派給通話方案、運算子連線或電信業者連線行動使用者，但原則不會生效。) 
 
 您可以在 Microsoft Teams 系統管理中心或使用 PowerShell 指派原則。 若要深入了解，請參閱：
 
@@ -236,7 +236,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 美國中的某些緊急路由服務提供者 (ERSP) 提供緊急通話測試機器人。
 
-- **美國或加拿大的通話方案和運** 算符連線使用者可以使用預先定義的測試緊急號碼 933 來驗證他們的緊急通話設定。 此號碼會路由至 Bot，隨後會回溯來電者電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行螢幕。
+- **美國或加拿大的通話方案、運算子連線和電信業者連線行動使用者** 可以使用預先定義的測試緊急號碼 933 來驗證其緊急通話設定。 此號碼會路由至 Bot，隨後會回溯來電者電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行螢幕。
 
 - **直接路由至美國中的客戶** 應與其 ERSP 進行測試服務的協調。
 
@@ -247,7 +247,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | 雲 | 可用 性 |
 | :------------|:-------|
 | 全球多租使用者 | 適用于所有 Teams 用戶端 |
-| GCC | 適用于所有 Teams 用戶端 |
+| Gcc | 適用于所有 Teams 用戶端 |
 | GCCH | -可在 Teams 電腦版上使用 <br> -可在 Teams 行動用戶端上使用 <br> -適用于 Teams 手機、應用程式版本：1449/1.0.94.2022061702 |
 | 國防部 | 待處理 |
 

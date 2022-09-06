@@ -1,5 +1,5 @@
 ---
-title: 指派或變更使用者緊急位置的位置
+title: 指派或變更使用者緊急位置的地點
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,40 +16,40 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 本文將瞭解如何為貴組織的使用者指派或變更緊急位置的位置。
+description: 在本文中，您將瞭解如何為組織中的使用者指派或變更緊急位置的位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bd69356be22954ee1b1b44b2dcc1a52c1e72507
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 749093e532dec92f8bf9788cc43fd0f052c461a4
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634882"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606592"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>指派或變更使用者緊急位置的位置
 
-無論您選擇[[Microsoft 通話](pstn-connectivity.md)方案、接線連線或直接路由的 PSTN 連接選項，都需要將緊急位置指派給每個電話號碼或 &mdash; &mdash; 使用者。
+無論您選擇 &mdash; Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 或直接路由 &mdash; 的[PSTN 連線選項](pstn-connectivity.md)，都必須指派給每個電話號碼或使用者。
 
-不過，根據您的 PSTN 連接選項，您管理及指派使用者緊急位置方式可能會有所不同。 詳細資訊，請參閱管理 [緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
+不過，視您的 PSTN 連線選項而定，您管理和指派緊急位置給使用者的方式可能會有所不同。 如需詳細資訊，請參閱 [管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)。
 
-本文將說明如何為系統管理中心中的使用者指派或變更緊急Microsoft Teams位置，或是使用 PowerShell。
+本文說明如何在 Microsoft Teams 系統管理中心或使用 PowerShell *為使用者* 指派或變更緊急位置的位置。
 
-本文適用于通話方案及接線連線。
+本文適用于通話方案、電信業者連線電信業者連線行動 (公開預覽版) 。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在系統管理中心的左側導Microsoft Teams，按一下 **[語音電話**  >  **號碼**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，按一下 **[語音**  >  **電話號碼]**。
 
-2. 在 **[數位** 電話頁面上，按一下 **[數位**> 選項卡，選取清單中的使用者號碼，然後按一下 [**編輯**。
+2. 在 [ **電話號碼]** 頁面上，按一下 [ **號碼] 索引卷** 標，選取清單中的使用者號碼，然後按一下 [ **編輯]**。
 
-3. 在編輯 **窗格** 的緊急 **位置下**，執行下列其中一項操作：
+3. 在 [ **編輯]** 窗格的 [ **緊急位置**] 底下，執行下列其中一項操作：
 
-    - 若要指派位置，請搜尋位置或位置，然後選取搜尋結果中的位置。
+    - 若要指派位置，請搜尋位置或位置，然後在搜尋結果中選取位置。
 
-    - 若要變更已指派給使用者的位置，請按一下 **[X** 以移除現有的位置和位置，然後搜尋並選取您想要指派的位置。
+    - 若要變更已指派給使用者的位置，請按一下 **[X** ] 移除現有的位置和位置，搜尋並選取您要指派的位置。
 
-4. 根據您是否要傳送包含其電話號碼資訊的電子郵件給使用者，請關閉或開啟包含電話號碼 **資訊的電子郵件使用者**。 根據預設，這會是啟用狀態。
+4. 根據您是否要傳送含有電話號碼資訊的電子郵件給使用者，請關閉或開啟 **Email有電話號碼資訊的使用者**。 預設會開啟此設定。
 
-5. 按一下 **[Apply.**
+5. 按一下 [ **套用]**。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
@@ -57,7 +57,7 @@ ms.locfileid: "60634882"
     
 ## <a name="related-topics"></a>相關主題
 
-- [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
+- [管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)
 - [指派或變更使用者的緊急位置](assign-change-emergency-location-user.md)
 - [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
 - [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)

@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 本文討論使用 Azure 監視器監控 商務用 Skype 或 Teams 實作中Microsoft Teams 會議室的規劃考慮。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269568"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606392"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>使用 Azure 監視器規劃Microsoft Teams 會議室監控
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269568"
 
 > [!NOTE]
 > 您也可以使用 Teams 系統管理中心[設定Teams 會議室的健康情況監控](../alerts/device-health-status.md)。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure 監視器](/azure/azure-monitor/overview) 是一組監控服務集合，從一開始就在雲端中設計。 Azure 監視器元件完全裝載于 Azure 中，而不是部署和管理內部部署資源。 設定最小，而且您只要幾分鐘就能啟動並執行。 透過某些自訂工作，它可透過提供個別會議室系統系統系統健康情況或錯誤的通知，協助監控Microsoft Teams 會議室，而且可以放大為管理數千個Microsoft Teams 會議室。
   

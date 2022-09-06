@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何新增、變更或移除組織的緊急位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bcbe811ecdb7ac9377e4798a2cdcb7334188aa1e
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267598"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606632"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
-無論您選擇的 [PSTN 連線選項為何](pstn-connectivity.md) ，您選擇 &mdash; 的 Microsoft 通話方案、運算子連線或直接路 &mdash; 由緊急位置都可以與電話號碼相關聯。
+無論您選擇 &mdash; [Microsoft 通話方案]、[運算子連線]、[電信業者連線行動 (公開預覽版) ] 或 [直接路由 &mdash; ] 緊急位置的[PSTN 連線選項](pstn-connectivity.md)，都可以與電話號碼相關聯。
 
 不過，視您的 PSTN 連線選項而定，您管理緊急位置和位置需求的方式可能會有所不同。 如需詳細資訊，請參閱 [管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)。
 
 本文說明如何新增、變更或移除組織的緊急位置。 
 
-本文適用于 Microsoft 通話方案、運算子連線和直接路由。
+本文適用于 Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 和直接路由。
 
 您可以在 Microsoft Teams 系統管理中心或使用 PowerShell 來管理組織的緊急位置。
 

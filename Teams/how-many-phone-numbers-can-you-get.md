@@ -23,20 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: 根據號碼類型和您擁有的授權數，瞭解您可以在 Microsoft Teams 中取得多少電話號碼。
-ms.openlocfilehash: 053a1772ed14b09c1bed159973f50bc47125c58e
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 629fed74d1c9f049ec28292e63f6fdb53fdc1c44
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156771"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606572"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>您可以取得多少電話號碼？
 
 當您為組織尋找並取得 Microsoft 提供的電話號碼時，可以取得比指派授權更多的電話號碼。 但這取決於您購買和指派的電話號碼類型和授權類型。
 
-您取得及管理電話號碼的方式會根據 PSTN 連線選項而有所不同：Microsoft 通話方案、電信業者連線或直接路由。 如需詳細資訊，請參閱 [管理組織的電話號碼](manage-phone-numbers-landing-page.md)。
+您取得及管理電話號碼的方式會根據您的 PSTN 連線選項而有所不同：Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 或直接路由。 如需詳細資訊，請參閱 [管理組織的電話號碼](manage-phone-numbers-landing-page.md)。
 
-下表適用于 Microsoft 通話方案、 [音訊會議](deploy-audio-conferencing-teams-landing-page.md)和語音應用程式，例如 [通話佇列和自動語音應答](plan-auto-attendant-call-queue.md)。 如需運算子連線和直接路由的相關資訊，請連絡您的服務提供者。
+下表適用于 Microsoft 通話方案、 [音訊會議](deploy-audio-conferencing-teams-landing-page.md)和語音應用程式，例如 [通話佇列和自動語音應答](plan-auto-attendant-call-queue.md)。 如需運算子連線、電信業者連線行動或直接路由的相關資訊，請連絡您的服務提供者。
 
 您可以在 Microsoft Teams 系統管理中心搜尋及取得程式期間，查看您可以從 Microsoft 取得的電話號碼數量 (**取得電話號碼**) 。
 

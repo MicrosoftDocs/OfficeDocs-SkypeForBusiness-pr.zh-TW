@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Devices
 description: 瞭解如何在 Teams Android 裝置上設定使用者介面。
-ms.openlocfilehash: 859c1d9d0f7a946f37b53ad81dc2a0637bb26621
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 830609d1bf02c38a2301c0d5a1b9e62ac836c908
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269318"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606832"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>設定 Microsoft Teams Android 裝置使用者介面
 
@@ -49,7 +49,7 @@ Teams Android 裝置上有三種類型的使用者介面：
 
 ## <a name="meeting-interface"></a>會議介面
 
-此影像顯示已指派[Microsoft Teams 會議室標準版授權的](/MicrosoftTeams/rooms/rooms-licensing)使用者帳戶。 Teams 會議室授權的用途是用於會議室或共用空間，因此使用者介面會變更，以顯示行事曆檢視，讓您輕鬆加入會議：
+此影像顯示已指派[Microsoft Teams 會議室授權的](/MicrosoftTeams/rooms/rooms-licensing)使用者帳戶。 Teams 會議室授權的用途是用於會議室或共用空間，因此使用者介面會變更，以顯示行事曆檢視，讓您輕鬆加入會議：
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="會議介面。":::
 
@@ -61,7 +61,7 @@ Teams Android 裝置上有三種類型的使用者介面：
 
 ## <a name="override-automatic-user-interface-detection"></a>覆寫自動使用者介面偵測
 
-在某些情況下，您可能會選擇將授權指派給與其預定使用不相符的帳戶。 例如，您可以將使用者授權指派給在 Android 上用來登入Teams 會議室的帳戶。 根據預設，您會看到使用者介面，而不是會議室介面。 若要覆寫預設介面，請建立新的 [Teams IP Phone 原則](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) ，並套用至該帳戶。
+在某些情況下，您可能會選擇將授權指派給與其預定使用不相符的帳戶。 例如，您可以將使用者授權指派給在 Android 上用來登入Teams 會議室的帳戶。 根據預設，您會看到使用者介面，而不是會議室介面。 若要覆寫預設介面，請建立新的 [Teams IP Phone 原則](/powershell/module/skype/new-csteamsipphonepolicy) ，並套用至該帳戶。
 
 > [!NOTE]
 > 指派給使用者帳戶的授權必須至少與您想要的使用者介面擁有相同的授權權利。 通用區域電話授權只允許通用區域電話使用者介面。 會議室授權可讓會議室和常見區域電話使用者介面。 E3 或 E5 授權支援所有登入模式。

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590180"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606232"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -104,10 +104,11 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 - 釘選和隱藏會議室影片 <sup>1</sup> 
 - 關閉雙顯示Teams 會議室<sup>1</sup>中分割圖庫的系統管理員設定
 - 雙顯示Teams 會議室現在最多可顯示 18 個參與者視訊串流<sup>2</sup>
+- 支援Microsoft Teams 會議室專業版和 Microsoft Teams Room Basic 會議室授權<sup>2</sup>
 
 <sup>1</sup>透過 XML 關閉分割圖庫的系統管理員設定可在使用[XML 組態檔從遠端系統管理Microsoft Teams 會議室主機設定](../rooms/xml-config-file.md)中找到。
 
-<sup>2</sup> 這項功能即將在 Teams Web 用戶端推出，大約需要兩周的時間完成。 如需詳細資訊，請參閱 [Teams 更新](../teams-client-update.md)。
+<sup>2</sup> 這項功能即將推出至 Teams Web 用戶端，從此更新發行完成日期起大約需要兩周的時間。 如需詳細資訊，請參閱 [Teams 更新](../teams-client-update.md)。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (2022/8/2) 
 

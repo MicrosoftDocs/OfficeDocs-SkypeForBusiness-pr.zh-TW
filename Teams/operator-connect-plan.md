@@ -1,5 +1,5 @@
 ---
-title: 運算子連線
+title: 規劃運算子連線
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,18 +21,28 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745587281c5566b1ba4fe0d1ea06a44d40c8a7f2
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915181"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606442"
 ---
 # <a name="plan-for-operator-connect"></a>規劃運算子連線
 
 運算子連線是另一個提供公用交換電話網路 (PSTN) 與 Teams 和電話系統連線的選項。 如需有關 Teams 語音解決方案和 PSTN 連線選項的詳細資訊，請參閱 [規劃您的 Teams 語音解決方案](cloud-voice-landing-page.md) 和 [PSTN 連線選項](pstn-connectivity.md)。
 
-本文將說明權益與需求，並提供連結給參與 Microsoft 運算子連線計畫的電信業者。  如果您認為運算子連線是貴組織的正確解決方案，請參閱設定運算子 [聯](operator-connect-configure.md)機。  
+本文將說明權益與需求，並提供連結給參與 Microsoft 運算子連線計畫的電信業者。  
+
+如果下列情況，運算子連線可能是您組織的正確解決方案：
+
+- 您的地理位置無法使用 Microsoft 通話方案。
+
+- 您的慣用運算子是 Microsoft 運算子連線計畫的參與者。
+
+- 您想要尋找新的運算子，以便在 Teams 中啟用通話。
+
+如果您認為運算子連線是貴組織的正確解決方案，請參閱設定運算子 [聯](operator-connect-configure.md)機。  
 
 ## <a name="benefits"></a>優點
 
@@ -48,11 +58,7 @@ ms.locfileid: "66915181"
 
 ## <a name="requirements"></a>需求
 
- 如果下列情況，運算子連線可能是您組織的正確解決方案：
-
-- 您的地理位置無法使用 Microsoft 通話方案。
-- 您的慣用運算子是 Microsoft 運算子連線計畫的參與者。
-- 您想要尋找新的運算子，以便在 Teams 中啟用通話。
+ 
 
 若要使用運算子連線啟用電話號碼指派，請確定您的使用者為：
 

@@ -16,16 +16,18 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文探討如何使用 Azure 監視器，以整合的端對端方式部署Microsoft Teams 會議室監控。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dbea45008024762f30d9555f4762c4377d2ed1f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267448"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606412"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>使用部署 :::no-loc text="Microsoft Teams Rooms"::: 監控 :::no-loc text="Azure Monitor":::
 
 本文探討如何使用 :::no-loc text="Azure Monitor"::: 裝置的整合式端對端監視 :::no-loc text="Microsoft Teams Rooms"::: 來設定和部署。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 您可以在 :::no-loc text="Azure Monitor"::: 內部進行設定 :::no-loc text="Log Analytics"::: ，以提供可協助您管理 :::no-loc text="Microsoft Teams Rooms"::: 的基本遙測和警示。 隨著管理解決方案的成熟，您可能會決定部署其他資料和管理功能，以建立更詳細的裝置可用性和效能檢視。
 
@@ -180,7 +182,7 @@ ms.locfileid: "67267448"
 5.  定義 **第二個磚**：<br>
     **傳說：** 在最後一小時內傳送心跳的主動式裝置<br>
     **查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
-6.  選取 [ **套用]**。
+6.  選取 **套用**。
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>建立顯示使用中裝置的磚
 

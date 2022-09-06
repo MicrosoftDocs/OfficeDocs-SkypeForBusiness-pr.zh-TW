@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何為貴組織取得及管理使用者 () 與服務 (Microsoft Teams 的付費和免付費) 電話號碼。
-ms.openlocfilehash: 15caaa7b5d21ae86d0b0079aeb743690294fd85b
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074671"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606742"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>管理組織的電話號碼
 
@@ -54,7 +54,11 @@ Microsoft 正在努力簡化數位類型，但現在您必須決定：
 
 - 如需管理運算子連線電話號碼的相關資訊，請參閱 [使用運算子連線設定電話號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
+- 如需管理 電信業者連線行動 (公開預覽版) 電話號碼的相關資訊，請參閱[使用 電信業者連線行動 設定電話號碼](operator-connect-mobile-configure.md#set-up-phone-numbers)。
+
 - 如需管理直接路由之電話號碼的相關資訊，請參閱設定 [電話號碼並啟用企業語音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
+
+
 
 
 > [!NOTE]
@@ -102,7 +106,7 @@ Microsoft 提供的服務電話號碼有兩種類型：付費和免付費電話�
 
 當此參數透過目錄同步處理常式 (Azure AD Connect) 自動同步處理到 Microsoft 365 中的使用者或資源帳戶之後，您可以檢視 [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) Cmdlet 輸出中的 OnPremLineURi 參數來檢視電話號碼。
 
-| 哪裡 | 參數 | 值 |
+| 位置 | 參數 | 值 |
 | :------------| :-------| :---------|
 | 內部部署 AD | msRTCSIP-Line | tel：+14255551234 |
 | Microsoft 365 | OnPremLineURi | tel：+14255551234 |

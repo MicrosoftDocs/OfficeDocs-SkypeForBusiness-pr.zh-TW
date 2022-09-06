@@ -1,7 +1,7 @@
 ---
 title: 規劃您的 Teams 手機裝置和顯示器部署
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
 ms.topic: reference
@@ -12,16 +12,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: 本文提供及概觀您組織中部署 Teams 手機和顯示器的工作與步驟。
+description: 本文提供在貴組織中部署 Teams 手機和顯示器的工作與步驟概觀。
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: 5172d230823088141c58e3d2b58e1c3b579268b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272388"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606842"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>規劃您的 Teams 手機裝置和顯示器部署
 
@@ -68,17 +68,17 @@ Teams 手機和顯示器可符合下列兩個角色的其中之一：
 - 需要共用裝置的會議室或空間數目？ 每個空間是否都有相同類型的裝置？ 
 - 您的裝置需要符合特定需求嗎？
     - 範例包括螢幕大小、表單階和製造商或型號？ 如需已認證手機和顯示器的清單，請參閱 [Microsoft Teams 認證的裝置](teams-ip-phones.md)。
--  您需要 Teams 手機或 Teams 顯示器嗎？ 如需 Teams 手機支援的功能清單，請參閱 [Microsoft Teams 手機](phones-for-teams.md#features-supported-by-teams-phones) 和 Teams 顯示器支援的功能清單，請參閱 [Microsoft Teams 顯示器](teams-displays.md#features-supported-by-teams-displays)。
+-  您需要 Teams 手機或 Teams 顯示器嗎？ 如需 Teams 手機支援的功能清單，請參閱 [Microsoft Teams 手機](phones-for-teams.md#features-supported-by-teams-phones)版。 如需 Teams 顯示器支援的功能清單，請參閱 [Microsoft Teams 顯示器](teams-displays.md#features-supported-by-teams-displays)。
 - 您是否擁有足夠的裝置供新使用者使用，或是新訂單和遞送的處理常式？
-- 是否有可用的備用裝置供維護，或是發生硬體問題？ 能夠快速交換裝置可避免干擾使用者體驗。
+- 您是否有可供維護的備用裝置，或裝置遇到硬體問題？ 能夠快速交換裝置可避免干擾使用者體驗。
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>工作 2：您的授權需求為何？ 
 
 現在您知道需要多少部裝置，下一步是決定需要多少個授權。 Teams 手機和顯示器需要授權才能存取 Microsoft Teams 和 Microsoft 365。
 
-共用和個人裝置需要不同的授權。 對於個人裝置，可以使用指派給使用者帳戶的授權。 共用裝置需要其功能的特定授權。 對於手機和顯示器，適用的授權為[Microsoft Teams 的通用區域電話授權](../set-up-common-area-phones.md#step-1---buy-the-licenses)和[Microsoft Teams 會議室標準版授權](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices)。
+共用和個人裝置需要不同的授權。 對於個人裝置，可以使用指派給使用者帳戶的授權。 共用裝置需要其功能的特定授權。 對於手機和顯示器，適用的授權為[Microsoft Teams 的通用區域電話授權](../set-up-common-area-phones.md#step-1---buy-the-licenses)和[Microsoft Teams 會議室授權](../rooms/rooms-licensing.md)。
 
-如需詳細資訊並比較您的授權選項，請參閱 [Microsoft 365 授權方案](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)。 
+如需詳細資訊並比較您的授權選項，請參閱 [Microsoft 365 授權方案](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)。
 
 ## <a name="task-3-what-are-your-dependencies"></a>工作 3：您的相依性為何？ 
 

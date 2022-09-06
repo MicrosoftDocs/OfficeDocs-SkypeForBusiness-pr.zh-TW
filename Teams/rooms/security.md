@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: 瞭解如何保護您的Microsoft Teams 會議室裝置。
-ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 231039324e15afb7b24f194623e54455d51e85c2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270048"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606212"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 會議室安全性]
 
@@ -79,7 +79,7 @@ Teams 會議室裝置包含名為「管理員」的系統管理帳戶，並具�
 管理員帳戶不需要適當操作Teams 會議室裝置，也可以重新命名或甚至刪除。 不過，在刪除管理員帳戶之前，請務必先設定替代的本機系統管理員帳戶，再移除隨Teams 會議室裝置一起出貨的帳戶。 如需如何使用內建 Windows 工具或 PowerShell 變更本機 Windows 帳戶密碼的詳細資訊，請參閱下列內容：
 
 - [變更或重設 Windows 密碼](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 您也可以將網域帳戶匯入本機 Windows 系統管理員群組。 您可以使用 Intune，針對 Azure AD 帳戶執行此動作。 如需詳細資訊，請參閱 [原則雲端解決方案提供者 – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups)。
 
@@ -101,12 +101,12 @@ Windows 設定設計工具可用來建立Windows 10布建套件。 除了變更�
 
 一般而言，Teams 會議室的網路需求與任何 Microsoft Teams 用戶端相同。 透過防火牆和其他安全性裝置存取的Teams 會議室與任何其他 Microsoft Teams 用戶端相同。 針對Teams 會議室，Teams 列為「必要」的類別必須在您的防火牆上開啟。 如果您使用 Microsoft Intune 管理裝置) ，Teams 會議室也需要存取 Windows Update、Microsoft Store 和 Microsoft Intune (。 如需Microsoft Teams 會議室所需的 IP 和 URL 完整清單，請參閱：
 
-- **Microsoft Teams** [Office 365 URL 和 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
+- **Microsoft Teams** [Office 365 URL 和 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows Update**[設定 WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - [適用于 商務用 Microsoft Store 和教育](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)的 **Microsoft Store** 必要條件
 - **Microsoft Intune**[適用于 Microsoft Intune 的網路端點](/mem/intune/fundamentals/intune-endpoints)
 
-如果您使用的是 Microsoft Teams 會議室進階版 的Microsoft Teams 會議室管理服務元件，您也需要確認Teams 會議室可以存取下列 URL：
+如果您使用的是 Microsoft Teams 會議室 Pro 的Microsoft Teams 會議室受管理服務元件，您也需要確認Teams 會議室可以存取下列 URL：
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -120,11 +120,13 @@ Windows 設定設計工具可用來建立Windows 10布建套件。 除了變更�
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams 會議室設定為自動讓自己保持修補最新的 Windows 更新，包括安全性更新。 Teams 會議室使用預先設定的本地原則，每天從早上 2：00 開始安裝任何擱置中的更新。 您不需要使用其他工具來部署和套用 Windows 更新。 使用其他工具來部署和套用更新可能會延遲安裝 Windows 修補程式，因此導致部署較不安全。 Teams 會議室應用程式是使用 Microsoft Store 來部署。 如果您的裝置已獲得Microsoft Teams 會議室標準版授權，任何新版本的應用程式都會在夜間修補程式期間自動安裝。 如果您的裝置已獲得Microsoft Teams 會議室進階版授權，並且已註冊 Microsoft Managed Service，則系統會根據您定義的推行計畫安裝新版的 Teams 會議室 應用程式。
+Teams 會議室設定為自動讓自己保持修補最新的 Windows 更新，包括安全性更新。 Teams 會議室使用預先設定的本地原則，每天從早上 2：00 開始安裝任何擱置中的更新。 您不需要使用其他工具來部署和套用 Windows 更新。 使用其他工具來部署和套用更新可能會延遲安裝 Windows 修補程式，因此導致部署較不安全。 Teams 會議室應用程式是使用 Microsoft Store 來部署。
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Teams 會議室裝置可搭配大部分的 802.1X 或其他網路安全性通訊協定使用。 不過，我們無法針對所有可能的網路安全性設定測試Teams 會議室。 因此，如果出現可追蹤到網路效能問題的效能問題，如果您的組織已設定這些通訊協定，您可能需要停用這些通訊協定。
 
-為了獲得即時媒體的最佳效能，我們強烈建議您將 Teams 媒體流量設定為略過 Proxy 伺服器及其他網路安全性裝置。 即時媒體非常延遲，Proxy 伺服器和網路安全性裝置可能會大幅降低使用者的視訊和音訊品質。 此外，由於 Teams 媒體已加密，因此透過 Proxy 伺服器傳遞流量沒有任何明顯的優點。 如需詳細資訊，請參閱[將 (連線到雲端) — 一個架構的](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide)架構，其中討論網路建議，以改善 Microsoft Teams 和 Microsoft Teams 會議室 媒體效能。
+為了獲得即時媒體的最佳效能，我們強烈建議您將 Teams 媒體流量設定為略過 Proxy 伺服器及其他網路安全性裝置。 即時媒體非常延遲，Proxy 伺服器和網路安全性裝置可能會大幅降低使用者的視訊和音訊品質。 此外，由於 Teams 媒體已加密，因此透過 Proxy 伺服器傳遞流量沒有任何明顯的優點。 如需詳細資訊，請參閱[將 (連線到雲端) — 一個架構的](/microsoft-365/solutions/networking-design-principles)架構，其中討論網路建議，以改善 Microsoft Teams 和 Microsoft Teams 會議室 媒體效能。
 
 > [!IMPORTANT]
 > Teams 會議室不支援已驗證的 Proxy 伺服器。

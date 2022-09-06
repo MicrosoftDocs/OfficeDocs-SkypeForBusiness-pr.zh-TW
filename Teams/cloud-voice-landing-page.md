@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 深入瞭解 Microsoft Teams 雲端語音功能，以及您為組織做出的部署決策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240822"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606062"
 ---
 # <a name="plan-your-teams-voice-solution"></a>規劃您的 Teams 語音解決方案
 
@@ -49,6 +49,7 @@ ms.locfileid: "66240822"
 
 - 電話系統與通話方案
 - 與您自己的 PSTN 電信業者搭配運算子連線的電話系統
+- 手機系統與您自己的 PSTN 行動電信業者，電信業者連線行動 (公開預覽版) 
 - 電話系統與您自己的 PSTN 電信業者搭配直接路由
 - 搭配通話方案使用電話系統、電話系統搭配運算子連線，以及/或電話系統搭配直接路由的組合解決方案
 
@@ -150,9 +151,12 @@ ms.locfileid: "66240822"
 
 - [**電話系統與通話方案**](pstn-connectivity.md#phone-system-with-calling-plan)。 將 Microsoft 做為 PSTN 電信業者的所有雲端解決方案。
 
-- 使用運算子 [**連線與您自己的 PSTN 電信業者的電話系統**](operator-connect-plan.md)。 使用運算子連線時，如果您現有的運算子是參與 Microsoft 運算子連線計畫，他們可以管理將 PSTN 通話帶到 Teams 的服務。 如需運算子連線的優點和需求資訊，請參閱 [規劃運算子連線](operator-connect-plan.md)。
+- 使用運算子 [**連線與您自己的 PSTN 電信業者的電話系統**](operator-connect-plan.md)。 使用運算子連線時，如果您現有的電信業者參與 Microsoft 運算子連線計畫，他們可以管理將 PSTN 通話帶到 Teams 的服務。 
+
+- [**電話系統與您自己的 PSTN 行動電信業者使用電信業者連線行動**](operator-connect-mobile-plan.md)**公開檢閱版本**。 透過電信業者連線行動，如果您的現有電信業者參與 Microsoft 電信業者連線行動 計畫，他們就可以在 Teams 中管理使用啟用 SIM 卡的行動電話號碼的服務。 
 
 - 使用直接路由將內部部署環境連線至 Teams，與 [**您自己的 PSTN 電信業者使用電話**](pstn-connectivity.md#phone-system-with-direct-routing)系統。
+
 
 您可以選擇選項群組合，讓您設計複雜環境的解決方案，或管理多步驟移轉。 您稍後會閱讀更多有關移轉的資訊。
 

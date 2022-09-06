@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解Microsoft Teams 會議室受管理的服務。
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269578"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606282"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 會議室受管理的服務
 
@@ -110,11 +110,11 @@ Microsoft Teams 會議室管理的服務是透過專用Microsoft Teams 會議室
 
 ## <a name="supported-regions"></a>支援的地區
 
-Microsoft Teams 會議室進階版授權可在下列國家/地區使用音訊會議：
+Microsoft Teams 會議室專業版授權可在下列國家/地區使用音訊會議：
 
 - 澳大利亞、奧地利、比利時、巴西、保加利亞、加拿大、克羅埃西亞、賽普勒斯、捷克共和國、丹麥、愛沙尼亞、芬蘭、法國、德國、希臘、香港特別行政區、匈牙利、愛爾蘭、義大利、日本、拉脫維亞、立陶宛、盧森堡、馬爾他、墨西哥、摩納哥、荷蘭、紐西蘭、挪威、波蘭、葡萄牙、羅馬尼亞、俄羅斯、新加坡、斯洛伐克、斯洛維尼亞、南非、西班牙、瑞典、瑞士、臺灣、英國、美國。
 
-在下列國家/地區中，Microsoft Teams 會議室進階版授權不含音訊會議：
+在下列國家/地區，Microsoft Teams 會議室專業版授權不提供音訊會議：
 
 - Andorra，布威島，聖誕島，科克斯 (基靈) 群島， 庫奇群島、法羅群島、斐濟、吉布拉托、格陵蘭、聽島和麥庫奇群島、冰島、印度、吉裡巴斯提、賴索托、列支敦斯登、澳門特別行政區、外延群島、密克羅尼西亞、紐魯、紐威島、諾裡安島、北馬來納群島、帕勞、巴布亞新邊界、皮索林群島、聖皮埃隆、薩摩亞、聖馬利諾、索羅群島、斯瓦濟蘭、托基羅 東加、吐瓦魯、萬那杜、教他市、瓦利斯及富圖那。
 

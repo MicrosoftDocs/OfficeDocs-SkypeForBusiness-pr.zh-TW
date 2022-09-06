@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供 Microsoft Teams 面板支援的概觀和功能。
-ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d31ac86be9ac00b7aa8a77e37a906b32a00a2095
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268558"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606732"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
@@ -54,7 +54,7 @@ Teams 面板支援下列功能：
 
 ## <a name="license-requirement"></a>授權需求
 
-若要使用 Teams 面板，您需要[Microsoft Teams 會議室標準版授權。](../rooms/rooms-licensing.md)
+若要使用 Teams 面板，您需要[Microsoft Teams 會議室授權](../rooms/rooms-licensing.md)。
 
 > [!Note]
 > 如果您已經在安裝 Teams 面板的會議空間中部署Microsoft Teams 會議室，則不需要額外的授權即可使用 Teams 面板。
@@ -103,11 +103,12 @@ Teams 面板裝置的部署可以細分為下列工作：
 
 每個 Teams 面板裝置都需要 Microsoft 365 會議室資源帳戶。 您可以使用資源帳戶認證在面板裝置上登入 Microsoft Teams 應用程式。
 
-若要為 Teams 面板設定 Microsoft 365 資源帳戶，建議您購買[Microsoft Teams 會議室標準版授權](#license-requirement)。 如需如何建立資源帳戶並為其指派授權的相關資訊，請參閱 [建立會議室和共用 Teams 裝置的資源帳戶](../rooms/with-office-365.md)。
+若要為 Teams 面板設定 Microsoft 365 資源帳戶，您必須購買[Microsoft Teams 會議室授權](#license-requirement)。
+如需如何建立資源帳戶並為其指派授權的相關資訊，請參閱 [建立會議室和共用 Teams 裝置的資源帳戶](../rooms/with-office-365.md)。
 
 > [!NOTE]
 >
->- 如果您已針對安裝面板的會議空間設定會議室資源帳戶，請使用相同的會議室資源帳戶登入面板裝置。 不過，請確定會議室資源帳戶已獲指派Microsoft Teams 會議室標準版授權，以將其做為面板資源帳戶使用。
+>- 如果您已針對安裝面板的會議空間設定會議室資源帳戶，請使用相同的會議室資源帳戶登入面板裝置。 不過，請確定會議室資源帳戶已指派Microsoft Teams 會議室授權，以便將其做為面板資源帳戶使用。
 >
 >- 如果您已經在安裝 Teams 面板的會議空間中部署Microsoft Teams 會議室，則不需要購買另一個部署面板的授權。 系統管理員以與同一個空間的Microsoft Teams 會議室相同的認證登入面板裝置。
 >

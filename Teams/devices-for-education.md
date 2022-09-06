@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269348"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606852"
 ---
 # <a name="teams-devices-for-education"></a>Teams 教育版裝置
 
@@ -62,19 +62,19 @@ Teams 會議室提供獨一無二的會議室功能，例如單點觸控加入�
 
 **專為 Teams 打造**：
 
-進階音訊和視訊及共用
+進階音訊和視訊及共用。
 
 **適用于任何房間的寬度裝置組合**：
 
-在 Android 或 Windows 作業系統上從完全模組化或整合的表單因素中選取
+從 Android 或 Windows 作業系統的完整模組化或整合式表單因素中選取。
 
 **重新構想的會議室體驗**：
 
-使用無摩擦力加入 Teams 會議，參與學生和授課者的包容性共同作業會議
+使用無摩擦力加入 Teams 會議，參與學生和授課者的包容性共同作業會議。
 
 **從單一位置輕鬆管理**：
 
-在 Teams 管理員 中心完整管理和讓裝置保持在最新狀態並準備就緒，並啟用 Microsoft 提供的 24x7 主動管理與Microsoft Teams 會議室進階版
+在 Teams 管理員 中心完整管理和讓裝置保持在最新狀態並準備就緒，並透過 Microsoft Teams 會議室 Pro 從 Microsoft 啟用 24x7 主動管理。
 
 ## <a name="space-considerations"></a>空間考慮
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: d7397ade44b1e7ee68c176c51bb1af9880ca0373
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915191"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606532"
 ---
 # <a name="configure-operator-connect"></a>設定運算子連線
 
@@ -58,6 +58,20 @@ ms.locfileid: "66915191"
 
 - 如果您想要將現有數位從直接路由移至運算子連線，請參閱 [將數位從直接路由移至運算子連線](#move-numbers-from-direct-routing-to-operator-connect)。
 
+### <a name="assign-numberes-to-emergency-addresses"></a>指派號碼給緊急位址
+
+緊急位址是與數位相關聯的靜態位置。 一旦您在 Teams 系統管理中心建立緊急位址，您指派位址或稍後變更位址的方式將取決於您的電信業者。
+
+若要將數位指派給緊急位址，您的電信業者會實作下列三種案例的其中之一：
+
+- 運算子會將緊急位址指派給電話號碼，並允許您稍後在 Teams 系統管理中心變更。
+
+- 電信業者不會指派位址，也可讓您將緊急位址指派給 Teams 系統管理中心的電話號碼。
+
+- 運算子會將緊急位址指派給電話號碼，而且不允許您變更。 在此案例中，您需要連絡您的電信業者，對電話號碼及其指派的緊急位址進行變更。
+
+如需緊急電話的詳細資訊，請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 和 [規劃及設定動態緊急電話](configure-dynamic-emergency-calling.md)。
+
 ### <a name="acquire-numbers-for-new-teams-users"></a>取得新 Teams 使用者的數位
 
 若要取得新 Teams 使用者的數位，請遵循下列步驟：
@@ -72,20 +86,6 @@ ms.locfileid: "66915191"
 
 > [!NOTE]
 > 除了 [取得使用者的電話號碼](getting-phone-numbers-for-your-users.md)，您還可以取得電話會議) 橋接器的音訊會議 (、自動語音應答和通話佇列等服務的付費或免付費電話號碼， (也稱為服務號碼) 。 與使用者或訂閱者電話號碼相比，服務電話號碼的並行通話容量較高。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。 若要取得服務號碼，請連絡您的電信業者。
-
-### <a name="emergency-addresses"></a>緊急位址
-
-緊急位址是與數位相關聯的靜態位置。 一旦您在 Teams 系統管理中心建立緊急位址，您指派位址或稍後變更位址的方式將取決於您的電信業者。
-
-若要將數位指派給緊急位址，您的電信業者會實作下列三種案例的其中之一：
-
-- 運算子會將緊急位址指派給電話號碼，並允許您稍後在 Teams 系統管理中心變更。
-
-- 電信業者不會指派位址，也可讓您將緊急位址指派給 Teams 系統管理中心的電話號碼。
-
-- 運算子會將緊急位址指派給電話號碼，而且不允許您變更。 在此案例中，您需要連絡您的電信業者，對電話號碼及其指派的緊急位址進行變更。
-
-如需緊急電話的詳細資訊，請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 和 [規劃及設定動態緊急電話](configure-dynamic-emergency-calling.md)。
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>將通話方案中的號碼移至運算子連線
 

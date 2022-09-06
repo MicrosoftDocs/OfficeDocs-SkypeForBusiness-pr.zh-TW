@@ -16,16 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 本文探討如何使用 Azure 監視器，以整合的方式監視Microsoft Teams 會議室裝置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0878e7553e2d151f781c3f522a9b533b4b56d8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 53cc9c571657591c43aa35944802fd02dcf6bd4c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268968"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606402"
 ---
 # <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>使用 Azure 監視器監視Microsoft Teams 會議室裝置
 
 本文探討如何使用 Azure 監視器，以整合的方式監視Microsoft Teams 會議室。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 您可以設定 Azure 監視器以提供基本遙測，協助您監控 Microsoft Teams 會議室裝置。 如需詳細資料，請參閱[使用 Azure 監視器規劃](azure-monitor-plan.md)[Microsoft Teams 會議室管理以及使用 Azure 監視器部署Microsoft Teams 會議室管理](azure-monitor-deploy.md)。 隨著監控解決方案的成熟，您可以使用其他資料和監控功能來建立更詳細的裝置效能檢視。
 

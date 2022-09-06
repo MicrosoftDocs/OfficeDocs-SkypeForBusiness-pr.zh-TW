@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解如何使用 Microsoft Teams 系統管理中心查看貴組織中所有電話號碼的清單，以及指派給使用者或未指派的所有號碼。
-ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494460"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606072"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>查看電話號碼清單 
 
 您可以將不同類型的電話號碼指派給使用者或語音應用程式，例如 [音訊會議](deploy-audio-conferencing-teams-landing-page.md) 或 [通話佇列](plan-auto-attendant-call-queue.md)。 如需詳細資訊，請參閱 [管理組織的電話號碼](/microsoftteams/manage-phone-numbers-landing-page)。
 
-本文適用于通話方案和運算子連線。 如需直接路由的相關資訊，請參閱 [設定電話號碼並啟用企業語音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
+本文適用于通話方案、電信業者連線電信業者連線行動 (公開預覽版) 。 如需直接路由的相關資訊，請參閱 [設定電話號碼並啟用企業語音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>若要查看貴組織中的所有電話號碼
 

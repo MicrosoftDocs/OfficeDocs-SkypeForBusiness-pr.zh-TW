@@ -13,16 +13,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: 瞭解Microsoft Teams 會議室支援與建議的條件式存取和Intune裝置合規性原則。
-ms.openlocfilehash: b6f54e2bee4e77f794f03255ef51623bbe220342
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 1c9b3d2a40ce34076f917026300b8b7d0921d9c8
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271908"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606425"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>支援 Microsoft Teams 會議室 和 Teams Android 裝置的條件式存取和Intune裝置合規性原則
 
 本文針對Microsoft Teams 會議室提供支援的條件式存取和Intune裝置合規性原則。 如需最佳做法和範例原則，請參閱[條件式存取和Intune Microsoft Teams 會議室合規性最佳做法](conditional-access-and-compliance-for-devices.md)。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 > [!NOTE]
 > Teams 會議室必須已經部署在您要指派條件式存取原則的裝置上。 如果您尚未部署Teams 會議室，請參閱[建立會議室和共用 Teams 裝置的資源帳戶](with-office-365.md)和[在 Android 上部署Microsoft Teams 會議室](../devices/collab-bar-deploy.md)以取得詳細資訊。
@@ -34,7 +36,7 @@ ms.locfileid: "67271908"
 | 指派                               | 在 Windows 上Teams 會議室                                                                                                                                                                              | 在 Android 和麵板上Teams 會議室                                                                                                                                                                              | Teams 手機和顯示器                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 使用者或工作負載身分識別              | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            | 支援                                                                                                                                                            |
-| 雲端應用程式或動作                    | 支援 <br><br> Teams 會議室僅限 Teams 模式時，必須存取下列三個雲端應用程式：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支援 <br><br> Teams 會議室僅限 Teams 模式時，必須存取下列三個雲端應用程式：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支援<br><br>Teams Android 裝置需要存取下列三個雲端應用程式：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams |
+| 雲端應用程式或動作                    | 支援 <br><br> Teams 會議室僅限 Teams 模式時，必須存取下列三個雲端應用程式：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支援 <br><br> Teams 會議室僅限 Teams 模式時，必須存取下列三個雲端應用程式：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支援<br><br>Teams Android 裝置需要存取下列三個雲端應用程式：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams  |
 | **條件**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | 使用者風險                                | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            | 支援                                                                                                                                                            |
 | 登入風險                             | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            | 支援                                                                                                                                                            |
