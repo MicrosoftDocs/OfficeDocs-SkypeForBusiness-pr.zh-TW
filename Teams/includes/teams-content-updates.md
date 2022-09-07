@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-august-29-2022"></a>2022 年 8 月 29 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 8/29/2022 | [輸出呼叫上的主幹容錯移轉](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 改 性 |
+| 8/29/2022 | [規劃從 Kaizala 成功移轉到 Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala) | 改 性 |
+| 8/29/2022 | [墨西哥的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-mexico) | 添加 |
+| 8/30/2022 | [Teams 裝置存放區](/MicrosoftTeams/devices/device-store) | 改 性 |
+| 8/30/2022 | [Microsoft Teams 電話資源帳戶授權](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 改 性 |
+| 8/30/2022 | [管理誰可以召開立即會議及排程會議](/MicrosoftTeams/manage-who-can-schedule-meetings) | 添加 |
+| 8/30/2022 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 改 性 |
+| 8/30/2022 | Microsoft Teams 中的會議原則和會議到期日 | 刪除 |
+| 8/30/2022 | [記錄管理和轉譯的會議原則](/MicrosoftTeams/meetings-policies-recording-and-transcription) | 改 性 |
+| 8/30/2022 | [使用 商務用 OneDrive 和 SharePoint 進行會議錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 改 性 |
+| 8/31/2022 | [管理員訓練資源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 改 性 |
+| 8/31/2022 | [Microsoft Teams 中職業教練整合的資源](/MicrosoftTeams/career-coach-resources) | 改 性 |
+| 8/31/2022 | [在 Teams 中自訂您的應用程式市集](/MicrosoftTeams/customize-your-app-store) | 改 性 |
+| 9/1/2022 | [在 Microsoft Teams 中使用管理員應用程式管理貴組織的 Microsoft 365](/MicrosoftTeams/manage-admin-app) | 添加 |
+| 9/2/2022 | [Microsoft Teams 會議室 (Windows) 的版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 改 性 |
+| 9/2/2022 | [遠端系統管理Microsoft Teams 會議室裝置設定](/MicrosoftTeams/rooms/xml-config-file) | 改 性 |
+
+
 ## <a name="week-of-august-22-2022"></a>2022 年 8 月 22 日周
 
 
@@ -201,26 +224,3 @@
 | 8/4/2022 | [行動裝置 App 擴充功能](/MicrosoftTeams/rooms/extended-mobile-app) | 改 性 |
 | 8/5/2022 | [在 Microsoft Teams 中管理標籤](/MicrosoftTeams/manage-tags) | 改 性 |
 | 8/5/2022 | [規劃 SIP 閘道](/MicrosoftTeams/sip-gateway-plan) | 改 性 |
-
-
-## <a name="week-of-july-25-2022"></a>2022 年 7 月 25 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 7/25/2022 | [電話號碼和授權變更](/MicrosoftTeams/phone-numbers-licensing-changes) | 添加 |
-| 7/25/2022 | [Microsoft Teams 中的會議原則和會議到期日](/MicrosoftTeams/meeting-expiration) | 改 性 |
-| 7/25/2022 | [將 Teams 會議室裝置註冊到受管理的服務](/MicrosoftTeams/rooms/enroll-a-device) | 改 性 |
-| 7/25/2022 | [Teams 的瀏覽器記錄和追蹤](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | 添加 |
-| 7/25/2022 | [在 Teams 中設定記錄檔以進行監視和疑難排解](/MicrosoftTeams/log-files) | 改 性 |
-| 7/26/2022 | [Microsoft Teams 中職業教練整合的資源](/MicrosoftTeams/career-coach-resources) | 添加 |
-| 7/26/2022 | [設定和設定 Microsoft Teams 的職涯教練](/MicrosoftTeams/career-coach-set-up-steps) | 添加 |
-| 7/26/2022 | [Microsoft Teams 的職涯教練疑難排解](/MicrosoftTeams/career-coach-troubleshoot) | 添加 |
-| 7/26/2022 | [Microsoft Teams 中的共用頻道錯誤](/MicrosoftTeams/shared-channels-errors) | 添加 |
-| 7/26/2022 | [開始使用 Microsoft Teams 的職業教練](/MicrosoftTeams/career-coach) | 改 性 |
-| 7/26/2022 | [開始使用 Microsoft Teams 的職業教練](/MicrosoftTeams/cloud-recording) | 改 性 |
-| 7/26/2022 | [使用來賓存取和外部存取與組織外的人員共同作業](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 改 性 |
-| 7/26/2022 | [客戶的合作夥伴管理](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 改 性 |
-| 7/26/2022 | [合作夥伴的多租使用者客戶管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 改 性 |
-| 7/26/2022 | [指派 Teams 附加元件授權給使用者](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 改 性 |
-| 7/29/2022 | [管理貴組織的電話號碼](/MicrosoftTeams/manage-phone-numbers-landing-page) | 改 性 |
