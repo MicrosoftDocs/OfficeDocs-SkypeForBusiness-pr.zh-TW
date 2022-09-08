@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: 瞭解如何為貴組織中的自動語音應答和通話佇列指派Microsoft Teams 電話資源帳戶授權給資源帳戶。
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465981"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630423"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 電話資源帳戶授權
 
@@ -43,7 +43,7 @@ ms.locfileid: "67465981"
 
 ### <a name="license-allocation-example"></a>授權配置範例
 
-Contoso， Inc. 已購買 600 個授權，其中包含電話系統 (每個員工) 一個授權。 Contoso 的初始 25 加上 60 個 **Teams 電話資源帳戶** 授權，總計 85 個。 其組織有 90 個有電話號碼的通話佇列和自動語音應答。 他們需要指派所有 **Teams 電話資源帳戶** 授權，並購買五個額外的 **Teams 電話資源帳戶** 授權。 
+Contoso， Inc. 已購買 600 個授權，其中包含電話系統 (每個員工) 一個授權。 Contoso 的初始 25 加上 60 個 **Teams 電話資源帳戶** 授權，總計 85 個。 其組織有 90 個通話佇列和自動語音應答。 他們需要指派所有 **Teams 電話資源帳戶** 授權，並購買五個額外的 **Teams 電話資源帳戶** 授權。 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>如何取得Microsoft Teams 電話資源帳戶授權
 
