@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 5294b011ee8fbe852e2a82e2d700fbd212c0f4e8
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590190"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624303"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -74,6 +74,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號 | 韌體版本 | 目前的認證結束日期 | 會議室大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| 使用 RoomMate (VR0030) 點選 IP (VR0029)  | `1.6.565`  |   2024 年 9 月 3 日  | 大型會議室 (4.5 m x 8.5 m)  | 10 |
 | Yealink MeetingBoard 65 吋 | `155.15.0.6 `   | 2024 年 9 月 3 日 | 中型房間 (4.5 m x 6 m)  | 10|
 | Yealink 會議列 A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小型會議室 (4.5 m x 4.5 m) | 10|
 | Yealink 會議列 A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中型房間 (4.5 m x 6 m)  | 10|
