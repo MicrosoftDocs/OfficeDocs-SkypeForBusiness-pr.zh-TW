@@ -19,12 +19,12 @@ description: 瞭解如何管理 Teams 應用程式。 瞭解如何允許或封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486878"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637046"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理 Teams 應用程式
 
@@ -85,38 +85,6 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 
 使用者只有在允許應用程式透過全租用戶設定並透過權限原則允許使用者時，才能安裝和使用應用程式。
 
-## <a name="manage-user-requests-to-allow-apps"></a>管理使用者要求以允許應用程式
-
-終端使用者可以檢視但不能使用 Teams Store 中已封鎖的應用程式。 對於已封鎖的應用程式，可以選擇要求系統管理員核准。 這些要求在 Teams 系統管理中心進行自動分頁，系統管理員可以在需要時檢視和管理這些要求。 我們強烈建議定期對終端使用者要求進行分級檢查。
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="透過在 Teams Store 中選取 [要求核准] 選項，要求系統管理員核准已封鎖的應用程式。":::
-
-### <a name="view-a-request"></a>檢視要求
-
- 1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**。
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="已封鎖應用程式的使用者要求會顯示在 Teams 系統管理中心的標題為 [使用者要求] 的欄位中。" lightbox="media/requested-apps.png":::
-
- 1. 若要檢視及檢查每個應用程式的要求數目，請在 **[依使用者要求]** 欄位中排序要求。 您無法檢視要求應用程式的使用者名稱。
- 1. 若要允許應用程式，請選取應用程式的名稱，並開啟應用程式詳細資訊頁面。
- 1. 選取 **[管理要求]**，並完成快顯對話方塊中顯示的步驟。 根據用於封鎖應用程式的方法，需要以下一個或多個步驟來解除封鎖：
-
-    * 如果使用權限原則封鎖應用程式，請修改 [[權限原則]](teams-app-permission-policies.md) 以允許應用程式。
-    * 如果已封鎖所有使用者的應用程式，[請允許該應用程式](#allow-and-block-apps)。
-    * 如果所有使用者都已封鎖所有應用程式，請修改[全組織設定](#manage-org-wide-app-settings)。
-
- 如果系統管理員允許應用程式，那麼 Teams 不會通知終端使用者其要求已經處理。 使用者可以在 Teams Store 中檢視應用程式，以檢查是否可以將應用程式新增至其 Teams 用戶端。 如果應用程式取得系統管理員的核准，使用者可以新增它。 或者，如果和系統管理員不核准要求並將其解除，則終端使用者可以再次要求。
-
-### <a name="dismiss-a-user-request"></a>解除使用者要求
-
- 1. 選取您要關閉使用者要求的應用程式名稱。
- 1. 選取 **[管理要求]**，然後選取 **[解除對話方塊上的所有要求]**。
- 1. 當要求被解除時，會將使用者要求重設為零。
-
-  :::image type="content" source="media/reject.png" alt-text="系統管理員可以透過允許應用程式核准使用者要求，也可以解除要求且不執行任何動作。":::
-
-如果系統管理員解除要求，則不會通知使用者已處理他們的要求。 系統管理員解除要求後，終端使用者可以再次要求應用程式。
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>允許被開發人員封鎖的應用程式
 
 當開發人員將應用程式發佈至 Teams Store 時，一些應用程式可能需要系統管理員來設定應用程式。 設定完應用程式後，系統管理員向終端使用者提供應用程式。
@@ -159,3 +127,4 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 ## <a name="related-article"></a>相關文章
 
 * [從商務用 Skype 系統管理中心轉換期間管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
+* [管理允許應用程式的使用者要求](user-requests-approve-apps.md)。

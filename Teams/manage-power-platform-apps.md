@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心使用 Microsoft Power Platform 來管理自訂應用程式組建的存取權。
-ms.openlocfilehash: b257c4cb32e236d427d58063d340c2bb1c743292
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4d566a766f3afd12cfe30099de6040ee75721455
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486728"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637036"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心管理 Microsoft Power Platform 應用程式
 
@@ -52,7 +52,7 @@ ms.locfileid: "67486728"
 
 身為系統管理員，您可以控制 Microsoft Power Platform 應用程式是否列在 Teams [應用程式] 頁面的 **[使用 Power Platform 建置]** 中。 您可以一起封鎖或允許所有在 Power Apps 建立的應用程式，或者所有在 [[管理應用程式]](manage-apps.md) 頁面的組織層級或針對使用[應用程式權限原則](teams-app-permission-policies.md)的特定使用者，在 Power Virtual Agents 建立的應用程式。
 
-貴組織的 App Store 中的 **Shared Power Apps** 和 **Shared Power Virtual Agent Apps** 應用程式代表在該特定平台上所建立的所有應用程式。 如果您針對整個組織或特定使用者封鎖其中一個或兩個應用程式，則使用者可以以封鎖的應用程式來查看這類應用程式，但無法在 Teams 中安裝它們。 使用者可以 [要求系統管理員核准以允許應用程式](manage-apps.md#manage-user-requests-to-allow-apps)。
+貴組織的 App Store 中的 **Shared Power Apps** 和 **Shared Power Virtual Agent Apps** 應用程式代表在該特定平台上所建立的所有應用程式。 如果您針對整個組織或特定使用者封鎖其中一個或兩個應用程式，則使用者可以以封鎖的應用程式來查看這類應用程式，但無法在 Teams 中安裝它們。 使用者可以 [要求系統管理員核准以允許應用程式](user-requests-approve-apps.md)。
 
 請記住，您可以控制在 Power Apps 和 Power Virtual Agents 中建立之所有應用程式的存取權，但無法允許或封鎖個別應用程式。 應用程式建立者決定誰可以從 Power Apps 和 Power Virtual Agents 中透過共用功能存取他們建立的應用程式。 如果製造商與使用者共用他們在 Power Virtual Agents 中建立的應用程式，而且您已封鎖該使用者的 **共用 Power Virtual Agents Apps**，使用者將無法在 Teams 中查看或安裝該平台的任何應用程式。
 
