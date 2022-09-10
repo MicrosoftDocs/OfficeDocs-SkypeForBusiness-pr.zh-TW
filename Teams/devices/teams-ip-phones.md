@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637076"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642094"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -89,9 +89,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 | Logitech 方塊      | `1.2.788`     |   2024 年 9 月 3 日  |    中型房間 (4.5 m x 6 m)        | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
-| Yealink 會議列 A30       | `133.15.0.52`    | 2023 年 8 月 5 日   | 中型房間 (4.5 m x 6 m)  | 9 |
 | Yealink CTP18 觸控主控台  | `137.15.0.28`    | 2023 年 8 月 5 日   | 與 Yealink 會議列 A20 和 Yealink MeetingBar A30 相容 | 9 |
-| Yealink 會議列 A20  | `133.15.0.19`      | 2023 年 8 月 5 日 | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 2022 年 12 月 5 日  | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 2022 年 12 月 5 日   | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | 與 Poly Studio X30 和 Poly Studio X50 相容  |  9  |

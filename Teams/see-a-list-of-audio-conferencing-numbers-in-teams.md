@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何查詢 Microsoft Teams 內音訊會議可用的電話撥入式會議號碼。
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460626"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641884"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>查看 Microsoft Teams 中的音訊會議號碼清單
 
 當您為 Microsoft Teams 使用者設定音訊會議時，您可以檢視他們可用來進行音訊會議的電話號碼。 此清單會包含貴組織可使用的所有音訊會議電話號碼。
-   
+
 **在尋找價格嗎？** 檢閱 [音訊會議](https://www.microsoft.com/microsoft-teams/audio-conferencing)中的 **音訊會議費率** 一節。
   
 如果貴組織中只有一個電話號碼可用，它會做為您所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在 Microsoft Teams 會議邀請中。
@@ -61,6 +61,3 @@ Windows PowerShell是管理使用者，以及允許或不允許使用者執行�
 
 如需Windows PowerShell的詳細資訊，請參[閱 Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)資訊以取得詳細資訊。
   
-## <a name="related-topics"></a>相關主題
-
-[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

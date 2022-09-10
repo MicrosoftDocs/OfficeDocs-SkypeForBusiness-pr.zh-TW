@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 請依照下列步驟建立預設電話號碼，讓來電者加入 Microsoft Teams 會議。
-ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 27ff7040b27d2265bcdc5ab30f48cb919746471b
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884842"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642064"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中設定邀請中包含的電話號碼
 
@@ -100,6 +100,6 @@ Windows PowerShell是管理使用者，以及允許或不允許使用者執行�
 
 ## <a name="related-topics"></a>相關主題
 
-[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft Teams 版 Microsoft 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [變更音訊會議橋接器的電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

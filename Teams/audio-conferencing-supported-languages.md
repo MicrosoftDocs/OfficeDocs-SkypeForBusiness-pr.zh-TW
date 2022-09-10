@@ -14,7 +14,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '尋找每個國家或地區的電話撥入式會議語言，以及指派 (en-US、da-DK、de-DE 等文化識別碼) '
-ms.openlocfilehash: 63cc7b7f20fd121801a00e43b95e1c7e33762d93
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 1f437aa1b2ec9d308989a725ef478921c28424bd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823448"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642084"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 
-當您在Microsoft 365或Office 365中設定音訊會議時，您可以選取當來電者撥入商務用 Skype或Microsoft Teams會議時，最多可使用 4 種) 主要和 (次要語言。 以下是音訊會議支援語言的清單：
+當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您可以選取當來電者撥入 Microsoft Teams 會議時，最多可使用 4 種) 語言的主要和次要 (。 以下是音訊會議支援的語言清單：
   
 > [!IMPORTANT]
 > 主要和次要語言只能在專用音訊會議電話號碼上變更。
@@ -85,31 +84,28 @@ ms.locfileid: "65823448"
 |土耳其文  <br/> |土耳其  <br/> |tr-TR  <br/> |
 |烏克蘭文  <br/> |烏克蘭  <br/> |uk-UA  <br/> |
 
-如果您正在尋找可以購買音訊會議的國家或地區，請參閱[音訊會議和通話方案的國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+如果您正在尋找可以購買音訊會議的國家或地區，請參閱 [音訊會議和通話方案的國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-如果您要尋找有音訊會議電話號碼的特定國家或地區，請參閱[Microsoft Teams中音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)或[商務用 Skype Online 中音訊會議的電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)。
+如果您要尋找有音訊會議電話號碼的特定國家或地區，請參閱 [Microsoft Teams 中音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用Windows PowerShell管理嗎？
 
 - 若要節省時間或將這項作業自動化，您可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) 或 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) Cmdlet。
 
-- Windows PowerShell是管理使用者，以及允許或不允許使用者執行的動作。 透過Windows PowerShell，您可以使用單點系統管理來管理Microsoft 365或Office 365，以簡化當您有多個工作要執行的日常工作。 若要開始使用Windows PowerShell，請參閱下列主題：
+- Windows PowerShell是管理使用者，以及允許或不允許使用者執行的動作。 透過Windows PowerShell，您可以使用單點系統管理來管理 Microsoft 365 或 Office 365，以簡化當您有多個工作要執行的日常工作。 若要開始使用Windows PowerShell，請參閱下列主題：
 
   - [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [使用 Windows PowerShell 管理Microsoft 365或Office 365的最佳方式](/previous-versions//dn568025(v=technet.10))
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](/previous-versions//dn568025(v=technet.10))
 
 - Windows PowerShell在速度、簡易性和生產力方面有許多優點，而非只使用Microsoft 365 系統管理中心，例如當您一次為許多使用者進行設定變更時。 在下列主題中瞭解這些優點：
 
-  - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Microsoft Teams PowerShell 概觀](teams-powershell-overview.md)
 
-  - [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [安裝 Microsoft Teams PowerShell 模組](teams-powershell-install.md)
 
-  - [使用 Windows PowerShell 執行一般商務用 Skype線上管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-    > [!NOTE]
-    > 商務用 Skype Online 的Windows PowerShell模組可讓您建立連線到 商務用 Skype Online 的遠端Windows PowerShell會話。 只有 64 位電腦才支援此模組，可從 Microsoft 下載中心下載[，網Windows PowerShell Module for 商務用 Skype Online。](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)
+  - [使用 Microsoft Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
   
 ## <a name="related-topics"></a>相關主題
 
-[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft Teams 版 Microsoft 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)

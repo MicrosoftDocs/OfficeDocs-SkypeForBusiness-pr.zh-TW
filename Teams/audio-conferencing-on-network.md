@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下列說明音訊會議的網路功能。
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267588"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641874"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>音訊會議的網路會議
 
@@ -54,7 +54,7 @@ ms.locfileid: "67267588"
 
 您必須設定網站的電話語音設備，透過直接路由主幹將通話路由到貴組織會議橋接器的任何服務號碼。
 
-您可以在 Teams 系統管理中心會議 **->會議橋接器** 底下找到服務號碼，或使用 商務用 Skype Online PowerShell Cmdlet Get-CsOnlineDialInConferencingBridge。 如需詳細資訊，請參閱 [Microsoft Teams 中的音訊會議號碼](see-a-list-of-audio-conferencing-numbers-in-teams.md)清單。
+您可以在 Teams 系統管理中心會議 **->會議橋** 底下找到服務號碼，或使用 Teams PowerShell Cmdlet Get-CsOnlineDialInConferencingBridge。 如需詳細資訊，請參閱 [Microsoft Teams 中的音訊會議號碼](see-a-list-of-audio-conferencing-numbers-in-teams.md)清單。
 
 > [!NOTE]
 > 擁有每分鐘付費音訊會議授權的使用者無法使用此功能。

@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268808"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641744"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -35,7 +35,7 @@ ms.locfileid: "67268808"
 
 本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設音訊會議設定，並逐步引導您完成每個變更。 我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
 
-您只需要為打算排程或主持會議的人員設定音訊會議即可。 撥入的會議出席者不需獲得任何指派的授權或進行任何其他設定。 撥入 (撥號) 會議對於不在現場且無法在其筆記本電腦或行動裝置上使用商務用 Skype 或 Teams 應用程式的使用者而言，是很實用的功能。 
+您只需要為打算排程或主持會議的人員設定音訊會議即可。 撥入的會議出席者不需獲得任何指派的授權或進行任何其他設定。  (撥入會議) 電話對出門在外且無法使用膝上型電腦或行動裝置上的 Teams 應用程式出席會議的使用者非常有用。
 
 ## <a name="audio-conferencing-prerequisites"></a>音訊會議的必要條件
 
@@ -44,7 +44,7 @@ ms.locfileid: "67268808"
 |問問自己|動作 |
 |------------|-------|
 |我所在的國家/地區是否可使用音訊會議？|若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
-|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Microsoft 365 或 Office 365 E5 訂閱取得，或是從 Microsoft 365 商務標準版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Microsoft 365 或 Office 365 中的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除 Microsoft 365 Apps 商務版的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看包含在各方案中的雲端功能，請參閱[根據您方案的授權選項](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)文章。</li></ul>|
+|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Microsoft 365 或 Office 365 E5 訂閱取得，或是從 Microsoft 365 商務標準版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得及指派授權，請參閱[指派或移除Microsoft 365 Apps 商務版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)授權。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看包含在各方案中的雲端功能，請參閱[根據您方案的授權選項](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)文章。</li></ul>|
 |對於獲得音訊會議授權的使用者，我是否需要為他們購買通訊點數？|若要深入了解，請參閱[什麼是通訊點數](what-are-communications-credits.md)，然後查看下方的[通訊點數](#communications-credits) 一節。|
 |||
 
@@ -82,7 +82,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 |問問自己|動作 |
 |------------|-------|
-| 自動語音應答問候語應選擇哪些語言？ | 若要選擇語言，請參閱[設定音訊會議的自動語音應答語言](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)。|
+| 自動語音應答問候語應選擇哪些語言？ | 若要選擇語言，請參閱 [在 Microsoft Teams 中設定音訊會議的自動語音應答語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>會議橋接器設定

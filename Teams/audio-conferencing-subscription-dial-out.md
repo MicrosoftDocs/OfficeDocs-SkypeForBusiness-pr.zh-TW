@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: '[撥出] 和 [撥號給我] 分鐘優惠。 自 2019 年 12 月 1 起，每個音訊會議訂閱每個使用者每個月提供 60 分鐘給區域 A 國家/地區。'
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187009"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642144"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>音訊會議訂閱「撥出」/「撥打電話給我」分鐘優惠
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams和商務用 Skype PSTN 音訊會議
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Microsoft Teams 和 PSTN 音訊會議
 
 每個音訊會議標準訂閱每個使用者每個月提供 60 分鐘，可用來撥出到任何區域 A 國家/地區的非進階號碼，如本檔所述。 此權益適用于 *音訊會議每月訂閱* 授權，且不會延伸至音訊會議每分鐘付費授權。
 
@@ -74,16 +73,15 @@ ms.locfileid: "65187009"
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>如何監控集區使用量的分鐘數？
 
-- 您可以在Microsoft Teams系統管理中心監控撥出分鐘數集區中的使用方式。 在左側導覽中，移至 **[分析] &報告**  >  **使用報** 表，然後選取 **[PSTN 分鐘集區]**。 區域 撥出分鐘數集區會在報告中標示為「撥出至 A 區域國家/地區」。
-- 當貴組織的撥出分鐘數集區使用量已達 80% 和 100% 時，電子郵件通知會傳送給下列系統管理員：
+- 您可以在 Microsoft Teams 系統管理中心監控撥出分鐘數集區中的使用方式。 在左側導覽中，移至 **[分析&報告**  >  **使用方式報告**，然後選取 **[PSTN 分鐘集區]**。 區域 撥出分鐘數集區會在報告中標示為「撥出至 A 區域國家/地區」。
+- Email 當貴組織的撥出分鐘數集區使用量已達 80% 和 100% 時，系統會傳送通知給下列系統管理員：
 
   - 計費系統管理員
-  - 商務用 Skype系統管理員]
   - 全域系統管理員
   - 使用者系統管理員
   - 技術服務管理員
   - 服務支援系統管理員
-  - Azure AD已加入裝置本機系統管理員
+  - Azure AD 加入裝置本機系統管理員
   - 應用程式系統管理員
   - 授權系統管理員
   - 雲端裝置系統管理員
@@ -91,7 +89,7 @@ ms.locfileid: "65187009"
   - 許可權驗證系統管理員
   - Teams 通訊系統管理員
   - Teams 通訊支援工程師
-  - Teams Communications 支援專員
+  - Teams 通訊支援專家
   - Teams 系統管理員
 
 如需通訊點數的其他資訊，請參閱 [通訊點數](what-are-communications-credits.md)。

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '瞭解如何為企業中需要使用電話加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884832"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642124"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>設定 Microsoft Teams 的音訊會議
 
@@ -105,8 +105,6 @@ ms.locfileid: "66884832"
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>步驟 7：為主持會議的使用者指派撥入電話號碼
 
 請參閱 [在 Microsoft Teams 中設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
-
-如需詳細資訊，請參閱[將 Microsoft 指派為音訊會議提供者](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 > [!NOTE]
 > 您也可以將電話號碼新增至 *TeamsAudioconferencingpolicy* ，並將原則指派給使用者，藉此設定電話號碼。 新增到原則的付費和免付費電話號碼會優先于透過音訊會議設定窗格個別為使用者設定的電話號碼。 如果未將電話號碼新增至 *Teamsaudioconferencingpolicy*，則透過音訊會議設定窗格個別為使用者設定的電話號碼將會顯示在 Microsoft Teams 會議邀請中。 [付費和免付費電話號碼的音訊會議原則設定](audio-conferencing-toll-free-numbers-policy.md) 有更多資訊。

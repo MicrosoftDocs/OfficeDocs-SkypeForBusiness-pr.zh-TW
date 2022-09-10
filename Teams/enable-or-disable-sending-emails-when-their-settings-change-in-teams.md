@@ -1,5 +1,5 @@
 ---
-title: 音訊會議設定變更時的電子郵件選項
+title: Email音訊會議設定變更時的選項
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -20,60 +20,60 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '瞭解如何啟用或停用Skype釘號變更或預設會議號碼變更等設定時，將電子郵件傳送給使用者Microsoft Teams。 '
-ms.openlocfilehash: 568a42badd375314ee5b29529a53b52b1f6267eb
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: '瞭解當 Teams 中的釘選變更或預設會議號碼變更等設定時，如何啟用或停用 Microsoft Teams 傳送電子郵件給使用者。 '
+ms.openlocfilehash: a5119d6f612ed083ac4e72ab52f6bb189af4c9d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055293"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642104"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用在音訊會議設定變更時傳送Microsoft Teams
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>當 Microsoft Teams 中的音訊會議設定變更時，啟用或停用傳送電子郵件
 
-使用者啟用音訊會議時，會自動收到電子郵件通知。 不過，有時候您可能會想要減少寄給使用者的電子郵件Microsoft Teams數量。 在這種情況下，您可以停用傳送電子郵件。
+啟用音訊會議時，使用者會透過電子郵件自動收到通知。 不過，有時候您可能會想要減少傳送給 Microsoft Teams 使用者的電子郵件數量。 在這種情況下，您可以停用傳送電子郵件。
   
-如果您停用傳送電子郵件，音訊會議電子郵件將不會傳送給使用者，包括使用者啟用或停用音訊會議時、其 PIN 重設時間，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
+如果您停用傳送電子郵件的功能，音訊會議電子郵件將不會傳送給您的使用者，包括當使用者已啟用或停用音訊會議、重設 PIN 時，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
   
-以下是啟用音訊會議時，會寄給使用者的電子郵件範例：
+以下是啟用音訊會議時傳送給使用者的電子郵件範例：
   
-![音訊會議電子郵件訊息範例。](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![音訊會議電子郵件訊息的範例。](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a>何時會將電子郵件寄給您的使用者？
+## <a name="when-are-emails-being-sent-to-your-users"></a>何時會傳送電子郵件給您的使用者？
 
-- 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
+- 組織中的使用者啟用音訊會議後，會傳送數封電子郵件給使用者：
 
-  - 當 **音訊會議授權** 指派給他們時。
+  - 指派 **音訊會議** 授權給他們時。
 
   - 當您手動重設使用者的音訊會議 PIN 時。
 
   - 當您手動重設使用者的會議 ID 時。
 
-  - 從 **音訊會議授權** 中移除時。
+  - 移除 **音訊會議** 授權時。
 
-  - 當使用者的音訊會議提供者從 Microsoft 變更為另一個提供者或無 **時**。
+  - 當使用者的音訊會議提供者從 Microsoft 變更為另一個提供者，或 **[無]**。
 
   - 當使用者的音訊會議提供者變更為 Microsoft 時。
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>啟用或停用電子郵件，禁止將電子郵件寄給使用者
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>啟用或停用傳送給使用者的電子郵件
 
-您可以使用電子郵件Microsoft Teams或Windows PowerShell來啟用或停用已寄給使用者的電子郵件。
+您可以使用 Microsoft Teams 或 Windows PowerShell 啟用或停用傳送給使用者的電子郵件。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。
+1. 在左側導覽中，移至 **[會議**  >  **橋樑]**。
 
-2. 在 [會議橋接器 **」** 頁面頂端，按一下 [ **橋接器設定>**。
+2. 在 [ **會議橋** ] 頁面頂端，按一下 [ **橋接器設定]**。
 
-3. 在橋接器 **設定窗格中** ，啟用或停用當使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
+3. 在 [ **橋接器設定** ] 窗格中，啟用或停用 **在使用者的電話撥入設定變更時自動傳送電子郵件給使用者**。
 
 4. 按一下 [儲存]。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-### <a name="using-windows-powershell"></a>使用Windows PowerShell
+### <a name="using-windows-powershell"></a>使用 Windows PowerShell
 
-您也可以使用 PowerShell 模組Microsoft Teams並執行：
+您也可以使用 Microsoft Teams PowerShell 模組並執行：
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
@@ -81,20 +81,20 @@ Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $tr
 
 您可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) 來管理貴組織的其他設定，包括電子郵件。
 
-請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
+如需詳細資訊，請參閱 [Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps) 。
 
-## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解Windows PowerShell嗎？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell是管理使用者，以及允許或不允許使用者執行的動作。 透過Windows PowerShell，您可以使用單點系統管理來管理 Microsoft 365 或 Office 365，以簡化多項日常工作。 若要開始使用Windows PowerShell，請參閱下列主題：
 
-- [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [使用 Windows PowerShell 管理Office 365的最佳方式](/previous-versions//dn568025(v=technet.10))
 
-如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
+如需Windows PowerShell的詳細資訊，請參[閱 Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)資訊以取得詳細資訊。
 
 ## <a name="related-topics"></a>相關主題
 
-[當使用者的音訊會議設定變更時，寄來的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[當使用者的音訊會議設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 [傳送內含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

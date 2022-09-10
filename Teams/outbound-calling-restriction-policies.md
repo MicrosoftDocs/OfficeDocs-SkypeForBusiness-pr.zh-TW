@@ -1,18 +1,17 @@
 ---
-title: 撥出通話限制 - 音訊會議 & PSTN 通話
+title: 撥出通話限制 - 音訊會議& PSTN 通話
 ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員可以控制使用者可以撥打的音訊會議和使用者 PSTN 通話類型。
-ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 67c138db8522ec6eee1f384e182f5c8d01ea40fd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674805"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641764"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
@@ -39,10 +38,10 @@ ms.locfileid: "65674805"
 |音訊會議 PSTN 通話|限制輸出類型 </br>允許從內部撥打的通話 </br>由使用者召集的會議。|任何目的地 (預設) </br>在與召集人相同的國家或地區 </br> 區域：僅[限國家或地區](audio-conferencing-zones.md) </br>不允許|
 |使用者 PSTN 通話|限制通話類型 </br>可由使用者建立。|國際及國內 (預設) </br>國內</br>無|
 
-若要瞭解哪些國家與地區被視為 A 區，請參閱[音訊會議的國家/地區和區域區域](audio-conferencing-zones.md)。
+若要瞭解哪些國家與地區被視為 A 區，請參閱 [音訊會議的國家和地區區域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果撥號的號碼所在的國家/地區已針對會議召集人設定Microsoft 365或Office 365，則電話會視為國內電話 (，以供音訊會議) ，或是使用者 (在使用者 PSTN 通話) 的情況下撥打電話。
+   > 如果撥打的號碼與會議召集人設定 Microsoft 365 或Office 365的所在國家/地區 (音訊會議) ，或使用者在使用者 PSTN 通話) 的情況下 (，則通話會視為國內電話。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +52,7 @@ ms.locfileid: "65674805"
 
 1. 在左側導覽中，選取 [ **使用者**]，然後從可用使用者清單中選取使用者的顯示名稱。
 
-2. 接著移至 **[音訊會議**]，選取 [**編輯]**。
+2. 接著移至 **[音訊會議]**，選取 [ **編輯]**。
 
 3. 在 [ **從會議撥出**] 底下，選取您想要的撥出限制選項。
 

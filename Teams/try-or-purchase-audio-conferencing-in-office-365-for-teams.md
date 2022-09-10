@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 瞭解如何嘗試或購買音訊會議 (PSTN 會議) Microsoft 365 的授權，或Office 365設定使用者可以撥入的電話會議。
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271438"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641914"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 Microsoft Teams 版 Microsoft 365 中試用或購買音訊會議
 
@@ -76,15 +76,15 @@ ms.locfileid: "67271438"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟 2：為主持或排程會議的人員設定音訊會議提供者
 
-當您將 **音訊會議** 授權指派給組織中沒有商務用 Skype與協力廠商音訊會議提供者整合的人員時，他們全都已設定完成並準備就緒！  (您不需要設定音訊會議提供者。) 
+當您將 **音訊會議** 授權指派給組織中沒有與協力廠商音訊會議提供者整合 Teams 的人員時，他們全都已設定完成並準備就緒！  (您不需要設定音訊會議提供者。) 
 
-如果您已啟用具有協力廠商音訊會議提供者的使用者，您必須將這些使用者的提供者變更為 Microsoft。 若要變更使用者的提供者，請參閱 [指派 Microsoft 作為音訊會議提供者](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+如果您已啟用具有協力廠商音訊會議提供者的使用者，您必須將這些使用者的提供者變更為 Microsoft。 若要變更使用者的提供者，請參閱 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 ## <a name="step-3-other-admin-tasks"></a>步驟 3：其他系統管理工作
 
 下列步驟為 **選用**，但許多系統管理員會喜歡執行下列步驟：
 
-1. [自訂會議邀請](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。 為使用者設定的撥入號碼會自動新增至傳送給出席者的會議邀請。 不過，您可以新增自己的說明與法律連結、文字簡訊，以及小型公司圖形。
+1. [自訂會議邀請](meeting-settings-in-teams.md#customize-meeting-invitations)。 為使用者設定的撥入號碼會自動新增至傳送給出席者的會議邀請。 不過，您可以新增自己的說明與法律連結、文字簡訊，以及小型公司圖形。
 
 2. [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。 這是會顯示在使用者所排程之會議中的電話號碼。
 
