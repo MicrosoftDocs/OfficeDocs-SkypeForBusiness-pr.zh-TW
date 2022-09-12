@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 912a9f7f9330bcc8da167c7435048d1ec8c28284
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 2f6dd23c5f15d2c96a1a5bb7cec6f4b9107f436c
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269878"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647447"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -34,7 +34,7 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 例如，在下列情況中，私人頻道相當實用：
 
 - 小組中的一群人希望能有個專屬空間能共同作業，而不需建立個別小組。
-- 小組中的一小群人希望使用私人頻道來討論機密資訊，例如預算、資源、戰略定位等。
+- 團隊中的一部分人員想要使用私人頻道來討論機密資訊，例如預算、重新採購、策略定位等等。
 
 鎖定圖示表示私人頻道。只有私人頻道的成員才能查看以及參與他們所加入的私人頻道。
 
@@ -130,6 +130,8 @@ Teams 會管理私人頻道網站的生命週期。如果在 Teams 以外刪除�
 來自私人頻道的通知不會包含在錯過的活動電子郵件中。
 
 無法排程頻道會議。
+
+頻道會議無法使用會議標題自訂。
 
 ## <a name="related-topics"></a>相關主題
 
