@@ -1,7 +1,7 @@
 ---
 title: 規劃直接路由的依位置路由
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562622"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647437"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
@@ -340,7 +340,7 @@ Location-Based路由的運作方式是根據使用者 Teams 端點的 IP 位址�
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>透過語音應用程式 (自動語音應答或通話佇列撥入通話) 
 
-可從Location-Based啟用路由的閘道連線到自動語音應答或通話佇列的輸入 PSTN 通話。 
+可從Location-Based啟用路由的閘道撥打輸入 PSTN 電話，以連線到自動語音應答或通話佇列。 
 
 啟用Location-Based路由的使用者位於輸入 PSTN 通話的來源網站時，支援接收這些應用程式的撥入來電轉接。
  
@@ -387,9 +387,9 @@ Location-Based路由] 不適用於下列類型的互動。 Location-Based在下�
 
 ### <a name="location-based-routing-for-conferencing"></a>會議Location-Based路由
 
-在 PSTN 通話中Location-Based路由啟用的使用者無法使用其他使用者或 PSTN 號碼召開會議。 可以連線到自動語音應答或通話佇列。
+在 PSTN 通話中沒有音訊會議授權的Location-Based路由啟用使用者無法開始與其他使用者或 PSTN 號碼的會議。 可以連線到自動語音應答或通話佇列。
 
-如果使用者有音訊會議授權，使用者必須與相關使用者召開會議，然後透過會議橋接器撥打 PSTN，才能召開電話會議。
+如果使用者有音訊會議授權，使用者必須與相關使用者召開會議，然後透過會議橋接器撥打 PSTN，才能召開電話會議。 如果使用者已經在進行 PSTN 通話，他們可以透過使用會議橋接器撥出來將通話升級，將另一個使用者或 PSTN 號碼新增至通話中。
 
 在沒有音訊會議授權的使用者啟動的電話會議中，如果電話會議中有或至少有一個Location-Based已啟用路由的使用者，則不允許新增 PSTN 參與者。 如果在邀請任何Location-Based路由啟用的參與者加入通話之前，至少有一位 PSTN 參與者是或已加入這類電話會議，則這類Location-Based路由功能的參與者無法新增到通話中。
 
@@ -397,6 +397,7 @@ Location-Based路由] 不適用於下列類型的互動。 Location-Based在下�
 
 音訊會議的網路會議不得與印度的任何電話語音設備一起部署。
 
+在 PSTN 通話中Location-Based路由啟用的使用者無法將該通話與其他通話合併。
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based路由的媒體略過需求
 

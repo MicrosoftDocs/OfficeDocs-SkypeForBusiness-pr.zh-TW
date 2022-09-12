@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630453"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647547"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -118,7 +118,7 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>共用頻道檔案存取權的考量
 
-共用頻道 中的檔案、資料夾和 OneNote 筆記本，可以使用[共用 SharePoint 檔案共用](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)與頻道外的人員共用。
+共用頻道中的檔案、資料夾和 OneNote 筆記本可以與頻道 (外部的人員共用，但無法使用 [標準 SharePoint 檔案共用) 組織外部的人員共用](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)。
 
 如果透過 SharePoint 將共用頻道中檔案、資料夾或筆記本的存取權授與使用者，則從小組或共用頻道中移除該使用者並不會移除該使用者對檔案、資料夾或筆記本的存取權。
 

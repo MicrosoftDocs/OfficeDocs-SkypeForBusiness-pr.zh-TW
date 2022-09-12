@@ -15,21 +15,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中管理貴組織中的標籤使用方式。
-ms.openlocfilehash: 4f394d66521464e99c9492532cb1571931a8de27
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418502"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647427"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams 中管理標籤
 
-Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一部分人員聯繫。 您可以建立及指派自訂標籤，根據屬性將人員分類，例如角色、專案、技能或位置。 或者，標籤可以根據人員的排程和班次資訊，自動指派給 [ [班次] 應用程式](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)中的人員。 將標籤新增至一或多個小組成員之後，頻道貼文中的團隊中任何人都可以在@mentions中使用標籤，僅通知被指派該交談標籤的人員。
+Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一部分人員聯繫。 您可以建立及指派自訂標籤，根據屬性將人員分類，例如角色、專案、技能或位置。 或者，標籤可以根據人員的排程和班次資訊，自動指派給 [ [班次] 應用程式](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)中的人員。 將標籤新增至一或多個小組成員之後，頻道貼文中的團隊中任何人都可以在@mentions中使用標籤，僅通知被指派該交談標籤的人員。
 
 如前所述，Teams 中有兩種標籤。
 
 - **自訂標籤**：團隊擁有者和團隊成員 (，如果他們擁有許可權，) 可以手動建立並指派標籤給人員。 例如，「設計工具」或「Radio 因特式」標籤會觸及團隊中的這些人員，而不需要輸入他們的名稱。
-- **按班標記**：透過這項功能，使用者會在 Teams 的 [Shifts 應用程式](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) 中自動指派符合其排程和班組名稱的標籤。 例如，「EngineerOnCall」標籤會在聊天或頻道貼文中使用標籤時，觸及排定在 Shifts 中工作的所有工程師。 透過按班標記，當使用者需要快速轉送資訊時，Teams 會利用對輪班員工名稱的猜測。
+- **按班標記**：透過這項功能，使用者會在 Teams 的 [Shifts 應用程式](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_usetags) 中自動指派符合其排程和班組名稱的標籤。 例如，「EngineerOnCall」標籤會在聊天或頻道貼文中使用標籤時，觸及排定在 Shifts 中工作的所有工程師。 透過按班標記，當使用者需要快速轉送資訊時，Teams 會利用對輪班員工名稱的猜測。
 
 > [!NOTE]
 > 私人或共用頻道不支援標籤。
