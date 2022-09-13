@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78d5905eaed7d9302ffdbf071c3dcf93f00fea
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 9affb1fc93bf79cd7f583f0e74b02bd06f604f0d
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616259"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657253"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 
@@ -40,7 +40,7 @@ ms.locfileid: "66616259"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用Microsoft 365 系統管理中心
 
-Teams 使用者層級授權會直接透過使用者管理介面Microsoft 365 系統管理中心管理。 系統管理員可以在新使用者帳戶建立時指派授權給新使用者，或指派給擁有現有帳戶的使用者。 
+Teams 使用者層級授權會直接透過使用者管理介面Microsoft 365 系統管理中心管理。 系統管理員可以在新使用者帳戶建立時指派授權給新使用者，或指派給擁有現有帳戶的使用者。
 
 > [!IMPORTANT]
 > 管理員必須具備全域系統管理員或使用者管理系統管理員許可權，才能管理 Microsoft Teams 授權。

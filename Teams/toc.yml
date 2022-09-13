@@ -923,7 +923,7 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: 設定本機媒體最佳化
                     href: direct-routing-media-optimization-configure.md
-              - name: 監視和疑難排解直接路由
+              - name: 監視直接路由
                 items:
                   - name: 概觀
                     href: direct-routing-monitor-and-troubleshoot.md
@@ -1589,7 +1589,7 @@ items:
             href: manage-third-party-teams-apps.md
           - name: 使用應用程式作為外部或來賓使用者
             href: non-standard-users.md
-          - name: 管理允許應用程式的使用者要求
+          - name: 管理使用者要求
             href: user-requests-approve-apps.md
           - name: 應用程式更新和系統管理員角色
             href: apps-update-experience.md

@@ -1,5 +1,5 @@
 ---
-title: 使用者要求系統管理員允許應用程式
+title: 使用者要求系統管理員
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -18,53 +18,34 @@ description: 瞭解如何管理和設定使用者要求，以允許組織中封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 122d41de6f1cb5ea67a5ce85ba9f8f7d02e26339
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: 62d34aae25ef1ebff585ea430aeb3db20856669a
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647537"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657323"
 ---
 # <a name="manage-user-requests"></a>管理使用者要求
 
-您在組織中封鎖的應用程式可能會影響使用者生產力和共同作業。 可在 Teams 市集中取得但組織中封鎖的應用程式無法被使用者使用。 不過，若要掌握資訊，使用者可以檢視封鎖的應用程式、檢視應用程式的資訊，以及它伺服器的使用案例。 在您評估要求之後，使用者會要求系統管理員核准，讓他們在 Teams 中使用這些應用程式。
+貴組織中封鎖的應用程式可能會影響使用者生產力和共同作業。 使用者無法使用封鎖的應用程式，但可以在 Teams 市集中檢視這類應用程式及其資訊，並要求系統管理員核准。 評估要求之後，您可以選擇允許應用程式或關閉要求。
 
-這項功能可提供有關貴組織內應用程式需求的訊號。 您可以輕鬆檢視應用程式的要求匯總數量。 它可協助您做出明智的決策，決定要評估哪些應用程式允許您組織中的應用程式。
+這項功能可提供有關貴組織內應用程式需求的訊號。 您可以輕鬆檢視每個要求應用程式的要求匯總數量。 它可協助您針對要評估允許的應用程式做出明智的決策。
 
 您保留使用者允許或封鎖之應用程式的完整控制權。 如果您選擇允許應用程式，用來管理應用程式的控制項和 UI 會保持不變。
 
-* 預設選項會在 Teams 系統管理中心傳送使用者要求，您可以在此 [檢視使用者要求並允許要求的應用程式](#view-user-requests)。
+* 預設選項會將使用者要求傳送到 Teams 系統管理中心，您可以在此 [檢視使用者要求並允許要求的應用程式](#view-user-requests-in-teams-admin-center)。
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="顯示要求系統管理員核准封鎖應用程式選項的螢幕擷取畫面。":::
 
-* 自訂可讓您設定最適合貴組織的 [使用者體驗](#modify-the-default-setting-to-receive-end-user-requests) 。 您可以提供自訂指示，讓使用者在 Teams App Store 中封鎖的應用程式上顯示自訂指示，並將使用者導向內部網站以收集他們的要求。
+* 自訂可讓您設定最適合貴組織的 [使用者體驗](#modify-the-default-setting-to-receive-end-user-requests) 。 您可以提供說明或 Teams App 市集中顯示的自訂訊息，要求核准選項會將使用者導向組織特定的 URL 以收集其要求。
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="螢幕擷取畫面顯示當系統管理員將允許應用程式要求 URL 重新導向至內部網站時，市集中應用程式的使用者體驗。":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="螢幕擷取畫面顯示當系統管理員將允許應用程式要求 URL 重新導向至組織特定 URL 時，市集中應用程式的使用者體驗。":::
 
-## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>修改預設設定以接收使用者要求
-
-若要設定自訂訊息，並將使用者重新導向至組織專屬的 URL 以要求應用程式核准，請依照下列步驟進行：
-
-1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)** 頁面。
-
-1. 選取 [全組織應用程式設定]。
-
-1. 若要在 Teams 用戶端存放區中顯示自訂訊息或指示，請在使用者要求設定中提供簡訊。
-
-1. 若要提供組織專屬的 URL 來收集使用者要求，請執行下列動作：
-
-   1. 將 [將要求重新導向至外部工具] 選項變更為 [開啟]。
-   1. 提供您的組織專屬自訂 URL。
-
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="螢幕擷取畫面，以切換使用者要求的 URL 自訂，以解除封鎖整個組織設定 UI 中的應用程式。":::
-
-1. 選取 [儲存 **]**。
-
-## <a name="view-user-requests"></a>檢視使用者要求
+## <a name="view-user-requests-in-teams-admin-center"></a>在 Teams 系統管理中心檢視使用者要求
 
 以預設方法收到的使用者要求會顯示在 Teams 系統管理中心。 您可以輕鬆檢視和管理要求。 我們建議定期分級以檢查使用者要求。 若要檢視和允許應用程式，請遵循下列步驟：
 
-1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)** 頁面。
+1. 登入 Teams 系統管理中心，然後移至 **Teams 應用程式**  >  [**管理應用程式**](https://admin.teams.microsoft.com/policies/manage-apps)。
 
 1. 選擇顯示 [ **使用者要求]** 欄。 您也可以排序欄。
 
@@ -82,22 +63,42 @@ ms.locfileid: "67647537"
    * 如果已封鎖所有使用者的應用程式，[請允許該應用程式](manage-apps.md#allow-and-block-apps)。
    * 如果所有使用者都已封鎖所有應用程式，請 [修改整個組織的設定](manage-apps.md#manage-org-wide-app-settings)。
 
-1. 或者，若要切換到您組織特定 URL 的自訂設定，請在 [管理使用者要求] 對話方塊中選取 [設定使用者要求] 連結。 它會開啟全組織應用程式設定窗格，您可以在其中 [設定使用者要求體驗](#modify-the-default-setting-to-receive-end-user-requests)。
+使用者可以在 Teams 市集中檢視應用程式的 **[新增** ] 選項，以檢查是否允許該應用程式。 當您在 Teams 系統管理中心收到要求後允許應用程式，則 Teams 不會通知使用者已處理他們的要求。 當您允許應用程式時，要求計數器不會重設為零。
 
-如果您在 Teams 系統管理中心收到要求後允許應用程式，則 Teams 不會通知使用者已處理他們的要求。 使用者可以在 Teams 市集中檢查應用程式，以檢查是否允許該應用程式。 允許後，使用者就可以使用 [新增應用程式] 選項。 如果您在透過組織特定的方法收到要求後允許應用程式，則會套用您為使用者提供狀態更新的內部機制。
+## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>修改預設設定以接收使用者要求
 
-若要將應用程式要求數重設為零，請關閉要求。 只允許應用程式不會將其要求重設為零。
+Teams 會提供預設訊息，讓使用者要求應用程式核准。 您可以修改預設設定，以新增含有指示、組織特定 URL 或兩者兼具的自訂郵件。 這些修改會顯示在 Teams 市集中的每個應用程式。
+
+若要設定自訂訊息，並將使用者重新導向至組織專屬的 URL，請遵循下列步驟：
+
+1. 登入 Teams 系統管理中心，然後移至 **Teams 應用程式**  >  [**管理應用程式**](https://admin.teams.microsoft.com/policies/manage-apps)。
+
+1. 在右上角，選取 **[全組織應用程式設定]**。
+
+1. 若要在 Teams 市集中顯示自訂訊息或指示，請在 [ **使用者要求** 設定] 下的文字欄位中輸入文字簡訊。
+
+1. 若要提供組織專屬的 URL 來收集使用者要求，請遵循下列步驟：
+
+   1. 開啟 [ **重新導向外部連結要求]** 切換開關。
+   1. 提供您的組織專屬 URL。
+
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="螢幕擷取畫面，以切換使用者要求的 URL 自訂，以解除封鎖整個組織設定 UI 中的應用程式。":::
+
+1. 選取 [儲存 **]**。
+
+評估並允許要求之應用程式的方法保持不變。
 
 ## <a name="dismiss-user-requests"></a>關閉使用者要求
 
 若要關閉允許應用程式的要求，請遵循下列步驟：
 
 1. 選取您要關閉使用者要求的應用程式名稱。
-1. 選取 **[管理要求]**，然後選取 **[解除對話方塊上的所有要求]**。
+1. 選 **取 [管理要求]**。
+1. 在 [管理使用者要求] 對話方塊中，選 **取 [關閉所有要求]**。
 
    :::image type="content" source="media/dismiss-user-requests-apps.png" alt-text="系統管理員可以透過允許應用程式核准使用者要求，也可以解除要求且不執行任何動作。":::
 
-如果您關閉要求，並不會通知使用者已處理他們的要求。 當您關閉允許應用程式的要求時，系統管理中心內的要求會重設為零。 此外，在您關閉要求數小時之後，使用者可以再次要求允許相同的應用程式。
+如果您關閉要求，並不會通知使用者已處理他們的要求。 當您關閉允許應用程式的要求時，系統管理中心內的要求會重設為零。 此外，在幾小時關閉要求之後，使用者可以再次要求允許相同的應用程式。
 
 ## <a name="related-article"></a>相關文章
 
