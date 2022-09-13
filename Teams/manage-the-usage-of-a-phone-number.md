@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何變更電話號碼的使用方式，以做為服務號碼或使用者號碼。
-ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
+ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460693"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67650885"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>管理電話號碼的使用方式
 
@@ -53,7 +53,7 @@ ms.locfileid: "67460693"
 
 ## <a name="still-need-assistance"></a>仍需要協助嗎？
 
-如果您需要協助，請連絡 [TNS 服務台](/contact-tns-service-desk.md)。
+如果您需要協助，請連絡 [TNS 服務台](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk)。
 
 ## <a name="related-topics"></a>相關主題
 
