@@ -21,12 +21,12 @@ description: 概略瞭解什麼是移轉訂單，以及如何將電話號碼從�
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270868"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674374"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
@@ -140,7 +140,7 @@ ms.locfileid: "67270868"
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>使用者 (使用者) 電話號碼是否可以轉換為服務號碼？
 <a name="bkmk_type_1"> </a>
 
-是的，他們可以。 您只需要提交服務要求，其中包含貴組織的租使用者 GUID 以及您想要轉換的電話號碼。 若要這麼做，請參閱 [管理組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+是的，他們可以。 若要這麼做，請參閱 [管理電話號碼的使用方式](../manage-the-usage-of-a-phone-number.md)。
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我可以將我的號碼從 Teams 移轉到其他電話服務提供者或電信業者嗎？
 

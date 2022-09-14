@@ -23,34 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得組織的電話號碼或埠 (移轉) 號碼時，您可能需要在 TNS 服務台取得協助及支援。
-ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687869"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674404"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>電話號碼服務 (TNS) - 服務台
 
-有一個新的程式可與電話號碼服務 (TNS) 服務台互動。 現在，您可以使用 Teams 系統管理中心整合的單一位置開啟票券、查看票券並追蹤通訊。 本文說明了與服務台聯繫的一切須知事項。
-
 > [!NOTE]
-> 自 2021 年 7 月 22 日起，目前的電子郵件系統已遭淘汰。
+> 自 2021 年 7 月 22 日起，先前要連絡 TNS 服務台的電子郵件系統已停用。
 
-若要聯絡服務台：
+有一個新的程式可以從我們新的電話號碼 **[服務中心](https://pstnsd.powerappsportals.com)** 與電話號碼服務 (TNS) 服務台互動。 現在，您可以使用 Teams 系統管理中心整合的單一位置開啟票券、查看票券並追蹤通訊。 下列各節會詳細說明這些工作。
 
-1. 登入 [Teams 系統管理中心](https://admin.teams.microsoft.com)。
-
-2. 在左側窗格中，選取 [ **語音**]，然後選取 [ **電話號碼]**。
-
-3. 按一下頁面右上角的 [ **動作**]，然後選 **取 [取得電話號碼支援]**。 您將會被移轉到 [電話號碼服務中心](https://pstnsd.powerappsportals.com/)
-
-> [!NOTE]
-> 只有來自相同租使用者的人員才能建立案例。 例如，來自 @fabrikam.com 的人無法代表 @contoso.com 建立案例。
-
-您可以從 [電話號碼服務中心] 建立新案例、查看現有案例、與服務台通訊，以及管理您的使用者設定檔。下列各節會詳細說明這些工作。
-
-- **電話號碼服務中心** - 流覽至入口網站首頁。
 
 - **[建立新案例](#create-a-new-case)** ： 提交新要求或一般查詢。
 
@@ -60,15 +46,16 @@ ms.locfileid: "66687869"
 
 - **[提供意見](#view-and-manage-existing-cases)** 反應：與我們分享您的意見反應。
 
-- **[您的名稱]** - 更新您的設定檔頁面面。
-
 ## <a name="create-a-new-case"></a>建立新案例
+
+> [!NOTE]
+> 只有來自相同租使用者的人員才能建立案例。 例如，來自 @fabrikam.com 的人無法代表 @contoso.com 建立案例。
 
 若要建立新案例，請遵循下列步驟：
 
 1. 從下列其中一個地方，選取 **[建立新案例]**：
 
-   - 從 **[電話號碼服務中心]** 頁面、頁面頂端或底部磚。
+   - 從 **[電話號碼服務中心** ] 首頁，在頁面頂端或底部磚。
 
    - 從 **[檢視我現有的案例]** 頁面。
 
@@ -168,7 +155,7 @@ ms.locfileid: "66687869"
 
   - **電話號碼清單** - 您想要變更緊急位址的電話號碼清單 (在描述欄位中輸入您想要的位址)。 上傳包含電話號碼清單的 csv 檔案。
 
-***日期及時間。** 如果您選取國家/地區 = 法國，日期 = 2021 年 8 月 14 日，時間 = 上午 10 點，則要求將在 2021 年 8 月 14 日上午 10 點執行。 法國時間。
+**日期及時間。** 如果您選取國家/地區 = 法國，日期 = 2021 年 8 月 14 日，時間 = 上午 10 點，則要求將在 2021 年 8 月 14 日上午 10 點執行。 法國時間。
 
 #### <a name="case-title"></a>案例標題
 
