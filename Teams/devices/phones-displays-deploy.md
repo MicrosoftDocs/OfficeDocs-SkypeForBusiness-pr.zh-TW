@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供 Microsoft Teams Android 裝置支援的概觀和功能。
-ms.openlocfilehash: ef30268ef966eca00a75a583c9acb6ae608a7a81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 388848019806740074401400d0fad6847751489e
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267798"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705992"
 ---
 # <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>在 Android 上使用 Intune 部署 Teams 手機、Teams 顯示器、Teams 面板和Microsoft Teams 會議室
 
@@ -30,7 +30,7 @@ ms.locfileid: "67267798"
 
 ## <a name="conditional-access"></a>條件式存取
 
-條件式存取是 Azure Active Directory (Azure AD) 功能，可協助您確保存取您Office 365資源的裝置受到妥善管理且安全。  如果您將條件式存取原則套用至 Teams 服務，Android 裝置 (包括 Android 上的 Teams 手機、Teams 顯示器、Teams 面板和Microsoft Teams 會議室) 存取 Teams 時必須註冊至 Intune，而其設定必須符合您的原則。  如果裝置未註冊Intune，或是已註冊但其設定不符合您的原則，條件式存取會防止使用者登入或使用裝置上的 Teams 應用程式。
+條件式存取是 Azure Active Directory (Azure AD) 功能，可協助您確保裝置存取Office 365資源受到妥善管理與安全。 如果您將條件式存取原則套用至 Teams 服務，Android 裝置 (包括 Android 上的 Teams 手機、Teams 顯示器、Teams 面板和Microsoft Teams 會議室) 存取 Teams 時必須註冊至 Intune，而其設定必須符合您的原則。  如果裝置未註冊Intune，或是已註冊但其設定不符合您的原則，條件式存取會防止使用者登入或使用裝置上的 Teams 應用程式。
 
 一般說來，Intune內定義的合規性原則會指派給使用者群組。  這表示，如果您將 Android 合規性原則指派給 user@contoso.com，該原則將同樣套用至他們的 Android 智慧型手機，以及任何 user@contoso.com 登入的 Android 型 Teams 裝置。
 
@@ -46,6 +46,7 @@ Teams Android 型裝置是由 Intune 透過 Android 裝置系統管理員 (DA) �
 > [!NOTE]
 > - 如果租使用者系統管理員想要註冊通用的區域電話Intune，他們必須將Intune授權新增至帳戶，並遵循Intune註冊的步驟。
 > - 如果用來登入 Teams 裝置的使用者帳戶未獲得Intune授權，則帳戶必須停用Intune合規性原則和註冊限制。
+> - 如果用來登入 Teams 裝置的使用者帳戶獲得Intune授權，Teams 裝置將會自動在 Intune 中註冊。
 
 
 

@@ -17,20 +17,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 624d91cc7b8518417b45a787f2beae7cb75a7747
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7c67c10b967aeddd8ed170c65d169585dc06733d
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486948"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706192"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>適用於第三方應用程式安全性、合規性和隱私權的 Microsoft 365 應用程式合規性計畫
 
 Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措施，檢查和稽核應用程式。 此計畫示範了強大的安全性與合規性做法，以保護客戶資料。 計畫有下列階段:
 
-* 發行者驗證。
-* 發行者證明。
-* Microsoft 365 認證。
+* [Publisher 驗證](#publisher-verification)。
+* [Publisher 證明](#publisher-attestation)。
+* [Microsoft 365 認證](#microsoft-365-certification)。
 
 ## <a name="publisher-verification"></a>發行者驗證
 

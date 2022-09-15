@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中設定網路研討會
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -18,13 +18,13 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: 瞭解如何管理Teams會議的網路研討會原則。
-ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+description: 瞭解如何管理 Teams 會議的網路研討會原則。
+ms.openlocfilehash: 26863b26f960b50d81fa1d98090c3616d5b492a7
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045702"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706480"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中設定網路研討會
 
@@ -37,29 +37,29 @@ ms.locfileid: "66045702"
 在貴組織中設定網路研討會之後，您的使用者可以排程網路研討會，並開啟註冊給出席者。 不同于包含許多討論和工作指派的傳統會議，網路研討會是用於互動式簡報，並提供工具供出席者分析。
 
 > [!IMPORTANT]
-> 若要讓使用者設定網路研討會，Microsoft 清單必須在SharePoint中設定，方法是建立個人清單。 若要深入瞭解，請參閱[控制Microsoft 清單設定](/sharepoint/control-lists)。
+> 若要讓使用者設定網路研討會，您必須在 SharePoint 中設定Microsoft 清單，方法是啟用建立個人清單。 若要深入瞭解，請參閱[控制Microsoft 清單設定](/sharepoint/control-lists)。
 
-## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>允許使用者在Teams系統管理中心排程網路研討會
+## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>允許使用者在 Teams 系統管理中心排程網路研討會
 
-您可以使用Teams系統管理中心為貴組織設定網路研討會。 您可以在會議會議 **原則底下的**  >  Teams系統管理中心找到設定網路研討會 **的原則**。
+您可以使用 Teams 系統管理中心為貴組織設定網路研討會。 您可以在 Teams 系統管理中心找到 [**會議**  >  會議原則] 底下設定網路研討會 **的原則**。
 
 ### <a name="meeting-registration"></a>會議註冊
 
 如果您開啟此設定，使用者可以排程網路研討會。 預設會開啟此功能。 如果您想要關閉會議註冊，請將此原則設為 **[關閉]**。
 
 > [!IMPORTANT]
-> **私人會議排程** 必須開啟，會議註冊才能運作。 根據預設，此原則會在系統管理中心Teams開啟。 對於教育租使用者中的學生，此原則預設為關閉。 如需如何為學生啟用私人會議排程的詳細資訊，請[參閱Teams 教育版原則和原則套件](policy-packages-edu.md)。
+> **私人會議排程** 必須開啟，會議註冊才能運作。 根據預設，Teams 系統管理中心會開啟此原則。 對於教育租使用者中的學生，此原則預設為關閉。 如需如何為學生啟用私人會議排程的詳細資訊，請[參閱Teams 教育版原則和原則套件](policy-packages-edu.md)。
 
-### <a name="who-can-register"></a>神秘可以註冊
+### <a name="who-can-register"></a>誰可以註冊
 
 如果您選取 [ **所有人**]，所有使用者，包括匿名使用者，都可以註冊並參加網路研討會。 如果您選取 **組織中的 [所有人**]，則只有您組織中的使用者可以註冊網路研討會。 如果關閉會議註冊，將無法使用此選項，而且沒有人可以註冊網路研討會。
 
 > [!NOTE]
-> 神秘 **可以註冊** 的預設值是教育租使用者 **中組織中的每個人**。 如需詳細資訊，請[參閱Teams 教育版原則精靈]](easy-policy-setup-edu.md)。
+> Who **can register** 的預設值是教育租使用者中 **組織中的每個人** 。 如需詳細資訊，請[參閱Teams 教育版原則精靈]](easy-policy-setup-edu.md)。
 
 ### <a name="engagement-report"></a>互動報告
 
-開啟此設定時，召集人會看到註冊和參與其所設定網路研討會的人員報告。 此原則預設為開啟。 如需詳細資訊，請參閱[Teams - 互動報告中的會議原則](meeting-policies-in-teams-general.md#engagement-report)。 如需使用者體驗的相關資訊，請參 [閱檢視及下載會議出席報告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
+開啟此設定時，召集人會看到註冊和參與其所設定網路研討會的人員報告。 此原則預設為開啟。 如需詳細資訊，請參閱 [Teams 中的會議原則 - 參與報告](meeting-policies-in-teams-general.md#engagement-report)。 如需使用者體驗的相關資訊，請參 [閱檢視及下載會議出席報告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>允許使用者使用 PowerShell 排程網路研討會
 
@@ -72,7 +72,7 @@ ms.locfileid: "66045702"
 如需 Cmdlet 的詳細資訊，請參閱 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 。
 
 > [!NOTE]
-> 您必須先連線至 Microsoft Teams PowerShell，才能執行這些 Cmdlet。 如需詳細資訊，請參閱[使用 Microsoft Teams PowerShell 管理Teams](/microsoftteams/teams-powershell-managing-teams)。
+> 您必須先連線到 Microsoft Teams PowerShell，才能執行這些 Cmdlet。 如需詳細資訊，請參閱 [使用 Microsoft Teams PowerShell 管理 Teams](/microsoftteams/teams-powershell-managing-teams)。
 
 ### <a name="allow-users-to-schedule-webinars"></a>允許使用者排程網路研討會
 
@@ -108,7 +108,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
 > [!CAUTION]
-> 如果會議設定中關閉匿名加入，匿名使用者就無法加入網路研討會。 若要深入瞭解並啟用此設定，請參閱[Teams 中的會議設定](meeting-settings-in-teams.md)。
+> 如果會議設定中關閉匿名加入，匿名使用者就無法加入網路研討會。 若要深入瞭解並啟用此設定，請參閱 [Teams 中的會議設定](meeting-settings-in-teams.md)。
 
 ### <a name="collect-meeting-attendance"></a>收集會議出席
 
@@ -124,6 +124,6 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 
 ## <a name="related-topics"></a>相關主題
 
-- [Teams中的會議原則 - 一般](meeting-policies-in-teams-general.md)
+- [Teams 中的會議原則 - 一般](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy 檔](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Teams 教育版原則精靈](easy-policy-setup-edu.md)

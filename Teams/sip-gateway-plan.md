@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271698"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706002"
 ---
 # <a name="plan-for-sip-gateway"></a>規劃 SIP 閘道
 
@@ -61,7 +61,7 @@ Teams 使用者必須有已啟用 PSTN 通話的電話號碼，才能使用 SIP 
 
 如果您有 3PIP 或 SIP 裝置，您必須具備：
 
-- 電話系統 (透過 E5 或獨立授權的授權) 
+- Microsoft Teams、商務用 Skype Online 方案 2 和 Microsoft 365 手機系統透過 E5 或獨立授權 (的授權) 
 - PSTN 啟用 (，也即透過 Microsoft Teams 通話方案、直接路由或運算子連線) 電話號碼
 - 任何通用區域裝置的通用區域電話授權
 

@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文討論如何使用Microsoft Teams 會議室的復原工具，您會使用此工具將過期系統帶入支援的狀態。
-ms.openlocfilehash: c50b59ff4ed1ee997b990b0776ef4a7ee0ac29c2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70b2d199c4fe13138e2f46fd0b49e95efbd18e9c
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271158"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706162"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用Microsoft Teams 會議室修復工具
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271158"
 下載最新的[Microsoft Teams 會議室安裝套件](https://go.microsoft.com/fwlink/?linkid=851168)，然後將它解壓縮到可供Microsoft Teams 會議室存取的 USB 隨身碟或網路共用。
 
 > [!NOTE]
-> 從 MSI 擷取檔案可以透過許多方式完成。 任何擷取所有檔案並保留其目錄結構的機制都是可接受的。 其中一個方法是使用代表 Microsoft Teams 會議室安裝套件完整路徑的命令 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` ，並 `PathToTarget` 代表您想要擷取檔案之資料夾的完整路徑。
+> 從 MSI 擷取檔案可以透過許多方式完成。 任何擷取所有檔案並保留其目錄結構的機制都是可接受的。 其中一個方法是使用代表Microsoft Teams 會議室安裝套件完整路徑的命令 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` ，並 `PathToTarget` 代表您想要擷取檔案之資料夾的完整路徑。
 
 ## <a name="running-the-tool"></a>執行工具
 

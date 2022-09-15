@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理會議原則
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理會議原則設定，並使用這些設定來控制使用者排定之會議參與者可用的功能。
-ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0561c2bcd7f2e88000c7ab3c97b480051da58622
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396544"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706420"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議原則
 

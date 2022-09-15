@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790348"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706012"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -202,7 +202,7 @@ Microsoft 365 Apps 企業版不支援 Teams 的每個電腦安裝。 若要使�
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        此程式會將 Teams 安裝到 `%ProgramFiles(x86)%` 64 位作業系統上的資料夾，以及 `%ProgramFiles%` 32 位作業系統上的資料夾。 此時，金色影像設定已完成。
+        此程式會將 Teams 安裝到 `%ProgramFiles(x86)%` 32 位作業系統上的資料夾，以及 `%ProgramFiles%` 64 位作業系統上的資料夾。 此時，金色影像設定已完成。
 
         > [!IMPORTANT]
         >  非持續性設定需要每台電腦安裝 Teams。
@@ -403,20 +403,12 @@ Teams 模組中提供 Teams VDI 原則。 這些原則在非優化的 VDI 環境
 > [!NOTE]
 > 這僅適用于未優化的環境。
 
-### <a name="update-a-module-name"></a>更新模組名稱
+### <a name="connect-to-microsoft-teams-powershell"></a>連線到 Microsoft Teams PowerShell
+
+依照 [安裝 Microsoft Teams PowerShell 模組](/Teams/teams-powershell-install.md) 中的指示連線到 Microsoft Teams PowerShell 模組。 然後執行下列命令以確認所有 VDI Cmdlet 皆可使用：
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>設定原則以限制通話功能
@@ -486,7 +478,7 @@ if($cleanup){
 - 透過每台電腦安裝，VDI 上的 Teams 不會以非 VDI Teams 用戶端的方式自動更新。 您必須安裝新的 MSI 來更新 VM 映射，如 [在 VDI 上安裝或更新 Teams 傳統型應用程式](#install-or-update-the-teams-desktop-app-on-vdi) 一節中所述。 您必須解除安裝目前的版本，以更新至較新的版本。
 - 在 Citrix 環境中，如果使用者在 Teams 執行期間中斷與虛擬機器的連線，Teams 更新可能會讓使用者在重新連線時處於非優化狀態。 我們建議使用者在中斷與 Citrix 虛擬機器的連線前結束 Teams，以免發生這種情況。
 - Teams 應該在每一個使用者或每台電腦上部署。 不支援針對每個使用者和每部電腦同時部署 Teams。 若要從每部電腦或每位使用者移轉到其中一個模式，請遵循卸載程式，然後重新部署至任一模式。
-- Azure 虛擬桌面目前不支援 macOS 和 Linux 型用戶端。
+- Azure 虛擬桌面目前不支援 Linux 型用戶端。
 - 快速租使用者切換可能會導致 VDI 上的通話相關問題，例如螢幕畫面分享無法使用。 重新開機用戶端將會減輕這些問題。
 
 ### <a name="notifications"></a>通知

@@ -19,12 +19,12 @@ description: 瞭解如何管理 Teams 應用程式。 瞭解如何允許或封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637046"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705822"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理 Teams 應用程式
 
@@ -93,7 +93,7 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 系統管理中心的發行者狀態封鎖的螢幕擷取畫面。":::
 
-如需開發人員在預設情況下如何封鎖應用程式的資訊，請參閱 [隱藏應用程式，直至系統管理員核准](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
+如需開發人員預設如何封鎖應用程式的相關資訊，請參閱 [啟用在系統管理員允許之前封鎖的應用程式](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
 
 ## <a name="manage-org-wide-app-settings"></a>管理全組織應用程式設定
 

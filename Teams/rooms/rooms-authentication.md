@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 會議室 中的驗證
+title: Windows 上 Microsoft Teams 會議室 中的驗證
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: 瞭解如何為Microsoft Teams 會議室設定新式驗證
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: 瞭解如何在 Windows 上設定Microsoft Teams 會議室的新式驗證
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268238"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706430"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 會議室 中的驗證
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Windows 上 Microsoft Teams 會議室 中的驗證
 
 Microsoft Teams 會議室帳戶管理會在應用程式層級處理。 應用程式會連線到 Microsoft Teams、商務用 Skype 和 Exchange，以取得資源帳戶的資源，以啟用通話和會議體驗。 Teams 會議室使用專用的資源帳戶來允許隨時隨地使用功能、針對已設定通話方案) 的裝置 (通話案例，以及自訂鎖定機制。 這表示Teams 會議室的驗證方式與使用者裝置不同。  
 

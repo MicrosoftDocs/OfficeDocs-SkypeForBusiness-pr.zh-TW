@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 瞭解管理Microsoft Teams 會議室。
-ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 85979448c425f2ab0de9a5956ba4e74b2a5697cc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272218"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706660"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 會議室維護與作業
  
@@ -61,7 +61,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 若要設定遠端顯示 [會議室前方] 的縮放比例和解析度，請參閱使用[XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定](xml-config-file.md#set-front-of-room-scale-and-resolution)。
 
-若要在 Teams 會議室系統管理設定中手動設定縮放比例和解析度：
+若要在系統管理員設定中手動設定縮放比例和解析度Teams 會議室：
 
 1. 在 Teams 會議室中，切換至 [系統管理模式](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
@@ -84,7 +84,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 會議室重設 (原廠還原) 
 <a name="Reset"> </a>
 
-如果Microsoft Teams 會議室無法順利執行，執行原廠重設可能會有説明。 若要這麼做，請使用 [Microsoft Teams 會議室復原工具](recovery-tool.md) ，並依照原廠還原指示進行。
+如果Microsoft Teams 會議室無法順利執行，執行原廠重設可能會有説明。 若要這麼做，請使用[Microsoft Teams 會議室修復工具](recovery-tool.md)，並依照原廠還原指示進行。
 
 > [!NOTE]
 > 在已知的問題中，如果 [**保留我的檔案 - 移除應用程式和設定]，但** Windows 重設程式期間選取了 [保留您的個人檔案] 選項，Microsoft Teams 會議室會變得無法使用。 *請勿* 使用此選項。
@@ -222,11 +222,13 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>軟體更新
 <a name="SWupdate"> </a>
 
-根據預設，Microsoft Teams 會議室嘗試連線到 Windows 市集以取得最新版本的Microsoft Teams 會議室軟體。 因此，Teams 會議室需要定期存取網際網路。 在連絡 Microsoft 以解決支援問題之前，請確定Microsoft Teams 會議室已載入最新版本的應用程式。
+根據預設，Microsoft Teams 會議室連線至 Windows Update 以擷取作業系統和 USB 周邊裝置韌體更新，並在設定的上班時間以外安裝更新。 您可以登入系統管理員帳戶並執行 [設定 **] 應用程式來** 設定上班時間。
   
-Microsoft Teams 會議室連線至Windows Update以擷取作業系統和周邊裝置韌體更新。 它也會連線到 Microsoft Store 以擷取應用程式更新。
+如果您想要手動管理更新，但無法遵循[商務用 Microsoft Store](https://businessstore.microsoft.com/store)[散佈離線應用程式](/microsoft-store/distribute-offline-apps)的一般程式，您可以從[手動更新Microsoft Teams 會議室裝置](/microsoftteams/rooms/manual-update)取得並執行最新的MTR-Update腳本。
 
-如果您需要手動管理應用程式更新，但無法按照一般程式[商務用 Microsoft Store](https://businessstore.microsoft.com/store)[散佈離線應用程式](/microsoft-store/distribute-offline-apps)，您可以取得Teams 會議室更新套件，以在支援的作業系統上執行應用程式更新。 更新版本可能會跟 Microsoft Store 版本落後，而且可能不一定總是符合最新可用的組建。 若要深入瞭解，請參閱[手動更新Microsoft Teams 會議室裝置](manual-update.md)。
+根據預設，Microsoft Teams 會議室嘗試連線到 Windows 市集以取得最新版本的Microsoft Teams 會議室軟體。 因此，Teams 會議室需要定期存取網際網路。 在連絡 Microsoft 以解決支援問題之前，請確定Microsoft Teams 會議室已載入最新版本的應用程式。
+
+
 
 ## <a name="admin-mode-and-device-management"></a>管理員模式與裝置管理
 <a name="AdminMode"> </a>

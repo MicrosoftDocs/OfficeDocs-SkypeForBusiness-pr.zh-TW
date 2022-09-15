@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: 瞭解Microsoft Teams 會議室支援與建議的條件式存取和Intune裝置合規性原則。
-ms.openlocfilehash: 1c9b3d2a40ce34076f917026300b8b7d0921d9c8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a126d6624150d48ea002b0e7720e9dd5fe08d0ad
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606425"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706232"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>支援 Microsoft Teams 會議室 和 Teams Android 裝置的條件式存取和Intune裝置合規性原則
 
@@ -46,7 +46,7 @@ ms.locfileid: "67606425"
 | 裝置篩選                       | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            | 支援                                                                                                                                                            |
 | **授予**                                | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | 封鎖存取                             | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            | 支援                                                                                                                                                            |
-| 授與存取權                             | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            |                                                                                                                                                                      |
+| 授與存取權                             | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            | 支援                                                                                                                                                                    |
 | 需要多重要素驗證      | 不支援                                                                                                                                                                        | 不支援                                                                                                                                                                        | 支援                                                                                                                                                            |
 | 要求將裝置標示為符合規範 | 支援                                                                                                                                                                            | 支援                                                                                                                                                                            | 支援                                                                                                                                                            |
 | 需要混合式 Azure AD 加入裝置    | 不支援                                                                                                                                                                        | 不支援                                                                                                                                                                        | 不支援                                                                                                                                                        |

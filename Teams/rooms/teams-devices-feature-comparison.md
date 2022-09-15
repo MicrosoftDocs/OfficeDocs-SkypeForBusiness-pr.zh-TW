@@ -18,12 +18,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f9c4cf77b544e731e143f245a30e710417bebca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 20c479760b2093e355bf2f0b3cbd8be0a1599002
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272368"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706042"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windows 和 Android 之間共用空間功能比較的 Teams 裝置 
 Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都有獨特的需求，這就是為什麼 Microsoft 提供各種選項，包括 Windows 和 Android 上的Teams 會議室。 
@@ -46,6 +46,7 @@ Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都
 ||直接來賓加入 |有空  |有空 |
 |**會議參與與共同作業**|直覺式且專為您打造的應用程式體驗 |有空  |有空 |
 ||影片和內容版面配置 (例如[共聚模式]、大型圖庫、僅限圖庫，以及圖庫和內容)  |有空  |有空 |
+||前列版面配置|有空|無法使用|
 ||聊天泡泡|有空 |即將推出 |
 ||舉手，全部下手 |有空  |有空 |
 ||釘選多個參與者 |有空  |即將推出 |

@@ -1,7 +1,7 @@
 ---
 title: Teams 雲端會議錄製
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1ec379a7f8d30738fc71b66d840752137ce72bf
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 1360847f187d98118d0b5468638cf1d6eb215fb8
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466011"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706860"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 

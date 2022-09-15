@@ -18,25 +18,22 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07d5e443075a80ddad8bda2e490cdd906c3900bf
-ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
+ms.openlocfilehash: 0e6118e42600bda58bf7ddc9d7f8e0fee0b7ad9f
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67657233"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706142"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
 Microsoft 已于 2021 年 7 月 31 日淘汰 商務用 Skype Online。 我們于 2019 年 7 月宣佈淘汰，為客戶提前兩年通知他們規劃升級至 Microsoft Teams。 Teams 是 Microsoft 365 中用於通訊和共同作業的核心應用程式。 由於已淘汰 商務用 Skype Online，Microsoft 想要確保客戶擁有規劃並成功升級至 Teams 所需的資訊和資源。  Skype 消費者服務不會受到此淘汰的影響。 如需商務用 Skype Online 停用原因的背景資訊，請參閱[常見問題- 從 商務用 Skype 升級至 Microsoft Teams](FAQ-journey.yml)。
 
-Microsoft 將于 2022 年 6 月 30 日或之後開始解除委任 商務用 Skype Online 基礎結構。 本文包含有關使用 Teams 的組織從任何版本升級商務用 Skype使用者的指導方針。
+Microsoft 將于 2022 年 6 月 30 日或之後開始解除委任 商務用 Skype Online 基礎結構。 此外，從 2022 年 10 月開始，Microsoft 將開始解除委任混合式組織專屬的該基礎結構層面。 本文包含有關使用 Teams 的組織從任何版本升級商務用 Skype使用者的指導方針。
 
+> [!Important]
+> **商務用 Skype Online 的淘汰不會影響商務用 Skype Server和 Lync Server 2013 內部部署的支援**。 不過，混合式客戶以及在線上和內部部署的使用者 *必須* 將任何 *線上* 使用者升級為 TeamsOnly。 任何線上使用者都必須使用 TeamsUpgradePolicy 指派 TeamsOnly 模式。 此外，Microsoft 也提供協助升級，以協助將剩餘的 商務用 Skype Online 使用者升級至 TeamsOnly 模式。 由於此淘汰，混合式組織不需要將其 *內部部署* 商務用 Skype使用者移至雲端。 *Microsoft 完全支援混合式組織與 TeamsOnly 使用者和內部部署商務用 Skype使用者*。 具有 商務用 Skype Server 或 Lync Server 2013 混合式部署的客戶應檢閱[商務用 Skype Online 淘汰的影響](/skypeforbusiness/hybrid/plan-hybrid-connectivity.md#implications-of-the-upcoming-retirement-of-skype-for-business-online)。
 
-## <a name="organizations-with-on-premises-deployments-of-skype-for-business-server"></a>部署內部部署 商務用 Skype Server 的組織
-
-商務用 Skype Online 的淘汰不會影響商務用 Skype Server和 Lync Server 2013 內部部署的支援。 不過，混合式客戶以及在線上和內部部署的使用者必須升級任何 *線上* 使用者。 任何線上使用者都必須使用 TeamsUpgradePolicy 指派 TeamsOnly 模式。 Microsoft 提供協助升級，以協助將剩餘的 商務用 Skype Online 使用者升級至 TeamsOnly 模式。 由於此淘汰，混合式組織不需要將其 *內部部署* 商務用 Skype使用者移至雲端。 Microsoft 完全支援混合式組織與 TeamsOnly 使用者和內部部署商務用 Skype使用者。 擁有 商務用 Skype Server 或 Lync Server 2013 混合式部署的客戶應檢閱[商務用 Skype Online 的淘汰。](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)
-
-在您的內部部署的 Active Directory環境中建立新使用者時，如果這些使用者將同步處理到 Azure AD，而您打算授權他們使用 Teams，那麼 *在指派授權給這些使用者之前*，**您必須先在您的內部部署商務用 Skype部署中啟用這些使用者，並確保變更已透過 Azure AD 連線同步到雲** 端。  您可以使用 Get-CsOnlineUser 確認變更已完全同步處理至雲端。 如果使用者的 HostingProvider= 「SRV：」，則此變更已同步處理。  這不應該是「sipfed.online.lync.com」。   
 
 ## <a name="what-to-expect-post-retirement"></a>淘汰後會發生什麼事
 
@@ -46,10 +43,20 @@ Microsoft 將于 2022 年 6 月 30 日或之後開始解除委任 商務用 Skyp
  - 在混合式組織中，將內部部署使用者移至雲端時，無論是否在 `Move-CsUser` 中指定切換，系統都會 `MoveToTeams` 自動指派使用者 TeamsOnly 模式。
  - 位於雲端的使用者無法被指派 TeamsOnly 以外的模式。 在線上的使用者 *不會* 在內部部署使用商務用 Skype伺服器。
 
-客戶可能還有其他在 商務用 Skype Online 中且尚未獲指派 TeamsOnly 模式的使用者。 客戶應儘快將 TeamsOnly 模式指派給這些使用者。 Microsoft 會為不在 TeamsOnly 模式的 商務用 Skype Online 使用者提供協助升級。 輔助升級體驗取決於您的組織是純粹線上組織，還是內部部署商務用 Skype使用者的組織。 如需詳細資訊，請參閱[協助從 商務用 Skype Online 升級至 Microsoft Teams](upgrade-assisted.md)。 完成協助升級之後，所有 *線上* 使用者都會處於 TeamsOnly 模式。 *任何內部部署的使用者都會保持在內部部署狀態，且不會成為 TeamsOnly*。
+在 商務用 Skype Online 中擁有剩餘使用者但尚未獲指派 Teams 的任何客戶必須儘快將 TeamsOnly 模式指派給這些使用者。 此外，Microsoft 也會為不在 TeamsOnly 模式的 商務用 Skype Online 使用者提供協助升級。 輔助升級體驗取決於您的組織是純粹線上組織，還是內部部署商務用 Skype使用者的組織。 如需詳細資訊，請參閱[協助從 商務用 Skype Online 升級至 Microsoft Teams](upgrade-assisted.md)。 完成協助升級之後，所有 *線上* 使用者都會處於 TeamsOnly 模式。 *任何內部部署的使用者都會保持在內部部署狀態，且不會成為 TeamsOnly*。
 
-Teams 中的使用者在 Teams 中能在 Teams 中接收來電交談和通話，也可以在 Teams 中排程會議。 他們無法在 商務用 Skype Online 中啟動聊天、通話或排程會議。 Teams 使用者可以加入商務用 Skype他們未來已經或已經收到的會議。 不過，在 Microsoft 移除指定 TeamsOnly 使用者的商務用 Skype線上基礎結構之後，TeamsOnly 使用者只能匿名加入商務用 Skype會議。  從 2022 年 6 月 30 日開始，新建立的 TeamsOnly 使用者將不再布建商務用 Skype Online 基礎結構，因此如果他們受邀參加商務用 Skype會議，就必須匿名加入。
+Teams 中的使用者在 Teams 中能在 Teams 中接收來電交談和通話，也可以在 Teams 中排程會議。 他們無法在 商務用 Skype Online 中啟動聊天、通話或排程會議。 Teams 使用者可以加入商務用 Skype他們未來已經或已經收到的會議。 不過，在 Microsoft 移除指定 TeamsOnly 使用者的商務用 Skype線上基礎結構之後，TeamsOnly 使用者只能匿名加入商務用 Skype會議。  從 2022 年 6 月 30 日開始，新建立的 TeamsOnly 使用者將不再布建商務用 Skype Online 基礎結構，因此如果他們受邀參加商務用 Skype會議，就必須匿名加入。 同樣地，自 2022 年 10 月起，將不再布建從內部部署移至 Teams 混合式組織的使用者與 商務用 Skype Online 基礎結構。 如果這些使用者受邀參加商務用 Skype會議，他們也必須匿名加入。
 
+
+## <a name="guidance-for-organizations-with-on-premises-deployments-of-skype-for-business-server"></a>適用于內部部署 商務用 Skype Server 的組織指導方針
+
+ - 在您的內部部署的 Active Directory環境中建立新使用者時，如果這些使用者將同步處理到 Azure AD，而您打算授權他們使用 Teams，那麼 *在指派授權給這些使用者之前*，**您必須先在您的內部部署商務用 Skype部署中啟用這些使用者，並確保變更已透過 Azure AD 連線同步到雲** 端。  您可以使用 Get-CsOnlineUser 確認變更已完全同步處理至雲端。 如果使用者的 HostingProvider= 「SRV：」，則此變更已同步處理。  這不應該是「sipfed.online.lync.com」。   
+
+ - 請注意，從 2022 年 10 月開始，一旦 Microsoft 移除混合式組織的舊版 商務用 Skype Online 基礎結構，TeamsOnly 使用者就必須匿名加入商務用 Skype會議。  如需詳細資料，請參閱 [淘汰後會發生什麼事](#what-to-expect-post-retirement)。 或者，您可以確保所有使用者所排程的會議 (您組織中的 [內部部署] 或 [僅限 Teams) 是 Teams 會議]，這可讓組織中的任何使用者都能使用經過驗證的會議加入， (受限於原則設定) 。 若要達成此目標，請採取下列動作：
+   - 對於指派為 **僅限商務用 Skype** 或 **使用 Teams** 共同作業模式商務用 Skype的任何使用者，請將共存模式變更為 **使用 Teams 共同作業和會議商務用 Skype**。  除了使用者排程的新會議是 Teams 會議，而不是商務用 Skype會議之外，此模式提供的功能與其他兩者相同。 當您直接將此模式指派給使用者 (，而不是在租使用者層級) 時，該模式預設也會自動將任何商務用 Skype會議轉換為該使用者召集的 Teams 會議。
+   - 對於處於群島模式的使用者，您可以要求他們一律在 Teams 中排程會議，方法是將 TeamsMeetingPolicy 的實例指派給 PreferredMeetingProviderForIslandsMode=Teams。 
+   - 若要確保任何現有的商務用 Skype會議都轉換成 Teams 會議， (例如，如果您有群島使用者) ，您可以使用Start-CsExMeetingMigration觸發[會議移轉服務](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#trigger-meeting-migration-manually-via-powershell-cmdlet)，將使用者的會議轉換為 Teams。
+  
 
 ## <a name="actions-to-take-before-june-30-2022"></a>2022 年 6 月 30 日之前要採取的動作
 現在 商務用 Skype Online 已停用，Microsoft 將于 2022 年 6 月 30 日開始解除支援基礎結構。  對於任何使用 Teams 的組織從任何版本的 商務用 Skype 升級的使用者，如果其中一種情況適用，您必須採取動作：

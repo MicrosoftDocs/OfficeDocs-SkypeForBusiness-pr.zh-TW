@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: b35fbf4572c9db1a1fba5bf0ae341c596b9166b2
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642094"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706022"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -110,6 +110,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號| 韌體版本 | 目前的認證結束日期 | Android OS 版本 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|EPOS 展開主控台   | `1.2.22206.03` | 2024 年 9 月 3 日 | 10 |
 |[整齊的鍵檯面板]    | `NFA1.20220211.1400` | 2023 年 8 月 5 日 | 9 |
 |Cres要 TSS-770 | `2.001.0058` |2024 年 9 月 3 日  | 10 |
 |Cres 要點 TSS-1070 | `2.001.0058`|2024 年 9 月 3 日 | 10 |
@@ -266,6 +267,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 65 吋 | `155.15.0.10 `   | 2022 更新#2A  |
 | Poly Studio X30 | `3.13.0.368067` | 2022 更新#2A   |
 | Poly Studio X50 | `3.13.0.368067` | 2022 更新#2A |
 | Poly TC8        | `3.13.0.210799`          | 2022 更新#2A   |

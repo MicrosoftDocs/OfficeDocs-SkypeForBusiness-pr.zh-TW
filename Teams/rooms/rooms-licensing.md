@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解並比較 Microsoft Teams 會議室 中不同通話和會議功能類型的可用授權。
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650815"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706670"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams 會議室授權
 
@@ -80,7 +80,7 @@ Teams 會議室基本版授權可用來授權會議室中單一經過認證的Te
 
 <sup>*</sup>自 2022 年 10 月 1 日起，Microsoft 服務工程師將不再擔任事件回應的中間人。
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>Teams 會議室主機和 Teams 用戶端功能比較
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Teams 會議室基本版和 Teams 會議室 專業版功能比較
 
 下表將比較 Teams 會議室 Basic 和 Teams 會議室 專業版授權，並顯示每個授權的可用功能。 如果授權無法使用某項功能，則無法在已指派該授權的Teams 會議室部裝置上使用該功能。 若要在Teams 會議室裝置上使用某項功能，請指派該功能可供該裝置使用的授權。
 

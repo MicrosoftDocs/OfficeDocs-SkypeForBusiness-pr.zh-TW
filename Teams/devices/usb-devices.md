@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268548"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706062"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -175,7 +175,7 @@ ms.locfileid: "67268548"
 |Jabra                |Evolve 40 Headset                                          |8/23/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |Jabra                |Evolve 20 Headset                                          |8/23/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
+|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 660               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 630               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 260               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |

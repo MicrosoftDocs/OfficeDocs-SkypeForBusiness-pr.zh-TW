@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: bd97dad2f50a2f5f60d13d9521b1b751da3ebdcf
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606852"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706072"
 ---
 # <a name="teams-devices-for-education"></a>Teams 教育版裝置
 
@@ -143,7 +143,7 @@ Teams 會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 常見的情況是直接從參與者的裝置共用內容。 個別使用者可以從個別應用程式或其畫面的整個內容直接共用完整的音訊和視覺體驗到會議，讓每個人都能檢視。 這會延伸至所有已安裝裝置的共用空間。 Microsoft Teams 會議室也可以選擇使用有線監視器連線，讓參與者共用，即使他們無法個別加入會議。
 
-對於來自實體世界的內容，具備 Microsoft Teams 會議室系統的空格可以處理白板或檔相機，以便從空間協調檢閱及討論內容。
+對於來自實體世界的內容，具有Microsoft Teams 會議室系統的空格可以處理白板或檔相機，以便從空間協調檢閱及討論內容。
 
 為獲得完全互動式的體驗，互動式顯示器 (例如 Surface Hub 產品系列和 Microsoft 數位白板) 讓您輕鬆以互動方式為親身學生及遠端學生建立內容。
 
@@ -239,8 +239,8 @@ Teams 會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *顯示的裝置：*
 
-- 會議室系統 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - 請注意，Surface Hub 解決方案代表共同作業和互動式使用方式的優質體驗。 與大型顯示器配對的 [Microsoft Teams 會議室解決方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) ，可在此相同案例中做為替代方案。
+- Teams 會議室系統 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - 請注意，Surface Hub 解決方案代表共同作業和互動式使用方式的優質體驗。 與大型顯示器配對[的Microsoft Teams 會議室解決方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)，可在此相同案例中做為替代方案。
 
 - 類比白板擷取 – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
@@ -268,7 +268,7 @@ Teams 會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *顯示的裝置：*
 
-- 會議室系統 – 使用已安裝的投影機和以購物車為基礎的顯示器[，適用于 Teams 的 Cres括弧 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- Teams 會議室系統 – 使用已安裝的投影機和以購物車為基礎的顯示器[，適用于 Teams 的 Cres 要彈性 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 選用的數位白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -278,7 +278,7 @@ Teams 會議不只適用于參與者的音訊和視訊通話。 有多種不同�
 
 *安裝或設定此解決方案是：*
 
-非常複雜。 此聊天室的實體安裝需要知識知識庫的 AV 部署合作夥伴，以正確規劃及部署相機和音訊解決方案，以便為空間中的使用者順暢地工作。 安裝需要與佈線、音訊設定以及 Microsoft Teams 會議室系統及相關 Surface Hub 2 裝置正確設定相關的專業知識。
+非常複雜。 此聊天室的實體安裝需要知識知識庫的 AV 部署合作夥伴，以正確規劃及部署相機和音訊解決方案，以便為空間中的使用者順暢地工作。 安裝需要與Microsoft Teams 會議室系統及相關 Surface Hub 2 裝置的連接、音訊設定和正確設定相關的專業知識。
 
 ### <a name="multi-purpose-spaces"></a>多重用途空格
 
@@ -292,7 +292,7 @@ Teams 幾乎可以在任何您能想到的教育或多用途空間中實作。 �
 
 *顯示的裝置：*
 
-- 會議室系統 – 使用已安裝投影機[的 Teams 版 Cres要彈性 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- Teams 會議室系統 – 配備已安裝投影機[的 Teams 的 Cres 要彈性 C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 選用雙數位白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -302,7 +302,7 @@ Teams 幾乎可以在任何您能想到的教育或多用途空間中實作。 �
 
 *安裝或設定此解決方案是：*
 
-非常複雜。 如所述，多用途空間需要知識熟知的 AV 部署合作夥伴，以正確規劃及部署投影機式顯示器、相機和音訊解決方案，以及正確設定 Microsoft Teams 會議室系統和相關聯的 Surface Hub 2 裝置，以便為空間中的使用者順暢地工作。
+非常複雜。 如所述的多重用途空間需要知識熟知的 AV 部署合作夥伴，才能正確規劃及部署投影機型顯示器和相機和音訊解決方案，以及正確設定Microsoft Teams 會議室系統和相關聯的 Surface Hub 2 裝置，以便為空間中的使用者順暢地工作。
 
 ## <a name="dont-forget-security"></a>別忘了安全性
 
@@ -318,4 +318,4 @@ Teams 幾乎可以在任何您能想到的教育或多用途空間中實作。 �
 
 [深入瞭解Microsoft Teams 會議室](/microsoftteams/rooms)– Microsoft Teams 會議室指南，涵蓋規劃、部署和使用方式
 
-[Teams 會議室合作夥伴計畫](https://cloudpartners.transform.microsoft.com/teams-mrpp) – 全球合作夥伴清單，可協助您規劃及部署 Teams 會議室系統
+[Microsoft Teams 會議室合作夥伴計畫](https://cloudpartners.transform.microsoft.com/teams-mrpp)– 全球合作夥伴清單，可協助您規劃及部署Teams 會議室系統

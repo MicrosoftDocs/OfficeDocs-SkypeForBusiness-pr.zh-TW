@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請閱讀本文，瞭解如何建立會議室和共用裝置的資源帳戶，包括Microsoft Teams 會議室、Surface Hub 上的Teams 會議室，以及 Teams 的快捷方式顯示器。
-ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 213cd2019aa23c296706c70a66e3e873f7527ee9
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606222"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706630"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>建立及設定會議室和共用 Teams 裝置的資源帳戶
 
@@ -271,7 +271,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 2. 使用下列語法將密碼設為永不過期：
 
     ```PowerShell
-    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <userPrincipalName> -PasswordNeverExpires $true
     ```
 
     此範例會將帳戶 ConferenceRoom01@contoso.com 的密碼設為永不過期。

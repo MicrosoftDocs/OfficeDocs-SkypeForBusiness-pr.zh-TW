@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft Teams 產生的偵錯、媒體和桌面記錄檔、可找到這些記錄的位置，以及如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486888"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705812"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>在 Teams 中設定記錄檔以進行監視和疑難排解
 
@@ -34,6 +34,8 @@ ms.locfileid: "67486888"
 -   [桌面記錄檔](#desktop-logs)
 
 本文將說明這些記錄檔及其使用方式。 如需疑難排解特定問題的相關資訊，請參閱： [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)。 
+
+如需從Microsoft Teams 會議室裝置收集記錄的相關資訊，請參閱[下載裝置記錄](/microsoftteams/rooms/rooms-manage#download-device-logs)。
 
 如需如何連絡客戶支援的相關資訊，請參閱 [取得支援](/microsoft-365/business-video/get-help-support)。
 

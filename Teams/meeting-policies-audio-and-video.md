@@ -1,7 +1,7 @@
 ---
 title: 管理音訊和視訊的會議原則
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: 瞭解如何在音訊和視訊Teams中管理會議原則設定。
-ms.openlocfilehash: cb53cfa52b9e3be28b6400ab87a9fc3b329406b9
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+description: 瞭解如何在 Teams 中管理音訊和視訊的會議原則設定。
+ms.openlocfilehash: ac5c58c00f5069638c087d04a033e8e0ff3d4822
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784687"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706843"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音訊&視訊的會議原則設定
 
@@ -50,7 +50,7 @@ ms.locfileid: "64784687"
 |**已啟用傳出和傳入音訊**    |會議中允許傳出和傳入音訊。這是預設設定。 |
 |**未啟用**     |會議中已關閉傳出和傳入音訊。     |
 
-如果設定為 **[使用者未啟用** ]，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網路 (PSTN) 撥入，或是撥打會議電話並透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在Teams行動用戶端上，如果未啟用此設定，使用者必須透過 PSTN 撥入會議。
+如果設定為 **[使用者未啟用** ]，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網路 (PSTN) 撥入，或是撥打會議電話並透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果未啟用此設定，使用者必須透過 PSTN 撥入會議。
 
 此設定不適用一對一通話。 若要限制一對一通話，請設定 Teams [通話原則 []](teams-calling-policy.md) 並關閉 [撥打私人通話 **]** 設定。 此設定也不適用會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
 
@@ -80,7 +80,7 @@ ms.locfileid: "64784687"
 
 ### <a name="ip-video"></a>IP 視訊
 
-這是每個召集人和個別使用者原則的組合。 視訊是會議的重要元件。 在某些組織中，系統管理員可能會想要進一步控制哪些使用者的會議有視訊。 此設定可控制是否可以在使用者主持的會議以及在使用者啟動的一對一和群組通話中開啟視訊。 在Teams行動用戶端上，此設定會控制使用者是否可以在會議中共用相片和影片。
+這是每個召集人和個別使用者原則的組合。 視訊是會議的重要元件。 在某些組織中，系統管理員可能會想要進一步控制哪些使用者的會議有視訊。 此設定可控制是否可以在使用者主持的會議以及在使用者啟動的一對一和群組通話中開啟視訊。 在 Teams 行動用戶端上，此設定會控制使用者是否可以在會議中共用相片和影片。
 
 由已啟用此原則設定的使用者所召集的會議，如果參與者也已啟用此原則設定，則會允許由會議參與者在會議中分享視訊。 未獲指派任何原則的會議參與者 (例如匿名和同盟參與者) 會繼承會議召集人的原則。
 
@@ -108,7 +108,7 @@ ms.locfileid: "64784687"
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>哪些 IP 視訊原則設定優先？
 
-若為使用者，針對視訊最具限制性的原則設定會優先。以下是一些範例。
+若為使用者，針對視訊最具限制性的原則設定會優先。 以下是一些範例。
 
 |IP 視訊|IP 視訊的模式|會議體驗|
 |---------|---------|---------|
@@ -134,7 +134,7 @@ ms.locfileid: "64784687"
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於Teams行動用戶端的使用者，在會議期間分享相片和影片的能力也取決於 **IP 視** 訊或 **IP 視訊模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
+對於 Teams 行動用戶端的使用者，在會議期間分享相片和影片的功能也取決於 **IP 視** 訊或 **IP 視訊模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (KB)
 
@@ -148,9 +148,9 @@ ms.locfileid: "64784687"
 
 <a name="bkvideofilters"> </a>
 
-這是每一使用者原則。此設定可控制使用者是否可以自訂其會議中的視訊背景。
+這是每一使用者原則。 此設定可控制使用者是否可以自訂其會議中的視訊背景。
 
-您可以使用Teams系統管理中心和 PowerShell 來設定此原則。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，然後將該原則指派給使用者。
+您可以使用 Teams 系統管理中心和 PowerShell 來設定此原則。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，然後將該原則指派給使用者。
 
 若要指定使用者是否可以在會議中自訂視訊背景，請設定 **VideoFiltersMode** 參數 (在 Teams 系統管理中心選取 **視訊篩選** 設定) 如下所示：
 
@@ -166,11 +166,11 @@ ms.locfileid: "64784687"
 
 ### <a name="allow-custom-background-settings"></a>允許自訂背景設定
 
-您可以新增自訂背景影像以供每個租使用者使用。 這項功能可讓公司將公司商標套用至Teams會議。
+您可以新增自訂背景影像以供每個租使用者使用。 這項功能可讓公司將公司商標套用至 Teams 會議。
 
 1. 登入 Teams 系統管理中心。
 
-2. 選取 **[會議**  >  **排序原則**  >  **自訂會議影像]**。
+2. 選 **取 [會議**  >  **會議原則**  >  **] 自訂會議影像**。
 
    ![會議原則選取專案，其中醒目提示 [自訂會議影像] 按鈕。](media/custom-background-image-button.png)
 
@@ -199,11 +199,11 @@ ms.locfileid: "64784687"
 > 變更可能需要 24 小時才會生效。
 
 > [!NOTE]
-> 這項功能暫時提供給所有Microsoft Teams客戶的公開預覽。 若要在預覽之後取得此功能，每個使用者都需要進階通訊附加元件授權。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
+> 這項功能暫時在公開預覽中提供給所有 Microsoft Teams 客戶使用。 若要在預覽之後取得此功能，每個使用者都需要進階通訊附加元件授權。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 ### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>適用于 PTZ) 相機 (點傾斜縮放 (FECC) 的遠端相機控制
 
-遠端相機控制是可指派給Windows資源帳戶Teams 會議室的原則。 它允許連線至Teams會議室的 PTZ 相機，在會議期間由Teams用戶端應用程式中的會議參與者控制。
+遠端相機控制是可指派給 Windows 資源帳戶上Teams 會議室的原則。 它允許連線至 Teams 會議室的 PTZ 相機，在會議期間由 Teams 用戶端應用程式中的會議參與者控制。
 
 若要使用遠端相機控制，會議參與者必須取得 **PTZ 相機控制項** 應用程式。  請參閱 [允許和封鎖應用程式](manage-apps.md#allow-and-block-apps) ，以瞭解如何在貴組織的應用程式市集中使用該應用程式。
 
@@ -213,11 +213,11 @@ ms.locfileid: "64784687"
 |---------------|----------|
 |已停用 | 這是預設設定。 設定為「停用」時，沒有人可以使用 PTZ 相機控制項。 |
 |AutoAcceptAll | PTZ 相機控制項會自動提供給任何會議參與者使用。 |
-|AutoAcceptInTenant | PTZ 相機控制項僅自動提供給與Teams會議室相同的組織參與者使用。 |
+|AutoAcceptInTenant | PTZ 相機控制項僅自動提供給與 Teams 會議室相同的組織中的參與者使用。 |
 
-設定 `TeamsCameraFarEndPTZMode` 為 `AutoAcceptAll` 或 `AutoAcceptInTenant` 時，在會議期間，仍然可以手動從Teams會議室關閉相機控制項。 當相機關閉時，相機控制也無法使用。
+設定 `TeamsCameraFarEndPTZMode` 為 `AutoAcceptAll` 或 `AutoAcceptInTenant` 時，在會議期間，仍然可以從 Teams 會議室手動關閉相機控制項。 當相機關閉時，相機控制也無法使用。
 
-支援任何具有機械 PTZ 和 UVC 控制項的相機。 如需通過 Teams 認證的相機清單，包括 PTZ 和非 PTZ 相機，請參閱[USB 音訊和視訊周邊裝置的認證韌體版本](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)。 在配備數位 PTZ 控制項的相機或 Android 上的 Teams 會議室 上尚未支援此功能。  
+支援任何具有機械 PTZ 和 UVC 控制項的相機。 如需 Teams 認證的相機清單，包括 PTZ 和非 PTZ 相機，請參閱 [USB 音訊和視訊周邊裝置的認證韌體版本](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)。 在配備數位 PTZ 控制項的相機或 Android 上的 Teams 會議室 上尚未支援此功能。  
 
 > [!NOTE]
 > 測試 PTZ 控制項之前，請先更新您的相機韌體。 請參閱原始設備製造商 (OEM) 檔以更新韌體。
@@ -225,4 +225,4 @@ ms.locfileid: "64784687"
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
+- [在 Teams 中將原則指派給使用者](policy-assignment-overview.md)

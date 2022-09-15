@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 設定Teams 會議室裝置和 Surface Hub 在一部或另一部裝置加入會議時加入會議。
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270478"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706980"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft Teams 會議室 和 Surface Hub 設定協調會議
 
@@ -73,7 +73,7 @@ ms.locfileid: "67270478"
 | **已啟用視訊**      | 判斷會議中的參與者是否可以開啟或關閉相機。 您可以將此設定在 `true` 活動參與者想要分享不同視訊觀點的任何其他裝置上， (例如參與者正在使用 Surface Hub 白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將此設定設為 `false` 。<p> 如果 **[視訊] 預設** 值設為 `true` ，則會忽略此設定，且參與者可以開啟或關閉相機。         |
 | **Whiteboard 預設值** | 判斷Teams 會議室裝置是否會顯示由其中一個會議參與者共用的白板。 如果您有 Surface Hub 且沒有 Surface Hub `true` ，建議您設定此 `false` 設定。 此設定對 Surface Hub 沒有作用。 Surface Hubs 一律會顯示由會議參與者共用的白板。         |
 | **已啟用白板** | 決定會議中的參與者是否可以開啟或關閉白板。 如果您不希望參與者在裝置上開啟或關閉白板，請將此設定設為 `false` 。 <p>如果 **Whiteboard 預設** 值設為 `true` ，則會忽略此設定，且參與者可以開啟或關閉白板。
-| **信任的帳戶**   | 這是每個 Teams 會議室裝置或 Surface Hub 的逗號分隔 UPN 清單，裝置應接受會議加入邀請，或應傳送會議加入要求。 |
+| **信任的帳戶**   | 這是每個Teams 會議室裝置或 Surface Hub 的逗號分隔 UPN 清單，裝置應接受會議加入邀請，或傳送會議加入要求。 |
 
 在後續的欄中，新增每個Teams 會議室裝置和 Surface Hub。 在每一欄中，填寫與您想要的會議室體驗相對應的值。 以下是一個Teams 會議室裝置和一個 Surface Hub 的範例：
 

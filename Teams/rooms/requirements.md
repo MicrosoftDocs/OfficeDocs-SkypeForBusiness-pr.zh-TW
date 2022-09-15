@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84566f8dea2f687d2981d56c837bb0d92241d254
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: bd4376a8d34be2c0184844b015531c7b496c94c4
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418472"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706680"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -43,11 +43,11 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 > 如果您擁有內部部署 Exchange Server，則 Microsoft Teams 會議室需要使用 Exchange Server 2013 SP1 或更新版本。
 
 ## <a name="hardware-requirements"></a>硬體需求
-硬體部署包含一系列 Microsoft Teams 會議室系統，結合經認證的音訊和視訊週邊設備，以及可將這些裝置整合在一起的纜線解決方案。  以下說明這些選項。
+硬體部署包括選取的Microsoft Teams 會議室系統，結合經過認證的音訊和視訊周邊裝置，以及整合這些裝置的切換解決方案。  以下說明這些選項。
 
-**支援的 Microsoft Teams 會議室系統**
+**支援的Microsoft Teams 會議室系統**
 
-所有目前的 Microsoft Teams 會議室裝置和套件組合可在[會議室系統產品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)中取得。
+目前所有Microsoft Teams 會議室裝置和搭售方案都可在[Teams 會議室產品展示中使用](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)。
 
   |主控台|處理器|RAM|磁碟|
   |:-----|:-----|:-----|:-----|
@@ -142,6 +142,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 |[Aver VC520 PRO2 會議系統](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ 相機音效列](https://www.averusa.com/products/conference-camera/vb342plus) | 音效列：0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
+|[Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) |0.0.8000.51 |
 |[Aver CAM 520 專業版](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
@@ -220,6 +221,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 |[Shure MXA 710 4ft Wall 線性陣列麥克風](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall 線性陣列麥克風：1.2.0 </br> P300 DSP：4.4.8 </br> MXN5-C 喇叭：1.1.1 |
 |[Shure MXA 910 搭配 Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Cres}UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software： 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone： 4.4.11 </br> Shure MXN5-C 喇叭：1.2.1 </br> Cres 要 UC-C100-T 搭配 ASUS Tek Computer INC 9934 計算 | 
 |[Shure MXA 910 搭配 Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software： 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone： 4.4.11 </br> Shure MXN5-C 喇叭：1.2.1 |
+|[Shure MXA920XX-R Round Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [P300 處理器](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [MXN5 喇叭](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R：1.1.56 </br> P300 處理器：4.7.7 </br> MXN5 喇叭：1.5.6 |
 |[Shure MXA 910 搭配 Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Shure Intellimix Room Software： 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone： 4.4.11 </br> Shure MXN5-C 喇叭：1.2.1 |
 |[Sennheiser TeamConnect 智慧型喇叭/TC ISP (T-Rock) ](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP：3.12.0.15 </br> TCC2：1.3.3 </br>EX-UBT：3.12.0.15 |

@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 瞭解如何開發和執行持續維護和作業，以確保您的Microsoft Teams 會議室系統可供使用者使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271090"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706820"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 會議室
 
@@ -171,18 +171,18 @@ Teams 會議室系統儀表板一目了然地顯示您所有裝置的狀態和�
 
 若要檢視裝置的詳細資訊，請從裝置清單中選取其名稱。 在詳細資料檢視中，您可以看到下列裝置相關資訊：
 
-- **健康情況狀態** 顯示 Teams 會議室裝置的整體健康情況。 健康狀態可以是 **健康** 狀態或 **不健康**。
+- **健康情況狀態** 顯示Teams 會議室裝置的整體健康情況。 健康狀態可以是 **健康** 狀態或 **不健康**。
 - **離線，因為** 顯示 Microsoft 365 最後一次與裝置通訊的時間。
 - **裝置狀態** 顯示裝置的目前狀態： **閒置**、 **Teams 會議**、 **Skype 會議** 或 **Ingest**。
-- **外設** 顯示連接到 Teams 會議室裝置的周邊設備及其健康情況狀態。 健康情況狀態可以是 **已連線** 或 **中斷連線**。
-- **健康** 顯示連接到 Teams 會議室裝置的周邊設備詳細資訊、網路連線、必要服務的登入狀態，以及軟體版本資訊。
-- **細節** 顯示製造商資訊、網路 IP 位址，以及 Teams 會議室裝置序號/MAC 位址。
+- **外設** 顯示連接到您Teams 會議室裝置的周邊設備及其健康情況狀態。 健康情況狀態可以是 **已連線** 或 **中斷連線**。
+- **健康** 顯示連接到您Teams 會議室裝置的周邊設備、網路連線能力、必要服務的登入狀態，以及軟體版本資訊的詳細資訊。
+- **細節** 顯示製造商資訊、網路 IP 位址，以及Teams 會議室裝置序號/MAC 位址。
 - **活動** 顯示過去的會議詳細資料，包括會議的日期和時間、參與者人數、持續時間和音訊品質。 For more information about meeting details, see the [Meeting activity details](#meeting-activity-details) section later in this article.
-- **歷史** 顯示 Teams 會議室裝置上的管理活動歷程記錄，包括設定更新、裝置重新開機，以及裝置記錄下載連結。
+- **歷史** 顯示Teams 會議室裝置上的管理活動歷程記錄，包括設定更新、裝置重新開機，以及裝置記錄下載連結。
 
 #### <a name="meeting-activity-details"></a>會議活動詳細資料
 
-Teams 會議室裝置詳細資料中的 [ **活動** ] 索引標籤會顯示裝置隨時間參與之所有會議的高層級和詳細資訊。 在 [ **活動] 索** 引標籤中，您可以查看會議的召開時間、參與會議的參與者數目，以及會議期間的音訊品質。
+Teams 會議室裝置詳細資料中的 [**活動**] 索引標籤會顯示裝置在一段時間內參與的所有會議的高層級和詳細資訊。 在 [ **活動] 索** 引標籤中，您可以查看會議的召開時間、參與會議的參與者數目，以及會議期間的音訊品質。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams 會議室裝置活動摘要清單。":::
 

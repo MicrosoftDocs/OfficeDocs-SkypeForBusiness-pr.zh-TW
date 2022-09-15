@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 使用 Microsoft Intune 和 Windows 設定設計工具在 Surface Hub 上管理 Microsoft Teams 設定
-ms.openlocfilehash: 6e99922ebb7bb30db1b5e94fd1a4d30b8ec653b8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7296ed84cf34b47c562cb3ab5f5582fe1eec58ac
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272208"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705972"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>在 Surface Hub 上管理 Microsoft Teams 設定
 
@@ -28,7 +28,7 @@ ms.locfileid: "67272208"
 - [建立Windows 10的布建套件](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [什麼是Microsoft Intune裝置管理？](/mem/intune/remote-actions/device-management)
 
-如果您只有少數幾個 Surface Hub 裝置且可以輕鬆存取，Windows 設定設計工具是不錯的選擇。 如果您有許多 Surface Hub，或者它們位於遠端位置，請在 Microsoft 端點管理員 中使用Microsoft Intune，如果它部署在您的組織中。 無論您選擇哪種方法，您都需要建立 XML 組態檔來變更 Surface Hub 上的 Teams 設定。
+如果您只有少數幾個 Surface Hub 裝置且可以輕鬆存取，Windows 設定設計工具是不錯的選擇。 如果您有許多 Surface Hub，或是它們位於遠端位置，請在 Microsoft 端點管理員 中使用Microsoft Intune，如果它部署在您的組織中。 無論您選擇哪種方法，您都需要建立 XML 組態檔來變更 Surface Hub 上的 Teams 設定。
 
 ## <a name="teams-configuration-file-syntax"></a>Teams 組態檔語法
 
@@ -57,7 +57,7 @@ Surface Hub 上的 Teams 設定是使用 XML 檔案定義。 XML 檔案包含所
 | `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | 決定 Teams 是否會自動接受近接式會議。<br>公認的值： `true``false`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | 包含協調會議的所有組態元素。                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                         |                                           | `enabled` | 判斷 Teams 是否設定為與其他裝置參與協調會議。<br>公認的值： `true``false`                                                                                                                                                                                                                                                                                                                                                                                |
-| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 這是每個 Teams 會議室裝置或 Surface Hub 的逗號分隔 UPN 清單，裝置應接受會議加入邀請，或應傳送會議加入要求。<br>公認的值：字串                                                                                                                                                                                                                                                                                                                         |
+| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 這是每個Teams 會議室裝置或 Surface Hub 的逗號分隔 UPN 清單，裝置應接受會議加入邀請，或傳送會議加入要求。<br>公認的值：字串                                                                                                                                                                                                                                                                                                                         |
 | `<CoordinatedMeetings>` | `<Settings>`                              |           | 包含協調會議的設定音訊和視訊組態元素                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<Settings>`            | `<Audio>`                                 |           | 控制 Surface Hub 上 Teams 的音訊設定。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                         |                                           | `default` | 決定當會議開始時，麥克風會在哪個裝置上作用中。 通常只有一個裝置 (Teams 會議室裝置) 可以將此欄位設定為 `true` ，而其他裝置必須設定此欄位，以避免 `false` 音訊回音和意見反應。<br>公認的值： `true``false`                                                                                                                                                                                                           |

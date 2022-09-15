@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解Microsoft Teams 會議室受管理的服務。
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606282"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706470"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 會議室受管理的服務
 
@@ -124,7 +124,7 @@ Microsoft Teams 會議室專業版授權可在下列國家/地區使用音訊會
 |包含的內容 |排除的內容 |排除專案的支援通道  |
 |---------|---------|---------|
 |**服務設定**   |         |         |
-|Microsoft Teams 會議室 Windows 設定的調查與指導方針，包括Microsoft Teams 會議室應用程式設定、第一方網路設定、第一方軟體設定，以及建議的電源設定和設定。     |任何不屬於 Microsoft Teams 會議室應用程式的協力廠商軟體設定和調查。 此外，任何需要在第一方視窗以外進行設定的 OEM 特定設定，或 Microsoft Teams 會議室應用程式設定。         |協力廠商標準支援通道         |
+|Microsoft Teams 會議室 Windows 設定的調查與指導方針，包括Microsoft Teams 會議室應用程式設定、第一方網路設定、第一方軟體設定，以及建議的電源設定和設定。     |任何不屬於 Microsoft Teams 會議室 應用程式的協力廠商軟體設定和調查。 此外，任何需要在第一方視窗以外進行設定的 OEM 特定設定，或Microsoft Teams 會議室應用程式設定。         |協力廠商標準支援通道         |
 |**會議室帳戶設定**    |         |         |
 |會議室帳戶設定的可用檔指示。 針對登入或帳戶設定問題，會執行初始調查。     |執行建議的補救或執行建議補救的問題、協力廠商驗證提供者的設定，以及個人帳戶功能的設定。        |Microsoft 主要支援和協力廠商驗證提供者支援         |
 |**周邊支援**    |         |         |
