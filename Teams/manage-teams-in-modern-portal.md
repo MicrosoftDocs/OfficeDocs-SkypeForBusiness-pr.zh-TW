@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: df00f6324d1f9a50adc42c8e8c5c4dfd2ff9bd14
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396324"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732292"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理團隊
 
@@ -149,3 +149,4 @@ Teams 概觀格線內的團隊清單中遺失您的部分團隊。
 - [Teams cmdlet 參考資料](/powershell/teams/)  
 - [使用 Teams 系統管理員角色以管理 Teams](using-admin-roles.md)
 - [Teams 中的生命週期管理方案](plan-teams-lifecycle.md)
+- [Microsoft 365 系統管理中心概觀](/microsoft-365/admin/admin-overview/admin-center-overview)

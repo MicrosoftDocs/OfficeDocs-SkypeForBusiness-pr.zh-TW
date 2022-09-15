@@ -1789,6 +1789,8 @@ items:
             href: teams-powershell-release-notes.md
           - name: Teams PowerShell 支援的版本。
             href: teams-powershell-supported-versions.md
+          - name: Teams PowerShell 模組中的應用程式型驗證
+            href: teams-powershell-application-authentication.md
           - name: 自商務用 Skype Online 連接器移至 Teams PowerShell 模組
             href: teams-powershell-move-from-sfbo.md
           - name: Teams 的 Cmdlet 參考

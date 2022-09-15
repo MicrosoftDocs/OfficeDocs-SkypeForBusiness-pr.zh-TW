@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: 瞭解 Microsoft 365 或 Office 365 中的音訊會議如何允許使用者從其電話撥入會議。
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269928"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732402"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>付費和免付費電話號碼的音訊會議原則設定
 
@@ -36,6 +36,9 @@ ms.locfileid: "67269928"
 
 - AllowTollFreeDialin 的設定無法再透過 Teams 系統管理中心或 PowerShell 管理個別使用者。 租使用者系統管理員只能透過新的音訊會議原則來管理此設定。
 - 無法從 Teams 系統管理中心修改全域原則。
+
+> [!NOTE]
+> 客戶不支援自訂音訊會議原則，商務用 Skype地區託管會議。 啟用地區託管會議的客戶可以透過預設設定來管理使用者的音訊會議設定。 您可以在 Teams 管理員 中心流覽至 [使用者 **管理**  ->  使用者] 選取 [**使用者**  ->  帳戶]，變更 **使用者**  ->  的音訊會議預設 **設定**。
 
 在租使用者中啟用 Teams 音訊會議原則時，租使用者中會自動建立兩個可用的原則。 這兩個原則會自動建立，其預設設定如下：
 
