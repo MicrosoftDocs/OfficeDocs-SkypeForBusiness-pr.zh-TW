@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams中的通話原則：通話和來電轉接功能
-author: SerdarSoysal
-ms.author: tonysmit
+title: Microsoft Teams 中的通話原則：通話和來電轉接功能
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
-ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
+ms.openlocfilehash: 6c785a6860c1ea45200253e9d2530a80e9dd28f6
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65601593"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67708263"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Teams中的通話和來電轉接
+# <a name="calling-and-call-forwarding-in-teams"></a>Teams 中的通話和來電轉接
 
-在Microsoft Teams中，通話原則可控制哪些呼叫和來電轉接功能可供使用者使用。 通話原則決定使用者是否可以撥打私人電話、使用來電轉接或同時撥打給其他使用者或外部電話號碼、將通話路由至語音信箱、將電話傳送給通話群組、使用委派進行輸入和撥出電話等等。
+在 Microsoft Teams 中，通話原則可控制哪些呼叫和來電轉接功能可供使用者使用。 通話原則決定使用者是否可以撥打私人電話、使用來電轉接或同時撥打給其他使用者或外部電話號碼、將通話路由至語音信箱、將電話傳送給通話群組、使用委派進行輸入和撥出電話等等。
 
 您可以使用全域 (組織的預設) 自動建立的原則，或建立及指派自訂原則。
 
@@ -37,7 +37,7 @@ ms.locfileid: "65601593"
 
 請依照下列步驟建立自訂通話原則。
 
-1. 在Microsoft Teams系統管理中心的左側導覽中，移至 **VoiceCalling** ****  >  原則。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **語音**  >  **通話原則**。
 2. 選取 [新增 **]**。
 3. 開啟或關閉通話原則中要使用的功能。
 4. 若要控制使用者是否可以將撥入電話路由至語音信箱，請選 **取 [已啟用** ] 或 [ **使用者控制]**。 若要防止路由到語音信箱，請選取 [ **已停用]**。
@@ -47,7 +47,7 @@ ms.locfileid: "65601593"
 
 請依照下列步驟編輯現有的通話原則。
 
-1. 在Microsoft Teams系統管理中心的左側導覽中，選取 **[VoiceCalling**  >  **原則]**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，選取 **[語音**  >  **通話原則]**。
 2. 按一下您要修改的原則旁邊，然後選取 [ **編輯]**。
 3. 進行您要的變更，然後按一下 [ **儲存]**。
 
@@ -61,7 +61,7 @@ ms.locfileid: "65601593"
 
 ### <a name="make-private-calls"></a>可進行私人通話
 
-此設定會控制Teams中的所有通話功能。 關閉此功能可關閉Teams中的所有通話功能。
+此設定會控制 Teams 中的所有通話功能。 關閉此功能可關閉 Teams 中的所有通話功能。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>來電轉接和同時撥打給組織中的人員
 
@@ -97,7 +97,7 @@ ms.locfileid: "65601593"
 
 ### <a name="web-pstn-calling"></a>Web PSTN 通話
 
-此設定可讓使用者使用Teams Web 用戶端撥打 PSTN 號碼。
+此設定可讓使用者使用 Teams Web 用戶端撥打 PSTN 號碼。
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>自動回答傳入的會議邀請
 
@@ -131,4 +131,4 @@ ms.locfileid: "65601593"
 
 [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
 
-[將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
+[在 Teams 中將原則指派給使用者](policy-assignment-overview.md)
