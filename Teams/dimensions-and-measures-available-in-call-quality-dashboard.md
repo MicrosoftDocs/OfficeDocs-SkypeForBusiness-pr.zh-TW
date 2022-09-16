@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: 8dda15990385db8e8ca9aeba7c56eba9d6b400ce
-ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
+ms.openlocfilehash: e59454349daf8121c759cef1cae350cf7294c1df
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67291419"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734617"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
@@ -399,6 +399,14 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 好  | Boolean  | 如果串流有足夠的資料可以分類為良好或不佳，且串流被歸類為良好，則為 True。 否則為 False。   |   |
 | 未分類  | Boolean  | 如果串流有足夠的資料可以分類為良好或不佳，則為 False。 否則為 True。 <br/>**範例值：** 1 |   |
 | OnePercent PacketLoss  | Boolean  | 如果封包遺失超過 1%，則為 True，否則為 False。  |   |
+| 偵測到輸入網路問題 | Boolean | 如果為 True，表示媒體串流可能因為輸入網路而受到影響，表示高度信賴度。 | &bull; 此維度僅適用于 *Stream Direction == 第一對秒的串流* |
+| 偵測到上傳連結問題| Boolean | 如果為 True，表示媒體串流可能因為網路上傳連結而受到影響的高信賴度。 | &bull; 此維度不適用於 P2P 通話。 |
+| 偵測到遠端輸入裝置問題 | Boolean | 如果為 True，表示媒體串流可能因為遠端擷取裝置而受到影響，表示高度信賴度。 |
+| 偵測到本機輸入裝置問題 | Boolean | 如果為 True，表示由於第一個端點上的轉譯裝置，媒體串流可能受到影響，表示高信賴度。 | &bull; 此維度僅適用于 *Stream Direction == 第一對秒的串流* |
+| 偵測到 Echo| Boolean | 如果為 True，表示對媒體串流可能因為回音而受到影響的高信賴度。|
+| 偵測到遠端計算問題 | Boolean | 如果為 True，表示由於遠端端的計算資源，媒體串流可能受到影響，表示高度信賴度。 |
+| 偵測到本機計算問題 | Boolean | 如果為 True，表示由於本機計算資源而可能影響媒體串流的高信賴度。 | &bull; 此維度僅適用于 *Stream Direction == 第一對秒的串流* |
+| 偵測到媒體模式問題 | Boolean | 如果為 True，表示使用者對輸入媒體串流體驗不佳的信賴度很高。 | &bull; 此維度僅適用于 *Stream Direction == 第一對秒的串流* |
 |**評級**||||
 | 第一個意見反應評等  | 使用者評分 (1-5)   | 以 1-5 刻度 (5 之第一端點與串流相關聯的通話評分 = 極佳) 。 0 表示使用者已顯示通話分級問卷，但並未為其體驗評分。  <br/> **範例值：** 5 | &bull; 未向第一個端點顯示任何問卷  |
 | 第二個意見反應評等  | 使用者評分 (1-5)   | 以 1-5 刻度為 5 之第二端點與串流關聯的通話評分 (5 = 極佳) 。 0 表示使用者已顯示通話分級問卷，但並未為其體驗評分。 <br/> **範例值：** 5 | &bull; 未向第二個端點顯示問卷   |
