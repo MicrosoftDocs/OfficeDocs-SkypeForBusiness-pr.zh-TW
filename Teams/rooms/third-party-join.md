@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文討論如何設定貴組織及Teams 會議室裝置，以支援加入 Cisco Webex 和 Zoom 的協力廠商會議。
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268198"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794992"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>啟用Teams 會議室裝置加入協力廠商會議
 
@@ -27,12 +27,15 @@ Microsoft Teams 會議室裝置支援加入協力廠商線上會議的單點觸�
 
 支援的裝置和服務：
 
-- Windows 上的 MTR，所有認證模型 – 縮放、Cisco Webex
+- Teams 會議室在 Windows 上，所有通過認證的型號 – 縮放、Cisco Webex
 
-- Android、Poly、Yealink 和 Logitech 認證型號上的 MTR – 縮放
+- Teams 會議室在 Android 上，所有通過認證的型號 – 縮放、Cisco Webex
+
+    > [!NOTE]
+    > Microsoft 會定期在 Android 上發行Teams 會議室的新功能。 不過，在功能發行時間與在裝置上推出功能之間可能會有延遲。 如果裝置上無法使用某項功能，請洽詢裝置製造商，以瞭解何時可以使用該功能。
 
 > [!NOTE]
-> 若要從Teams 會議室裝置加入 Cisco Webex 會議，Cisco 會議必須使用 Cisco Webex Web 應用程式版本 WBS 40.7 或更新版本託管在 Webex Meetings Pro 中。 
+> 若要從Teams 會議室裝置加入 Cisco Webex 會議，Cisco 會議必須使用 Cisco Webex Web 應用程式版本 WBS 40.7 或更新版本託管在 Webex Meetings Pro 中。
 
 在您可以從Teams 會議室加入協力廠商會議之前，您必須執行下列動作：
 

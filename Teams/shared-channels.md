@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647547"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795072"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -174,6 +174,7 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 - 活動
 - Adobe Acrobat Sign
 - Asana
+- Calendar Pro
 - 通話
 - 聊天
 - Code by Vivani

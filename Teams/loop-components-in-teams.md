@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418642"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795052"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams 中的迴圈元件概觀
 
@@ -82,7 +82,7 @@ OneDrive 保留原則會套用至 .fluid 檔案，就像套用到使用者建立
 
 - Teams 訊息中的建立/插入進入點將會隱藏。 使用者將無法建立新的 .fluid 檔案。
 - 先前已呈現為互動式 Loop 元件的現有郵件，會改為轉譯為超連結「迴圈元件」。 Teams 中不會顯示任何互動式內容。
-- 當使用者按一下 [迴圈元件] 超連結，或流覽至商務用 OneDrive中的 .fluid 檔案並按一下以開啟時，該檔案會在另一個瀏覽器索引標籤中開啟，但使用者將無法編輯檔案。
+- 當使用者按一下 [迴圈元件] 超連結，或流覽至 商務用 OneDrive 中的 .fluid 檔案並按一下以開啟時，該檔案會在另一個瀏覽器索引標籤中開啟。使用者仍然可以編輯檔案。
 
 ## <a name="known-issues"></a>已知的問題
 

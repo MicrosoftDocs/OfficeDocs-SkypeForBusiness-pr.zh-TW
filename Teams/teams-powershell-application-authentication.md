@@ -12,12 +12,12 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組中的應用程式型驗證。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea836225658292c312490704305261210ba0991c
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732778"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795062"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模組中的應用程式型驗證
 
@@ -80,10 +80,14 @@ Teams PowerShell 模組會使用應用程式識別碼、租使用者識別碼和
 使用應用程式物件進行驗證時需要初始上線。 應用程式與服務主體會交替使用，但應用程式就像是類別物件，而服務主體就像是類別的實例。 您可以在 [Azure Active Directory 中的應用程式與服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals)深入瞭解這些物件。
 
 下方提及在 Azure Ad 中建立應用程式的高層級步驟，以取得詳細步驟，請參閱 [本文](/azure/active-directory/develop/howto-create-service-principal-portal)。
-  1. 在 Azure AD 中註冊應用程式
-  2. 產生自我簽署憑證
-  3. 將憑證附加至 Azure AD 應用程式
-  4. 指派 Azure AD 角色給應用程式
+
+1. 在 Azure AD 中註冊應用程式
+2. 指派 API 許可權給應用程式
+   - 對於 \* -Cs Cmdlet - 不需要 API 許可權。
+   - 針對非 \* Cs Cmdlet - 需要的 Microsoft 圖形 API許可權為 `User.Read.All` 、 `Group.ReadWrite.All` 、、 `AppCatalog.ReadWrite.All` 、 `TeamSettings.ReadWrite.All` 、、 `Channel.Delete.All` `ChannelSettings.ReadWrite.All` `ChannelMember.ReadWrite.All`  
+3. 產生自我簽署憑證
+4. 將憑證附加至 Azure AD 應用程式
+5. 指派 Azure AD 角色給應用程式
 
 應用程式需要指派適當的 RBAC 角色。 由於應用程式是在 Azure AD 中布建，因此您可以使用任何支援的內建角色。
  

@@ -32,6 +32,9 @@
 
 - 解決方案提供者使用[ <span class="underline">Microsoft 認證會話框線控制器 (SBC) </span>](../direct-routing-border-controllers.md)
 
+> [!NOTE]
+> 使用連絡人解決方案的專員不需要電話系統授權。 Teams 使用者確實需要電話系統授權和電話號碼，才能轉接專員的來電。
+
 ### <a name="the-extend-model"></a>[**延伸模型**](#tab/extend)
 
 延伸模型與 Teams 用戶端整合，使用 Microsoft Graph 中 [Teams 用戶端平臺](/microsoftteams/platform/overview)、 [Teams 圖形 API](/graph/api/resources/teams-api-overview) 和 [雲端通訊 API](/graph/api/resources/communications-api-overview)。 延伸模式也會針對所有連絡人中心通話和通話控制體驗使用 Teams 電話系統，而聯繫中心解決方案提供者會同時做為電話語音電信業者與 Microsoft 365 一起運作。
@@ -60,8 +63,7 @@
 
 - 在所有應用程式中保留 Teams 用戶端體驗的效能和品質
 
-> [!NOTE]
-> 專員 Bot 不需要電話系統授權。 Teams 使用者確實需要電話系統授權和電話號碼。
+
 
 ### <a name="the-power-model"></a>[**電源模型**](#tab/power)
 
