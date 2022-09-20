@@ -6,18 +6,19 @@ manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: MET150
 description: 了解您需要設定的設定，以控制貴組織中的小組擁有者是否可以同意應用程式。
 ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cde84f4662b507b8497973436b9b713223fdbf74
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396464"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837323"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams 中的資源特定同意
 
