@@ -25,37 +25,37 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 75ccc3c0953df013b2e13868f960a13d10ac13f0
-  ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+  ms.openlocfilehash: 2ebea73a5311798aca39697fa14a698eedb0e1bb
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/18/2022
-  ms.locfileid: "66838888"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808535"
 productDirectory:
   summary: 按一下研討會標題以註冊或存取隨選錄製。
   items:
   - title: 在 Teams 中負責音訊/視訊品質
-    imageSrc: https://docs.microsoft.com/office/media/icons/health-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/health-teams.svg
     summary: 想要確保使用者在會議和語音功能上擁有最佳體驗嗎？ 我們將討論從建立主動策略到解決常見問題的工具、報告和最佳做法，以協助您管理服務品質。
     url: https://aka.ms/ChalkTalkAVQuality
   - title: 所以。。。您想要使用 Teams 撥打電話嗎？
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/headset-teams.svg
     summary: 加入我們，深入瞭解如何將 PSTN 通話功能新增至您的 Teams 部署。 我們將一起逐步瞭解通話術語、重要概念和設定。
     url: https://aka.ms/ChalkTalkCalling
   - title: 使用 Microsoft Teams 為您的即時活動提供功能
-    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/presenter-teams.svg
     summary: 使用 Microsoft Teams 參與大型線上虛擬活動並吸引觀眾。 瞭解最佳做法以確保您的活動成功。
     url: https://aka.ms/ChalkTalksVirtualEvents
   - title: Teams 基礎中的應用程式
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
     summary: 此基礎會話涵蓋基本功能，包括應用程式管理和安全性。 瞭解如何將您的工作流程、生產力應用程式，以及您每天使用的服務整合成單一統一的體驗。
     url: https://aka.ms/ChalkTalkApps
   - title: 使用 Teams 中的應用程式來加值金鑰工作流程
-    imageSrc: https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
     summary: 將貴組織仰賴的應用程式帶入 Teams，以連接您的系統、提高自動化程度，並為使用者提供改良的體驗。
     url: https://aka.ms/ChalkTalkKeyApps
   - title: 讓您的前線員工能夠使用 Teams 完成更多工作
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/devices-2-teams.svg
     summary: 探索最佳做法，為您的第一線員工規劃並實作有效率的交談、資訊共用和排程管理的簡化體驗。
     url: https://aka.ms/TeamsFLW
 additionalContent:

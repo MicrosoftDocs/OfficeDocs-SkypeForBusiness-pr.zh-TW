@@ -21,19 +21,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22f778158965134cec673a97373a83d7fe95544d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 751263d9f5afddc6f73afd89458a5e004ce428f4
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045832"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808794"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>開始在整個組織推出 Microsoft Teams
 
 現在，您已成功設定您的第一個 Teams 並讓一些早期採用者快速上手，是時候開始將 Teams 推出至組織的其餘部分。
 
 > [!TIP]
-> 在您開始推動 Teams 之前，我們強烈建議您完成 [Microsoft 365 和 Microsoft Learn 模組的 Teams 部署](/learn/modules/m365-teams-collab-prepare-deployment/)。 這個 30 分鐘的單元模組會讓您快速開始瞭解 Teams，並討論您在推出 Teams 時需做出的重要決策。
+> 在您開始推動 Teams 之前，我們強烈建議您完成 [Microsoft 365 和 Microsoft Learn 模組的 Teams 部署](/training/modules/m365-teams-collab-prepare-deployment/)。 這個 30 分鐘的單元模組會讓您快速開始瞭解 Teams，並討論您在推出 Teams 時需做出的重要決策。
 >
 > 如果您想要查看更多適用於 Teams 的學習路徑和模組，請參閱 [Microsoft Learn for Teams](/learn/teams/)。
 

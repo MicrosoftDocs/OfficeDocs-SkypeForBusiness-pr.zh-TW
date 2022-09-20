@@ -1,6 +1,6 @@
 ### YamlMime:Hub
-title: Microsoft 365 Teams 電話系統通話方案檔
-summary: 瞭解如何在貴組織中規劃、設定及使用Microsoft Teams 電話系統與通話方案。 Teams 電話系統通話方案可讓中小型組織輕鬆設定功能強大且彈性的電話系統，而不需要花費費用且複雜的內部解決方案。
+title: 含通話方案檔的 Microsoft 365 Teams 電話系統
+summary: 瞭解如何在貴組織中規劃、設定及使用Microsoft Teams 電話系統與通話方案。 Teams 電話系統與通話方案可讓中小型組織輕鬆設定功能強大且彈性的電話系統，而不需要花費費用且複雜的內部解決方案。
 metadata:
   title: Microsoft Teams 電話系統與通話方案檔
   description: 瞭解如何透過通話方案規劃、部署及使用Microsoft Teams 電話系統。
@@ -8,36 +8,36 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 3ddbe9ac2d6882cef72f9aa3b3bc7a5a2525e0d2
-  ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+  ms.openlocfilehash: e1d1ceffeeaed9d2f6175ce2c7755349c756207c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 06/16/2022
-  ms.locfileid: "66124148"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808224"
 productDirectory:
   items:
   - title: 探索
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-blue.svg
     links:
     - url: whats-business-voice.md
-      text: Teams 電話系統中小型企業的通話方案指導方針
+      text: 具有中小型企業通話方案指導方針的 Teams 電話系統
     - url: https://www.microsoft.com/microsoft-teams/microsoft-teams-phone
       text: Microsoft Teams 電話
     - url: /office365/servicedescriptions/teams-service-description
-      text: Teams服務描述
+      text: Teams 服務描述
   - title: 設定
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/deploy-blue.svg
     links:
     - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
-      text: 如何使用通話方案取得Teams 電話系統
+      text: 如何使用通話方案取得 Teams 電話系統
     - url: get-ready-internet.md
       text: 檢查您的網際網路連線
     - url: prepare-users.md
       text: 讓您的使用者準備就緒
     - url: set-up-overview.md
-      text: 使用通話方案設定Teams 電話系統
+      text: 使用通話方案設定 Teams 電話系統
   - title: 自訂您的設定
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-blue.svg
     links:
     - url: port-phone-numbers.md
       text: 移植現有的電話號碼
@@ -48,7 +48,7 @@ productDirectory:
     - url: ./create-a-phone-system-call-queue-smb.md
       text: 設定通話佇列
   - title: 用途
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-blue.svg
     links:
     - url: create-users.md
       text: 建立更多使用者
@@ -59,26 +59,26 @@ productDirectory:
     - url: analytics-dashboard.md
       text: 通話分析品質儀表板
   - title: 合作夥伴的資源
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/success-blue.svg
     links:
     - url: /partner-center/
       text: 從合作夥伴中心取得 Microsoft 365 商務版
     - url: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
-      text: 使用通話方案合作夥伴播放簿Microsoft 365 Teams 電話系統
+      text: Microsoft 365 Teams Phone System with Calling Plan Partner Playbook
   - title: 需要協助嗎？
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
     links:
     - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
       text: 連絡 Microsoft 365 或 Office 365 客戶支援
     - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
       text: 中小型企業技術社群
   - title: 說明文件
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
     links:
     - url: ../cloud-voice-landing-page.md
       text: Microsoft Teams 系統管理文件
     - url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
-      text: Microsoft Teams意見反應入口網站
+      text: Microsoft Teams 意見反應入口網站
     - url: https://support.office.com/teams
       text: Microsoft Teams 用戶端文件
     - url: /office365/admin/

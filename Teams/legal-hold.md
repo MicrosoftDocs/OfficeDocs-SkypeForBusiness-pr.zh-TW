@@ -1,7 +1,7 @@
 ---
-title: 將Microsoft Teams使用者或小組依法保留
-author: v-tophillips
-ms.author: v-tophillips
+title: 將 Microsoft Teams 使用者或團隊置於法律保留狀態
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -12,24 +12,24 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解如何使用 Microsoft Purview 合規性入口網站，將Microsoft Teams使用者或小組設為法律保留狀態，並瞭解哪些專案需要根據資料需求進行法律保留。
+description: 瞭解如何使用Microsoft Purview 合規性入口網站將 Microsoft Teams 使用者或小組設為法律保留狀態，並瞭解哪些專案需要根據資料需求進行法律保留。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: 2dc99518aa3580311c48966105ccc4b4ba6cf518
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031908"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808754"
 ---
-# <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>將Microsoft Teams使用者或小組依法保留
+# <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>將 Microsoft Teams 使用者或團隊置於法律保留狀態
 
-當合理的訴訟預期存在時，組織必須保留 ESI)  (電子儲存的資訊，包括Teams與案例相關的聊天訊息。 組織可能需要保留與特定調查或特定人員相關的所有郵件。 本文將討論如何使用法律保留來保留Microsoft Teams中的內容。 若要在Microsoft 365中保留其他服務中的內容，請參閱[建立電子檔探索保留](/microsoft-365/compliance/create-ediscovery-holds)。
+若有合理的訴訟預期，組織就必須保留 ESI)  (電子儲存的資訊，包括與案例相關的 Teams 聊天訊息。 組織可能需要保留與特定調查或特定人員相關的所有郵件。 本文將討論如何使用法律保留來保留 Microsoft Teams 中的內容。 若要在 Microsoft 365 中保留其他服務中的內容，請參閱 [建立電子檔探索保留](/microsoft-365/compliance/create-ediscovery-holds)。
 
 > [!NOTE]
 > 在 2020 年 2 月，我們針對私人頻道開啟了法律保留。 私人頻道聊天會儲存在使用者信箱中，而標準頻道聊天則儲存在與上層團隊相關聯的信箱中。 如果使用者信箱已有法律保留，保留原則現在會自動套用至儲存在該信箱中的私人頻道訊息。 系統管理員不需要採取其他動作即可開啟此功能。 也支援以法律方式保留在私人頻道中共用的檔案。
 
-在Microsoft Teams內，整個小組或選取的使用者都可以受到法律保留。 這麼做可確保組織合規性管理員或Teams管理員能夠搜尋這些小組中所有 (包括私人和共用頻道) 或由這些人員交換的訊息。
+在 Microsoft Teams 中，整個團隊或選取的使用者可以受到法律保留。 這樣做可確保組織合規性管理員或 Teams 系統管理員能夠搜尋這些團隊中所有 (包括私人和共用頻道) 或由這些人員交換的訊息。
 
 > [!NOTE]
 > 將使用者設為保留狀態並不會自動將群組設為保留狀態，反之亦然。
@@ -37,14 +37,14 @@ ms.locfileid: "65031908"
 
 若要在 eDiscovery (標準) 案例中保留使用者或小組：
 
-1. 移至 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com)。 當您建立新案例時，系統會顯示保留信箱或網站的選項。
+1. 移至[Microsoft Purview 合規性入口網站](https://compliance.microsoft.com)。 當您建立新案例時，系統會顯示保留信箱或網站的選項。
 
-2. 按一下 [建立案例]，移至 **eDiscoveryCore**  >  並建立 **案例**。**** 建立案例之後，請將它開啟。
+2. 按一下 [建立案例]，移至 **eDiscovery**  >  **Core** 並建立 **案例**。 建立案例之後，請將它開啟。
   
-   ![Microsoft Teams已選取電子檔探索索引標籤，顯示 [建立案例] 按鈕。](media/LegalHold1.png)
+   ![已選取 [Microsoft Teams 電子檔探索] 索引標籤，顯示 [建立案例] 按鈕。](media/LegalHold1.png)
 
    > [!NOTE]
-   > 您也可以將使用者置於與 eDiscovery (進階版) 案例相關聯的保留中。 如需詳細資訊，請參閱[管理電子檔探索 (進階版) 中的保留](/microsoft-365/compliance/managing-holds)。
+   > 您也可以將使用者設為與 eDiscovery (Premium) 案例相關聯的保留。 如需詳細資訊，請參閱 [管理 eDiscovery (Premium) 中的保留 ](/microsoft-365/compliance/managing-holds)。
 
 3. 移至頂端功能表上的 [ **保留** ] 索引標籤，然後按一下 [ **建立** ] 以建立保留。 保留使用者或小組會保留這些使用者交換的所有訊息。 當您建立新案例時，系統會顯示保留信箱或網站的選項。
 
@@ -62,21 +62,21 @@ ms.locfileid: "65031908"
 
    4. 建立保留之前，請先 **檢閱您的設定**。
 
-保留建立之後，您可以搜尋保留原則保留的內容。 如需詳細資訊，請參閱[在 Teams 中進行電子檔探索調查](eDiscovery-investigation.md)。
+保留建立之後，您可以搜尋保留原則保留的內容。 如需詳細資訊，請參閱 [在 Teams 中進行電子檔探索調查](eDiscovery-investigation.md)。
 
 > [!IMPORTANT]
 > 當使用者或群組被保留時，所有郵件的合規性複本都會保留。 例如，如果使用者在頻道中張貼訊息，然後修改郵件，則會保留這兩份郵件複本。 若不保留，只會保留最新的郵件。
 
-## <a name="content-locations-to-place-on-hold-to-preserve-teams-content"></a>保留內容位置以保留Teams內容
+## <a name="content-locations-to-place-on-hold-to-preserve-teams-content"></a>保留內容位置以保留 Teams 內容
 
-如需實用的指南，請使用下表瞭解信箱或網站等 (要保留的內容位置) ，以保留不同類型的Teams內容。
+如需實用的指南，請使用下表瞭解信箱或網站等 (要保留的內容位置，例如) 保留哪些內容位置，以保留不同類型的 Teams 內容。
 
 |案例  |內容位置  |
 |---------|---------|
 |使用者 (聊天訊息，例如 1：1 聊天、1：N 群組聊天，以及私人頻道交談)      |使用者信箱         |
 |標準和共用頻道中的聊天訊息    |與父團隊相關聯的信箱         |
-|標準頻道中的檔案 (例如 Wiki 內容和檔案)      |SharePoint與上層小組相關聯的網站        |
-|私人和共用頻道中的檔案     |與頻道相關聯的專用SharePoint網站
+|標準頻道中的檔案 (例如 Wiki 內容和檔案)      |與上層小組相關聯的 SharePoint 網站        |
+|私人和共用頻道中的檔案     |與頻道相關聯的專用 SharePoint 網站
 |使用者的私人內容     |使用者的商務用 OneDrive帳戶       |
 |聊天中的卡片內容|1 對 1 聊天、1：N 群組聊天和私人頻道交談的使用者信箱;標準和共用頻道訊息中卡片內容的上層團隊信箱。 如需詳細資訊，請參閱 [建立電子檔探索保留](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)中的一節。|
 |||

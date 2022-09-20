@@ -24,20 +24,20 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
-  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.openlocfilehash: 6ae30ce1693944d10048ca1172657329202d7c0c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/14/2022
-  ms.locfileid: "66794521"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808654"
 productDirectory:
   items:
   - title: 規劃您的升級 (從這裡開始！)
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-teams.svg
     summary: '不論您是在 商務用 Skype Online (2021 年 7 月 31 日淘汰之前升級至 Teams，) 或將案例從您的商務用 Skype內部部署環境移至 Teams，成功的轉換會同時解決技術和使用者整備的問題。 探索我們經驗證的架構、最佳做法和資源，其設計可協助您順利從 商務用 Skype Online、商務用 Skype Server 或混合式環境轉換到 Teams。 物件 – 所有 (商務贊助者、IT 系統管理員、使用者整備/變更管理員、專案負責人) '
     url: https://aka.ms/SfBtoTeamsPlan
   - title: 實作您的 Teams 升級
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
     summary: 請加入我們，根據您的目標和您目前的商務用 Skype環境，找出並準備執行將所有工作負載移至 Teams 的最佳技術方法。 大多數已完成成功轉換的客戶都已啟用 Teams，同時支援 Teams 目前的 商務用 Skype Online、商務用 Skype Server 或混合式實作。 本會話將分享重要的考慮事項和寶貴的資源，以協助您定義組織的最佳移轉策略。 物件 - IT 系統管理員
     url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:

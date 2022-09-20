@@ -18,12 +18,12 @@ ms.custom:
 description: 訓練影片、PowerPoint 投影片組、教學課程，以及系統管理員如何規劃、部署和執行 Microsoft Teams 的其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486898"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808374"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -39,8 +39,8 @@ ms.locfileid: "67486898"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**適用于 IT 的 Teams 基本**](https://aka.ms/MicrosoftTeamsforIT) 功能 - Microsoft Mechanics「適用于 IT 的 Teams」影片系列會示範系統管理員您如何推出、設定及管理 Teams。     |[**支援使用 Microsoft Teams 的遠端工作者**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 取得您需要的指導方針，包括訓練連結，以支援在家工作的使用者。         |[**管理適用于 IT 的團隊共同作業**](/learn/paths/m365-manage-team-collaboration) - 瞭解如何使用 Teams 促進組織內跨應用程式和裝置的團隊合作和通訊。         |
-|[**服務採用專家認證**](/learn/paths/m365-service-adoption) - Microsoft 服務採用專家認證課程提供 Teams 功能。 瞭解如何在貴組織中進行 Microsoft 服務的採用。     |[**Microsoft 365 中的團隊合作簡介**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 服務採用專家認證課程提供 Teams 功能。 瞭解如何在貴組織中進行 Microsoft 服務的採用。        |[**Microsoft 365 認證：團隊工作系統管理員關聯**](/learn/certifications/m365-teamwork-administrator)- Microsoft 365 團隊工作系統管理員設定、部署和管理 Microsoft 365 或Office 365工作負載，例如 SharePoint (線上、內部部署和混合式) 、OneDrive 和 Teams。        |
+|[**適用于 IT 的 Teams 基本**](https://aka.ms/MicrosoftTeamsforIT) 功能 - Microsoft Mechanics「適用于 IT 的 Teams」影片系列會示範系統管理員您如何推出、設定及管理 Teams。     |[**支援使用 Microsoft Teams 的遠端工作者**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 取得您需要的指導方針，包括訓練連結，以支援在家工作的使用者。         |[**管理適用于 IT 的團隊共同作業**](/training/paths/m365-manage-team-collaboration) - 瞭解如何使用 Teams 促進組織內跨應用程式和裝置的團隊合作和通訊。         |
+|[**服務採用專家認證**](/training/paths/m365-service-adoption) - Microsoft 服務採用專家認證課程提供 Teams 功能。 瞭解如何在貴組織中進行 Microsoft 服務的採用。     |[**Microsoft 365 中的團隊合作簡介**](/training/modules/intro-to-teamwork-in-m365/index) - Microsoft 服務採用專家認證課程提供 Teams 功能。 瞭解如何在貴組織中進行 Microsoft 服務的採用。        |[**Microsoft 365 認證：團隊工作系統管理員關聯**](/certifications/m365-teamwork-administrator)- Microsoft 365 團隊工作系統管理員設定、部署和管理 Microsoft 365 或Office 365工作負載，例如 SharePoint (線上、內部部署和混合式) 、OneDrive 和 Teams。        |
 
 <h2>技術訓練</h2>
 

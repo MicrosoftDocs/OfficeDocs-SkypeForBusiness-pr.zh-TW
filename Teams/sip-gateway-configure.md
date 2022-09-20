@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270488"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808874"
 ---
 # <a name="configure-sip-gateway"></a>設定 SIP 閘道
 
@@ -120,7 +120,7 @@ ms.locfileid: "67270488"
 - 美洲： `http://noam.ipp.sdg.teams.microsoft.com`
 - 亞太： `http://apac.ipp.sdg.teams.microsoft.com`
 
-在您的 DHCP 伺服器中設定上述 SIP 閘道布建伺服器 URL，將 SIP 裝置新增至您的 Teams 組織。 若要深入瞭解 DHCP 伺服器，請參閱 [部署和管理 DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol)。 此外，您也可以使用 DHCP 選項 42 來指定網路時間通訊協定 (NTP) 伺服器，而 DHCP 選項 2 則可在幾秒內指定從協調通用時間 (UTC) 的位移。 貴組織中的裝置將會路由至 SIP 閘道布建伺服器。 已成功布建的 SIP 手機會顯示 Teams 標誌和用於登入的柔和按鈕。
+在您的 DHCP 伺服器中設定上述 SIP 閘道布建伺服器 URL，將 SIP 裝置新增至您的 Teams 組織。 若要深入瞭解 DHCP 伺服器，請參閱 [部署和管理 DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol)。 此外，您也可以使用 DHCP 選項 42 來指定網路時間通訊協定 (NTP) 伺服器，而 DHCP 選項 2 則可在幾秒內指定從協調通用時間 (UTC) 的位移。 貴組織中的裝置將會路由至 SIP 閘道布建伺服器。 已成功布建的 SIP 手機會顯示 Teams 標誌和用於登入的柔和按鈕。
 
 確定 SIP 裝置在最低支援的韌體版本上進行上線。 在上線期間，SIP 閘道會將預設設定和驗證使用者介面推送到裝置。 若要瞭解 SIP 裝置所需的韌體版本，請參閱 [規劃 SIP 閘道](sip-gateway-plan.md)。
 

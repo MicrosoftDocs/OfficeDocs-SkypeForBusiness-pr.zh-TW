@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045842"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808804"
 ---
 # <a name="get-started-with-microsoft-teams"></a>開始使用 Microsoft Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "66045842"
 如果您是 Teams 的新使用者，熟悉 Teams 的最好方式就是立即開始使用 Teams。 Teams 的最大優點就是，您現在所設定的任何事項，都不會影響您稍後可能需要執行的任何升級或移轉動作。
 
 > [!TIP]
-> 查看在 [Microsoft Learn for Teams](/learn/teams/) 中可以使用的學習路徑和模組。 您可以參觀 [Teams 系統管理中心](/learn/modules/m365-teams-navigate-admin-portal/)、瞭解如何 [設定適用於 Teams 的網路](/learn/modules/m365-teams-connectivity/)、取得如何以最佳方式 [將使用者上線至 Teams](/learn/modules/m365-teams-onboard-users/) 的想法和其他資訊！
+> 查看在 [Microsoft Learn for Teams](/training/teams/) 中可以使用的學習路徑和模組。 您可以參觀 [Teams 系統管理中心](/training/modules/m365-teams-navigate-admin-portal/)、瞭解如何 [設定適用於 Teams 的網路](/training/modules/m365-teams-connectivity/)、取得如何以最佳方式 [將使用者上線至 Teams](/training/modules/m365-teams-onboard-users/) 的想法和其他資訊！
 
 使用下列步驟來設定幾個團隊，並導入一些早期採用者，以協助您熟悉 Teams。
 

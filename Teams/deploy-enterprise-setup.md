@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f350e894148ef278a10e379d8a32b48202acd85d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 05196c679f1f45c9e89fe09973282c01181127e0
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045992"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808384"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在您的企業中設定 Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "66045992"
 我們強烈建議使用 [Teams 建議程式](https://admin.teams.microsoft.com/teams-deployment) 來協助您進行部署。 如需 Teams 建議程式運作方式的詳細資訊，請參閱 [使用 Advisor for Teams 來協助您開始使用 Microsoft Teams](use-advisor-teams-roll-out.md)。
 
 > [!TIP]
-> 完成 Microsoft Learn 上的 [使用 Teams 建議程式以開始使用](/learn/modules/m365-teams-rollout-using-advisor/) 模組，以瞭解如何使用 Teams 建議程式來協助您規劃 Teams 部署。
+> 完成 Microsoft Learn 上的 [使用 Teams 建議程式以開始使用](/training/modules/m365-teams-rollout-using-advisor/) 模組，以瞭解如何使用 Teams 建議程式來協助您規劃 Teams 部署。
 
 如需規劃 Teams 的詳細資訊，請參閱 [Teams 企業部署概觀](deploy-enterprise-overview.md)。
 
@@ -58,7 +58,7 @@ ms.locfileid: "66045992"
 聊天、團隊和頻道是 Teams 的基礎。 **聊天** 可讓一或多個使用者彼此交談、共用檔案，以及私下開會。 **Teams**，讓貴組織所有人或只有團隊中的人員可以看到，讓適當的人員無論工作或場合進行共同合作，無論是長時間執行的專案或規劃生日派對。 團隊中的 **頻道** 可以區隔主題、專案、部門或其他任何對您的團隊有意義的項目。 如需聊天、團隊和頻道的詳細資訊，請參閱 [團隊和頻道概觀](teams-channels-overview.md)。
 
 > [!TIP]
-> 在 Microsoft Learn 上完成 [管理 Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) 模組，以瞭解如何管理團隊角色、存取權限與訊息傳遞原則。
+> 在 Microsoft Learn 上完成 [管理 Microsoft Teams](/training/modules/m365-teams-collab-manage-teams/) 模組，以瞭解如何管理團隊角色、存取權限與訊息傳遞原則。
 
 ### <a name="administration-and-team-ownership"></a>系統管理和團隊擁有權
 
@@ -88,7 +88,7 @@ ms.locfileid: "66045992"
 **音訊會議** 可讓參與者透過撥打會議電話號碼並輸入會議識別碼使用一般電話來加入會議。 當參與者沒有良好的網路連線、會議為僅供語音使用，或某些不允許參與者透過 Teams 用戶端加入會議的情況時，音訊會議便非常有用。
 
 > [!TIP]
-> 完成 Microsoft Learn 上的 [使用 Microsoft Teams 來管理會議、召集會議與活動](/learn/modules/m365-teams-collab-manage-meetings) 模組，以更加熟悉會議與活動。
+> 完成 Microsoft Learn 上的 [使用 Microsoft Teams 來管理會議、召集會議與活動](/training/modules/m365-teams-collab-manage-meetings) 模組，以更加熟悉會議與活動。
 
 ### <a name="meetings"></a>會議
 
@@ -159,7 +159,7 @@ Teams 和 Microsoft 365 提供許多工具，協助符合貴公司和使用者�
 確定所有將使用 Teams 的人都擁有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
 
 > [!TIP]
-> 完成 Microsoft Learn 上的 [部署 Microsoft Teams 用戶端](/learn/modules/m365-teams-collab-deploy-clients/) 模組，以取得規劃 Teams 用戶端部署的建議。
+> 完成 Microsoft Learn 上的 [部署 Microsoft Teams 用戶端](/training/modules/m365-teams-collab-deploy-clients/) 模組，以取得規劃 Teams 用戶端部署的建議。
 
 如果貴組織使用 Microsoft Endpoint Configuration Manager、群組原則或協力廠商分配機制，將軟體部署到使用者的電腦上，請參閱 [使用 Microsoft Endpoint Configuration Manager 來安裝 Microsoft Teams](msi-deployment.md)。
 
