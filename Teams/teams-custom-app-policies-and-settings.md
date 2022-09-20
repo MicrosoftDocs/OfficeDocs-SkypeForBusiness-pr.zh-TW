@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
+ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
 ms.collection:
@@ -22,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d52fe50ba3fa02b3b39269fd06ce66ea0dfb5b32
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397244"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837163"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自訂應用程式原則和設定
 
-做為系統管理員，您可以使用自訂應用程式原則和設定，控制貴組織中可將自訂應用程式上傳至 Microsoft Teams 的人員。 系統管理員決定可上傳自訂應用程式的使用者，而系統管理員與小組擁有者可判斷貴組織中的特定小組是否可將自訂應用程式新增至其小組。  編輯自訂應用程式原則之後，變更可能需要幾個小時的時間才會生效。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
+做為系統管理員，您可以使用自訂應用程式原則和設定，控制貴組織中可將自訂應用程式上傳至 Microsoft Teams 的人員。 系統管理員決定可上傳自訂應用程式的使用者，而系統管理員與小組擁有者可判斷貴組織中的特定小組是否可將自訂應用程式新增至其小組。  編輯自訂應用程式原則之後，變更可能需要幾個小時的時間才會生效。 您必須是全域管理員或 Teams 服務系統管理員，才能管理這些原則。
 
 貴組織內的開發人員可透過將應用程式套件 (.zip 檔案中) 直接上傳至小組或個人內容中，將自訂應用程式新增至 Teams。 這與透過 Teams 應用程式市集新增應用程式的方式不同。 透過上傳應用程式套件新增自訂應用程式 (也稱為側載)，讓貴組織的特定使用者在應用程式就緒廣泛散佈前先測試該應用程式。
 

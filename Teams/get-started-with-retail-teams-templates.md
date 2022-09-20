@@ -20,14 +20,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396294"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837333"
 ---
 # <a name="use-retail-team-templates"></a>使用零售團隊範本
+
+## <a name="overview"></a>概觀
 
 Microsoft Teams 的團隊範本提供預先定義的設定、頻道和預先安裝應用程式的團隊結構, 讓您快速且輕鬆地建立團隊。
 
@@ -50,26 +52,28 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 我們目前提供下列預先建立的零售團隊範本。 若要查看, 請前往 Teams 系統管理中心左側版面配置, 前往 **Teams** > **團隊範本**。
 
-### <a name="organize-a-store"></a>組織商店
+> [!NOTE]
+> 星號 (*) 表示範本是 *Microsoft 365 連線的範本*。 當使用者使用範本建立團隊時，連線的 SharePoint 範本會套用至網站和小組。 網頁、清單和 Power Platform 整合等 SharePoint 元件會自動新增並釘選為小組中 [一般] 頻道的索引標籤。 使用者可以直接從 Teams 中編輯這些頁面和清單。
+>
+> 若要深入瞭解 SharePoint 範本，請參閱 [套用及自訂 SharePoint 網站範本](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)。
 
-將零售員工彙集在集中的體驗，以管理工作、共用文件及解決客戶問題。 整合其他應用程式，以簡化班次的開始與結束程序。
+### <a name="manage-a-store"></a>管理市集*
 
-| 範本類型 |TemplateId | 此範本提供的屬性 |
-| ------------------|-- |----------------------------------------------------- |
-|組織商店| `retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>存放區整備<ul><li>檢查&sup1;</li></ul></li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>班次</li><li>檢查</li></ul>|
+將零售員工彙集在集中的體驗，以管理工作、共用文件及解決客戶問題。 整合其他應用程式以簡化班次開始和結束程式。
 
-&sup1;應用程式已做為索引標籤新增到頻道
+> [!div class="mx-tdBreakAll"]
+>| 範本類型 |TemplateId | 此範本提供的屬性 |
+>| ------------------|-- |----------------------------------------------------- |
+>| 管理市集| `retailStore` |頻道： <ul><li>一般<li>Shift Handoff</li><li>Microsoft Store 整備</li><li>Learning</li></ul> 應用程式： <ul><li>核准</li><li>檢查</li><li>清單<ul><li>庫存清單</li></ul></li><li>SharePoint Pages<ul><li>我們的商店</li></ul></li><li>班次</li><li>Planner 和 To Do 的工作</li><li>Wiki</li></ul>|
 
-### <a name="manager-collaboration"></a>主管共同作業
+### <a name="retail-for-managers"></a>適用于經理的零售*
 
-管理員共同作業範本適合用來建立團隊，以讓一組主管跨商店及區域等進行共同作業。例如，如果您的組織有不同地區，您可以為加州地區建立主管共同作業團隊，並包含該區域的所有商店主管，以及該地區的地區主管。
+為一組主管建立一個團隊，以便跨商店或地區共同作業。 例如，如果您的組織有地區，您可以為加州地區建立一個小組，並包含該區域的所有店面管理員，以及該地區的地區經理。
 
-| 範本類型| TemplateId | 此範本提供的屬性 |
-| ------------------|- |----------------------------------------------------- |
-|零售管理員|`retailManagerCollaboration` |頻道： <ul><li>一般<li>營運<ul><li>工作 (作業工作)&sup1;</li><li>檢查&sup1;</li></ul></li><li>學習<ul><li>工作 (Learning 工作)&sup1;</li></ul></li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>檢查</li></ul>|
-||||
-
-&sup1;應用程式已做為索引標籤新增到頻道
+> [!div class="mx-tdBreakAll"]
+>| 範本類型| TemplateId | 此範本提供的屬性 |
+>| ------------------|- |----------------------------------------------------- |
+>| 適用于經理的零售| `retailManagerCollaboration` |頻道： <ul><li>一般<li>營運</li><li>學習</li></ul> 應用程式： <ul><li>核准</li><li>檢查</li><li>SharePoint Pages<ul><li>我們的商店</li></ul></li><li>Planner 和 To Do 的工作</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 
@@ -77,16 +81,19 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 以下是預先建立的零售團隊範本。
 
-### <a name="store"></a>商店
+> [!NOTE]
+> 星號 (*) 表示範本是 *Microsoft 365 連線的範本*。 當使用者使用範本建立團隊時，連線的 SharePoint 範本會套用至網站和小組。 網頁、清單和 Power Platform 整合等 SharePoint 元件會自動新增並釘選為小組中 [一般] 頻道的索引標籤。 使用者可以直接從 Teams 中編輯這些頁面和清單。
+>
+> 若要深入瞭解 SharePoint 範本，請參閱 [套用及自訂 SharePoint 網站範本](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)。
 
-商店範本很適合用來建立團隊，以代表個體零售商店位置。 使用商店範本，您可以為組織的每個零售商店位置建立團隊。
+### <a name="manage-a-store"></a>管理市集*
 
-| 範本類型 | TemplateId | 範本頻道 |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| 零售業 - <br>商店 | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| 頻道 <ul><li>一般</li><li>交班&sup2;</li><li>存放區整備</li><li>Learning&sup2;</li></ul>團隊屬性 <ul><li>團隊可見度設定為公開</li></ul> <br>成員權限 <ul><li>無法建立、更新或刪除頻道 </li><li>無法新增或移除應用程式 </li><li>無法建立、更新或移除索引標籤</li><li>無法建立、更新或移除連接器</li><ul>|
-||||
+使用此範本為貴組織中的每個零售商店位置建立小組。
 
-&sup2;自動將頻道加入我的最愛
+> [!div class="mx-tdBreakAll"]
+>| 範本類型 | TemplateId | 範本頻道 |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| 零售業 - <br>商店 | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| 頻道 <ul><li>一般</li><li>Shift Handoff</li><li>Microsoft Store 整備</li><li>Learning</li></ul>團隊屬性 <ul><li>團隊可見度設定為公開</li></ul> <br>成員權限 <ul><li>無法建立、更新或刪除頻道 </li><li>無法新增或移除應用程式 </li><li>無法建立、更新或移除索引標籤</li><li>無法建立、更新或移除連接器</li><ul>|
 
 為貴組織自訂商店範本的建議方法：
 
@@ -94,16 +101,14 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 - 如果貴組織有任何內部網站 (例如 SharePoint 網站)，請考慮將它們釘選為相關團隊頻道中的索引標籤。
 
-### <a name="manager-collaboration"></a>主管共同作業
+### <a name="retail-for-managers"></a>適用于經理的零售*
 
-管理員共同作業範本適合用來建立團隊，以讓一組主管跨商店及區域等進行共同作業。例如，如果您的組織有不同地區，您可以為加州地區建立主管共同作業團隊，並包含該區域的所有商店主管，以及該地區的地區主管。
+使用此範本建立團隊，讓一組管理員跨商店或地區共同作業。 例如，如果您的組織有地區，您可以為加州地區建立一個小組，並包含該區域的所有店面管理員，以及該地區的地區經理。
 
-| 範本類型 | TemplateId | 範本頻道 |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| 零售業 - <br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 頻道 <ul><li>一般</li><li>作業&sup2;</li><li>Learning&sup2;</li></ul>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> <br>成員權限 <ul><li>可以建立、更新或刪除頻道 </li><li>可以新增和移除應用程式 </li><li>可以建立、更新和移除索引標籤</li><li>可以建立、更新和移除連接器</li><ul>|
-||||
-
-&sup2;自動將頻道加入我的最愛
+> [!div class="mx-tdBreakAll"]
+>| 範本類型 | TemplateId | 範本頻道 |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| 零售業 - <br>主管共同作業 | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| 頻道 <ul><li>一般</li><li>營運</li><li>學習</li></ul>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> <br>成員權限 <ul><li>可以建立、更新或刪除頻道 </li><li>可以新增和移除應用程式 </li><li>可以建立、更新和移除索引標籤</li><li>可以建立、更新和移除連接器</li><ul>|
 
 為貴組織自訂主管共同作業範本的建議方法：
 
@@ -131,6 +136,9 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
   ]
 }
 ```
+
+> [!NOTE]
+> 如果您使用 Microsoft Graph，使用 Microsoft 365 連線的範本從現有的 Microsoft 365 群組或小組建立團隊，連線的 SharePoint 範本不會自動套用至網站或小組。 建立小組之後，您必須手動套用 SharePoint 網站範本。 在 Teams 中，移至團隊，選取右上角的 [ **更多選項** ] > **[在 SharePoint 中開啟]**。 然後選擇 **[設定] 套用**  >  **網站範本**，然後選取對應的網站範本。
 
 ## <a name="related-articles"></a>相關文章
 

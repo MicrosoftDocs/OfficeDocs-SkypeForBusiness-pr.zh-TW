@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -18,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d7c23b424db102b21e88944e2ab55d8a2fe98c08
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
+ms.openlocfilehash: 4ba559d605f1465fda7caf9b253c18864c8b4c20
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299293"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837373"
 ---
 # <a name="understand-and-manage-custom-and-sideloaded-apps"></a>瞭解及管理自訂及側載的應用程式
 
@@ -33,7 +34,7 @@ Microsoft Teams 可讓組織內部的開發人員為組織內部使用者建置�
 
 開發人員可以透過 Teams 提交自訂應用程式，以取得系統管理員的核准。您可以使用應用程式設定原則來控制自訂應用程式的推出、發佈和許可權。
 
-:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="螢幕擷取畫面顯示如何在全組織設定面板中允許貴組織中的自訂應用程式。" lightbox="media/custom-app-policy.png":::
+:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="顯示如何在全組織設定面板中允許組織中的自訂應用程式的螢幕擷取畫面。" lightbox="media/custom-app-policy.png":::
 
 允許使用自訂應用程式之後，使用者可以在 Teams 市集的左側導覽中選取 **[為您的組織打造** ] 來找到它。
 
@@ -53,13 +54,13 @@ Microsoft Teams 可讓組織內部的開發人員為組織內部使用者建置�
 
 您可以建立自訂原則或編輯全域原則，以根據組織的需求來允許或封鎖自訂應用程式。 若要建立可讓組織開發人員上傳自訂應用程式的自訂原則，請遵循下列步驟：
 
-1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[設定原則](https://admin.teams.microsoft.com/policies/app-setup)**。
+1. 登入 Teams 系統管理中心並存取 [Teams 應用程式 **]**  >  **[[設定原則]](https://admin.teams.microsoft.com/policies/app-setup)**。
 
 1. 選取 [新增 **]**。
 
 1. 提供原則的名稱和描述。
 
-1. 開啟或關閉 **[上傳自訂應用程式]**。
+1. 開啟或關閉 [上傳自訂應用程式 **]**。
 
 > [!NOTE]
 > 若要變更此設定，請在租使用者的 [整個組織應用程式設定](manage-apps.md#manage-org-wide-app-settings)中允許協力廠商應用程式。

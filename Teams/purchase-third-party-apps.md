@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
 audience: admin
 ms.collection:
 - M365-collaboration
@@ -15,12 +16,12 @@ description: 了解如何使用信用卡、轉帳卡或發票結算，從 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 5c3137815ea8e4d02ac987ec0a2b0e50c32c3fcb
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486718"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837403"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>為 Teams 購買第三方應用程式
 

@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -16,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 瞭解如何將您的自訂應用程式上傳到您組織的 Microsoft Teams 系統管理中心中的應用程式市集。
-ms.openlocfilehash: d95635546da7337c9c18ee0fddf7b40a5bf061c3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397114"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837313"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>透過上傳應用程式套件發佈自訂應用程式
 

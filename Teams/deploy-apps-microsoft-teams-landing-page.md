@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486908"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837643"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
@@ -95,7 +95,7 @@ Webhooks 和連接器會從使用者經常使用提供內容和更新的服務 (
 
 訊息中心擴充功能是插入應用程式內容或處理郵件的快速鍵，使用者不需要離開交談。 訊息擴充功能可以具有搜尋命令，讓使用者快速找到外部內容，並將其插入郵件或動作命令中。
 
-若要檢視對應至 Teams 功能的常見使用案例，請參閱 [將您的使用案例對應至 Teams 應用程式功能](/microsoftteams/platform/concepts/design/map-use-cases)。
+若要檢視對應至 Teams 功能的常見使用案例，請參閱將 [您的使用案例對應至 Teams 應用程式功能](/microsoftteams/platform/concepts/design/map-use-cases)。
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 

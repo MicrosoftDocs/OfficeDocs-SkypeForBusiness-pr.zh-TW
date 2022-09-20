@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
 audience: admin
 ms.collection:
 - M365-collaboration
@@ -14,12 +15,12 @@ description: 了解如何稽核貴組織中使用者和系統管理員的 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
-ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.openlocfilehash: f1b7a8ca14a087ecaf7e7a8898f9bdb85e87e3c5
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "67457273"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837723"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>適用於應用程式管理活動和事件的稽核
 

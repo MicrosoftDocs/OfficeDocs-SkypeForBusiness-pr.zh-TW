@@ -1,5 +1,5 @@
 ---
-title: 在系統管理中心使用一般小組範本
+title: 在系統管理中心使用一般團隊範本
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在系統管理中心管理並使用一般Teams範本，以快速輕鬆地建立團隊。
+description: 瞭解如何在 Teams 系統管理中心管理和使用一般團隊範本，以快速輕鬆地建立團隊。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,83 +19,85 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a23149b26db4cacff46c31396824033622bb1224
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 05e540ea968f04724d5d644f6ad7640b1f46df89
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046169"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837343"
 ---
-# <a name="use-general-team-templates-in-the-admin-center"></a>在系統管理中心使用一般小組範本
+# <a name="use-general-team-templates-in-the-admin-center"></a>在系統管理中心使用一般團隊範本
+
+## <a name="overview"></a>概觀
 
 Microsoft Teams 的團隊範本提供預先定義的設定、頻道和預先安裝應用程式的團隊結構, 讓您快速且輕鬆地建立團隊。
 
-使用小組範本在貴組織中部署一致的團隊。 範本也可以協助使用者瞭解如何有效地使用Teams。 您也可以擴充範本，以建立符合您特定組織需求的團隊。
+使用小組範本在組織中部署一致的團隊。 範本也可以協助使用者熟悉如何有效地使用 Teams。 您也可以擴充範本，以建立專為您特定組織需求量身打造的團隊。
 
-Teams包含我們針對特定業務需求和專案所建立之預先建建的範本。 本文將介紹一般範本類別，您可以在貴組織中用於各種案例。
+Teams 包含我們針對特定商務需求和專案所建立的預先建立範本。 在本文中，我們向您介紹可在組織中用於各種情況的一般範本類別。
 
-若要深入了解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
+若要深入瞭解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
-## <a name="adopt-office-365"></a>採用Office 365
+> [!NOTE]
+> 星號 (*) 表示範本是 *Microsoft 365 連線的範本*。 當使用者使用範本建立團隊時，連線的 SharePoint 範本會套用至網站和小組。 網頁、清單和 Power Platform 整合等 SharePoint 元件會自動新增並釘選為小組中 [一般] 頻道的索引標籤。 使用者可以直接從 Teams 中編輯這些頁面和清單。
+>
+> 若要深入瞭解 SharePoint 範本，請參閱 [套用及自訂 SharePoint 網站範本](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)。
 
-宣傳並協助您的同儕使用新技術，協助建立、成長及維持您的支援者社群推出。
+## <a name="manage-a-project"></a>管理專案*
 
-> [!div class="mx-tdBreakAll"]
-> | 範本類型 |TemplateId| 此範本提供的屬性 |
-> | ------------------|--|-----------------------------------------------------------|
-> | 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍角</li> <li>小組表單</li><li>行事曆</li></ul> 應用程式： <ul><li>Wiki</li>  <li>頻道日曆</li> <li>里程碑</li><li>佈告欄</li></ul>|
-> ||||
-
-## <a name="manage-a-project"></a>管理專案
-
-使用此範本管理工作、共用檔、召開專案會議和檔風險及決策，以用於一般專案管理。
+使用此範本管理工作、共用文件、召開專案會議和檔風險，以及制定決策，以進行一般專案管理。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型| TemplateId| 此範本提供的屬性 |
 > | ------------------|--|-----------------------------------------------------------|
-> | 管理專案 |`com.microsoft.teams.template.ManageAProject`| 頻道： <ul><li>一般</li> <li>公告</li> <li>資源</li> <li>規劃</li></ul> 應用程式：<ul><li>Wiki</li><li>OneNote</li><li>工作</li><li>清單</li><li>Power Automate</li></ul> |
-> ||||
-## <a name="manage-an-event"></a>管理活動
+> | 管理專案 |`com.microsoft.teams.template.ManageAProject`| 頻道： <ul><li>一般</li> <li>公告</li> <li>資源</li> <li>規劃</li></ul> 應用程式：<ul><li>核准</li><li>佈告欄</li><li>清單<ul><li>Project 追蹤器</li><li>問題追蹤器</li></ul></li><li>里程碑</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我們的網站</li></ul></li><li>Planner 和 To Do 的工作</li><li>Wiki</li></ul> |
 
-管理工作、檔和共同作業，處理您所需的一切，以舉辦引人注目的活動。 邀請來賓使用者在公司內外安全地共同合作。
+## <a name="manage-an-event"></a>管理事件*
 
-根據應用程式權限原則，您可能無法存取特定應用程式。
+管理工作、檔，以及針對舉辦引人注目之活動所需的一切進行共同作業。 邀請來賓使用者在公司內外進行安全的共同作業。
+
+根據您的應用程式許可權原則，您可能無法存取某些應用程式。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 | TemplateId| 此範本提供的屬性 |
 > | ------------------ |--|-----------------------------------------------------------|
-> | 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>工作</li> <li>OneNote</li> <li>員工的想法</li> <li>問題報告者</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul> |
-> ||||
+> | 管理事件|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷和 PR</li></ul> 應用程式：<ul><li>核准</li><li>佈告欄</li> <li>員工想法</li> <li>清單<ul><li>內容排程器</li></ul><li>里程碑</li></li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>我們的網站</li><li>關於我們的活動</li></ul><li>Planner 和 To Do 的工作</li><li>Wiki</li> |
 
-## <a name="onboard-employees"></a>員工上機
+## <a name="onboard-employees"></a>入職員工*
 
-利用這個中央小組改善您的文化，並簡化員工上線，以尋找資源、問題和一些樂趣。
+透過這個中央小組改善您的文化，並簡化員工上線，以獲得資源、問題和樂趣。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 |TemplateId| 此範本提供的屬性 |
 > | ------------------|--|-----------------------------------------------------------|
-> |員工上機|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>工作</li><li>員工的想法</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul>|
-> ||||
+> | 入職員工|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>佈告欄</li><li>員工想法</li><li>清單<ul><li>上線檢查清單</li></ul></li><li>里程碑</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>開始使用</li><li>訓練</li></ul><li>Planner 和 To Do 的工作</li><li>Viva Engage</li><li>Wiki</li></ul>|
 
-## <a name="organize-a-help-desk"></a>組織服務台
+## <a name="adopt-office-365"></a>採用Office 365
 
-在支援您的技術支援的檔、政策和程式上共同合作。 整合您現有的票證系統，或使用我們的範本來管理要求。
+透過推廣並協助同儕使用新的技術，協助建立、成長及維持您的冠軍社群推出。
+
+> [!div class="mx-tdBreakAll"]
+> | 範本類型 |TemplateId| 此範本提供的屬性 |
+> | ------------------|--|-----------------------------------------------------------|
+> | 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍專區</li> <li>團隊表單</li><li>行事曆</li></ul> 應用程式： <ul><li>Wiki</li>  <li>頻道行事曆</li> <li>里程碑</li><li>佈告欄</li></ul>|
+
+## <a name="organize-help-desk"></a>整理技術支援中心*
+
+在支援您技術支援中心的檔、原則和程式上共同作業。 整合您現有的票證系統，或使用我們的範本來管理要求。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 |TemplateId| 此範本提供的屬性 |
 > | ------------------|--|------------------------------------------------------------|
-> |組織服務台| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>Wiki</li><li>OneNote</li><li>工作 </li><li>稱讚</li><li>問題報告者</li><li>Power Automate</li><li>佈告欄</li></ul> |
-> ||||
+> | 整理技術支援中心| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>問題報告</li><li>清單<ul><li>裝置</li><li>票</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我們的網站</li><li>常見問題集</li></ul></li><li>Planner 和 To Do 的工作</li><li>Wiki</li></ul> |
 
-## <a name="crisis-communication"></a>危機通訊
+## <a name="crisis-communications"></a>嚴重通訊*
 
-集中處理各業務單位的針對您的危機小組共同合作，協助建立業務連續性計畫、共用遠端工作秘訣、追蹤客戶通訊，以及讓每個人隨時瞭解公告和新聞。
+為您的緊急管理或事件應變小組集中溝通和重大緊急資源。 使用線上會議來改善資訊流程和情況意識。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 |TemplateId| 此範本提供的屬性 |
 > | ------------------ |--|----------------------------------------------------------|
-> | 危機通訊 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶升級</li><li>主管更新</li><li>規劃</li><li>物流</li></ul>應用程式： <ul><li>網站</li><li>工作</li><li>問題報告者</li><li>核准</li><li>佈告欄</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-> ||||
+> | 嚴重通訊 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>Executive Update</li><li>規劃</li><li>物流</li></ul>應用程式： <ul><li>核准</li><li>問題報告</li><li>清單<ul><li>內容排程器</li><li>專案計劃</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我們的網站</li><li>最新更新</li></ul><li>Planner 和 To Do 的工作</li></ul>|
 
 ## <a name="related-articles"></a>相關文章
 

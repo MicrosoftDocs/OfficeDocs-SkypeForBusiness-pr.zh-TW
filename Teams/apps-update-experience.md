@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -16,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 在此文章中，了解如何更新已及系統管理員如何加速更新 Microsoft Teams 中的 Microsoft 應用程式、自訂應用程式和協力廠商應用程式。
-ms.openlocfilehash: b947e8b77bc167ccbdfb6a90bfa7c4ab96476efc
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 3d0264a31214b51e751d52ffe90411f227e46656
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606092"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837533"
 ---
 # <a name="teams-app-updates-and-admin-role"></a>Teams 應用程式更新與系統管理員角色
 
