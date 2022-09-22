@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: 即時活動錄製原則
                 href: teams-live-events/live-events-recording-policies.md
+          - name: 建立 Teams 混合式會議體驗
+            items:
+              - name: 概觀
+                href: hybrid-meetings-overview.md
+              - name: 混合式會議原則
+                href: hybrid-meetings-principles.md
+              - name: 步驟 1 - 熟悉 Teams 會議功能
+                href: hybrid-meetings-features.md
+              - name: 步驟 2 - 傳播會議最佳做法
+                href: hybrid-meetings-educate-participants.md
+              - name: 步驟 3 - 設計和建置會議空間
+                href: hybrid-meetings-room-design.md
+              - name: 步驟 4 - 選取會議室裝置
+                href: hybrid-meetings-device-select.md
+              - name: 步驟 5 - 設定您的裝置
+                items:
+                  - name: 概觀
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: 步驟 1 - 購買Teams 會議室授權
+                    href: hybrid-meetings-device-config-license.md
+                  - name: 步驟 2 - 建立資源帳戶
+                    href: hybrid-meetings-device-config-account.md
+                  - name: 步驟 3 - 指派會議室授權
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: 步驟 4 - 設定信箱屬性
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: 步驟 5 - 關閉密碼到期
+                    href: hybrid-meetings-device-config-password.md
+                  - name: 步驟 6 - 設定會議原則
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: 步驟 7 - 設定行事曆選項
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: 步驟 6 - 管理和監視會議室和會議
+                href: hybrid-meetings-manage.md
       - name: 音訊會議
         items:
           - name: M365 中的音訊會議
