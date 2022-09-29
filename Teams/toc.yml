@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: 使用修復工具
                 href: rooms/recovery-tool.md
-      - name: Microsoft Teams 會議室受管理服務
+      - name: Microsoft Teams 會議室 Pro 管理
         items:
           - name: 概觀
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: 取得並指派授權
-            href: rooms/obtaining-assigning-license.md
-          - name: 註冊到受 MTRP 管理的服務
+          - name: 存取 Pro 管理入口網站
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: 將裝置註冊到受管理的服務
+          - name: 向 Pro 管理註冊裝置
             href: rooms/enroll-a-device.md
           - name: 角色型存取控制
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: 受管理的更新
             href: rooms/update-management.md
-          - name: 設定適用於 Microsoft Teams 會議室的 ServiceNow
+          - name: 設定 ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: 合作夥伴的多租用戶管理
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: 標準與會議室規劃工具
             href: rooms/standards-and-room-planner.md
-          - name: 客戶報告事件
+          - name: 記錄問題
             href: rooms/customer-reported-incidents.md
           - name: 資料和隱私權資訊
             href: rooms/data-and-privacy-info.md
-          - name: 使用 Teams 會議室行動應用程式
-            href: rooms/extended-mobile-app.md
       - name: 裝置
         items:
           - name: Teams 裝置儲存
