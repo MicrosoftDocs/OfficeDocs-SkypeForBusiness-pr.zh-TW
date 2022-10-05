@@ -1367,6 +1367,8 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Teams 會議室系統管理中心授權
                 href: rooms/admin-center-license-overview.md
+              - name: Teams 會議室舊版授權
+                href: rooms/rooms-legacy-licensing.md
               - name: Windows 與 Android 之間的 Teams 裝置功能比較
                 href: rooms/teams-devices-feature-comparison.md
               - name: Teams 的會議室指引
