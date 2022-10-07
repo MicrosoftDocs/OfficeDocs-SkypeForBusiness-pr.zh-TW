@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中設定和管理自動語音應答。
-ms.openlocfilehash: b783f268fa60b5212d50962dbb78988e6158390d
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 18ff00dc72a69ea5aed85a3531a100e28f2891d1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443490"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046683"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -51,6 +51,7 @@ ms.locfileid: "67443490"
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>過去 6 個月自動語音應答的新功能
  
+ - 9 月 - 現在可使用 [**播放] 功能表選項** 來使用 [通話流程]、[下班後通話流程] 和 [假日期間通話流程] 的 [**強制聆聽**] 選項。
  - 8 月 - [通話流程] 中的 **[播放] 功能表選項** 、下班後通話流程和假日期間的通話流程現在支援 \* (星號) ， (\# 井) 鍵。
  - 7 月 - 假日期間的通話流程現在支援 **[播放] 功能表選項**。
  
@@ -107,6 +108,7 @@ ms.locfileid: "67443490"
 
 #### <a name="play-menu-options"></a>[播放] 功能表選項
 
+*新增 - 可以啟用強制聆聽選項，讓來電者在選取前必須先聆聽所有功能表選項。* 
 *新增 - \* (星號) 和 \# (磅) 鍵現在可用於功能表選項中*。
 
 如需撥號選項，請將電話鍵臺上的 0-9 按鍵指派給其中一個通話路由目的地。  (星號) 和 \# (井字型大小) 按鍵 \* 是由系統保留，無法重新指派。 按下其中一個按鍵將會重複目前的功能表。
@@ -169,7 +171,9 @@ ms.locfileid: "67443490"
 
 您的自動語音應答可以為 [您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您可以為每個自動語音應答新增最多 20 個排定的假日。
 
-*新增 - **[播放] 功能表選項** 現在可在假日通話流程中使用*。
+*新增 - 可以啟用強制聆聽選項，讓來電者在選取前必須先聆聽所有功能表選項。* 
+*新增 - \* (星號) 和 \# (磅) 鍵現在可用於功能表選項中。* 
+*新增 - **[播放] 功能表選項** 現在可在假日通話流程中使用。*
 
 1. 在 [假日通話設定] 頁面上，選取 [ **新增]**。
 

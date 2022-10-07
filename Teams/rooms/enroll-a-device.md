@@ -1,9 +1,9 @@
 ---
-title: 將 Teams 會議室裝置註冊到受管理的服務
-author: donnah007
-ms.author: v-donnahill
+title: 將 Teams 會議室裝置註冊為專業管理
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.date: 07/22/2022
+ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 將Teams 會議室裝置上線至受管理的服務
+description: 將Teams 會議室裝置上線至專業管理入口網站
 f1keywords: ''
-ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272038"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243784"
 ---
-# <a name="enroll-device-into-managed-service"></a>將裝置註冊到受管理的服務
+# <a name="enroll-device-into-pro-management"></a>將裝置註冊至專業管理
 
-部署需要將Microsoft Teams 會議室裝置上線至Microsoft Teams 會議室管理的服務。 監控服務代理程式適用于經過認證的 Microsoft Teams 會議室 (MTR) 系統和周邊設備。
+部署需要將Microsoft Teams 會議室裝置上線至 Microsoft Teams 會議室 專業管理入口網站。 監控服務代理程式適用于經過認證的 Microsoft Teams 會議室 (MTR) 系統和周邊設備。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -40,7 +40,7 @@ ms.locfileid: "67272038"
 
    - 如果使用單一 ***Proxy 伺服器***： `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-     *範例：*
+     *例子：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
@@ -48,7 +48,7 @@ ms.locfileid: "67272038"
 
    - 如果使用 ***pac*** 檔案： `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
 
-     *範例：*
+     *例子：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
@@ -57,7 +57,7 @@ ms.locfileid: "67272038"
 ### <a name="enabling-tpm-settings"></a>啟用 TPM 設定
 
 > [!NOTE]
-> TPM 必須啟用，才能註冊受管理的服務。
+> TPM 必須啟用才能註冊專業管理。
 
 如果 Intel NUC 裝置上的 TPM 已停用，請在下列裝置上啟用 TPM：
 
@@ -96,7 +96,7 @@ ms.locfileid: "67272038"
 ## <a name="urls-required-for-communication"></a>通訊所需的 URL
 
  > [!NOTE]
- > MTR 裝置代理程式與 Microsoft Teams 會議室 - 受管理服務服務入口網站之間的所有網路流量都是透過埠 443 的 SSL *。*  請[參閱Office 365 URL 和 IP 位址範圍 - Microsoft 365 企業版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
+ > MTR 裝置代理程式和 Microsoft Teams 會議室 專業管理入口網站之間的所有網路流量都是透過埠 443 的 SSL *。*  請[參閱Office 365 URL 和 IP 位址範圍 - Microsoft 365 企業版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
 
 如果您已在企業環境中啟用 **交通允許清單** ，則必須允許下列主機：
 
@@ -116,11 +116,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 註冊程式涉及下列步驟：
 
-1. 在 Microsoft Teams 會議室 – 受管理服務入口網站 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 的左側導覽列上，展開 [**設定]**，然後選取 [**一般]**。
+1. 在Microsoft Teams 會議室專業管理入口 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 網站的左側導覽列中，展開 [**設定]**，然後選取 [**一般]**。
 1. 在 *[註冊聊天室] 底* 下，選取 **[下載安裝程式**  ] 以下載監控專員軟體。
 1. **選：** 設定代理程式的 Proxy 設定;請參閱 [ (選擇性) 新增 Proxy 設定](#adding-proxy-settings-optional)。
 1. 安裝在 MTR 裝置上進行步驟 2) 下載的代理程式安裝程式 (，方法是在 MTR 裝置上執行 MSI，或透過將 MSI 應用程式大量發佈到環境中裝置的標準方式， (群組原則等) 
-1. 會議室會在 5-10 分鐘內出現在入口網站中。 如果沒有，請連絡 managedroomsupport@microsoft.com。
+1. 會議室會在 5-10 分鐘內出現在入口網站中。
 
    ![設定和自我註冊金鑰的螢幕擷取畫面。](../media/software-installation-005new.png)
 
@@ -145,11 +145,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 1. 閱讀合約後，核取 ***我接受授權合約中的條款** _，然後按 _*Install**。
 
-    這會開始Microsoft Teams 會議室 - 受管理的服務監視軟體安裝。 系統會顯示提高許可權 (以系統管理員) 的身分執行的提示。
+    這會開始Microsoft Teams 會議室專業版監視軟體安裝。 系統會顯示提高許可權 (以系統管理員) 的身分執行的提示。
 
 1. 選取 **[是]**。
 
-    安裝將會繼續。 安裝程式期間，主機視窗會開啟並開始Microsoft Teams 會議室 - 受管理的服務監視軟體安裝的最後一個階段。
+    安裝將會繼續。 安裝程式期間，主機視窗會開啟並開始 Microsoft Teams 會議室 Pro 監視軟體安裝的最後一個階段。
 
     > [!NOTE]
     > 請勿關閉視窗。 安裝完成後，精靈會顯示「完成」按鈕。
@@ -160,11 +160,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 - **Intune註冊**：Windows 裝置上的Teams 會議室必須已經在 Intune 註冊。
   如需如何在 Intune 的 Windows 裝置上註冊Teams 會議室的詳細資訊，請參閱使用[Microsoft 端點管理員 在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **包含 Windows 裝置上所有Teams 會議室成員的 Azure AD 群組**– 在 Azure AD 中建立的群組，其中包含應為Microsoft Teams 會議室進階版服務一部分的 Windows 裝置上的所有Teams 會議室。 此群組將用於針對 MTRP 代理程式的部署。
+- **包含 Windows 裝置上所有Teams 會議室成員的 Azure AD 群組**– 在 Azure AD 中建立的群組，其中包含應為Microsoft Teams 會議室進階版服務一部分的 Windows 裝置上的所有Teams 會議室。 這個群組將用來定位 MTR Pro 代理程式的部署。
   
 > [!NOTE]
 > 您可以考慮將 Azure AD 中的動態群組用於此用途，如需詳細資訊，請參閱使用[Microsoft 端點管理員在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **下載 MTRP 代理****程式安裝程式**- 從 <https://aka.ms/serviceportalagentmsi> 下載專員的 zip 檔案，並將 zip (ManagedRoomsInstaller.msi) 的內容解壓縮到本機暫存資料夾。
+- **下載 MTR Pro 代理****程式安裝程式**- 從 <https://aka.ms/serviceportalagentmsi> 中下載專員的 zip 檔案，並將 zip (ManagedRoomsInstaller.msi) 的內容擷取到本機暫存資料夾。
 
 **使用 Intune 安裝**
 
@@ -180,7 +180,7 @@ mmrprodnoamstor.blob.core.windows.net
    1. 忽略應用程式版本：選取 **[是]**。
 
       > [!NOTE]
-      > MTRP 代理程式正在自行更新;，您應該明確忽略應用程式版本 (任何比較基準版本都可以自動更新) 。
+      > MTR Pro 代理程式正在自我更新;，您應該明確忽略應用程式版本 (任何比較基準版本都可以自動更新) 。
 
    1.  (選用) 類別：選取 **[電腦管理]**。
    
@@ -191,11 +191,11 @@ mmrprodnoamstor.blob.core.windows.net
 1. 按一下 **[下一步** ] 以顯示 [ **校閱 + 建立]** 頁面。
 1. 檢閱您為應用程式輸入的值和設定。 完成後，請按一下 [**建立**]，將應用程式新增至Intune。
 
-完成程式後，您的裝置將會在幾分鐘後開始安裝 MTRP 代理程式。
+完成程式後，您的裝置將會在幾分鐘後開始安裝 MTR Pro 代理程式。
 
 > [!NOTE]
-> 安裝之後，MTRP 代理程式可能需要長達八小時來執行最新版本的自我更新，並出現在 MTRP 入口網站中。
-若要加快 MTRP 入口網站中的自動註冊，請考慮依照代理程式部署重新開機 MTR 裝置。
+> 安裝之後，MTR Pro 代理程式最多可能需要八小時來執行最新版本的自我更新，並出現在 MTR Pro 入口網站中。
+若要加快 MTR Pro 入口網站中的自動註冊，請考慮依照代理程式部署重新開機 MTR 裝置。
 
 ## <a name="completing-enrollment"></a>完成註冊
 
@@ -203,9 +203,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 在 *上線* 狀態下，系統會顯示並更新聊天室的狀態，但不會提出任何警示或建立調查票證。
 
-選擇會議室，然後選 **取 [註冊**  ] 以開始接收事件警示、調查票證或報告事件。
-
-如有任何疑問或問題，請在入口網站中開啟客戶回報的事件，或連絡 managedroomsupport@microsoft.com。
+選擇會議室，然後選 **取 [註冊**  ] 以開始接收事件警示。
 
 ### <a name="unenrolling-and-uninstalling-monitoring-software"></a>取消註冊和卸載監視軟體
 
@@ -225,15 +223,15 @@ mmrprodnoamstor.blob.core.windows.net
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   此命令會將裝置重設為使用者標準 MTR 更新，並移除 MTRP 監控代理程式和檔案。
+   此命令會將裝置重設為使用者標準 MTR 更新，並移除 MTR Pro 監控代理程式和檔案。
 
-1. 在 [Microsoft Teams 會議室 - 受管理的服務] 入口網站的左側功能表中，選取 [**會議室]**。
+1. 在 [Microsoft Teams 會議室專業管理] 入口網站的左側功能表中，選取 [**會議室]**。
 1. 在提供的聊天室清單中，選擇您要取消註冊的聊天室，然後選取 [ **取消註冊** ] 以停止取得事件警示或調查票證，或是回報該聊天室的事件。
 
 ## <a name="troubleshooting-table"></a>疑難排解表格
 
 > [!NOTE]
-> 所有Microsoft Teams 會議室 – 受管理的服務監控錯誤都會記錄在名為 **Microsoft Managed Rooms** 的特定事件記錄檔上。
+> 所有Microsoft Teams 會議室專業版監控錯誤都會記錄在名為 **Microsoft Managed Rooms** 的特定事件記錄檔上。
 
 ***應用程式執行時間記錄檔位置*** =
 

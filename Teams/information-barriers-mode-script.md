@@ -1,5 +1,6 @@
 ---
 title: 使用 PowerShell 腳本變更資訊障礙模式
+description: 部署資訊障礙之後，請使用此 PowerShell 腳本，針對租使用者中的所有群組，將模式從開放式更新為隱含模式。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,31 +8,32 @@ ms.topic: article
 ms.reviewer: smahadevan
 ms.service: msteams
 audience: admin
-description: 部署資訊障礙之後，請使用這個 PowerShell 腳本，將租使用者中所有群組的模式從開啟更新為隱含模式。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3030f40ed61eb2e0e86967132d9575de8334a6c6
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 63403c5e5ee495a7a110aa9239868fd6a9bb5803
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767546"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047123"
 ---
 # <a name="change-information-barriers-modes-with-a-powershell-script"></a>使用 PowerShell 腳本變更資訊障礙模式
 
-使用此 PowerShell 腳本來更新租使用者中 (中) 所有已Teams群組之IB 和IB 模式的資訊障礙。 部署資訊障礙之後，您必須更新這些群組的模式。 啟用IB 前布備的群組會指派 [ *開啟模式* 。 在 *開啟* 模式中，沒有任何適用的IB 政策。 啟用IB 之後， *隱含* 會變成您建立的任何新群組的預設模式。 不過，現有的群組仍然保留 *開啟* 模式組式。 執行此腳本，將這些現有的群組變更為 *隱含* 模式。
+使用此 PowerShell 腳本來更新租使用者中所有已連線 Teams 的群組 (IB) 模式的資訊障礙。 部署資訊障礙之後，您必須更新這些群組的模式。 在您啟用 IB 之前布建的群組會被指派為 *[開* 啟] 模式。 在 *[開* 啟模式] 中，沒有任何適用的 IB 原則。 啟用 IB 之後， *隱含* 會成為您建立之任何新群組的預設模式。 不過，現有的群組仍會保留 *Open* 模式設定。 執行此腳本以將這些現有群組變更為 *隱含* 模式。
 
-在此腳本中，您將使用[Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup) Cmdlet，Exchange Online PowerShell 模組來更新模式。 若要深入瞭解使用 PowerShell 管理Teams，請參閱[PowerShell Teams概觀](./teams-powershell-overview.md)。
+在此腳本中，您將使用[Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup) Cmdlet，這是在 powerShell Exchange Online模組中更新模式。 若要深入瞭解如何使用 PowerShell 管理 Teams，請參閱 [Teams PowerShell 概觀](./teams-powershell-overview.md)。
 
 ## <a name="sample-script"></a>範例腳本
 
-您必須使用已指派全域系統管理員角色的公司或學校帳戶，讓租使用者執行此腳本。
+您必須使用已獲指派租使用者全域系統管理員角色的公司或學校帳戶，才能執行此腳本。
 
 ```powershell
 <#

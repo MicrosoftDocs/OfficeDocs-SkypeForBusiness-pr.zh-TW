@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams 會議室標準與會議室規劃]
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 根據您環境的智慧建議建立和彙集標準。
 f1keywords: ''
-ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bcad1c98cbbf71467789617c53ea98d8f192da49
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271958"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243834"
 ---
 # <a name="standards-and-room-planner"></a>標準與會議室規劃工具
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271958"
 
 ## <a name="view-meeting-room-types"></a>檢視會議室類型
 
-您可以在此頁面上檢視組織內的會議室或會議空間類型。 快速細分您有多少會議室標準、發現多少新裝置，以及需要採取動作的裝置數目。
+您可以在此頁面上檢視組織內的會議室或會議空間類型。 快速說明會議室有多少標準、發現的新裝置數目，以及需要採取動作的裝置數目。
 
 此頁面也有命令列，您可以在其中啟動 [  **建立標準** 工作流程]，或流覽至 [已探索的裝置]、[變更記錄檔] 和 [封存]。
 

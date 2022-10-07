@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-september-19-2022"></a>2022 年 9 月 19 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 9/19/2022 | [含通話方案檔的 Microsoft 365 Teams 電話系統 #< 60 chars](/MicrosoftTeams/business-voice/index) | 改 性 |
+| 9/19/2022 | [Microsoft Teams 粉筆交談](/MicrosoftTeams/chalk-talks-landing-page) | 改 性 |
+| 9/19/2022 | [Microsoft Teams 系統管理檔 # < 60 chars](/MicrosoftTeams/index) | 改 性 |
+| 9/19/2022 | [Microsoft Teams 使用者訓練 #< 60 chars](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 改 性 |
+| 9/19/2022 | [管理員 Microsoft Teams 訓練](/MicrosoftTeams/teams-admin-training-landing-page) | 改 性 |
+| 9/19/2022 | [規劃從 商務用 Skype 升級至 Microsoft Teams](/MicrosoftTeams/upgrade-skype-teams) | 改 性 |
+| 9/20/2022 | [使用應用程式自訂來為貴組織的需求標上應用程式的商標](/MicrosoftTeams/customize-apps) | 改 性 |
+| 9/20/2022 | [在系統管理中心使用一般團隊範本](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 改 性 |
+| 9/20/2022 | [使用零售團隊範本](/MicrosoftTeams/get-started-with-retail-teams-templates) | 改 性 |
+| 9/20/2022 | [在 Teams 系統管理中心開始使用團隊範本](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 改 性 |
+
+
 ## <a name="week-of-september-12-2022"></a>2022 年 9 月 12 日周
 
 
@@ -112,42 +129,3 @@
 | 8/26/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 改 性 |
 | 8/26/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
 | 8/26/2022 | [規劃 Teams 自動語音應答和通話佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 改 性 |
-
-
-## <a name="week-of-august-15-2022"></a>2022 年 8 月 15 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 8/15/2022 | [通過直接路由認證的工作階段邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
-| 8/16/2022 | [Microsoft Teams 通話方案](/MicrosoftTeams/calling-plans-for-office-365) | 改 性 |
-| 8/17/2022 | [在 Teams 中自訂您的應用程式市集](/MicrosoftTeams/customize-your-app-store) | 改 性 |
-| 8/17/2022 | [Teams 裝置](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 8/17/2022 | [Microsoft Teams 中的資源特定同意](/MicrosoftTeams/resource-specific-consent) | 改 性 |
-| 8/17/2022 | [在 Microsoft Teams 中管理應用程式權限原則](/MicrosoftTeams/teams-app-permission-policies) | 改 性 |
-| 8/17/2022 | [管理自訂應用程式原則和設定](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 改 性 |
-| 8/17/2022 | [在 Microsoft Teams 系統管理中心上傳您的自訂應用程式](/MicrosoftTeams/upload-custom-apps) | 改 性 |
-| 8/18/2022 | [在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意](/MicrosoftTeams/app-permissions-admin-center) | 改 性 |
-| 8/18/2022 | 新功能 - 運算子連線 | 刪除 |
-| 8/18/2022 | [在 Microsoft Teams 系統管理中心上傳您的自訂應用程式](/MicrosoftTeams/upload-custom-apps) | 改 性 |
-| 8/19/2022 | [在 Microsoft Teams 系統管理中心管理團隊](/MicrosoftTeams/manage-teams-in-modern-portal) | 改 性 |
-| 8/19/2022 | [管理參與者和來賓的會議原則](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
-| 8/19/2022 | [Teams 選擇性連線體驗](/MicrosoftTeams/teams-privacy-oce-overview) | 改 性 |
-| 8/20/2022 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 改 性 |
-| 8/20/2022 | [針對 Teams 準備組織的網路](/MicrosoftTeams/prepare-network) | 改 性 |
-| 8/20/2022 | [適用于 Microsoft Teams 的電話和裝置](/MicrosoftTeams/devices/usb-devices) | 改 性 |
-| 8/20/2022 | [在系統管理中心使用 Teams 範本](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 改 性 |
-| 8/20/2022 | [為 Teams 購買第三方應用程式](/MicrosoftTeams/purchase-third-party-apps) | 改 性 |
-| 8/20/2022 | [Microsoft Teams 中的團隊和頻道概覽](/MicrosoftTeams/teams-channels-overview) | 改 性 |
-| 8/20/2022 | [將商務用 Skype內部部署升級至 Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 改 性 |
-| 8/20/2022 | [管理語音信箱原則](/MicrosoftTeams/manage-voicemail-policies) | 添加 |
-| 8/20/2022 | [指派、變更或移除使用者的電話號碼](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 改 性 |
-| 8/20/2022 | [遠端布建和登入 Teams Android 裝置](/MicrosoftTeams/devices/remote-provision-remote-login) | 改 性 |
-| 8/20/2022 | [管理組織的 [班次] 應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 改 性 |
-| 8/20/2022 | [設定運算子連線](/MicrosoftTeams/operator-connect-configure) | 改 性 |
-| 8/20/2022 | [電信業者與 Microsoft for Operator Connect 之間的資料傳輸](/MicrosoftTeams/operator-connect-data-transfer) | 改 性 |
-| 8/20/2022 | [運算子連線](/MicrosoftTeams/operator-connect-plan) | 改 性 |
-| 8/20/2022 | [搜尋使用者的電話號碼](/MicrosoftTeams/search-for-phone-numbers-for-users) | 改 性 |
-| 8/20/2022 | [在 Microsoft Teams 中設定即時活動設定](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 改 性 |
-| 8/20/2022 | [在 Microsoft Teams 中設定即時活動](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 改 性 |
-| 8/20/2022 | [在 Microsoft Teams 中設定使用者的會議撥出確認](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 改 性 |

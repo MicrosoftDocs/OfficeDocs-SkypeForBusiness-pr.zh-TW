@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何將通話路由至貴組織中未指派的號碼。
-ms.openlocfilehash: 3f3d0b9e6962cce7abdb91efa8539dd559c38956
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 28f1ca3c60728c4a7a2153d7462afc8c7e78b366
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272298"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480713"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>將通話路由到未指派的號碼
 
@@ -53,7 +53,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$"
 下一個範例指定所有撥打到號碼範圍 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有通話都會路由至公告服務，這會將音訊檔案 MainAnnouncement.wav 播放給來電者。
 
 ```PowerShell
-$Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
+$Content = [System.IO.File]::ReadAllBytes('C:\Media\MainAnnouncement.wav')
 
 $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content $Content
 

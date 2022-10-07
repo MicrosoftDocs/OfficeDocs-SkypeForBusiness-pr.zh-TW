@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解及比較 Teams 系統管理中心的Teams 會議室授權和功能可用性。
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633633"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999628"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Teams 系統管理中心的Microsoft Teams 會議室授權概觀
 
 Teams 系統管理中心可讓您從中央位置檢視和管理Teams 會議室裝置及其周邊裝置。 本文將根據Teams 會議室裝置是否獲指派 Microsoft Teams 會議室 Basic 或 Microsoft Teams 會議室 專業版授權，來說明您擁有[哪些管理功能](#comparison-of-teams-rooms-feature-availability-by-license)。
 
 如需Microsoft Teams 會議室授權的詳細資訊，請[參閱Microsoft Teams 會議室授權](rooms-licensing.md)。
+
+> [!NOTE]
+> 如果您有現有的 Teams 會議室 Standard 或 Teams 會議室 Premium 舊版授權，您必須在舊版授權到期時切換到 Teams 會議室 專業版。 如果您有Enterprise 合約，您必須在下一個續約期間切換到Teams 會議室專業版授權。 如需詳細資訊，請參閱[從 Teams 會議室 Standard 和 Teams 會議室 Premium 切換](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium)。
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>查看已指派哪些授權給Teams 會議室裝置
 
@@ -73,7 +76,6 @@ Teams 系統管理中心可讓您從中央位置檢視和管理Teams 會議室�
 | **裝置健康情況詳細資料**                     |                             | &#x2714;                  |
 | **裝置標籤**                               |                             | &#x2714;                  |
 | **圖形 API**                                |                             | &#x2714;                  |
-| **手動裝置更新**                     |                             | &#x2714;                  |
 | **遠端重新開機**                            |                             | &#x2714;                  |
 | **Windows 裝置周邊管理**     |                             | &#x2714;                  |
 | **Windows 裝置設定**                   |                             | &#x2714;                  |

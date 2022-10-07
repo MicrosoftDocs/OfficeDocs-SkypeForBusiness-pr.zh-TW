@@ -1,9 +1,9 @@
 ---
-title: 多租使用者稽核
-author: donnah007
-ms.author: v-donnahill
+title: MTR Pro 入口網站中的稽核記錄
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: TRM 的稽核記錄。
+description: MTR Pro 入口網站的稽核記錄。
 f1keywords: ''
-ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0436618e257128deb38d890cb92813ae13921e7d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269100"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243914"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams 會議室受管理服務中的稽核記錄
+# <a name="audit-logging-in-the-mtr-pro-portal"></a>MTR Pro 入口網站中的稽核記錄
 
-Teams 會議室 Managed (TRM) 服務中的稽核可讓您搜尋由使用者和系統管理員在入口網站中執行之活動的稽核記錄。 此功能預設為啟用。 只有受管理的服務系統管理員具有匯出並檢視記錄的許可權。
+MTR Pro 入口網站的稽核記錄可讓您搜尋使用者和系統管理員所執行活動的稽核記錄。 此功能預設為啟用。 只有受管理的服務系統管理員具有匯出並檢視記錄的許可權。
 
 > [!NOTE]
-> 在 TRM 服務中執行的動作不會記錄在 Microsoft 365 或Office 365稽核中 
+> 在 MTR Pro 入口網站中執行的動作不會記錄在 Microsoft 365 或Office 365稽核中 
 
 ## <a name="exporting-logs"></a>匯出記錄
 

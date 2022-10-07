@@ -13,6 +13,7 @@ ms.collection:
 - m365initiative-voice
 - m365solution-voice
 - m365solution-scenario
+- highpri
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -24,12 +25,12 @@ search.appverid: MET150
 description: 深入瞭解 Teams 通話 (PSTN 連線) 選項，以及您為組織做出的決策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d30bc6b35f7f5e145e48b9dbf2793d5caa5d12c
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606582"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999638"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 連線選項
 

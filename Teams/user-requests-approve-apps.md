@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: 瞭解如何管理和設定使用者對於組織中封鎖之應用�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706222"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377601"
 ---
 # <a name="manage-user-requests"></a>管理使用者要求
 
@@ -33,7 +35,7 @@ ms.locfileid: "67706222"
 
 您保留使用者允許或封鎖之應用程式的完整控制權。 如果您選擇允許應用程式，用來管理應用程式的控制項和 UI 會保持不變。
 
-* 預設選項會將使用者要求傳送到 Teams 系統管理中心，您可以在此 [檢視使用者要求並允許要求的應用程式](#view-user-requests-in-teams-admin-center)。
+* 預設選項會將使用者要求傳送到 Teams 系統管理中心，您可以在此 [檢視使用者要求並允許要求的應用程式](#view-and-act-on-user-requests-in-teams-admin-center)。
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="顯示要求系統管理員核准封鎖應用程式選項的螢幕擷取畫面。":::
 
@@ -41,7 +43,7 @@ ms.locfileid: "67706222"
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="螢幕擷取畫面顯示當系統管理員將允許應用程式要求 URL 重新導向至組織特定 URL 時，市集中應用程式的使用者體驗。":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>在 Teams 系統管理中心檢視使用者要求
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>在 Teams 系統管理中心檢視使用者要求並採取行動
 
 以預設方法收到的使用者要求會顯示在 Teams 系統管理中心。 您可以輕鬆檢視和管理要求。 我們建議定期分級以檢查使用者要求。 若要檢視和允許應用程式，請遵循下列步驟：
 
@@ -90,7 +92,7 @@ Teams 會提供預設訊息，讓使用者要求應用程式核准。 您可以�
 
 ## <a name="dismiss-user-requests"></a>關閉使用者要求
 
-若要關閉允許應用程式的要求，請遵循下列步驟：
+若要關閉要求，請遵循下列步驟：
 
 1. 選取您要關閉使用者要求的應用程式名稱。
 1. 選 **取 [管理要求]**。

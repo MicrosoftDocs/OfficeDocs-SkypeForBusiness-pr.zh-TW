@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 5edde0613c9092a7ed48d57a4a22761e56eee142
+ms.sourcegitcommit: d3eb876e58c9e4a0a11a21b9292d3a6177508d81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418622"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68329057"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中設定父系連線
 
@@ -89,6 +89,7 @@ Teams 教育版中的家長連線可協助授課者使用 Teams 安全地與班�
   - 將兩個填入的 [父檔](/schooldatasync/parent-contact-sync-file-format) ，其餘的 v1 檔案清空， (只有標題) 。
     - User.csv
     - Guardianrelationship.csv
+      - 每個家長和監護人必須完成 *角色* 值，以指出他們是否為 *家長* 或 *監護人*。
   - 若要檢視 v1 CSV 檔案的範例集，請參閱 [最小必要屬性 GitHub 檔案](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)。
   - 如果您想要在初始同步處理之後自動拉入 CSV 檔案，請閱讀我們的[CSV 檔案同步 Automation 檔](/schooldatasync/csv-file-sync-automation)。
   - 如需設定 SDS 資料同步處理的說明，請連絡 [我們的客戶成功小組](https://www.microsoft.com/fasttrack?rtc=1) 或 [開啟支援票證](https://edusupport.microsoft.com/support?product_id=data_sync)。

@@ -1,7 +1,7 @@
 ---
-title: 在Microsoft Teams 會議室進階版受管理的服務中註冊Teams 會議室裝置
-author: donnah007
-ms.author: v-donnahill
+title: 存取專業管理入口網站
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -15,30 +15,30 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在Microsoft Teams 會議室進階版受管理的服務中註冊Microsoft Teams 會議室帳戶。
+description: 瞭解如何存取Microsoft Teams 會議室專業管理入口網站。
 f1keywords: ''
-ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 64d2613b586a5c87f42b6a376a6c3a0d9ad3a799
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270998"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218077"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>在Microsoft Teams 會議室進階版受管理的服務中註冊裝置
+# <a name="accessing-the-pro-management-portal"></a>存取專業管理入口網站
 
-若要在 Teams 會議室 Premium 受管理服務中註冊Microsoft Teams 會議室裝置，您必須將一或多個使用者指派給受管理的服務系統管理員，然後使用該使用者完成註冊步驟。
+若要存取Teams 會議室專業管理入口網站，您必須將一或多個使用者指派給受管理的服務系統管理員，然後使用該使用者完成註冊步驟。
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>指派使用者給受管理的服務系統管理員角色
 
 完成下列步驟，將使用者指派給受管理的服務系統管理員角色：
 
-1. 使用與登入Microsoft 365 系統管理中心相同的系統管理員許可權登入[Teams 會議室進](https://portal.rooms.microsoft.com/)階版入口網站。
+1. 使用與登入Microsoft 365 系統管理中心相同的系統管理員許可權，登入Teams 會議室[專業管理入口](https://portal.rooms.microsoft.com/)網站。
 2. 流覽至 **[設定**  >  **設定**  >  **角色]**，然後選取 [**受管理的服務系統管理員]**。
 3. 在 [ **受管理的服務系統管理員]** 底下，選取 [ **作業] 索引卷** 標，然後選取 [ **新增]**。
 4. 請依照精靈為作業命名，然後選取應新增至作業的使用者。 作業將套用至所有會議室和會議室群組。
 5. 在作業精靈的結尾，選取 **[新增作業]**。
 
-獲指派受管理服務系統管理員角色的使用者，負責管理及監控Teams 會議室進階版管理服務入口網站。
+指派受管理服務系統管理員角色的使用者負責日常管理和監控Teams 會議室。
 
 將使用者指派給受管理的服務系統管理員角色之後，請繼續[前往註冊Teams 會議室裝置](enroll-a-device.md)以將Teams 會議室裝置新增至受管理的服務入口網站。
 

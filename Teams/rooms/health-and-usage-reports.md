@@ -1,10 +1,10 @@
 ---
 title: 健康情況與使用方式報告
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer: ''
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 報告有關健康情況與報告使用方式的節點資料
 f1keywords: ''
-ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9b1f3e1960cbe0089f498045922125b121679646
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271428"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243794"
 ---
 # <a name="health-and-usage-reports"></a>健康情況與使用方式報告
 
-報告節點包含有關您的 Microsoft 受管理會議室和服務深入解析之健康情況和使用方式的資料。 **概觀** 會呈現您會議室的全租使用者健康情況趨勢。 [ **健康情況]** 索引標籤會顯示一份含有其對應健康情況資料的會議室清單。 根據行事曆資訊和通話品質資料的會議室使用方式會顯示在 [ **使用** 狀況] 索引標籤底下。
+報告節點包含專業管理入口網站中Microsoft Teams 會議室健康情況與使用方式的資料。 **概觀** 會呈現您會議室的全租使用者健康情況趨勢。 [ **健康情況]** 索引標籤會顯示一份含有其對應健康情況資料的會議室清單。 根據行事曆資訊和通話品質資料的會議室使用方式會顯示在 [ **使用** 狀況] 索引標籤底下。
 
 ## <a name="navigating-reports"></a>流覽報表
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271428"
 <!--!![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)-->
 ### <a name="tickets-by-category"></a>依類別購買票證
 
-環圈會顯示所選時間範圍的總票證，而群組 (預設值為七天，所有群組) 。 票證會以其主要類別表示：音訊、顯示器、周邊、連線、版本設定和客戶回報。
+環圈會顯示所選時間範圍的總票證，而群組 (預設值為七天，所有群組) 。 票證會以主要類別表示：音訊、顯示、周邊、連線、版本設定和錄製問題。
 
 <!--!![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)-->
 
@@ -56,20 +56,20 @@ ms.locfileid: "67271428"
 
 若要向後流覽，請按一下環圈，或按一下左上角的軌跡。
 
-若要在此清單檢視中流覽至特定票證，請按一下 **支援票證** 庫底下的連結。
+若要在此清單檢視中流覽至特定票證，請按一下 **支援票證欄** 底下的連結。
 
-### <a name="ticket-history"></a>票證歷程記錄
+<!--### Ticket history
 
-票證歷程記錄圖表顯示在指定期間內指派給您或 Microsoft 的事件比較。
+The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
 
 > [!NOTE]
-> 如果某一天中的票證變更擁有者，凡是擁有當日大部分作業的人員，都會將票證計入其中。 例如，如果您在一天中早期將票證指派給 Microsoft，票證會計算為當天 **指派給 Microsoft** 。
+> If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
 
 ### <a name="health-history"></a>健康情況歷程記錄
 
-此圖表顯示 [健康情況] 區段中的平均健康情況 (定義) 租使用者中所有會議室，以及所有 MMR 客戶每天的平均健康情況。 您可以檢視最多 90 天的平均健康情況。
+此圖表顯示 [健康情況] 區段) 租使用者中所有會議室的平均健康情況 (定義，以及所有 MTR Pro 客戶的日常健康情況平均健康情況。 您可以檢視最多 90 天的平均健康情況。
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 

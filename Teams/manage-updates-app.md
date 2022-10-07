@@ -17,15 +17,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 66ff8f642e3e006221507953a2fff1740237aea0
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 3dc11a1a7bb841891906755a74d07585a55ec912
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397104"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047053"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的更新應用程式
 
@@ -55,7 +56,7 @@ Microsoft Teams 應用程式中的更新可讓貴組織成員集中建立、檢�
 
 與此同時，一組遠端工作者正在更新 Microsoft Store 的網站。 這些會議會跨時區散佈，因此每日的待命會議並不方便。 相反地，每個小組成員會每日提交更新報告其進度給小組主席。
 
-[下載更新尋找簿](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409)，以查看更多您可以使用更新執行的範例。
+[下載更新尋找簿](https://go.microsoft.com/fwlink/?linkid=2197649)，以查看更多您可以使用更新執行的範例。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 

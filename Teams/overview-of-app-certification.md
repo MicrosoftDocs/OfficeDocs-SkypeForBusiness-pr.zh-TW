@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 09/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 713f30d148517f080c1799f71461d52e69d855ac
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 992b557e72aaa855008f1bfec8073d800b65badf
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837653"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377541"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>適用於第三方應用程式安全性、合規性和隱私權的 Microsoft 365 應用程式合規性計畫
 
@@ -56,7 +57,7 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="在 Teams 系統管理中心，所有已證明的應用程式上都會顯示發行者證明圖示。":::
 
-* 在 Teams 系統管理中心，在[授與應用程式權限時](app-permissions-admin-center.md)，應用程式名稱前面的藍色核取記號表示它是發行者證明的應用程式或 Microsoft 365 認證的應用程式。
+* 在 Teams 系統管理中心中，在您 [授與應用程式許可權](app-permissions-admin-center.md)之前，應用程式名稱前方的藍色核取記號表示它是發行者證明的應用程式。 所有 Microsoft 365 應用程式也會經過發行者證明，因此 Microsoft 365 應用程式也會顯示藍色核取記號。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 系統管理中心內，在授予權限的對話方塊中，藍色勾選記號表示發行者證明的應用程式。":::
 
@@ -89,7 +90,7 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="在 Teams 系統管理中心管理特定應用程式時，於應用程式橫幅中檢視 Microsoft 365 認證資訊":::
 
-* 在 Teams 系統管理中心，在[授與應用程式權限時](app-permissions-admin-center.md)，應用程式名稱前面的藍色核取記號表示它是發行者證明的應用程式或 Microsoft 365 認證的應用程式。
+* 在 Teams 系統管理中心中，在您 [授與應用程式許可權](app-permissions-admin-center.md)之前，應用程式名稱前方的藍色核取記號表示它是發行者證明的應用程式。 所有 Microsoft 365 應用程式也會經過發行者證明，因此 Microsoft 365 應用程式也會顯示藍色核取記號。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 系統管理中心，系統管理員可以於授與權限的對話方塊中檢查藍色核取記號，以確保應用程式已通過 Microsoft 365 認證":::
 

@@ -1,6 +1,6 @@
 ---
 title: 管理雲端語音信箱設定
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 管理使用者的語音信箱設定。
-ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96ac5e13360463150a5ff21bc8042b701a4f9717
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269598"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999488"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>管理使用者的雲端語音信箱設定
 
@@ -48,7 +48,7 @@ ms.locfileid: "67269598"
 - 未設定傳輸目標。
 
 
-若要管理使用者雲端語音信箱功能，您可以使用 Teams 系統管理中心或 PowerShell。 請注意，您的使用者也可以在 Teams 用戶端中設定這些設定，方法是移至 [ **設定] -> [通話] -> [設定語音信箱]。**
+若要管理使用者雲端語音信箱功能，您可以使用 Teams 系統管理中心或 PowerShell。 您的使用者也可以在 Teams 用戶端中設定這些設定，方法是移至 [ **設定] -> [通話] -> [設定語音信箱]。**
 
 ## <a name="use-teams-admin-center"></a>使用 Teams 系統管理中心
 
@@ -75,7 +75,7 @@ ms.locfileid: "67269598"
 
 ## <a name="voicemail-settings"></a>語音信箱設定
 
-- **已啟用語音信箱**- 此設定會控制使用者是否已啟用雲端語音信箱。 如果設定為 False，使用者將無法使用雲端語音信箱服務，也不會錄製使用者的語音信箱。
+- **已啟用語音信箱**- 此設定會控制使用者是否已啟用雲端語音信箱。 如果設定為 False，雲端語音信箱服務將無法供使用者使用，也不會為使用者錄製語音信箱。
 
 - **提示語言**- 此設定會指定雲端語音信箱中提示所使用的語言。 如需詳細資訊，請參閱 [變更問候語和電子郵件的預設語言](change-the-default-language-for-greetings-and-emails.md)。
 

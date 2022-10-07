@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 258ea59d8218a88dafd19318ca9b03b8535f3a30
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: f00c0a81374f9c084d8fb7e6839d9f6742ec5192
+ms.sourcegitcommit: 44b5088647afa9a93b0ced575d10ee15b57aac0e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837503"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "67891703"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -88,6 +88,7 @@ ms.locfileid: "67837503"
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|聯想               |移至耳機In-Ear USB-C ANC                             |9/20/2022       |已通過 Microsoft Teams 認證                           |
 |Logi                 |Brio 500/505 相機                                       |9/14/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           |

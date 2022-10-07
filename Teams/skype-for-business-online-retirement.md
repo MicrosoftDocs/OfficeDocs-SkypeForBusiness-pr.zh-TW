@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e6118e42600bda58bf7ddc9d7f8e0fee0b7ad9f
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3c973daf4dc90a6de734c1c76aa352e7a7eeac28
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706142"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854389"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
@@ -56,7 +56,8 @@ Teams 中的使用者在 Teams 中能在 Teams 中接收來電交談和通話，
    - 對於指派為 **僅限商務用 Skype** 或 **使用 Teams** 共同作業模式商務用 Skype的任何使用者，請將共存模式變更為 **使用 Teams 共同作業和會議商務用 Skype**。  除了使用者排程的新會議是 Teams 會議，而不是商務用 Skype會議之外，此模式提供的功能與其他兩者相同。 當您直接將此模式指派給使用者 (，而不是在租使用者層級) 時，該模式預設也會自動將任何商務用 Skype會議轉換為該使用者召集的 Teams 會議。
    - 對於處於群島模式的使用者，您可以要求他們一律在 Teams 中排程會議，方法是將 TeamsMeetingPolicy 的實例指派給 PreferredMeetingProviderForIslandsMode=Teams。 
    - 若要確保任何現有的商務用 Skype會議都轉換成 Teams 會議， (例如，如果您有群島使用者) ，您可以使用Start-CsExMeetingMigration觸發[會議移轉服務](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#trigger-meeting-migration-manually-via-powershell-cmdlet)，將使用者的會議轉換為 Teams。
-  
+
+- 若要確保當使用者從內部部署移轉到 Teams 時，所有來自商務用 Skype Server的連絡人都會正確移轉到 TeamsOnly，請務必在從內部部署移轉後的 30 天內，將使用者登入 Teams。 這是暫時性的需求，因為 Microsoft 會將 Teams 從舊版 商務用 Skype Online 基礎結構中移轉。
 
 ## <a name="actions-to-take-before-june-30-2022"></a>2022 年 6 月 30 日之前要採取的動作
 現在 商務用 Skype Online 已停用，Microsoft 將于 2022 年 6 月 30 日開始解除支援基礎結構。  對於任何使用 Teams 的組織從任何版本的 商務用 Skype 升級的使用者，如果其中一種情況適用，您必須採取動作：

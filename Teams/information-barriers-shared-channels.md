@@ -1,6 +1,6 @@
 ---
 title: '資訊障礙和共用通道 (預覽) '
-description: 本文說明Microsoft Teams中的資訊障礙如何支援共用通道
+description: 本文說明 Microsoft Teams 中的資訊障礙如何支援共用頻道
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922834"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047213"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>資訊障礙和共用通道 (預覽) 
 
-[Microsoft Teams中的共用頻道](shared-channels.md)會建立共同作業空間，讓您可以邀請不在團隊中的人員。 [Microsoft Purview 資訊障礙](/microsoft-365/compliance/information-barriers) 是可實作的原則，可限制並防止使用者和群組在組織內外彼此通訊。
+Microsoft Teams 中的[共用頻道](shared-channels.md)會建立共同作業空間，讓您可以邀請不在團隊中的人員。 [Microsoft Purview 資訊障礙](/microsoft-365/compliance/information-barriers) 是可實作的原則，可限制並防止使用者和群組在組織內外彼此通訊。
 
-共用頻道預設會在 Teams 中啟用。 您可以選擇人員是否可建立共用頻道、是否可以與組織外部人員共用，以及是否可建立頻道原則來參與外部共用頻道。 當貴組織設定資訊障礙原則時，會在設定共用通道時執行檢查，以確認所有現有通道成員和任何新增至共用通道的新使用者都違反資訊障礙原則條件。
+在 Teams 中預設會啟用共用頻道。 您可以選擇人員是否可建立共用頻道、是否可以與組織外部人員共用，以及是否可建立頻道原則來參與外部共用頻道。 當貴組織設定資訊障礙原則時，會在設定共用通道時執行檢查，以確認所有現有通道成員和任何新增至共用通道的新使用者都違反資訊障礙原則條件。
 
 請使用下表瞭解資訊障礙原則如何影響通訊，以及如何在設定共用頻道時產生特定行為：
 

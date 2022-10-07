@@ -14,16 +14,22 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271458"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854429"
 ---
 # <a name="whats-new-for-direct-routing"></a>直接路由的新功能
 
 本文將說明直接路由的新增功能。 請經常回來查看更新。
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>以 SIP 選項為基礎的主幹降級邏輯
+
+系統會針對主幹健康情況引進以 SIP 選項為基礎的新功能。 在閘道組態中啟用 (請參閱Set-CsOnlinePSTNGateway Cmdlet 和 SendSipOptions 參數) ，撥出電話的路由邏輯會降級未定期傳送 SIP 選項 (預期期間的主幹是 SBC 每分鐘傳送一個 SIP 選項) 到 Microsoft 後端。 這些降級的樹幹會放在待發通話可用的主幹清單結尾，並嘗試做為最後一個;以降低通話設定時間。
+針對該功能啟用的任何主幹，在五分鐘內不會傳送至少一個 SIP 選項給任何 Microsoft 地區 (NOAM、EMEA、APAC、OCEA) SIP Proxy 會被視為降級。 如果主幹只將 SIP 選項傳送到 Microsoft 地區 SIP Proxy 的子集，則會先嘗試這些路由，其餘路由會降級。
+
 
 ## <a name="sip-support"></a>SIP 支援
 
