@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465971"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350746"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧喇叭的語音辨識技術控制項
 
@@ -130,13 +130,29 @@ ms.locfileid: "67465971"
 
 |**語言**|**國家/地區**|**文化識別碼**|
 |:-----|:-----|:-----|
+|阿拉伯文  <br/> |沙烏地阿拉伯 <br/> |ar-SA  <br/> |
+|中文  <br/> |中國 <br/> |zh-CN  <br/> |
+|中文  <br/> |台灣 <br/> |zh-TW  <br/> |
+|丹麥文  <br/> |丹麥 <br/> |da-DK  <br/> |
+|荷蘭文  <br/> |荷蘭 <br/> |nl-NL  <br/> |
 |英語  <br/> |澳洲 <br/> |en-AU  <br/> |
 |英語  <br/> |加拿大  <br/> |en-CA <br/> |
 |英語  <br/> |印度  <br/> |en-IN  <br/> |
 |英語  <br/> |紐西蘭  <br/> |en-NZ  <br/> |
 |英語  <br/> |英國  <br/> |en-GB  <br/> |
 |英語  <br/> |美國  <br/> |en-US  <br/> |
-
+|芬蘭文  <br/> |芬蘭  <br/> |fi-FI  <br/> |
+|法語  <br/> |加拿大 <br/> |fr-CA  <br/> |
+|法語  <br/> |法國 <br/> |fr-FR  <br/> |
+|義大利文  <br/> |義大利 <br/> |it-IT  <br/> |
+|日語  <br/> |日本 <br/> |ja-JP  <br/> |
+|挪威語  <br/> |挪威 <br/> |nb-NO  <br/> |
+|波蘭文  <br/> |波蘭 <br/> |pl-PL  <br/> |
+|葡萄牙文      <br/> |巴西 <br/> |pt-BR  <br/> |
+|俄語  <br/> |俄羅斯 <br/> |ru-RU  <br/> |
+|瑞典文  <br/> |瑞典 <br/> |sv-SE  <br/> |
+|西班牙文  <br/> |墨西哥  <br/> |es-MX  <br/> |
+|西班牙文  <br/> |西班牙  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>會議中的轉錄地區設定
 

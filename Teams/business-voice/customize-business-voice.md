@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中使用通話方案自訂Microsoft Teams 電話系統
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 80ba0ed460f8e6847e1c94653400080a6efeb6a9
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 1476e64c4485ca509421444e073f11baf69beb5a
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271398"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480473"
 ---
 # <a name="customize-teams-phone-system-with-calling-plan"></a>使用通話方案自訂 Teams 電話系統
 

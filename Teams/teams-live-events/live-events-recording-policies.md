@@ -1,7 +1,7 @@
 ---
 title: 即時活動錄製原則
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 瞭解即時活動錄製原則。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: abe4cb004ada98021e74823495e6208fc31c28fb
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794111"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486553"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的即時活動錄製原則
 
@@ -56,7 +56,7 @@ ms.locfileid: "66794111"
 
 ## <a name="storage-and-persistence-behavior"></a>儲存空間與持續性行為
 
-| 選項                                       | 狀態   | DVR                                                   | VOD                                                     | 錄製                |
+| 選項                                       | 狀態   | Dvr                                                   | Vod                                                     | 錄製                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | 出席者可錄製內容 | 選擇     | DVR 可供使用，且 Azure Media Services (AMS) 資產會儲存 180 天 | 出席者可以存取和觀看活動                     |                              |
 |                                                  | 未選取 | DVR 可供使用，且 AMS 資產會儲存 180 天 | 出席者無法在活動結束後存取活動 |                              |

@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心管理及使用零售團隊範本, 以及使用 Microsoft Graph 快速且輕鬆地為零售組織建立團隊。
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837333"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046913"
 ---
 # <a name="use-retail-team-templates"></a>使用零售團隊範本
 
@@ -41,7 +42,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 |如果您是: | 那麼, 您: |
 | ---- | --------- |
-| 系統管理員或 IT 專業人員 |[Teams 系統管理中心管理團隊範本](#manage-team-templates-in-the-teams-admin-center)。檢視團隊範本並申請範本原則, 以控制職員在 Teams 中建立團隊時可使用的範本。 |
+| 系統管理員或 IT 專業人員 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 開發人員 | [使用 Microsoft Graph](#use-team-templates-with-microsoft-graph)從團隊範本建立團隊。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>在系統管理中心管理團隊範本
@@ -77,7 +78,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 
-開發人員可以使用 Microsoft Graph 從預先組建的團隊範本建立團隊。若要深入了解在 Microsoft Graph 中使用團隊範本, 請參閱[開始在 Microsoft Graph 中使用團隊範本](get-started-with-teams-templates.md), [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0), 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 以下是預先建立的零售團隊範本。
 

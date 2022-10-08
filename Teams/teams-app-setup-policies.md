@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837173"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377331"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式設定原則
 
@@ -51,7 +52,7 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 
 |Teams 桌面用戶端  |Teams 行動用戶端 |
 |---------|---------|
-|![Teams 桌面用戶端中的應用程式列。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams 行動用戶端中的應用程式列。](media/mobile-app-ui.png)      |
+|![顯示 Teams 桌面用戶端中應用程式行的螢幕擷取畫面。](media/app-setup-policies-desktop-app-bar.png).  |   ![顯示 Teams 行動用戶端中應用程式行的螢幕擷取畫面。](media/mobile-app-ui.png)      |
 
 撰寫郵件區域底部提供訊息延伸模組。
 
@@ -112,7 +113,7 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 
 您會編輯全域原則中的設定，以包括您需要的應用程式。 若要針對組織中的不同使用者群組自訂 Teams，請建立並指派一或多個自訂原則。
 
-![用來管理原則或新增新原則的應用程式設定原則頁面。](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="顯示應用程式設定原則頁面的螢幕擷取畫面，其中包含管理原則或新增原則的選項。":::
 
 ### <a name="edit-an-app-setup-policy"></a>編輯應用程式設定原則
 
@@ -161,7 +162,7 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 |Teams 桌面用戶端 |Teams 行動用戶端 |
 |---------|---------|
 |在 Teams 側邊的應用程式列中，選取 [... 更多應用程式 **]**。| 在 Teams 底部附近的應用程式列中，向上撥動。|
-|![Teams 桌面用戶端中的更多應用程式。](media/app-setup-policies-desktop-more-apps.png)   |![Teams 行動用戶端中的更多應用程式](media/app-setup-policies-mobile-more-apps.png)  
+|![顯示 Teams 桌面用戶端中已釘選更多應用程式的螢幕擷取畫面。](media/app-setup-policies-desktop-more-apps.png)   |![顯示 Teams 行動用戶端中已釘選更多應用程式的螢幕擷取畫面](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>關於 Teams 行動體驗，我需要知道哪些資訊
 

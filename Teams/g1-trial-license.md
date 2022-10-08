@@ -1,7 +1,7 @@
 ---
 title: 管理適用於美國政府的免費 Office 365 G1 試用版
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb7a13db3358c03f40f878b8aa88f27497e4706
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d45869d015dc5486d3971bff5795cb0cc791dd5c
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267958"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377321"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
 
@@ -33,7 +33,7 @@ ms.locfileid: "67267958"
 
 啟用 Office 365 G1 試用版後，請為需要的任何使用者開啟授權。 若要了解做法，請參閱[管理使用者對 Teams 的存取權](user-access.md)。
 
-一旦您為需要它的使用者開啟 G1 試用版，您就可以如同管理擁有付費授權的使用者一般，管理這些使用者。如需詳細資訊，請參閱[管理貴組織的 Teams 設定](enable-features-office-365.md)。
+Once you've turned on the G1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>從 Office 365 G1 試用版授權升級使用者
 
@@ -48,7 +48,7 @@ ms.locfileid: "67267958"
 如需詳細資訊，請參閱[適用於政府機關的 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)。
 
 > [!NOTE]
-> 如果 G1 試用版結束，且使用者未立即升級為包含 Teams 的訂閱，則不會移除使用者資料。使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。
+> If the G1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>移除 Office 365 G1 試用版授權
 

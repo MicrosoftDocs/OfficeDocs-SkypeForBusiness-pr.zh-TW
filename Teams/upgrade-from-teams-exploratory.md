@@ -1,7 +1,7 @@
 ---
 title: 從 Teams Exploratory 試用版升級
-author: cazawideh
-ms.author: czawideh
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7137114ffd47e19faaf8ba74f0d0625f74bc6d89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 00faa3cf3840409ecd2fd0a6ccbfa58418547b94
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269538"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376971"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>從 Teams Exploratory 試用版升級使用者
 
@@ -36,7 +36,7 @@ ms.locfileid: "67269538"
 
 ## <a name="step-1-when-to-upgrade"></a>步驟 1：何時進行升級  
 
-若要檢查貴組織的 Teams Exploratory 試用版何時到期，以及有多少作用中使用者，請前往 Microsoft 365 系統管理中心的 **[帳單] >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>[您的產品]</b></a>。Teams Exploratory 試用版到期前，您也會收到通知。
+To check when your organization’s Teams Exploratory trial is expiring and how many active users it has, go to **Billing >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Your products</b></a> in the Microsoft 365 admin center. You’ll also be notified before the Teams Exploratory trial expires.
 
 > [!IMPORTANT]
 > 在到期日之前，您應該規劃將使用者升級至付費的授權，讓使用者不會失去 Teams 的存取權。
@@ -69,7 +69,7 @@ ms.locfileid: "67269538"
 
 ### <a name="auto-claim-policies"></a>自動聲明原則
 
-下一次升級時，請使用自動聲明原則以建立適用於貴組織的原則，以自動將付費訂閱中的授權指派給尚未取得 Teams 授權的新使用者。如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">管理自動聲明原則</a>。
+Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. For more information, see <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies</a>.
 
 ## <a name="related-topics"></a>相關主題
 

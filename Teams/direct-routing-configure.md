@@ -14,18 +14,19 @@ ms.collection:
 - m365initiative-voice
 - m365solution-voice
 - m365solution-scenario
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定 Microsoft 直接路由，將您的內部部署電話語音基礎結構連線至 Teams Phone System。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf6a180b558edad23450fad3991ee2c646f6cf55
-ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
+ms.openlocfilehash: 2adb6e9263cb573d661677b1a36b5cd24d2c8065
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67291399"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999368"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 

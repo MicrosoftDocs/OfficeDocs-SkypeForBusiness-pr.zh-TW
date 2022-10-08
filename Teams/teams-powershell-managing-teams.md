@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解如何使用 Teams PowerShell 管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a14658039f4edeb8e70ec195f036bf8321453c2c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396524"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486573"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>使用 Microsoft Teams PowerShell 管理 Teams
 
@@ -69,8 +69,8 @@ Cloud Shell是可讓您管理資源的互動式、經過驗證且易於瀏覽器
 ## <a name="manage-policies-via-powershell"></a>透過 PowerShell 管理原則
 
 > [!NOTE]
-> - 商務用 Skype Online Connector 正在整合至 Teams PowerShell。 它目前可在公開預覽中使用。 屆時，適用于 Teams 的 商務用 Skype Online Cmdlet 將會原生在 Teams PowerShell 模組中使用。 安裝步驟可在 [安裝 Teams PowerShell](teams-powershell-install.md) 一文中取得。
-> - 一旦您連線到 商務用 Skype Online，Cmdlet 就會在 PowerShell 會話中使用。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 管理 商務用 Skype Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> - 商務用 Skype Online Connector 會合並至 Teams PowerShell。 商務用 Skype Teams PowerShell 模組中原生提供套用至 Teams 的 Online Cmdlet。 安裝步驟可在 [安裝 Teams PowerShell](teams-powershell-install.md) 一文中取得。
+> - 一旦您連線到 Teams，Cmdlet 就會在 PowerShell 會話中使用。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 管理 商務用 Skype Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 在 商務用 Skype [Cmdlet 模組](/powershell/module/teams)中尋找管理原則的 Cmdlet。
 

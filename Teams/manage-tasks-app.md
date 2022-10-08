@@ -19,12 +19,13 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+- highpri
+ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396494"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047113"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -132,7 +133,7 @@ Contoso 總部和中級經理可以查看報告，以瞭解每個商店和商店
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate 和圖形 API
 
-[工作] 可支援待辦事項的 Power Automate 以及 Planner 的圖形 API。如需深入了解，請參閱：
+[工作] 可支援待辦事項的 Power Automate 以及 Planner 的圖形 API。 若要深入了解，請參閱：
 
 - [Planner 工作和計畫 API 概觀](/graph/planner-concept-overview)
 - [透過 Power Automate 使用 Microsoft To Do](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

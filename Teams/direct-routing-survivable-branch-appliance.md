@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 976c73aebe698152c4824e3eaedfcc19a13ae525
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269668"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138486"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>適用于直接路由的可更新分支設備 (SBA) 
 
@@ -208,6 +208,8 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 向您的 SBC 廠商支援組織回報任何問題。 回報問題時，表示您已設定了可更新的分支設備。
 
 ## <a name="known-issues"></a>已知的問題
+
+- 由於 SBA 仰賴有效期為 24 小時且每天續約的驗證權杖，目前 SBA 可支援從上次驗證起中斷最多 24 小時。 這表示如果在上次驗證權杖續約後的 20 小時內發生中斷，則 SBA 僅能在剩餘的 4 小時內運作。
 
 - 當您新增新的可更新分支設備時，可能需要一些時間才能在可更新的分支設備原則中使用。
 

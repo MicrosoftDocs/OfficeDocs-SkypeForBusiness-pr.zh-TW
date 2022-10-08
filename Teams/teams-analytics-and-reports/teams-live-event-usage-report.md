@@ -17,12 +17,12 @@ description: 瞭解如何使用 Microsoft Teams 系統管理中心的 Teams 即�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794091"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033811"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 即時活動使用方式報告
 
