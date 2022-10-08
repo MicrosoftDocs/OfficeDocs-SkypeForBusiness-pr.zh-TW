@@ -1,5 +1,6 @@
 ---
 title: 對內容進行電子檔探索調查
+description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當您需要提交所有電子儲存資訊以進行法律訴訟時。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當您需要提交所有電子儲存資訊以進行法律訴訟時。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0579e0967a6f0309dbea6ee28430df3f34876be
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808244"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046653"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>對 Microsoft Teams 中的內容進行電子檔探索調查
 
@@ -35,8 +38,8 @@ ms.locfileid: "67808244"
 
 並非所有 Teams 內容都可電子檔探索。 下表顯示您可以使用 Microsoft eDiscovery 工具搜尋的內容類型：
 
-|內容類型|注釋|
-|---|---|
+|**內容類型**|**注釋**|
+|:---------------|:--------|
 |音訊錄製||
 |卡片內容|如需詳細資訊，請參閱 [搜尋卡片內容](#search-for-card-content) 。|
 |聊天連結||
@@ -53,6 +56,7 @@ ms.locfileid: "67808244"
 | (贊、心和其他反應等反應) |2022 年 6 月 1 日之後，所有商業客戶都支援反應。 在此日期之前所出現的圖釋不適用於電子檔探索。 我們已規劃政府雲端支援。 圖釋沒有法律保留支援。|
 |主題||
 |表||
+|Teams 視訊剪輯 (TVC) |在 2022 年 10 月) 中以滑鼠右鍵按一下預覽 (搜尋，以「視訊剪輯」關鍵字和「另存新檔」為每個 TVC 附件的.mp4檔案來搜尋 TVC。 在電子檔探索檢 [閱集](/microsoft-365/compliance/add-data-to-review-set)中可探索到 TVC 資料。
 
 <sup>1</sup> 會議 (和通話) 中繼資料包含下列專案：
 
