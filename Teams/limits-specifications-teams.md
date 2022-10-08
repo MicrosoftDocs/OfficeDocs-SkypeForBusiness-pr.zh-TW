@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 168bddd1b4a7ad2ffa1f4d1c5eceb0967a18ea43
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269698"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486613"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -48,13 +48,13 @@ ms.locfileid: "67269698"
 |Microsoft 365 群組中可轉換成團隊的成員數目上限    |10,000<sup>6</sup>     |
 |頻道交談貼文大小 | 每篇貼文約 28 KB<sup>5</sup> |
 
-<sup>1</sup> Azure Active Directory 中的任何目錄物件都會計入此限制。全域系統管理員會從此限制豁免，使用[應用程式權限](/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式亦然。
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
 <sup>2</sup> 此限制包含已封存的團隊。 
 
-<sup>3</sup> 若要進一步增加團隊數目，您必須與 Microsoft 支援服務連絡，並要求進一步增加您的租用戶中 Azure Active Directory 物件的數量。增加只能針對實際生產案例執行。
+<sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
 
-<sup>4</sup> 已刪除的頻道可以在 30 天內還原。在這 30 天內，已刪除的頻道會持續計入每個團隊 200 個頻道或 30 個私人頻道的限制。30 天後，已刪除的頻道及其內容會永久刪除，且該頻道不再會計入每個團隊頻道的限制。
+<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>5</sup> 28 KB 是大約限制，因為其包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
 
@@ -67,7 +67,7 @@ ms.locfileid: "67269698"
 
 ### <a name="chat"></a>聊天
 
-參與屬於 Teams 中聊天清單之交談的使用者必須擁有 Exchange Online (雲端式) 信箱，系統管理員才能搜尋聊天交談。這是因為屬於聊天清單之交談會儲存在聊天參與者的雲端式信箱中。如果聊天參與者沒有 Exchange Online 信箱，系統管理員將無法搜尋或保留聊天交談。例如，在 Exchange 混合式部署中，具有內部部署信箱的使用者可能可以參與屬於 Teams 中聊天清單之交談。然而，在此情況下，因為使用者沒有雲端式信箱，這些交談中的內容將無法搜尋也無法保留。(如需詳細資訊，請參閱 [Exchange 和 Microsoft Teams 如何互動](exchange-teams-interact.md)。)
+Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
 
 |功能  | 最大限制  |
@@ -77,9 +77,9 @@ ms.locfileid: "67269698"
 |檔案附件的數目<sup>3</sup>  |10     |
 |聊天大小 | 每篇貼文約 28 KB<sup>4</sup> |
 
-<sup>1</sup> 如果一個聊天超過 20 個人，以下的聊天功能會關閉：Outlook 自動回覆和 Teams 狀態訊息；輸入指示器；視訊和音訊通話；共用；讀取回條。當私人群組聊天包含超過 20 個成員時，也會移除 [設定傳遞選項] 按鈕 (!)。
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> 每次只能將 200 名成員新增至群組聊天。[如需詳細資訊，請參閱此文章。](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> 如果附件數量超過此限制，您會看見錯誤訊息。
 
@@ -87,7 +87,7 @@ ms.locfileid: "67269698"
 
 ### <a name="emailing-a-channel"></a>傳送電子郵件到頻道
 
- 如果使用者想要將電子郵件傳送到 Teams 中的頻道，使用者可以使用頻道的電子郵件地址。當電子郵件屬於頻道時，任何人都可以回覆電子郵件以開始交談。以下是一些傳送電子郵件到頻道時適用的限制。
+ If users want to send an email to a channel in Teams, they use the channel email address. When an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel.
 
 |功能  | 最大限制  |
 |---------|---------|
@@ -105,7 +105,7 @@ ms.locfileid: "67269698"
 如需詳細資訊，請參閱 [Exchange Online 限制](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
 > [!NOTE]
-> 所有 Microsoft 365 和 Office 365 授權的郵件大小、檔案附件和內嵌影像的限制都相同。在 Teams 中寄送電子郵件給頻道的功能不適用 Office GCC/GCCH/DOD 組織。
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
 ## <a name="channel-names"></a>頻道名稱
 
@@ -139,7 +139,7 @@ ms.locfileid: "67269698"
 ### <a name="meeting-expiration"></a>會議到期
 
 > [!NOTE]
-> 會議 URL 絕不會停止運作。到期只會與任何 PSTN 撥入號碼、CVI 座標和/或基礎會議原則及設定相關。
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
 
 |會議類型  |會議將在這些時間後到期  |每次您開始或更新會議，到期時間會延長這麼多時間  |
 |---------|---------|---------|
@@ -160,9 +160,9 @@ ms.locfileid: "67269698"
 |活動持續時間 | 4 小時 |
 |在 Microsoft 365 或 Office 365 組織中並行執行即時活動 <sup>1</sup> | 15 |
 
-<sup>1</sup> 您可根據自己的需求排定許多即時活動，但一次只能執行 15 個。製作人一加入即時活動，就表示該活動執行中。嘗試加入第 16 個即時活動的製作人會收到錯誤。
+<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-如需更多有關即時活動以及 Teams 即時活動與 Skype 會議廣播的比較詳細資訊，請移至 [Teams 即時活動和 Skype 會議廣播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)。另請參閱[排程 Teams 即時活動](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
+如需即時活動的詳細資訊，請移至 [Teams 即時活動](teams-live-events/plan-for-teams-live-events.md#teams-live-events)。 請參閱[排程 Teams 即時活動](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
 > [!IMPORTANT]
 > **Microsoft 365 的即時活動限制增加**
@@ -173,24 +173,24 @@ ms.locfileid: "67269698"
 >- 不同租用戶可以同時進行 50 個活動
 >- 每個廣播的活動持續時間 (16 小時)
 >
-> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 100,000 位出席者參與的即時活動。團隊會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>在 Outlook 中的顯示狀態
 
-Outlook 2013 傳統型應用程式和更新版本中支援 Outlook 中的 Teams 顯示狀態。若要深入了解 Teams 中的顯示狀態，請參閱 [Teams 中的使用者顯示狀態](presence-admins.md)。
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
 ## <a name="storage"></a>儲存空間
 
-Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個團隊網站，團隊中的每個頻道在預設團隊網站的文件庫中都有一個資料夾。在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。
+Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
 > 每個[私人頻道](./private-channels.md)都有自己的 SharePoint 網站 (先前稱之為 “網站集合)。
 
-如果您的租用戶中未啟用 SharePoint Online，Microsoft Teams 使用者就無法一律在團隊中共用的檔案。私人聊天中的使用者也無法共用檔案，因為該功能需要商務用 OneDrive (其綁定至 SharePoint 授權)。
+If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
-透過將檔案儲存在 SharePoint Online 文件庫和商務用 OneDrive，您將遵守所有在租用戶層級設定的合規性規則。(如需詳細資訊，請參閱 [SharePoint Online 和商務用 OneDrive 如何與 Microsoft Teams 互動](sharepoint-onedrive-interact.md)。)
+By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. (For more, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-由於 Teams 是在 SharePoint Online 後端執行以進行檔案共用，因此 SharePoint 的限制會適用團隊內的 [檔案] 區段。以下是 SharePoint Online 適用的儲存空間限制。
+Because Teams runs on a SharePoint Online backend for file sharing, SharePoint limitations apply to the Files section within a Team. Here are the applicable storage limits for SharePoint Online.
 
 |功能                 |Microsoft 365 商務基本版  |Microsoft 365 商務標準版   |Office 365 企業版 E1  |Office 365 企業版 E3  |Office 365 企業版 E5  |Office 365 企業版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
@@ -204,7 +204,7 @@ Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個團隊網
 
 ## <a name="class-teams"></a>班級團隊
 
-Microsoft Teams 教育版提供專為獨特教育案例 (例如教室教學) 所設計的範本。如需有關團隊類型 (包括班級團隊) 的詳細資訊，請參閱[在 Microsoft Teams 中選擇要共同作業的團隊類型](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)。
+Microsoft Teams for Education provides templates designed for unique education scenarios, such as classroom teaching. More information about team types, including class teams, is available in [Choose a team type to collaborate in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 班級團隊是一個範本類型，其中包含其他應用程式，且具有的限制與團隊成員數目不同。
 
@@ -219,7 +219,7 @@ Microsoft Teams 教育版提供專為獨特教育案例 (例如教室教學) 所
 |班級團隊中要使用作業的成員數目    | 300        |
 |班級團隊中要使用 OneNote 課程筆記本的成員數目     |300         |
 
-班級可支援超過 300 個成員。不過，如果您計劃在您的團隊內使用「作業」應用程式或「課程筆記本」應用程式，則您必須將成員數目保持在以上的上限之下。
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## <a name="tags"></a>標籤
 

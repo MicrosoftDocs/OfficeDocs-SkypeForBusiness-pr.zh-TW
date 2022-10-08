@@ -22,26 +22,34 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解並比較 Microsoft Teams 會議室 中不同通話和會議功能類型的可用授權。
-ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: af5f30f1a4ae0d34421629ffec3c67a619798b50
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706670"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480483"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams 會議室授權
 
-Microsoft 為參與 Teams 會議和通話的會議室裝置提供兩種授權：
+Microsoft 為參與 Teams 會議和通話的Teams 會議室系統提供兩種授權：
 
 - **Microsoft Teams 會議室專業版** 提供增強的會議室內會議體驗，例如智慧型音訊和視訊、前列和大型圖庫，以及雙螢幕支援。 Teams 會議室專業版授權也提供進階管理功能，例如遠端裝置管理、條件式存取原則，以及詳細的裝置分析。
 
-    Teams 會議室專業版非常適合中型及企業組織，以及空間較大或進階需求較多的小型組織。
+    Teams 會議室專業版非常適合中型及企業組織，以及空間較大或進階需求較多的小型組織。 Teams 會議室專業版授權可用來授權通過認證的 Teams 會議室 系統和 Teams 面板。
 
-- **Microsoft Teams 會議室 Basic** 提供核心會議體驗給購買已認證Microsoft Teams 會議室裝置的組織，無需支付額外費用。 Teams 會議室基本版授權包含排程、加入會議、內容共用和共同作業白板，以及基本安全性與管理功能。
+- **Microsoft Teams 會議室 Basic** 提供核心會議體驗給購買已認證Microsoft Teams 會議室系統的組織，無需支付額外費用。 Teams 會議室基本版授權包含排程、加入會議、內容共用和共同作業白板，以及基本安全性與管理功能。
 
-    您最多可以指派 25 Microsoft Teams 會議室基本授權給組織中的Teams 會議室部裝置。 如果您需要授權超過 25 部裝置，這些額外的授權必須Teams 會議室專業版授權。
+    Teams 會議室基本版授權可用來授權會議室中單一經過認證的Teams 會議室系統。 如果您想要使用相同的資源帳戶登入會議室中的多個Teams 會議室系統，您必須使用 Teams 會議室 專業版授權。
 
-Teams 會議室基本版授權可用來授權會議室中單一經過認證的Teams 會議室裝置。 如果您想要使用相同的資源帳戶在會議室中登入多個裝置 (，例如Teams 會議室主機、Surface Hub 和 Teams 面板) ，您必須使用 Teams 會議室 專業版授權。
+    您最多可以指派 25 Microsoft Teams 會議室基本授權給貴組織中的Teams 會議室系統。 如果您需要授權超過 25 個Teams 會議室系統，這些額外的授權必須Teams 會議室專業版授權。 Teams 會議室基本授權只能用來授權Teams 會議室系統，而非 Teams 面板。
+
+Teams 會議室系統可以是下列其中一項：
+
+- 適用于 Windows 計算模組和連接觸控主控台的Teams 會議室
+- 透過 IP 或 USB 連線連接的 Android 裝置和觸控主控台Teams 會議室
+- A Surface Hub
+
+您在 Teams 系統管理中心的Teams 會議室系統或裝置上執行的遠端系統管理工作取決於系統或裝置指派的授權。 如需詳細資訊，[請參閱 Teams 系統管理中心的Microsoft Teams 會議室授權概觀](admin-center-license-overview.md)。
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
@@ -77,6 +85,8 @@ Teams 會議室基本版授權可用來授權會議室中單一經過認證的Te
 > 舊版授權不會自動轉換到新的授權。 舊版授權到期時，您必須購買新Teams 會議室專業版 (建議) 或Teams 會議室基本版授權。 Teams 會議室專業版授權可透過Microsoft 365 系統管理中心或您慣用的銷售通道購買。 Teams 會議室基本授權只能透過Microsoft 365 系統管理中心購買。
 
 如果您的組織有Enterprise 合約，您可以繼續使用現有的舊版授權，直到下一個續約期間為止。 您也可以繼續保留額外的舊版授權，直到下次續約期間為止。 如需詳細資訊，請連絡您的 Microsoft 代表。
+
+如需舊版授權的相關資訊，[請參閱Microsoft Teams 會議室舊版授權](rooms-legacy-licensing.md)。
 
 <sup>*</sup>自 2022 年 10 月 1 日起，Microsoft 服務工程師將不再擔任事件回應的中間人。
 

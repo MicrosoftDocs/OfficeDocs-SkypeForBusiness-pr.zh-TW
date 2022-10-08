@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 通話品質儀表板 (CQD) 中提供的資料和報告。
-ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7d89c17f299302f39e00e6aebcfd9309ead3eaae
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789808"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218512"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中的資料和報告
 
@@ -41,7 +41,7 @@ Microsoft Call Quality Dashboard (CQD) 使用接近即時 (NRT) 資料摘要。 
 |---|---|
 |Teams 系統管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)|CQD 資料會包含在 Teams 系統管理中心的 [ **使用者** ] 頁面上，以簡單易讀的格式顯示您最常用的資料。 您無法自訂 [ **使用者**] 底下的 CQD 資料。|
 |CQD 入口[網站 (https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)|透過切入篩選，可滿足大多數需求的強固摘要和詳細報告。 您也可以在 CQD 入口網站中自訂報表。 <br><br>取得兩個 [CQD 報表範本](#import-the-cqd-report-templates) ，協助您分析 CQD 入口網站中的資料。|
-|Power BI|使用可 [自訂的 Power BI 範本](CQD-Power-BI-query-templates.md)，使用直接查詢在 Power BI 中檢視您的 CQD 資料。 [下載適用于 CQD 的 Power BI 查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>您也可以 [使用 REST API 透過 Power BI 存取 CQD 資料](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 。 如果您想要下載 CQD 資料以便離線工作，請使用這個方法。 使用此方法的好處是效能更好，尤其對於在您上線時在 Power BI 中變慢的大型資料集特別有用。|
+|Power BI|使用可 [自訂的 Power BI 範本](CQD-Power-BI-query-templates.md)，使用直接查詢在 Power BI 中檢視您的 CQD 資料。 [下載適用于 CQD 的 Power BI 查詢範本](https://www.microsoft.com/download/details.aspx?id=102291)。<br><br>您也可以 [使用 REST API 透過 Power BI 存取 CQD 資料](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 。 如果您想要下載 CQD 資料以便離線工作，請使用這個方法。 使用此方法的好處是效能更好，尤其對於在您上線時在 Power BI 中變慢的大型資料集特別有用。|
 |Graph API|使用圖形 API自行存取通話品質[資料。](/graph/api/resources/callrecords-api-overview) 這是最複雜的方法，但可讓您在分析通話品質資料時，擁有最大的控制能力和彈性。 例如，如果您需要將它與組織的其他資料聯結，您可以使用圖形 API建立資料模型，並整合通話品質資料。|
 
 ## <a name="import-the-cqd-report-templates"></a>匯入 CQD 報表範本
@@ -74,6 +74,10 @@ Microsoft Call Quality Dashboard (CQD) 使用接近即時 (NRT) 資料摘要。 
 - 使用者逐字意見反應
 - 物件識別碼 (端點使用者的 Active Directory 物件識別碼) 
 - 電話號碼
+- 自動語音應答身分識別
+- 通話佇列身分識別
+- 視訊電話會議 (VTC) 裝置名稱
+-  (VTC) 裝置詳細資料的視訊電話會議
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>管理員具有或不含 EUII 存取權的角色
 
@@ -103,7 +107,7 @@ CQD 支援下列滾動趨勢類型：
 
 URL Date 參數接受 Day 欄位。 滾動日報表使用 YYYY-MM-DD 格式所指定的日期做為趨勢的最後一天。 URL Date 參數 「00」 表示 「today」。
 
-|URL|滾動日趨勢的結束日期|
+|Url|滾動日趨勢的結束日期|
 |:---|:---|
 |<span>\<cqdv3>HTTPs:///spd/#/Dashboard/ \<reportid> /2019-02/</span>|2019 年 2 月當天|
 |<span>\<cqdv3>HTTPs:///spd/#/Dashboard/ \<reportid> /2019-02-15/</span>|2019 年 2 月 15 日|

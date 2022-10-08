@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 電話資源帳戶授權
-ms.author: dstrome
-author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: 瞭解如何為貴組織中的自動語音應答和通話佇列指派Microsoft Teams 電話資源帳戶授權給資源帳戶。
-ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: bba516249ec1b30e0361e2f9a6be003343f9c892
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630423"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377361"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 電話資源帳戶授權
 

@@ -9,9 +9,11 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 10/01/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,18 +21,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837643"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376991"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
-應用程式是彙集工作場所工具與服務，並與他人共同作業的絕佳方式。 應用程式可協助使用者在日常工作中提高生產力、共同作業並發揮效率。 組織會使用應用程式與客戶聯繫、提供服務及分享資訊。 例如，使用者在 Teams 中使用釘選行事曆應用程式快速與其他人共同作業、應用程式具有機器人功能，可通知使用者 Teams 頻道中 Web 服務的品質，以及共用和指派工作給頻道中各種使用者的應用程式。
+Teams 中的應用程式可協助使用者整合工作場所的工具和服務，並與其他人共同作業。 例如，使用者在 Teams 中使用釘選行事曆應用程式快速與其他人共同作業、應用程式具有機器人功能，可通知使用者 Teams 頻道中 Web 服務的品質，以及共用和指派工作給頻道中各種使用者的應用程式。 Microsoft Teams 應用程式是 Web 架構的 SaaS 應用程式，不需要在本機部署。
 
-我們在 Teams 市集中廣泛列出經過驗證且安全的應用程式 [目錄](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) ，可讓使用者存取貴組織每天需要的工具和服務。 Microsoft Teams 應用程式是不需要部署的網路型軟體即服務 (SaaS) 應用程式。 終端使用者只能根據您提供的[權限](app-policies.md)，使用 Teams 中的應用程式。 身為系統管理員，您可以使用企業級原則來允許或封鎖貴組織使用者的任何應用程式。 您可以控制每個使用者在會議、聊天和頻道等各種內容中的應用程式可用性。
+身為系統管理員，您可以設定應用程式控管程式，在使用者的眾多需求與貴組織的 IT 原則、標準和風險設定檔之間取得平衡。
+
+我們豐富的已驗證且安全的 Teams 應用程式 [目錄](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) ，可讓使用者存取貴組織每天需要的工具和服務。 Teams 系統管理中心提供系統管理員企業級的控制項和組態來管理應用程式。 您可以控制每個使用者在會議、聊天和頻道等各種內容中的應用程式可用性。
 
 此文章可協助您了解應用程式類型，以及使用者可從何處存取這些應用程式。 若要深入了解應用程式的使用，請參閱[適用於終端使用者的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
@@ -53,7 +57,7 @@ Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使
 
 Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在初始推出 Teams 時包括精選的應用程式，例如 Microsoft Planner。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams 系統管理中心的 Microsoft 應用程式螢幕擷取畫面。" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="顯示 Teams 系統管理中心中 Microsoft 應用程式清單的螢幕擷取畫面。" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>由 Microsoft 驗證的協力廠商應用程式
 
@@ -168,6 +172,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-articles"></a>相關文章
+## <a name="related-article"></a>相關文章
 
 * [深入瞭解 Teams 的應用程式範本](/microsoftteams/platform/samples/app-templates)。

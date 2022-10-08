@@ -1,12 +1,11 @@
 ---
 title: Exchange 和 Microsoft Teams 如何互動
-author: dstrome
-ms.author: dstrome
+author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dstrome
 description: 了解 Microsoft Teams 與各種 Exchange 設定 (如建立和加入小組、建立頻道等) 之間存在哪些功能。
 f1.keywords:
 - NOCSH
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: e52524c3113d7b2d776c355784772a8a059b221f
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590200"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480683"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 

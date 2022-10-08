@@ -10,6 +10,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
 description: 瞭解如何使用和管理適用于貴組織中的第一線員工的 Teams 原則套件。
-ms.openlocfilehash: 20f0f926a50a56140bab8d20c9c663e0020ac3c0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
-ms.translationtype: HT
+ms.openlocfilehash: 62a3d047da0f9174bc26d5a1e9c3ebe5f9467a49
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819570"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047193"
 ---
 # <a name="teams-policy-packages-for-frontline-workers"></a>適用於前線員工的 Teams 原則套件
 
@@ -73,7 +74,7 @@ Teams 包含 **[前線管理者]** 和 **[前線工作者]** 原則套件。
 
 ### <a name="assign"></a>指派
 
-將原則套件指派給使用者。如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
+Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 > [!NOTE]
 > 每位使用者都需要 [進階通訊] 附加元件，才能接收自訂原則套件指派。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。

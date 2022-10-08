@@ -1,7 +1,7 @@
 ---
-title: 語音信箱問候語和訊息的Teams語言
-author: dstrome
-ms.author: dstrome
+title: 語音信箱問候語和訊息的 Teams 語言
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,16 +21,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解您可以在商務用 Skype中為預設系統訊息和語音信箱問候語設定哪些語言。
-ms.openlocfilehash: 2a9b33e26bde9017be29412bb96086c708a150c1
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 71f7df5a074ad0d3b87bc4111a3f150eccb29dac
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624137"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481145"
 ---
-# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>語音信箱問候語和訊息的Teams語言
+# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>語音信箱問候語和訊息的 Teams 語言
 
-Teams支援下列語言的語音信箱問候語。
+Teams 支援下列語言的語音信箱問候語。
   
 
 

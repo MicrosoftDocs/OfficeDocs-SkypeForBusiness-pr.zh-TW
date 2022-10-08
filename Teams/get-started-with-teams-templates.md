@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 description: 瞭解只有 Microsoft Graph 才能使用的團隊範本。
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: ca21b61f1d1889c101208c8b9617efb4a9c19795
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397234"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046863"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>開始用 Microsoft Graph 使用團隊範本
 
@@ -66,9 +67,9 @@ Microsoft Teams 中的團隊範本是針對業務需求或專案所設計的團�
 | 範本類型 | TemplateId | 此範本提供的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | 標準 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | 沒有其他應用程式和屬性 |
-| 教育版 -<br>班級團隊 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 應用程式：<ul><li>OneNote 課程筆記本 (釘選到 [ **一般** ] 索引標籤)  </li><li>[作業] 應用程式 (釘選到 [ **一般** ] 索引標籤) </li></ul> 小組內容：<ul><li>將團隊可見度設定為 **HiddenMembership** (無法覆寫) </li></ul> |
-| 教育版 -<br>教職員小組 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 應用程式：<ul><li>OneNote 教職員筆記本 (釘選到 [ **一般** ] 索引標籤) </li></ul> |
-|教育版 -<br>PLC 小組 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 應用程式：<ul><li>OneNote PLC 筆記本 (釘選到 [ **一般** ] 索引標籤) </ul></li>|
+| 教育-<br>班級團隊 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 應用程式：<ul><li>OneNote 課程筆記本 (釘選到 [ **一般** ] 索引標籤)  </li><li>[作業] 應用程式 (釘選到 [ **一般** ] 索引標籤) </li></ul> 小組內容：<ul><li>將團隊可見度設定為 **HiddenMembership** (無法覆寫) </li></ul> |
+| 教育-<br>教職員小組 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 應用程式：<ul><li>OneNote 教職員筆記本 (釘選到 [ **一般** ] 索引標籤) </li></ul> |
+|教育-<br>PLC 小組 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 應用程式：<ul><li>OneNote PLC 筆記本 (釘選到 [ **一般** ] 索引標籤) </ul></li>|
 
 > [!NOTE]
 > 如需您可以在 Teams 用戶端和 Microsoft Graph 中使用的預先建置範本清單，請參閱開始使用 Teams 系統管理 [中心的團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。

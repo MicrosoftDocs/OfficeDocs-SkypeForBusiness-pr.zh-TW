@@ -7,7 +7,6 @@ ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dstrome
 description: 了解可用的報告選項，以查看使用者如何使用 Microsoft Teams，並收集使用者體驗的意見反應。
 ms.localizationpriority: high
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 396751e46c05d932a6493c2d3a3632ff0c378c75
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 0ec00140d2d41f4529b69da7f593fd9f0a2860ca
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045902"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481155"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>在 Microsoft Teams 中監視使用情況和意見反應
 了解使用者使用 Teams 的方式及他們對 Teams 的體驗十分重要。 使用狀況報告可協助您更加了解使用模式，並提供使用者意見反應，讓您深入了解如何向更多人員推出，以及應優先訓練及溝通的人員。

@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/19/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用 Teams 應用程式提交 API 來核准您提交的自訂應用程式。
-ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 63493041d834c99f5ffa93ba2fb580130afa0e29
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837523"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494616"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>發佈使用 Teams 應用程式提交 API 提交的自訂應用程式
 
@@ -164,7 +165,7 @@ Teams 系統管理中心中的 [[管理應用程式]](/microsoftteams/manage-app
 
 * [透過上傳應用程式套件發佈自訂應用程式](upload-custom-apps.md)
 * [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
-* [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
+* [管理自訂應用程式的原則和設定](teams-custom-app-policies-and-settings.md)
 * [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
 * [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)
 * [Teams 監控與提醒](alerts/teams-admin-alerts.md)

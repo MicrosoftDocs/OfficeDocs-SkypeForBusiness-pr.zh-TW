@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42044bf8f74c99b27db724e87ee35e700491aa8e
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837193"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377131"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 應用程式權限和考量。
+# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>由 Teams 應用程式和系統管理員考慮所存取的資訊和執行的動作
 
-Microsoft Teams 應用程式是一種將一或多個功能匯總到可安裝、升級和解除安裝的應用程式的方法。 應用程式的功能包括：
+Microsoft Teams 應用程式會將一或多個功能匯總到可安裝、升級及卸載的應用程式。 應用程式的功能包括：
 
 * 機器人
 * 傳訊擴充功能

@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams 的通訊合規性
+description: 從 Microsoft Teams 的觀點瞭解測試人員風險解決方案集的一部分，瞭解通訊合規性 (這是 M365 通訊合規性功能) 的一部分。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,22 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 從 Microsoft Teams 的觀點瞭解測試人員風險解決方案集的一部分，瞭解通訊合規性 (這是 M365 通訊合規性功能) 的一部分。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: 2907f1668247125936c69a6e3d3f2c8ddba87029
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551200"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046673"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams 的通訊合規性
 

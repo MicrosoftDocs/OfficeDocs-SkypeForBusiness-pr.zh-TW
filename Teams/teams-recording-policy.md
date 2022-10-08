@@ -19,14 +19,16 @@ ms.custom:
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- tier3
+- purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 659692af6a1236510d5b4572e66cbd299aa92c41
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418482"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046493"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&會議的 Teams 原則型錄製簡介
 
@@ -138,7 +140,7 @@ Azure 和 Windows VM 需求僅適用于 Teams Bot 元件，這表示只要合作
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合規性記錄原則指派和布建
 
-IT 系統管理員可以建立並指派合規性錄製原則，決定要錄製哪些使用者，以及每個使用者將使用哪個錄製器。 當通訊互動進行時，錄製程式會根據這些原則的設定自動受邀參與交談。 合規性記錄原則是使用 [Microsoft PowerShell](./teams-powershell-overview.md) 來管理，而且可以在每個組織的租使用者、每個使用者和安全性群組層級套用。 您可以找到[會議原則](./meeting-policies-overview.md)、[通話](./teams-calling-policy.md)原則和[組](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)策略Microsoft Docs的詳細資訊。
+IT 系統管理員可以建立並指派合規性錄製原則，決定要錄製哪些使用者，以及每個使用者將使用哪個錄製器。 當通訊互動進行時，錄製程式會根據這些原則的設定自動受邀參與交談。 合規性記錄原則是使用 [Microsoft PowerShell](./teams-powershell-overview.md) 來管理，而且可以在每個組織的租使用者、每個使用者和安全性群組層級套用。 您可以找到有關 Microsoft Learn for [Meeting 原則](./meeting-policies-overview.md)、 [通話原則](./teams-calling-policy.md) 和  [群組原則的詳細](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)資訊。
 
 1. 在您的租使用者中建立應用程式實例。
 

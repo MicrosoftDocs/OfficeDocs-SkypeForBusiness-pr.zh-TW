@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/27/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,21 +18,21 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心使用 Microsoft Power Platform 來管理自訂應用程式組建的存取權。
-ms.openlocfilehash: 34c8235481ef29afc21cbada13b0d80f1a3c7e38
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 93801bb30d0445d13de25976ab23668fde251466
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837183"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377201"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心管理 Microsoft Power Platform 應用程式
 
-## <a name="microsoft-power-platform-apps-in-teams"></a>Teams 中的 Microsoft Power Platform 應用程式
+## <a name="manage-custom-apps-created-using-microsoft-power-platform-apps"></a>管理使用 Microsoft Power Platform 應用程式建立的自訂應用程式
 
-本文也將提供如何在 Microsoft Teams 系統管理中心管理 [Microsoft Power Platform](https://powerplatform.microsoft.com/) 應用程式的概觀。
+本文提供如何在 Microsoft Teams 系統管理中心使用 [Microsoft Power Platform](https://powerplatform.microsoft.com/) 應用程式管理自訂應用程式的概觀。 自訂應用程式是由貴組織內部的開發人員為內部使用者所建立。
 
 > [!NOTE]
-> 本文適用於由貴組織中開發人員使用 Power Apps 或 Power Virtual Agents 所建立的自訂應用程式。 本文不適用於從 [應用程式] 頁面安裝或透過應用程式設定原則釘選到 Teams 的 Power Apps 應用程式或 Power Virtual Agents 應用程式。 您可以使用[應用程式權限原則](teams-app-permission-policies.md)和[應用程式設定原則](teams-app-setup-policies.md)來管理 Microsoft Store 應用程式。
+> 本文不適用於從 [應用程式] 頁面安裝或透過應用程式設定原則釘選到 Teams 的 Power Apps 應用程式或 Power Virtual Agents 應用程式。 您可以使用[應用程式權限原則](teams-app-permission-policies.md)和[應用程式設定原則](teams-app-setup-policies.md)來管理 Microsoft Store 應用程式。
 
 [Power Apps](https://powerapps.microsoft.com) 是低程式碼或無程式碼的應用程式開發環境，組織中的應用程式建立者可以使用它來建置可連線至您商務資料的自訂應用程式。 [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) 是一個無程式碼的 Bot 建置環境，可讓應用程式開發人員建立功能強大的 Bot。 透過將 Microsoft Power Platform 應用程式整合至 Teams，組織可以簡化業務流程、更快速地回應不斷變更的業務需求以提升共同作業成效，並建立及共用自訂解決方案來提高工作效率。  
 
@@ -53,7 +54,7 @@ ms.locfileid: "67837183"
 
 身為系統管理員，您可以控制 Microsoft Power Platform 應用程式是否列在 Teams [應用程式] 頁面的 **[使用 Power Platform 建置]** 中。 您可以一起封鎖或允許所有在 Power Apps 建立的應用程式，或者所有在 [[管理應用程式]](manage-apps.md) 頁面的組織層級或針對使用[應用程式權限原則](teams-app-permission-policies.md)的特定使用者，在 Power Virtual Agents 建立的應用程式。
 
-貴組織的 App Store 中的 **Shared Power Apps** 和 **Shared Power Virtual Agent Apps** 應用程式代表在該特定平台上所建立的所有應用程式。 如果您針對整個組織或特定使用者封鎖其中一個或兩個應用程式，則使用者可以以封鎖的應用程式來查看這類應用程式，但無法在 Teams 中安裝它們。 使用者可以 [要求系統管理員核准以允許應用程式](user-requests-approve-apps.md)。
+貴組織的 App Store 中的 **Shared Power Apps** 和 **Shared Power Virtual Agent Apps** 應用程式代表在該特定平台上所建立的所有應用程式。 如果您針對整個組織或特定使用者封鎖其中一個或兩個應用程式，使用者就無法在 Teams 中安裝它們。 使用者無法要求系統管理員核准以允許應用程式。
 
 請記住，您可以控制在 Power Apps 和 Power Virtual Agents 中建立之所有應用程式的存取權，但無法允許或封鎖個別應用程式。 應用程式建立者決定誰可以從 Power Apps 和 Power Virtual Agents 中透過共用功能存取他們建立的應用程式。 如果製造商與使用者共用他們在 Power Virtual Agents 中建立的應用程式，而且您已封鎖該使用者的 **共用 Power Virtual Agents Apps**，使用者將無法在 Teams 中查看或安裝該平台的任何應用程式。
 

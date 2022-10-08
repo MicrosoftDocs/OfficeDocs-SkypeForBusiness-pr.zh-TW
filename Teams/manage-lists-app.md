@@ -22,15 +22,16 @@ ms.collection:
 - microsoftcloud-retail
 - m365initiative-lists
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396274"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047043"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
@@ -84,7 +85,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 使用者可使用 [清單] 獲得桌上型電腦、Web 和行動裝置的體驗。 請務必瞭解，使用者無法使用 Teams 行動用戶端的 [清單] 建立新清單，或釘選現有清單。 若要在 Teams 行動用戶端查看或編輯清單，必須先使用 Teams 桌面版或 Web 用戶端上的清單建立或新增清單。
 
-訪客無法建立或刪除清單。他們可以將清單項目新增至現有清單、開始新的清單項目交談，以及回覆有關清單項目的現有交談。
+Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
 ### <a name="lists-and-the-sharepoint-app"></a>[清單] 和 SharePoint 應用程式
 

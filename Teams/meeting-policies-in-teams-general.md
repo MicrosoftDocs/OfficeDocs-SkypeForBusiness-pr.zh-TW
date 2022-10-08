@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理一般會議原則設定。
-ms.openlocfilehash: 0278133ff33e811cc4f08e1ad2973f52615d1426
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706952"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046723"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
@@ -154,7 +154,7 @@ ms.locfileid: "67706952"
 
 這項原則會控制哪些使用者可以註冊及參加網路研討會。 此原則有兩個選項，只有在會議 **註冊** 已開啟時才能使用。
 
-- 設定 **如果您要** 允許包括匿名使用者在內的所有人註冊並出席貴組織使用者所設定的網路研討會，誰 **可以向所有人註冊**。
+- 設定 **如果您要** 允許包括匿名使用者在內的所有人註冊及參加貴組織中使用者所設定的網路研討會，可以向所有人 **註冊**。
 - 如果您只允許組織中的使用者註冊並參加網路研討會，請設定 [**誰可以向****組織中的所有人** 註冊]。
 
 根據預設， **[誰可以註冊** ] 設定為 [ **所有人]**。 若要在 Teams 系統管理中心編輯此原則，請移至 **會議**  >  **會議原則**。
@@ -181,8 +181,9 @@ ms.locfileid: "67706952"
   如果您將參數設定為 **Teams**，然後切換回 **TeamsAndSfB**，則會同時啟用這兩個會議附加元件。 不過，請注意，現有的 Teams 會議加入連結不會移轉到商務用 Skype。 只有變更後排程的商務用 Skype 會議會擁有商務用 Skype 會議加入連結。
 
 ## <a name="meeting-reactions"></a>會議圖釋
+會議圖釋的可用性可透過 Teams 系統管理中心介面或使用 PowerShell 來設定。 會議原則的 [ **參與者&來賓** ] 區段可啟用或停用會議圖釋。
 
-AllowMeetingReactions 設定只能使用 PowerShell 來套用。 沒有選項可從 Teams 系統管理中心開啟或關閉 AllowMeetingReactions。
+若要設定設定，請使用Set-CsTeamsMeetingPolicy Cmdlet。 此設定預設為啟用。 若要將它關閉，請將 **AllowMeetingReactions** 設為 **False**。
 
 會議反應預設為關閉。 關閉使用者的反應並不表示使用者無法在他們排程的會議中使用反應。 無論預設設定如何，會議召集人仍可從會議選項頁面開啟回應。
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 中的資訊障礙
-description: 本文說明Microsoft Teams如何支援資訊障礙。
+description: 本文說明 Microsoft Teams 如何支援資訊障礙。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bc05ed28f2a0c77cc6a605deccff98fa65f33845
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675405"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047083"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 中的資訊障礙
 
-[Microsoft Purview資訊障礙](/microsoft-365/compliance/information-barriers) (IB) 是系統管理員可以設定的原則，以防止個人或群組彼此通訊。 例如，如果某個部門處理的資訊不應該與其他部門共用，IB 就很有用。 當群組需要隔離或無法與該群組以外的任何人通訊時，IB 也很有用。 Microsoft Teams中的共用頻道受到資訊障礙的支援。 根據共用類型而定，資訊障礙原則可能會以特定方式限制共用。 如需共用頻道和資訊障礙行為的詳細資訊，請參閱 [資訊障礙和共用頻道](information-barriers-shared-channels.md)。
+[Microsoft 許可權資訊障礙](/microsoft-365/compliance/information-barriers) (IB) 是系統管理員可以設定的原則，可防止個人或群組彼此通訊。 例如，如果某個部門處理的資訊不應該與其他部門共用，IB 就很有用。 當群組需要隔離或無法與該群組以外的任何人通訊時，IB 也很有用。 Microsoft Teams 中的共用頻道受到資訊障礙的支援。 根據共用類型而定，資訊障礙原則可能會以特定方式限制共用。 如需共用頻道和資訊障礙行為的詳細資訊，請參閱 [資訊障礙和共用頻道](information-barriers-shared-channels.md)。
 
-對於Microsoft Teams，資訊障礙可以判斷並防止下列類型的未經授權共同作業：
+對於 Microsoft Teams，資訊障礙可以判斷並防止下列類型的未經授權共同作業：
 
 - 將使用者新增至團隊或頻道
 - 使用者存取團隊或頻道內容
@@ -37,9 +39,9 @@ ms.locfileid: "65675405"
 
 >[!NOTE]
 >- 資訊隔闔群組無法在租使用者之間建立。
->- 在版本 1 中不支援使用 Bot、Azure Active Directory (Azure AD) 應用程式、API 來傳送活動摘要通知，以及部分新增使用者的 API。
+>- 使用 Bot、Azure Active Directory (Azure AD) 應用程式、API 傳送活動摘要通知，以及在版本 1 中不支援一些用來新增使用者的 API。
 >- 私人頻道符合您設定的資訊障礙原則。
->- 如需連線至Teams之SharePoint網站障礙的支援相關資訊，請參閱[與Microsoft Teams網站相關聯的區段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
+>- 如需連線至 Teams 之 SharePoint 網站障礙的相關資訊，請參閱 [與 Microsoft Teams 網站相關聯的區段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
 ## <a name="background"></a>背景
 
@@ -50,7 +52,7 @@ IB 的主要驅動程式來自金融服務產業。 財務產業監管局 ([FINR
 - **教育**：一所學校的學生無法查詢其他學校學生的連絡人詳細資料。
 - **法律**：維護由一位客戶律師所取得之資料的機密性，並防止由代表不同客戶的同一家公司的律師存取該資料。
 - **政府**：資訊存取和控制在部門和群組之間受到限制。
-- **Professional服務**：公司中的一組人員只能在客戶參與期間透過來賓存取與客戶或特定客戶聊天。
+- **專業服務**：公司中的一群人只能在客戶參與期間透過來賓存取與客戶或特定客戶聊天。
 
 例如，Enrico 屬於銀行區段，而 Pradeep 屬於財務顧問區段。 Enrico 和 Pradeep 無法彼此通訊，因為組織的 IB 原則會封鎖這兩個區段之間的通訊和共同作業。 不過，Enrico 和 Pradeep 可以在 HR 中與 Lee 通訊。
 
@@ -78,7 +80,7 @@ IB 合規性管理角色負責管理 IB 原則。 如需此角色的詳細資訊
 
 ## <a name="information-barrier-triggers"></a>資訊隔隔觸發程式
 
-當下列Teams事件發生時，會啟用 IB 原則：
+當下列 Teams 事件發生時，會啟用 IB 原則：
 
 - **成員會新增至團隊**：每當您新增使用者至團隊時，必須根據其他小組成員的 IB 原則評估使用者的原則。 成功新增使用者之後，使用者就可以在團隊中執行所有功能，無需進一步檢查。 如果使用者的原則禁止他們新增至團隊，使用者就不會顯示在搜尋中。
 
@@ -108,9 +110,9 @@ IB 合規性管理角色負責管理 IB 原則。 如需此角色的詳細資訊
 
     ![顯示含有封鎖設定的使用者 char 的螢幕擷取畫面。](media/ib-after-screen-share-policy.png)
 
-- **使用者在Teams中撥打電話**：每當使用者透過 VOIP) 起始語音通話 (給其他使用者或使用者群組時，系統會評估通話，以確保通話不會違反其他小組成員的 IB 原則。 如果有任何違規，會封鎖語音通話。
+- **使用者在 Teams 中撥打電話**：每當使用者透過 VOIP) 來啟動語音通話 (給其他使用者或使用者群組時，系統會評估通話，以確保通話不會違反其他小組成員的 IB 原則。 如果有任何違規，會封鎖語音通話。
 
-- **Teams中的來賓**：IB 原則也適用于 Teams 中的來賓。 如果來賓需要在貴組織的全域通訊清單中找到，請參閱[在Microsoft 365 群組中管理來賓存取](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)權。 一旦可以找到來賓，您就可以 [定義 IB 原則](/office365/securitycompliance/information-barriers-policies)。
+- **Teams 中的來賓**：IB 原則也適用于 Teams 中的來賓。 如果來賓需要在貴組織的全域通訊清單中找到，請參閱[在Microsoft 365 群組中管理來賓存取](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)權。 一旦可以找到來賓，您就可以 [定義 IB 原則](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>原則變更如何影響現有的聊天
 
@@ -144,11 +146,11 @@ IB 合規性管理角色負責管理 IB 原則。 如需此角色的詳細資訊
 
 目前，如果 IB 原則封鎖其他使用者，使用者會遇到下列案例：
 
-- **[人員**] 索引標籤：使用者無法在 [人員] 索引 **標籤上** 看到封鎖的使用者。
+- 人員索引標籤：使用者無法在 **[人員**]**索引卷** 標上看到封鎖的使用者。
 
 - **人員選擇器**：封鎖的使用者不會顯示在人員選擇器中。
 
-    ![Teams提醒使用者原則禁止顯示其他使用者資訊的螢幕擷取畫面。](media/information-barriers-people-picker.png)
+    ![Teams 的螢幕擷取畫面，提醒使用者原則禁止顯示其他使用者的資訊。](media/information-barriers-people-picker.png)
 
 - **活動** 索引標籤：如果使用者流覽被封鎖使用者的 [ **活動** ] 索引標籤，就不會顯示任何貼文。  ([ **活動** ] 索引標籤只會顯示頻道貼文，且兩個使用者之間不會有常見的頻道。) 
 
@@ -158,7 +160,7 @@ IB 合規性管理角色負責管理 IB 原則。 如需此角色的詳細資訊
 
 - **組織結構**：如果使用者存取了封鎖使用者出現的組織結構，封鎖的使用者就不會出現在組織結構上。 反之，會顯示錯誤訊息。
 
-- **人員卡片**：如果使用者參與交談，但該使用者稍後遭到封鎖，其他使用者會在將游標移到封鎖的使用者名稱上時，看到錯誤訊息，而不是人員卡片。 卡片上所列的動作 (例如通話和聊天) 將無法使用。
+- **人員卡** 片：如果使用者參與交談後遭到封鎖，其他使用者會在將游標暫留在封鎖的使用者名稱上時，看到錯誤訊息，而不是人員卡片。 卡片上所列的動作 (例如通話和聊天) 將無法使用。
 
 - **建議的連絡人**：封鎖的使用者不會出現在建議的連絡人清單 (新使用者) 顯示的初始連絡人清單。
 
@@ -176,37 +178,37 @@ IB 合規性管理角色負責管理 IB 原則。 如需此角色的詳細資訊
     > [!div class="mx-imgBorder"]
     > ![顯示使用者遭到封鎖而無法聊天的螢幕擷取畫面。](media/ib-after-chat-contacts-policy.png)
 
-- **Skype Teams移** 轉：在從商務用 Skype移轉到Teams期間，所有使用者，甚至是受到 IB 原則封鎖的使用者，都會移轉到Teams。 這些使用者即會依照上述方式處理。
+- **Skype 移轉到 Teams**：在從商務用 Skype移轉到 Teams 期間，所有使用者，甚至那些受到 IB 原則封鎖的使用者，都會移轉到 Teams。 這些使用者即會依照上述方式處理。
 
-## <a name="teams-policies-and-sharepoint-sites"></a>Teams原則和SharePoint網站
+## <a name="teams-policies-and-sharepoint-sites"></a>Teams 原則和 SharePoint 網站
 
-建立小組時，系統會布建SharePoint網站，並與檔案體驗Microsoft Teams相關聯。 此SharePoint網站和檔案預設不遵守資訊隔隔原則。 若要在SharePoint和OneDrive中啟用資訊障礙，請依照使用[資訊障礙與SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)一文中的指導方針和步驟進行。
+建立團隊時，系統會布建 SharePoint 網站並與 Microsoft Teams 建立關聯，以提供檔案體驗。 此 SharePoint 網站和檔案預設不遵守資訊隔隔原則。 若要在 SharePoint 和 OneDrive 中啟用資訊障礙，請依照使用 [SharePoint 資訊障礙](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) 一文中的指導方針和步驟進行。
 
-## <a name="information--barrier-modes-and-teams"></a>資訊隔隔模式和Teams
+## <a name="information--barrier-modes-and-teams"></a>資訊隔隔模式和 Teams
 
-資訊障礙模式可協助加強可從小組新增或移除的人員。 在Teams使用資訊障礙時，支援下列 IB 模式：
+資訊障礙模式可協助加強可從小組新增或移除的人員。 在 Teams 中使用資訊障礙時，支援下列 IB 模式：
 
 - **開** 啟：此設定是啟用資訊障礙之前布建之所有現有群組的預設 IB 模式。 在此模式中，沒有適用的 IB 原則。
 - **隱含**：當在啟用資訊障礙之後布建小組時，此設定是預設的 IB 模式。 隱含模式可讓您在群組中新增所有相容的使用者。
 - **擁有者管理**：當您想要允許由擁有者管理的不相容區段使用者之間進行共同作業時，會在小組上設定此模式。 團隊擁有者可以根據其 IB 原則新增成員。
 
-在您的租使用者中啟用資訊隔閡原則之前建立的Teams預設會自動設定為 *[開* 啟] 模式。 在租使用者上啟用 IB 原則後，您必須將現有團隊的模式更新為 *隱含* ，以確保現有團隊符合 IB 規範。
+在您的租使用者中啟動資訊隔閡原則之前所建立的團隊，預設會自動設定為 *[開* 啟] 模式。 在租使用者上啟用 IB 原則後，您必須將現有團隊的模式更新為 *隱含* ，以確保現有團隊符合 IB 規範。
 
 使用 [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) Cmdlet 搭配 *InformationBarrierMode* 參數，該參數對應到您要用於區段的模式。 *InformationBarrierMode* 參數的允許值清單為 *Open*、*Implicit* 和 *Owner Moderated*。
 
-例如，若要設定Microsoft 365群組的 *隱含* 模式，您將使用下列 PowerShell 命令：
+例如，若要設定 Microsoft 365 群組的 *隱含* 模式，您將使用下列 PowerShell 命令：
 
 ```powershell
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-若要更新所有現有團隊的 [開啟] 到 [隱含] 模式，請使用此 [PowerShell 腳本](information-barriers-mode-script.md)。
+若要針對所有現有團隊將模式從 [開啟] 更新為 [隱含]，請使用此 [PowerShell 腳本](information-barriers-mode-script.md)。
 
-如果您變更現有連線Teams群組的 [開啟] 模式設定，以符合貴組織的合規性要求，您將需要針對連線至Teams小組的相關SharePoint網站[更新 IB 模式](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)。
+如果您在現有的 Teams 連線群組上變更 Open 模式設定，以符合貴組織的合規性要求，您將需要針對連線至 Teams 小組的相關聯 SharePoint 網站 [更新 IB 模式](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) 。
 
 ## <a name="required-licenses-and-permissions"></a>必要的授權和許可權
 
-如需授權與許可權、方案和價格的詳細資訊，請[參閱Microsoft 365安全性&合規性的授權指導方針](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
+如需授權與許可權、方案和價格的詳細資訊，請參閱 [Microsoft 365 安全性&合規性授權指導方針](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="known-issues"></a>已知問題
 
@@ -218,10 +220,10 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="more-information"></a>詳細資訊
 
 - 若要深入瞭解 IBS，請參閱 [資訊障礙](/office365/securitycompliance/information-barriers)。
-- 若要設定 IB 原則，請參閱[開始資訊障礙](/office365/securitycompliance/information-barriers-policies)。
+- 若要設定 IB 原則，請參閱 [開始使用資訊障礙](/office365/securitycompliance/information-barriers-policies)。
 - 若要編輯或移除 IB 原則，請參閱 [管理資訊隔隔原則](/microsoft-365/compliance/information-barriers-edit-segments-policies)。
 - [資訊障礙和共用通道](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>可用 性
 
-Teams中的資訊障礙可在我們的公用、GCC、GCC - 高和 DOD 雲中使用。
+Teams 中的資訊障礙可在我們的公用、GCC、GCC - 高和 DOD 雲中使用。

@@ -7,18 +7,19 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 09/26/2022
 search.appverid: MET150
 description: 了解您需要設定的設定，以控制貴組織中的小組擁有者是否可以同意應用程式。
 ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cde84f4662b507b8497973436b9b713223fdbf74
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dd47f8e46147e3b4d30052ff4a1b9fcde6c128e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837323"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377151"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams 中的資源特定同意
 
@@ -39,7 +40,7 @@ Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式�
 > [!IMPORTANT]
 > 變更這些設定並不會影響已獲得同意之應用程式的資料存取。 例如，如果您將這些設定設置為禁止小組擁有者授予同意，這些變更不會移除已獲同意的資料存取權。
 
-#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>「使用者可以同意應用程式代表自己存取公司資料」設定
+#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>使用者可以同意應用程式代表其設定存取公司資料
 
 此設定會控制貴組織中的使用者是否可以代表自己同意應用程式。 若要讓小組擁有者授予同意，此設定必須設為 **[是]**。 若要管理此設定，請執行下列動作：
 
@@ -59,16 +60,16 @@ Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式�
 > [!IMPORTANT]
 > 變更這些設定並不會影響已獲得同意之應用程式的資料存取。 例如，如果您停用整個組織的第三方應用程式，或如果您封鎖特定應用程式以防止小組擁有者授予同意，這些變更並不會移除已獲得同意的資料存取權。  
 
-#### <a name="the-allow-third-party-apps-setting-in-org-wide-app-settings"></a>全組織應用程式設定中的「允許協力廠商應用程式」設定
+#### <a name="the-allow-third-party-apps-option-in-org-wide-app-settings"></a>全組織應用程式設定中的 [允許協力廠商應用程式] 選項
 
 這個全組織應用程式設定會控制貴組織中的使用者是否可以使用第三方應用程式。 此設定必須開啟，才能讓小組擁有者授予同意。 若要管理此設定，請執行下列動作：
 
 1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**。
 1. 選取 **[全組織應用程式設定** ]，然後在 [ **協力廠商應用程式**] 底下，關閉或開啟 [ **允許協力廠商應用程式]**。
 
-    ![[允許 Teams 中協力廠商應用程式] 設定的螢幕擷取畫面](media/resource-specific-consent-org-wide-setting.png)
+   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="顯示在 Teams 設定中允許協力廠商應用程式的螢幕擷取畫面。":::
 
-您可能需要等候 24 小時，變更才會生效。
+您的變更可能需要長達 24 小時才會生效。
 
 #### <a name="allow-or-block-the-app-at-the-org-level"></a>在組織層級允許或封鎖應用程式
 
@@ -77,8 +78,6 @@ Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式�
 1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**。
 1. 在 [管理應用程式] 頁面上，選取應用程式，然後選取 [ **封鎖** ] 來封鎖它，或選取 [ **允許** ] 來允許它。
 
-    ![全組織設定中已封鎖應用程式的螢幕擷取畫面。](media/resource-specific-consent-allow-block-apps.png)
-
 #### <a name="app-permission-policy-assigned-to-the-team-owner"></a>指派給小組擁有者的應用程式權限原則
 
 小組擁有者只能對其應用程式權限原則允許它們執行的應用程式授予同意。 若要檢視和管理指派給小組擁有者的應用程式權限原則，請執行下列動作：
@@ -86,8 +85,9 @@ Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式�
 1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **[使用者]**。
 1. 按兩下團隊擁有者的顯示名稱，然後選取 [ **原則]**。
 1. 指派給小組擁有者的原則會列在 **[應用程式權限原則**] 下方。
-    - 若要指派不同的原則，請選取 **[編輯**]，然後選取您要指派的原則。
-    - 若要編輯指派給團隊擁有者的原則設定，請選取原則名稱，然後進行所要的變更。  
+
+    * 若要指派不同的原則，請選取 **[編輯**]，然後選取您要指派的原則。
+    * 若要編輯指派給團隊擁有者的原則設定，請選取原則名稱，然後進行所要的變更。  
 
 ## <a name="upload-custom-apps"></a>上傳自訂應用程式
 
@@ -95,7 +95,7 @@ Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式�
 
 ## <a name="related-articles"></a>相關文章
 
-- [可用的 RSC 權限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
-- [Microsoft Graph](https://developer.microsoft.com/graph)
-- [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
-- [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
+* [可用的 RSC 權限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [Microsoft Graph](https://developer.microsoft.com/graph)
+* [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
+* [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)

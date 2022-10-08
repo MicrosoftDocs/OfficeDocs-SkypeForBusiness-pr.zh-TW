@@ -1,7 +1,7 @@
 ---
 title: 什麼是 Microsoft Teams 即時活動？
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,6 +10,7 @@ ms.collection:
 - m365initiative-meetings
 - m365solution-spcomms
 - m365solution-scenario
+- highpri
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -22,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec79ec6d230359a43c910336a53a462c5f80fc6d
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
-ms.translationtype: HT
+ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825697"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486593"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft Teams 即時活動
 
@@ -41,7 +42,7 @@ Teams 提供聊天式的共同作業、通話、會議和即時活動，因此�
 
 Teams 即時活動被視為下一版的 Skype 會議廣播，而且最終會取代 Skype 會議廣播中提供的功能。 目前，Microsoft 將繼續為組織中使用商務用 Skype 的使用者支援 Skype 會議廣播，不會中斷新活動或未來活動的服務。 不過，我們鼓勵您試用 Teams 即時活動，以使用所有全新且令人興奮的功能，包括螢幕畫面分享和支援外部硬體/軟體編碼器。
 
-讓我們開始吧。首先，請看一下下圖，其中顯示與 Microsoft 365 即時活動有關的高層級元件，以及其連線方式。
+So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
 ![即時活動的主要元件。](../media/live-events-flow-diagram.png  "即時活動、排程、產生、Stream 平台、認證的協力廠商 eCDN 提供者的主要元件")
 
@@ -85,7 +86,7 @@ Teams 可讓召集人建立採用適當參與者權限的活動、指定活動�
     ![使用外部應用程式或裝置產生的即時活動。](../media/teams-live-events-external-encoder.png "顯示使用外部應用程式或裝置產生方法產生的即時活動的螢幕擷取畫面")
 
 >[!Note]
-> 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶對新會議錄製使用商務用 OneDrive 和 SharePoint。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ### <a name="streaming-platform"></a>串流平台
 

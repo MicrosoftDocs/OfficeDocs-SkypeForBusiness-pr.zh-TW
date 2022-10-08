@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: eaf165759e2310402fdec6147ba2153ec0ce792b
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486758"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046853"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -220,6 +220,9 @@ ms.locfileid: "67486758"
   
 專員的 Teams 帳戶必須設定為 TeamsOnly 模式。 不符合需求的代理程式不包含在通話路由清單中。 如果您的代理程式使用相容的用戶端，建議您為通話佇列啟用會議模式。
 
+> [!TIP]
+> 建議的設定是將 **會議模式** 設定為 [ **開** 啟]。
+
 > [!NOTE]
 > 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
 >
@@ -230,12 +233,9 @@ ms.locfileid: "67486758"
 > 第一次加入通話時，專員可能會聽到佇列中保留的已設定音樂長達 2 秒鐘。
 
 
-> [!TIP]
-> 建議的設定是將 **會議模式** 設定為 [ **開** 啟]。
-
 選取來電接聽選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-# <a name="step-4-agent-routing"></a>[步驟 4：代理程式路由](#tab/agent-routing)
+# <a name="step-4-agent-selection"></a>[步驟 4：代理程式選取範圍](#tab/agent-selection)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>步驟 4：選取您的專員路由選項
 
@@ -251,7 +251,8 @@ ms.locfileid: "67486758"
 
 - **最長閒置** 時間將每通電話路由給閒置時間最長的代理人。 如果專員的目前狀態可供使用，就會被視為閒置。 在專員將目前狀態變更為 [線上] 之前，他們將不符合接聽來電的資格。
 
-建議您將 **路由方法** 設定為 **四捨五入或****最長閒置** 時間。
+> [!TIP]
+> 建議您設定 [ **路由法** ] 為 **[四捨五入]** 或 [ **最長閒置時間** ]。
 
 > [!NOTE]
 > 如果代理程式已啟用 [合規性錄製](teams-recording-policy.md) ，則不支援 **會議模式** 和 **Attendant 路由** 的組合。 如果您需要使用 **會議模式**，請選取 **[串列路由**]、[ **圓形長圈**] 或 [ **最長閒置時間** ] 做為 **路由方法**。 如果您需要使用 **Attendant 路由**，請將 **會議模式** 設為 **[關閉]**。
@@ -272,7 +273,8 @@ ms.locfileid: "67486758"
 
 如果專員選擇不接聽電話，無論他們的顯示狀態設定為何，都不會將他們納入通話路由清單中。
 
-建議您開啟 **目前狀態型路由**。
+> [!TIP]
+> 建議設定 [目前 **狀態] 路由** 設定為 [ **開啟** ]。
 
 > [!NOTE]
 > 當選取 **[最長閒置** 時間] 做為路由方法時，即使目前狀態型路由切換開關為 **[關閉** ] 且呈現灰色，仍需要並自動啟用目前狀態路由。
@@ -293,7 +295,8 @@ ms.locfileid: "67486758"
 
 **專員警示時間** 指定專員的電話會在佇列重新導向至下一位專員之前響鈴多久。
 
-我們建議將 **專員警示時間** 設定為 **20 秒**。
+> [!TIP]
+> 建議將 **專員警示時間** 設定為至少 **20 秒** 。
 
 選取您的代理人通話路由選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
@@ -349,11 +352,11 @@ ms.locfileid: "67486758"
 - **會議模式** 為 **[開啟]**
 - **路由方式** 轉為 **Round 畫過** 或 **最長閒置**
 - **以目前狀態為基礎的路由** 至 [ **開啟]**
-- **專員警示時間：** 到 **20 秒**
+- **專員警示時間：** 最少 **20 秒**
 
 ### <a name="call-queue-feature-compatibility"></a>通話佇列功能相容性
 
-|功能                          |Teams 電腦版<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP Phone | 標準通話佇列 |頻道型通話佇列 | 評論 |
+|功能                          |Teams 電腦版<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |商務用 Skype |IP Phone | 標準通話佇列 |頻道型通話佇列 | 評論 |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**代理程式路由方法**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*預設*     |
@@ -373,8 +376,8 @@ ms.locfileid: "67486758"
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN 連線方法**    |                          |          |                |     |          |                      |                          |請參閱附注 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|`Direct Routing`                 |Y                         |Y         |Y               |N    |N         |Y                     |Y                         |   |
-|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**雜項**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
@@ -387,6 +390,8 @@ ms.locfileid: "67486758"
 5. 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
 6. Microsoft Teams 電話。
 7. 透過 的 [使用者設定] 入口網站頁面。 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)
+- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- 國防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. 僅支援公用頻道。
 9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
 

@@ -1,7 +1,7 @@
 ---
 title: 適用於小型企業的 Microsoft Teams 基本版快速入門指南
-author: adeejoseph
-ms.author: adjoseph
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: ba285480bc1316d33ea6a5708ec7ef7e6d7451f9
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675045"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377621"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>適用於小型企業的 Microsoft Teams 基本版快速入門指南
 
@@ -97,7 +97,7 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 
 
 > [!IMPORTANT] 
-> 若要取得增強的系統管理及整組 Teams 功能，您必須為使用者購買適當的 [Microsoft 365 或 Office 365 訂閱方案](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)，以升級至完整版的 Teams。我們建議您採用此方法，因為您將擁有更多彈性來管理組織共同合作的方式。
+> To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams 基本版的系統管理限制和規格
 
@@ -109,9 +109,9 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 
 若要開始使用 Teams 基本版，請遵循下列步驟：
 
-1. **購買訂閱。** 請前往 [適用於小型企業的 Microsoft Teams 基本版](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options)，然後在 Microsoft Teams 基本版下選取 [立即購買 **]**。
+1. **購買訂閱。** 請前往 [適用於小型企業的 Microsoft Teams 基本版](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options)，然後在 Microsoft Teams 基本版下，選取 **立即購買**。
 2. **使用您現有的電子郵件註冊。** 使用現有的電子郵件地址，並遵循指示購買使用者授權。
-3. **檢閱 Teams 服務描述。** 請前往 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)，以深入了解 Microsoft Teams。
+3. **檢視 Teams 服務描述。** 請前往 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)，以深入瞭解 Microsoft Teams。
 
 當您完成這些工作之後，就可以開始規劃、部署及使用 Teams 應用程式。
 
@@ -166,10 +166,10 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>我可以使用現有的電子郵件系統與 Microsoft Teams 基本版嗎？  
 
-是的。您可以保留現有的電子郵件系統，並運用 Teams 基本版進行會議、聊天和共同合作。  
+Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>我可以將現有的行事曆解決方案與 Teams 基本版相連接嗎？
-是的。您可以使用 Teams 基本版同步處理來自 Outlook.com 和 Google 的現有行事曆。
+Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 若要將現有的行事曆解決方案與 Teams 基本版 (AAD 身分識別) 連接，請遵循本文稍後的指示。
 

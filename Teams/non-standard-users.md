@@ -1,16 +1,17 @@
 ---
-title: 根據使用者類型的 Teams 應用程式行為
+title: 不同使用者類型的 Teams 應用程式可用性和使用方式
 author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: joglocke
-manager: serdars
+ms.reviewer: kojika
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
 search.appverid: MET150
-description: 瞭解 Microsoft Teams 中的應用程式如何針對來賓、同盟使用者和匿名使用者以不同的方式運作。
+description: 瞭解 Microsoft Teams 中的應用程式如何為來賓、同盟使用者和匿名使用者運作。
 ms.localizationpriority: high
+ms.date: 09/28/2022
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,35 +19,36 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e39aac93c7311785c0f740eded8a0021e321c43
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 6fa9b56a17cdba5bfe4b075199a3373470d1630a
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837493"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494626"
 ---
-# <a name="behavior-of-microsoft-teams-apps-based-on-types-of-in-meeting-users"></a>根據會議中使用者類型的 Microsoft Teams 應用程式行為
+# <a name="use-teams-apps-as-an-external-attendees-or-guest"></a>以外部出席者或來賓身分使用 Teams 應用程式
 
-當來賓、外部 (同盟) 和匿名使用者在 Teams 內容中出現時，Teams 應用程式的行為。
+Teams 應用程式可讓您與組織外部人員共同作業。 身為系統管理員，您可以控制誰可以存取 Teams 聊天、會議和頻道，以便與貴組織的使用者共同作業。 如需詳細資訊，請參閱 [如何允許與外部出席者共同](manage-external-access.md) 作業 [，以及來賓可以在 Teams 中執行什麼動作](guest-access.md)。 本文著重于組織外部人員使用應用程式。
+
+下列類型的使用者可以出現在 Teams 聊天或會議中，如果您允許，他們可以使用 Teams 中的應用程式。
 
 * **來賓使用者** 是指非您組織員工、學生或成員的人。 他們沒有貴組織的學校或公司帳戶。
 
 * **外部 (同盟) 使用者** 來自其他網域，且無法存取貴組織的 Teams 資源。
 
-  > [!Note]
-  > 如需來賓與外部使用者之間的更詳細比較，請參閱 [與其他組織的使用者通訊](./communicate-with-users-from-other-organizations.md)。
-
 * **匿名使用者** 是透過連結加入會議的使用者。 使用者未使用其 Microsoft 帳戶或其組織的帳戶登入。
+
+如需來賓與外部使用者之間的更詳細比較，請參閱 [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
 
 ## <a name="guests"></a>來賓
 
-### <a name="install-update-and-delete-for-guests"></a>為來賓安裝、更新和刪除
+### <a name="install-update-and-delete-apps-for-guests"></a>為來賓安裝、更新和刪除應用程式
 
 來賓無法在聊天、頻道或會議等共用內容中安裝、更新或刪除應用程式。 來賓可以在其個人範圍中使用訊息延伸模組和直接連結來執行此動作。 來賓無法從 Teams 傳統型應用程式存取 Teams 應用程式市集，但可以使用直接連結存取 Microsoft Store。
 
 ### <a name="usage-behavior-and-policy-for-guests"></a>來賓的使用行為和原則
 
-如果應用程式是由原生使用者安裝，來賓可以使用應用程式。
+如果應用程式是由組織的使用者安裝，來賓可以使用應用程式。
 
 #### <a name="bots-installed-to-a-channel"></a>安裝到頻道的 Bot
 
@@ -56,13 +58,13 @@ ms.locfileid: "67837493"
 
 * 對於任何應用程式，來賓都遵守為主機組織設定的全域和整個組織許可權原則。 如果整個主機組織都已封鎖應用程式，則來賓也無法使用該應用程式。
 * 也會為來賓安裝全域預設應用程式設定原則中包含的任何 Bot。
-* 安裝 Bot 之後，Bot 可以主動與來賓通訊，來賓可以回復與 Bot 的通訊。
+* 安裝 Bot 之後，Bot 和來賓可以主動互相溝通。
 * 您無法從全域預設應用程式設定原則移除來賓。
 * 若要避免來賓存取 Bot，您可以建立更多應用程式設定原則、將它們指派給內部使用者，以及使用自訂原則安裝 Bot。
 
 ## <a name="federated-users"></a>同盟使用者
 
-### <a name="install-update-and-delete-for-federated-users"></a>為同盟使用者安裝、更新和刪除
+### <a name="install-update-and-delete-apps-for-federated-users"></a>安裝、更新及刪除同盟使用者的應用程式
 
 同盟使用者無法在任何內容中安裝、更新或刪除應用程式，例如個人、聊天、頻道或會議。 他們無法存取代管組織的 Teams App Store。
 
@@ -76,7 +78,7 @@ ms.locfileid: "67837493"
 
 ## <a name="anonymous-users"></a>匿名使用者
 
-### <a name="install-update-and-delete-for-anonymous-users"></a>安裝、更新及刪除匿名使用者
+### <a name="install-update-and-delete-apps-for-anonymous-users"></a>安裝、更新及刪除匿名使用者的應用程式
 
 匿名使用者無法在會議中安裝、更新或刪除應用程式。
 
@@ -86,7 +88,19 @@ ms.locfileid: "67837493"
 
 匿名使用者只能與會議中既有可用但無法取得及管理這類應用程式的應用程式互動。 即使匿名使用者正在參與會議，原生使用者仍可繼續使用會議應用程式。
 
-## <a name="see-also"></a>另請參閱
+### <a name="disallow-anonymous-users-to-use-apps-in-meetings"></a>不允許匿名使用者在會議中使用應用程式
+
+根據預設，匿名使用者可以在會議中與現有的應用程式互動。 您可以不允許匿名使用者與應用程式互動。
+
+1. 登入 Teams 系統管理中心並存取 **會議**  >  **[會議設定](https://admin.teams.microsoft.com/meetings/settings)**。
+
+1. 在 [ **參與者**] 底下，將 **[匿名使用者可以在會議中與應用程式互動** ] 切換為 **[關閉]**。
+
+1. 選取 [儲存 **]**。
+
+## <a name="related-articles"></a>相關文章
 
 * [允許匿名使用者加入會議](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 * [在 Microsoft Teams 中管理應用程式設定原則](teams-app-setup-policies.md)。
+* [如何允許與來賓和外部參與者共同作業](manage-external-access.md)。
+* [來賓可以在 Teams 中做什麼](guest-access.md)

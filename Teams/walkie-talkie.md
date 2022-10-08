@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 如何從 ITAdmin 的觀點設定 Microsoft Teams 中的無線對講機應用程式。
+description: 如何從 IT 系統管理員的觀點，在 Microsoft Teams 中設定無線對講機應用程式。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -15,16 +15,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465991"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377301"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
@@ -35,9 +36,16 @@ Teams 中的 [無線對講機] 應用程式可為您的團隊提供即時推入�
 > [!NOTE]
 > 中國目前不提供無線對講機。
 
+## <a name="license-requirements"></a>授權需求
+
+Microsoft [365 和 Office 365 訂閱](/office365/servicedescriptions/teams-service-description)的所有 Teams 付費授權都包含無線對講機。 如需取得 Teams 的詳細資訊，請參[閱如何?取得 Microsoft Teams 的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
 ## <a name="deploying-walkie-talkie"></a>部署無線對講機
 
 搭配 Google Mobile Services (MCS) 和 iOS 裝置的 Android 裝置支援無線對講機。
+
+> [!NOTE]
+> 如果您的使用者使用藍牙配件，請確定您的行動裝置管理 (MDM) 解決方案不會封鎖藍牙裝置。
 
 ### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>啟用或停用組織中的無線對講機
 
@@ -102,7 +110,7 @@ Teams 中的無線對講機需要網際網路連線。 您必須有下列網路�
 - 交叉處理 [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html)、 [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html)、 [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html)、 [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html)和 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **] 按鈕**。 在 [專用] 按鈕 (1 或 2) ，選取 [ **長按**]，然後選擇 **[PTT 應用程式]**。 選取 [ **自訂]** 旁邊的藍色滾輪，然後選 **取 [Teams]**。
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) 和 [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
-  - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **程式化] 按鍵**。 根據裝置) ，選擇 **[PTT 鍵** ] 或 [ **按住** 不放 (]，然後選 **取 [Teams]**。
+  - 手動設定：安裝 Teams 後，移至 [**設定**  >  **程式化] 按鍵**。 根據裝置) ，選擇 **[PTT 鍵** ] 或 [ **按住** 不放 (]，然後選 **取 [Teams]**。
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - 手動設定：安裝 Teams 之後，移至 **[設定****進階**  >  功能  >  **XCover/Active 鍵]**。 開啟 **[搭配應用程式控制 XCover 金鑰]** ，然後選 **取 [Teams]**。
   - [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
@@ -113,10 +121,6 @@ Teams 中的無線對講機需要網際網路連線。 您必須有下列網路�
 
 > [!NOTE]
 > 這些裝置未通過 Teams 認證。 他們已通過驗證，可搭配 Teams 無線對講機使用。
-
-## <a name="license-requirements"></a>授權需求
-
-Office 365訂閱中的所有 Teams 付費授權中都包含無線對講機[應用程式](/office365/servicedescriptions/teams-service-description)。 如需取得 Teams 的詳細資訊，請參[閱如何?取得 Microsoft Teams 的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="more-information"></a>詳細資訊
 

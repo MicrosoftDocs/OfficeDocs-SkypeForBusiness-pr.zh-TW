@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 瞭解如何將您的自訂應用程式上傳到您組織的 Microsoft Teams 系統管理中心中的應用程式市集。
-ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837313"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494606"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>透過上傳應用程式套件發佈自訂應用程式
 
@@ -31,7 +32,7 @@ ms.locfileid: "67837313"
 
 本文提供端對端指導方針，說明如何將您的 Teams 應用程式從開發到部署到探索。 此指導方針著重於應用程式的 Teams 層面，適用於系統管理員和 IT 專業人員。 如需開發 Teams 應用程式的詳細資訊，請參閱 [Teams 開發人員文件](/microsoftteams/platform/)。
 
-![從開發到部署的應用程式概觀。](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="從開發到部署的應用程式概觀。":::
 
 ## <a name="create-your-app"></a>建立您的應用程式
 
@@ -84,7 +85,7 @@ Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](ov
 
 1. 選 **取 [上傳**]，選取 **[上傳**]，選取您從開發人員收到的應用程式套件，然後選取 [ **開啟]**。
 
-   ![系統管理中心中自訂應用程式上傳的螢幕擷取畫面。](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="系統管理中心中自訂應用程式上傳的螢幕擷取畫面。":::
 
 ## <a name="set-up-and-manage"></a>設定及管理
 
@@ -134,6 +135,6 @@ Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](ov
 
 * [透過 Teams 應用程式提交 API 發佈自訂應用程式](submit-approve-custom-apps.md)
 * [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
-* [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
+* [管理自訂應用程式的原則和設定](teams-custom-app-policies-and-settings.md)
 * [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
 * [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)

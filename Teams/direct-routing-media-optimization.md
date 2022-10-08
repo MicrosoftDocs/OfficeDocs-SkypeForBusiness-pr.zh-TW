@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由的本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c33b8225f3bcde32428348e85166ff4d4463738
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616089"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018109"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>規劃直接路由的本機媒體優化
 
@@ -232,7 +232,7 @@ ms.locfileid: "66616089"
 
 圖表 5.  流量有「永遠略過」模式，且使用者位於「首頁」網站
 
-![顯示流量本機媒體優化的圖表。] (媒體/direct-routing-media-op-5.png有「永遠略過」模式的流量，且使用者位於「首頁」網站) 
+![顯示流量本機媒體優化的圖表。](media/direct-routing-media-op-5.png "流量有「永遠略過」模式，且使用者位於「首頁」網站")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>案例 2：使用者和閘道位於不同的網站
@@ -255,7 +255,7 @@ ms.locfileid: "66616089"
 
 圖表 6.  流量有「永遠略過」模式，且使用者不在「首頁」網站，而是在內部網路中
 
-![圖表顯示流量本機媒體優化。] (媒體/direct-routing-media-op-6.png「流量流為「永遠略過」模式，且使用者不在「首頁」網站，但位於內部網路中」) 
+![圖表顯示流量本機媒體優化。](media/direct-routing-media-op-6.png "流量為「永遠略過」模式，且使用者不在「首頁」網站，而是在內部網路中")
 
 ### <a name="mode-2-only-for-local-users"></a>模式 2：僅適用于本機使用者
 
@@ -295,7 +295,7 @@ ms.locfileid: "66616089"
 
 圖表 7. 流量為「僅適用于本機使用者」模式，且使用者位於「首頁」網站
 
-![顯示流量本機媒體優化的另一個圖表。] (媒體/direct-routing-media-op-7.png「僅適用于本機使用者的流量」模式，且使用者位於「首頁」網站」) 
+![另一個顯示流量本機媒體優化的圖表。](media/direct-routing-media-op-7.png "流量為「僅適用于本機使用者」模式，且使用者位於「首頁」網站")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>案例 2. 使用者和閘道位於不同的網站
@@ -325,7 +325,7 @@ ms.locfileid: "66616089"
 
 圖表 8.  流量為「僅適用于本機使用者」模式，且使用者不在「首頁」網站，而是在內部網路中
 
-![另一個圖表顯示流量本機媒體優化。] (媒體/direct-routing-media-op-8.png「僅適用于本機使用者的流量」模式，使用者不是在「首頁」網站，而是在內部網路中」) 
+![另一個圖表顯示流量本機媒體優化。](media/direct-routing-media-op-8.png "流量為「僅適用于本機使用者」模式，使用者不是在「首頁」網站，而是在內部網路中")
 
 ## <a name="known-issues"></a>已知的問題
 

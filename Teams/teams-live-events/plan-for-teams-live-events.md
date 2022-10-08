@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中規劃即時活動
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,44 +20,44 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e522227baf9d71cddd51c5cd0468b91bb6de3f8
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
-ms.translationtype: HT
+ms.openlocfilehash: 6c5b0865c5b3c466fe37b41422453ee0cc6f0c9b
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825547"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494636"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
 當您規劃使用 Teams 即時活動來舉辦組織中的大型會議時，必須先考量幾個因素，再開始進行設定。
 
 > [!Note]
-> 如需有關不同平台上 Teams 即時活動的詳細資訊，請參閱 [依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。請參閱 [[為您的組織做好準備]](../prepare-network.md) 以瞭解 Teams 即時活動的頻寬需求。
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>哪些人可以參加、建立及排定即時活動？
 
-任何人都可以在沒有授權的情況下參加即時活動。請閱讀[系統管理員快速入門 - 會議與即時活動](../quick-start-meetings-live-events.md)。
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
 
 使用者需要具備下列必要條件，才能排定 Teams 即時活動。
 
 若要組織、產生或出席 Teams 即時活動，您必須獲派以下授權：  
 
 - **若要組織：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 授權。 
-- **若要產生或出席：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 授權。這項需求的例外情況是，如果符合 [來賓使用者](plan-for-teams-live-events.md#guest-to-present)的其他準則，來賓使用者就可以不使用授權出席。
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Microsoft Teams 授權 - 此授權包含在第一個和第二個項目符號列出的授權中。
-- Microsoft Stream 授權 - 如果您打算將內容共用給外部應用程式或裝置，就必須有此授權；請參閱 [Microsoft Stream 授權](/stream/license-overview)。
+- Microsoft Stream 授權 - 如果您打算將內容共用給外部應用程式或裝置，就必須有此授權；請參閱 [Microsoft Stream 授權](/stream/license-overview)。 如果您使用較新的 Teams Encoder 服務來製作活動，則不需要 Stream 授權。 
 
-  如果您只想讓使用者錄影及下載錄製檔，則使用者不需獲指派 Microsoft Stream 授權。這表示，錄製檔不會儲存在 Microsoft Stream 而是會儲存在 Azure Media Services (AMS) 中，並將於 180 天的時間限制後刪除。目前系統管理員並無法控制或管理此機制，以包括刪除它的功能。
+  Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
 >[!Note]
-> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 年初的某刻，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行會議錄製。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 > [!NOTE]
 > 目前，沒有任何 Microsoft 365 小型企業方案可供用來建立及保留 Teams 即時活動。
 
 請務必知道，若要以已驗證的使用者身分參與即時活動，必須要具備 Microsoft 365 或 Office 365 授權，但這項需求視使用的生產方法而定：
 
-- **針對 Teams 中產生的活動**，使用者必須取得指派的 Teams 授權。
+- **針對在 Teams 中製作的活動或使用 Teams 支援的編碼器**  使用者必須獲指派 Teams 授權。
 - **針對外部應用程式或裝置所產生的活動**，使用者必須取得指派的 Stream 授權。
 
 > [!NOTE]
@@ -85,23 +85,23 @@ ms.locfileid: "66825547"
 2. 讓使用者接受來賓邀請並加入團隊。
 3. [排程即時活動，並將來賓新增至您的活動群組](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-最佳做法是，建議您為即時活動的製作人和簡報者建立頻道，使得他們可以在活動前交談和共用資訊。沒有 Microsoft 365 認證的來賓就不會看到 Teams 中的行事曆。若要讓他們能夠輕鬆加入活動，製作人可以將活動連結張貼到頻道。然後，簡報者可以開啟 Teams，前往頻道，然後選取連結以加入活動。
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
 
 ## <a name="who-can-watch-live-events"></a>誰可以觀看即時活動？
 
-| 出席者可見度 | Teams 產生 | 外部應用程式或裝置產生 |
-|------------------------------|-----------------|----------------------|
-|公用 (匿名使用者)      |  是            |  否                  |
-|來賓使用者                   |  是<sup>1</sup>            |  否                  |
-|外部存取 (同盟) 公司中的每個人 |  是<sup>1</sup>|  否                  |
-|公司中的每個人           |  是            |  是                 |
-|特定群組/人員      |  是            |  是                 |
+| 出席者可見度 | Teams 產生 | 外部應用程式或裝置產生 | Teams 支援的編碼器
+|------------------------------|-----------------|----------------------|----------------|
+|公用 (匿名使用者)      |  是            |  否                  | 是
+|來賓使用者                   |  是<sup>1</sup>            |  否                  |  是的            |
+|外部存取 (同盟) 公司中的每個人 |  是<sup>1</sup>|  否                  | 是            |
+|公司中的每個人           |  是            |  是                 | 是                |
+|特定群組/人員      |  是            |  是                 | 是                |
 
 <sup>1</sup> 出席者只能透過人員與群組邀請 <br>
 
-## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 即時活動和 Skype 會議廣播
+## <a name="teams-live-events"></a>Teams 即時活動
 
-下表醒目提示即時活動中提供的核心功能和功能，以及它們與 Skype 會議廣播有何差異。
+下表醒目提示即時活動中提供的核心功能和功能
 
 > [!IMPORTANT]
 > **Microsoft 365 的即時活動限制增加**
@@ -112,7 +112,7 @@ ms.locfileid: "66825547"
 >- 不同租用戶可以同時進行 50 個活動
 >- 每個廣播的活動持續時間 (16 小時)
 >
-> 此外，可透過 Microsoft 365 即時活動輔助計畫來規劃最多 100,000 位出席者參與的即時活動。小組會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。 
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | 功能 | Skype 會議廣播 | Teams 中產生的活動 | 外部應用程式或裝置中產生的活動 |
 |---------|---------|---------|---------|
@@ -143,12 +143,12 @@ ms.locfileid: "66825547"
 |適用於製作人的廣播後出席報告 |&#x2714; |&#x2714; |&#x274C; |
 |對象人氣分析 - 即時投票與票選 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 設定的限制可能會變更。查看 [Teams 的限制和規格](../limits-specifications-teams.md)。<br/>
+<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> 您最多可以在即時活動中擁有 100 位簡報者和製作人，但只會在清單中顯示最後 10 位發言者。
 
 ## <a name="regional-availability"></a>區域可用性
 
-您可以在世界各地多個區域中使用 Teams 即時活動。下列資訊顯示事件小組成員和出席者的可用性。
+You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
 > 系統會根據召集人和 Microsoft 365 租用戶位置，自動選取活動的區域。

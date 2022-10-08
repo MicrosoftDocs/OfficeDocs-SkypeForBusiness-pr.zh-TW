@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理參與者和來賓的會議原則設定。
-ms.openlocfilehash: 46db9b7f5a1fae40d3f46bad156e318a3e677d07
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 5b489f312dd1fd1fcd9bdb6a301a65e76ab9ed91
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706620"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018089"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -62,7 +62,7 @@ ms.locfileid: "67706620"
  會議召集人可以按一下會議邀請中的 [ **會議選項** ]，針對他們排程的每個會議變更此設定。
 
 > [!NOTE]
-> 在會議選項中，設定會標示為「誰無需先在大廳等候」。如果您變更任何使用者的預設設定，它將會套用至該使用者召集的所有新會議，以及使用者未修改會議選項的任何先前會議。
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |設定值  |加入行為 |
 |---------|---------|
@@ -71,7 +71,7 @@ ms.locfileid: "67706620"
 |**組織中的人員、信任的組織和來賓**     |組織內經過驗證的使用者，包括來賓和受信任組織的使用者，無需在大廳等候即可直接加入會議。  匿名使用者在大廳中等候。   |
 |**組織中的人員**    |組織內經過驗證的使用者無需在大廳等候，即可直接加入會議。  來自信任組織、來賓和匿名使用者的使用者在大廳等候。          |
 |**僅限召集人**    |只有會議召集人可直接加入會議，而不需在大廳等候。 其他人，包括組織內已驗證的使用者、來賓、受信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams 用戶端會議選項頁面上，它會顯示為「僅自己」。          |
-|**僅邀請的使用者**    |只有受邀的使用者和會議召集人可以直接加入會議，而不必在大廳等候。 其他人，包括組織內已驗證的使用者、來賓、受信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams 用戶端會議選項頁面上，它會顯示為「人員我邀請」。 新增為通訊群組一部分的使用者必須經過大廳。      |
+|**僅邀請的使用者**    |只有受邀的使用者和會議召集人可以直接加入會議，而不必在大廳等候。 其他人，包括組織內已驗證的使用者、來賓、受信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams 用戶端會議選項頁面上，它會顯示為「我邀請人員」。 新增為通訊群組一部分的使用者必須經過大廳。      |
 
  > [!NOTE]
 > 信任的組織是您在 Teams 中允許同盟通訊的網域。 如果您在 Teams 系統管理中心啟用 **[允許外部存取的所有外部網域** ]，任何 Teams 組織內已驗證的使用者都會受到信任。 如果您選擇指定允許並封鎖所有其他的外部網域，則允許的網域會變成信任的組織。 任何封鎖的網域都被視為不是信任的組織。
@@ -91,7 +91,7 @@ ms.locfileid: "67706620"
 
 |設定值 |行為  |
 |---------|---------|
-|**已停用，但使用者可以覆寫**     | 在會議期間不會自動為使用者開啟即時輔助字幕。 使用者會在溢位 **(...)** 功能表中看到 [開啟即時輔助字幕 **]** 選項，以將其開啟。 這是預設設定。 |
+|**尚未啟用，但使用者可以覆寫**     | 在會議期間不會自動為使用者開啟即時輔助字幕。 使用者會在溢位 **(...)** 功能表中看到 [開啟即時輔助字幕 **]** 選項，以將其開啟。 這是預設設定。 |
 |**未啟用**     | 在會議期間會為使用者停用即時輔助字幕。 使用者沒有開啟它們的選項。          |
 
 <a name="bkcontentsharing"> </a>

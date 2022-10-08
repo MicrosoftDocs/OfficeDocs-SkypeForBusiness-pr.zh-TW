@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: e59454349daf8121c759cef1cae350cf7294c1df
-ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
+ms.openlocfilehash: 730dd2f127c50d89f97c49c921e6b954a6043f65
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67734617"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218057"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
@@ -105,7 +105,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |:--- |:--- |
 |有線：有線 |第一個和第二個端點都使用有線乙太網路連線。 |
 |有線 ：wifi |第一個端點使用的是有線乙太網路連線，第二個端點是用於連線Wi-Fi，第二個端點則是使用有線乙太網路連線，第一個端點則是使用Wi-Fi連線。 |
-|： wifi |第一個端點使用 WiFi 連線，而第二個端點使用的網路連線為未知，或第二個端點使用 WiFi 連線，而第一個端點使用的網路連線為未知。 |
+|：無線 |第一個端點使用 WiFi 連線，而第二個端點使用的網路連線為未知，或第二個端點使用 WiFi 連線，而第一個端點使用的網路連線為未知。 |
 | | |
 
 #### <a name="blank-values"></a>空白值
@@ -319,7 +319,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二Wi-Fi廠商驅動程式版本  | String  | 廠商和第二個端點回報的 WiFi 驅動程式版本。 <br/> **範例值：** Contoso：15.1.1.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
 | 第一Wi-Fi通道  | String  | 第一個端點使用的 WiFi 通道。  <br/> **範例值：** 10| <br/>&bull; 未使用 WiFi <br/>&bull; 未回報頻道   |
 | 第二Wi-Fi通道  | String  | 第二個端點使用的 WiFi 通道。 <br/> **範例值：** 10  | <br/>&bull; 未使用 WiFi <br/>&bull; 未回報頻道  |
-| 第一Wi-Fi無線電類型  | String  | 第一個端點使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11b。 <br/> **範例值：** 802.11ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未回報 WiFi 類型  |
+| 第一Wi-Fi無線電類型  | String  | 第一個端點使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11b。 <br/> **範例值：** 802.11ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告 WiFi 類型  |
 | 第二Wi-Fi無線電類型  | String  | 第二個端點使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11b。 <br/> **範例值：** 802.11ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未回報 WiFi 類型  |
 | 第一個 DNS 尾碼  | String  | 與第一個端點回報之網路介面卡相關聯的 DNS 尾碼。 請注意，系統可能會針對任何類型的網路介面卡回報此值。 **範例值：** corp.contoso.com <span></span> <span></span>  | <br/>&bull; 端點未回報此值 <br/>  |
 | 第二個 DNS 尾碼  | String  | 與第二個端點回報之網路介面卡相關聯的 DNS 尾碼。 請注意，系統可能會針對任何類型的網路介面卡回報此值。<br/> **範例值：** corp.contoso.com <span></span> <span></span>   | <br/>&bull; 端點未回報此值  |
@@ -327,7 +327,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二Wi-Fi頻帶  | String  | 第二個端點報告所使用的 WiFi 頻帶。 <br/> **範例值：** 5.0 Ghz  | <br/>&bull; 該值未由端點計算 <br/>&bull; 未回報值  |
 | 第一Wi-Fi訊號強度  | String  | 第一個端點回報的百分比 [0-100] 中的 WiFi 訊號強度。 <br/> **範例值：** 081：[90 - 100)   | <br/>&bull; 該值未由端點計算 <br/>&bull; 未回報值  |
 | 第二Wi-Fi訊號強度  | String  | 第二個端點回報的百分比 [0-100] 中的 WiFi 訊號強度。 <br/> **範例值：** 081：[90 - 100)   | <br/>&bull; 該值未由端點計算 <br/>&bull; 未回報值  |
-| 第一次Wi-Fi電池充電  | 範圍 (百分比)   | 以第一個端點報告的百分比 [0-99] 估計剩餘電池計量。 依範圍分組的值。 0 表示裝置已接上電源。 <br/> **範例值：** 081：[90 - 100)  | &bull; 未使用 WiFi <br/>&bull; 未回報費用值   |
+| 第一次Wi-Fi電池充電  | 範圍 (百分比)   | 以第一個端點報告的百分比 [0-99] 來估計電池剩餘電量。 依範圍分組的值。 0 表示裝置已接上電源。 <br/> **範例值：** 081：[90 - 100)  | &bull; 未使用 WiFi <br/>&bull; 未回報費用值   |
 | 第二次Wi-Fi電池充電  | 範圍 (百分比)   | 以第二個端點回報的百分比 [0-99] 來估計剩餘電池計量。 依範圍分組的值。 0 表示裝置已接上電源。  <br/> **範例值：** 081：[90 - 100)  | &bull; 未使用 WiFi <br/>&bull; 未回報費用值  |
 |**指標**||||
 | 音訊降級 Avg  | 範圍 (平均意見分數 0-5)  | Average Network Mean Opinion Score degradation for stream. 代表網路中斷和抖動對接收音訊品質的影響程度。 不適用於 SATIN 或 WebRTC/VDI。 依範圍分組的值。 <br/> **範例值：** 015：[0.01 - 0.02)  | &bull; 接收串流的端點未回報網路 MOS 降級 <br/>&bull; 串流不是音訊串流。   |
@@ -336,7 +336,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 封包遺失率  | 範圍 (比例)   | 串流的平均封包遺失率。 依範圍分組的值。 0.1 表示 10% 封包遺失。 <br/> **範例值：** 015：[0.01 - 0.02)   | &bull; 接收串流的端點未回報封包遺失資料 |
 | 封包遺失率上限  | 範圍 (比例)   | 串流的封包遺失率上限。 依範圍分組的值。 0.1 表示 10% 封包遺失。 <br/> **範例值：** 023：[0.09 - 0.1)   | &bull; 接收串流的端點未回報封包遺失資料  <br/>&bull; 指定串流的封包使用率小於 100 個封包 |
 | 傳送聆聽 MOS  | MOS) 範圍 (  | Stream 的平均 MOS。 依範圍分組的值。 <br/> **範例值：** 076：[4.4 - 4.5)  | &bull; 接收串流的端點未回報 MOS <br/>&bull; 串流不是音訊串流 <br/>&bull; 使用的編解碼器不會回報 MOS |
-| 整體 Avg 網路 MOS  | MOS) 範圍 (  | Stream 的平均網路 MOS。 依範圍分組的值。 <br/> **範例值：** 076：[4.4 - 4.5)  | &bull; 接收串流的端點未回報網路 MOS 降級 <br/>&bull; 串流不是音訊串流 <br/>&bull; 使用的編解碼器不會回報 MOS |
+| 整體 Avg 網路MO  | MOS) 範圍 (  | Stream 的平均網路 MOS。 依範圍分組的值。 <br/> **範例值：** 076：[4.4 - 4.5)  | &bull; 接收串流的端點未回報網路 MOS 降級 <br/>&bull; 串流不是音訊串流 <br/>&bull; 使用的編解碼器不會回報 MOS |
 | 隱藏的範例 Avg 比例  | 範圍 (比例)   | 包含封包遺失所產生樣本的音訊框架數目與音訊框架總數之比例。 依範圍分組的值。 0.1 表示 10% 的框架包含隱藏的樣本。 <br/> **範例值：** 015：[0.01 - 0.02)  | &bull; 串流的接收器未回報此值 <br/>&bull; 串流不是音訊串流  |
 |隱藏比例最大 |範圍 (比例)  | 包含封包遺失所產生之樣本的音訊框架數目上限，會隱藏到音訊框架的總數。 依範圍分組的值。 0.1 表示 10% 的框架包含隱藏的樣本。 <br/> **範例值：** 015：[0.01 - 0.02) | |
 | 延伸範例 Avg 的比例  | 範圍 (比例)   | 具有已延伸之樣本的音訊框架數目之比例，以彌補抖動或遺失音訊框架的總數。 依範圍分組的值。 0.1 表示 10% 的音訊框架包含延伸的樣本。 <br/> **範例值：** 017：[0.03 - 0.04)  | &bull; 串流的接收器未回報此值  <br/>&bull; 串流不是音訊串流   |
@@ -387,7 +387,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 視訊因凍結而不佳 | Boolean  | 1 如果視訊串流根據 [視訊凍結] 實例分類為不佳： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md) | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流。 此欄位僅限 Microsoft Teams。 |
 | 因為 VideoFrameRateAvg 而造成 VBS 不佳  | Boolean  | 如果視訊型螢幕共用串流根據此處所列的視訊框架速率 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊型螢幕共用串流永遠都是 False。   | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流   |
 | 因被破壞的TilePercentTotal而造成應用程式共用不佳  | Boolean  | 如果應用程式共用串流根據此處所列的 [被破壞的磚百分比總計百分比] 閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。   | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流。  |
-| 因為 RelativeOneWayAverage 而導致 App 分享不佳  | Boolean  | 如果應用程式共用串流依據此處所列的相對單向平均公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
+| 因 RelativeOneWayAverage 而導致應用程式共用不佳  | Boolean  | 如果應用程式共用串流依據此處所列的相對單向平均公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
 | 應用程式共用不佳，因為 RDPTileProcessingLatencyAverage | Boolean  | 如果應用程式共用串流根據此處所列的 RDP 磚處理延遲平均標準閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
 | 由於抖動，音訊不佳  | Boolean  | 如果音訊串流依據此處所列的抖動計量閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非音訊串流永遠為 False。    | &bull; 端點並未回報此資料 <br/>&bull; 串流不是音訊共用串流 |
 | 由於 RoundTrip 導致音訊不佳  | Boolean  | 如果音訊串流依據此處所列的來回公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非音訊串流永遠為 False。   | &bull; 端點並未回報此資料 <br/>&bull; 串流不是音訊共用串流 |
@@ -501,7 +501,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個 Sip Uri|String|第一個端點使用者的 SIP URI。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull;僅針對商務用 Skype端點填入。<br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
 | 第一個電話號碼|String|第一個端點使用者的電話號碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 不論 EUII 檢視許可權為何，PSTN 數位的最後四位數一律會在 CQD 中混淆。<br/> **範例值：** +1425555*}| &bull; 僅針對 PSTN 端點填入。 <br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
 | 第二個電話號碼|String|第二個端點使用者的電話號碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 不論 EUII 檢視許可權為何，PSTN 數位的最後四位數一律會在 CQD 中混淆。<br/> **範例值：** +1425555*} | &bull; 僅針對 PSTN 端點填入。<br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
-| 第一個 UPN|String|使用者主體名稱 (第一個端點使用者的 UPN) 。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull; 並非所有 UserType 都有 UPN;包括第二個 UserType 或第二個 User ObjectId 維度，以深入瞭解這些端點。 |
+| 第一個 UPN|String|使用者主體名稱 (第一個端點使用者的 UPN) 。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull; 並非所有 UserType 都有 UPN;包含 First UserType 或 First User ObjectId 維度，以深入瞭解這些端點。 |
 | 第二個 UPN|String|使用者主體名稱 (第二個端點使用者的 UPN) 。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull; 並非所有 UserType 都有 UPN;包括第二個 UserType 或第二個 User ObjectId 維度，以深入瞭解這些端點。 |
 | 第一個意見反應文字|String|通話結束時，第一個端點的使用者提供的逐字意見反應文字。如果有的話。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 | |
 | 第二個意見反應文字|String| 第二個端點使用者在通話結束時提供的逐字意見反應文字，如果有的話。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。||
@@ -563,10 +563,10 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第一個 ACS 資源識別碼 |String |與第一個端點相關聯之 Azure 通訊服務的可啟用資源識別碼。 <br/> **範例：** 00000000-0000-0000-0000-0000000000 | 端點未使用 Azure 通訊服務 API|
 | 第二個 ACS 資源識別碼 |String |與第二個端點相關聯之 Azure 通訊服務的可啟用資源識別碼。 <br/> **範例：** 00000000-0000-0000-0000-0000000000 | 端點未使用 Azure 通訊服務 API|
 |**Datapair**||||
-| 網路連線詳細資料配對  | 列舉的配對 <br/>**可能的值：** <br/> wifi ：wifi <br/> wifi：有線 <br/> 有線 ：wifi <br/> 有線：有線 <br/> MobileBB：MobileBB <br/> MobileBB：其他 <br/> MobileBB ：通通道 <br/> MobileBB ：wifi <br/> MobileBB：有線 <br/> 其他：其他 <br/> 其他 ：wifi <br/> 其他：有線 <br/> 通地道：通水道 <br/> 通道：wifi <br/> 網道：有線 <br/> ： MobileBB <br/> ：其他 <br/> ：通通 <br/> ： wifi <br/> ： 有線 <br/> :  | 第一個和第二個端點的網路連線詳細資料組合。  | &bull; 端點網路連線類型為未知。 如果無法建立通話，就可能會發生這種情況。   |
+| 網路連線詳細資料配對  | 列舉的配對 <br/>**可能的值：** <br/> wifi ：wifi <br/> wifi：有線 <br/> 有線 ：wifi <br/> 有線：有線 <br/> MobileBB：MobileBB <br/> MobileBB：其他 <br/> MobileBB ：通通道 <br/> MobileBB ：wifi <br/> MobileBB：有線 <br/> 其他：其他 <br/> 其他 ：wifi <br/> 其他：有線 <br/> 通地道：通水道 <br/> 通道：wifi <br/> 網道：有線 <br/> ： MobileBB <br/> ：其他 <br/> ：隧道 <br/> ：無線 <br/> ：有線 <br/> :  | 第一個和第二個端點的網路連線詳細資料組合。  | &bull; 端點網路連線類型為未知。 如果無法建立通話，就可能會發生這種情況。   |
 | 使用者代理程式類別配對  | 列舉的配對  | 第一個和第二個端點的一組使用者代理程式類別。 <br/> **範例值：** AV-MCU ：OC  | &bull; 端點使用者代理程式不是已知的類型  |
 | 是伺服器配對  | 列舉的配對 <br/>**可能的值：** 用戶端：用戶端 <br/> 用戶端：伺服器 <br/> 伺服器：伺服器  | 將第一個和第二個端點識別成一組用戶端或伺服器。  | 無空白值   |
-| 連接冰組  | 列舉的配對 <br/>**可能的值：** <br/> DIRECT：DIRECT <br/> DIRECT：失敗 <br/> DIRECT：HTTP <br/> 失敗：失敗 <br/> 失敗：轉送 <br/> HTTP：RELAY <br/> : <br/> ：DIRECT <br/> ：失敗 <br/> ： HTTP <br/> ：RELAY | 每個端點所使用的 ICE 連線類型配對。   | &bull; 端點使用的 ICE 連線不為人知或未報告   |
+| 連接冰組  | 列舉的配對 <br/>**可能的值：** <br/> DIRECT：DIRECT <br/> DIRECT：失敗 <br/> DIRECT：HTTP <br/> 失敗：失敗 <br/> 失敗：轉送 <br/> HTTP：RELAY <br/> : <br/> ：直接 <br/> ：失敗 <br/> ： HTTP <br/> ：繼 電器 | 每個端點所使用的 ICE 連線類型配對。   | &bull; 端點使用的 ICE 連線不為人知或未報告   |
 | 作業系統配對  | 列舉的配對  | 作業系統名稱與第一端點和第二端點版本的配對。 <br/> **範例值：** Windows 10：Windows 10  | &bull; 作業系統名稱無法剖析或無法由端點報告  |
 | 租使用者識別碼配對  | 列舉的配對  | 第一個和第二個端點的租使用者識別碼配對。 <br/> **範例值：** 000000000 - 0000 - 0000 - 0000 - 00000000000 ： 00000000 - 0000 - 0000 - 00000000 - 000000000  |  &bull; 無法判斷租使用者識別碼。 如果端點已登入內部部署商務用 Skype Server，就可能會發生這種情況。  |
 | 建置名稱配對  | 列舉的配對  | 第一個和第二個端點的建築物名稱配對。  | &bull; 無法判斷端點的建築物名稱。 這可能是因為端點位於公司網路之外，或是從沒有子網對應的網站存取網路。 <br/> **範例值：** 主要建築物：分支網站大樓 |

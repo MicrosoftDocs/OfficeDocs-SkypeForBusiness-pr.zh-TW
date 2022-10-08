@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的 Teams 使用者是否可以將 Teams 相關的意見反應提交給 Microsoft。
-ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
-ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
+ms.openlocfilehash: 9510a94a60a79a36292011fdcdad6afa97e6f56f
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "67339797"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494656"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理意見反應原則
 
@@ -71,6 +71,7 @@ ms.locfileid: "67339797"
  - **螢幕擷取畫面**：使用 **AllowScreenshotCollection** 旗標來新增使用者的螢幕擷取畫面集合加入宣告。
  - **Email**：使用 **AllowEmailCollection** 標幟來新增電子郵件欄位。
  - **記錄收集**：使用 **AllowLogCollection** 標幟為使用者新增記錄集合加入宣告。 記錄收集功能目前僅在行動裝置上啟用。 如需有關透過記錄共用哪些資料的詳細資料，請 [深入瞭解](https://go.microsoft.com/fwlink/?linkid=2168178)。
+ - **建議功能**：將 **EnableFeatureSuggestions** 參數設定為 True，以允許獲指派原則的使用者建議功能。 將參數設定為停用會關閉功能，而獲指派原則的使用者則沒有提供意見反應的選項。 預設設定是從您的 Microsoft 365 選擇性連線體驗原則設定中取得。 若要深入瞭解該設定，請參 [閱 Office 中選擇性連線體驗的概觀](/deployoffice/privacy/optional-connected-experiences)。
 
 ## <a name="create-a-custom-feedback-policy"></a>建立自訂意見反應原則
 
