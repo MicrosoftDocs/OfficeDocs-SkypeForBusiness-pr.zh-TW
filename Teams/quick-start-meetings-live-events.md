@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e28437d6251156e16c2568c9adf9a708e412bd
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615669"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532243"
 ---
 # <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動
 
@@ -35,10 +35,7 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 
 本文適用於系統管理員和 IT 專業人員，說明會議、網路研討會和即時活動之間的差異。 然後它會提供您快速為使用者推出此功能所需的資訊連結。
 
-> [!NOTE]
-> 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
-
-[會議](#meetings)、[網路研討會](#webinars) 和 [即時活動](#live-events) 為各種類型的會議，但網路研討會和即時活動可為會議召集人提供對交談和參與者的額外控制。網路研討會提供雙向互動，而即時活動則提供受管理的問與答體驗。 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
 不同類型的會議也有不同的參與者限制和參與者功能。 
 
@@ -54,7 +51,13 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 
 **到 2022 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](/stream/live-events-assistance)。
 
-請注意，會議、網路研討會和即時活動中完全支援 NDI，讓您使用 OBS 和 Wirecast 等工具產生廣播。如需詳細資訊，請參閱 [在Microsoft Teams 中使用 NDI® 技術](use-ndi-in-meetings.md)。
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
+> [!NOTE]
+> 如需其他資訊，並取得使用 Microsoft Teams 提供線上活動之角色的指引，請參閱 [虛擬事件播放簿](https://adoption.microsoft.com/virtual-event-guidance/)。 您也可以加入Microsoft Tech Community上的[虛擬活動論壇](https://aka.ms/VirtualEventForum)。
+
+> [!NOTE]
+> 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="meetings"></a>會議
 
@@ -131,7 +134,7 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 
 ## <a name="apps-for-meetings"></a>會議應用程式
 
-Microsoft 讓您能夠透過整合和使用會議應用程式來增強會議體驗。例如，Teams 會議中的白板整合功能採用 Whiteboard Web App 功能，可讓 Teams 會議的參與者在共用的數位畫布上繪圖、打草稿和書寫。
+Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 
 您可以使用隨著 Teams 提供的應用程式、使用認證的協力廠商應用程式和範本，以及透過建立您自己的自訂應用程式，將會議應用程式新增到您的 Teams 部署。
 
@@ -215,4 +218,3 @@ Microsoft 讓您能夠透過整合和使用會議應用程式來增強會議體�
 
 [Teams 的限制和規格](limits-specifications-teams.md)
 
-[Microsoft 技術社群：Microsoft 365 中的即時活動](https://resources.techcommunity.microsoft.com/live-events/)

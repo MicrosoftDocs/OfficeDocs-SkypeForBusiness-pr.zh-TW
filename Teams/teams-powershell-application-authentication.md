@@ -12,12 +12,12 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組中的應用程式型驗證。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218087"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532493"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模組中的應用程式型驗證
 
@@ -95,7 +95,7 @@ Teams PowerShell 模組會使用應用程式識別碼、租使用者識別碼和
 
 使用應用程式物件進行驗證時需要初始上線。 應用程式與服務主體會交替使用，但應用程式就像是類別物件，而服務主體就像是類別的實例。 您可以在 [Azure Active Directory 中的應用程式與服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals)深入瞭解這些物件。
 
-下方提及在 Azure Ad 中建立應用程式的高層級步驟，以取得詳細步驟，請參閱 [本文](/azure/active-directory/develop/howto-create-service-principal-portal)。
+以下是在 Azure Ad 中建立應用程式的範例步驟，如需詳細步驟，請參閱 [本文](/azure/active-directory/develop/howto-create-service-principal-portal)。
 
 1. 在 Azure AD 中註冊應用程式
 2. 指派 API 許可權給應用程式
@@ -103,7 +103,7 @@ Teams PowerShell 模組會使用應用程式識別碼、租使用者識別碼和
    - 針對非 \* Cs Cmdlet - 需要的 Microsoft 圖形 API許可權為 `User.Read.All` 、 `Group.ReadWrite.All` 、、 `AppCatalog.ReadWrite.All` 、 `TeamSettings.ReadWrite.All` 、、 `Channel.Delete.All` `ChannelSettings.ReadWrite.All` `ChannelMember.ReadWrite.All`  
 3. 產生自我簽署憑證
 4. 將憑證附加至 Azure AD 應用程式
-5. 指派 Azure AD 角色給應用程式
+5. 指派 [Azure AD 角色](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 給應用程式
 
 應用程式需要指派適當的 RBAC 角色。 由於應用程式是在 Azure AD 中布建，因此您可以使用任何支援的內建角色。
  

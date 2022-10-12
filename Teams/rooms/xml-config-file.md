@@ -17,18 +17,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題和建立主設定檔案。
-ms.openlocfilehash: e09501d4b39ddbb83e914d53fe61bfb97d1a4fa8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f0e563935725bf68ebf087d8a58a199683bac70f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606202"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532253"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定
 
 本文討論遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題。 討論如何建立主設定檔案，以及如何視需要將它們放在Teams 會議室的討論連結。
   
-您可以藉由更新主 XML 檔案並將複本傳送到遠端Teams 會議室裝置，來變更Teams 會議室的預設設定。 
+您可以藉由更新主 XML 檔案並將複本傳送到遠端Teams 會議室裝置，來變更Teams 會議室的預設設定。
+
+> [!NOTE]
+> 某些功能僅適用于已指派Microsoft Teams 會議室專業版授權的Teams 會議室裝置。 若要查看哪些功能需要Microsoft Teams 會議室專業版，請參[閱Microsoft Teams 會議室授權](rooms-licensing.md)。
   
 ## <a name="create-an-xml-configuration-file"></a>建立 XML 組態檔
 

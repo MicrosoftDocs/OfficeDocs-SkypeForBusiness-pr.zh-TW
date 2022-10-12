@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: 730dd2f127c50d89f97c49c921e6b954a6043f65
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218057"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532273"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
@@ -135,7 +135,11 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個作業系統架構  | String  | 第二個端點報告的硬體架構。 <br/> **範例值：** x64  | &bull; 端點並未回報此資訊 <br/>&bull; 未收到來自此端點的報告 <br/>&bull; 無法辨識架構的格式  |
 | 第一個虛擬化標幟  | 枚舉 <br/>**可能的值：** <br/> 「0x00」 = 無  <br/> 「0x01」 = Hyper-V <br/> 「0x02」 = VMware <br/> 「0x04」 = 虛擬電腦 <br/> 「0x08」 = Xen PC | 表示第一個端點回報之虛擬化環境類型的標幟。 | <br/>&bull; 端點未回報資料 |
 | 第二個虛擬化旗標  | 枚舉 <br/>**可能的值：** <br/> 「0x00」 = 無  <br/> 「0x01」 = Hyper-V <br/> 「0x02」 = VMware <br/> 「0x04」 = 虛擬電腦 <br/> 「0x08」 = Xen PC | 表示第二個端點回報之虛擬化環境類型的標幟。  | <br/>&bull; 端點未回報資料 |
-|第一個端點製作 |String |裝置製造商，從端點資料檔 EndpointMake 功能變數讀取資訊。 | <br/>&bull; 端點沒有資料檔案 |
+| 第一個 VTC 裝置名稱 | String | 第一個端點所用 VTC 裝置的易記名稱 | <br/>&bull; 端點未回報資料 <br/>&bull; 欄位已過 28 天 |
+| 第二個 VTC 裝置名稱 | String | 第二個端點所使用的 VTC 裝置易記名稱 | <br/>&bull; 端點未回報資料 <br/>&bull; 欄位已過 28 天 |
+| 第一個 VTC 裝置詳細資料 | String | 第一個端點所使用的 VTC 裝置平臺和版本資訊 <br/> **範例值：** Tandberg，529 | <br/>&bull; 端點未回報資料 |
+| 第二個 VTC 裝置詳細資料 | String | 第二個端點所使用的 VTC 裝置的平臺和版本資訊 <br/> **範例值：** Tandberg，529 | <br/>&bull; 端點未回報資料 |
+| 第一個端點製作 |String |裝置製造商，從端點資料檔 EndpointMake 功能變數讀取資訊。 | <br/>&bull; 端點沒有資料檔案 |
 | 第一個端點模型 |String|裝置型號，資訊會從端點資料檔 EndpointModel 功能變數中讀取。| <br/>&bull; 端點沒有資料檔案 |
 | 第一個端點類型|String|裝置類型，從端點資料檔 EndpointType 功能變數讀取資訊。| <br/>&bull; 端點沒有資料檔案 |
 | 第一個端點標籤 1|String|可自訂的標籤，會從端點資料檔讀取資訊。| <br/>&bull; 端點沒有資料檔案 |
@@ -319,7 +323,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二Wi-Fi廠商驅動程式版本  | String  | 廠商和第二個端點回報的 WiFi 驅動程式版本。 <br/> **範例值：** Contoso：15.1.1.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
 | 第一Wi-Fi通道  | String  | 第一個端點使用的 WiFi 通道。  <br/> **範例值：** 10| <br/>&bull; 未使用 WiFi <br/>&bull; 未回報頻道   |
 | 第二Wi-Fi通道  | String  | 第二個端點使用的 WiFi 通道。 <br/> **範例值：** 10  | <br/>&bull; 未使用 WiFi <br/>&bull; 未回報頻道  |
-| 第一Wi-Fi無線電類型  | String  | 第一個端點使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11b。 <br/> **範例值：** 802.11ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未報告 WiFi 類型  |
+| 第一Wi-Fi無線電類型  | String  | 第一個端點使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11b。 <br/> **範例值：** 802.11ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未回報 WiFi 類型  |
 | 第二Wi-Fi無線電類型  | String  | 第二個端點使用的 WiFi 無線電類型。 HRDSSS 相當於 802.11b。 <br/> **範例值：** 802.11ac  | <br/>&bull; 未使用 WiFi <br/>&bull; 未回報 WiFi 類型  |
 | 第一個 DNS 尾碼  | String  | 與第一個端點回報之網路介面卡相關聯的 DNS 尾碼。 請注意，系統可能會針對任何類型的網路介面卡回報此值。 **範例值：** corp.contoso.com <span></span> <span></span>  | <br/>&bull; 端點未回報此值 <br/>  |
 | 第二個 DNS 尾碼  | String  | 與第二個端點回報之網路介面卡相關聯的 DNS 尾碼。 請注意，系統可能會針對任何類型的網路介面卡回報此值。<br/> **範例值：** corp.contoso.com <span></span> <span></span>   | <br/>&bull; 端點未回報此值  |
@@ -327,7 +331,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二Wi-Fi頻帶  | String  | 第二個端點報告所使用的 WiFi 頻帶。 <br/> **範例值：** 5.0 Ghz  | <br/>&bull; 該值未由端點計算 <br/>&bull; 未回報值  |
 | 第一Wi-Fi訊號強度  | String  | 第一個端點回報的百分比 [0-100] 中的 WiFi 訊號強度。 <br/> **範例值：** 081：[90 - 100)   | <br/>&bull; 該值未由端點計算 <br/>&bull; 未回報值  |
 | 第二Wi-Fi訊號強度  | String  | 第二個端點回報的百分比 [0-100] 中的 WiFi 訊號強度。 <br/> **範例值：** 081：[90 - 100)   | <br/>&bull; 該值未由端點計算 <br/>&bull; 未回報值  |
-| 第一次Wi-Fi電池充電  | 範圍 (百分比)   | 以第一個端點報告的百分比 [0-99] 來估計電池剩餘電量。 依範圍分組的值。 0 表示裝置已接上電源。 <br/> **範例值：** 081：[90 - 100)  | &bull; 未使用 WiFi <br/>&bull; 未回報費用值   |
+| 第一次Wi-Fi電池充電  | 範圍 (百分比)   | 以第一個端點報告的百分比 [0-99] 估計剩餘電池計量。 依範圍分組的值。 0 表示裝置已接上電源。 <br/> **範例值：** 081：[90 - 100)  | &bull; 未使用 WiFi <br/>&bull; 未回報費用值   |
 | 第二次Wi-Fi電池充電  | 範圍 (百分比)   | 以第二個端點回報的百分比 [0-99] 來估計剩餘電池計量。 依範圍分組的值。 0 表示裝置已接上電源。  <br/> **範例值：** 081：[90 - 100)  | &bull; 未使用 WiFi <br/>&bull; 未回報費用值  |
 |**指標**||||
 | 音訊降級 Avg  | 範圍 (平均意見分數 0-5)  | Average Network Mean Opinion Score degradation for stream. 代表網路中斷和抖動對接收音訊品質的影響程度。 不適用於 SATIN 或 WebRTC/VDI。 依範圍分組的值。 <br/> **範例值：** 015：[0.01 - 0.02)  | &bull; 接收串流的端點未回報網路 MOS 降級 <br/>&bull; 串流不是音訊串流。   |
@@ -336,7 +340,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 封包遺失率  | 範圍 (比例)   | 串流的平均封包遺失率。 依範圍分組的值。 0.1 表示 10% 封包遺失。 <br/> **範例值：** 015：[0.01 - 0.02)   | &bull; 接收串流的端點未回報封包遺失資料 |
 | 封包遺失率上限  | 範圍 (比例)   | 串流的封包遺失率上限。 依範圍分組的值。 0.1 表示 10% 封包遺失。 <br/> **範例值：** 023：[0.09 - 0.1)   | &bull; 接收串流的端點未回報封包遺失資料  <br/>&bull; 指定串流的封包使用率小於 100 個封包 |
 | 傳送聆聽 MOS  | MOS) 範圍 (  | Stream 的平均 MOS。 依範圍分組的值。 <br/> **範例值：** 076：[4.4 - 4.5)  | &bull; 接收串流的端點未回報 MOS <br/>&bull; 串流不是音訊串流 <br/>&bull; 使用的編解碼器不會回報 MOS |
-| 整體 Avg 網路MO  | MOS) 範圍 (  | Stream 的平均網路 MOS。 依範圍分組的值。 <br/> **範例值：** 076：[4.4 - 4.5)  | &bull; 接收串流的端點未回報網路 MOS 降級 <br/>&bull; 串流不是音訊串流 <br/>&bull; 使用的編解碼器不會回報 MOS |
+| 整體 Avg 網路 MOS  | MOS) 範圍 (  | Stream 的平均網路 MOS。 依範圍分組的值。 <br/> **範例值：** 076：[4.4 - 4.5)  | &bull; 接收串流的端點未回報網路 MOS 降級 <br/>&bull; 串流不是音訊串流 <br/>&bull; 使用的編解碼器不會回報 MOS |
 | 隱藏的範例 Avg 比例  | 範圍 (比例)   | 包含封包遺失所產生樣本的音訊框架數目與音訊框架總數之比例。 依範圍分組的值。 0.1 表示 10% 的框架包含隱藏的樣本。 <br/> **範例值：** 015：[0.01 - 0.02)  | &bull; 串流的接收器未回報此值 <br/>&bull; 串流不是音訊串流  |
 |隱藏比例最大 |範圍 (比例)  | 包含封包遺失所產生之樣本的音訊框架數目上限，會隱藏到音訊框架的總數。 依範圍分組的值。 0.1 表示 10% 的框架包含隱藏的樣本。 <br/> **範例值：** 015：[0.01 - 0.02) | |
 | 延伸範例 Avg 的比例  | 範圍 (比例)   | 具有已延伸之樣本的音訊框架數目之比例，以彌補抖動或遺失音訊框架的總數。 依範圍分組的值。 0.1 表示 10% 的音訊框架包含延伸的樣本。 <br/> **範例值：** 017：[0.03 - 0.04)  | &bull; 串流的接收器未回報此值  <br/>&bull; 串流不是音訊串流   |
@@ -387,7 +391,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 視訊因凍結而不佳 | Boolean  | 1 如果視訊串流根據 [視訊凍結] 實例分類為不佳： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md) | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流。 此欄位僅限 Microsoft Teams。 |
 | 因為 VideoFrameRateAvg 而造成 VBS 不佳  | Boolean  | 如果視訊型螢幕共用串流根據此處所列的視訊框架速率 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊型螢幕共用串流永遠都是 False。   | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流   |
 | 因被破壞的TilePercentTotal而造成應用程式共用不佳  | Boolean  | 如果應用程式共用串流根據此處所列的 [被破壞的磚百分比總計百分比] 閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。   | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流。  |
-| 因 RelativeOneWayAverage 而導致應用程式共用不佳  | Boolean  | 如果應用程式共用串流依據此處所列的相對單向平均公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
+| 因為 RelativeOneWayAverage 而導致 App 分享不佳  | Boolean  | 如果應用程式共用串流依據此處所列的相對單向平均公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
 | 應用程式共用不佳，因為 RDPTileProcessingLatencyAverage | Boolean  | 如果應用程式共用串流根據此處所列的 RDP 磚處理延遲平均標準閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
 | 由於抖動，音訊不佳  | Boolean  | 如果音訊串流依據此處所列的抖動計量閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非音訊串流永遠為 False。    | &bull; 端點並未回報此資料 <br/>&bull; 串流不是音訊共用串流 |
 | 由於 RoundTrip 導致音訊不佳  | Boolean  | 如果音訊串流依據此處所列的來回公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非音訊串流永遠為 False。   | &bull; 端點並未回報此資料 <br/>&bull; 串流不是音訊共用串流 |

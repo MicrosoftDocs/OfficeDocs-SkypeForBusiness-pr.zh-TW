@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 瞭解如何準備您的基礎結構以部署Microsoft Teams 會議室讓您可以善用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268948"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532223"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -115,7 +115,7 @@ Microsoft Teams 會議室是設計來繼承 Windows OS 的 Proxy 設定。 以�
     
 11. 回到登入畫面，選擇 **Skype** 使用者。 如果上述所有步驟都成功，Microsoft Teams 會議室裝置將會成功登入。
     
-如需 FQDN、埠和 IP 位址範圍的完整詳細資料，請參閱[網路安全](./security.md#network-security)性文章，以瞭解Microsoft Teams 會議室所需的詳細資料。
+如需 FQDN、埠和 IP 位址範圍的完整詳細資料，請參閱[網路安全](./security-windows.md#network-security)性文章，以瞭解Microsoft Teams 會議室所需的詳細資料。
   
 ### <a name="admin-group-management"></a>管理員群組管理
 
@@ -128,7 +128,7 @@ Microsoft Teams 會議室是設計來繼承 Windows OS 的 Proxy 設定。 以�
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams 會議室本機使用者帳戶
 
-Teams 會議室包含一個名為「Skype」的無密碼本機帳戶。 此帳戶是用來登入 Windows 以啟動Teams 會議室應用程式。 不支援將密碼套用至此帳戶。 如[需詳細資訊，](security.md)請參閱Microsoft Teams 會議室安全性]。
+Teams 會議室包含一個名為「Skype」的無密碼本機帳戶。 此帳戶是用來登入 Windows 以啟動Teams 會議室應用程式。 不支援將密碼套用至此帳戶。 如[需詳細資訊，](security-windows.md)請參閱Microsoft Teams 會議室安全性]。
   
 ### <a name="admin---local-administrator-account"></a>「管理員」 - 本機系統管理員帳戶
 
@@ -139,7 +139,7 @@ Microsoft Teams 會議室預設密碼設為 「sfb」。 您可以透過本機�
   
 在安裝期間，本機系統管理員密碼不會包含在選項中。
 
-您可以在Microsoft Teams 會議室安全性一文中深入瞭解[管理員](security.md)帳戶。
+您可以在Microsoft Teams 會議室安全性一文中深入瞭解[管理員](security-windows.md)帳戶。
   
 ### <a name="machine-account"></a>電腦帳戶
 

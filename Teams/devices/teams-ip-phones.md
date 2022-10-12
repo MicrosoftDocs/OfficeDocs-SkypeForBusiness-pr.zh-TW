@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: a13551627b0bd4d41d44e64988452fae59dc7090
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
+ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376861"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68539652"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -84,6 +84,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 | Yealink 會議列 A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小型會議室 (4.5 m x 4.5 m) | 10|
 | Yealink 會議列 A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中型房間 (4.5 m x 6 m)  | 10|
 | 登入點選 IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | 與 Logitech 欄和分隔線迷你版相容 | 10 |
+| 整齊的橫條圖專業版   | `NFD1.20220914.1210 ` | 2024 年 9 月 3 日  |  中型房間 (4.5 m x 6 m)  | 10|
 | 整齊的橫條 | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小型會議室 (4.5 m x 4.5 m)  | 10 |
 | 整齊的鍵盤觸控主控台 | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  僅與 [整齊列] 相容 | 9 |
 | 整齊的版面 | `NFC1.20220211.1400 ` | 2024 年 9 月 3 日 |    小型會議室 (4.5 m x 4.5 m)  | 10 |
@@ -271,7 +272,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 #### <a name="firmware-versions"></a>韌體版本
 
-當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員代理程式。 然後在上方的 **App 版本** 資料表中查詢產品版本。
+當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員代理程式。 然後在上面的 **App 版本** 表格中查詢產品版本。
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
@@ -352,7 +353,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 ### <a name="product-release-information-for-teams-displays"></a>Teams 顯示器的產品版本資訊
 
-下列是最新的 Microsoft Teams Display 應用程式和韌體版本。
+以下是最新的 Microsoft Teams Display 應用程式和韌體版本。
 
 #### <a name="app-versions"></a>應用程式版本
 

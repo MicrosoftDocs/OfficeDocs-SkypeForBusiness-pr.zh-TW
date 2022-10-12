@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解專業Microsoft Teams 會議室管理。
 f1keywords: ''
-ms.openlocfilehash: 275906a47b2f86368256e7e09f42b2cf5c653ee8
-ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
+ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68033771"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532403"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Microsoft Teams 會議室專業管理
 
@@ -37,11 +37,9 @@ Microsoft Teams 會議室專業版管理監控解決方案是以 Microsoft 在�
 
    可自動化更新、問題偵測、Microsoft Teams 會議室問題解決方式的軟體和機器學習。  
 
-- 專屬專家  
+- 更新管理  
 
-   提供 24x7 服務作業、層級支援及事件解決協助的專家小組。  
-
-
+   根據客戶可設定的部署通道，自動化會議應用程式和 Windows Update 協調。
 
 - 增強的深入解析  
 
