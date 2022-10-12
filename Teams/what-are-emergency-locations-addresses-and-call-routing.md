@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 瞭解緊急電話，包括緊急位址、緊急電話路由和動態緊急電話的相關資訊。
-ms.openlocfilehash: 2118bfd3f380ac5e5e2773f1f4ccdc703332893a
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606562"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551817"
 ---
 # <a name="manage-emergency-calling"></a>管理緊急通話
 
@@ -51,7 +51,7 @@ ms.locfileid: "67606562"
 - **登入位址** - 指派給每個使用者的緊急位址。 登入位址有時稱為靜態緊急位址或記錄位址。  (目前，直接路由不支援登錄位址。 請儘快回來查看更新。) 
 
 >[!Note]
->根據您使用的是 Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 或[PSTN 聯](pstn-connectivity.md)機的直接路由，您管理緊急電話的方式有一些差異。 本文將說明這些考慮事項。
+>根據您使用的是 Microsoft 通話方案、運算子連線、Teams Phone Mobile 或 [PSTN 聯](pstn-connectivity.md)機的直接路由，您管理緊急通話的方式有一些差異。 本文將說明這些考慮事項。
 
 ## <a name="emergency-address-validation"></a>緊急位址驗證
 
@@ -179,23 +179,21 @@ Microsoft 建議您使用 Teams 系統管理中心的地圖搜尋功能來建立
 
 - 如果緊急來電者無法將其緊急位置更新至篩選中心，電話將會轉接至提供來電者登入位址的 PSAP。
 
-## <a name="considerations-for-operator-connect-mobile"></a>考慮電信業者連線行動
+## <a name="considerations-for-teams-phone-mobile"></a>Teams Phone Mobile 的考慮
 
-下列各節說明如何管理電信業者連線行動使用者的緊急通話。 若要瞭解電信業者連線行動是否是您企業的正確解決方案，請參閱[PSTN 連線選項](pstn-connectivity.md)。
+下列各節說明如何管理 Teams Phone Mobile 使用者的緊急通話。 若要瞭解 Teams Phone Mobile 是否適合您的企業使用，請參閱 [PSTN 連線選項](pstn-connectivity.md)。
 
-**電信業者連線行動是公開預覽版。**
+### <a name="emergency-call-enablement-for-teams-phone-mobile"></a>Teams Phone Mobile 的緊急通話啟用
 
-### <a name="emergency-call-enablement-for-operator-connect-mobile"></a>啟用電信業者連線行動的緊急通話
+每個 Teams Phone Mobile 使用者都會自動啟用緊急通話。 緊急電話會自動傳送至 Teams Phone Mobile 電信業者，以取得指定號碼。
 
-每個電信業者連線行動使用者都會自動啟用緊急電話。 緊急電話會自動傳送至指定號碼的電信業者連線行動電信業者。
-
-租使用者系統管理員為電信業者連線行動使用者設定登入位址的能力，取決於電信業者將這些功能上傳至客戶庫存時指派給該號碼的功能。 根據此設定，租使用者系統管理員可能不需要或無法設定、修改或刪除使用者的緊急位置。
+租使用者系統管理員為 Teams Phone Mobile 使用者設定登入位址的能力，將取決於電信業者將這些功能上傳至客戶庫存時指派給該號碼的功能。 根據此設定，租使用者系統管理員可能不需要或無法設定、修改或刪除使用者的緊急位置。
 
 透過啟用 SIM 卡的智慧型手機的原生撥號器撥打電話時，您的電信業者可能會使用地理座標或處理通話的儲存格塔來大約緊急位置尋求協助。
 
-### <a name="dynamic-emergency-calling-for-operator-connect-mobile"></a>電信業者連線行動的動態緊急電話
+### <a name="dynamic-emergency-calling-for-teams-phone-mobile"></a>Teams Phone Mobile 的動態緊急通話
 
-運算子連線的動態緊急通話功能可根據 Teams 用戶端的目前位置來設定和路由緊急通話。 自動路由到適當 [Public Safety Answer point] (PSAP) 或通知安全性服務台人員的能力，會因 Teams 使用者的使用方式而有所不同。
+Teams Phone Mobile 的動態緊急通話功能可根據 Teams 用戶端的目前位置來設定和路由緊急通話。 自動路由到適當 [Public Safety Answer point] (PSAP) 或通知安全性服務台人員的能力，會因 Teams 使用者的使用方式而有所不同。
 
 美國支援用於路由緊急電話的動態位置，如下所示。
 
@@ -207,9 +205,9 @@ Microsoft 建議您使用 Teams 系統管理中心的地圖搜尋功能來建立
 
 如需詳細資訊，請參閱 [規劃及設定動態緊急通話](configure-dynamic-emergency-calling.md)。
 
-### <a name="emergency-call-routing-for-operator-connect-mobile"></a>電信業者連線行動的緊急通話路由
+### <a name="emergency-call-routing-for-teams-phone-mobile"></a>Teams Phone Mobile 的緊急通話路由
 
-當 Teams 電信業者連線行動使用者使用 Microsoft Teams 用戶端撥打緊急號碼時，通話路由至 PSAP 的方式取決於下列專案：
+當 Teams Teams Phone Mobile 使用者使用 Microsoft Teams 用戶端撥打緊急號碼時，電話路由至 PSAP 的方式取決於下列專案：
 
 - 緊急位址是否由 Teams 用戶端動態決定。
 

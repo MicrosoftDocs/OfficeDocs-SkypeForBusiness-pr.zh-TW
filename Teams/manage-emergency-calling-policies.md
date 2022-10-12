@@ -20,16 +20,16 @@ description: 瞭解如何在 Microsoft Teams 中使用和管理緊急通話原�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 658e7191a821069d3fa9b13e02cc7cbcdfb29413
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a6fa08808c9ef5fc258236735cc043e4bde366b1
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606552"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551517"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理緊急通話原則
 
-如果您的組織使用 Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 或直接路由做為[PSTN 連線選項](pstn-connectivity.md)，您可以使用 Microsoft Teams 中的緊急通話原則來定義當組織中的 Teams 使用者撥打緊急電話時會發生什麼情況。
+如果貴組織使用 Microsoft 通話方案、運算子連線、Teams Phone Mobile 或直接路由做為 [PSTN 連線選項](pstn-connectivity.md)，您可以使用 Microsoft Teams 中的緊急通話原則來定義當組織中的 Teams 使用者撥打緊急電話時會發生什麼情況。
 
 您可以設定誰要通知，以及當獲指派原則的使用者撥打緊急服務時通知他們的方式。 例如，您可以設定原則設定，以自動通知貴組織的安全性中心，並讓他們在緊急電話中聆聽。  
 

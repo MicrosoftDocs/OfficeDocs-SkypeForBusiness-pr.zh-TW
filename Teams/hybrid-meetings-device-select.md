@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885525"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551807"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>步驟 4 - 選取可為混合式會議啟用空間的裝置
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="音訊視覺物件" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT 專業人員" border="false"::::::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="設備觀眾" border="false":::
 
-您為Teams 會議室空間選擇的裝置取決於會議室的設計和預算。 本文可協助您瞭解建立Teams 會議室空間所需的裝置、協助您選擇最適合您的專案的考慮，以及可讓您查看可用選項的裝置範例。
+您為傳統Microsoft Teams 會議室或簽章Microsoft Teams 會議室空間選擇的裝置取決於房間的設計和預算。 本文可協助您瞭解建立Teams 會議室空間所需的裝置、協助您選擇最適合您的專案的考慮，以及可讓您查看可用選項的裝置範例。
 
 您至少需要下列每一項：
 
@@ -164,9 +164,9 @@ ms.locfileid: "67885525"
 - [Yamaha ADECIA 有線平板電腦解決方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [含 Parlé ceiling 麥克風的 Biamp 中等會議室音訊](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[混合式優化](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[簽名Teams 會議室](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>觸控螢幕主機和計算模組
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>觸控螢幕主機和計算模組Teams 會議室簽名
 
 觸控螢幕主機是使用者在加入和管理會議時互動的裝置。 計算模組是 Teams 會議室的腦力，執行 Windows 10 企業版 IoT。
 
@@ -183,11 +183,11 @@ ms.locfileid: "67885525"
 - [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>混合式優化顯示器
+## <a name="signature-teams-rooms-displays"></a>簽名Teams 會議室顯示
 
 顯示器可讓您的內容更生動，而且可以是大型平面螢幕電視或投影機，可投影到螢幕上。 您可以使用合併內容和視訊摘要的單一顯示器，也可以設定雙顯示器與其中一個顯示器上的內容，另一個顯示器設定視訊摘要。 其中一個顯示器甚至可以觸控使用互動式筆跡功能。
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="Teams 會議室顯示顯示前列、聊天和備忘稿。":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="簽名Teams 會議室顯示前列、聊天和記事。":::
 
 
 ### <a name="display-type"></a>顯示類型
@@ -202,7 +202,7 @@ ms.locfileid: "67885525"
 
 ### <a name="display-functions"></a>顯示函數
 
-混合式優化Microsoft Teams 會議室和其他所有Microsoft Teams 會議室解決方案一樣，都需要使用可容納下列功能的顯示器，才能正確運作：
+簽章Teams 會議室和其他所有Microsoft Teams 會議室解決方案一樣，都需要使用可容納下列功能的顯示器，才能正確運作：
 
 - 根據 HDMI 同步處理，從睡眠狀態睡眠與快速喚醒。
   - 對於投影機，必須支援自動熱身和冷卻期間，而不需要使用者介入。
@@ -210,7 +210,7 @@ ms.locfileid: "67885525"
 
 ### <a name="display-placement"></a>顯示位置
 
-混合式優化會議室需要將顯示器放在所有會議室內會議參與者的正反面。
+簽名Teams 會議室要求將顯示器放在所有會議室會議參與者的正反面。
 
 顯示器的水準中心線必須置中于與表格相同的中央線。
 
@@ -218,11 +218,11 @@ ms.locfileid: "67885525"
 
 ### <a name="display-count"></a>顯示計數
 
-混合式優化會議室需要顯示器是單一寬寬寬比顯示器，或是混合的顯示器組合，當會議室內的會議參與者看到時，可以達到單一顯示器的效果。
+簽名Teams 會議室要求顯示器是單一寬寬寬比顯示器，或是混合的顯示器組合，當會議室會議參與者看到時，可以達到單一顯示器的效果。
 
 ### <a name="display-options"></a>顯示選項
 
-以下是混合式優化Teams 會議室的顯示器範例：
+以下是簽名Teams 會議室的顯示範例：
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen |HD 漸進式 0.6 螢幕|Cinemascope 138「 對角線](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ ms.locfileid: "67885525"
 
 相機應該放在會議室前方投影下方，但位於表格頂端的會議室前方，以便盡可能接近眼球層級擷取所有會議室參與者。
 
-以下是混合式優化Teams 會議室的主要相機範例：
+以下是「簽章」Teams 會議室的主要相機範例：
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ ms.locfileid: "67885525"
 
 喇叭必須處於定位狀態，以在所用裝置或裝置的認證範圍內為所有會議室參與者提供涵蓋範圍。
 
-以下是混合式優化Teams 會議室麥克風和喇叭的範例：
+以下是簽名Teams 會議室的麥克風和喇叭範例：
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [含柏拉角落麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)

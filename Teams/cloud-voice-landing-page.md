@@ -25,12 +25,12 @@ search.appverid: MET150
 description: 深入瞭解 Microsoft Teams 雲端語音功能，以及您為組織做出的部署決策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba61d1ccbaeda26834b31a321aebfccbe23243
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: a159a6e2c5f532205c8e0cdadf744a2e6e6f3c0a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999348"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551667"
 ---
 # <a name="plan-your-teams-voice-solution"></a>規劃您的 Teams 語音解決方案
 
@@ -50,7 +50,7 @@ ms.locfileid: "67999348"
 
 - 電話系統與通話方案
 - 與您自己的 PSTN 電信業者搭配運算子連線的電話系統
-- 手機系統與您自己的 PSTN 行動電信業者，電信業者連線行動 (公開預覽版) 
+- 手機系統與您自己的 PSTN 行動電信業者搭配 Teams Phone Mobile 
 - 電話系統與您自己的 PSTN 電信業者搭配直接路由
 - 搭配通話方案使用電話系統、電話系統搭配運算子連線，以及/或電話系統搭配直接路由的組合解決方案
 
@@ -154,7 +154,7 @@ ms.locfileid: "67999348"
 
 - 使用運算子 [**連線與您自己的 PSTN 電信業者的電話系統**](operator-connect-plan.md)。 使用運算子連線時，如果您現有的電信業者參與 Microsoft 運算子連線計畫，他們可以管理將 PSTN 通話帶到 Teams 的服務。 
 
-- [**電話系統與您自己的 PSTN 行動電信業者使用電信業者連線行動**](operator-connect-mobile-plan.md)**公開檢閱版本**。 透過電信業者連線行動，如果您的現有電信業者參與 Microsoft 電信業者連線行動 計畫，他們就可以在 Teams 中管理使用啟用 SIM 卡的行動電話號碼的服務。 
+- [**使用 Teams Phone Mobile 搭配您自己的 PSTN 行動電信業者的電話系統**](operator-connect-mobile-plan.md)。 有了 Teams Phone Mobile，如果您現有的電信業者參與 Microsoft Teams 電話 Mobile 計畫，他們就可以在 Teams 中管理使用啟用 SIM 卡的行動電話號碼的服務。 
 
 - 使用直接路由將內部部署環境連線至 Teams，與 [**您自己的 PSTN 電信業者使用電話**](pstn-connectivity.md#phone-system-with-direct-routing)系統。
 

@@ -25,12 +25,12 @@ search.appverid: MET150
 description: 深入瞭解 Teams 通話 (PSTN 連線) 選項，以及您為組織做出的決策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974418a6a1cf963b66b1f0a8667c5ed75b73f72b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999638"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551697"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 連線選項
 
@@ -44,7 +44,7 @@ Microsoft 透過電話系統為貴組織提供完整的 Private Branch Exchange 
 
 - [**運算子連線**](#phone-system-with-operator-connect)。 使用運算子連線時，如果您現有的電信業者參與 Microsoft 運算子連線計畫，他們可以管理 PSTN 通話和會話框線控制器 (SBC) 。
 
-- [**電信業者連線行動**](#phone-system-with-operator-connect-mobile)。 使用電信業者連線行動，使用者的 SIM 卡電話號碼也會是他們的 Teams 電話號碼。 如果您現有的電信業者參與 Microsoft 電信業者連線行動 計畫，他們可以管理將 PSTN 通話帶到 Teams 的服務。  **電信業者連線行動是公開預覽版。**
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile)。 使用 Microsoft Teams 電話 Mobile，使用者啟用 SIM 卡的電話號碼也會是他們的 Teams 電話號碼。 如果您現有的電信業者參與Microsoft Teams 電話行動裝置計畫，他們可以管理將 PSTN 通話帶到 Teams 的服務。  
 
 - [**直接路由**](#phone-system-with-direct-routing)可讓您使用自己的 PSTN 電信業者，方法是將會話框線控制器 (的)  (SBC) 連線至電話系統。
 
@@ -93,21 +93,19 @@ Microsoft 透過電話系統為貴組織提供完整的 Private Branch Exchange 
 
 如需運算子連線的優點與需求資訊，以及參與此計畫的電信業者清單，請參閱 [規劃運算子連線](operator-connect-plan.md)。 如需如何設定運算子連線的相關資訊，請參閱 [設定運算子連線](operator-connect-configure.md)。
 
-## <a name="phone-system-with-operator-connect-mobile"></a>含 電信業者連線行動 的電話系統
+## <a name="phone-system-with-teams-phone-mobile"></a>含 Teams Phone Mobile 的電話系統
 
-**電信業者連線行動是公開預覽版。**
+如果您現有的電信業者參與Microsoft Teams 電話行動裝置計畫，他們可以管理將 PSTN 通話帶到 Teams 的服務。 使用 Teams Phone Mobile 時，使用者的 SIM 卡手機號碼也是其 Teams 電話號碼。  使用者可以在 Microsoft Teams 的行動服務和電話線路上使用單一電話號碼。  
 
-如果您現有的電信業者參與 Microsoft 電信業者連線行動 計畫，他們可以管理將 PSTN 通話帶到 Teams 的服務。 使用電信業者連線行動，使用者的 SIM 卡電話號碼也會是他們的 Teams 電話號碼。  使用者可以在 Microsoft Teams 的行動服務和電話線路上使用單一電話號碼。  
+您可以考慮使用一組服務。 例如，您可以針對需要行動支援的銷售和現場組織，選擇 Teams Phone Mobile，但另一個解決方案適用于依賴電話機的現場話務中心組織。 
 
-您可以考慮使用一組服務。 例如，您可以為需要行動支援的銷售和現場組織選擇電信業者連線行動，但另一個解決方案適用于依賴電話機的現場話務中心組織。 
-
-如果下列情況，電信業者連線行動可能是您組織的正確解決方案：
+如果下列情況，Teams Phone Mobile 可能是您組織的正確解決方案：
 
 - 您想要將 Teams Phone 的主要公司擁有、啟用 SIM 卡的行動電話號碼當做單一數位解決方案使用。
-- 您的慣用運算子是 Microsoft 電信業者連線行動 計畫的參與者。
+- 您慣用的電信業者是 Microsoft Teams 電話 Mobile 程式的參與者。
 - 您想要尋找新的運算子，以便在 Teams 中啟用通話。
 
-如需電信業者連線行動權益與需求的相關資訊，以及參與此計畫之電信業者的連結，請參閱[規劃電信業者連線行動](operator-connect-mobile-plan.md)。 如需如何設定電信業者連線行動的相關資訊，請參閱設定[電信業者連線行動](operator-connect-mobile-configure.md)。
+如需 Teams Phone Mobile 權益與需求的相關資訊，以及參與此計畫之電信業者的連結，請參閱 [規劃 Teams Phone Mobile](operator-connect-mobile-plan.md)。 如需如何設定 Teams Phone Mobile 的相關資訊，請參閱設定 [Teams Phone Mobile](operator-connect-mobile-configure.md)。
 
 ## <a name="phone-system-with-direct-routing"></a>具有直接路由的電話系統
 
@@ -161,7 +159,7 @@ Microsoft 透過電話系統為貴組織提供完整的 Private Branch Exchange 
 | :------------| :-------| :-------| :-------| :-------| 
 | 通話方案 | -Microsoft 做為 PSTN 電信業者。<br>-您不需要購買或管理 SBC。| 透過 Microsoft 取得。| -由 Microsoft 管理。 <br> -管理員設定號碼翻譯的使用者撥號對應表。 | -由 Microsoft 啟用。 <br> -管理員登錄位址。 <br> -支援動態通話。 |
 | 運算子連線 | -電信業者會管理 PSTN 連線和 SBC。 <br> -您不需要購買或管理 SBC。 | -透過電信業者取得。 <br> - 與電信業者管理的緊急位址相關聯的數位。 | -由電信業者管理。 <br>-管理員設定號碼翻譯的使用者撥號對應表。 | -由電信業者啟用。 <br> -管理員登錄位址。 <br> -支援動態通話。 |
-| 電信業者連線行動 | -電信業者會管理SIM-Enabled行動號碼、PSTN 連線能力和 SBC。 <br> -您不需要購買或管理 SBC。 | -透過電信業者取得。 <br> -與電信業者管理的緊急位址相關聯的數位。 | -由電信業者管理。 <br> 管理員設定號碼翻譯的使用者撥號對應表。 |- 由電信業者啟用。 <br> - 管理員登錄位址。 <br> - 支援動態通話。 <br> - 電信業者支援的原生撥號器緊急通話。 |
+| Teams Phone Mobile | -電信業者會管理SIM-Enabled行動號碼、PSTN 連線能力和 SBC。 <br> -您不需要購買或管理 SBC。 | -透過電信業者取得。 <br> -與電信業者管理的緊急位址相關聯的數位。 | -由電信業者管理。 <br> 管理員設定號碼翻譯的使用者撥號對應表。 |- 由電信業者啟用。 <br> - 管理員登錄位址。 <br> - 支援動態通話。 <br> - 電信業者支援的原生撥號器緊急通話。 |
 | 直接路由 | -需要向協力廠商廠商購買通過認證的 SBC。<br>-將您的 SBC 連線到電話系統。<br> -使用您現有的 PSTN 電信業者。 | 透過電信業者取得。 | -需要由系統管理員進行額外設定。<br>-管理員設定號碼翻譯的主幹撥號對應表。 <br>-LBR 可用來限制略過付費。 | -需要由系統管理員進行額外設定。 <br>-不支援登錄位址。 <br>-支援動態通話，但需要其他設定。 |
 
 
@@ -181,7 +179,7 @@ Microsoft 有兩種類型的電話號碼可供使用：訂閱者 (使用者) 號
 
 - 如需使用運算子連線管理電話號碼的相關資訊，請參閱 [使用運算子連線設定電話號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
-- 如需使用電信業者連線行動管理電話號碼的相關資訊，請參閱[使用電信業者連線行動設定電話號碼](operator-connect-mobile-configure.md#set-up-phone-numbers)。
+- 如需使用 Teams Phone Mobile 管理電話號碼的相關資訊，請參閱 [使用 Teams Phone Mobile 設定電話號碼](operator-connect-mobile-configure.md#set-up-phone-numbers)。
 
 - 如需管理直接路由電話號碼的相關資訊，請參閱設定 [電話號碼並啟用企業語音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
 
@@ -191,7 +189,7 @@ Microsoft 有兩種類型的電話號碼可供使用：訂閱者 (使用者) 號
 
 - 針對通話方案，大部分的通話路由是由 Microsoft 通話方案基礎結構處理。 您設定使用者撥號對應表，用於電話授權和通話路由的號碼轉換目的。 如需詳細資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md)
 
-- 針對運算子連線和電信業者連線行動，大部分的通話路由是由電信業者管理。 您設定使用者撥號對應表，用於電話授權和通話路由的號碼轉換目的。 如需詳細資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md)
+- 針對運算子連線和 Teams Phone Mobile，大部分的通話路由是由電信業者管理。 您設定使用者撥號對應表，用於電話授權和通話路由的號碼轉換目的。 如需詳細資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md)
 
 - 若是直接路由，您必須指定語音路由，並將語音路由原則指派給使用者，藉此設定通話路由。 您可以在主幹層級設定撥號對應表，以確保可與會話框線控制器 (SBC) 互通性。 如需詳細資訊，請參閱設定 [直接路由的語音路由](direct-routing-voice-routing.md)、 [管理語音路由原則](manage-voice-routing-policies.md) 和 [翻譯電話號碼](direct-routing-translate-numbers.md)。 
 
@@ -213,7 +211,7 @@ Microsoft 有兩種類型的電話號碼可供使用：訂閱者 (使用者) 號
 
 - 針對運算子連線，系統會自動為每位使用者啟用緊急通話。 使用者必須有與其指派的電話號碼相關聯的已註冊緊急位址。 根據 Teams 用戶端) 的位置 (動態緊急通話。 如需詳細資訊，請參閱 [運算子連線的考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect)。 
 
-- 針對電信業者連線行動，系統會自動啟用每位使用者的緊急通話。 緊急電話會自動傳送至指定號碼的電信業者連線行動電信業者。 根據 Teams 用戶端) 的位置 (動態緊急通話。 如需詳細資訊，請參閱[電信業者連線行動的考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect-mobile)。 
+- 針對 Teams Phone Mobile，系統會自動為每個使用者啟用緊急通話。 緊急電話會自動傳送至 Teams Phone Mobile 電信業者，以取得指定號碼。 根據 Teams 用戶端) 的位置 (動態緊急通話。 如需詳細資訊，請參閱 [Teams Phone Mobile 的考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile)。 
 
 - 若是直接路由，您必須使用 Teams 緊急通話路由原則 (TeamsEmergencyCallRoutingPolicy) ，來定義使用者的緊急通話原則。 原則會定義緊急號碼及其相關聯的路由目的地。 已註冊的緊急位置不支援直接路由使用者。 針對動態緊急通話，必須進行額外的設定，才能路由緊急電話，也可能用於合作夥伴連線。 如需詳細資訊，請參閱 [直接路由的考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)。
 

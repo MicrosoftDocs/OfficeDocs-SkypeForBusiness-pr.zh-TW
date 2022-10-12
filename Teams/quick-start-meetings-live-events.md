@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532243"
+ms.locfileid: "68551857"
 ---
 # <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動
 
@@ -54,7 +54,7 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> 如需其他資訊，並取得使用 Microsoft Teams 提供線上活動之角色的指引，請參閱 [虛擬事件播放簿](https://adoption.microsoft.com/virtual-event-guidance/)。 您也可以加入Microsoft Tech Community上的[虛擬活動論壇](https://aka.ms/VirtualEventForum)。
+> 如需其他資訊，並取得使用 Microsoft Teams 提供線上活動之角色的指引，請參閱 [虛擬事件播放簿](https://aka.ms/VirtualEventPlaybook)。 您也可以加入Microsoft Tech Community上的[虛擬活動論壇](https://aka.ms/VirtualEventForum)。
 
 > [!NOTE]
 > 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。

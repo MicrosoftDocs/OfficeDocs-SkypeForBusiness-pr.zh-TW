@@ -1,5 +1,5 @@
 ---
-title: 步驟 3 - 設計及建置混合式優化的會議空間或更新現有空間
+title: 步驟 3 - 設計及建立簽名Teams 會議室會議空間或更新現有空間
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 7aace472fb90ed1b0831d8fa74614322f398ce2b
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: 1c5e14c01693bf0d8fa38ca5eb18f062cf72d6d6
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885600"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551707"
 ---
 # <a name="step-3---design-a-new-meeting-space-or-update-an-existing-space"></a>步驟 3 - 設計新的會議空間或更新現有空間
 
 本文旨在引導使用者瞭解如何使用Microsoft Teams 會議室解決方案和裝置優化會議空間。 它包含有關Teams 會議室裝置和解決方案使用方式、版面配置和規格的資訊。
 
-選取您要設計並建立針對混合式會議優化的混合式會議空間，還是要更新既有部分元件的現有傳統空間，例如會議表格、顯示器等。
+選取您要設計並建立簽名Microsoft Teams 會議室會議空間，還是要更新既有部分元件的現有傳統空間，例如會議資料表、顯示器等。
 
 # <a name="traditional"></a>[傳統](#tab/traditional)
 
@@ -70,19 +70,19 @@ Microsoft Teams 會議室可以部署到任何現有的會議空間。 這些空
 
 大部分的參與者會選擇透過個人裝置加入 Teams 會議，以共用這類會議室中的內容。 不過，會議室內本機視訊簡報也應以易於存取的方式提供給無法加入會議通話的人員。
 
-# <a name="hybrid-optimized"></a>[混合式優化](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[簽名Teams 會議室](#tab/signature)
 
-混合式優化Microsoft Teams 會議室不應取代貴組織內所有其他的會議空間，而是做為使用 Microsoft Teams 之現有會議空間的補充。 它們應該以策略性的方式部署到與遠端會議參與者進行面對面互動的空格和位置。
+簽章Teams 會議室不應取代貴組織內所有其他的會議空間，而是用來補充使用 Microsoft Teams 的現有會議空間。 它們應該以策略性的方式部署到與遠端會議參與者進行面對面互動的空格和位置。
 
 :::image type="content" source="media/hybrid-enhanced-room.png" alt-text="增強型會議室的影像，在雙螢幕顯示器前有弧形表格。":::
 
-## <a name="hybrid-optimized-room-size-and-capacity"></a>混合式優化的會議室大小和容量
+## <a name="signature-teams-rooms-size-and-capacity"></a>簽章Teams 會議室大小和容量
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="設施觀眾" border="false":::
 
 這個空間可舒適地容納六到八個人。 您需要大約 25 呎寬 14 呎深的空間。
 
-## <a name="hybrid-optimized-room-furniture"></a>混合式優化的房間傢俱
+## <a name="signature-teams-rooms-furniture"></a>簽名Teams 會議室傢俱
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="設施觀眾" border="false":::
 
@@ -90,13 +90,13 @@ Microsoft Teams 會議室可以部署到任何現有的會議空間。 這些空
 
 此會議室採用高度為 30 公分或 76 公分的傳統會議室表格。
 
-:::image type="content" source="media/emr10.png" alt-text="[混合式優化會議室設計的藍圖。":::
+:::image type="content" source="media/emr10.png" alt-text="[簽名 Teams 會議室設計的藍圖。":::
 
-## <a name="hybrid-optimized-equipment-mounting"></a>混合式優化設備安裝
+## <a name="signature-teams-rooms-equipment-mounting"></a>簽名Teams 會議室設備安裝
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="音訊視覺物件" border="false"::::::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="設備觀眾" border="false":::
 
-上述影像中顯示的混合式優化會議室需要Teams 會議室裝置的特定位置，才能建立最佳的混合式會議體驗。
+上述影像中顯示的簽名 Teams 會議室需要Teams 會議室裝置的特定位置，才能建立最佳的混合式會議體驗。
 
 | 元件      | 建議                                                                                                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

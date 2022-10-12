@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
-ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
+ms.openlocfilehash: c113bdb4cba7193f5e82d7e993c9146f1563f869
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68539652"
+ms.locfileid: "68551467"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -160,6 +160,8 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號  | 韌體版本  | 包含的產品版本  |
 |:----------------|:--------------|:----------------------------|
+|Cres}UC-P8/I/C/CI     | `1.0.5.20`    | 2022 更新#3A |
+|Cres括弧 UC-P10/I/C/CI | `1.0.5.20`    | 2022 更新#3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 更新#3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022 更新#3A    |
 |Poly Trio C60 | `7.3.2.0174` | 2022 更新#3A |
@@ -371,6 +373,8 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號  | 韌體版本 | 包含的產品版本|
 |:--------------|:-----------------|:-------------------------|
+|Cres 括弧 UC-P10-TD     |1.0.0.57 |2022 更新#3A|
+|Cres}UC-P8-TD     |1.0.0.57 |2022 更新#3A|
 |Lenovo ThinkSmart 檢視| `CD-18781Y.211116.114` |2021 更新 #3  |
 |Lenovo ThinkSmart 檢視| `CD-18781Y.210507.111` |2021 更新 #2 |
 |Lenovo ThinkSmart 檢視| `CD-18781Y.210228.109` |2021 更新 #1 |

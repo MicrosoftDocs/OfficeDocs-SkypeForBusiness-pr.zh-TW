@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何為貴組織取得及管理使用者 () 與服務 (Microsoft Teams 的付費和免付費) 電話號碼。
-ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606742"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551887"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>管理組織的電話號碼
 
@@ -54,7 +54,7 @@ Microsoft 正在努力簡化數位類型，但現在您必須決定：
 
 - 如需管理運算子連線電話號碼的相關資訊，請參閱 [使用運算子連線設定電話號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
-- 如需管理 電信業者連線行動 (公開預覽版) 電話號碼的相關資訊，請參閱[使用 電信業者連線行動 設定電話號碼](operator-connect-mobile-configure.md#set-up-phone-numbers)。
+- 如需管理 Teams Phone Mobile 電話號碼的相關資訊，請參閱 [使用 Teams Phone Mobile 設定電話號碼](operator-connect-mobile-configure.md#set-up-phone-numbers)。
 
 - 如需管理直接路由之電話號碼的相關資訊，請參閱設定 [電話號碼並啟用企業語音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
 

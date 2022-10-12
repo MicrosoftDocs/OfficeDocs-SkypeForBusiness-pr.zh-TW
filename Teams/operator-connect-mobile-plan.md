@@ -1,5 +1,5 @@
 ---
-title: 規劃電信業者連線行動
+title: 規劃 Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,44 +12,44 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: 深入瞭解電信業者連線行動，例如部署需求和規劃。
+description: 深入瞭解 Teams Phone Mobile，例如部署需求和規劃。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53873df291ffcc0c1acbdf32a8e8ba6e6d13359b
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606868"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551717"
 ---
-# <a name="plan-for-operator-connect-mobile"></a>規劃電信業者連線行動
+# <a name="plan-for-teams-phone-mobile"></a>規劃 Teams Phone Mobile
 
-**電信業者連線行動是公開預覽版。** 如需參與 Microsoft 電信業者連線行動 計畫的電信業者清單，以及其服務可用的國家或地區，請參閱[Microsoft 365 電信業者連線行動](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
+如需參與Microsoft Teams 電話行動裝置方案的電信業者清單，以及可提供服務的國家或地區，請參閱[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
 
-電信業者連線行動是提供公用交換電話網路 (PSTN) 與 Teams 和電話系統連線的另一個選項。 使用電信業者連線行動，使用者的 SIM 卡電話號碼也會是他們的 Teams 電話號碼。 使用者可以在 Microsoft Teams 中透過行動服務和電話線使用單一電話號碼，以及在網路和裝置之間順暢地轉換。
+Teams Phone Mobile 是另一個提供公用交換電話網路 (PSTN) 與 Microsoft Teams 和手機系統連線的選項。 使用 Teams Phone Mobile 時，使用者的 SIM 卡手機號碼也是其 Teams 電話號碼。 使用者可以在 Microsoft Teams 中透過行動服務和電話線使用單一電話號碼，以及在網路和裝置之間順暢地轉換。
 
-電信業者連線行動可在貴組織策略中扮演關鍵角色，以啟用真正行動的員工，以及企業級的安全性和合規性設定，提供更具彈性且有效率的行動使用者體驗。
+Teams Phone Mobile 可在貴組織策略中扮演重要角色，以啟用真正行動的員工，提供更有彈性且更有效率的行動使用者體驗，以及企業級的安全性和合規性設定。
 
-您可以考慮使用語音服務組合。 例如，您可以為需要行動支援的銷售和現場組織選擇電信業者連線行動，但另一個解決方案適用于依賴電話機的現場話務中心組織。 如需有關 Teams 語音解決方案和 PSTN 連線選項的詳細資訊，請參閱 [規劃您的 Teams 語音解決方案](cloud-voice-landing-page.md) 和 [PSTN 連線選項](pstn-connectivity.md)。 
+您可以考慮使用語音服務組合。 例如，您可以針對需要行動支援的銷售和現場組織，選擇 Teams Phone Mobile，但另一個解決方案適用于依賴電話機的現場話務中心組織。 如需有關 Teams 語音解決方案和 PSTN 連線選項的詳細資訊，請參閱 [規劃您的 Teams 語音解決方案](cloud-voice-landing-page.md) 和 [PSTN 連線選項](pstn-connectivity.md)。 
 
-本文將說明電信業者連線行動權益與需求。 如果下列情況，電信業者連線行動可能是您組織的正確解決方案：
+本文將說明 Teams Phone Mobile 的優點與需求。 如果下列情況，Teams Phone Mobile 可能是您組織的正確解決方案：
 
 -   您想要將 Teams Phone 的主要公司擁有、啟用 SIM 卡的行動電話號碼當做單一數位解決方案使用。
 
--   您的慣用運算子是 Microsoft 電信業者連線行動 計畫的參與者。
+-   您慣用的電信業者是 Microsoft Teams 電話 Mobile 程式的參與者。
 
 -   您想要尋找新的運算子，以便在 Teams 中啟用通話。
 
-如果您認為電信業者連線行動是貴組織的正確解決方案，請參閱設定[電信業者連線行動](operator-connect-mobile-configure.md)。
+如果您認為 Teams Phone Mobile 是貴組織的正確解決方案，請參閱設定 [Teams Phone Mobile](operator-connect-mobile-configure.md)。
 
 
 
 ## <a name="benefits"></a>優點
 
-如果您現有的電信業者是電信業者連線行動計畫的參與者，他們可以管理將 PSTN 通話帶到 Teams 的服務。 電信業者連線行動計畫為您的組織提供下列優點：
+如果您現有的電信業者是 Teams Phone Mobile 計畫的參與者，他們可以管理將 PSTN 通話帶到 Teams 的服務。 Teams Phone Mobile 計畫為您的組織提供下列優點：
 
 - **使用者有一個商務提供的行動電話、電話機和 Microsoft Teams 號碼**。 使用者可以從任何位置、裝置或網路靈活且安全地工作。  
 
@@ -65,7 +65,7 @@ ms.locfileid: "67606868"
 
 ## <a name="features"></a>功能
 
-電信業者連線行動使用者可以運用現有的[電話系統功能](here-s-what-you-get-with-phone-system.md)，以及下列專案：
+Teams Phone Mobile 使用者可以運用現有的 [手機系統功能](here-s-what-you-get-with-phone-system.md)，以及下列專案：
 
 - **使用 Teams 啟用 SIM 卡的電話號碼通話**。 使用者可以使用單一企業擁有的 SIM 卡手機號碼，從智慧型手機的原生撥號器或 Teams 端點撥打和接聽來電。 當使用者從智慧型手機的原生撥號器或任何 Teams 端點撥打撥出電話時，可以顯示行動裝置或公司服務號碼。 來電會撥打智慧型手機原生撥號器，同時撥打使用中的 Teams 用戶端。
 
@@ -92,11 +92,11 @@ ms.locfileid: "67606868"
 確定貴組織擁有合格的 Microsoft 365 服務：
 
 - Teams 手機系統 SKU/E5
-- 電信業者連線行動附加元件 SKU
+- Teams Phone Mobile 附加元件 SKU
 
-若要使用電信業者連線行動啟用電話號碼指派，請確定您的使用者：
+若要使用 Teams Phone Mobile 啟用電話號碼指派，請確定您的使用者：
 
-- 擁有 Teams Phone 和電信業者連線行動授權。 若要深入瞭解，請參閱 [什麼是電話系統？](what-is-phone-system-in-office-365.md) 以及 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+- 擁有 Teams Phone 和 Teams Phone Mobile 授權。 若要深入瞭解，請參閱 [什麼是電話系統？](what-is-phone-system-in-office-365.md) 以及 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 - 將符合資格的行動訂閱提供給您的慣用電信業者，支援其啟用 SIM 卡的電話號碼，以用於 Teams Phone。 您的電信業者會將電話號碼上傳至您的 Microsoft 365 租使用者。
 

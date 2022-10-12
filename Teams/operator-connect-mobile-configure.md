@@ -1,5 +1,5 @@
 ---
-title: 設定電信業者連線行動
+title: 設定 Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,24 +12,24 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: 深入瞭解如何設定電信業者連線行動。
+description: 深入瞭解如何設定 Teams Phone Mobile。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ca49ac8cb74bcb61cd8c1d8fc2056c69a89d715
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606879"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551677"
 ---
-# <a name="configure-operator-connect-mobile"></a>設定電信業者連線行動
+# <a name="configure-teams-phone-mobile"></a>設定 Teams Phone Mobile
 
-**電信業者連線行動是公開預覽版。** 如需參與 Microsoft 電信業者連線行動 計畫的電信業者清單，以及其服務可用的國家或地區，請參閱[Microsoft 365 電信業者連線行動](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
+如需參與Microsoft Teams 電話行動裝置方案的電信業者清單，以及可提供服務的國家或地區，請參閱[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
 
-本文將說明如何設定電信業者連線行動。 在設定電信業者連線行動之前，請務必閱讀[規劃電信業者連線行動](operator-connect-mobile-plan.md)，以取得權益、先決條件和授權的相關資訊。
+本文將說明如何設定 Teams Phone Mobile。 在設定 Teams Phone Mobile 之前，請務必閱讀 Teams [Phone Mobile 方案](operator-connect-mobile-plan.md) ，以取得權益、先決條件和授權的相關資訊。
 
 ## <a name="enable-an-operator"></a>啟用運算子
 
@@ -37,11 +37,11 @@ ms.locfileid: "67606879"
 
 若要啟用運算子：
 
-1. 選擇支援電信業者連線行動的運算子。 在 [**所有運算子]** 索引標籤底下，依地區或服務篩選可用的運算子，以尋找正確的運算子支援電信業者連線行動。 然後選取您要啟用的運算子。
+1. 選擇支援 Teams Phone Mobile 的電信業者。 在 [ **所有運算子]** 索引標籤下，依地區或服務篩選可用的電信業者，以尋找支援 Teams Phone Mobile 的正確電信業者。 然後選取您要啟用的運算子。
 
 2. 在 [ **運算子設定] 底** 下，選取您要使用所選運算子啟用的國家/地區。
 
-3. **提供連絡資訊。** 您的連絡資訊，包括全名和電子郵件地址，將會自動與您的電信業者共用。 您可以稍後變更這項資訊。 此外，您必須提供公司規模，而且您也可以選擇提供電話號碼。 運算子會使用此資訊與您連絡，提供更多有關電信業者連線行動的詳細資料。
+3. **提供連絡資訊。** 您的連絡資訊，包括全名和電子郵件地址，將會自動與您的電信業者共用。 您可以稍後變更這項資訊。 此外，您必須提供公司規模，而且您也可以選擇提供電話號碼。 電信業者會使用此資訊與您連絡，提供更多有關 Teams Phone Mobile 的詳細資料。
 
 4. 接受資料傳輸通知。
 
@@ -49,9 +49,9 @@ ms.locfileid: "67606879"
 
 ## <a name="set-up-phone-numbers"></a>設定電話號碼
 
-如果您想要將現有的公司付費 SIM 卡電話號碼新增至 Teams，請連絡您的電信業者以確保您擁有合格的電信業者連線行動訂閱，他們可以將您的號碼上傳至 Teams。 電信業者完成訂單後，您可以將這些數位指派給使用者。 
+如果您想要將現有的公司付費 SIM 卡電話號碼新增至 Teams，請連絡您的電信業者以確保您擁有合格的 Teams Phone Mobile 訂閱，他們就可以將您的號碼上傳至 Teams。 電信業者完成訂單後，您可以將這些數位指派給使用者。 
 
-若要尋找您電信業者的網站，請參閱 [Microsoft 365 運算子 Connect 目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。
+若要尋找您電信業者的網站，請參閱 [Microsoft 365 Teams Phone Mobile 目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。
 
 您必須提供您的租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱 [尋找您的 Microsoft 365 租使用者識別碼](/onedrive/find-your-office-365-tenant-id.md)。 如果您的地區和電信業者支援無線語音訂閱，您可能要將現有的電話機號碼或有線號碼移轉到無線語音訂閱。 
 
@@ -59,11 +59,11 @@ ms.locfileid: "67606879"
 
 - [取得新 Teams 使用者的數位](#acquire-numbers-for-new-teams-users)。  
 
-- [將通話方案中的號碼移至電信業者連線行動](#move-numbers-from-calling-plans-to-operator-connect-mobile)。  
+- [將號碼從通話方案移至 Teams Phone Mobile](#move-numbers-from-calling-plans-to-teams-phone-mobile)。  
 
-- [將運算子連線的數位移至電信業者連線行動](#move-numbers-from-operator-connect-to-operator-connect-mobile)。  
+- [將號碼從運算子連線移至 Teams Phone Mobile](#move-numbers-from-operator-connect-to-teams-phone-mobile)。  
 
-- [將數位從直接路由移至電信業者連線行動](#move-numbers-from-direct-routing-to-operator-connect-mobile)。  
+- [將號碼從直接路由移至 Teams Phone Mobile](#move-numbers-from-direct-routing-to-teams-phone-mobile)。  
 
 
 ### <a name="assign-numbers-to-emergency-addresses"></a>將號碼指派給緊急位址
@@ -86,45 +86,45 @@ ms.locfileid: "67606879"
 
 若要取得新 Teams 使用者的數位，請遵循下列步驟：
 
-1. **指派電話系統授權和電信業者連線行動附加元件授權。** 您可以從Microsoft 365 系統管理中心或使用 PowerShell 指派電話系統授權和電信業者連線行動附加元件授權給使用者。 如需詳細資訊，請參閱 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+1. **指派電話系統授權和 Teams Phone Mobile 附加元件授權。** 您可以從Microsoft 365 系統管理中心或使用 PowerShell 指派電話系統授權和 Teams Phone Mobile 附加元件授權給使用者。 如需詳細資訊，請參閱 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. **將獲指派電信業者連線行動電話號碼的使用者必須處於 TeamsOnly 模式。** 如果您的組織處於 TeamsOnly 模式，則所有使用者都處於 TeamsOnly 模式。 
+2. **將透過 Teams Phone Mobile 取得的電話號碼指派的使用者必須處於 TeamsOnly 模式。** 如果您的組織處於 TeamsOnly 模式，則所有使用者都處於 TeamsOnly 模式。 
 
-   若要檢查，請在 Teams 系統管理中心移至 **Teams > Teams 升級設定**。 如果您的組織處於群島模式，請檢查特定使用者是否處於 TeamsOnly 模式。 移至 [ **使用者** ]，然後選取使用者帳戶。 在 [ **帳戶]** 索引標籤的 **[Teams 升級** ] 底下，共存模式應設定為 [TeamsOnly]。
+   若要檢查，請在 Teams 系統管理中心移至 **Teams > Teams 升級設定**。 如果您的組織處於群島模式，請檢查特定使用者是否處於 TeamsOnly 模式。 移至 [ **使用者** ]，然後選取使用者帳戶。 在 [ **帳戶] 索** 引標籤的 **[Teams 升級** ] 底下，共存模式應設定為 TeamsOnly。
 
-3. **取得數位。** 移至您電信業者的網站，或連絡他們以訂購並取得啟用行動 SIM 卡的電話號碼，並啟用電信業者連線行動服務。 
+3. **取得數位。** 移至您電信業者的網站，或連絡他們以訂購並取得已啟用 Teams Phone Mobile 服務的行動 SIM 卡電話號碼。 
 
    您的電信業者完成訂單之後，就會將啟用 SIM 卡的行動電話號碼上傳到您的租使用者。 您可以移至 **[語音] >** 電話號碼，在 Teams 系統管理中心檢視號碼和提供者。 
 
 4. **指派號碼。** 您可以從 Teams 系統管理中心或使用 PowerShell 指派號碼給使用者。 如需詳細資訊，請參閱 [指派號碼](assign-change-or-remove-a-phone-number-for-a-user.md)。
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect-mobile"></a>將通話方案中的號碼移至電信業者連線行動
+### <a name="move-numbers-from-calling-plans-to-teams-phone-mobile"></a>將號碼從通話方案移至 Teams Phone Mobile
 
-1. 確定您有適用 電信業者連線行動 的 Microsoft 365 訂閱以及電信業者連線行動附加元件授權。 您必須 [移除個別使用者要移動的電話號碼](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 
+1. 確定您有合格的 Microsoft 365 訂閱 Teams Phone Mobile 和 Teams Phone Mobile 附加元件授權。 您必須 [移除個別使用者要移動的電話號碼](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 
 
-2. 請連絡您的電信業者，將您的號碼移轉至啟用 SIM 卡的合格無線語音方案電信業者連線行動。 
+2. 請連絡您的電信業者，以啟用 SIM 卡的合格無線語音方案將您的號碼移轉至 Teams Phone Mobile。 
 
 3. 電信業者完成移轉訂單後，您的電信業者會將號碼上傳至您的租使用者。  您可以移至 **[語音] >** 電話號碼，在 Teams 系統管理中心檢視號碼和提供者。 
 
 4. 您可以使用 Teams 系統管理中心或使用 PowerShell 來指派號碼給使用者。 如需詳細資訊，請參閱 [指派號碼](assign-change-or-remove-a-phone-number-for-a-user.md)。
 
-### <a name="move-numbers-from-operator-connect-to-operator-connect-mobile"></a>將運算子連線的數位移至 電信業者連線行動
+### <a name="move-numbers-from-operator-connect-to-teams-phone-mobile"></a>將號碼從運算子連線到 Teams Phone Mobile
 
-1. 確定您有符合資格的 Microsoft 365 電信業者連線行動訂閱和運算子連線附加元件授權。 您必須 [移除個別使用者要移動的電話號碼](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 請連絡您現有的運算子連線提供者，以移除租使用者的電話號碼。
+1. 確定您有合格的 Microsoft 365 訂閱 Teams Phone Mobile 和 Teams Phone Mobile 附加元件授權。 您必須 [移除個別使用者要移動的電話號碼](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 請連絡您現有的運算子連線提供者，以移除租使用者的電話號碼。
 
-2. 請連絡您的電信業者，將您的號碼移轉至啟用 SIM 卡的合格無線語音方案電信業者連線行動。 
+2. 請連絡您的電信業者，以啟用 SIM 卡的合格無線語音方案將您的號碼移轉至 Teams Phone Mobile。 
 
 3. 電信業者完成移轉訂單後，您的電信業者會將號碼上傳至您的租使用者。 您可以移至 **[語音] >** 電話號碼，在 Teams 系統管理中心檢視號碼和提供者。 
 
 4. 您可以使用 Teams 系統管理中心或使用 PowerShell 來指派號碼給使用者。 如需詳細資訊，請參閱 [指派號碼](assign-change-or-remove-a-phone-number-for-a-user.md)。
 
-### <a name="move-numbers-from-direct-routing-to-operator-connect-mobile"></a>將數位從直接路由移至電信業者連線行動   
+### <a name="move-numbers-from-direct-routing-to-teams-phone-mobile"></a>將號碼從直接路由移至 Teams Phone Mobile   
 
-若要將數位從直接路由移至電信業者連線行動，您必須完成下列步驟：
+若要將號碼從直接路由移至 Teams Phone Mobile，您必須完成下列步驟：
 
 1. [判斷現有直接路由號碼是否已在線上或內部部署指派](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises)。
 
-2. [將數位從直接路由移轉到電信業者連線行動](#migrate-the-numbers-from-direct-routing-to-operator-connect-mobile)。
+2. [將號碼從直接路由移轉到 Teams Phone Mobile](#migrate-the-numbers-from-direct-routing-to-teams-phone-mobile)。
 
 2. [移除與使用者相關聯的線上語音路由原則](#remove-the-online-voice-routing-policy-associated-with-your-user)。
 
@@ -152,16 +152,16 @@ ms.locfileid: "67606879"
 
    如果 OnPremLineUri 已填入 E.164 電話號碼，電話號碼會在內部部署中指派並同步處理至 Microsoft 365。
 
-#### <a name="migrate-the-numbers-from-direct-routing-to-operator-connect-mobile"></a>將數位從直接路由移轉到 電信業者連線行動
+#### <a name="migrate-the-numbers-from-direct-routing-to-teams-phone-mobile"></a>將號碼從直接路由移轉到 Teams Phone Mobile
 
 若要移轉數位，請遵循下列步驟。  
 
 > [!Important]
-> 在移轉期間，電話號碼將會退出服務。 開始移轉之前，請先與運算子連線運算子協調。
+> 在移轉期間，電話號碼將會退出服務。 開始移轉之前，請先與您的 Teams Phone Mobile 電信業者協調。
 
-- **若要移轉線上指派給電信業者連線行動的現有直接路由號碼**，請連絡您的電信業者。 若要尋找您電信業者的網站，請參閱 [Microsoft 365 運算子 Connect 目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 在同意的日期和時間，您的運算子會將您的號碼從直接路由移轉到電信業者連線行動。 這可能牽涉到移除從租使用者移轉的電話號碼，然後再次將它新增為與電信業者連線行動相關聯的新電話號碼。
+- **若要移轉指派給 Teams Phone Mobile 的現有線上直接路由號碼**，請連絡您的電信業者。 若要尋找您電信業者的網站，請參閱 [Microsoft 365 Teams Phone Mobile 目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 在同意的日期和時間，您的電信業者會將您的號碼從直接路由移轉到 Teams Phone Mobile。 這可能牽涉到移除從租使用者移轉的電話號碼，然後再次將它新增為與 Teams Phone Mobile 相關聯的新電話號碼。
 
-- **若要將內部部署指派的直接路由號碼移轉到電信業者連線行動**，請執行下列商務用 Skype Server PowerShell 命令：
+- **若要將內部部署指派的直接路由號碼移轉到 Teams Phone Mobile**，請執行下列商務用 Skype Server PowerShell 命令：
 
    ```PowerShell
    Set-CsUser -Identity <user> -LineURI $null 
@@ -200,13 +200,13 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 #### <a name="acquire-phone-numbers"></a>取得電話號碼
 
-請連絡您的電信業者，將您的號碼移轉至啟用 SIM 卡的合格無線語音方案電信業者連線行動。
+請連絡您的電信業者，以啟用 SIM 卡的合格無線語音方案將您的號碼移轉至 Teams Phone Mobile。
 
 您的電信業者完成訂單之後，就會將號碼上傳至您的租使用者。 您可以移至 **[語音] >** 電話號碼，在 Teams 系統管理中心檢視號碼和提供者。 
 
 #### <a name="assign-phone-numbers"></a>指派電話號碼
 
-您可以使用 Teams 系統管理中心或使用 PowerShell，將運算子連線號碼指派給使用者。 如需詳細資訊，請參閱 [指派號碼](assign-change-or-remove-a-phone-number-for-a-user.md)。
+您可以使用 Teams 系統管理中心或使用 PowerShell，將 Teams Phone Mobile 號碼指派給使用者。 如需詳細資訊，請參閱 [指派號碼](assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 
 ## <a name="manage-your-operators"></a>管理您的運算子
@@ -230,7 +230,7 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 ## <a name="manage-user-incoming-calling-policies"></a>管理使用者來電原則
 
-您可以使用 Teams 系統管理中心或使用 PowerShell 來管理使用者的來電原則。 根據預設，電信業者連線行動使用者的來電會先在使用者啟用 SIM 卡的行動裝置上撥打 Teams 應用程式。 
+您可以使用 Teams 系統管理中心或使用 PowerShell 來管理使用者的來電原則。 根據預設，Teams Phone Mobile 使用者的來電會先在使用者啟用 SIM 卡的行動裝置上撥打 Teams 應用程式。 
 
 - 如果使用者的來電喜好設定為 Teams 應用程式，所有來電都會同時在啟用 SIM 卡的智慧型手機和任何其他裝置上的 Teams 端點上撥打 Teams 應用程式。 
 

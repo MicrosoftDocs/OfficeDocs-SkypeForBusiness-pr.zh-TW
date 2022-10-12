@@ -20,20 +20,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除 Teams 使用者的公司電話號碼，讓外部企業和用戶端可以撥入電話。
-ms.openlocfilehash: 1a959fd61200e7718cf1e14586d0060fb0e996ec
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d26df14f2f75e205c1824b66c9b8f2f394972d43
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606642"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551657"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
-當您設定通話方案、運算子連線或電信業者連線行動 (公開預覽版) 時，您會將電話號碼指派給使用者。 在 Microsoft Teams 中，當使用者按一下 [ **通話**] 時，會列出您指派的電話號碼。
+當您設定通話方案、運算子連線或 Teams Phone Mobile 時，您會將電話號碼指派給使用者。 在 Microsoft Teams 中，當使用者按一下 [ **通話**] 時，會列出您指派的電話號碼。
 
-本文適用于通話方案、電信業者連線電信業者連線行動 (公開預覽版) 。 如需在直接路由案例中指派、變更或移除使用者電話號碼的相關資訊，請參閱 [啟用使用者的直接路由、語音和語音信箱](./direct-routing-enable-users.md)。
+本文適用于通話方案、電信業者連線和 Teams Phone Mobile。 如需在直接路由案例中指派、變更或移除使用者電話號碼的相關資訊，請參閱 [啟用使用者的直接路由、語音和語音信箱](./direct-routing-enable-users.md)。
 
-在指派通話方案、運算子連線或電信業者連線行動使用者的號碼之前，您必須先為使用者取得號碼。 如需詳細資訊，請參閱[取得通話方案使用者的號碼](getting-phone-numbers-for-your-users.md)、[設定運算子連線使用者的號碼](operator-connect-configure.md#set-up-phone-numbers)或[為電信業者連線行動使用者設定號碼](operator-connect-mobile-configure.md)。
+在指派通話方案、電信業者連線或 Teams Phone Mobile 使用者的號碼之前，您必須先為使用者取得號碼。 如需詳細資訊，請參閱 [取得通話方案使用者的號碼](getting-phone-numbers-for-your-users.md)、 [設定運算子連線使用者的號碼](operator-connect-configure.md#set-up-phone-numbers)，或 [為 Teams Phone Mobile 使用者設定號碼](operator-connect-mobile-configure.md)。
 
 > [!NOTE]
 > 查看使用者是否已指派授權的其中一個方法是移至 Microsoft Teams 系統管理中心> **使用者]**。 如果已指派授權，該授權會顯示在頁面上。  您也可以使用Microsoft 365 系統管理中心。
@@ -64,7 +64,7 @@ Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneN
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
-針對電信業者連線行動數位：
+針對 Teams Phone Mobile 號碼：
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
@@ -108,7 +108,7 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 8. 若要指派或變更相關聯的緊急位置，請在 [ **緊急位置**] 底下搜尋，然後選取該位置。
 
       > [!NOTE]
-      > 如果您要變更運算子連線或電信業者連線行動使用者的號碼，您可能或無法指派或變更相關聯的緊急位置。 這項功能將視您的運算子而定。 如需詳細資訊，請連絡您的運算子。
+      > 如果您要變更運算子連線或 Teams Phone Mobile 使用者的號碼，您可能或無法指派或變更相關的緊急位置。 這項功能將視您的運算子而定。 如需詳細資訊，請連絡您的運算子。
 
 9. 按一下 [儲存]。
 

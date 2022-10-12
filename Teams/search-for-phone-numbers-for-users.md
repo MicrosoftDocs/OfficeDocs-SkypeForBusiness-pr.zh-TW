@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何依國家或地區和城市搜尋可以指派給使用者的電話號碼，並指定所需的號碼數量。
-ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: fce7c59ba1d680ca6e364713f611833773111648
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606192"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551507"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>搜尋使用者的電話號碼
 
@@ -36,9 +36,9 @@ ms.locfileid: "67606192"
 
 如果您選取 Microsoft 做為您的電信業者，您可以輸入使用者所需的電話號碼數量，從 Teams 系統管理中心取得號碼。 頁面會根據您仍然可以取得的數量自動限制數量。 如果您選取運算子連接運算子，系統會將您導向至所選運算子的登陸頁面，以完成編號順序。
 
-您取得及管理電話號碼的方式會根據您的 PSTN 連線選項而有所不同：Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 或直接路由。
+您取得及管理電話號碼的方式會根據您的 PSTN 連線選項而有所不同：Microsoft 通話方案、電信業者連線、Teams Phone Mobile 或直接路由。
 
-本文適用于[Microsoft 通話方案](#search-for-telephone-numbers-for-microsoft-calling-plans)、運算子[聯](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile)機[和電信業者連線行動](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile)。 如需所有選項的詳細資訊，請參閱 [管理組織的電話號碼](/microsoftteams/manage-phone-numbers-landing-page)。
+本文適用于 [Microsoft 通話方案](#search-for-telephone-numbers-for-microsoft-calling-plans)、 [電信業者聯](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile)機和 [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile)。 如需所有選項的詳細資訊，請參閱 [管理組織的電話號碼](/microsoftteams/manage-phone-numbers-landing-page)。
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>搜尋 Microsoft 通話方案的電話號碼
 
@@ -71,7 +71,7 @@ ms.locfileid: "67606192"
 
 9. 當您回到 **[電話號碼** ] 頁面時，選取您要指派的電話號碼或號碼，然後按一下 **[編輯** ] 將它指派給使用者。
 
-## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>搜尋運算子連線或電信業者連線行動的電話號碼
+## <a name="search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile"></a>搜尋運算子 Connect 或 Teams Phone Mobile 的電話號碼
 
 1. 移至 **Microsoft Teams 系統管理中心**。
 

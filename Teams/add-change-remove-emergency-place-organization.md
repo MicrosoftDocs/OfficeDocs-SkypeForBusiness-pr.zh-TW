@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何新增、變更或移除組織的緊急位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 5ddaaf2e6c173b6546d337ebfc9f23464a52233c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606712"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551497"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>新增、變更或移除貴組織緊急位置的地方
 
@@ -34,7 +34,7 @@ ms.locfileid: "67606712"
 
 本文說明如何為貴組織新增、變更或移除緊急位置。
 
-本文適用于 Microsoft 通話方案、運算子連線、電信業者連線行動 (公開預覽版) 和直接路由。
+本文適用于 Microsoft 通話方案、電信業者連線、Teams Phone Mobile 和直接路由。
 
 您可以在 Microsoft Teams 系統管理中心或使用 PowerShell 來管理組織的緊急位置。
   
