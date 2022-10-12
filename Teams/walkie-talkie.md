@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0475fd161d3b53a8fc60d3a1419d20e3de2bfada
+ms.sourcegitcommit: bb428cd5805151736f0a6786d737f67f2b3fc918
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377301"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68557476"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
@@ -110,7 +110,9 @@ Teams 中的無線對講機需要網際網路連線。 您必須有下列網路�
 - 交叉處理 [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html)、 [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html)、 [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html)、 [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html)和 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **] 按鈕**。 在 [專用] 按鈕 (1 或 2) ，選取 [ **長按**]，然後選擇 **[PTT 應用程式]**。 選取 [ **自訂]** 旁邊的藍色滾輪，然後選 **取 [Teams]**。
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) 和 [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
-  - 手動設定：安裝 Teams 後，移至 [**設定**  >  **程式化] 按鍵**。 根據裝置) ，選擇 **[PTT 鍵** ] 或 [ **按住** 不放 (]，然後選 **取 [Teams]**。
+  - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **程式化] 按鍵**。 根據裝置) ，選擇 **[PTT 鍵** ] 或 [ **按住** 不放 (]，然後選 **取 [Teams]**。
+- Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer)、 [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer)、 [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp)、 [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer)、 [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer)、 [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer)、 
+  - 手動設定：安裝 Teams 後，依預設專用 PTT 按鈕可與無線對講機搭配使用。
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - 手動設定：安裝 Teams 之後，移至 **[設定****進階**  >  功能  >  **XCover/Active 鍵]**。 開啟 **[搭配應用程式控制 XCover 金鑰]** ，然後選 **取 [Teams]**。
   - [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
