@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 32b55c026daad08aab22f1621190e2768e0b26e5
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 94c03224f25f1cd72c7e283411b0b1de6c38580e
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808664"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560253"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>在小型企業中設定 Microsoft Teams
 
 有許多方法可以自訂 Teams。 下列各章節將說明如何設定每個 Teams 工作負載：**聊天、團隊和頻道**；**會議與召集會議**；和 **語音解決方案**。 您對每個工作負載的順序設定由您決定。 雖然我們建議您先設定聊天、Teams 和頻道工作負載，但您可以先從會議和研討會，或甚至是雲端語音開始。 您可以自行選擇。
 
 > [!NOTE]
-> 如果您還沒有這麼做，我們強烈建議您從試驗開始 Teams 部署。試驗將允許您和一些早期採用者在規劃和最終推出之前熟悉 Teams 及其功能。若要了解如何開始試驗，請參閱[開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。
+> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 在您廣泛使用 Teams 之前，請先檢閱 [確認您已準備就緒](get-started-with-teams-quick-start.md#make-sure-youre-ready) 中的項目，確認貴組織已準備就緒。
 
@@ -73,10 +73,9 @@ ms.locfileid: "67808664"
 > [!TIP]
 > 完成 Microsoft Learn 上的 [使用 Microsoft Teams 來管理會議、召集會議與活動](/training/modules/m365-teams-collab-manage-meetings) 模組，以更加熟悉會議與活動。
 
-Teams 中的會議依預設為啟用狀態，不過，您可以控制召集人和參與者的會議體驗。 您也可以設定會議之前和會議期間，允許和不允許人員執行哪些工作。 如需詳細資訊，請查看下列文章：
+Teams 中的會議依預設為啟用狀態，不過，您可以控制召集人和參與者的會議體驗。 您也可以設定會議之前和會議期間，允許和不允許人員執行哪些工作。 如需詳細資訊，請參閱下列文章：
 
 - [系統管理員快速入門 - Microsoft Teams 的會議和即時活動](quick-start-meetings-live-events.md)
-- [設定音訊會議 - 中小型企業快速入門](audio-conferencing-smb.md)
 
 ### <a name="teams-phone-with-calling-plan"></a>含通話方案的 Teams 電話
 
@@ -86,7 +85,7 @@ Teams 中的會議依預設為啟用狀態，不過，您可以控制召集人�
 
 ## <a name="deploy-clients"></a>部署用戶端
 
-當您準備好讓使用者開始使用 Teams 時，他們可以在其 Windows、Mac 或 Linux 電腦或其 Android 或 iOS 裝置上安裝 Teams 用戶端。使用者能直接從 <https://teams.microsoft.com/downloads>下載 Teams 用戶端。
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 確定將使用 Teams 的每個人都擁有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
 
