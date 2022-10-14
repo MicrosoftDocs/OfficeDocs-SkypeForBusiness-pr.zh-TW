@@ -23,16 +23,16 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 86a63a47a47d438225046174104f79914f051c71
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 04863f6dd914b935b68120fd5c2df6105770c634
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615639"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576449"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
-Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組織認為預設設定就能滿足其需求。本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 若要開始使用，請觀看我們的簡短 Teams 聊天、團隊和頻道影片 (4 分 30 秒)：
 
@@ -40,17 +40,17 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-您可以[使用 Advisor for Teams 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。Advisor for Teams 會引導您完成 Teams 的推出。在您成功推出 Teams 前，它會評估您的 Microsoft 365 環境，找出可能需要更新或修改的最常用設定。
+You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
-> 建議您在您的 Teams 初始推出中包含我們的精選應用程式，例如 Planner。在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+> 建議您一開始推出 Teams 時能夠包含我們的精選應用程式，例如 Planner。 在您推動 Teams 採用時新增其他 [Teams 應用程式](deploy-apps-microsoft-teams-landing-page.md) 。
 
  > [!Note]
  > 如需有關不同平台上 Teams 功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="chat-deployment-prerequisites"></a>聊天部署必要條件
 
-在您的組織中推出 Teams 之前，請先用點時間確認您的環境已針對 Teams 備妥。請參閱[針對 Teams 準備組織的網路](prepare-network.md)，並對您的環境進行任何必要的變更。
+Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
 
 |問問自己|動作 |
 |------------|-------|
@@ -62,7 +62,7 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 ### <a name="teams-administrators"></a>Teams 系統管理員
 
-Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -72,7 +72,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="teams-owners-and-members"></a>Teams 擁有者和成員
 
-除了系統管理員角色，Teams 還能讓您指派擁有者和成員使用者角色，並選擇性地賦與他們仲裁者功能 (如果已設定仲裁)，以控制誰可以在頻道內執行特定動作。仲裁可讓您控制誰可以在頻道中開始新的文章、以仲裁者身分新增和移除團隊人員，以及控制團隊成員是否可以回覆現有的頻道訊息。
+In addition to administrator roles, Teams lets you assign owner and member user roles, and selectively give them moderator capabilities (if moderation has been set up) to control who can perform certain actions within a channel. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
 
 |問問自己|動作 |
 |------------|-------|
@@ -82,7 +82,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="messaging-policies"></a>訊息原則
 
-管理原則可控制 Teams 中的使用者可使用的聊天及頻道訊息功能。例如，誰可以編輯和刪除已傳送的郵件、誰可以使用聊天、誰可以在交談中使用 Meme 等等。依預設，使用者會獲指派全域訊息原則，且所有功能都會 **開啟**。您可以使用預設的全域原則或是為組織中的人員建立一或多個自訂訊息原則。 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
 
 |問問自己|動作 |
 |------------|-------|
@@ -92,7 +92,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="external-access"></a>外部存取
 
-外部存取 (同盟) 可讓您的使用者透過聊天與組織外部人員通訊。透過開啟此功能並將網域新增至允許清單，您的使用者即可以與其他網域和組織的使用者通訊。外部存取預設為開啟。
+External access (federation) lets your users communicate with people outside of your organization via chat. By turning this on and adding domains to the allowed list, your users can communicate with users in other domains and organizations. External access is turned on by default.
 
 |問問自己|動作 |
 |------------|-------|
@@ -100,7 +100,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="guest-access"></a>來賓存取
 
-Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您可以使用來賓存取設定來控制來賓可以或不能使用的功能。來賓存取依預設為開啟。若要深入了解，請參閱 [Teams 中的來賓存取](./guest-access.md)。
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guests can or can't use. Guest access is turned on by default. To learn more, see [Guest access in Teams](./guest-access.md).
 
 > [!NOTE]
 > 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
@@ -130,7 +130,7 @@ Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您�
 
 ### <a name="teams-settings"></a>Teams 設定
 
-Teams 設定可讓您為團隊設定使用電子郵件整合、雲端儲存選項、組織索引標籤、會議室裝置設定和搜尋範圍等功能。對這些設定進行變更時，設定會套用到組織中的所有團隊。若要深入了解，請參閱 [Teams 設定](enable-features-office-365.md#teams-settings)。
+Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. To learn more, see [Teams settings](enable-features-office-365.md#teams-settings).
 
 |問問自己|動作 |
 |------------|-------|
@@ -138,7 +138,7 @@ Teams 設定可讓您為團隊設定使用電子郵件整合、雲端儲存選�
 
 ### <a name="teams-clients"></a>Teams 用戶端
 
-Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預設設定可讓使用者選擇他們想要使用的用戶端。若要深入了解，請參閱[取得 Teams 用戶端](get-clients.md)。
+Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever clients they want. To learn more, see [Get clients for Teams](get-clients.md).
 
 |問問自己|動作 |
 |------------|-------|
@@ -147,7 +147,7 @@ Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預�
 
 ### <a name="teams-usage-reporting"></a>Teams 使用情況報告
 
-全域系統管理員、Teams 服務系統管理員和報告讀取者角色可檢視 Teams 使用情況報告。若要深入了解，請參閱 [Microsoft 365 流量分析](/microsoft-365/admin/usage-analytics/usage-analytics)。
+The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics](/microsoft-365/admin/usage-analytics/usage-analytics).
 
 |問問自己|動作 |
 |------------|-------|
@@ -155,9 +155,9 @@ Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預�
 
 ### <a name="teams-default-apps"></a>Teams 預設應用程式 
 
-Teams 提供大量的第一方 (Microsoft 提供) 和第三方應用程式，用來吸引使用者、支援生產力，並將常用的商務服務整合到 Teams 中。從 Teams 市集取得應用程式。Teams 中的應用程式預設會開啟。 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
 
-若要深入了解如何在 Teams 中推出和管理應用程式，請參閱我們的深入[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)指引。
+若要深入瞭解如何在 Teams 中推出和管理應用程式，請參閱我們深入的 [應用程式管理](deploy-apps-microsoft-teams-landing-page.md) 指導方針。
 
 ## <a name="additional-deployment-decisions"></a>其他部署決策
 
@@ -173,7 +173,7 @@ Teams 會隨著許多 Microsoft 365 授權提供。
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互通性
 
-為了獲得完整的小組體驗，每個使用者都應啟用 Exchange、SharePoint 及 Microsoft 365 群組建立。下列文章概述與各種環境中託管的 Exchange 信箱相關的資訊、Exchange 與 Teams 如何互動，以及 SharePoint 和商務用 OneDrive 的類似考量。
+For the full Teams experience, every user should be enabled for Exchange, SharePoint, and Microsoft 365 group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive.
 
 |問問自己|動作 |
 |------------|-------|
@@ -189,7 +189,7 @@ Teams 會隨著許多 Microsoft 365 授權提供。
 
 ### <a name="urls-and-ports"></a>URL 和連接埠
 
-對網際網路流量保有精細控制的組織，應閱讀 [URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)，以取得必須為 Teams 正確設定的最新 URL、IP 位址、連接埠和通訊協定的清單。Microsoft 會持續改善 Microsoft 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。建議您透過 RSS 訂閱，以便在此資訊更新或變更時收到通知。至少，請確認您已開放以上的[聊天部署先決條件](#chat-deployment-prerequisites)中所列的連接埠。
+Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
 
 |問問自己|動作 |
 |------------|-------|
@@ -197,7 +197,7 @@ Teams 會隨著許多 Microsoft 365 授權提供。
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>控管 (命名慣例，可建立團隊的人員)
 
-您的組織可能會要求您對團隊的命名和分類方式、誰可以建立團隊以及團隊到期日、保留和封存實作控制。這稱為控管。您可以使用 Azure Active Directory (Azure AD) 來設定每一個區域。
+Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
 
 | 問問自己 | 動作 |
@@ -207,7 +207,7 @@ Teams 會隨著許多 Microsoft 365 授權提供。
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 應用程式原則 (側邊欄控制)
 
-釘選的應用程式會顯示在 Teams 的側邊欄中。透過建立 Teams 應用程式原則，您可以預先設定釘選 Teams 應用程式的集合，以針對選取的使用者群組將 Teams 個人化。[在 Microsoft Teams 中允許外部應用程式 **]** 設定預設為開啟。
+A pinned app shows up in the side rail in Teams. By creating Teams application policies, you can preconfigure sets of pinned Teams apps to personalize Teams for select groups of users. By default, the **Allow external apps in Microsoft Teams** setting is turned on.
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -216,7 +216,7 @@ Teams 會隨著許多 Microsoft 365 授權提供。
 
 ### <a name="archiving-and-compliance"></a>封存與合規性 
 
-您的組織可能會要求您對團隊的封存方式以及在特定團隊類型中保留的資料類型採取控制措施。請閱讀 [Teams 的安全性與合規性概觀](security-compliance-overview.md)，以了解預設會開啟哪些 Teams 設定。
+Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -226,7 +226,7 @@ Teams 會隨著許多 Microsoft 365 授權提供。
 
 ### <a name="conditional-access"></a>條件式存取 
 
-Teams 極度依賴 Exchange 和 SharePoint 進行包括會議、行事曆、交互操作聊天和檔案共用在內的核心生產力案例。當使用者在任何用戶端上直接登入 Teams 時，對這些雲端應用程式設定的條件式存取原則會套用至 Teams。為 Teams 雲端應用程式控制方面設定的條件式存取原則，例如，使用者是否可以從特定網路存取 Teams 服務。
+Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -252,6 +252,6 @@ Office 365 政府版 - GCC (政府社群雲端) 適合用來滿足在美國聯�
 
 ## <a name="next-steps"></a>後續步驟
 - 聊天、團隊、頻道和應用程式的[推動採用](adopt-microsoft-teams-landing-page.md)。
-- 在您的 Teams 初始推出中包含精選應用程式，例如 Planner。在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在您的 Teams 初始推出中包含精選應用程式，例如 Planner。 在您推動 Teams 採用時新增其他 [Teams 應用程式](deploy-apps-microsoft-teams-landing-page.md) 。
 - [推出會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)
 - [推出雲端語音](cloud-voice-landing-page.md)
