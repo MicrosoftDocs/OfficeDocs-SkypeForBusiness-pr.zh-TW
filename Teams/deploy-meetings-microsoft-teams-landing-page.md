@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: efb18d7a4674fa990f5a133576ec10ed4d377e35
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 7306184fe00c404820a0aa098497c2ec1262d15b
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706490"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576562"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -74,7 +74,7 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 
 ### <a name="teams-administrators"></a>Teams 系統管理員
 
-Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -143,7 +143,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 使用者可以記錄其會議和群組通話，以擷取音訊、視訊和螢幕共用的活動。 您也可以使用自動轉錄的錄製選項，便於使用者播放具有隱藏式輔助字幕的會議錄製，並在文字記錄中搜尋重要的討論項目。 錄製會在雲端中進行，並儲存到 Microsoft Stream，因此使用者可以安全地在整個組織內共用檔案。 若要尋找會議的錄製，請前往會議交談。
 
 >[!Note]
-> 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶對新會議錄製使用商務用 OneDrive 和 SharePoint。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 若要深入了解，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
@@ -206,4 +206,4 @@ Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話�
 - 在您的組織中推動會議和召集會議的[採用](adopt-microsoft-teams-landing-page.md)。
 - [新增音訊會議](deploy-audio-conferencing-teams-landing-page.md)
 - [推出雲端語音](cloud-voice-landing-page.md)
-- 在您的 Teams 初始推出中請包括精選應用程式，例如 Planner。在開始推動 Teams 的採用時，請新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在您的 Teams 初始推出中包含精選應用程式，例如 Planner。 在您推動 Teams 採用時新增其他 [Teams 應用程式](deploy-apps-microsoft-teams-landing-page.md) 。
