@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 862b7f05efe4818a7778e979ecd725225806aacc
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606442"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570385"
 ---
 # <a name="plan-for-operator-connect"></a>規劃運算子連線
 
@@ -54,11 +54,9 @@ ms.locfileid: "67606442"
 
 - **更快速、更容易部署。** 您可以從 Teams 系統管理中心快速連線到您的電信業者，並將電話號碼指派給使用者-全部。
 
-- **增強的支援與可靠性。** 電信業者提供技術支援和共用服務等級協定以改善支援服務，而由 Azure 提供的直接對等功能則會建立一對一網路連線以增強可靠性。
+- **增強的支援與可靠性。** 電信業者提供技術支援和共用服務等級協定以改善支援服務，而由 Azure 提供的直接對等功能則會建立一對一網路連線以增強可靠性。 
 
 ## <a name="requirements"></a>需求
-
- 
 
 若要使用運算子連線啟用電話號碼指派，請確定您的使用者為：
 
@@ -66,3 +64,7 @@ ms.locfileid: "67606442"
 - 在 TeamsOnly 模式中。 請注意，使用者必須處於 TeamsOnly 模式，但您的整個組織不會。 若要深入瞭解，請參閱[瞭解 Microsoft Teams 和商務用 Skype共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
 
 如需參與 Microsoft 運算子連線計畫的運算子清單，以及其服務所在的國家或地區，請參閱 [Microsoft 365 運算子連線目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。
+
+## <a name="support-boundaries"></a>支援範圍
+如需技術支援，請先連絡您運算子連接運算子的客戶支援。 如有需要，運算子連接運算子可以透過共用支援通道直接將您的支援案例呈報給 Microsoft 工程。 
+
