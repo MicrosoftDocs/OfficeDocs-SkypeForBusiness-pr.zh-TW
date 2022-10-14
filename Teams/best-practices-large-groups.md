@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562402"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576399"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>在 Microsoft Teams 中管理大型團隊 - 最佳做法
 
@@ -76,7 +76,7 @@ Azure 入口網站可讓使用者大量匯入/匯出/移除 Microsoft 365 群組
 
 ![顯示 [設定] 窗格 [成員許可權] 區段的螢幕影像。](media/disable-bots-connectors.png "顯示 [設定] 窗格 [成員許可權] 區段的螢幕影像。未選取允許成員新增應用程式或連接器的選項。")
 
-請參閱 [應用程式、機器人&連接器](deploy-apps-microsoft-teams-landing-page.md)。
+請參閱 [Teams 應用程式概觀](deploy-apps-microsoft-teams-landing-page.md)。
 
 ## <a name="regulate-team-and-channel-mentions"></a>規範團隊和頻道提及
 
