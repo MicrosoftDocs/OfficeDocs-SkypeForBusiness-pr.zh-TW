@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 07a7a7652f5b634d9cc4c5bf7adfa14dfdcb3d3d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551717"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576589"
 ---
 # <a name="plan-for-teams-phone-mobile"></a>規劃 Teams Phone Mobile
 
-如需參與Microsoft Teams 電話行動裝置方案的電信業者清單，以及可提供服務的國家或地區，請參閱[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
+如需參與Microsoft Teams 電話行動裝置方案的電信業者清單，以及可提供服務的國家或地區，請參閱[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)。
 
 Teams Phone Mobile 是另一個提供公用交換電話網路 (PSTN) 與 Microsoft Teams 和手機系統連線的選項。 使用 Teams Phone Mobile 時，使用者的 SIM 卡手機號碼也是其 Teams 電話號碼。 使用者可以在 Microsoft Teams 中透過行動服務和電話線使用單一電話號碼，以及在網路和裝置之間順暢地轉換。
 
