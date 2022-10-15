@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 7fafebf61cdf7e5b13cfbb6aaf08d73afef6f436
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641744"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576439"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -54,7 +54,7 @@ ms.locfileid: "67641744"
 
 ### <a name="teams-administrators"></a>Teams 系統管理員
 
-Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -65,7 +65,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>會議橋接器和電話號碼
 
-會議橋接可讓人員使用電話撥入會議。您可使用會議橋接的預設設定，或變更電話號碼 (付費及免付費電話) 與其他設定，例如 PIN 或所使用的語言。
+Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
 如需詳細資訊，請參閱[音訊會議](audio-conferencing-in-office-365.md)。
 
@@ -87,7 +87,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 ### <a name="conferencing-bridge-settings"></a>會議橋接器設定
 
-設定會議橋接 (包括預設和替代語言) 後，您應確認預設設定 (例如，進入/退出通知和 PIN 長度) 就是您要使用的設定。如果不是，您可加以變更。
+After setting up your conferencing bridge, including default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them.
 
 |問問自己|動作 |
 |------------|-------|
@@ -153,4 +153,4 @@ Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話�
 
 - 組織中音訊會議的[驅動採用率](adopt-microsoft-teams-landing-page.md)。
 - [推出雲端語音](cloud-voice-landing-page.md)
-- 在您的 Teams 初始推出中請包括精選應用程式，例如 Planner。在開始推動 Teams 的採用時，請新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在您的 Teams 初始推出中包含精選應用程式，例如 Planner。 在您推動 Teams 採用時新增其他 [Teams 應用程式](deploy-apps-microsoft-teams-landing-page.md) 。

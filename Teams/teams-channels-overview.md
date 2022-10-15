@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e5ff54577dcfd4e3845758a7ce943231cbd38d48
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396924"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576549"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -45,7 +45,7 @@ ms.locfileid: "67396924"
 - **頻道** 是小組內的專用區段，可依據特定主題、專案或訓練等適合小組的分類來讓交談保持在井然有序的狀態。 您在頻道中共用的檔案 (位於 [檔案] 索引標籤上) 會儲存在 SharePoint 中。 如需詳細資訊，請參閱 [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
 
     - 頻道是指交談發生的位置，以及實際完成工作的位置。 頻道的開放對象可以是：所有小組成員 (標準頻道)、選定的小組成員 ([私人頻道](private-channels.md))，或小組內部和外部的選定人員 ([共用頻道](shared-channels.md))。
-    - 頻道若以包含索引標籤、連接器和 Bot 的應用程式進行擴充，則其對於團隊成員的作用，將最具價值。如需深入了解，請參閱 [Teams 中的應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+    - 頻道若以包含索引標籤、連接器和 Bot 的應用程式進行擴充，則其對於團隊成員的作用，將最具價值。 若要深入瞭解，請參閱 [Teams 應用程式概觀](deploy-apps-microsoft-teams-landing-page.md)。
     
 如需使用團隊和頻道的說明，請參閱[團隊和頻道](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
@@ -73,7 +73,7 @@ Teams 中的兩個主要角色如下：
 
 **團隊設定** 
 
-小組擁有者可以直接在 Teams 中管理整個小組的設定。設定包括能夠新增小組圖片、設定小組成員的權限，以用於建立標準、私人和共用頻道、新增索引標籤和連接器、對整個小組或頻道使用 @提及，以及使用 Gif、貼圖和 meme。
+Team owners can manage team-wide settings directly in Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard, private, and shared channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
 如果您是 Microsoft 365 中的 Teams 系統管理員，您可以在 Teams 系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，用於整個小組的公告、討論和資源，這將顯示在所有小組中。
 
