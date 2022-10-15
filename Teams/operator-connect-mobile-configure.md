@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: e0ffdc63200289f6f77dccb5214e8b2e3c3b344f
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551677"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576598"
 ---
 # <a name="configure-teams-phone-mobile"></a>設定 Teams Phone Mobile
 
-如需參與Microsoft Teams 電話行動裝置方案的電信業者清單，以及可提供服務的國家或地區，請參閱[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
+如需參與Microsoft Teams 電話行動裝置方案的電信業者清單，以及可提供服務的國家或地區，請參閱[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)。
 
 本文將說明如何設定 Teams Phone Mobile。 在設定 Teams Phone Mobile 之前，請務必閱讀 Teams [Phone Mobile 方案](operator-connect-mobile-plan.md) ，以取得權益、先決條件和授權的相關資訊。
 
