@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 5961e05ac1ec927fbaca31dc24279eca27ce0f9d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551857"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576409"
 ---
 # <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動
 
@@ -142,7 +142,7 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 
 | 文章 | 描述 |
 |----------|--------|
-| [應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md) | 應用程式簡介，以及如何為貴組織部署應用程式。 |
+| [Teams 應用程式概觀](deploy-apps-microsoft-teams-landing-page.md) | 應用程式簡介，以及如何為貴組織部署應用程式。 |
 | [Teams 會議應用程式](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | 會議應用程式擴充性、API 參考，以及如何啟用和設定會議應用程式的概觀。 |
 | [管理 Teams 中的白板](manage-whiteboard.md) | 說明白板功能，以及如何為貴組織啟用和停用。 |
 

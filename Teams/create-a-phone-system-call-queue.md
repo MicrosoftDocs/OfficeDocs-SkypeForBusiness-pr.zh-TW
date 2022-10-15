@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 0b1c5950ce419e3ae828afa13fa32b61117734bf
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046853"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576459"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -365,7 +365,7 @@ ms.locfileid: "68046853"
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**專員路由選項**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*預設* |
-|`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*預設*     |
+|`Agents can Opt-out`<sup>10</sup> |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*預設*     |
 |**傳輸模式**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*預設* |
 |`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -390,10 +390,11 @@ ms.locfileid: "68046853"
 5. 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
 6. Microsoft Teams 電話。
 7. 透過 的 [使用者設定] 入口網站頁面。 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)
-- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- 國防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. 僅支援公用頻道。
 9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
+10. 針對 GCCH/DOD，僅可透過 [使用者設定] 入口網站取得：：
+- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- 國防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>支援的用戶端
 
