@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解哪些通訊點數 (PSTN 消費) 帳單、如何尋找費率，以及您可取得哪些服務。 '
-ms.openlocfilehash: ad3e3bcbe46850ae6540539159662f0afb6d6ddf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 75a1f3702140543f08d963a2572841bdca79c9b1
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156731"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584204"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
