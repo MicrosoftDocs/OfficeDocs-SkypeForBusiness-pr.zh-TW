@@ -13,18 +13,19 @@ f1.keywords:
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用移轉精靈，將您的電話號碼從目前的服務提供者移轉至 Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98580a16f7d5165bef6bdd177de37a1e80bfb32f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 4dd814f81bb7c48c331ebaa1178f8f3069f7b156
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790098"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584164"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼移轉到 Microsoft Teams
 
