@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解如何在 Microsoft Teams 中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: 0b8c77f7d6371ba1bfefa9837488415405e48f67
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: ac3eb35894fa765dc44f46fcb489399b06adfa74
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615799"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584024"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -34,7 +35,7 @@ ms.locfileid: "66615799"
 
 ## <a name="next-steps"></a>後續步驟
 
-當您完成資源帳戶設定，並視需要指派服務號碼後，就可以將資源帳戶與自動語音應答或通話佇列搭配使用。
+當您完成資源帳戶設定，並視需要指派服務號碼後，就可以透過自動語音應答或通話佇列使用資源帳戶。
 
 若要深入瞭解，請參閱下列參照：
 
