@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -25,12 +26,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 瞭解緊急電話，包括緊急位址、緊急電話路由和動態緊急電話的相關資訊。
-ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: cb877c851158c5482fdd700d9164b5eb13ffd19f
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551817"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584644"
 ---
 # <a name="manage-emergency-calling"></a>管理緊急通話
 
