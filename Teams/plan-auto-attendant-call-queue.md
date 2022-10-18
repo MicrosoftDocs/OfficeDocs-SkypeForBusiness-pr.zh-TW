@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解自動語音應答和通話佇列，以及如何使用自動語音應答和通話佇列來協助來電者在功能表系統之間移動，以連絡組織中的人員或部門。
-ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 05bbc5880e3a90751cfaada782573fd2d0b10c90
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443350"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584804"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>規劃 Teams 自動語音應答和通話佇列
 
