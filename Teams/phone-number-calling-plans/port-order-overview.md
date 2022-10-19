@@ -21,12 +21,13 @@ description: 概略瞭解什麼是移轉訂單，以及如何將電話號碼從�
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+- highpri
+ms.openlocfilehash: f4160d8e5fac5ec1f706bb7c82a881248d092a59
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674374"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584914"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
@@ -40,7 +41,7 @@ ms.locfileid: "67674374"
 
 您可以在所有支援的國家或地區中移轉電話號碼，但您提交移轉訂單要求的方式取決於電話號碼的來源國家或地區。 如需支援號碼移轉的國家與地區清單，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
 
-目前，Microsoft Teams 系統管理中心的[移轉精靈](transfer-phone-numbers-to-teams.md)支援取得英國、美國和加拿大的電話號碼。 若要取得其他國家/地區的電話號碼，您可以 [手動提交移轉訂單](manually-submit-port-order.md)。
+目前，Microsoft Teams 系統管理中心的[移轉精靈](transfer-phone-numbers-to-teams.md)支援取得英國、Estados Unidos和加拿大的電話號碼。 若要取得其他國家/地區的電話號碼，您可以 [手動提交移轉訂單](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>可以轉移哪些數位？
 
@@ -53,7 +54,7 @@ ms.locfileid: "67674374"
 - 行動電話與平板電腦所用的行動裝置電話號碼。
 
     > [!NOTE]
-    > 移轉行動電話號碼僅適用于美國和波多黎各。
+    > 移轉行動電話號碼僅適用于Estados Unidos和波多黎各。
   
 - 付費電話號碼。
 

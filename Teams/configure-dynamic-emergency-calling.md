@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: roykuntz
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -18,12 +19,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c990473a185f4f1a42a5c046b11548892e6df4b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: c3ad0b4af1ad32cf59673fe2e4f0eab3d1f83a18
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551627"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583884"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -51,9 +52,9 @@ Teams 用戶端會在緊急通話中包含位置資料。 然後緊急服務提�
 
 自動路由到適當 [Public Safety Answer point] (PSAP) 的能力，取決於 Teams 使用者的使用國家/地區。
 
-Microsoft 通話方案、運算子連線合作夥伴和 Teams Phone Mobile 合作夥伴都包含適用于美國和加拿大使用者的動態緊急路由服務。
+Microsoft 通話方案、運算子連線合作夥伴和 Teams Phone Mobile 合作夥伴都包含適用于Estados Unidos和加拿大使用者的動態緊急路由服務。
 
-不過，對於直接路由，路由緊急電話需要額外的設定，而且可能還需要合作夥伴連線。 系統管理員必須確定已設定傳送緊急電話的 PSTN 閘道，將線上 PSTN 閘道物件上的參數 PidfloSupported 設為 True，以將位置資訊新增至外寄 INVITE (。 此外，系統管理員必須設定與緊急路由服務 (ERS) 提供者的連線， (美國和加拿大) **或** 針對緊急位置識別編號 (ELIN) 應用程式設定會話框線控制器 (SBC) 。 如需 ERS 提供者的相關資訊，請參閱 [通過直接路由認證的會話框線控制器](direct-routing-border-controllers.md)。
+不過，對於直接路由，路由緊急電話需要額外的設定，而且可能還需要合作夥伴連線。 系統管理員必須確定已設定傳送緊急電話的 PSTN 閘道，將線上 PSTN 閘道物件上的參數 PidfloSupported 設為 True，以將位置資訊新增至外寄 INVITE (。 此外，系統管理員必須設定與緊急路由服務 (ERS) 提供者 (Estados Unidos的連線，加拿大) **或** 針對緊急位置識別編號 (ELIN) 應用程式設定會話框線控制器 (SBC) 。 如需 ERS 提供者的相關資訊，請參閱 [通過直接路由認證的會話框線控制器](direct-routing-border-controllers.md)。
 
 本文包含下列各節。
 
@@ -109,9 +110,9 @@ Microsoft 通話方案、運算子連線合作夥伴和 Teams Phone Mobile 合�
 
 - 移至動態取得位置所需的網路識別碼。 
 
-若要支援在美國內自動路由緊急呼叫，您必須確保指派給網路識別碼的緊急位置包含相關的地理位置代碼。  (無法將沒有地理位置代碼的緊急位址指派給動態位置所需的網路識別碼。) 
+若要支援在Estados Unidos內自動路由緊急電話，您必須確保指派給網路識別碼的緊急位置包含相關的地理位置代碼。  (無法將沒有地理位置代碼的緊急位址指派給動態位置所需的網路識別碼。) 
 
-Azure 地圖服務用於位置型服務。 當您使用 Microsoft Teams 系統管理中心輸入緊急位址時，Teams 會檢查位址Azure 地圖服務：
+Azure Maps用於位置型服務。 當您使用 Microsoft Teams 系統管理中心輸入緊急位址時，Teams 會檢查位址Azure Maps：
 
 - 如果找到相符專案，即會自動包含地理代碼。
 
@@ -234,11 +235,11 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 ## <a name="test-emergency-calling"></a>測試緊急通話
 
-美國中的某些緊急路由服務提供者 (ERSP) 提供緊急通話測試機器人。
+Estados Unidos中的某些緊急路由服務提供者 (ERSP) 提供緊急通話測試機器人。
 
-- **美國或加拿大的通話方案、電信業者連線和 Teams Phone Mobile 使用者** 可以使用預先定義的測試緊急號碼 933 來驗證其緊急通話設定。 此號碼會路由至 Bot，隨後會回溯來電者電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行螢幕。
+- **Estados Unidos或加拿大的通話方案、電信業者連線和 Teams Phone Mobile 使用者** 可以使用預先定義的測試緊急號碼 933 來驗證其緊急通話設定。 此號碼會路由至 Bot，隨後會回溯來電者電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行螢幕。
 
-- **直接路由至美國中的客戶** 應與其 ERSP 進行測試服務的協調。
+- **直接路由至Estados Unidos中的客戶** 應與其測試服務的 ERSP 協調。
 
 ## <a name="government-support"></a>政府支援
 

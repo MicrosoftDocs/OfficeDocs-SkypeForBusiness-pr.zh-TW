@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -30,12 +31,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '瞭解如何支付 商務用 Skype 服務的通訊點數 (PSTN 消費) ，並查看讓使用者能夠持續存取電話系統的計畫。 '
-ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156641"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583844"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 

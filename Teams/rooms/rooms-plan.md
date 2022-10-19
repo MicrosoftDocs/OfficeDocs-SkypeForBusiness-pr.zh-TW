@@ -15,13 +15,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - Teams_ITAdmin_Rooms
+- highpri
 description: 本文將說明部署Microsoft Teams 會議室新一代 Skype 會議室系統的相關規劃考慮。
-ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e6e3d53928a1a28572a8ea0a038ea772c934e7b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269748"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584444"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>規劃Microsoft Teams 會議室
 
@@ -33,8 +34,9 @@ ms.locfileid: "67269748"
 
 Microsoft Teams 會議室提供完整的會議體驗，可將 HD 視訊、音訊和內容共用帶入各種大小的會議，從小型的交集區到大型會議室。
 
-![使用者點選Teams 會議室主機，並在背景中顯示。](../media/room-systems-image1.jpg "使用者點選Teams 會議室主機，背景顯示器") 
-[Microsoft Teams 會議室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)是一項絕佳的資源，可讓您深入瞭解Microsoft Teams 會議室，以及它如何在您的部署中新增價值。
+![使用者點選Teams 會議室主機，並在背景中顯示。](../media/room-systems-image1.jpg "使用者點選Teams 會議室主機，背景顯示器")
+
+[Microsoft Teams 會議室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)是一項絕佳的資源，可讓您深入瞭解Microsoft Teams 會議室，以及它如何在您的部署中增加價值。
 
 ## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams 會議室元件
 
@@ -49,7 +51,17 @@ Microsoft Teams 會議室包含下列主要元件，可提供絕佳的使用者�
 
 您可以從許多廠商購買這些元件做為預先安裝的搭售方案，或者您可以依照 [本文中所述的需求](requirements.md)個別購買支援的元件。
 
-您可以使用 Microsoft Teams 部署Microsoft Teams 會議室或商務用 Skype內部部署。  如需所需授權的相關資訊，請參閱 [Teams 會議室授權更新](rooms-licensing.md) 。
+## <a name="teams-rooms-licensing"></a>Teams 會議室授權
+
+每個會議室裝置，例如Teams 會議室主機、Surface Hub 和 Teams 面板，都需要Teams 會議室授權。 Teams 提供兩種Teams 會議室授權：Microsoft Teams 會議室專業版 和 Microsoft Teams 會議室 Basic。
+
+Microsoft Teams 會議室專業版非常適合擁有 25 部以上會議室裝置或想要獲得最完整會議和裝置管理體驗的組織。 混合式 Teams 會議具有前方列、內容相機、AI 支援的噪音抑制功能，以及Microsoft Teams 會議室專業版提供的其他功能，讓會議變得更為沈浸式。 Teams 會議室系統管理員可以從 Teams 系統管理中心集中管理所有經過認證的Teams 會議室裝置，從設定條件式存取原則到分析有關裝置健康情況和會議品質的豐富遙測。
+
+Microsoft Teams 會議室基本版適用于只有少數幾個會議室裝置且只需要基本會議和管理功能的組織。 Microsoft Teams 會議室基本版可讓您使用直接來賓加入會議、共用內容和即時視訊、加入縮放和 Webex 會議，以及在 Teams 系統管理中心執行基本裝置庫存和監視。
+
+您必須先指派授權給會議室裝置，才能使用會議室裝置。 如需詳細資訊，請[參閱Microsoft Teams 會議室授權](rooms-licensing.md)。
+
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -142,7 +154,7 @@ _貴組織Microsoft Teams 會議室部署範本範例_
 
 貴組織必須持續執行監視、管理和管理工作，而且必須同意誰將在部署初期完成這些工作。
 
-許多組織都有 AV 小組或合作夥伴負責管理其會議室和裝置。 或者，您可以利用Microsoft Teams 會議室進階版，讓 Microsoft 協助管理Teams 會議室。 決定未來誰將管理Microsoft Teams 會議室裝置，以監控效能以及部署軟體更新和 Hotfix。
+許多組織都有 AV 小組或合作夥伴負責管理其會議室和裝置。 或者，您也可以讓 Microsoft 利用Microsoft Teams 會議室專業版來協助管理Teams 會議室。 決定未來誰將管理Microsoft Teams 會議室裝置，以監控效能以及部署軟體更新和 Hotfix。
 
 考慮您將路由Microsoft Teams 會議室相關通話的技術服務佇列，並提供常見問題給技術服務小組，讓他們更瞭解如何使用Microsoft Teams 會議室，以及他們可以採取的重要疑難排解步驟。 此常見問題的一個好起點是 [使用者說明](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) 和 [已知問題](known-issues.md)。
 

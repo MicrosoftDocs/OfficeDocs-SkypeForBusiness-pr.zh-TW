@@ -19,12 +19,13 @@ ms.custom:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 81c30b4c80d2244c3c9589380274bf0d1f2cceaa
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: 24d491eb223466eab76538db3080b103a905e3ad
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480963"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584934"
 ---
 # <a name="teams-phone-system-guidance-for-small-and-medium-businesses"></a>適用于中小型企業的 Teams 電話系統指導方針
 
@@ -59,7 +60,7 @@ Teams 電話系統與通話方案套件方案可讓您的企業擁有：
 
 例如，您可能有十名工廠員工和五名辦公室員工。 工廠員工只需要在公司內撥打電話給其他員工。 除了打電話給其他員工之外，辦公室工作人員還必須撥打和接聽供應商、合作夥伴和客戶的電話。 在此情況下，只有五名辦公室員工需要 Teams Phone 搭配通話方案套件授權。
 
-## <a name="how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses"></a>如何?購買 Teams Phone with Calling Plan 套件套件授權嗎？
+## <a name="how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses"></a>如何實現購買 Teams Phone with Calling Plan 套件套件授權嗎？
 
 若要購買 **Teams Phone 與通話方案** 套件組合授權：
 

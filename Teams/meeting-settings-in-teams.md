@@ -21,13 +21,14 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706500"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583874"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -103,7 +104,7 @@ ms.locfileid: "67706500"
 
 ## <a name="customize-meeting-invitations"></a>自訂會議邀請
 
-您可以自訂 Teams 會議邀請來滿足組織的需求。您可以新增組織的標誌，並提供實用的資訊，例如支援網站和法律免責聲明的連結，以及純文字的頁尾。
+You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>建立會議邀請標誌的秘訣  
 
@@ -111,7 +112,7 @@ ms.locfileid: "67706500"
 2. 將影像儲存為 JPG 或 PNG 格式。
 3. 將影像儲存在收到邀請的每個人都可以存取的位置，例如公用網站。
 
-    現在您可以將其新增至會議邀請。請參閱後續步驟。
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 
@@ -162,9 +163,9 @@ ms.locfileid: "67706500"
         
         > [!NOTE]
         > DSCP 標記通常是透過來源連接埠完成，且 UDP 流量預設會路由至目的地連接埠為 3478 的傳輸轉送。 如果您的公司需要標記目的地連接埠，請連絡支援人員，以啟用使用 UDP 連接埠 3479 (音訊)、3480 (視訊) 和 3481 (共用) 對傳輸轉送的通訊。
-    - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍] 旁選取 [指定連接埠範圍]，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。若要實作 QoS，需要選取此選項。 
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
-        > 如果 [插入即時媒體流量的服務品質 (QoS) 標記 **]** 已開啟，則必須管理您的連接埠設定。不會自動管理。
+        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
         
         > [!IMPORTANT]
         > 如果您選取 [自動使用任何可用的連接埠]，則會使用 1024 和 65535 之間的可用連接埠。 只有在不實作 QoS 時才使用此選項。
@@ -184,4 +185,4 @@ ms.locfileid: "67706500"
 
 \* 您指派的連接埠範圍不能重疊，且應該彼此相鄰。
 
-在使用 QoS 一段時間後，您將會獲得這三個工作負載相關需求的使用資訊，而且您可以根據自己的特定需求來選擇要進行的變更。[通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)對此應該有幫助。
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.

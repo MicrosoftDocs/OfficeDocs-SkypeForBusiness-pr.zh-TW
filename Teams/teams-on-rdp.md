@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e18aa0ad95033550d0ef2f7c6049e700d917798
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: bf113e8d14b70382d6b1704b8574385038099210
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606092"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584314"
 ---
 # <a name="teams-in-remote-desktop-services"></a>遠端桌面服務中的 Teams
 
@@ -61,7 +62,7 @@ RDS 提供部署彈性、成本效率和擴增性。 RDS 透過各種不同的�
 
     b.  在 **[會議原則]** 底下，選取 **[AllOff]**。
 
-4. 選取 [ **套用]**。
+4. 選取 **套用**。
 
 若要一次將原則指派給多位使用者：
 

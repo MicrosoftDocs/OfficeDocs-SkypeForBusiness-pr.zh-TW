@@ -12,18 +12,19 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft 直接路由如何讓您將受支援的客戶提供的會話框線控制器 (SBC) 連線至電話系統。
-ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d49e16ce4a61caf167574ab00189dbdfde1f1d61
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267778"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584034"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -161,7 +162,7 @@ contoso.com|是|**有效的名稱：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.
 SBC 只需要一個 FQDN，而且可以從配對租使用者中的任何位址空間為使用者提供服務。 例如，名稱 sbc1.contoso.com 的 SBC 可以接收並傳送位址 user@contoso.com 使用者的 PSTN 流量，只要這些 SIP 位址空間是在同一個租使用者中登錄，user@fabrikam.com。  
 
  > [!NOTE]
- > Azure 通訊服務直接路由中的 SBC FQDN 必須與 Teams 直接路由中的 SBC FQDN 不同。
+ > Azure Communication Services直接路由中的 SBC FQDN 必須與 Teams 直接路由中的 SBC FQDN 不同。
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC 的公用信任憑證
 
@@ -175,7 +176,7 @@ Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 
 或者，直接路由支援 CN 和/或 SAN 中的萬用字元，萬用字元必須符合標準 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 例如，使用 \* .contoso.com 會符合 SBC FQDN sbc.contoso.com，但與 sbc.test.contoso.com 不相符。
 
 直接路由 SIP 介面只會信任由憑證授權單位單位 (CAs 簽署的憑證，) 屬於 Microsoft 信任的根憑證計畫。 請確定您的 SBC 憑證是由屬於該程式一部分的 CA 簽署，且憑證的擴充 (EKU) 副檔名包含伺服器驗證。
-深入瞭解： [計畫需求 - Microsoft 根信任計畫](/security/trusted-root/program-requirements)
+Mer informasjon：[計畫需求 - Microsoft 根信任計畫](/security/trusted-root/program-requirements)
   
 [隨附的 CA 憑證清單](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
   
@@ -196,7 +197,7 @@ Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 
 - Office 365 GCC High
 - Office 365 DoD
 
-深入瞭解[Office 365及美國政府環境，](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)例如 GCC、GCC High 和 DoD。
+Mer informasjon GCC、GCC High 和 DoD 等[Office 365及美國政府環境](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)的相關資訊。
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 環境
 

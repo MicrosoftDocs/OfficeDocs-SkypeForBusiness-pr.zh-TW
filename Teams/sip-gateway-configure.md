@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: b785ffe1c9e08507c1d45a1e837cf7020ec1d711
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808874"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584310"
 ---
 # <a name="configure-sip-gateway"></a>設定 SIP 閘道
 
@@ -146,7 +147,7 @@ ms.locfileid: "67808874"
 
 條件式存取是 Azure Active Directory (Azure AD) 功能，可協助確保可正確管理且安全地管理存取 Microsoft 365 資源的裝置。 SIP 閘道會使用 Azure AD 驗證 SIP 裝置，因此如果您的組織針對公司網路中的裝置使用條件式存取，則應排除下列 IP 位址：
 
-- 北美洲：
+- 北米：
     - 美國東部：52.170.38.140
     - 美國西部：40.112.144.212
 -   EMEA 地區：
@@ -231,7 +232,7 @@ ms.locfileid: "67808874"
 3. 將 SIP 手機上顯示的配對代碼輸入 Web 驗證應用程式，將 SIP 手機與使用者的帳戶配對。 成功登入可能需要一些時間，如果裝置支援，SIP 手機將會顯示電話號碼和使用者名稱。
 
 > [!NOTE]
-> Azure Active Directory Web 驗證應用程式上顯示的裝置位置是裝置連線至的 SIP 閘道資料中心。 範圍內的 SIP 手機不支援 OAuth 功能，因此 SIP 閘道會透過 Web 驗證應用程式驗證使用者，然後將裝置與使用者的認證配對。 在這裡深入瞭解：[Microsoft 身分識別平臺和 OAuth 2.0 裝置授權授與流程](/azure/active-directory/develop/v2-oauth2-device-code)。
+> Azure Active Directory Web 驗證應用程式上顯示的裝置位置是裝置連線至的 SIP 閘道資料中心。 範圍內的 SIP 手機不支援 OAuth 功能，因此 SIP 閘道會透過 Web 驗證應用程式驗證使用者，然後將裝置與使用者的認證配對。 Mer informasjon這裡：[Microsoft 身分識別平臺和 OAuth 2.0 裝置授權授與流程](/azure/active-directory/develop/v2-oauth2-device-code)。
 
 ### <a name="sign-out"></a>登出
 
@@ -316,4 +317,4 @@ SIP 閘道支援動態緊急呼叫 (動態 E911) ，適用于透過連接線共�
 
 ## <a name="report-problems-to-microsoft"></a>向 Microsoft 回報問題
 
-若要回報問題，[請連絡Microsoft 支援服務](https://support.microsoft.com)。
+若要回報問題，[請連絡pomoc techniczna firmy Microsoft](https://support.microsoft.com)。

@@ -10,6 +10,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 ms.reviewer: nakulm
 search.appverid: MET150
 ms.localizationpriority: high
@@ -19,12 +20,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1360847f187d98118d0b5468638cf1d6eb215fb8
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706860"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584884"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -238,8 +239,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 會議類型  | 是誰按了一下 [錄製]？| 錄製內容在哪裡？ | 誰可以存取？ R/W、R 或共用  |
 |-------------|-----------------------|------------------------|------------------------|
-|與內部派對進行一對一通話             |呼叫者                 |呼叫者的 OneDrive 帳戶                        |呼叫者為擁有者，且擁有完整權限。 <br /><br />被呼叫者 (如果在同一個租用戶中) 擁有唯讀存取權。沒有共用存取權。 <br /><br /> 被呼叫者 (如果在其他租用戶中) 沒有存取權。 呼叫者必須將它分享給被呼叫者。|
-|與內部派對進行一對一通話             |被呼叫者                 |被呼叫者的 OneDrive 帳戶                        |被呼叫者為擁有者，且擁有完整權限。 <br /><br />呼叫者 (如果在同一個租用戶中) 擁有唯讀存取權。沒有共用存取權。 <br /><br />呼叫者 (如果在其他租用戶中) 沒有存取權。 被呼叫者必須將它分享給呼叫者。|
+|與內部派對進行一對一通話             |呼叫者                 |呼叫者的 OneDrive 帳戶                        |呼叫者為擁有者，且擁有完整權限。 <br /><br />被呼叫者 (如果在同一個租用戶中) 擁有唯讀存取權。 沒有共用存取權。 <br /><br /> 被呼叫者 (如果在其他租用戶中) 沒有存取權。 呼叫者必須將它分享給被呼叫者。|
+|與內部派對進行一對一通話             |被呼叫者                 |被呼叫者的 OneDrive 帳戶                        |被呼叫者為擁有者，且擁有完整權限。 <br /><br />被呼叫者 (如果在同一個租用戶中擁有唯讀存取權。 沒有共用存取權。 <br /><br />呼叫者 (如果在其他租用戶中) 沒有存取權。 被呼叫者必須將它分享給呼叫者。|
 |與外部通話進行一對一通話             |呼叫者                 |呼叫者的 OneDrive 帳戶                        |呼叫者為擁有者，且擁有完整權限。<br /> <br />被呼叫者沒有存取權。 呼叫者必須將它分享給被呼叫者。|
 |與外部通話進行一對一通話             |被呼叫者                 |被呼叫者的 OneDrive 帳戶                        |被呼叫者為擁有者，且擁有完整權限。<br /><br />呼叫者沒有存取權。 被呼叫者必須將它分享給呼叫者。|
 |群組通話                                 |通話的任何成員 |按一下 [錄製] 之 OneDrive 帳戶的群組成員  |按一下 [錄製] 的成員擁有完整的權限。 <br /><br /> 來自相同租用戶的其他成員擁有讀取權限。 <br /><br /> 來自其他租用戶的其他群組成員沒有權限。|
@@ -277,13 +278,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 對於非頻道會議，其錄製內容會儲存在錄製者的 OneDrive 中，因此在員工離職後處理擁有權和保留時，將遵循一般 [OneDrive 和 SharePoint 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)的規定。
 
-會議錄製的預設到期時間為 120 天。 您可以關閉 [會議自動過期] 設定或變更預設到期時間。 深入瞭解 [會議錄製自動過期](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)。
+會議錄製的預設到期時間為 120 天。 您可以關閉 [會議自動過期] 設定或變更預設到期時間。 Mer informasjon[會議錄製自動過期的相關資訊](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)。
 
 ## <a name="closed-captions-for-recordings"></a>錄製內容的隱藏式輔助字幕
 
 只有當使用者在錄製時已開啟謄寫功能，才能在播放期間使用 Teams 會議錄製的隱藏式輔助字幕。 系統管理員必須 [經由原則將錄製謄寫功能開啟](#turn-on-or-turn-off-recording-transcription)，以確保他們的使用者可以選擇錄製會議及謄寫功能。
 
-字幕可協助建立適用於所有能力之觀眾的包容性內容。作為擁有者，您可以在會議錄製中隱藏字幕，不過除非您在 Teams 中刪除會議文字記錄，否則會議文字記錄仍可使用。
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 目前錄製影片檔案的隱藏式字幕會連結到 Teams 會議字幕。 在大部分情況下，此連結在檔案的存留時間內維持不變，但如果影片檔案是在同一個 OneDrive 或 SharePoint 網站中複製，則此連結可能會失效，可能會導致在複製的影片檔案上無法提供字幕。
 
