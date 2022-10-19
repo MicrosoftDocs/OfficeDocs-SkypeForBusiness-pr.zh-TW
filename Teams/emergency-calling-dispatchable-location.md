@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,22 +20,22 @@ f1.keywords:
 - NOCSH
 description: 瞭解 Microsoft 如何支援可調度的位置資訊以支援緊急通話。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9efa5f6e9ad5b5f2434efb95265f58c9a603fdd5
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d7fd3111991c4a2e5e0d16e5d46aba411b1553c3
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272068"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584580"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>遠端位置的緊急位址
 
-本文將說明 Microsoft 支援美國中的 911 緊急通話位置資訊。 此支援可確保為進行緊急通話的 Teams 使用者提供最精確的可分派位置資訊。 無論來電者的位置為何，無論是在網站上或是在家工作，來電者的位置資訊傳送到 [安全接聽點] (PSAP) 都必須正確無誤。
+本文將說明 Microsoft 在Estados Unidos中支援 911 緊急通話位置資訊。 此支援可確保為進行緊急通話的 Teams 使用者提供最精確的可分派位置資訊。 無論來電者的位置為何，無論是在網站上或是在家工作，來電者的位置資訊傳送到 [安全接聽點] (PSAP) 都必須正確無誤。
 
 本文包含 Microsoft 遵守 RAY BAUM 的多行電話系統法 (MLTS) 的相關資訊。 RAY BAUM'S Act 會延伸在 2021 年初生效的 Kari's Law 要求。 如需有關 RAY BAUM 法案和 Kari's Law 的詳細資訊，請參閱 [適用于 911 通話](https://www.fcc.gov/911-dispatchable-location) 和 [多線電話系統的可分派位置 – Kari 的法律和 RAY BAUM 的 911 直接撥號、通知和可派派位置需求](https://www.fcc.gov/mlts-911-requirements)。 
 
 如果適用，在家工作的使用者現在可以設定自己的緊急位址。 本文說明如何設定使用者原則，讓使用者可以設定他們的緊急位址。
 
-雖然這項資訊適用于美國中的緊急 911 通話，使用者輸入的位置也會傳送至加拿大的篩選中心。
+雖然這項資訊適用于Estados Unidos中的緊急 911 通話，使用者輸入的位置也會傳送至加拿大的篩選中心。
 
 本文包含下列各節：
 
@@ -65,7 +66,7 @@ Teams 的緊急位址可依不同類型分類。 下列清單顯示撥打緊急�
 
 ## <a name="emergency-address-classification-and-routing"></a>緊急位址分類和路由
 
-下表顯示每種類型的緊急網址類別型以及相關聯的路由方法：通話是自動路由至送達 PSAP，還是在轉接至送達 PSAP 之前經過篩選以取得正確性。 美國支援此路由行為給所有通話方案使用者、運算子連線合作夥伴和直接路由認證的緊急電話服務提供者。
+下表顯示每種類型的緊急網址類別型以及相關聯的路由方法：通話是自動路由至送達 PSAP，還是在轉接至送達 PSAP 之前經過篩選以取得正確性。 Estados Unidos支援所有通話方案使用者、運算子連線合作夥伴和直接路由認證緊急電話服務提供者的這項路由行為。
 
 
 | 緊急網址類別型 | 緊急路由方法 |
@@ -87,7 +88,7 @@ Teams 的緊急位址可依不同類型分類。 下列清單顯示撥打緊急�
 2. 選取 [新增 **]**。
 3. 輸入緊急通話原則的名稱，例如「E911WFH」。
 4. 開啟 **外部位置查閱模式**。
-5. 選取 [ **套用]**。
+5. 選取 **套用**。
 
 #### <a name="assign-a-custom-emergency-calling-policy-to-users"></a>指派自訂緊急通話原則給使用者
 

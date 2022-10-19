@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: 瞭解如何管理 Teams 網路漫遊原則設定。
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853234"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585067"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>使用網路漫遊原則管理視訊和媒體設定
 
@@ -60,7 +61,7 @@ TeamsNetworkRoamingPolicy 包含下列參數：
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-若要為未啟用企業語音的使用者啟用網路漫遊原則，您也必須在 TeamsMeetingPolicy 中啟用 AllowNetworkConfigurationSettingsLookup 設定。此設定預設為關閉。
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 有關建立網路站台的詳細資訊，請參閱 [雲端語音功能的網路設定](cloud-voice-network-settings.md)。 
 

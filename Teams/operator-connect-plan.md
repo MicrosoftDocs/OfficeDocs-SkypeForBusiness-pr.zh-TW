@@ -10,23 +10,24 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 深入瞭解運算子連線，例如部署需求和規劃。
+description: Mer informasjon運算子連線的相關資訊，例如部署需求和規劃。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 862b7f05efe4818a7778e979ecd725225806aacc
-ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
+ms.openlocfilehash: e5a153fee6504f5098659d85a16281ed23e8729d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68570385"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583984"
 ---
 # <a name="plan-for-operator-connect"></a>規劃運算子連線
 

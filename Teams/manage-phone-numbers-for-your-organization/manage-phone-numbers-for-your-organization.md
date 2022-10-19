@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何為貴組織取得及管理使用者 () 與服務， (Microsoft Teams 的付費和免付費) 電話號碼。
-ms.openlocfilehash: a959b0647087c6668479eb28c22e6b1f97634d0f
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 699631d4408ebdf1ce9a3851651704539317644d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283104"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583854"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>管理通話方案的電話號碼
 
@@ -83,7 +84,7 @@ ms.locfileid: "67283104"
 > - [瑞士](phone-number-management-for-switzerland.md)
 > - [荷蘭](phone-number-management-for-the-netherlands.md)
 > - [英國](phone-number-management-for-the-u-k.md)
-> - [波多黎各美國 &](phone-number-management-for-the-u-s.md)
+> - [波多黎各Estados Unidos &](phone-number-management-for-the-u-s.md)
 
 ***
 
