@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams支援的通話佇列語言
-author: CarolynRowe
-ms.author: crowe
+title: Microsoft Teams 通話佇列支援的語言
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams支援的通話佇列語言
-ms.openlocfilehash: c33745aaa5a1b0ddbfb3c7438fdc8bf72c8af592
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Microsoft Teams 通話佇列支援的語言
+ms.openlocfilehash: 95826d1030b9ee1b2baf33ddecb8589cf5f08ebc
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674715"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614005"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams支援的通話佇列語言
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams 通話佇列支援的語言
 
 [文字轉換語音] (TTS) 的通話佇列支援下列語言：
 

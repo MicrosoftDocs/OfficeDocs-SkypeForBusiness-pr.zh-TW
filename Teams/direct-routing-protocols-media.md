@@ -16,12 +16,12 @@ f1.keywords:
 description: hHw 直接路由支援已啟用 ICE Lite 的會話框線控制器的媒體略過。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e6f9715ee410116a66c572522a910cd16ef27154
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267758"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614416"
 ---
 # <a name="overview"></a>概觀
 
@@ -55,7 +55,7 @@ RFC 5389 要求的 SBC 必須忽略他們無法辨識的任何 STUN 屬性，並
 
 ### <a name="candidate-gathering"></a>候選人聚會
 
-SBC 必須只提供一個可公開聯繫的候選字。 目前僅支援 IPV4 候選字。
+SBC 只能提供一個候選項目。 目前僅支援 IPV4 候選字。
 
 
 #### <a name="connectivity-checks"></a>連線檢查
