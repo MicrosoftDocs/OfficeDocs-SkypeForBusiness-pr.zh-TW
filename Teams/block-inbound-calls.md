@@ -15,45 +15,58 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 瞭解如何使用 PowerShell 管理輸入通話封鎖。
-ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 01d1fb08d0b0cca4bc0a35ca77109e976d63a1f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789598"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614426"
 ---
 # <a name="block-inbound-calls"></a>封鎖輸入通話
 
-Microsoft 通話方案、直接路由和運算子連線都支援封鎖來自公用交換電話網路 (PSTN) 的撥入通話。 此功能可讓系統管理員在租使用者全域層級定義號碼模式清單，以便針對符合的清單檢查每一個 PSTN 來電給租使用者的來電者識別碼。 如果符合，則會拒絕來電。
+Microsoft 通話方案、直接路由和運算子連線都支援封鎖來自公用交換電話網路 (PSTN) 的撥入通話。 此功能可讓系統管理員在租使用者全域層級定義號碼模式和例外清單，以便針對符合專案檢查每一個 PSTN 來電給租使用者的來電者識別碼。 如果符合，則會拒絕來電。
 
 此輸入通話封鎖功能僅適用于來自 PSTN 且只適用于租使用者全域層級的輸入通話。 個別 Teams 使用者無法操作此清單。 Teams 用戶端允許個別使用者封鎖 PSTN 通話。 如需使用者如何實作通話封鎖的相關資訊，請參閱 [管理 Teams 中的通話設定](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
 
 > [!NOTE]
 > 封鎖的來電者在遭到封鎖時，可能會遇到稍微不同的行為。 此行為是根據封鎖的來電者電信業者如何處理不允許成功完成通話的通知。 範例可能包括電信業者訊息，指出無法在撥號時完成通話，或直接撥出電話。
 
-## <a name="call-blocking-admin-controls-and-information"></a>通話封鎖系統管理員控制項和資訊
+請注意，目前無法使用 Teams 系統管理中心管理通話封鎖。
 
-管理員封鎖號碼的控制項僅使用 PowerShell 提供。 數位區塊模式定義為正則運算式模式。 運算式的順序不重要，清單中第一個符合的模式會導致通話遭到封鎖。 在 [封鎖的來電者] 清單中新增或移除的新號碼或模式可能需要長達 24 小時，模式才會變成使用中。
+## <a name="manage-call-blocking-by-using-powershell"></a>使用 PowerShell 管理通話封鎖
 
-## <a name="call-blocking-powershell-commands"></a>呼叫封鎖 PowerShell 命令
+若要管理通話封鎖，您必須定義一或多個號碼模式來封鎖來電，定義號碼模式的例外，以及啟用通話封鎖功能。
 
-您可以使用 **New-**、 **Get-**、 **Set-** 和 **Remove-CsInboundBlockedNumberPattern** Cmdlet 來管理數位模式。 您可以使用這些 Cmdlet 來管理指定的模式，包括切換啟用指定模式的功能。
+數位區塊模式定義為正則運算式模式。 運算式的順序不重要，清單中第一個符合的模式會導致通話遭到封鎖。 在 [封鎖的來電者] 清單中新增或移除的新號碼或模式可能需要長達 24 小時，模式才會變成使用中。
 
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 會傳回新增至租使用者清單的所有封鎖數位模式清單，包括名稱、描述、啟用 (True/False) ，以及每個模式。
+### <a name="activate-the-call-blocking-feature"></a>啟用通話封鎖功能
+
+若要檢視和啟用通話封鎖功能，請使用 **Get-and** **Set-CsTenantBlockingCallingNumbers** Teams PowerShell Module Cmdlet。
+
+- [Get-CsTenantBlockedCallingNumbers 會](/powershell/module/skype/get-cstenantblockedcallingnumbers) 傳回輸入區塊數位模式，以及全域封鎖數位清單的輸入免除數位模式參數。 此 Cmdlet 也會傳回封鎖是否已啟用 (True 或 False) 。 
+
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 可讓您指定在租使用者層級開啟或關閉全域租使用者封鎖的通話。
+
+### <a name="manage-block-number-patterns"></a>管理區塊編號模式
+
+您可以使用 **New-**、**Get-**、**Set-、Test-and** **Remove-CsInboundBlockedNumberPattern** Teams PowerShell 模組 Cmdlet 來管理數位模式。  
+
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 會傳回新增至租使用者清單的所有封鎖數位模式清單，包括名稱、描述、啟用 (True/False) 和 Pattern。
+
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) 在租使用者清單中新增封鎖的數位模式。
+
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) 會從租使用者清單中移除封鎖的數位模式。
+
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 修改了租使用者清單中封鎖數位模式的一或多個參數。
 
-檢視和啟用整個通話封鎖功能是透過 **Get-and** **Set-CsTenantBlockingCallingNumbers** Cmdlet 來管理。
+- [Test-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 會測試是否要封鎖來自指定電話號碼的電話。
 
-- [Get-CsTenantBlockedCallingNumbers 會](/powershell/module/skype/get-cstenantblockedcallingnumbers) 傳回輸入區塊數位模式，以及全域封鎖數位清單的輸入免除數位模式參數。 此 Cmdlet 也會傳回封鎖是否已啟用 (True 或 False) 。 除了開啟或關閉此功能之外，無法手動修改單一全域租使用者原則。
-- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 允許修改全域租使用者封鎖的通話，以在租使用者層級開啟和關閉。
 
 ### <a name="examples"></a>範例
 
 #### <a name="block-a-number"></a>封鎖號碼
 
-在下列範例中，租使用者系統管理員想要封鎖來自號碼範圍 1 (312 的所有來電) 555-0000 到 1 (312) 555-9999。 會建立數位模式，讓範圍中有 + 首碼的數位和範圍中沒有 + 首碼的數位相符。 您不需要在電話號碼中包含符號 – 和 () ，因為系統會在相符之前先去除這些符號。  若要開啟數位模式， **Enabled** 參數設定為 True。 若要停用此特定數位模式，請將參數設定為 False。
+在下列範例中，租使用者系統管理員想要封鎖來自號碼範圍 1 (312 的所有來電) 555-0000 到 1 (312) 555-9999。 會建立數位模式，讓範圍中有 + 首碼的數位和範圍中沒有 + 首碼的數位相符。 您不需要在電話號碼中包含符號 – 和 () ，因為系統會在相符之前先去除這些符號。  若要開啟數位模式，請將 **Enabled** 參數設為 True。 若要停用此特定數位模式，請將參數設定為 False。
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
@@ -67,7 +80,7 @@ New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Descripti
 
 建立新模式會將模式新增為預設啟用。 描述是提供更多資訊的選擇性欄位。
 
-我們建議您提供有意義的名稱，以輕鬆瞭解新增模式的原因。 若只要封鎖垃圾郵件號碼，請考慮將規則命名為符合的數位模式相同，並在描述中視需要新增其他資訊。
+我們建議您提供有意義的名稱，以輕鬆瞭解新增模式的原因。 若要封鎖垃圾郵件號碼，請考慮將規則命名為符合的數位模式相同，然後視需要在描述中新增其他資訊。
 
 使用 Regex)  (一般運算式來比對模式。 如需詳細資訊，請參閱 [使用 Regex](#using-regex)。
 
@@ -87,7 +100,7 @@ Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
 
 #### <a name="view-all-number-patterns"></a>檢視所有數位模式
 
-執行此 Cmdlet 會傳回為租使用者輸入的所有封鎖號碼清單：
+下列 Cmdlet 會傳回針對租使用者輸入的所有封鎖號碼清單：
 
 ```powershell
 Get-CsInboundBlockedNumberPattern
@@ -95,13 +108,40 @@ Get-CsInboundBlockedNumberPattern
 
 使用內建的 PowerShell 篩選功能，視需要剖析傳回的值。
 
-## <a name="add-number-exceptions"></a>新增數位例外狀況
+#### <a name="test-whether-a-number-is-blocked"></a>測試是否封鎖數位
+
+若要確認是否在租使用者中封鎖數位，請使用 **Test-CsInboundBlockedNumberPattern** Cmdlet 。
+
+**PhoneNumber** 參數是必要的，且應為數字字串，且不需要任何其他字元，例如 +、- 或 () 。 結果 **IsNumberBlocked 參數會在** 租使用者中封鎖該數位時傳回 True 的值;如果沒有封鎖，參數會傳回 False。
+
+在下列範例中，您可以看到電話號碼 1 (312) 555-8884 因為位於上述封鎖範圍而遭到封鎖。 根據以下建立的免稅條款，允許電話號碼 1 (312) 555-8883。
+
+```PowerShell
+Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558884
+
+RunspaceId      : 09537e45-6f0c-4001-8b85-a79002707b0c
+httpStatusCode  : NoContent
+IsNumberBlocked : True
+errorMessage    :
+
+Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558883
+
+RunspaceId      : 09537e45-6f0c-4001-8b85-a79002707b0c
+httpStatusCode  : NoContent
+IsNumberBlocked : False
+errorMessage    :
+```
+
+### <a name="manage-number-exceptions"></a>管理數位例外狀況
 
 您可以使用 **New-**、 **Get-**、 **Set-** 和 **Remove-CsInboundExemptNumberPattern** Cmdlet 來新增封鎖的數位模式例外狀況。
 
 - [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) 在租使用者清單中新增數位例外模式。
+
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) 會傳回新增至租使用者清單的所有數位例外模式清單。
+
 - [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) 會將一或多個參數修改為租使用者清單中的數位例外模式。
+
 - [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) 會從租使用者清單中移除數位例外模式。
 
 ### <a name="examples"></a>範例
@@ -152,36 +192,6 @@ Remove-CsInboundExemptNumberPattern -Identity <String>
 
 ```powershell
 Remove-CsInboundExemptNumberPattern -Identity "AllowContoso1"
-```
-
-## <a name="test-whether-a-number-is-blocked"></a>測試是否封鎖數位
-
-使用 **Test-CsInboundBlockedNumberPattern** Cmdlet 來確認租使用者中是否有封鎖數位。
-
-**PhoneNumber** 參數是必要的，且應為數字字串，且不需要任何其他字元，例如 +、- 或 () 。 結果 **IsNumberBlocked 參數會在** 租使用者中封鎖該數位時傳回 True 的值;如果沒有封鎖，參數會傳回 False。
-
-```powershell
-Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
-```
-
-### <a name="examples"></a>範例
-
-在這些範例中，您可以看到電話號碼 1 (312) 555-8884 因為位於上述封鎖範圍而遭封鎖，而電話號碼 1 (312) 555-8883 則可撥打，因為它應以上述建立的免稅為基礎。
-
-```PowerShell
-Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558884
-
-RunspaceId      : 09537e45-6f0c-4001-8b85-a79002707b0c
-httpStatusCode  : NoContent
-IsNumberBlocked : True
-errorMessage    :
-
-Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558883
-
-RunspaceId      : 09537e45-6f0c-4001-8b85-a79002707b0c
-httpStatusCode  : NoContent
-IsNumberBlocked : False
-errorMessage    :
 ```
 
 ## <a name="using-regex"></a>使用 Regex
