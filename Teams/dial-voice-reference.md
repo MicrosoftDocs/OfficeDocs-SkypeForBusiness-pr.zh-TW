@@ -1,7 +1,7 @@
 ---
 title: 自動語音應答和通話佇列撥號和語音辨識參照
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解 Teams 中的自動語音應答和通話佇列撥號和語音辨識選項。
-ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: 3b6b1fd6932491a6f9ad17e109902484461f912f
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070724"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613805"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動語音應答和通話佇列撥號和語音辨識參照
 
@@ -59,14 +59,14 @@ ms.locfileid: "67070724"
 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>依名稱撥號 - 鍵台 (DTMF) 專案
 
-撥入的人員可以使用 [依名稱撥號] 與使用者聯繫，方法是指定他們嘗試連絡之人員的完整或部分名稱。 輸入名稱時，可以使用各種不同的格式。
+人員撥入時可以使用 [依名稱撥號] 與使用者聯繫，方法是指定他們嘗試連絡之人員的完整或部分名稱。 輸入名稱時，可以使用各種不同的格式。
 
 搜尋貴組織的目錄時，人員可以使用「0」 (零) 鍵來表示名字與姓氏或名字和名字之間有空格。 當他們輸入名稱時，系統會要求他們使用 # 鍵終止其鍵盤輸入。 例如，「輸入您要連絡的人員名稱之後，請按 #」。 如果有找到多個名稱，通話者會收到一份要從中選取的名稱清單。
 
 > [!NOTE]
 > 如果套用了任何 [電話撥號範圍包括] 或 [排除] 清單之後，仍有 5 個以上的名稱，搜尋將會失敗，而且會告訴來電者發現太多名稱。
   
-人員可以在手機鍵臺上使用下列搜尋格式搜尋貴組織中的名稱：
+人員可以在組織的電話鍵盤上使用下列搜尋格式來搜尋名稱：
   
 |名稱格式|搜尋類型|範例|搜尋結果|
 |:-----|:-----|:-----|:-----|
@@ -88,7 +88,7 @@ ms.locfileid: "67070724"
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>依名稱撥號 - 使用語音進行名稱識別
 
-人員可以使用語音 (語音辨識) 搜尋組織中的其他人。 他們也可以說出他們嘗試尋找之人員的完整或部分名稱，來連絡 Active Directory 中的任何人。 使用語音輸入可以辨識各種格式的名稱，包括 FirstName、LastName、FirstName + LastName 或 LastName + FirstName。
+人員可以使用其語音 (語音辨識) 搜尋組織中的其他人。 他們也可以說出他們嘗試尋找之人員的完整或部分名稱，來連絡 Active Directory 中的任何人。 使用語音輸入可以辨識各種格式的名稱，包括 FirstName、LastName、FirstName + LastName 或 LastName + FirstName。
   
 您可以為自動語音應答啟用語音辨識，但是 DTMF)  (手機鍵盤專案並不會停用。 即使自動語音應答已啟用語音辨識，也可以隨時使用手機鍵台專案。
   

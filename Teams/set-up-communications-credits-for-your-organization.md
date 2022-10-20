@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 瞭解如何為使用者和組織設定通訊點數 (PSTN 消費) 帳單授權。
-ms.openlocfilehash: 8093b10d4918793c669f42b839999239d381a24a
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4ad3b6702d31f59c237bf7867aadd0e8d1c05abf
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156571"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613835"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的 [通訊點數]
 
@@ -93,7 +94,7 @@ ms.locfileid: "67156571"
      >
      > 使用自動加值函數時，會在達到觸發金額且處理充電交易時產生通訊點數發票。 通訊點數會先用到。 若要瞭解如何檢查您的每月使用量，請閱讀 [Microsoft Teams PSTN 使用方式報告](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)。
 
-6. 選 **取 [下單]**。
+6. 選取 **[下單]**。
 
     >[!IMPORTANT]
     >如果您是大量授權客戶，建議您使用企業合約付款。 如果您有多個企業合約編號，您可以選取要用來付款的企業合約。 一旦支援啟用此功能) ，您也有機會指定要與企業合約編號建立關聯的採購單編號 (。

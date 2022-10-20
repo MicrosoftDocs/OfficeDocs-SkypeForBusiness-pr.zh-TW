@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 33175aecc41dbc631fe8ab16db225762969b5ad6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732312"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614035"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端
 
@@ -46,7 +46,7 @@ Teams 桌面用戶端是獨立應用程式及 [Microsoft 365 Apps 企業版](/de
 - Linux (`.deb` 和 `.rpm` 格式)
 - Chrome OS (如需詳細資訊，請參閱[如何在 Chromebook 上使用 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-如如果使用者擁有適當的本機權限，就可以直接從 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下載並安裝桌面用戶端。在 Windows 電腦上安裝 Teams 用戶端時不需要系統管理員權限，但 Mac 上需要系統管理員權限。
+Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
 IT 專業人員可以選擇其偏好的方式，將安裝檔案發佈到組織中的電腦。 例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 如需發佈 Teams 的資訊，請參閱下列內容。
 
@@ -80,7 +80,9 @@ Windows 用戶端會部署至使用者設定檔中的 [AppData] 資料夾。 部
 ![Windows 安全性警示對話方塊的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> 即使您選取「取消」來忽略提示，Windows 防火牆設定仍會變更。 針對 TCP 和 UDP 通訊協定，系統會為 teams.exe 建立包含允許動作的兩個輸入規則。
+> Windows 防火牆設定將會變更。 TCP 和 UDP 通訊協定的兩個teams.exe輸入規則將以 
+> - 如果使用者是本機系統管理員，並按一下 [僅允許存取]，請允許執行動作。
+> - 如果使用者不是本機系統管理員，且在任何情況下選取 [取消] 關閉提示時，請封鎖動作。
 
 如果您想要防止 Teams 在使用者第一次從 Teams 進行呼叫時提示使用者建立防火牆規則，請使用[範例指令碼 - Microsoft Teams 防火牆 PowerShell 指令碼](client-firewall-script.md)。
 
@@ -208,4 +210,4 @@ Teams 行動裝置應用程式支援的行動平台如下：
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-瀏覽器用戶端會在連線至 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 時執行瀏覽器版本偵測。如果偵測到不受支援的瀏覽器版本，則會封鎖瀏覽器介面的存取權，並建議使用者下載桌面版用戶端或行動裝置應用程式。
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the browser interface and recommend that the user download the desktop client or mobile app.

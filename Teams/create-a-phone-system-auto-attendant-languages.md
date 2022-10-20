@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 自動語音應答支援的語言
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams 自動語音應答支援的語言
-ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c769df020f178b2a69321c7b163e74a9fa1df4d6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676455"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614596"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams 自動語音應答支援的語言
 
@@ -74,7 +74,7 @@ ms.locfileid: "65676455"
 |越南文 (越南)                     |Y                        |                                       |
 
 > [!NOTE]
-> 選擇不支援語音辨識的語言會停用功能表中的語音輸入選項，而依名稱撥號將僅限使用鍵台 (DTMF) 專案。 如需詳細資訊，請參閱[依姓名撥號 - 鍵台 (DTMF) 專案](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)。
+> 選擇不支援語音辨識的語言會停用功能表中的語音輸入選項，而依名稱撥號將僅限使用鍵台 (DTMF) 專案。 如需詳細資訊，請參閱按 [名稱撥號 - 鍵台 (DTMF) 專案](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 。
 
 > [!NOTE]
 > 使用文字轉換語音時，文字必須以選取的語言輸入，因為系統無法執行翻譯。

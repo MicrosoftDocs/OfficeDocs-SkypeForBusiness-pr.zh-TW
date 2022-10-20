@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中建立通話佇列
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: 55a03f8843f467ae180aaa22d71bff84e19c9d4b
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 6fe298a3054165a95f496f8c1178a7fa8457542d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583894"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614226"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 

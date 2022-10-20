@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話框線控制器 (SBC) ，為 Microsoft 合作夥伴和/或 PSTN 電信業者提供多個租使用者服務。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024016"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614406"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -136,10 +136,13 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 
 註冊功能變數名稱之後，您需要新增至少一個 Teams 授權使用者或資源帳戶來啟用該功能變數名稱。 可接受的帳戶將會使用下列其中一種 SKU 的授權：
 
-- 含 Office 365 E1/E3/E5/A3/A5 或 Microsoft 365 E3/E5/A3/A5 的使用者帳戶
-- 含 Office 365 F1/F3 或 Microsoft 365 F1/F3 的使用者帳戶
-- 具有通用區域電話的使用者帳戶
-- 具有 **Microsoft Teams 電話資源帳戶授權的資源帳戶**
+- 含 Office 365 E1/E3/E5 或 Microsoft 365 E3/E5 的使用者帳戶。
+- 具有 Office 365 A1/A3/A5 或 Microsoft 365 A1/A3/A5 的使用者帳戶。
+- 含 Office 365 F3 或 Microsoft 365 F1/F3 的使用者帳戶。
+- 含 G1/G3/G5 或 Microsoft 365 G3/G5 Office 365使用者帳戶。
+- 具有Microsoft 365 商務基本版/標準/進階版的使用者帳戶。
+- 具有通用區域電話的使用者帳戶。
+- 具有 **Microsoft Teams 電話資源帳戶授權的資源帳戶**。
 
 此外，帳戶的 UPN (使用者主體名稱) 或商務用 Skype內部部署 SIP 位址必須與新建立的網域使用相同的 FQDN。
 
@@ -202,6 +205,7 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 
 -   含 Office 365 E1/E3/E5/A3/A5 或 Microsoft 365 E3/E5/A3/A5 的使用者帳戶
 -   含 Office 365 F1/F3 或 Microsoft 365 F1/F3 的使用者帳戶
+-   含 Microsoft 365 商務基本版/標準/進階版和 G3/G5 方案的使用者帳戶
 -   具有通用區域電話的使用者帳戶
 -   具有Microsoft Teams 電話 **資源帳戶授權的資源帳戶**
 
