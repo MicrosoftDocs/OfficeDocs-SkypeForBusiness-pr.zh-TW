@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: 瞭解如何將您的自訂應用程式上傳到您組織的 Microsoft Teams 系統管理中心中的應用程式市集。
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: 瞭解如何將自訂應用程式上傳到貴組織的 Teams App Store。
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494606"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614586"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>透過上傳應用程式套件發佈自訂應用程式
 
@@ -40,11 +40,11 @@ Microsoft Teams 開發人員平台可讓開發人員輕鬆整合您自己的應�
 
 ## <a name="validate"></a>驗證
 
-### <a name="get-the-app-package"></a>取得應用程式套件
+### <a name="receive-the-app-package"></a>接收應用程式套件
 
-當應用程式準備好在生產環境中使用時，開發人員應該產生應用程式套件。 他們可以使用 [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)。 他們會將檔案以.zip 格式傳送給您。
+當應用程式準備就緒可在生產中使用時，開發人員會使用 [開發人員入口](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal)網站產生應用程式套件。 開發人員以.zip格式與您共用應用程式套件。
 
-Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](overview-of-app-validation.md)，以符合全域 Teams 應用程式市集的品質和安全性標準。 此外，Microsoft 也強烈建議應用程式開發人員參與選用的[應用程式合規性計畫](overview-of-app-certification.md)，其代表提升合規性、安全性和隱私權控制。 如需詳細資訊，請參閱 [Teams 應用程式驗證指導方針](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
+Teams 市集中的所有應用程式都會通過強制 [應用程式驗證](overview-of-app-validation.md) ，以符合 Teams 應用程式市集的應用程式品質和安全性標準。 此外，Microsoft 也強烈建議應用程式開發人員參與選用的[應用程式合規性計畫](overview-of-app-certification.md)，其代表提升合規性、安全性和隱私權控制。 如需詳細資訊，請參閱 [Teams 應用程式驗證指導方針](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>允許信任的使用者上傳自訂應用程式
 
@@ -119,7 +119,7 @@ Teams 市集中的所有應用程式都會通過必要的[應用程式驗證](ov
 
 ### <a name="end-user-update-experience"></a>使用者更新體驗
 
-在大多數情況下，當您完成應用程式更新後，新版本會自動向使用者顯示。 如需詳細資訊，請參閱 [使用者更新體驗](apps-update-experience.md)。
+在大多數情況下，當您發佈新版本的應用程式後，應用程式會自動更新給使用者。 如需詳細資訊，請參閱 [使用者應用程式更新體驗](apps-update-experience.md)。
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>從貴組織的市集移除自訂應用程式
 

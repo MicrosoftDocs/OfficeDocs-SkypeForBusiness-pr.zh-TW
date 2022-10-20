@@ -1,7 +1,7 @@
 ---
 title: 在 Teams 中管理資源帳戶
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解如何在 Microsoft Teams 中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: ac3eb35894fa765dc44f46fcb489399b06adfa74
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: cc4705f91260c0ef58b876ef4a606d96ce397929
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584024"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614386"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
