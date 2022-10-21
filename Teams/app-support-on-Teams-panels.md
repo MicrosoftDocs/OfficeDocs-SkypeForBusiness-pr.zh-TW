@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75548acc44d1f360e13dd5946e6e39726c744bb6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9c8d28a3f985a38e174030ddbe0e6d43e2153738
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270678"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656069"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams 應用程式/商務 (LOB) Teams 面板上的應用程式支援
 
@@ -58,7 +58,7 @@ Microsoft Teams 應用程式會將重要資訊、常用工具和受信任的程�
 
 ## <a name="pin-apps-on-teams-panels-with-app-setup-policies"></a>使用應用程式設定原則在 Teams 面板上釘選應用程式
 
-由於 Teams 提供顯示各種應用程式的功能，系統管理員可以決定哪些應用程式對組織最為重要，並且只將這些應用程式釘選到 Teams 面板 **主** 畫面以供快速存取。 如果有超過五個釘選的應用程式或任何未釘選的應用程式，它們將會顯示在 [ **其他** ] 畫面下方。 Microsoft 建議您特別針對 Teams 面板建立自訂應用程式設定原則。
+由於 Teams 提供顯示各種應用程式的功能，系統管理員可以決定哪些應用程式對組織最為重要，並且只將這些應用程式釘選到 Teams 面板 **主** 畫面以供快速存取。 如果有超過五個釘選的應用程式或任何未釘選的應用程式，它們將會顯示在 [ **其他** ] 畫面下方。 Microsoft 建議您在專門針對 Teams 面板的應用程式設定原則中建立自訂原則。
 
 ![應用程式設定原則頁面的使用者介面螢幕擷取畫面。](media/appsetup1.png)
 
@@ -114,7 +114,7 @@ Microsoft 建議您關閉 **[上傳自訂應用程式** ] 和 [ **使用者釘�
 
 ### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我在 [新增釘選的應用程式] 窗格中找不到應用程式？
 
-並非所有應用程式都可以透過應用程式設定原則釘選到 Teams。 某些應用程式可能不支援此功能。 若要尋找可以釘選的應用程式，請在 [ **新增釘選的應用程式** ] 窗格中搜尋應用程式。 如需詳細資訊，請參閱 [使用應用程式設定原則中的常見問題](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)。
+並非所有應用程式都可以透過應用程式設定原則釘選到 Teams。 某些應用程式可能不支援此功能。 若要尋找可釘選的應用程式，請在 [新增釘選的應用程式 **]** 窗格中搜尋應用程式。 如需詳細資訊，請參閱 [使用應用程式設定原則中的常見問題](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)。
 
 ### <a name="why-am-i-seeing-an-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-user-pinning"></a>為什麼在關閉 [使用者釘選] 之後，我在設定原則面板中看到「使用者釘選」快顯？
 

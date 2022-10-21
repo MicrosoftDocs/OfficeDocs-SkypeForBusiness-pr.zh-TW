@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376991"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655899"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
@@ -89,9 +89,9 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 ## <a name="understand-app-capabilities"></a>瞭解應用程式功能
 
-為了提供讓使用者在 Teams 內工作的豐富體驗，應用程式開發人員可運用下列應用程式功能。 訊息擴充功能可讓使用者與您的 Web 服務 Teams 用戶端互動。 它們會在外部系統中搜尋或開始動作。 您可以使用豐富的格式化卡片，將互動的結果傳送給 Teams 用戶端。 會議擴充性應用程式整合了開發人員在會議中的應用程式，並提供回應式的會議內體驗。
+為了提供讓使用者在 Teams 內工作的豐富體驗，應用程式開發人員可運用下列應用程式功能。 訊息擴充功能可讓使用者與您的 Web 服務 Teams 用戶端互動。 它們會在外部系統中搜尋或開始動作。 您可以將互動結果以豐富的格式化卡片傳送給 Teams 用戶端。 會議擴充性應用程式整合了開發人員在會議中的應用程式，並提供回應式的會議內體驗。
 
-Bot 也稱為聊天機器人或交談機器人。 它是執行簡單且重複的工作的應用程式。 聊天機器人互動可以是快速的問題與解答，也可以是提供存取服務或協助的複雜交談。 使用者可以與一對一或頻道中的機器人聊天。 例如，您可以使用 [Polly] 應用程式建立快速問卷、取得意見反應，以及執行脈搏檢查。
+Bot 也稱為聊天機器人或交談機器人。 它是執行簡單且重複的工作的應用程式。 聊天機器人互動可以是快速的問題與解答，也可以是提供存取服務或協助的複雜交談。 使用者可以與 Bot 一對一或頻道聊天。 例如，您可以使用 [Polly] 應用程式建立快速問卷、取得意見反應，以及執行脈搏檢查。
 
 索引標籤是釘選在頻道或聊天頂端的 Teams 感知網頁。 索引標籤可讓您以類似網頁的體驗與內容和服務互動。 您可以在小組、群組聊天或個別使用者的個人應用程式內，新增索引標籤做為頻道的一部分。
 

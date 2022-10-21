@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 24c4b85bb1c4b97597bad6a38e6a67c35dc1abb0
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377041"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656019"
 ---
 # <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>使用應用程式許可權原則管理 Teams 應用程式的存取權
 
@@ -81,7 +81,7 @@ Teams 系統管理中心可讓您建立兩種類型的許可權原則：
 1. 進行變更以允許或封鎖三個類別中的特定應用程式。
 1. 選取 [儲存 **]**。
 
-## <a name="assign-a-custom-app-permission-policy-to-users"></a>將自訂應用程式權限原則指派給使用者
+## <a name="assign-a-custom-policy-for-app-permissions-to-users"></a>指派應用程式許可權的自訂原則給使用者
 
 只有在您將原則套用至使用者或使用者群組時，應用程式許可權原則才會生效。 查看 [將原則指派給使用者的](policy-assignment-overview.md#ways-to-assign-policies)不同方式。
 

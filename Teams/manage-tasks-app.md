@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047113"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656035"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -72,7 +72,7 @@ ms.locfileid: "68047113"
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [工作]
 
-若要允許或封鎖貴組織中的特定使用者使用 [工作]，請確定您的組織在[管理應用程式](manage-apps.md)頁面上已開啟 [工作]，然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用 [工作]，請確定貴組織已在 [ [管理應用程式](manage-apps.md) ] 頁面上開啟 [工作]，然後建立應用程式許可權的自訂原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
 ### <a name="pin-tasks-to-teams"></a>將 [工作] 釘選到 Teams
 
@@ -88,7 +88,7 @@ Teams 中量身打造的第一線應用程式體驗可為擁有 [F 授權](https
 
 應用程式設定原則可讓您自訂 Teams，以釘選對使用者中使用者最重要的應用程式。
 
-若要為您的使用者釘選 [工作] 應用程式，您可以編輯全域 (全組織預設值) 原則，或建立並指定自訂應用程式設定原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
+若要為使用者釘選 [工作] 應用程式，您可以編輯全域 (全組織的預設) 原則，或是在應用程式設定原則中建立和指派自訂原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>如果使用者已取得 Exchange Online 授權，則會顯示使用者的 [我的工作]
 

@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: f2cf8ee32e3c03811833ea5d5d4dc93ac6d51ead
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 5771aaa9122ddc79d4555c74d509d2c4a77f57fb
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046713"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655869"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理稱讚應用程式
 
@@ -44,7 +44,7 @@ Microsoft Teams 中的 [稱讚] 應用程式可協助使用者對貴組織或教
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>啟用或停用貴組織中特定使用者的稱讚
 
-若要允許或封鎖貴組織中的特定使用者使用「稱讚」，請確定已在 [ [管理應用程式](manage-apps.md) ] 頁面上為貴組織開啟 [稱讚]。 然後建立自訂應用程式許可權原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用「稱讚」，請確定已在 [ [管理應用程式](manage-apps.md) ] 頁面上為貴組織開啟 [稱讚]。 然後建立應用程式許可權的自訂原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
 ## <a name="badges"></a>徽章
 

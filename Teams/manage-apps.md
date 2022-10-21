@@ -21,12 +21,12 @@ description: 瞭解如何管理 Teams 應用程式。 瞭解如何允許或封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: dc7dbf1a4866fa85551d6ec46f7ea54c164ba655
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494666"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656049"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 系統管理中心的應用程式管理和控管概觀
 
@@ -40,8 +40,6 @@ ms.locfileid: "68494666"
 
 > [!NOTE]
 > Microsoft 365 政府社群雲端高 (GCCH) 或美國國防部 (DOD) Teams 部署中無法使用 [管理應用程式] 頁面。
-
-在建立應用程式期間，開發人員會建立並新增應用程式識別碼至資訊清單檔案。 從欄位設定啟用欄位 `External app ID` 後，您可以在 [管理應用程式] 頁面上檢視此外部應用程式識別碼。 您也可以在自訂應用程式的應用程式詳細資料頁面上檢視。 此識別碼僅適用於自訂應用程式。
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>應用程式管理使用案例和可用的介面
 

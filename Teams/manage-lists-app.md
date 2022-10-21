@@ -26,12 +26,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: ce10e758352396dd1ac8e6334e54c4e298df9a0f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047043"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655849"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
@@ -105,7 +105,7 @@ Guests can't create or delete a list. They can add list items to existing lists,
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [清單]
 
-若要允許或封鎖貴組織中的特定使用者使用 [清單]，請確定您的組織在[管理應用程式](manage-apps.md)頁面上已開啟 [清單]，然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用清單，請確定已在 [ [管理應用程式](manage-apps.md) ] 頁面上為貴組織開啟 [清單]，然後建立應用程式許可權的自訂原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
 ## <a name="search-the-audit-log-for-list-events"></a>搜尋清單活動的稽核記錄檔
 

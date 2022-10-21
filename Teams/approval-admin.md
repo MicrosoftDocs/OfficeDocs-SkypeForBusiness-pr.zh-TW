@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4812626477d2f77ddd3c6913577aa7792293a993
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046633"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655839"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理核准應用程式
 
@@ -138,7 +138,7 @@ Teams 中量身打造的第一線應用程式體驗可為擁有 [F 授權](https
 
 應用程式設定原則可讓您自訂 Teams，以釘選對使用者中使用者最重要的應用程式。
 
-若要為使用者釘選核准應用程式，您可以編輯全域 (組織的預設) 原則，或建立及指派自訂應用程式設定原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
+若要為使用者釘選 [核准] 應用程式，您可以編輯全域 (預設) 原則，或是在應用程式設定原則中建立和指派自訂原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
 
 ## <a name="retention-policy"></a>保留原則
 

@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: c741bb8a1b6ab7e27ec064dc0f22226f69bc6e10
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377331"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655889"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式設定原則
 
@@ -126,7 +126,7 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 
 1. 選取 [儲存 **]**。
 
-### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>將自訂應用程式設定原則指派給使用者和群組
+### <a name="assign-a-custom-policy-in-app-setup-policy-to-users-and-groups"></a>在應用程式設定原則中指派自訂原則給使用者和群組
 
 若要了解如何將原則指派給使用者和群組，請參閱[如何將原則指派給使用者和群組](assign-policies-users-and-groups.md)。
 
@@ -151,7 +151,7 @@ Microsoft Teams 系統管理中心預設提供下列內建應用程式設定原�
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>我是 Teams 教育版系統管理員。關於 Teams 教育版中的應用程式設定原則，我需要知道哪些資訊
 
-通話應用程式在 Teams 教育版中無法使用。 建立新自訂應用程式設定原則時，通話應用程式會顯示在應用程式清單中。 不過，該應用程式不會釘選到 Teams 用戶端，因此 Teams 教育版使用者不會在 Teams 中看見通話應用程式。
+通話應用程式在 Teams 教育版中無法使用。 當您在應用程式設定原則中建立新的自訂原則時，通話應用程式會顯示在應用程式清單中。 不過，該應用程式不會釘選到 Teams 用戶端，因此 Teams 教育版使用者不會在 Teams 中看見通話應用程式。
 
 ### <a name="user-experience"></a>使用者體驗
 

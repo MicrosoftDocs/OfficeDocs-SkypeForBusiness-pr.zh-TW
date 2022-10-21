@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心使用 Microsoft Power Platform 來管理自訂應用程式組建的存取權。
-ms.openlocfilehash: 93801bb30d0445d13de25976ab23668fde251466
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377201"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656029"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心管理 Microsoft Power Platform 應用程式
 
@@ -79,9 +79,9 @@ ms.locfileid: "68377201"
 
 若要允許或封鎖貴組織中的特定使用者存取在 Power Apps 或 Power Virtual Agents 中建立的應用程式，請建立並指派一或多個自訂[應用程式權限原則](teams-app-permission-policies.md)。
 
-例如，若要封鎖特定使用者存取在 Power Apps 中建立的應用程式，請建立自訂應用程式權限原則來封鎖 **共用的 Power Apps**，然後將原則指派給這些使用者。
+例如，若要封鎖特定使用者存取在 Power Apps 中建立的應用程式，請建立應用程式許可權的自訂原則來封鎖 **共用的 Power Apps**，然後將原則指派給這些使用者。
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="顯示已封鎖共用 Power Apps 的自訂應用程式權限原則範例的螢幕擷取畫面。":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="已封鎖共用 Power Apps 之應用程式許可權範例自訂原則的螢幕擷取畫面。":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>使用稽核記錄調查 Microsoft Power Platform 安裝活動
 
