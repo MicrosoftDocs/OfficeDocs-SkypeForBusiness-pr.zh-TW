@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2472f7ec0156e5dcd3ac245dfecdf25a58423ed9
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: 50d5520233ab60d5837c2d7fdc1e9372d92d32da
+ms.sourcegitcommit: a4307c1d1ee2dcf3a0c0b31e6c2473abf52b7097
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532233"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "68669695"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,6 +31,7 @@ ms.locfileid: "68532233"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 10 月 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>包含 [New Get Set Remove]-CsTeamsMessagingPolicy、[New \| Get \| Set \| Remove]-CsTeamsMeetingPolicy 和 [New \| Get \| Set \| Remove]-CsOnlineVoicemailPolicy 的新實作。 \| \| \| 注意：這些 Cmdlet 目前僅適用于 powershell.exe。 它們不適用於pwsh.exe。 我們會在下一個 GA 版本中修正此問題。</li><li>將 ExplicitRecordingConsent、ForceStreamingAttendeeMode 參數新增至 TeamsMeetingPolicy。</li><li>新增描述、PreambleAudioFile、PostambleAudioFile、PreamblePostambleMandatory 參數至 OnlineVoicemailPolicy。</li><li>將 AllowChatWithGroup 和 EnableFeatureSuggestions 參數新增至 TeamsMessagingPolicy。</li><li>版本Update-CsTeamsShiftsConnectionInstance Cmdlet。</li>
 | 2022 年 10 月 | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[取得 \|New]-CsTeamsShiftsConnectionTeamMap Cmdlets - 已新增 TimeZone 屬性。</li><li>從 Set-CsOnlineDialinConferencingUser 移除 SendEmailFromAddress 和 SendEmailFromDisplayName 輸入參數。</li><li>從 Set-TeamsAcsFederationConfiguration 移除 AllowAllAcsResources 和 BlockedAcsResources 參數。</li><li>將 ForceListenMenuEnabled 參數新增至 New-CsAutoAttendantCallFlow、New-CsAutoAttendant 和 Set-CsAutoAutoAttendant 中的通話流程設定。 此設定可讓租使用者在播放問候語/功能表選項時忽略 DTMF/語音輸入。</li>
 | 2022 年 9 月 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>在預覽中Connect-MicrosoftTeams中發行應用程式型驗證支援。 支援的 Cmdlet 正在逐步推出，Teams [PowerShell 模組中的應用程式型驗證](teams-powershell-application-authentication.md)有更多詳細資料。</li><li>版本 [取得 \| 集合]-CsTeamsEducationConfiguration Cmdlets in private Preview.</li><li>[取得 \|New]-CsTeamsShiftsConnectionTeamMap Cmdlets - 已新增 TimeZone 屬性。</li><li>從 Set-CsOnlineDialinConferencingUser 移除 SendEmailFromAddress 和 SendEmailFromDisplayName 輸入參數。</li><li>從 Set-TeamsAcsFederationConfiguration 移除 AllowAllAcsResources 和 BlockedAcsResources 參數。</li>
 | 2022 年 9 月 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>修正在 PS ISE 和 dotnet 應用程式上使用模組時的程式清理問題。</li><li>在 GA 中發行 [取得 \| 新]-CsBatchTeamsDeployment Cmdlet。</li><li>發行 [新 \| 集]-CSTeamsShiftsConnectionInstance，Test-CsTeamsShiftsConnectionValidate UKG Dimensions 的支援。</li><li>修正使用 Connect-MicrosoftTeams 中的 AccountId 參數在多個帳戶之間選擇時，無法正確擷取權杖的問題。</li><li>New-CsCallQueue Cmdlet 的會議模式&目前狀態模式屬性的預設值會從 false 變更為 True。</li>
