@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: f00c0a81374f9c084d8fb7e6839d9f6742ec5192
-ms.sourcegitcommit: 44b5088647afa9a93b0ced575d10ee15b57aac0e
+ms.openlocfilehash: ec1fd0583da04c3e93912843526d32803428c40e
+ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67891703"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "68686061"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -81,13 +81,15 @@ ms.locfileid: "67891703"
 
 ## <a name="certified-devices"></a>已認證的裝置
 
-*2022 年 9 月更新表格*
+*2022 年 10 月更新表格*
 
 > [!NOTE]
 > 日期格式為 MMDDYYYY。
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Cisco                |桌面相機 4K                                             |10/15/2022      |已通過 Microsoft Teams 認證                           |
+|EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |已通過 Microsoft Teams 認證                           |
 |聯想               |移至耳機In-Ear USB-C ANC                             |9/20/2022       |已通過 Microsoft Teams 認證                           |
 |Logi                 |Brio 500/505 相機                                       |9/14/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           |
