@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4c64e5302b68e515d72cddc11a77cb85dea10fe3
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
+ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614015"
+ms.lasthandoff: 10/26/2022
+ms.locfileid: "68697352"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -70,9 +70,9 @@ Microsoft 可與每個廠商合作，以：
 ||SBC 5400|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) ) |&#10004;||
 ||SBC 7000|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) |&#10004;||
 ||所有 SBC SWe 變體，包括託管優惠|&#10004;|&#10004;|支援 10.1、9.2、8.2 和 7.2 的所有版本 (建議最新版本的 10.1) |&#10004;||
-||SBC 1000|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
-||SBC SWe Lite|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
+||SBC 1000|&#10004;|&#10004;|8.x、9.x 或 11.x|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|8.x、9.x 或 11.x|&#10004;|&#10004;|
+||SBC SWe Edge (舊稱 SWe Lite) |&#10004;|&#10004;|8.x、9.x 或 11.x|&#10004;|&#10004;|
 ||EdgeMarc 系列|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|支援  8.3.0.0.1 和建議使用 8.4.x & 9.x|&#10004;|&#10004;|
