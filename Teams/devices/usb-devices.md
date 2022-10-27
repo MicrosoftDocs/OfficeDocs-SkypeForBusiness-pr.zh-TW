@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: ec1fd0583da04c3e93912843526d32803428c40e
-ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
+ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68686061"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738619"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -84,10 +84,11 @@ ms.locfileid: "68686061"
 *2022 年 10 月更新表格*
 
 > [!NOTE]
-> 日期格式為 MMDDYYYY。
+> 日期格式為 MM/DD/YYYY。
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 Buds                                               |10/17/2022      |已通過 Microsoft Teams 認證                           |
 |Cisco                |桌面相機 4K                                             |10/15/2022      |已通過 Microsoft Teams 認證                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |已通過 Microsoft Teams 認證                           |
 |聯想               |移至耳機In-Ear USB-C ANC                             |9/20/2022       |已通過 Microsoft Teams 認證                           |

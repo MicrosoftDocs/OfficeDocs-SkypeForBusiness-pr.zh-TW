@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域的外�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f78e679785deb1ea4740721937440fa9aa81d0b0
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418512"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738719"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部會議和聊天
 
@@ -36,7 +36,7 @@ ms.locfileid: "67418512"
 
 使用外部存取的時機：
   
-- 您的使用者位於外部網域，且需要聊天。例如，Rob@contoso.com 和 Ann@northwindtraders.com 正與 contoso.com 和 northwindtraders.com 網域中的其他人一起共同合作一個專案。
+- You have users in external domains who need to chat. For example, Rob@contoso.com and Ann@northwindtraders.com are working on a project together along with some others in the contoso.com and northwindtraders.com domains.
 
 - 您希望組織中的人員能夠使用 Teams 與組織外部特定公司的人員連絡。
 
@@ -49,7 +49,7 @@ ms.locfileid: "67418512"
 Teams 系統管理中心會控制組織層級的外部存取權。 大部分選項 (網域限制除外) 可在使用者層級使用 PowerShell。 請參閱下方的 [使用 PowerShell](#using-powershell) 以瞭解更多資訊。
 
 > [!NOTE]
-> 如果您關閉組織中的外部存取，外部使用者仍然可以透過匿名加入來參加會議。若要深入了解，請參閱[在 Teams 中管理會議設定](meeting-settings-in-teams.md)。
+> If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Teams 使用者可以在主持會議或與其他組織人員聊天時新增應用程式。 當他們加入由其他組織主持的會議或聊天時，他們也可以使用由其他組織人員共用的應用程式。 將會套用託管使用者組織的資料原則，以及該使用者組織共用的任何協力廠商應用程式的資料共用做法。
@@ -160,7 +160,7 @@ Teams 系統管理中心會控制組織層級的外部存取權。 大部分選�
 |啟用/停用未由組織管理的 Teams 使用者啟動交談|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |啟用/停用與 Skype 的同盟|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-請務必注意，停用從租用戶到使用者的「滾落」原則。例如:
+請務必注意，停用從租用戶到使用者的「滾落」原則。 例如：
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
@@ -246,7 +246,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 |混合式，部分使用者在線上 (在商務用 Skype 或 Teams 中) 和部分使用者在內部部署。 | 請遵循先前所述的線上組織步驟。 請注意，內部部署使用者不支援與未受管理的 Teams 使用者聊天。|
 
 > [!IMPORTANT]
-> 您不需要將任何 **Teams 網域** 新增為允許網域，就能讓 Teams 的使用者與未受管理的組織外部的 Teams 使用者通訊。所有 **未受管理的 Teams 網域** 皆允許。
+> You don't have to add any **Teams domains** as allowed domains in order to enable Teams users to communicate with unmanaged Teams users outside your organization. All **unamanged Teams domains** are allowed.
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>在您的組織中的使用者與 Skype 消費者使用者之間啟用同盟
 
@@ -259,7 +259,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 | 混合式，部分使用者在線上 (在商務用 Skype 或 Teams 中) 和部分使用者在內部部署。| 針對線上和內部部署組織遵循上述步驟。
 
 > [!IMPORTANT]
-> 您不需要將任何 **Skype 網域** 新增為允許網域，就能讓 Teams 或商務用 Skype Online 的使用者與組織內部或外部的 Skype 使用者通訊。允許所有 **Skype 網域**。
+> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
 
 ## <a name="federation-diagnostic-tool"></a>同盟診斷工具
 
@@ -281,6 +281,9 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 您可以在 Teams 內的多個位置封鎖外部人員，包括聊天清單上) 的 ( ...) 功能表，以及人員卡片上 (的 **...) 功能表**。 使用者也可以透過聊天清單上的 (**...) 功能表**、人員卡片上 (的 **...) 功能表**，或流覽 [**設定**  >  **封鎖的連絡人****編輯封鎖的連絡人**  >  ] 來解除封鎖外部人員。 郵件傳送之前或之後，都可以使用封鎖功能。
 
 封鎖外部人員可防止他們在一對一聊天中傳送訊息、將使用者新增至新的群組聊天，以及檢視他們的目前狀態。 當封鎖群組聊天邀請時，封鎖的使用者可以和封鎖這些邀請的使用者在同一個聊天中，因為該聊天是在封鎖之前啟動，或是群組聊天邀請是由其他成員傳送。
+
+> [!NOTE]
+> 沒有 Teams 系統管理員設定或原則可控制使用者封鎖與外部人員聊天的能力。
 
 ## <a name="related-topics"></a>相關主題
 

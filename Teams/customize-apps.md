@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何變更應用程式的中繼資料和外觀，以重新命名應用程式，以便在貴組織中更有效地採用應用程式。
-ms.openlocfilehash: 7e2fe4545858980e3fc9d9784aea7b44256d52db
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: f12e6ead6c0d031100bcf30783de980986a14563
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377471"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738729"
 ---
 # <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>使用應用程式自訂來更新貴組織 Teams 市集中應用程式的商標
 
@@ -108,7 +108,7 @@ Microsoft Teams 系統管理員可以修改某些 Teams 應用程式的外觀，
 
 請考慮下列應用程式自訂功能的詳細資料：
 
-* 您只能自訂 [協力廠商應用程式](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-validated-by-microsoft) ，不能 [自訂應用程式](deploy-apps-microsoft-teams-landing-page.md#custom-apps)。
+* 您只能自訂 [協力廠商應用程式](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-created-by-independent-app-developers) ，不能 [自訂應用程式](deploy-apps-microsoft-teams-landing-page.md#custom-apps-created-within-an-organization-for-internal-use)。
 
 * 您無法在政府社群雲端高 (GCCH) 和美國商務部 (DoD) 環境中自訂任何應用程式。
 
@@ -118,7 +118,7 @@ Microsoft Teams 系統管理員可以修改某些 Teams 應用程式的外觀，
 
 * 您只有一個版本的應用程式，因為自訂應用程式詳細資料並不會建立應用程式的複本。
 
-* 當您自訂應用程式以及與應用程式相關的任何描述時，請確定您遵循應用程式開發人員在其檔或使用條款中提供的指導方針。 使用任何協力廠商影像時，請遵守著作權法。
+* 當您自訂應用程式以及任何與應用程式相關的描述時，請確定您遵循應用程式開發人員在其檔或使用條款中提供的指導方針。 使用任何協力廠商影像時，請遵守著作權法。
 
 * 管理員提供的自訂資料會儲存在最近的資料儲存區域。
 

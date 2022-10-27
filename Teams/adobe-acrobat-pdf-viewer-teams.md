@@ -18,12 +18,12 @@ description: 了解如何將 Adobe Acrobat 設定為預設的 PDF 檢視器，�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8adb2f4f0eafeabadd6f8716a338b24422d0ba35
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656059"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738769"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>將 Adobe Acrobat 做為 Microsoft Teams 中的預設 PDF 檢視器
 
@@ -73,6 +73,8 @@ ms.locfileid: "68656059"
 
 如果您想要為少數人或群組選擇性地允許 Adobe Acrobat 應用程式，您可以 [指派應用程式許可權的自訂原則](teams-app-permission-policies.md)。
 
+## <a name="considerations-and-limitations"></a>考量與限制
+
 了解下列有關此功能的資訊：
 
 * 設定原則之後，通常 [需要幾個小時](teams-app-setup-policies.md#considerations-and-limitations) ，應用程式才能供使用者使用。
@@ -80,5 +82,5 @@ ms.locfileid: "68656059"
 * 將 Adobe Acrobat 做為 Teams 中的預設 PDF 檢視器僅適用於桌面和 Web 用戶端。 行動用戶端不支援此功能。
 * 使用者需要 Adobe Acrobat 方案才能使用進階工具，例如匯出 PDF、組織頁面、合併檔案、壓縮 PDF 及保護 PDF。
 * 若要解除安裝應用程式，使用者可以從 Teams 用戶端移除應用程式。 系統管理員可以使用安裝原則移除 Adobe Acrobat 應用程式。
-* 如果您封鎖 Adobe Acrobat 應用程式，請將它從設定原則中移除。 這可確保使用者體驗還原為使用原生 PDF 檔案檢視器。
+* 如果您封鎖 Adobe Acrobat 應用程式，請從設定原則中移除應用程式。 這可確保使用者體驗還原為使用原生 PDF 檔案檢視器。
 * 如果您在 Teams 桌面用戶端登入 Adobe Acrobat 應用程式時遇到任何問題，請使用 [瀏覽器中的 Teams](https://teams.microsoft.com/) 登入。

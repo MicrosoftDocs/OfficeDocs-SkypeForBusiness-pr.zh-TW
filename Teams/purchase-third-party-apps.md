@@ -1,5 +1,5 @@
 ---
-title: 為 Teams 購買第三方應用程式
+title: 購買協力廠商 Teams 應用程式的授權
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -13,26 +13,26 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: 了解如何使用信用卡、轉帳卡或發票結算，從 Teams 市集購買協力廠商應用程式。
+description: 瞭解如何使用信用卡、轉帳卡或發票帳單，從 Teams 市集購買授權協力廠商應用程式。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 20abb80fed79995bd8496a04936737265503e67e
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377191"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738549"
 ---
-# <a name="purchase-third-party-apps-for-teams"></a>為 Teams 購買第三方應用程式
+# <a name="purchase-licenses-for-third-party-teams-apps"></a>購買協力廠商 Teams 應用程式的授權
 
-Teams 應用程式可以免費安裝，有些應用程式可能需要購買服務訂閱才能體驗應用程式的完整功能和範圍。 這些服務訂閱稱為軟體即服務 (SaaS) 方案，可透過 [AppSource](https://appsource.microsoft.com/) 購買，而現在可透過 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)購買。
+某些 Teams 應用程式可能需要購買服務訂閱，才能體驗應用程式的完整功能和範圍。 這些服務訂閱稱為軟體即服務 (SaaS) 優惠。 授權可透過 [AppSource](https://appsource.microsoft.com/) 和 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)購買。
 
-Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁面可讓您檢視和管理貴組織的所有 Teams 應用程式。 例如，您可以查看應用程式的組織層級狀態和屬性、上傳新的自訂應用程式至貴組織的應用程式市集、在組織層級封鎖或允許應用程式，以及管理全組織的應用程式設定。
+付費應用程式是使用與任何其他應用程式相同的控管控制來管理。 您可以從 Teams 系統管理中心的 [ [管理應用程式](manage-apps.md) ] 頁面檢視和管理所有 Teams 應用程式。
 
-您也可以在這裡為貴組織中的使用者購買協力廠商應用程式所提供的服務授權。 資料表中的 **[授權]** 欄位指出應用程式是否提供 SaaS 訂閱以供購買。 使用者可以使用信用卡、轉帳卡或發票帳單來購買應用程式。
+在 [管理應用程式] 頁面上，您也可以為組織中的使用者購買協力廠商應用程式所提供的服務授權。 資料表中的 **[授權]** 欄會指出應用程式是否提供 SaaS 訂閱以供購買。 使用者可以使用信用卡、轉帳卡或發票帳單來購買應用程式。
 
-:::image type="content" source="media/manage-apps-new-page.png" alt-text="顯示 [購買授權管理應用程式] 頁面的螢幕擷取畫面。":::
+:::image type="content" source="media/manage-apps-new-page.png" alt-text="顯示 Teams 系統管理中心 [管理應用程式] 頁面上 [購買授權] 選項的螢幕擷取畫面。" lightbox="media/manage-apps-new-page-large.png":::
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心購買應用程式
 
@@ -40,24 +40,21 @@ Microsoft Teams 系統管理中心的 [[管理應用程式]](manage-apps.md) 頁
 
 1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[管理應用程式](https://admin.teams.microsoft.com/policies/manage-apps)**。 您必須為全域管理員或 Teams 服務系統管理員，才能存取頁面。
 
-1. 依應用程式名稱搜尋您想要的應用程式。 若要識別含有付費的 SaaS 訂閱之應用程式，請查看 **[授權]** 欄位。 每個應用程式都有下列其中一個值：
+1. 依應用程式名稱搜尋您想要的應用程式。 若要檢查應用程式是否提供付費的 SaaS 訂閱，請參閱 **授權** 欄。 每個應用程式都有下列其中一個值：
     * **購買**：此應用程式提供 SaaS 訂閱且可供購買。
     * **已購買**：應用程式提供 SaaS 訂閱，您已經為購買了其權限。
     * **- -**：應用程式不提供 SaaS 訂閱。
 
-1. 當您找到應用程式時，選取 **[購買** ] 以移至應用程式詳細資料頁面的 [ **方案與訂閱** ] 索引標籤。 檢視適用於此應用程式之 SaaS 供應項目的方案和價格資訊。 如果您需要更多資訊，請選取 **[深入了解]** 以移至 [AppSource](https://appsource.microsoft.com/) 上的應用程式頁面。
-
-   > [!NOTE]
-   > 私人方案也可能會列在購買清單中，包括貴組織可以個別與應用程式開發人員協商的特殊價格。 這類方案會在方案名稱底下顯示 **[私人計劃]** 標籤。
+1. 選 **取 [購買** ] 以移至應用程式詳細資料頁面的 [ **方案與價格** ] 索引標籤。 您可以檢閱系統管理中心中可用的方案和定價資訊。 您可以選取 **[深入瞭解** 連結] 以移至 [AppSource 上的應用程式](https://appsource.microsoft.com/)頁面。
 
 1. 若要訂閱應用程式，請選擇您想要的方案，然後選取 **[購買]**。 結帳流程會直接在 Teams 系統管理中心開啟。
 
+> [!NOTE]
+> 私人方案也可能會列在購買清單中，包括貴組織可以個別與應用程式開發人員協商的特殊價格。 這類方案會在方案名稱底下顯示 **[私人計劃]** 標籤。
+
 1. 選取您想要購買的使用者授權數目。
 
-1. 驗證帳單帳戶和購買人位址正確無誤。 如果您還沒有帳戶，請選取 **[新增]**。 如需帳單帳戶的詳細資訊，請參閱[了解帳單帳戶](/microsoft-365/commerce/manage-billing-accounts)。
-
-   > [!NOTE]
-   > 只有全域管理員可以新增帳單帳戶。
+1. 驗證帳單帳戶和購買人位址正確無誤。 如果您還沒有帳戶，請選取 **[新增]**。 如需帳單帳戶的詳細資訊，請參閱[了解帳單帳戶](/microsoft-365/commerce/manage-billing-accounts)。 只有全域管理員可以新增帳單帳戶。
 
 1. 驗證是否已選取正確的帳單設定檔。 如果您還沒有新帳戶，請選取 **[新增]**。 您可以使用信用卡、轉帳卡或 [發票帳單付款](#invoice-billing)。 帳單設定檔也可讓您新增採購單編號，以在稍後識別您的訂單。 如需帳單設定檔的詳細資訊，請參閱[了解帳單設定檔](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)。
 

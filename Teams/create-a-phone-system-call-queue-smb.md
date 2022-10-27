@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: 1e145c3418c3b3042d4ee26b9a6e1928e4345e65
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 9582786bacadd01ff513d9b8fb464b8906f6dbb7
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614065"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738749"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -44,7 +44,7 @@ ms.locfileid: "68614065"
 
 按照本文中的程式進行之前，請確定您已閱讀 Teams [自動語音應答和通話佇列規劃](plan-auto-attendant-call-queue.md) ，並依照 [開始步驟進行](plan-auto-attendant-call-queue.md#getting-started)。
 
-## <a name="whats-new-for-call-queues-in-the-past-6-months"></a>過去 6 個月通話佇列的新功能
+## <a name="whats-new-for-call-queues-in-the-past-six-months"></a>過去六個月通話佇列的新功能
 
 - 八月
   - 現在已支援電話佇列主要問候語 ([文字轉換語音] (TTS) ) 的 **問候語訊** 息。
@@ -232,6 +232,8 @@ ms.locfileid: "68614065"
 > 如果 Teams 使用者需要透過通話佇列查閱/轉接電話，則必須使用會議模式。
 >
 > 第一次加入通話時，專員可能會聽到佇列中保留的已設定音樂長達 2 秒鐘。
+>  
+> 如果代理程式已啟用 [合規性錄製](teams-recording-policy.md) ，則不支援會議模式和 Attendant 路由的組合。 如果您需要使用會議模式，請選取 **[串列路由**]、[ **圓形長圈**] 或 [ **最長閒置時間** ] 做為 **路由方法**。 如果您需要使用 Attendant 路由，請將會議模式設為 **[關閉]**。
 
 選取來電接聽選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
@@ -320,6 +322,8 @@ ms.locfileid: "68614065"
 
 > [!NOTE]
 > 如果電話數上限設為 0，則無法播放問候語訊息。
+> 
+> 語音信箱 (個人) 會將電話傳送給使用者，而不會直接傳送至其語音信箱，如所示。 支援人員正在調查此問題。
 
 選取來電溢位處理選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
@@ -338,6 +342,9 @@ ms.locfileid: "68614065"
 *新增 - **略過語音信箱系統訊息** 控制項現在會在路由到共用語音信箱時公開，這也適用于 **新增問候語訊** 息提示。*
 
 如需外部傳輸，請參閱 [必要條件](./plan-auto-attendant-call-queue.md#prerequisites) 和 [外部電話號碼移轉 -](create-a-phone-system-auto-attendant.md?tabs=additional-resources) 數位格式設定的技術詳細資料。
+
+> [!NOTE]
+> 語音信箱 (個人) 會將電話傳送給使用者，而不會直接傳送至其語音信箱，如所示。 支援人員正在調查此問題。
 
 選取通話逾時處理選項後，請選取 [**新增通話佇列**] 頁面底部的 [**提交**] 按鈕。
 

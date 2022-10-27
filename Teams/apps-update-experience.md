@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 09/04/2022
+ms.date: 10/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 在此文章中，了解如何更新已及系統管理員如何加速更新 Microsoft Teams 中的 Microsoft 應用程式、自訂應用程式和協力廠商應用程式。
-ms.openlocfilehash: 14c327c2a24536f5441b318767e301ffe9a3196d
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376811"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738609"
 ---
 # <a name="teams-app-updates-and-admin-role"></a>Teams 應用程式更新與系統管理員角色
 
@@ -38,7 +38,7 @@ Teams 系統管理員可以協助使用者取得最新版本的應用程式。 �
 
 如果應用程式開發人員對其應用程式進行下列一或多項變更，使用者必須核准應用程式的更新。
 
-* 新增或移除 Bot。 使用屬性變更 Bot 的 `botId` 識別碼。
+* 新增 Bot。 使用屬性變更 Bot 的 `botId` 識別碼。
 * `isNotificationOnly`變更現有 Bot 的屬性，以變更 Bot 的通知。
 * 變更 `SupportsCalling` 現有 Bot 的 、 `SupportsVideo` 和 `SupportsFiles` 屬性，以新增通話、播放影片，以及上傳或下載檔案的功能。
 * 新增或移除授權許可權。

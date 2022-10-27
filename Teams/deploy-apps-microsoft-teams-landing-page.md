@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655899"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738569"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
@@ -41,9 +41,9 @@ Teams 中的應用程式可協助使用者整合工作場所的工具和服務�
 您的使用者在 Teams 中可使用的不同類型應用程式包括：
 
 * [屬於 Teams 一部分的核心應用程式](#core-apps)。
-* [Microsoft 創建的其他應用程式](#microsoft-provided-apps)。
-* 合作夥伴 (經 Microsoft 驗證) 的[協力廠商應用程式](#third-party-apps-validated-by-microsoft)。
-* 由您自己的組織創建的[自訂應用程式](#custom-apps)。
+* [Microsoft 創建的其他應用程式](#apps-created-by-microsoft)。
+* 由合作夥伴建立[的協力廠商應用程式](#third-party-apps-created-by-independent-app-developers) (經過 Microsoft) 驗證。
+* 由您自己的組織創建的[自訂應用程式](#custom-apps-created-within-an-organization-for-internal-use)。
 
 ## <a name="core-apps"></a>核心應用程式
 
@@ -51,7 +51,7 @@ Teams 中的應用程式可協助使用者整合工作場所的工具和服務�
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心應用程式是預設釘選在 Teams 中的應用程式。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="microsoft-provided-apps"></a>使用 Microsoft 提供的應用程式
+## <a name="apps-created-by-microsoft"></a>Microsoft 建立的應用程式
 
 Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使用者可以在 Teams 系統管理中心尋找列為 Publisher 的 Microsoft，或在 Teams 市集中列為「提供者」，藉此找到這些應用程式。
 
@@ -59,13 +59,13 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="顯示 Teams 系統管理中心中 Microsoft 應用程式清單的螢幕擷取畫面。" lightbox="media/microsoft-apps-in-tac2.png":::
 
-## <a name="third-party-apps-validated-by-microsoft"></a>由 Microsoft 驗證的協力廠商應用程式
+## <a name="third-party-apps-created-by-independent-app-developers"></a>由獨立應用程式開發人員建立的協力廠商應用程式
 
-除了 Microsoft 提供的應用程式，您還可以使用 Microsoft 認證的協力廠商應用程式。 Microsoft 在 Teams 市集中提供這些應用程式之前，先驗證這些應用程式的功能和安全性。 若要瞭解應用程式驗證的優點，請參閱 [驗證協力廠商應用程式](overview-of-app-validation.md)。
+除了 Microsoft 提供的應用程式之外，您還可以使用協力廠商應用程式。 Microsoft 會嚴格驗證所有這些應用程式的功能和安全性。 在 Teams 市集中提供這些應用程式之前，會先執行詳盡的手動和自動化測試，而且即使在即時發佈應用程式之後，許多測試仍會以一般頻率繼續。 若要瞭解應用程式驗證的優點，請參閱 [驗證協力廠商應用程式](overview-of-app-validation.md)。 部分訂閱 [Microsoft 合規性計畫的](overview-of-app-certification.md) 應用程式會經歷驗證以外的多層進一步檢查。
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 市集中協力廠商應用程式範例的螢幕擷取畫面。":::
 
-## <a name="custom-apps"></a>自訂應用程式
+## <a name="custom-apps-created-within-an-organization-for-internal-use"></a>在組織內建立供內部使用的自訂應用程式
 
 由貴組織中的開發人員建立的應用程式稱為自訂應用程式 (或企業營運應用程式)。 貴組織可能會針對組織特定的需求委託建立自訂應用程式。 您有權為整個組織或特定使用者允許或封鎖此類應用程式。 貴組織的開發人員可以使用與 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 整合的 Teams 來建立自訂低程式碼解決方案。
 

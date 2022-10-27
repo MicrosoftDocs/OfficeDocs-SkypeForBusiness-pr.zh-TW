@@ -18,12 +18,12 @@ ms.custom:
 description: 訓練影片、PowerPoint 投影片組、教學課程，以及系統管理員如何規劃、部署和執行 Microsoft Teams 的其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 50c3a4a3eaed8eea383d8e0856cfcd6a07b9772e
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808374"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738589"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -51,7 +51,7 @@ ms.locfileid: "67808374"
 | Windows 桌面用戶端 | [視訊](https://aka.ms/teams-clients) | [甲板](https://aka.ms/teams-clients-deck) |
 | 監管、管理和生命週期 | [視訊](https://aka.ms/teams-governance) | [甲板](https://aka.ms/teams-governance-deck) |
 | 安全性&合規性 | [視訊](https://aka.ms/teams-security-compliance) | [甲板](https://aka.ms/teams-security-compliance-deck) |
-| 通話品質概觀 | [視訊](https://aka.ms/teams-quality) | [甲板](https://aka.ms/teams-quality-deck) |
+| 通話品質概觀 | | [甲板](https://aka.ms/teams-quality-deck) |
 | 會議簡介 | [視訊](https://aka.ms/teams-meetings-intro) | [甲板](https://aka.ms/teams-meetings-intro-deck) |
 | 媒體 - 為什麼會議很簡單|[視訊](https://aka.ms/media-in-teams)  | [甲板](https://aka.ms/media-in-teams-deck)|
 | 媒體 - 媒體流程 | [視訊](https://aka.ms/teams-media-flows) | [甲板](https://aka.ms/teams-media-flows-deck)  |

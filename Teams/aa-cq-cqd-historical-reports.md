@@ -21,75 +21,135 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 瞭解如何使用通話品質儀表板 Power BI 報告來檢視自動語音應答和通話佇列歷程記錄資料。
-ms.openlocfilehash: 23ce3663492ae84175825af4acc3772850935d3b
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+description: 瞭解如何使用 Teams 自動語音應答&通話佇列歷史報告 Power BI 報告來檢視自動語音應答和通話佇列歷史資料。
+ms.openlocfilehash: 2afae8986f1184f1394e806b84aa1ab242c07df2
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614206"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738689"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動語音應答&通話佇列歷史報告
 
+此 Power BI 範本提供三個報告，可讓組織報告自動語音應答和通話佇列處理的通話數目。  它也會提供代理程式效能深入解析。
+
+## <a name="v301-published-on-october-26-2022"></a>2022 年 10 月 26 日發佈的 V3.0.1
+
 Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三個報告：
 
-- [自動語音應答](media/cqd-teams-aa-cq-historical-report-sample-aa.png) ： 顯示自動語音應答中來電的分析資料。
-- [通話佇列](media/cqd-teams-aa-cq-historical-report-sample-cq.png) ： 顯示來電進入通話佇列的分析資料。
-- [專員時間軸](media/cqd-teams-aa-cq-historical-report-sample-at.png) ： 顯示代理程式在通話佇列通話中作用中的時程表檢視。
+- 自動語音應答報告會顯示自動語音應答中來電的分析資料。
+- [通話佇列] 報告會顯示來電進入通話佇列的分析資料。
+- 專員時程表報告顯示代理程式在通話佇列通話中作用中的時程表檢視。
 
-這些報告會使用來自 [通話品質儀表板](CQD-Power-BI-query-templates.md) 資料存放區的資料。 報告可讓組織報告自動語音應答和通話佇列處理的通話數目。  報告也會提供通話佇列中專員效能的深入解析。
+這些報告會使用來自 Voice Applications Analytics Collector (VAAC) 服務的資料。
 
-### <a name="v163-published-on-august-24-2022"></a>2022 年 8 月 24 日發佈的 V1.63
+>[!NOTE]
+> 所有地區正在進行歷史資料收集。  30 天歷史資料會在不同時間提供使用，所有地區的資料將于 2022 年 11 月 25 日之後擁有完整的 30 天資料。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="v3xx-prerequisites"></a>V3.x.x 必要條件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-您必須安裝Power BI Desktop。 您可以從 [Microsoft Windows 市集](https://aka.ms/pbidesktopstore)安裝。
+您必須安裝Power BI Desktop。 您可以從 [Microsoft Windows 市](https://aka.ms/pbidesktopstore)集安裝並使用免費版本。
 
-您可以使用免費版本的 Power BI Desktop。 最小相容版本為 2.85.681.0 (2020 年 9 月) 。
+最小相容版本為 2.85.681.0 (2020 年 9 月) 。
+
+### <a name="permissions-to-access-the-cqd-pipeline"></a>存取 CQD 管線的許可權
+
+雖然此版本的報告不會使用 [通話品質儀表板] (CQD) 資料管線，但用來檢視歷史資料的帳戶仍需要存取通話品質儀表板。 如需詳細資訊，請參閱 [CQD 存取角色](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
+- 此需求將會在未來版本中移除。
+
+## <a name="v3xx-installation"></a>V3.x.x 安裝 
+
+下列步驟假設您已經在電腦上安裝Power BI Desktop，而且您的帳戶擁有存取 CQD 資料管線的必要許可權。
+
+執行下列步驟：
+
+1. 下載並將 [Teams 自動語音應答&通話佇列歷程記錄報告V3.0.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) 檔案儲存在您的電腦上。
+
+1. 開啟 zip 檔案。
+
+1. 開啟 `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` 範本檔案。 Power BI Desktop應該會啟動。
+
+1. 系統會提示您選取 **[資料來源]**。  選取 `api.interfaces.records.teams.microsoft.com` 專案。
+
+  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="選取 [資料 api.interfaces.records.teams.microsoft.com 窗格] 的螢幕擷取畫面":::
+
+1. 系統會提示您使用帳戶登入。 選取 **[組織帳戶**]，然後選取 [ **登入]**。
+
+  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="顯示 V3.0.0.0 登入的螢幕擷取畫面。":::
+
+1. 選取 **[連線**]，資料就會重新整理。
+
+> [!NOTE]
+> 如果您使用的是 v1.63 或更舊版本，當 v3.0.0 嘗試從 VAAC 擷取資料時，可能會發生錯誤。  若要解決此錯誤，必須從 Power BI 清除任何先前的認證。
+> 
+> 1. 開啟 v3.0.0 範本以清除錯誤。 
+> 1. 選 **取 [設定****資料來源設定**] &  >  [**檔案**  >  選項]。
+> 1. 選取 **[清除許可權] 的** 下拉式清單，然後選取 **[清除擁有權限]**。
+> 1. 清除範本之後關閉範本，然後重新開機 Power BI。 系統會要求您再次授權。 
+
+## <a name="v163-published-on-august-24-2022"></a>2022 年 8 月 24 日發佈的 V1.63
+
+> [!IMPORTANT]
+> V1.63 範本的支援將于 2022 年 11 月 21 日終止。
+
+**Teams 自動語音應答&通話佇列歷史報告 Power BI 範本** 提供下列三個報告：
+
+- 自動語音應答報告會顯示自動語音應答中來電的分析資料。
+- [通話佇列] 報告會顯示來電進入通話佇列的分析資料。
+- 專員時程表報告顯示代理程式在通話佇列通話中作用中的時程表檢視。
+
+這些報告會使用來自 [[通話品質儀表板] (CQD) ](CQD-Power-BI-query-templates.md) 資料存放區的資料。 
+
+## <a name="v163-prerequisites"></a>V1.63 必要條件
+
+### <a name="power-bi-desktop"></a>Power BI Desktop
+您必須安裝Power BI Desktop。 您可以從 [Microsoft Windows 市](https://aka.ms/pbidesktopstore)集安裝並使用免費版本。
+
+最小相容版本為 2.85.681.0 (2020 年 9 月) 。
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>存取 CQD 管線的許可權
 
 您用來檢視歷史報告的帳戶必須具備存取 CQD 資料管線的許可權。 如需詳細資訊，請參閱 [CQD 存取角色](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
-## <a name="installation"></a>安裝 
+## <a name="v163-installation"></a>V1.63 安裝 
 
-下列步驟假設您已經在電腦上安裝Power BI Desktop，而且您的帳戶具有存取 CQD 資料管線的必要許可權。
+下列步驟假設您已經在電腦上安裝Power BI Desktop，而且您的帳戶擁有存取 CQD 資料管線的必要許可權。
 
 執行下列步驟：
 
-- 下載 [CQD Power BI 查詢範本](https://www.microsoft.com/download/details.aspx?id=102291) ，並將 zip 檔案儲存到電腦上的目錄。
+1. 下載並儲存 [電腦上的 CQD Power BI 查詢範本](https://www.microsoft.com/download/details.aspx?id=102291) zip 檔案。
 
-- 按兩下 zip 檔案加以開啟。
+1. 開啟 zip 檔案。
 
-- 按兩下 「CQD Teams 自動語音應答&通話佇列歷史報告 V1.60.pbit」範本檔案。 Power BI Desktop應該會啟動。
+1. 開啟 `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` 範本檔案。 Power BI Desktop應該會啟動。
 
-- 系統會提示您選取 CQD 資料管線區域。 選取租使用者所在的地區。
+1. 系統會提示您選取 CQD 資料管線區域。 選取租使用者所在的地區。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="選取 CQD 資料管線區域的螢幕擷取畫面。":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="選取 CQD 資料管線區域的螢幕擷取畫面。":::
 
-- 您可以使用 [Get-CsTenant](/powershell/module/skype/get-cstenant) Cmdlet 取得租使用者所在的地區。
+1. 您可以使用 [Get-CsTenant](/powershell/module/skype/get-cstenant) Cmdlet 取得租使用者所在的地區。
 
-    ```PowerShell
+    ```powershell
     (Get-CsTenant).ServiceInstance
 
 
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - 在上述範例中，區域為：noam 之後 **/** 將會顯示區域
+    1. 在上述地區為 `noam` 的範例中，區域會顯示在上述範例之後 **/** 。
 
- - 報告隨即會以範例資料啟動。
+ 1. 報告隨即會以範例資料啟動。
  
- - 若要查看您自己的資料 **，請在**[常用] 索引標籤的 [Power BI Desktop中的查詢] 底下選取 [重新整理]。
+ 1. 若要查看您自己的資料 **，請在**[**常用**] 索引標籤的 [Power BI Desktop中的查詢] 底下選取 [**重新** 整理]。
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="選取重新整理選項的螢幕擷取畫面。":::
+   :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="選取重新整理選項的螢幕擷取畫面。":::
 
-- 系統會提示您登入。 選取 **[組織帳戶]** ，然後選取 **[登入]**。
+1. 系統會提示您登入。 選取 **[組織帳戶**]，然後選取 [ **登入]**。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="顯示登入的螢幕擷取畫面。":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="顯示 V1.63 登入的螢幕擷取畫面。":::
 
-- 選取 **[連線** ]，然後觀看資料重新整理。
+1. 選取 **[連線**]，資料就會重新整理。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>資料延遲和 AA & CQ 分析
 
@@ -108,17 +168,18 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 下列步驟假設您已經完成安裝步驟。
 
 執行下列步驟：
+
 - 選取功能區上的 [ **檢視** ] 索引標籤。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="選取 [檢視] 索引標籤以變更色彩配置的螢幕擷取畫面。":::
+  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="選取 [檢視] 索引標籤以變更色彩配置的螢幕擷取畫面。":::
 
 - 從下拉式清單中選取色彩架構。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="顯示各種色彩配置的螢幕擷取畫面。":::
+  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="顯示各種色彩配置的螢幕擷取畫面。":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自動語音應答和通話佇列歷史報告定義
 
-### <a name="cloud-auto-attendant-analytics"></a>雲端自動語音應答分析
+### <a name="cloud-auto-attendant-analytics-report"></a>雲端自動語音應答分析報告
 
 #### <a name="report-description"></a>報告描述
 
@@ -180,7 +241,7 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 |SumCallCount (Measure)          |整數             |與上述相同，如果沒有來電而非空白，則會是 0。              |
 
 
-### <a name="cloud-call-queue-analytics"></a>雲端通話佇列分析
+### <a name="cloud-call-queue-analytics-report"></a>雲端通話佇列分析報告
 
 #### <a name="report-description"></a>報告描述
 
@@ -255,7 +316,7 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 |IsAbandoned                             |True/false               |如果專員未接聽來電，則為 True                                   |
 
 
-### <a name="cloud-call-queue-agent-timeline"></a>雲端通話佇列代理時間軸
+### <a name="cloud-call-queue-agent-timeline-report"></a>雲端通話佇列代理時間軸報告
 
 #### <a name="report-description"></a>報告描述
 
@@ -301,22 +362,23 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 > [!NOTE]
 > 當電話到達第一個通話佇列時，如果該佇列中已經等待的來電數已達到 [ **通話溢位處理** ] 限制，而且如果重新導向選項將新電話傳送到第二個通話佇列，則第二個通話佇列中的代理程式會顯示為此報告中的第一個通話佇列。 
 
-## <a name="known-issues"></a>已知問題
+## <a name="known-issues"></a>已知的問題
 
 - 通話佇列和自動語音應答會以資源帳戶的識別碼顯示，而不是通話佇列/自動語音應答名稱。  若要顯示自動語音應答或通話佇列的所有流量，您必須選取指派給自動語音應答或通話佇列的所有資源帳戶。
 
 - 儀表板中僅提供 28 天歷程記錄，因為通話佇列/自動語音應答資料會被視為個人資料，並受限於資料隱私權保留原則。
 
-- 在某些情況下，雲端通話佇列代理時間軸報告中的代理人接聽來電計數可能與 Teams 用戶端通話記錄中顯示的通話數目不同。 Teams 用戶端通話記錄正確無誤。 支援正在調查中，但目前沒有可供修復的估計時間。
+- 在某些情況下， **雲端通話佇列代理時間軸** 報告中的代理人接聽來電計數可能與 Teams 用戶端通話記錄中顯示的通話數目不同。 Teams 用戶端通話記錄正確無誤。 支援服務正在調查中，但目前沒有可供修復的估計時間。
 
 - <sup>1</sup>自動語音 **應答中的來電來源** 和通話佇列圖形會顯示最後一個通話列源，而不是初始通話列源。 例如，如果自動語音應答接聽外部來電，並將通話轉接到另一個自動語音應答或通話佇列，則來 **電來源** 會被回報為 [內部]。
 
 ## <a name="version-history"></a>版本歷程記錄
+
 |版本  |發佈日期     |檔案名                                                           |描述                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|3.0.1    |2022 年 10 月 26 日   |Teams 自動語音應答&通話佇列歷史報告 V3.0.0        |已移除測試資料來源專案                   |
+|3.0.0    |2022 年 10 月 25 日   |Teams 自動語音應答&通話佇列歷史報告 V3.0.0        |新的後端資料來源                             |
 |1.63     |2022 年 8 月 24 日    |CQD Teams 自動語音應答&通話佇列歷史報告 V1.63.pbit |請參閱：<br>CQD Teams 自動語音應答&通話佇列歷程記錄報告 - 變更下載 zip 檔案中Log.docx變更變更清單                                                                             |
 |1.60     |2022 年 7 月 22 日      |CQD Teams 自動語音應答&通話佇列歷史報告 V1.60.pbit |請參閱：<br>CQD Teams 自動語音應答&通話佇列歷程記錄報告 - 變更下載 zip 檔案中Log.docx變更變更清單                                                                             |
 |1.00     |2020 年 11 月 5 日   |CQ 和 AA 合併分析 20201105.pbit                         |初次發行                                     |
-
-
 

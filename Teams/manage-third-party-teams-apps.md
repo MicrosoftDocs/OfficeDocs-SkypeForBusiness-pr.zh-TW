@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何管理整個 Microsoft 365 的 Teams 應用程式存取權。
-ms.openlocfilehash: ae11a72324bb4382012c751150a254773c9145b7
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680554"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738799"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>管理整個 Microsoft 365 的 Teams 應用程式存取權
 
 除了在 Teams 中運作的應用程式之外，應用程式開發人員還可以增強他們的 Microsoft Teams在 Outlook 中和 Office.com 上。 使用者可以在 Teams 上、Microsoft Outlook 和 Microsoft Office.com 上使用增強型應用程式。 目前，只有 [已設定目標發行](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) 版中的使用者可以在 Teams、Outlook 和 Office.com 中檢視和使用這些特定應用程式。 [訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280) 提供有關此變更的通知。
 
-## <a name="manage-the-enhanced-apps-access-microsoft-365"></a>管理增強型應用程式存取 Microsoft 365
+## <a name="manage-users-access-to-the-enhanced-apps"></a>管理使用者對增強型應用程式的存取權
 
 現有的 Teams 系統管理員體驗適用於控管這些應用程式的存取權。 Teams 系統管理員使用 Teams 系統管理中心來管理應用程式存取權。 身為 Teams 系統管理員，您可以允許特定的使用者使用增強型應用程式，或管理他們存取 Teams、Outlook 和 Office.com 中增強型應用程式的許可權。
 
