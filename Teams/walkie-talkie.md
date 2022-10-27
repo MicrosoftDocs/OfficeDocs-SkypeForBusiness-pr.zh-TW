@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c575e3eb41654a579ec09c67975490db3dce194d
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
+ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655829"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68743138"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
@@ -107,7 +107,7 @@ Teams 中的無線對講機需要網際網路連線。 您必須有下列網路�
 
 #### <a name="rugged-android-phones"></a>崎嶇不平的 Android 手機
 
-- 交叉處理 [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html)、 [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html)、 [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html)、 [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html)和 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
+- 交叉處理 [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html)、 [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html)、 [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html)、 [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html)和 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **] 按鈕**。 在 [專用] 按鈕 (1 或 2) ，選取 [ **長按**]，然後選擇 **[PTT 應用程式]**。 選取 [ **自訂]** 旁邊的藍色滾輪，然後選 **取 [Teams]**。
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) 和 [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - 手動設定：安裝 Teams 之後，移至 [**設定**  >  **程式化] 按鍵**。 根據裝置) ，選擇 **[PTT 鍵** ] 或 [ **按住** 不放 (]，然後選 **取 [Teams]**。
