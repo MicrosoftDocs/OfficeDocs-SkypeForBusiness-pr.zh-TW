@@ -4,7 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: ''
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 audience: Admin
 ms.collection:
@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
 description: 瞭解如何使用和管理適用于貴組織中的第一線員工的 Teams 原則套件。
-ms.openlocfilehash: 62a3d047da0f9174bc26d5a1e9c3ebe5f9467a49
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: bcfa865d8364ce025224ec67a841b81d3373270b
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047193"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784458"
 ---
 # <a name="teams-policy-packages-for-frontline-workers"></a>適用於前線員工的 Teams 原則套件
 

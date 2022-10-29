@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: farhazk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 3cf50824119111d34668f4717eaf38f92de8bc64
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655839"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784328"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理核准應用程式
 
@@ -214,7 +214,7 @@ Teams 中量身打造的第一線應用程式體驗可為擁有 [F 授權](https
 
 使用者可以從 Teams 核准應用程式建立新的核准，並檢視他們已傳送和接收的核准。 使用者無法存取其他人所建立的核准，除非他們是回應者或要求的檢視者。
 
-> [!Note]
+>[!Note]
 > 如果使用者是建立核准的聊天或頻道的一部分，就會被指派一個檢視者角色。 如果在建立核准時未提供他們該角色，他們即無法對要求採取動作。
 
 ## <a name="approvals-e-signature-integration"></a>核准電子簽名整合

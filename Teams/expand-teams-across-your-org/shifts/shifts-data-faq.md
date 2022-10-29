@@ -4,7 +4,7 @@ author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaku
 manager: samanro
-ms.topic: article
+ms.topic: conceptual
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -23,12 +23,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35aaa2ed083c4e8d52c6154f31fbfc537cee9cdc
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: a8b6620b86154ba3903024d3b48c53e717b204a5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046733"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784448"
 ---
 # <a name="shifts-data-faq"></a>Shifts 資料常見問題
 
@@ -106,7 +106,26 @@ Shifts Graph API 可讓您將 Shifts 資料與外部員工管理 (WFM) 系統整
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>Shifts 資料可以在租使用者對租使用者移轉中移動嗎？
 
-根據特定要求，您可以將班次資料從一個租使用者移轉到另一個租使用者。 請記住，不支援租使用者對租使用者移轉，但可以提出為客戶要求。
+若要將現有的 Shifts 資料移轉到另一個租使用者，您必須匯出日期範圍的 Shifts 排程、視需要修改使用者名稱 () ，然後將排程匯入目標租使用者。 您一次最多可以匯出 100 天的 Shifts 資料。 日期範圍可以是過去或未來。 如果您需要匯出資料超過 100 天的時間範圍，請重複此程式。
+
+在您移轉 Shifts 資料之前，請確定符合下列需求：
+
+- 目的地租使用者網域、團隊和團隊成員必須已經存在。 移轉不會建立團隊或變更團隊成員資格或擁有權。
+- Shifts 應用程式必須在目的地租使用者的團隊中設定，而且排程空白。 請記住，移轉並不會取代或刪除現有的資料。 這表示，如果小組有現有的排程，使用者可能會看到重複或衝突的班次，需要手動解決。
+- 開啟要求 (例如，未移轉擱置核准) 的調班和休假要求。 建議您在開始移轉資料之前關閉任何開啟的要求。
+
+以下是將 Shifts 資料移轉到另一個租使用者的步驟概觀。
+
+1. 在來源租使用者中，針對每個團隊匯出班次排程：
+    1. 在 [班次] 的 [**排程**] 頁面上，移至 [**其他選項 (...)**  >  **匯出排程]**。
+    1. 選取日期範圍。
+    1. 開啟 **[可以匯入的格式** 匯出]，然後選取 [ **匯出]**。 Shifts 排程資料會匯出至 Excel 檔案。
+1. 移轉時，如果有任何小組成員要切換其電子郵件網域，請手動更新 Excel 檔案，將這些使用者的使用者主體名稱 (UPN) 變更為目的地租使用者網域。
+1. 在目的地租使用者中，將排程匯入至每個團隊。
+    1. 在 [班次] 的 [**排程**] 頁面上，移至 [**其他選項 (...)**  >  **匯入排程]**。
+    1. 選 **取 [上傳檔案**]，移至該小組的 Excel 檔案，然後選取 [ **開啟]**。
+
+若要深入瞭解，請參閱 [Shifts 的 Excel 範本](https://support.microsoft.com/office/the-excel-template-for-shifts-6fc6a206-e7cc-4907-87b8-a296bae84ce3)。
 
 ## <a name="related-articles"></a>相關文章
 

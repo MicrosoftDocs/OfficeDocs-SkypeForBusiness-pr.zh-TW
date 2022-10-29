@@ -4,7 +4,7 @@ author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b51ba430a68e4b8979973ec5051036df39280e22
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 214ae4f925f3a33e82fb4eac8186f02e0a65cbc2
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656139"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784418"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的更新應用程式
 
@@ -147,5 +147,5 @@ Teams 中的 更新 應用程式目前不支援針對 Microsoft Teams 設定的�
 
 從 Teams 更新 應用程式，使用者可以存取建立新的更新，並檢視他們已傳送和接收的更新。 使用者將無法存取由其他人建立的更新，除非他們是要求的查看者。
 
-> [!Note]
+>[!Note]
 > 如果使用者是建立更新報告所在之聊天或頻道的一部分，或是範本建立者手動將他們新增為檢視器，則會獲得要求的檢視器角色。 如果在建立報表時未給予該角色，他們將無法對要求採取動作。
