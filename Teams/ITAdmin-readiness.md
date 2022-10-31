@@ -18,12 +18,12 @@ ms.custom:
 description: 訓練影片、PowerPoint 投影片組、教學課程，以及系統管理員如何規劃、部署和執行 Microsoft Teams 的其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784348"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792812"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -63,9 +63,9 @@ ms.locfileid: "68784348"
 
 <h2>TEAMS 會議室 IT & AV 專業版基礎</h2>
 
-<p>下表包含完整影片訓練的連結，以及隨附的 PowerPoint 投影片組， (PDF 格式) ，Microsoft Teams 會議室。  
+<p>下表包含 Microsoft Teams 會議室 版 PowerPoint 中完整訓練組的連結。  
 
-| 模組 | PowerPoint 投影片組 (PDF)   |
+| 模組 | PowerPoint 投影片組  |
 | ------------ | -------------------- |
 | 模組 1：Microsoft Teams 會議室 簡介  | [甲板](https://aka.ms/TeamsRoomsModule1) |
 | 模組 2：網路整備  | [甲板](https://aka.ms/TeamsRoomsModule2) |

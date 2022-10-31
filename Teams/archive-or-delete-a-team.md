@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c8dfed94153ec7afec95da9e71e1bfe58be28c
-ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "67457143"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792782"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 
@@ -48,7 +48,7 @@ ms.locfileid: "67457143"
     ![Teams 封存訊息的螢幕擷取畫面。](media/teams-archive-message.png)
 
 4. 若要防止人員編輯 SharePoint 網站中的內容，以及與小組相關聯的 Wiki 索引標籤，請選取 [ **讓小組成員唯讀 SharePoint 網站]**。  (Teams 擁有者仍然可以編輯此內容。) 
-5. 選取 [封存] 以封存小組。 團隊的狀態會變更為 [ **已封存**]，它會移至位於團隊清單底部的 **[隱藏的團隊** ] 內，並在旁邊新增一個代表封存狀態的小圖示。
+5. 選取 [封存] 以封存小組。 團隊的狀態會變更為 [ **已封存**]，暫時可在位於團隊清單底部的 [ **隱藏的團隊** ] 內使用，並在旁邊新增一個代表封存狀態的小圖示。 從 **[隱藏的團隊** ] 中移除後，它就會出現在 [封存] 下的 [ **管理團隊** ] **檢視中**。 若要檢視及搜尋封存團隊的內容，請在 [ **封存** ] 清單中選取其名稱。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中
 

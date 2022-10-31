@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046653"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792792"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>對 Microsoft Teams 中的內容進行電子檔探索調查
 
@@ -58,7 +58,7 @@ ms.locfileid: "68046653"
 |表||
 |Teams 視訊剪輯 (TVC) |在 2022 年 10 月) 中以滑鼠右鍵按一下預覽 (搜尋，以「視訊剪輯」關鍵字和「另存新檔」為每個 TVC 附件的.mp4檔案來搜尋 TVC。 在電子檔探索檢 [閱集](/microsoft-365/compliance/add-data-to-review-set)中可探索到 TVC 資料。
 
-<sup>1</sup> 會議 (和通話) 中繼資料包含下列專案：
+<a name="teams-metadata"></a><sup>1</sup> 會議 (和通話) 中繼資料包含下列專案：
 
 - 會議開始和結束時間，以及持續時間
 - 每位參與者的會議加入和離開活動

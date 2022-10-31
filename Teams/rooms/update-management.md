@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 會議室專業管理更新管理
+title: Microsoft Teams 會議室專業版管理更新管理
 author: altsou
 ms.author: altsou
 manager: serdars
@@ -17,17 +17,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 主動監控您的會議室。
 f1keywords: ''
-ms.openlocfilehash: bddfc17df4f6fc7bd28e2dcc00fc55b5653b8687
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: 285f0bd9862dc5d4c490587e574aa53e4869df80
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243754"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792872"
 ---
 # <a name="update-management"></a>更新管理 
 現代化會議室配備Microsoft Teams 會議室裝置及其他周邊設備，例如相機、麥克風或喇叭，以及可能更多裝置，以建立包容性且有效的會議體驗。 來自不同 OEM 類型的設備提供所需的確切組織體驗;不過，必須持續維護軟體和韌體。  
 
-Microsoft Teams 會議室專業管理提供保證，讓貴組織中的每個會議室維持在建議的層級，以提供隨時準備就緒且正常運作的會議室。 Microsoft 的目標是為您的營運員工降低智慧與自動化的複雜度和工作步調。 疑難排解或診斷會儘快執行。 
+Microsoft Teams 會議室專業版管理會保證貴組織中的每一個會議室都會維持在建議的層級，以提供隨時準備就緒且正常運作的會議室。 Microsoft 的目標是為您的營運員工降低智慧與自動化的複雜度和工作步調。 疑難排解或診斷會儘快執行。 
 
 ## <a name="transitioning-a-device-to-pro-management"></a>將裝置轉換為專業管理 
 上線至專業管理的會議室裝置通常會有與我們指導方針不同的變更管理歷程記錄和做法。  
@@ -54,7 +54,7 @@ Microsoft Teams 會議室專業管理提供保證，讓貴組織中的每個會�
 |記錄同步處理服務  |應該會在 Logitech 會議室裝置上安裝並執行。 除非封鎖，否則系統會自動從 Windows 更新安裝必要的同步處理服務。 您也可以安裝完整的同步處理套件。 |
 |Windows 作業系統更新 |應保留啟用狀態，且不要重新導向至 WSUS，也不應從網路觀點封鎖。 不一定要使用 GPO 或 MDM 原則來管理作業系統更新。 |
 |Microsoft Store 更新   |應該會關閉。 如果開啟受管理的服務，將會關閉 Microsoft Store 更新。 |
-|防毒軟體 |如果您在這些裝置上執行 AV 軟體，您應該確保 AV 已針對 Teams 和 Skype dlls 設定排除專案。 如需詳細資訊，請參閱這裡。 |
+|防毒軟體 |如果您在這些裝置上執行 AV 軟體，您應該確保 AV 已針對 Teams 和 Skype dlls 設定排除專案。 如需詳細資訊，請參閱 [如何將 Teams 從防毒軟體或 DLP 應用程式中納入或排除](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp) 。 |
 |其他軟體 |應使用 Managed Services 檢閱其他軟體，例如協力廠商遠端桌面檢視等，以排除副作用。 |
 |其他變更管理|可能會干擾已涵蓋的更新，且不應導入。 |
 
