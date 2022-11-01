@@ -23,12 +23,12 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 659692af6a1236510d5b4572e66cbd299aa92c41
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 088515e6d9d4fe9e6dc893d736f7baac1148c731
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046493"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808282"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&會議的 Teams 原則型錄製簡介
 
@@ -228,6 +228,7 @@ IT 系統管理員可以建立並指派合規性錄製原則，決定要錄製�
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |深入解析技術 |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
+|Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
 |NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
@@ -245,7 +246,6 @@ IT 系統管理員可以建立並指派合規性錄製原則，決定要錄製�
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/) |
 
 

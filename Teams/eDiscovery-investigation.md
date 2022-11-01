@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 8a9e7afdf55fbcb85dcbbf907ef974a62e4e8492
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792792"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808292"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>對 Microsoft Teams 中的內容進行電子檔探索調查
 
@@ -53,7 +53,7 @@ ms.locfileid: "68792792"
 |會議中繼資料<sup>1</sup>||
 |頻道名稱||
 |報價|可搜尋引用的內容。 不過，搜尋結果不會指出已引用內容。|
-| (贊、心和其他反應等反應) |2022 年 6 月 1 日之後，所有商業客戶都支援反應。 在此日期之前所出現的圖釋不適用於電子檔探索。 我們已規劃政府雲端支援。 圖釋沒有法律保留支援。|
+| (贊、心和其他反應等反應) |2022 年 6 月 1 日之後，所有商業客戶都支援反應。 在此日期之前所出現的圖釋不適用於電子檔探索。 現已支援展開的圖釋。 若要瞭解反應歷程記錄，內容必須受到法律保留。|
 |主題||
 |表||
 |Teams 視訊剪輯 (TVC) |在 2022 年 10 月) 中以滑鼠右鍵按一下預覽 (搜尋，以「視訊剪輯」關鍵字和「另存新檔」為每個 TVC 附件的.mp4檔案來搜尋 TVC。 在電子檔探索檢 [閱集](/microsoft-365/compliance/add-data-to-review-set)中可探索到 TVC 資料。
@@ -107,7 +107,7 @@ Microsoft Teams 資料會在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
 
 執行這些步驟之前，請確定您已安裝 [最新版本的 Teams PowerShell 模組](teams-powershell-overview.md) 。
 
-1. 執行下列命令以取得包含您要搜尋之共用頻道的團隊識別碼群組識別碼。
+1. 執行下列命令以取得包含您要搜尋之共用頻道之團隊的群組識別碼。
 
    ```powershell
    Get-Team -DisplayName <display name of the the parent team>
@@ -116,7 +116,7 @@ Microsoft Teams 資料會在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
    > [!TIP]
    > 執行 **Get-Team** Cmdlet 而不使用任何參數來顯示貴組織中所有 Teams 的清單。 清單包含每個團隊的群組識別碼和 DisplayName。
 
-2. 執行下列命令以取得上層團隊中的私人頻道清單。 使用您在步驟 1 中取得之團隊的群組識別碼。
+2. 執行下列命令以取得上層團隊中的私人頻道清單。 使用您在步驟 1 中取得之小組的群組識別碼。
 
    ```PowerShell
     Get-TeamChannel -GroupId <parent team GroupId> -MembershipType Private
@@ -204,17 +204,17 @@ Microsoft Teams 資料會在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
    Start-ComplianceSearch <search name>
    ```
 
-6. 移至 [https://compliance.microsoft.com](https://compliance.microsoft.com) ，然後按一下 **[顯示所有**  >  **內容搜尋]**。
+6. 移至 [https://compliance.microsoft.com](https://compliance.microsoft.com) ，然後選取 **[顯示所有**  >  **內容搜尋]**。
 
 7. 在搜尋清單中，選取您在步驟 4 中建立的搜尋以顯示飛出視窗頁面。
 
 8. 在飛出視窗頁面上，您可以執行下列動作：
 
-   - 按一下 **[檢視結果** ] 以檢視搜尋結果並預覽內容。
+   - 選 **取 [檢視結果** ] 以檢視搜尋結果並預覽內容。
 
-   - 按一下 [ **查詢]** 欄位旁的 [ **編輯** ] 編輯，然後重新執行搜尋。 例如，您可以新增搜尋查詢以縮小結果範圍。
+   - 在 [ **查詢]** 欄位旁邊，選取 **[編輯** ] 編輯，然後重新執行搜尋。 例如，您可以新增搜尋查詢以縮小結果範圍。
 
-   - 按一下 **[匯出結果** ] 以匯出並下載搜尋結果。
+   - 選 **取 [匯出結果** ] 以匯出並下載搜尋結果。
 
 ## <a name="search-for-card-content"></a>搜尋卡片內容
 
@@ -245,7 +245,7 @@ Microsoft Teams 資料會在 Excel eDiscovery 匯出輸出中顯示為 IM 或交
 
 - **非同盟**：在與貴組織使用者和來賓使用者的 Teams 會議中，只有主持 Teams 會議之組織的系統管理員可以搜尋會議聊天訊息中的內容。
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
 - [Microsoft 365 電子檔探索解決方案](/microsoft-365/compliance/ediscovery)
 - [開始使用 eDiscovery (Standard) ](/microsoft-365/compliance/get-started-core-ediscovery)
