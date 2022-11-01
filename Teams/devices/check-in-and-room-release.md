@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: 本文提供如何啟用簽入和會議室發行 Teams 面板裝置的指導方針。
-ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
-ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
+ms.openlocfilehash: d5998049faf1e3c8c25b3e49470291bb20f97eea
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67298323"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801854"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams 面板上的簽入和會議室發行
 
@@ -41,7 +41,7 @@ ms.locfileid: "67298323"
 
 2. 移至 [**設定] > [裝置設定] > 管理員設定> Teams 系統管理設定>會議]**。
 
-3. 如果沒有人登入，請開啟發行室。
+3. 如果沒有人登入，請開啟 **發行室**。
 
 4. 若要調整使用者在會議室發行前必須存回的時間，請移至 [在下列 **之後發行]** ，然後從下拉式清單中選取選項。  
 

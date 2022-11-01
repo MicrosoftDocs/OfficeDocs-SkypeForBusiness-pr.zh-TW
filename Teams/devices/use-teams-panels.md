@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供如何使用 Teams 面板裝置的指導方針。
-ms.openlocfilehash: f9d67ce6c41e351239457edc4a605964c7bcae27
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268438"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801774"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用 Microsoft Teams 面板
 
@@ -171,27 +171,20 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 
 ### <a name="access-panels-app-settings"></a>Access 面板應用程式設定
 
-您可以使用 [管理設定] 底下的 [**面板應用程式設定**] 選項來存取 **面板應用程式** 的特定設定。 存取 **面板應用程式設定的** 步驟可能會根據您裝置的 OEM 而有所不同。
+您可以使用 [系統管理設定] 底下的 **[Teams** 系統管理設定] 選項來存取 **面板應用程式** 的特定設定。 存取 Teams 系統 **管理員設定的** 步驟可能會根據您裝置的 OEM 而有所不同。
 
-若要存取 **[面板應用程式設定]** 選項：
+若要存取 **Teams 系統管理員設定** 選項：
 
 1. 點選主畫面上的 [ **設定]** 圖示。
 2. 在 [ **設定] 畫面上** ，點選 [ **裝置設定]**。
-3. 點選 **[管理員設定]**。
 
     > [!NOTE]
     > 視您裝置的 OEM 而定，您可能需要立即或在下一個步驟之後輸入裝置系統管理員密碼。
 
-4. 向下捲動以尋找 **[面板應用程式設定]** 選項。 點選它。
-5. 點選右側畫面上的 [ **面板應用程式設定** ] 按鈕。
-    畫面上會顯示可用的 **面板應用程式** 設定。
+3. 向下捲動以尋找 **Teams 系統管理設定** 選項。 點選它。
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此螢幕擷取畫面會顯示具有可用 [面板] 應用程式設定的螢幕。":::
-
-    使用此畫面來更新您裝置的下列 **面板應用程式** 設定：
-
-    - [壁紙](#update-the-wallpaper)
-    - [LED 指示器](#change-the-busy-state-led-color)
+> [!NOTE]
+> 有些 OEM 可能會以自己的自訂選項取代 **Teams 系統管理員設定** 選項。 如果您沒有看到 **[Teams 系統管理員設定** ] 選項，請查看您的裝置檔，以取得如何存取面板的系統管理員設定的指示。
 
 #### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>將Teams 面板與 Android 上的 Microsoft Teams 會議室配對
 
@@ -199,11 +192,11 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 
 在Teams 面板上，使用您的系統管理員認證登入。
 
-1. 移至 **[設定] > [裝置設定] > 管理員 [設定] >面板應用程式設定>會議>裝置配對]。**
+1. 移至 [ **裝置>設定] > Teams 系統管理設定>裝置配對]。**
 
 2. Android 會議室顯示器前方的Teams 會議室上會顯示六位數的代碼。 在 Teams 面板上輸入代碼。  
 
-#### <a name="meeting-check-in-and-room-release"></a>會議簽入和會議室版本
+#### <a name="enable-or-disable-meeting-check-in-and-automatic-room-release"></a>啟用或停用會議簽入和自動會議室發行
 
 簽入和會議室發行設定可讓使用者在會議開始時所保留的會議室，存回 Teams 面板會議。 如果使用者在會議開始時間之後的一定時間內沒有存回，會議室便會釋出，可供其他人預約。
 
@@ -211,29 +204,49 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 
 若要啟用簽入和會議室版本，請參閱 [Microsoft Teams 面板上的簽入和會議室發行](check-in-and-room-release.md)。
 
-#### <a name="room-capacity-warning"></a>會議室容量警告
+#### <a name="enable-or-disable-check-out-manual-room-release"></a>啟用或停用手動會議室發行 () 
 
-在 Android 上與 Teams 會議室配對的 Teams 面板，當會議室的容量超過或超過容量時，可能會顯示警告訊息。 若要使用此功能，Teams 會議室必須具有支援使用者計數的相機。 Teams 會議室 Android 支援會議室容量警告，沒有Teams 面板。
+啟用取出功能時，使用者可以使用Teams 面板手動釋出聊天室。 釋出聊天室會結束目前的預約，並讓其他人可以排程該聊天室。
 
-會議室容量警告預設為關閉。 若要從Teams 面板開啟設定，請先[將Teams 面板與 Android 上的 Microsoft Teams 會議室配對](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)。 面板和 Teams 會議室必須登入相同的資源帳戶。
+此功能預設為停用，但可以每個裝置啟用。 若要啟用此功能，請移至 [ **設定>裝置設定] > Teams 系統管理員設定>會議** ]，然後開啟 [ **取出]**。
 
- 然後，移至 [**設定] > [裝置設定] > 管理員設定> [面板] 應用程式設定**。 然後在 [ **會議]** 底下，開啟 **[最大會議室] 通知**。
+> [!NOTE]
+> 如果配對的Teams 會議室裝置正在進行通話，則無法使用Teams 面板釋出聊天室。
 
-#### <a name="view-room-equipment"></a>檢視會議室設備
+#### <a name="enable-or-disable-room-reservations"></a>啟用或停用會議室預約
+
+啟用會議室預約時，使用者可以使用Teams 面板來預約目前可用的會議室。 [保留 **] 按鈕點** 選時即開始保留，其持續時間可以 15 分鐘為增量，最長可達下一次保留的開始時間，或最多 24 小時。
+
+此功能預設為啟用，但可以每個裝置停用。 若要停用此功能，請移至 [ **設定>裝置設定] > Teams 系統管理員設定>會議** ]，然後開啟 [ **停用會議室預約]**。
+
+#### <a name="enable-or-disable-extension-of-existing-room-reservations"></a>啟用或停用現有會議室保留的擴充功能
+
+啟用會議室預約擴充功能時，如果在預約的原始結束時間之後可以使用該聊天室，使用者就可以使用Teams 面板來擴充會議室的現有預約。 預約可在下一場會議開始時間前以 15 分鐘為增量，或未來最多可延長 24 小時，以時間較早者為准。
+
+此功能預設為停用，但可以每個裝置啟用。 若要啟用此功能，請移至 [ **設定>裝置設定] > Teams 系統管理員設定>會議** ]，然後開啟 [ **延伸會議室保留]**。
+
+#### <a name="enable-or-disable-room-capacity-warnings"></a>啟用或停用會議室容量警告
+
+在 Android 上與 Teams 會議室配對的 Teams 面板，當聊天室的容量超過或超過容量時，可能會顯示警告訊息。 若要使用此功能，Teams 會議室必須具有支援使用者計數的相機。 Teams 會議室 Android 支援會議室容量警告，沒有Teams 面板。
+
+會議室容量警告預設為停用，但可以每個裝置啟用。 若要啟用此功能，請執行下列動作：
+
+1. 依照在[Android 上將Teams 面板與 Microsoft Teams 會議室配對](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)中的步驟進行。 面板和 Teams 會議室裝置必須登入相同的資源帳戶。
+2. 移至 [ **設定] > [裝置設定] > Teams 系統管理員設定>會議** 並開啟 **[最大會議室] 通知**。
+
+#### <a name="enable-or-disable-viewing-of-room-equipment"></a>啟用或停用檢視會議室設備
 
 當此功能開啟時，使用者可以檢視Teams 面板空間中可用的設備。
 
-此功能預設為關閉，而且可在每個裝置上啟用。 若要將它開啟，請使用 PowerShell 中的[Set-Place](/powershell/module/exchange/set-place?view=exchange-ps)來設定 、 `DisplayDeviceName` 、、 `VideoDeviceName` 及 `Tags` `IsWheelChairAccessible` 的顯示名稱 `AudioDeviceName` 。
+此功能預設為關閉，而且可在每個裝置上啟用。 若要將它開啟，請使用 PowerShell 中的[Set-Place](/powershell/module/exchange/set-place)來設定 、 `DisplayDeviceName` 、、 `VideoDeviceName` 及 `Tags` `IsWheelChairAccessible` 的顯示名稱 `AudioDeviceName` 。
 
 或者，您可以在 Exchange 系統管理中心啟用這項功能。 如 [需詳細資訊，](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 請參閱編輯資源。
-
-
 
 #### <a name="update-the-wallpaper"></a>更新桌布
 
 變更主畫面桌布影像。
 
-1. [Access **面板應用程式設定**](#access-panels-app-settings)。
+1. [存取 **Teams 系統管理設定**](#access-panels-app-settings)。
 2. 點選 **[桌布]**。
 3. 從 **[選擇您的影像**] 中，選取要設定為主畫面背景影像的影像。 在 [背景] 底下預覽選取的 **影像**。
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="此螢幕擷取畫面會顯示桌布設定畫面。":::
@@ -243,7 +256,7 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 
 系統管理員可以選擇紅色或紫色做為 LED 色彩，表示會議空間為忙碌或保留。 表示可用空間的 LED 色彩一律是綠色，無法變更。
 
-1. [Access **面板應用程式設定**](#access-panels-app-settings)。
+1. [存取 **Teams 系統管理設定**](#access-panels-app-settings)。
 2. 點 **選 [LED 設定]**。
 3. 從 **[選擇您的 LED 色彩**] 中，選取您想要的色彩。
 :::image type="content" source="../media/panels-led-settings.png" alt-text="此螢幕擷取畫面顯示 LED 色彩忙碌狀態設定。":::

@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: b5d3aa5e3bf56f5fe5a3c0ecef428b2d7a3c7dce
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614636"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801886"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>針對端對端 Microsoft Teams 通話使用端對端加密
 
@@ -65,6 +65,8 @@ E2EE 通話期間無法提供下列進一步功能：
 - 新增參與者
 
 - 錄製
+
+- 應用程式
 
 此外，如果貴組織使用合規性錄製，則無法使用端對端加密。 如需 Teams 如何支援合規性錄製的詳細資訊，請參閱 [通話和會議記錄的 Teams 原則型錄製](teams-recording-policy.md)。
 

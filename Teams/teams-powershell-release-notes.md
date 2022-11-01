@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50d5520233ab60d5837c2d7fdc1e9372d92d32da
-ms.sourcegitcommit: a4307c1d1ee2dcf3a0c0b31e6c2473abf52b7097
+ms.openlocfilehash: 52bb4fda3e9aba1785338f0c4d15d50f595caf42
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "68669695"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801794"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,6 +31,7 @@ ms.locfileid: "68669695"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 10 月 | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>GA 中的 Releases [Get \| Set]-CsTeamsEducationConfiguration Cmdlets。</li><li>包含 [新取得集移除] -CsTeamsFeedbackPolicy、[New \| Get \| Set \| Remove]-CsTeamsMessagingPolicy、[New \| Get \| Set \| Remove]-CsTeamsMeetingPolicy 和 [New \| Get \| Set \| Remove]-CsOnlineVoicemailPolicy 的新實作。 \| \| \| 功能與先前的實作相同。</li><li>將 ExplicitRecordingConsent、ForceStreamingAttendeeMode 參數新增至 TeamsMeetingPolicy。</li><li>新增描述、PreambleAudioFile、PostambleAudioFile、PreamblePostambleMandatory 參數至 OnlineVoicemailPolicy。</li><li>將 AllowChatWithGroup 參數新增至 TeamsMessagingPolicy。</li><li>將 EnableFeatureSuggestions 參數新增至 TeamsFeedbackPolicy。</li><li>版本Update-CsTeamsShiftsConnectionInstance Cmdlet。</li>
 | 2022 年 10 月 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>包含 [New Get Set Remove]-CsTeamsMessagingPolicy、[New \| Get \| Set \| Remove]-CsTeamsMeetingPolicy 和 [New \| Get \| Set \| Remove]-CsOnlineVoicemailPolicy 的新實作。 \| \| \| 注意：這些 Cmdlet 目前僅適用于 powershell.exe。 它們不適用於pwsh.exe。 我們會在下一個 GA 版本中修正此問題。</li><li>將 ExplicitRecordingConsent、ForceStreamingAttendeeMode 參數新增至 TeamsMeetingPolicy。</li><li>新增描述、PreambleAudioFile、PostambleAudioFile、PreamblePostambleMandatory 參數至 OnlineVoicemailPolicy。</li><li>將 AllowChatWithGroup 和 EnableFeatureSuggestions 參數新增至 TeamsMessagingPolicy。</li><li>版本Update-CsTeamsShiftsConnectionInstance Cmdlet。</li>
 | 2022 年 10 月 | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[取得 \|New]-CsTeamsShiftsConnectionTeamMap Cmdlets - 已新增 TimeZone 屬性。</li><li>從 Set-CsOnlineDialinConferencingUser 移除 SendEmailFromAddress 和 SendEmailFromDisplayName 輸入參數。</li><li>從 Set-TeamsAcsFederationConfiguration 移除 AllowAllAcsResources 和 BlockedAcsResources 參數。</li><li>將 ForceListenMenuEnabled 參數新增至 New-CsAutoAttendantCallFlow、New-CsAutoAttendant 和 Set-CsAutoAutoAttendant 中的通話流程設定。 此設定可讓租使用者在播放問候語/功能表選項時忽略 DTMF/語音輸入。</li>
 | 2022 年 9 月 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>在預覽中Connect-MicrosoftTeams中發行應用程式型驗證支援。 支援的 Cmdlet 正在逐步推出，Teams [PowerShell 模組中的應用程式型驗證](teams-powershell-application-authentication.md)有更多詳細資料。</li><li>版本 [取得 \| 集合]-CsTeamsEducationConfiguration Cmdlets in private Preview.</li><li>[取得 \|New]-CsTeamsShiftsConnectionTeamMap Cmdlets - 已新增 TimeZone 屬性。</li><li>從 Set-CsOnlineDialinConferencingUser 移除 SendEmailFromAddress 和 SendEmailFromDisplayName 輸入參數。</li><li>從 Set-TeamsAcsFederationConfiguration 移除 AllowAllAcsResources 和 BlockedAcsResources 參數。</li>

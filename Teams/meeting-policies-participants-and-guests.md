@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理參與者和來賓的會議原則設定。
-ms.openlocfilehash: 5b489f312dd1fd1fcd9bdb6a301a65e76ab9ed91
-ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
+ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "68018089"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801784"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -34,17 +34,23 @@ ms.locfileid: "68018089"
 
 - [讓匿名人員加入會議](#let-anonymous-people-join-a-meeting)
 - [讓匿名人員開始會議](#let-anonymous-people-start-a-meeting)
+- [誰可以在會議中簡報](#who-can-present-in-meetings)
 - [自動准許人員](#automatically-admit-people)
-- [允許撥入使用者無需先在大廳等候](#allow-dial-in-users-to-bypass-the-lobby)
+- [撥入式使用者可以略過大廳](#dial-in-users-can-bypass-the-lobby)
+- [立即在私人會議中開會](#meet-now-in-private-meetings)
 - [即時輔助字幕](#live-captions)
 - [在會議中聊天](#chat-in-meetings)
+- [Teams Q&A](#teams-qa)
+- [會議圖釋](#meeting-reactions)
+
+這些設定位於 Teams 系統管理中心，位於 [**參與者&來賓**] 區段的 [**會議**  >  **會議** 原則] 底下。
 
 > [!NOTE]
 > 加入會議的選項會因每個 Teams 群組的設定和連線方法而有所不同。 如果您的群組有音訊會議，並且使用它來連線，請參閱[音訊會議](/microsoftteams/audio-conferencing-in-office-365)。 如果您的 Teams 群組沒有音訊會議，請參閱[在 Teams 中加入會議](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>讓匿名人員加入會議
 
-此每個召集人設定可讓任何人以匿名使用者的身分加入會議，方法是選取會議邀請中的連結。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名使用者加入會議的能力也會受到貴組織層級的控制，而較嚴格的設定將會有效。 若要深入瞭解，請參閱 [使用 Microsoft Teams 系統管理中心來設定整個組織的原則](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
+此每個召集人設定可讓任何人以匿名使用者的身分加入會議，方法是選取會議邀請中的連結。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名使用者加入會議的能力也會受到貴組織層級的控制，而較嚴格的設定將會有效。 若要深入瞭解，請參閱 [使用 Microsoft Teams 系統管理中心來設定整個組織的原則](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
@@ -52,6 +58,20 @@ ms.locfileid: "68018089"
 
 > [!NOTE]
 > 如果關閉此設定，且撥入式使用者會先加入會議並置於大廳，則組織使用者必須使用 Teams 用戶端加入會議，才能允許使用者進入大廳。 撥入的使用者沒有可用的大廳控制項。
+
+## <a name="who-can-present-in-meetings"></a>誰可以在會議中簡報
+
+這是每一使用者原則。 此設定可讓您變更 Teams 用戶端的 [會議選項 **]** 中 [誰可以簡報?**]** 設定的預設值。 此原則設定會影響所有會議，包括「立即開會」會議。
+
+[誰可以簡報?**]** 設定可讓會議召集人選擇可以成為會議簡報者的人員。 若要深入了解，請參閱[變更 Teams 會議的參與者設定](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e)和 [Teams 會議中的角色](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
+
+若要在 Teams 中指定 [ **誰可以簡報？** ] 設定的預設值，請設定為原則中的下列其中一個設定：
+
+- **召集人，但使用者可以覆寫**：只有會議召集人可以是簡報者，所有會議參與者都指定為出席者。 此參數會與 Teams 中的 [只有我 **]** 設定對應。
+- **組織中的每個人都可以覆寫，但使用者可以覆寫**：組織中已驗證的使用者，包括來賓使用者，都可以是簡報者。 此設定會對應到 **Teams 中組織設定中的人員**。
+- **所有人，但使用者可以覆寫**：所有會議參與者都可以是簡報者。 這是預設值。 此設定會對應到 Teams 中的 [ **所有人** ] 設定。
+
+請記住，在您設定預設值之後，會議召集人仍然可以在 Teams 中變更此設定，並選擇誰可以在其排程的會議中簡報。
 
 ## <a name="automatically-admit-people"></a>自動准許人員
 
@@ -71,17 +91,21 @@ ms.locfileid: "68018089"
 |**組織中的人員、信任的組織和來賓**     |組織內經過驗證的使用者，包括來賓和受信任組織的使用者，無需在大廳等候即可直接加入會議。  匿名使用者在大廳中等候。   |
 |**組織中的人員**    |組織內經過驗證的使用者無需在大廳等候，即可直接加入會議。  來自信任組織、來賓和匿名使用者的使用者在大廳等候。          |
 |**僅限召集人**    |只有會議召集人可直接加入會議，而不需在大廳等候。 其他人，包括組織內已驗證的使用者、來賓、受信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams 用戶端會議選項頁面上，它會顯示為「僅自己」。          |
-|**僅邀請的使用者**    |只有受邀的使用者和會議召集人可以直接加入會議，而不必在大廳等候。 其他人，包括組織內已驗證的使用者、來賓、受信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams 用戶端會議選項頁面上，它會顯示為「我邀請人員」。 新增為通訊群組一部分的使用者必須經過大廳。      |
+|**僅邀請的使用者**    |只有受邀的使用者和會議召集人可以直接加入會議，而不必在大廳等候。 其他人，包括組織內已驗證的使用者、來賓、受信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams 用戶端會議選項頁面上，它會顯示為「人員我邀請」。 新增為通訊群組一部分的使用者必須經過大廳。      |
 
  > [!NOTE]
 > 信任的組織是您在 Teams 中允許同盟通訊的網域。 如果您在 Teams 系統管理中心啟用 **[允許外部存取的所有外部網域** ]，任何 Teams 組織內已驗證的使用者都會受到信任。 如果您選擇指定允許並封鎖所有其他的外部網域，則允許的網域會變成信任的組織。 任何封鎖的網域都被視為不是信任的組織。
 
-## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允許撥入使用者無需先在大廳等候
+## <a name="dial-in-users-can-bypass-the-lobby"></a>撥入式使用者可以略過大廳
 
 這是每一召集人原則。 此設定可控制透過電話撥入的人員是否直接加入會議，或是在大廳中等候，而不論 [自動准許人員 **]** 的設定為何。 此設定預設會關閉。 關閉此設定時，撥入使用者將在大廳中等候，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入為止。 開啟此設定時，當組織使用者使用 Teams 用戶端加入會議時，撥入式使用者會自動加入會議。
 
 > [!NOTE]
 > 如果撥入使用者在組織使用者加入會議之前加入會議，他們將會停留在大廳，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入會議為止。 如果您變更任何使用者的預設設定，它將會套用至該使用者召集的所有新會議，以及使用者未修改會議選項的任何先前會議。
+
+## <a name="meet-now-in-private-meetings"></a>立即在私人會議中開會
+
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以開始非計畫的私人會議。 此設定預設會開啟。
 
 ## <a name="live-captions"></a>即時輔助字幕
 
@@ -115,18 +139,22 @@ ms.locfileid: "68018089"
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="qa-in-meetings"></a>會議中的 Q&A
+## <a name="teams-qa"></a>Teams Q&A
 
-這是每一召集人原則。 此設定可讓 Microsoft 365 租使用者系統管理員啟用或停用 Q&A)  (問題&解答體驗。
+這是每一召集人原則。 此設定會開啟或關閉 Q&A)  (問題&解答體驗。
 
-此設定會在召集人建立或更新會議時強制執行。 此設定預設會關閉。 在這裡深入瞭解 Q [&A。](/manage-qna-for-meetings)
+此設定會在會議建立或召集人更新時強制執行。 此設定預設會關閉。 深入瞭解 [Teams 會議中的 Q&A](/manage-qna-for-teams)。
 
-參數 QnAEngagementMode 會在 PowerShell 中控制此原則。 您也可以在系統管理入口網站中調整 Q&A。
+參數 QnAEngagementMode 會在 PowerShell 中控制此原則。 Q&A 也可以在 Teams 系統管理中心內進行調整。
 
 |設定值 |行為  |
 |---------|---------|
-|**Enabled**     | 召集人在建立會議時可以新增 Q&A。 |
-|**已停用**     | 召集人無法在建立會議時選擇新增 Q&A。  |
+|**開啟**     | 召集人在建立會議時可以新增 Q&A。 |
+|**關閉**     | 召集人無法在建立會議時選擇新增 Q&A。  |
+
+## <a name="meeting-reactions"></a>會議圖釋
+
+會議圖釋預設為開啟。 關閉使用者的反應並不表示使用者無法在他們排程的會議中使用反應。 無論預設設定如何，會議召集人仍可從會議選項頁面開啟回應。
 
 ## <a name="enable-meeting-policy-settings"></a>啟用會議原則設定
 
