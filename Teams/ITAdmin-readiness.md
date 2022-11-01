@@ -18,12 +18,12 @@ ms.custom:
 description: 訓練影片、PowerPoint 投影片組、教學課程，以及系統管理員如何規劃、部署和執行 Microsoft Teams 的其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792812"
+ms.locfileid: "68795445"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -80,9 +80,9 @@ ms.locfileid: "68792812"
 
 <h2>Teams Android 裝置</h2>
 
-<p>下表包含包含 Teams 顯示器、Teams 手機、Android Teams 會議室 和 Teams 面板之 Microsoft Teams Android 裝置之 PDF 格式) 的 PowerPoint 投影片組 (完整訓練的連結。  
+<p>下表包含 Microsoft Teams Android 裝置上 PowerPoint 中完整訓練組的連結，其中包括 Teams 顯示器、Teams 手機、Android Teams 會議室 和 Teams 面板。  
 
-| 模組 | PowerPoint 投影片組 (PDF)   |
+| 模組 | PowerPoint 投影片組  |
 | ------------| -------------------- |
 | 模組 1：Microsoft Teams Android 裝置簡介  |[甲板](https://aka.ms/TeamsAndroidModule1) |
 | 模組 2：規劃 Microsoft Teams Android 裝置|[甲板](https://aka.ms/TeamsAndroidModule2) |

@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: f2db002a063f32052dec6facc70ecdca7dcc9454
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532273"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795455"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
@@ -301,6 +301,8 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個反身本機 IP 網路 | String | 媒體轉送伺服器所見，IP 子網 (第二個端點的 /24) 。 這通常是與串流第二個端點相關聯之公用網際網路 IP 位址的子網。 <br/>**範例值：** 52.114.5.0 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
 | 初次預估 VPN | Boolean | 表示透過虛擬私人網路 (VPN) 連線的機率很高。 <br/>**可能的值：** 0 或 1 | |
 | 預估第二個 VPN | Boolean | 表示透過虛擬私人網路 (VPN) 連線的機率很高。 <br/>**可能的值：** 0 或 1 | |
+| 第一次漫遊觸發程式 | 列舉 (字串)  | 指出第一個端點在通話中執行輕量型重新連線的最新原因，其中不包含訊號。 例如，端點會切換相同網路上的無線存取點。 <br/>**可能的值：** <br/> &bull;**遠端**- 傳送封包給對等，但對等不會收到 <br/> &bull;**ConsentKA** - Keep-Alive失敗;7 秒逾時，如果沒有對保留生命封包的回應 <br/> &bull;**介面**- 本機介面變更或折迭 <br/> &bull;**RelayDraining** - 服務維護 (預期)  | &bull; 未漫遊 <br/> &bull; 並非透過端點傳送資料 |
+| 第二次漫遊觸發程式 | 列舉 (字串)  | 表示第二個端點在未涉及訊號的通話中執行輕量型重新連線的次數。 例如，端點會切換相同網路上的無線存取點。 <br/>**可能的值：** <br/> &bull;**遠端**- 傳送封包給對等，但對等不會收到 <br/> &bull;**ConsentKA** - Keep-Alive失敗;7 秒逾時，如果沒有對保留生命封包的回應 <br/> &bull;**介面**- 本機介面變更或折迭 <br/> &bull;**RelayDraining** - 服務維護 (預期)  | &bull; 未漫遊 <br/> &bull; 並非透過端點傳送資料 |
 | 第一次漫遊計數 | 範圍 (整數)  | 表示第一個端點在未涉及訊號的通話中執行輕量型重新連線的次數。 例如，端點會切換相同網路上的無線存取點。 <br/>**範例值：** 064：[1 - 2)  | |
 | 第二次漫遊計數 | 範圍 (整數)  | 表示第二個端點在未涉及訊號的通話中執行輕量型重新連線的次數。 例如，端點會切換相同網路上的無線存取點。 <br/>**範例值：** 064：[1 - 2)  | |
 |**裝置**| |||

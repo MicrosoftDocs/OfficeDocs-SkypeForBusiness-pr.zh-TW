@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何將通話路由至貴組織中未指派的號碼。
-ms.openlocfilehash: 28f1ca3c60728c4a7a2153d7462afc8c7e78b366
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: 810c6b1547586d5494dbba3d0ddbdfc8d5d3c5e1
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480713"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795515"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>將通話路由到未指派的號碼
 
@@ -37,7 +37,44 @@ ms.locfileid: "68480713"
 
 您可以將通話路由至未指派的號碼給使用者、與自動語音應答或通話佇列相關聯的資源帳戶，或傳送公告服務，向來電者播放自訂音訊檔案。
 
-## <a name="configuration"></a>設定
+您可以使用 Teams 系統管理中心或使用 PowerShell 來設定未指派數位的路由。
+
+## <a name="use-teams-admin-center"></a>使用 Teams 系統管理中心
+
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[語音**  >  **電話號碼]**。
+
+2. 在 [ **路由規則] 索引** 標籤上，按一下 [ **新增]**。
+
+3. 為規則命名、描述，並指定規則的評估順序。
+
+4. 決定您要新增哪一種規則。 您可以選取預先設定電話號碼模式類型的規則，並完成模式和路由選項。 您也可以選取 [進階設定]，在其中直接輸入電話號碼模式和路由選項的正則運算式。
+
+5. 選取 [儲存 **]**。
+
+您也可以直接為未指派的電話號碼建立路由規則。
+
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[語音**  >  **電話號碼]**。
+
+2. 在 [ **號碼] 索引** 標籤上，選取未指派的電話號碼，然後按一下檢視頂端的 [ **路線** ]
+
+4. 為規則命名、描述，並指定規則的評估順序。
+
+4. 選取路由選項。
+
+5. 選取 [儲存 **]**。
+
+您可以使用測試編號功能來測試路由規則。
+
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[語音**  >  **電話號碼]**。
+
+2. 在 [ **路由規則] 索引** 標籤上，按一下 **[測試編號]**。
+
+3. 直接輸入電話號碼，或按一下 **[選取號碼]** ，然後從下拉式清單中選取其中一個未指派的電話號碼。
+
+4. 選 **取 [測試]**。
+
+
+## <a name="use-powershell"></a>使用 PowerShell
 
 若要將通話路由至未指派的號碼，請使用 Teams PowerShell 模組 2.5.1 或更新版本中提供的 New/Get/Set/Remove-CsTeamsUnasignedNumberMent Cmdlet。
 
@@ -45,7 +82,6 @@ ms.locfileid: "68480713"
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
-
 
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
@@ -72,9 +108,13 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 支援的自訂音訊檔格式為 WAV (未壓縮、單聲道或身歷聲) 深度為 8/16/32 位的線性 PCM、僅限 WMA (單聲道) ，以及 MP3。 音訊檔案內容不能超過 5 MB。
 
+> [!NOTE]
+> 您必須負責獨立清除及保護搭配 Microsoft Teams 服務使用任何音樂或音訊檔案的所有必要權利和許可權。 這可能包括所有相關權利持有者在音訊檔案中的任何音樂、音效、音訊、品牌、名稱及其他內容中的智慧財產權和其他權利。 持有者可能包括演出者、演出者、演出者、專輯、作曲者、記錄標籤、音樂發行者、專輯、同盟、權利召集人、集體管理組織，以及任何其他擁有、控制或授權音樂著作權、音效、音訊及其他智慧財產權的物件。
+
 - Microsoft Teams 的輸入通話和 Microsoft Teams 的撥出電話，都會根據未指派的號碼範圍檢查來電號碼。
 
 - 如果指定的模式/範圍包含指派給租使用者中的使用者或資源帳戶的電話號碼，這些電話號碼的呼叫將會路由至適當的目標，而不會路由至指定的未指派號碼處理。 不會對範圍中的數位進行其他檢查。 如果範圍包含有效的外部電話號碼，則會根據處理方式從 Microsoft Teams 撥出至該電話號碼。
+
 
 ## <a name="related-topics"></a>相關主題
 

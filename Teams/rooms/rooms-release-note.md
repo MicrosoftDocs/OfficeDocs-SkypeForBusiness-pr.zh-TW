@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
-ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
+ms.openlocfilehash: d861b5ec9b5b70ca18032462b042f10cd4f5b75a
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67607616"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795435"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -122,7 +122,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 - 僅限內容的管理員版面配置預設設定  
 - 新式驗證預設為開啟
 
- <sup>1</sup> 從 Teams 會議室裝置開啟來電的端對端加密之前，您必須先設定裝置使用者帳戶的原則。 您可以從 Teams 系統管理中心或使用 Teams PowerShell 更新使用者的原則。 如需詳細資訊，請參閱設定 [Teams 會議室使用者帳戶的原則。](../teams-end-to-end-encryption.md)
+ <sup>1</sup>從Teams 會議室裝置開啟來電的端對端加密之前，您必須先設定裝置使用者帳戶的原則。 您可以從 Teams 系統管理中心或使用 Teams PowerShell 更新使用者的原則。 如需詳細資訊，請參閱設定 [Teams 會議室使用者帳戶的原則。](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Teams 會議室在版本 4.12 中使用系統管理員覆寫來新增噪音抑制的支援。
 
@@ -273,7 +273,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 - 政府社群雲端高 (GCCH) Teams 會議室支援。 擁有現有Teams 會議室裝置的 GCCH 客戶可以從[手動更新Microsoft Teams 會議室裝置](manual-update.md)下載版本 4.8.19.0
 - 使用更好的視訊品質加入縮放會議 (720p 支援) 並接收參與者的視訊庫
 - 商務用 Skype已移除 Teams 預設模式的登入失敗橫幅。 這項變更支援組織移除商務用 Skype基礎結構
-- Teams 會議加入連結剖析現在處理 Microsoft Defender 進階威脅防護安全連結，以允許順暢地加入外部 Teams
+- Teams 會議加入連結剖析現在處理Microsoft Defender進階威脅防護安全連結，以允許順暢地加入外部 Teams
 - 修正當共用者的電腦在 Windows 中設定自訂 DPI 時，商務用 Skype會議中的共用內容縮放比例問題
 - 品質與可靠性修正
 

@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 83654452460da41bf72b0feca30d3373de1533ef
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784198"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795425"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
@@ -89,15 +89,37 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 ## <a name="understand-app-capabilities"></a>瞭解應用程式功能
 
-為了提供讓使用者在 Teams 內工作的豐富體驗，應用程式開發人員可運用下列應用程式功能。 訊息擴充功能可讓使用者與您的 Web 服務 Teams 用戶端互動。 它們會在外部系統中搜尋或開始動作。 您可以將互動結果以豐富的格式化卡片傳送給 Teams 用戶端。 會議擴充性應用程式整合了開發人員在會議中的應用程式，並提供回應式的會議內體驗。
+Teams 應用程式功能是可以在應用程式中內建的核心功能，以啟用整合和互動。
 
-Bot 也稱為聊天機器人或交談機器人。 它是執行簡單且重複的工作的應用程式。 聊天機器人互動可以是快速的問題與解答，也可以是提供存取服務或協助的複雜交談。 使用者可以與 Bot 一對一或頻道聊天。 例如，您可以使用 [Polly] 應用程式建立快速問卷、取得意見反應，以及執行脈搏檢查。
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="顯示 Microsoft Teams 應用程式應用程式功能的圖形。" border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-索引標籤是釘選在頻道或聊天頂端的 Teams 感知網頁。 索引標籤可讓您以類似網頁的體驗與內容和服務互動。 您可以在小組、群組聊天或個別使用者的個人應用程式內，新增索引標籤做為頻道的一部分。
+為了提供讓使用者在 Teams 中工作的豐富體驗，應用程式開發人員可使用下列功能建立應用程式：
 
-Webhooks 和連接器會從使用者經常使用提供內容和更新的服務 (例如 Jira Cloud 和 Bitbucket) 直接進入頻道交談。 使用此功能的應用程式可以與外部應用程式通訊，並可從外部服務傳送或接收通知和訊息。
+* **Bot**：Bot 也稱為聊天機器人或交談機器人。 它是執行簡單且重複的工作的應用程式。 聊天機器人互動可以是快速的問題與解答，也可以是提供存取服務或協助的複雜交談。 使用者可以在個人聊天、頻道或群組聊天中與 Bot 交談。 如需詳細資訊，請參閱 [Microsoft Teams 中的 Bot](/microsoftteams/platform/bots/what-are-bots)。
 
-訊息中心擴充功能是插入應用程式內容或處理郵件的快速鍵，使用者不需要離開交談。 訊息擴充功能可以具有搜尋命令，讓使用者快速找到外部內容，並將其插入郵件或動作命令中。
+  Teams 支援在私人聊天和頻道中使用 Bot。 系統管理員可以控制是否允許在 Microsoft 365 或 Office 365 組織中使用 Bot。 如需開啟或關閉自訂 Bot 的相關資訊，請參 [閱 Teams 系統管理中心的應用程式管理和控管概觀](manage-apps.md)。
+
+* **索引標籤**：索引標籤是釘選在頻道或聊天頂端的 Teams 感知網頁。 索引標籤可讓您以類似網頁的體驗與內容和服務互動。 它們是簡單的 HTML <iframe \> 標籤，指向應用程式資訊清單中宣告的網域，而且可以新增為個別使用者團隊、群組聊天或個人應用程式內頻道的一部分。 如需詳細資訊，請參閱 [Microsoft Teams 索引標籤](/microsoftteams/platform/tabs/what-are-tabs)。
+
+  在每個私人聊天中，預設會建立 [交談]、[檔案]、[組織] 和 [活動] 索引標籤。 除了這些內建索引標籤之外，開發人員還可以設計和新增自訂索引標籤。 如需詳細資訊，請參閱 [在 Teams 中使用內建和自訂索引標籤](/microsoftteams/platform/tabs/what-are-tabs)。
+
+* **Web 端子和連接器**：Web 端子和連接器可協助將 Web 服務連線到 Microsoft Teams 中的頻道和團隊。 Web 端子是使用者定義的 HTTP 回撥，會通知使用者 Teams 頻道中已執行的任何動作。 這是應用程式取得即時資料的一種方式。 連接器可讓使用者訂閱，以接收來自您 Web 服務的通知和訊息。 如需詳細資訊，請參閱 [網路任務和連接器](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
+
+  若要允許使用者在 Teams 中使用自訂連接器，請參閱 [在 Teams 中使用自訂連接器](office-365-custom-connectors.md)。
+
+* **訊息中心延伸** 模組：訊息擴充功能是插入應用程式內容或在訊息上採取行動的快速鍵，使用者不必離開交談。 使用者可以從撰寫郵件區域、命令方塊或直接從郵件中搜尋或啟動外部系統中的動作。 如需詳細資訊，請參閱 [訊息延伸模組](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet)。
+
+* **會議擴充** 功能：使用者可以整合會議中的索引標籤、Bot 和訊息擴充功能，增強會議體驗，提高會議生產力。 您可以識別各種參與者角色和使用者類型、取得會議事件，以及產生會議內對話方塊。 如需詳細資訊，請參閱 [Teams 會議相關應用程式](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings)。
+
+* **卡片和工作模組：卡** 片可為使用者提供各種視覺、音訊和可選取的訊息，以及交談流程中的說明。 工作模組可協助您在 Microsoft Teams 中建立模式快顯體驗。 它們對於開始和完成工作，或是顯示如影片或 Power business intelligence (BI) 儀表板等豐富資訊很有用。 如需詳細資訊，請參閱 [卡片和工作模組](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules)。
 
 若要檢視對應至 Teams 功能的常見使用案例，請參閱將 [您的使用案例對應至 Teams 應用程式功能](/microsoftteams/platform/concepts/design/map-use-cases)。
 
@@ -172,6 +194,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-article"></a>相關文章
+## <a name="related-articles"></a>相關文章
 
 * [深入瞭解 Teams 的應用程式範本](/microsoftteams/platform/samples/app-templates)。
+
+* [Teams 系統管理中心的應用程式管理和控管概觀](manage-apps.md)
+
+* [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
