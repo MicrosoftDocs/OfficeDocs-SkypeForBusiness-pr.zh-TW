@@ -17,23 +17,23 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 合作夥伴或客戶可以透過「記錄問題」手動開啟事件，以確保在專業管理入口網站正確報告會議室健康情況。
-ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: 8bfd3d5c0cc2e12c98564abd5d8ad26bde754f34
+ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218117"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "68810719"
 ---
 # <a name="record-an-issue-ticket"></a>錄製發行票證
 
-對於 MTR Pro 未加上標幟的任何類型事件，或只是要追蹤 MTR 或空間上的問題，客戶或合作夥伴代表客戶可以使用 [記錄問題] 功能。
-
-在 [描述] 欄位中，盡可能描述您需要 Microsoft 協助的問題。 您可以新增一或多個會議室。
-
-如果事件造成服務或重要空間的健康情況嚴重降級，請檢查 [  **高影響** ]。 若要協助 Microsoft 正確排列您要求的優先順序，請詳細描述這對您造成高影響的原因。
+針對 MTR Pro 未標幟的任何類型問題，客戶或合作夥伴代表客戶可以使用 [記錄問題] 功能。 這是為了協助追蹤您 **內部或合作夥伴** 支援的問題。 
 
 > [!NOTE]
-> 請勿將此欄位用於一般問題、會議室和/或沒有可用的緩和功能的問題。
+> Microsoft 不會監控記錄發行票證。 如果問題需要進一步的協助，請參閱這篇文章，瞭解如何[取得Microsoft Teams 會議室專業版管理的支援](https://aka.ms/mtrp/openingTickets)。
+
+在 [描述] 欄位中，盡可能描述問題。 您可以新增一或多個會議室。
+
+如果事件造成重要房間的健康情況嚴重降低，請檢查 **[高影響** ] 以提升您的支援重要性。
 
 當會議室 (或會議室) 選取為記錄問題的一部分時，每個聊天室都會標示為 **不正常** ，直到記錄的問題關閉為止。
 
@@ -49,7 +49,7 @@ ms.locfileid: "68218117"
 
    確認關閉原因後，票證就會關閉並移至 **[已解決]**。
 
-票證的 [詳細資料概觀] 區段會顯示由受管理的會議室服務 (Microsoft) 或客戶/合作夥伴的名稱關閉。  
+票證的 [詳細資料概觀] 區段會顯示該票證是以客戶/合作夥伴的名稱關閉。  
 
 ## <a name="faq"></a>常見問題集
 
