@@ -23,18 +23,18 @@ ms.custom:
 - admindeeplinkMAC
 - admindeeplinkTEAMS
 description: 瞭解如何為大廳、接收區域和會議室設定通用區域電話。
-ms.openlocfilehash: 74809ffdf4f11b91584f770e7dc817543fccc98e
-ms.sourcegitcommit: 3ad7b46e31890fba7abe739138cd49527d5ca6b7
+ms.openlocfilehash: 2a282526a0592c46c053e9c0319112a9238a6051
+ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2022
-ms.locfileid: "68475505"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "68836747"
 ---
 # <a name="set-up-common-area-phones-for-microsoft-teams"></a>為 Microsoft Teams 設定通用的區域電話
 
 常見的區域電話通常會放在大廳或其他區域，供許多人撥打電話：接收區、大廳或會議電話。 通用區域電話是以系結至 **通用區域電話** 授權的帳戶登入。
 
-本文將概略說明如何將 Teams 手機裝置部署及設定為共用空間的常見區域電話。 如需更完整的會議室體驗，包括音訊會議，請考慮使用Teams 會議室裝置購買專用 **Teams 會議室** 授權。
+本文將概略說明如何將 Teams 手機裝置部署及設定為共用空間的常見區域電話。 若要獲得更完整的會議室體驗，包括音訊會議，請考慮改為使用Teams 會議室裝置購買專用 **Teams 會議室** 授權。 如需Teams 會議室的詳細資訊，請參[閱Microsoft Teams 會議室](rooms/index.md)。
 
 ## <a name="overview"></a>概觀
 
@@ -112,6 +112,8 @@ ms.locfileid: "68475505"
 使用原則來控制哪些功能可供常用的區域電話使用者使用。
 
 ### <a name="ip-phone-policies"></a>IP 電話原則
+
+Teams IP Phone 原則只有在帳戶登入手機時授權使用 [通用區域電話] 授權以外的專案時，才能修改。  如果授權使用 Microsoft 365 E3 或 E5 訂閱，或是 Office 365 企業版 E1、E3 或 E5 訂閱，您可以修改 IP Phone 原則。  如果您在常用區域電話帳戶上使用會議室授權，則只能讓您使用 `MeetingRoomSignIn` 模式。 `MeetingRoomSignIn` 模式無法在大多數常見的區域電話上使用。 如需手機介面支援覆寫功能的詳細資訊，請參閱 [設定 Microsoft Teams Android 裝置使用者介面](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection)。 
 
 使用 Teams IP Phone 原則，設定 [SignInMode 參數](/powershell/module/skype/new-csteamsipphonepolicy#parameters) 以 `CommonAreaPhoneSignIn` 在 Teams 手機裝置上啟用常見區域電話體驗。
 
