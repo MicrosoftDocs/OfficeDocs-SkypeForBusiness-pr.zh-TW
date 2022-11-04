@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何設定來電轉接和委派的使用者設定。
-ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 7d1ab3252461d57a99956c90a011a43620c76bea
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397354"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851844"
 ---
 # <a name="configure-call-settings-for-your-users"></a>為您的使用者設定通話設定
 
@@ -152,6 +152,10 @@ Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
+
+## <a name="additional-notes"></a>其他筆記
+
+- 使用者或租使用者系統管理員從未修改過來電接聽規則的使用者預設行為是，未接聽的電話會在 30 秒後轉接至語音信箱。 在 Teams 管理員 中心或 Teams PowerShell 中為使用者顯示的設定會將未回答的目標顯示為無，並延遲 20 秒。
 
 ## <a name="related-topics"></a>相關主題
 

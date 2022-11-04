@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: 未取得 Microsoft Teams 授權的 Microsoft 365 或 Office 365 使用者可以起始 Exploratory Teams 授權。
+description: 沒有 Microsoft Teams 授權的 Microsoft 365 或Office 365使用者可以起始探索 Teams 授權。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5e5535be61aab03158aa11c68ebd3b753b3ca972
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376841"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851773"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
@@ -60,7 +60,7 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 - 有受管理的 Azure AD 網域電子郵件地址。
 - 屬於具有付費訂閱的租用戶。
 - 沒有有效的 Teams 授權。
-- 不在已建立授權指派原則的租用戶中。
+- 不在已建立授權指派原則的租使用者中。
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.
 
@@ -75,7 +75,7 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>使用者註冊 Teams Exploratory 體驗的方式
 
-合格的使用者可以透過登入 Teams 電腦版或網頁版 ([teams.microsoft.com](https://teams.microsoft.com)) 來註冊取得 Teams Exploratory 體驗。 目前不支援透過行動裝置啟用 Exploratory。 使用者註冊後，系統會自動指派此授權，且租用戶系統管理員在組織中的人員第一次啟動 Teams Exploratory 體驗時，將會收到電子郵件通知。
+合格的使用者可以透過登入 Teams 電腦版或網頁版 ([teams.microsoft.com](https://teams.microsoft.com)) 來註冊取得 Teams Exploratory 體驗。 目前不支援透過行動裝置啟用 Exploratory。 當他們註冊時，系統會自動指派此授權給他們，而租使用者系統管理員會在第一次您的組織中有人啟動 Teams Exploratory 體驗時收到電子郵件通知。
 
 ## <a name="manage-the-teams-exploratory-experience"></a>管理 Teams Exploratory 體驗
 
@@ -102,7 +102,7 @@ The Teams Exploratory experience comes with an Exchange Online license, but it w
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>管理具有包含 Teams 授權使用者的可用性
 
-A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience. When the Teams service plan is turned on, the user can sign in and use Teams. If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available. You must have admin privileges.
+已獲含 Teams 授權的使用者不符合 Teams Exploratory 體驗的使用資格。 開啟 Teams 服務方案後，使用者就可以登入並使用 Teams。 如果服務方案已停用，使用者就無法登入，而且無法使用 Teams Exploratory 體驗。 您必須具備系統管理員權限。
 
 若要關閉對 Teams 的存取：
 
@@ -139,10 +139,12 @@ You can manage users who have the Teams Exploratory license just like you manage
 
 ### <a name="upgrade-users-from-teams-exploratory"></a>從 Teams Exploratory 升級使用者
 
-您必須擁有系統管理員權限以從 Teams Exploratory 升級使用者。 如需詳細資訊，請參閱 [從 Teams Exploratory 升級使用者](upgrade-from-teams-exploratory.md)。
+您必須擁有系統管理員權限以從 Teams Exploratory 升級使用者。 如需詳細資訊，請參閱 [從 Teams Exploratory 試用版升級使用者](upgrade-from-teams-exploratory.md)。
 
 > [!NOTE]
-> If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams after a 30-days grace period. Another 30 days after which, the data is deleted. The user still exists in Azure Active Directory. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist if the user is added within the grace period time frame.
+> 如果 Teams Exploratory 授權終止，且使用者未立即升級至包含 Teams 的訂閱，他們在 30 天寬限期後便無法存取 Teams、OneDrive 和 Sharepoint。 30 天后，關聯的 Teams、OneDrive 和 SharePoint 資料就會刪除。 使用者仍然存在於 Azure Active Directory 中。
+> 
+> 一旦將新授權指派給使用者以再次啟用 Teams 功能，則如果在寬限期時間範圍內新增使用者，則所有內容仍將存在。
 
 ### <a name="remove-a-teams-exploratory-license"></a>移除 Teams Exploratory 授權
 
@@ -152,7 +154,7 @@ You can manage users who have the Teams Exploratory license just like you manage
 
 ## <a name="what-is-the-data-retention-policy"></a>什麼是資料保留原則
 
-請參閲 [Microsoft 365 訂閱資訊](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)。
+請參閲 [Microsoft 365 訂閱資訊](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)。
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 體驗持續時間
 
@@ -163,7 +165,7 @@ Teams Exploratory 將以 12 個月訂閱形式 (從使用者初始註冊起) 提
 
 ### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>在 12 個月的 Teams Exploratory 體驗結束時，系統管理員應該執行什麼動作
 
-在 12 個月訂閱結束時，系統管理員應將所有 Teams Exploratory 使用者轉換成包括 Teams 在內的付費授權。 確保在 Teams Exploratory 訂閱到期之前完成此工作是非常重要的，以避免對使用者的體驗造成中斷。
+在 12 個月訂閱結束時，系統管理員應將所有 Teams Exploratory 使用者轉換成包括 Teams 在內的付費授權。 確保在 Teams Exploratory 訂閱到期之前完成此動作至關重要，以避免任何干擾使用者的體驗。
 
 
 > [!NOTE]

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 管理使用者的語音信箱原則。
-ms.openlocfilehash: f6c14584ee5da1b15085cd4caddfc757fbb50476
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 02df2f235512ce0aca658031fae000edc99b5ea9
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999308"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851814"
 ---
 # <a name="manage-cloud-voicemail-policies-for-your-users"></a>管理使用者雲端語音信箱原則
 
@@ -47,6 +47,7 @@ ms.locfileid: "67999308"
 - 錄製持續時間上限設為五分鐘。
 - 編輯通話接聽規則已啟用。
 - 主要和次要系統提示語言設定為 Null，並使用使用者的語音信箱語言設定。
+- 未設定前置或後置詞。
 
 您可以使用全域 (組織的預設) 自動建立的原則，或建立及指派自訂原則。
 
@@ -112,6 +113,12 @@ ms.locfileid: "67999308"
 - **通話接聽規則** - 此設定會控制是否允許使用者在 Microsoft Teams 中設定語音信箱通話接聽規則。
 
 - **雙語言系統提示** - 根據預設，語音信箱系統提示會以使用者在設定語音信箱時所選取的語言呈現給來電者。 如果商務需要以兩種語言顯示語音信箱系統提示，則可以設定主要和次要語言，而且可能不一樣。
+
+- **PreambleAudioFile** - 目前僅可透過 PowerShell 使用。 在播放使用者的語音信箱問候語之前，要播放給來電者的音訊檔案。
+
+- **PostambleAudioFile** - 目前僅可透過 PowerShell 使用。 在使用者的語音信箱問候語播放之後，以及允許來電者離開語音信箱訊息之前，要播放給來電者的音訊檔案。
+
+- **PreamblePostambleMandatory** - 目前僅可透過 PowerShell 使用。 在來電者可以離開訊息之前，現正播放前置或 Postamble 的必要動作。
 
 ### <a name="share-data-for-service-improvements"></a>共用資料以改善服務
 
