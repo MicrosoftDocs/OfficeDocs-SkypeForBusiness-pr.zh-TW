@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: aa18168c9e8755a9b6b895ba48c38f8f79005177
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: dc4e7e88e855432f17c7daed9584e20e0e4739f1
+ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271078"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68842111"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 
@@ -149,11 +149,8 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## <a name="apply-your-hierarchy"></a>套用階層
 
-> [!NOTE] 
-> 若要執行此步驟，您必須從PowerShell 資源庫安裝並使用 Teams PowerShell 公開預覽模組。 如需如何安裝模組的步驟，請參閱安裝 Teams PowerShell。
-
 > [!NOTE]
-> 政府社群雲端 (GCC) 客戶必須使用 [Cmdlet 預覽版本 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) 或更新版本，以確保資料已路由至 GCC 環境，而不是公用雲端環境。
+> 若要執行此步驟，您必須使用 Microsoft Teams PowerShell Cmdlet。 您應該使用版本 4.6.0 或更新版本的 Microsoft Teams Cmdlet。 此需求也適用于政府社群雲端 (GCC) 客戶。
 
 在架構 CSV 檔案中定義階層之後，就可以將它上傳到 Teams。 若要這麼做，請執行下列命令。 您必須是全域系統管理員或 Teams 服務系統管理員，才能執行此步驟。
 
@@ -201,7 +198,7 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>安裝 Teams PowerShell 模組
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從PowerShell 資源庫安裝並使用 Teams PowerShell 公開預覽[模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 如需如何安裝模組的步驟，請參閱 [安裝 Teams PowerShell](teams-powershell-install.md)。
+> 若要執行此步驟，您必須從[PowerShell 資源庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 Teams PowerShell 模組。 如需如何安裝模組的步驟，請參閱 [安裝 Microsoft Teams PowerShell 模組](teams-powershell-install.md)。
 
 ### <a name="sample-script"></a>範例腳本
 
