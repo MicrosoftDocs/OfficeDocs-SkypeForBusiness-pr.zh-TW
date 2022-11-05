@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2a83a0ec3b93f44da5f22e0423ff6199f2ce0c5
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: f91297a0b2fa5178195b10b61817cc11a30acfbc
+ms.sourcegitcommit: 303579b3ecd4e0af43710d4b078610f63e9d0eca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67705852"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68853361"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft Teams 和商務用 Skype共存與互通性
 
@@ -168,7 +168,7 @@ Teams 和 商務用 Skype受益于一系列「更好的共聚」功能，例如�
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 內部部署商務用 Skype的內部部署體驗需要內部部署環境與 Teams 處於混合模式。 如需詳細資料，[請設定商務用 Skype Server與 Microsoft 365 或 Office 365 之間的混合式聯](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)機。
+> 在內部部署和 Teams 使用者混合的組織中，與內部部署使用者進行交互體驗，要求內部部署環境與 Teams 處於混合模式。 如需詳細資料，[請設定商務用 Skype Server與 Microsoft 365 或 Office 365 之間的混合式聯](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)機。
 
 這些互動式體驗可供指派下列其中一種共存模式的使用者使用：**使用 Teams** 共同作業商務用 Skype、**使用 Teams 共同作業和會議商務用 Skype**、**僅商務用 Skype** 或 **僅限 Teams**。 在 **群島** 模式中，使用者沒有互通性。
 
