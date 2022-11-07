@@ -15,16 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中管理貴組織中的標籤使用方式。
-ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: 56a2daf53c362accec8059b11fba400547a7b6ff
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647427"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869558"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams 中管理標籤
 
 Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一部分人員聯繫。 您可以建立及指派自訂標籤，根據屬性將人員分類，例如角色、專案、技能或位置。 或者，標籤可以根據人員的排程和班次資訊，自動指派給 [ [班次] 應用程式](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)中的人員。 將標籤新增至一或多個小組成員之後，頻道貼文中的團隊中任何人都可以在@mentions中使用標籤，僅通知被指派該交談標籤的人員。
+
+如果您是團隊擁有者，而且想要管理團隊中的標籤，請參閱 [在 Teams 中使用標籤](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 
 如前所述，Teams 中有兩種標籤。
 
@@ -80,8 +82,6 @@ Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一�
     - **Shifts 應用程式可以套用標籤**：開啟此設定可讓 Shifts 應用程式自動指派標籤給即時上班的人員。 這些標籤會符合使用者在 Shifts 中的排程和組名。 只有在聊天或頻道文章中使用標籤時，通知才會傳送給輪班的人員。
 
 ## <a name="related-topics"></a>相關主題
-
-[在 Teams 中使用標籤](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 
 [管理 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 

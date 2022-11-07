@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795072"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869673"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -39,7 +39,7 @@ ms.locfileid: "67795072"
 
 ## <a name="getting-started-with-shared-channels"></a>開始使用共用頻道
 
-預設會在 Teams 中啟用共用頻道。您可以選擇人員是否可建立共用頻道、是否可以與組織外部人員共用，以及是否可[建立頻道原則](/MicrosoftTeams/teams-policies)來參與外部共用頻道。
+Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies).
 
 如果您打算與組織外部人員共用頻道，請閱讀[規劃外部共同作業](/microsoft-365/solutions/plan-external-collaboration)，以了解重要的規劃考量。
 
@@ -70,6 +70,8 @@ ms.locfileid: "67795072"
 如果共用頻道擁有者是一或多個共用頻道的最後一位擁有者，則無法透過 Teams 用戶端將其移除。
 
 如果最後一個共用通道擁有者離開貴組織，或是從與團隊關聯的 Microsoft 365 群組中移除，您組織的共用頻道成員會自動升級為共用頻道擁有者。 如果貴組織沒有成員可以升級，共用通道將維持無擁有者狀態。 Teams 系統管理員必須手動指派頻道擁有者。 請考慮新增多個擁有者，以避免這種情況。
+
+來賓-包括轉換為成員 (在其使用者類型屬性) - 無法新增到共用頻道。
 
 > [!NOTE]
 > 如果在 Azure Active Directory 中兩者不相符，則必須使用 UPN 來新增外部參與者，而非其電子郵件地址。

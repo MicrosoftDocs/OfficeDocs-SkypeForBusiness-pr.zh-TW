@@ -14,29 +14,29 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提供意見反應。
+description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 25e3819b4ac14e770e55829d00654659970246f0
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: ffdd34d8a36726d96bc44ae766e91ca6ae77280b
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564121"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869584"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
 > [!NOTE] 
 > 預覽中包含的功能可能不完整，且在公開發行之前可能會變更。 提供預覽版僅針對評估和探索目的。 Office 365 政府社群雲端 (GCC) 不支援預覽功能。
 
-Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存取。預覽版可讓您探索並測試即將推出的功能。我們也歡迎您提供對於公開預覽中任何功能的意見反應。公開預覽將針對每個 Teams 使用者啟用，因此您不需要擔心會影響整個組織。
+Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
 
-有關 Microsoft Teams 公開預覽中提供的功能清單，請瀏覽 [Microsoft Teams 公開預覽技術資訊附註](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)、[Teams 系統管理功能的版本資訊](/OfficeUpdates/teams-admin)，以及 [Teams 中的新功能](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)。
+如需 Teams 公開預覽中可用專案的清單，請流覽[Microsoft Teams 公開預覽技術資訊](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)、[Teams 管理員功能的版本資訊](/OfficeUpdates/teams-admin)，以及[Office 目前通道的版本資訊 (預覽) ](/officeupdates/current-channel-preview)。
 
 ## <a name="set-the-update-policy"></a>設定更新原則
 
-公開預覽將針對每位使用者啟用，而開啟公開預覽的選項會在系統管理原則中控制。更新原則可用來管理會在 Teams 應用程式中看到搶鮮版或預覽版功能的 Teams 和 Office 預覽版使用者。您可以使用全域 (全組織預設) 原則並進行自訂，或為您的使用者建立一個或多個自訂原則。
+Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
 
 1. 登入 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com/)。
 

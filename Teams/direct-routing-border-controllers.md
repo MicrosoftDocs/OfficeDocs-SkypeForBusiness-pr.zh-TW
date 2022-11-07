@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
-ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
+ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2022
-ms.locfileid: "68697352"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869568"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -129,14 +129,14 @@ Microsoft 可與每個廠商合作，以：
 ||Mediant 9000 SBC|支援 7.20A.258 (建議 7.40A.100)|
 ||Mediant Virtual Edition SBC|支援 7.20A.258 (建議 7.40A.100)|
 ||Mediant Cloud Edition SBC|支援 7.20A.258 (建議 7.40A.100)|
-|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2|
-||SBC 5210|8.2|
-||SBC 5400|8.2|
-||SBC 7000|8.2|
-||SBC SWe|8.2|
-|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Lite|8.1.5|
-||SBC 1000|8.1.5|
-||SBC 2000|8.1.5|
+|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2 或更新版本的 SW|
+||SBC 5210|8.2 或更新版本的 SW|
+||SBC 5400|8.2 或更新版本的 SW|
+||SBC 7000|8.2 或更新版本的 SW |
+||SBC SWe|8.2 或更新版本的 SW|
+|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge (舊稱 SWe Lite) |8.1.5 或更新版本的 SW|
+||SBC 1000|8.1.5 或更新版本的 SW|
+||SBC 2000|8.1.5 或更新版本的 SW|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 和  9.x|
@@ -165,14 +165,14 @@ Microsoft 可與每個廠商合作，以：
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|VME 軟體版本支援 8.3.0.1.2 和建議使用 8.4.x 或  9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 3950 軟體版支援 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 4900 軟體版支援 9.x|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000。軟體版本：8.1.1 (組建 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000。軟體版本：8.1.1 (組建 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302。軟體版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304。軟體版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A。軟體版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806。軟體版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808。軟體版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. Software version: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000。軟體版本：8.1.1 (組建 527) 或更新版本的 SW 版本](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000。軟體版本：8.1.1 (組建 527) 或更新版本的 SW 版本](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302。軟體版本：16.1.1 或更新版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304。軟體版本：16.1.1 或更新版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A。軟體版本：16.1.1 或更新版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806。軟體版本：16.1.1 或更新版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808。軟體版本：16.1.1 或更新版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000。軟體版本：16.1.1 或更新版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|具有 Grandstream GXW42xx 的 anynode (V1.0.7.10)|&#10004;|
 
 記下授予主要版本的認證。 這表示支援主要版本之後的 SBC 韌體中，具有任何編號的韌體。
