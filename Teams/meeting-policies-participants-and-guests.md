@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理參與者和來賓的會議原則設定。
-ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801784"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68876279"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -117,6 +117,17 @@ ms.locfileid: "68801784"
 |---------|---------|
 |**尚未啟用，但使用者可以覆寫**     | 在會議期間不會自動為使用者開啟即時輔助字幕。 使用者會在溢位 **(...)** 功能表中看到 [開啟即時輔助字幕 **]** 選項，以將其開啟。 這是預設設定。 |
 |**未啟用**     | 在會議期間會為使用者停用即時輔助字幕。 使用者沒有開啟它們的選項。          |
+
+如需使用者如何開啟 **即時輔助字幕的** 詳細資訊，請參閱 [在 Teams 會議中使用即時輔助字幕](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)。
+
+### <a name="live-translated-captions"></a>即時翻譯的輔助字幕
+
+> [!NOTE]
+> 這項功能暫時在公開預覽中提供。 預覽之後，會議召集人必須擁有 Teams 進階版授權，出席者才能使用即時翻譯的輔助字幕。
+
+根據預設， **即時輔助字幕** 會以會議期間說出的語言顯示。 **即時翻譯的輔助字幕** 可讓您的使用者看到輔助字幕翻譯成他們最喜歡的語言。
+
+若要啟用 **即時翻譯字幕**， **即時輔助字幕** 必須設定為 **[未啟用]，但使用者可以在** Teams 系統管理中心覆寫。 若要關閉 **即時翻譯字幕**，請將此設定設為 **[未啟用]**。
 
 <a name="bkcontentsharing"> </a>
 
