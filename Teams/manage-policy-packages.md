@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中使用和管理原則套件，以簡化、簡化並協助在管理使用者群組的原則時提供一致性。
-ms.openlocfilehash: 10c7eaad9342d1c005c6290ebc957c3580db3962
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270848"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68877514"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>管理 Microsoft Teams 的原則套件
 
@@ -82,6 +82,9 @@ Teams 目前包含下列原則套件。
 :::image type="content" source="media/teams-policy-packages-education.png" alt-text="教育 (教師) 原則套件的螢幕擷取畫面。" lightbox="media/teams-policy-packages-education.png":::
 
 ## <a name="custom-policy-packages"></a>自訂原則套件
+
+> [!NOTE]
+> 可預覽自訂原則套件功能。 若要在預覽之後使用此功能，每個使用者都需要 Teams 進階版授權。
 
 自訂原則套件可讓您為組織中具有類似角色的使用者，組合自己的一組原則。 新增所需的原則類型和原則，以建立您自己的原則套件。
 
