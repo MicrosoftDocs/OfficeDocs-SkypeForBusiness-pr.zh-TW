@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 瞭解如何使用 Teams 自動語音應答&通話佇列歷史報告 Power BI 報告來檢視自動語音應答和通話佇列歷史資料。
-ms.openlocfilehash: 2afae8986f1184f1394e806b84aa1ab242c07df2
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738689"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890082"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動語音應答&通話佇列歷史報告
 
 此 Power BI 範本提供三個報告，可讓組織報告自動語音應答和通話佇列處理的通話數目。  它也會提供代理程式效能深入解析。
 
-## <a name="v301-published-on-october-26-2022"></a>2022 年 10 月 26 日發佈的 V3.0.1
+## <a name="v303-published-on-november-8-2022"></a>V3.0.3 發佈于 2022 年 11 月 8 日
 
 Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三個報告：
 
@@ -64,11 +64,11 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 
 執行下列步驟：
 
-1. 下載並將 [Teams 自動語音應答&通話佇列歷程記錄報告V3.0.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) 檔案儲存在您的電腦上。
+1. 下載並將 [Teams 自動語音應答&通話佇列歷程記錄報告V3.0.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) 檔案儲存在您的電腦上。
 
 1. 開啟 zip 檔案。
 
-1. 開啟 `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` 範本檔案。 Power BI Desktop應該會啟動。
+1. 開啟 `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` 範本檔案。 Power BI Desktop應該會啟動。
 
 1. 系統會提示您選取 **[資料來源]**。  選取 `api.interfaces.records.teams.microsoft.com` 專案。
 
@@ -81,9 +81,9 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 1. 選取 **[連線**]，資料就會重新整理。
 
 > [!NOTE]
-> 如果您使用的是 v1.63 或更舊版本，當 v3.0.0 嘗試從 VAAC 擷取資料時，可能會發生錯誤。  若要解決此錯誤，必須從 Power BI 清除任何先前的認證。
+> 如果您使用的是 v1.63 或更舊版本，當 v3.x.x 嘗試從 VAAC 擷取資料時，可能會發生錯誤。  若要解決此錯誤，必須從 Power BI 清除任何先前的認證。
 > 
-> 1. 開啟 v3.0.0 範本以清除錯誤。 
+> 1. 開啟 v3.x.x 範本以清除錯誤。 
 > 1. 選 **取 [設定****資料來源設定**] &  >  [**檔案**  >  選項]。
 > 1. 選取 **[清除許可權] 的** 下拉式清單，然後選取 **[清除擁有權限]**。
 > 1. 清除範本之後關閉範本，然後重新開機 Power BI。 系統會要求您再次授權。 
@@ -376,7 +376,8 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 
 |版本  |發佈日期     |檔案名                                                           |描述                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.1    |2022 年 10 月 26 日   |Teams 自動語音應答&通話佇列歷史報告 V3.0.0        |已移除測試資料來源專案                   |
+|3.0.3    |2022 年 11 月 8 日   |Teams 自動語音應答&通話佇列歷史報告 V3.0.3        |請參閱：<br>CQD Teams 自動語音應答&通話佇列歷程記錄報告 - 變更下載 zip 檔案中Log.docx變更變更清單                                                                             |
+|3.0.1    |2022 年 10 月 26 日   |Teams 自動語音應答&通話佇列歷史報告 V3.0.1        |已移除測試資料來源專案                   |
 |3.0.0    |2022 年 10 月 25 日   |Teams 自動語音應答&通話佇列歷史報告 V3.0.0        |新的後端資料來源                             |
 |1.63     |2022 年 8 月 24 日    |CQD Teams 自動語音應答&通話佇列歷史報告 V1.63.pbit |請參閱：<br>CQD Teams 自動語音應答&通話佇列歷程記錄報告 - 變更下載 zip 檔案中Log.docx變更變更清單                                                                             |
 |1.60     |2022 年 7 月 22 日      |CQD Teams 自動語音應答&通話佇列歷史報告 V1.60.pbit |請參閱：<br>CQD Teams 自動語音應答&通話佇列歷程記錄報告 - 變更下載 zip 檔案中Log.docx變更變更清單                                                                             |

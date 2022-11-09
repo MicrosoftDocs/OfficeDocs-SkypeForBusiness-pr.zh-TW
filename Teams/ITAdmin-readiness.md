@@ -18,12 +18,12 @@ ms.custom:
 description: 訓練影片、PowerPoint 投影片組、教學課程，以及系統管理員如何規劃、部署和執行 Microsoft Teams 的其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795445"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890062"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -48,10 +48,11 @@ ms.locfileid: "68795445"
 | ------------ | -------------------- | -------------------- |
 | [Microsoft 技師 - 適用于 IT YouTube 頻道的 Teams 基本版](https://aka.ms/MicrosoftTeamsforIT) | [影片：適用于 IT 的 Teams 程式集](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10：13 分鐘) <br>[影片：部署&設定 Teams - 簡介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8：22 分鐘)   <br>[影片： (](https://youtu.be/91lHNKVVvQ4) 12：42 分鐘) <br>影片： (10：54 分鐘) [的 Teams 安全性與合規性控制](https://www.youtube.com/watch?v=Km4T4hMM__k)||
 | 基礎 - 核心元件 | [視訊](https://aka.ms/teams-foundations) | [甲板](https://aka.ms/teams-foundations-deck) |
+| 音訊會議 |  | [甲板](https://aka.ms/teams-audio-conferencing-deck) |
+| 通話品質概觀 | | [甲板](https://aka.ms/teams-quality-deck) |
 | Windows 桌面用戶端 | [視訊](https://aka.ms/teams-clients) | [甲板](https://aka.ms/teams-clients-deck) |
 | 監管、管理和生命週期 | [視訊](https://aka.ms/teams-governance) | [甲板](https://aka.ms/teams-governance-deck) |
 | 安全性&合規性 | [視訊](https://aka.ms/teams-security-compliance) | [甲板](https://aka.ms/teams-security-compliance-deck) |
-| 通話品質概觀 | | [甲板](https://aka.ms/teams-quality-deck) |
 | 會議簡介 | [視訊](https://aka.ms/teams-meetings-intro) | [甲板](https://aka.ms/teams-meetings-intro-deck) |
 | 媒體 - 為什麼會議很簡單|[視訊](https://aka.ms/media-in-teams)  | [甲板](https://aka.ms/media-in-teams-deck)|
 | 媒體 - 媒體流程 | [視訊](https://aka.ms/teams-media-flows) | [甲板](https://aka.ms/teams-media-flows-deck)  |

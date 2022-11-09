@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: d4d263587e0ac78b2dff2949adcaa2af8133a3dc
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738559"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890072"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -393,7 +393,7 @@ ms.locfileid: "68738559"
 1. Microsoft Teams Windows 用戶端、Microsoft Teams Mac 用戶端、虛擬化桌面基礎結構上的 Microsoft Teams。
 2. Microsoft Teams iPhone 應用程式、Microsoft Teams Android 應用程式。
 3. 針對代理程式路由方法選取 [最長閒置時間] 會自動啟用以目前狀態為基礎的路由。
-4. 只能設定將個別使用者新增為標準通話佇列的一部分時的順序。 使用通訊群組清單或 Teams 通道時，順序會依字母順序排列。
+4. 您無法設定代理商要撥打的訂單。
 5. 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
 6. Microsoft Teams 電話。
 7. 透過 的 [使用者設定] 入口網站頁面。 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)
