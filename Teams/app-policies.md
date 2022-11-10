@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 1c99cd9c0be3251a237b547cd8a2096d2d0e02af
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: 8e059199d4963004e287b456c98bb80717f849b3
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494646"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912432"
 ---
-# <a name="app-policies-used-to-manage-access-to-and-installation-of-apps"></a>用來管理應用程式存取和安裝的應用程式原則
+# <a name="know-about-policies-to-manage-access-and-installation-of-teams-apps"></a>瞭解管理 Teams 應用程式存取和安裝的原則
 
 Microsoft Teams 會使用應用程式原則來管理應用程式的存取和安裝行為。 應用程式原則可協助 Teams 系統管理員控制下列應用程式行為：
 
@@ -39,7 +39,7 @@ Microsoft Teams 會使用應用程式原則來管理應用程式的存取和安�
 應用程式許可權原則會套用至 [Teams 中所有可用的應用程式類型](deploy-apps-microsoft-teams-landing-page.md)。 使用應用程式許可權原則的一些範例案例為：
 
 * 一開始會逐步將應用程式推出給部分使用者，並最終推出給所有使用者。
-* 僅允許您人力資源部門成員的自訂註冊和人才管理應用程式，並為所有其他組織使用者封鎖它。
+* 僅允許 HR 部門成員的自訂應用程式進行招募和人才管理，並為所有其他組織使用者封鎖它。
 
 :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="應用程式權限原則的螢幕擷取畫面。" lightbox="media/app-permission-policy.png":::
 
@@ -54,7 +54,7 @@ Microsoft Teams 會使用應用程式原則來管理應用程式的存取和安�
 使用應用程式設定原則的一些範例案例如下：
 
 * 為您的人力資源小組成員釘選自訂的註冊和人才管理應用程式。
-* 變更貴組織使用者預先釘選核心應用程式的順序。
+* 使用釘選來變更 [核心版應用程式](deploy-apps-microsoft-teams-landing-page.md#core-apps) 的順序，以供貴組織的使用者使用。
 
 :::image type="content" source="media/app-setup-policy-trimmed.png" alt-text="Microsoft Teams 系統管理中心的應用程式設定原則螢幕擷取畫面。" lightbox="media/app-setup-policy.png":::
 

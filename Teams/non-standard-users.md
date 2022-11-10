@@ -20,14 +20,14 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 201130f218a2ad482a60a7c746203f93120cc773
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c618552a574a567a91ddab0e2303fd5f99a2373a
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613975"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912602"
 ---
-# <a name="use-teams-apps-as-an-external-attendees-or-guest"></a>以外部出席者或來賓身分使用 Teams 應用程式
+# <a name="use-of-teams-apps-for-external-attendees-or-guest-from-outside-an-organization"></a>將 Teams 應用程式用於外部出席者或組織外部來賓
 
 Teams 應用程式可讓您與組織外部人員共同作業。 身為系統管理員，您可以控制誰可以存取 Teams 聊天、會議和頻道，以便與貴組織的使用者共同作業。 如需詳細資訊，請參閱 [如何允許與外部出席者共同](manage-external-access.md) 作業 [，以及來賓可以在 Teams 中執行什麼動作](guest-access.md)。 本文著重于組織外部人員使用應用程式。
 

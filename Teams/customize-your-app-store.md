@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何新增標誌、自訂背景和自訂文字色彩，以自訂群組織的 Teams 應用程式市集。
-ms.openlocfilehash: 4a7a34324619f3c076a5abd7069e129d59420e6a
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: cd75f7f5a1eaf27b02252cd430e7856ce78007c0
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837203"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912452"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>在 Microsoft Teams 中自訂貴組織的應用程式市集
 
@@ -78,5 +78,7 @@ ms.locfileid: "67837203"
 
 :::image type="content" source="media/PowerAppsInStore650w.png" alt-text="顯示自訂應用程式市集範例的螢幕擷取畫面。":::
 
+<!--- confirm:
 > [!NOTE]
-> 呈現方式可能會與自訂應用程式市集的最終版本有所不同，因為某些預設色彩是以使用者的 Teams 用戶端版本作為基礎。
+> The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.
+--->

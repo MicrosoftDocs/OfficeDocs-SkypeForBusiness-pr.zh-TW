@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 97da6b39ab6e6d9208c883ae60f0be08432e5222
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377551"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912632"
 ---
-# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Microsoft 針對所有 Teams 應用程式完成測試和驗證
+# <a name="know-about-the-testing-and-validation-done-by-microsoft-for-all-apps"></a>瞭解 Microsoft 針對所有應用程式所完成的測試和驗證
 
 Microsoft 需要所有應用程式通過強制驗證，才能列入終端用途市集。 它適用於 Teams 應用程式市集上發佈的所有應用程式 (除自訂應用程式以外)。 此外，Microsoft 也強烈建議應用程式開發人員參與應用程式的選用認證，其指示增強的合規性、安全性和隱私權控制。
 

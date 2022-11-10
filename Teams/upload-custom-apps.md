@@ -18,17 +18,16 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 瞭解如何將自訂應用程式上傳到貴組織的 Teams App Store。
-ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: c1a664390676f2df68c06c75dee57db3d3c7582c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738579"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912442"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>透過上傳應用程式套件發佈自訂應用程式
 
-> [!NOTE]
-> 當您發佈自訂的 Teams 應用程式後，它就可以在貴組織的應用程式市集中供使用者使用。 發佈自訂應用程式的方式有兩種，使用方式取決於您取得應用程式的方式。 **本文著重於如何透過上傳開發人員傳送給您的應用程式套件 (.zip 格式) 來發佈自訂應用程式**。 另一個核准自訂應用程式的方法，會在當開發人員透過 Teams 應用程式提交 API 直接將應用程式提交到 [[管理應用程式]](manage-apps.md) 頁面時使用。 若要深入了解該方法，請參閱 [透過 Teams 應用程式提交 API 發佈自訂應用程式](submit-approve-custom-apps.md)。
+當您發佈自訂的 Teams 應用程式後，它就可以在貴組織的應用程式市集中供使用者使用。 發佈自訂應用程式的方式有兩種，使用方式取決於您取得應用程式的方式。 本文著重於如何透過上傳開發人員傳送給您的應用程式套件 (.zip 格式) 來發佈自訂應用程式。 另一個核准自訂應用程式的方法，會在當開發人員透過 Teams 應用程式提交 API 直接將應用程式提交到 [[管理應用程式]](manage-apps.md) 頁面時使用。 若要深入了解該方法，請參閱 [透過 Teams 應用程式提交 API 發佈自訂應用程式](submit-approve-custom-apps.md)。
 
 本文提供端對端指導方針，說明如何將您的 Teams 應用程式從開發到部署到探索。 此指導方針著重於應用程式的 Teams 層面，適用於系統管理員和 IT 專業人員。 如需開發 Teams 應用程式的詳細資訊，請參閱 [Teams 開發人員文件](/microsoftteams/platform/)。
 

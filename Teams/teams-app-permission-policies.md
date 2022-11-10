@@ -23,14 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: aac7024730c3f18e1c0f38a2e041dea840a6b869
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656019"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912402"
 ---
-# <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>使用應用程式許可權原則管理 Teams 應用程式的存取權
+# <a name="use-app-permission-policies-to-control-user-access-to-apps"></a>使用應用程式許可權原則控制使用者對應用程式的存取權
 
 身為系統管理員，您可以使用應用程式許可權原則來控制貴組織中每個使用者皆可使用的應用程式。 您設定允許或封鎖所有應用程式或特定應用程式的許可權適用于 [Teams 中的所有應用程式類型](deploy-apps-microsoft-teams-landing-page.md)。 您必須是全域管理員或 Teams 服務系統管理員，才能管理這些原則。
 
@@ -57,10 +57,10 @@ Teams 系統管理中心可讓您建立兩種類型的許可權原則：
 1. 提供原則的名稱和描述。
 1. 在 **[Microsoft 應用程式**]、 **[協力廠商應用程式**] 和 [ **自訂應用程式**] 底下，選取下列其中一個選項：
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * 允許所有應用程式
+    * 允許特定的應用程式並封鎖所有其他的
+    * 封鎖特定的應用程式並允許所有其他的
+    * 封鎖所有應用程式
 
 1. 如果您選取了 **[允許特定的應用程式並封鎖所有其他的]**，請新增您要允許的應用程式：
 

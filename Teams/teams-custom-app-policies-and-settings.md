@@ -1,5 +1,5 @@
 ---
-title: 管理自訂應用程式原則和設定
+title: 管理自訂和側載的應用程式原則和設定
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何管理自訂應用程式原則和設定，控制貴組織中可在 Microsoft Teams 中上傳自訂應用程式的人員。
+description: 瞭解如何管理原則和設定，以控制組織中的誰可以側載應用程式及上傳自訂應用程式。
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,23 +24,38 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 2bbd6d048fdb3e2f0a0d4f9723552127161d25f8
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656009"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912412"
 ---
-# <a name="manage-custom-apps-and-settings-in-teams-admin-center"></a>在 Teams 系統管理中心管理自訂應用程式和設定
+# <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>在 Teams 系統管理中心管理自訂和側載應用程式
 
-<!--- TBD: Describe custom apps
---->
+Microsoft Teams 可讓組織內部的開發人員為組織內部使用者建置、測試及部署自訂應用程式。 這類應用程式稱為自訂應用程式或商務 (LOB) 應用程式。 貴組織可能會針對組織特定的需求委託建立自訂應用程式。 系統管理員會使用各種設定和原則控制自訂應用程式的推出和許可權。
+
+:::image type="content" source="media/custom-app-orgwide-setting-trimmed.png" alt-text="顯示如何在全組織設定面板中允許組織中的自訂應用程式的螢幕擷取畫面。" lightbox="media/custom-app-orgwide-setting.png":::
+
+允許使用自訂應用程式之後，使用者可以在 Teams 市集的左側導覽中選取 **[為您的組織打造** ] 來找到它。
+
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 傳統型應用程式中 Teams 市集中自訂應用程式的螢幕擷取畫面。" lightbox="media/built-for-your-org2.png":::
 
 身為 Teams 系統管理員，您可以使用自訂應用程式原則和設定來控制組織中誰可以將自訂應用程式上傳到 Microsoft Teams。 系統管理員決定可上傳自訂應用程式的使用者，而系統管理員與小組擁有者可判斷貴組織中的特定小組是否可將自訂應用程式新增至其小組。 編輯自訂應用程式原則之後，變更可能需要幾個小時的時間才會生效。 您必須是全域管理員或 Teams 服務系統管理員，才能管理這些原則。
 
 貴組織內的開發人員可透過將應用程式套件 (.zip 檔案中) 直接上傳至小組或個人內容中，將自訂應用程式新增至 Teams。 這與透過 Teams 應用程式市集新增應用程式的方式不同。 透過上傳應用程式套件新增自訂應用程式 (也稱為側載)，讓貴組織的特定使用者在應用程式就緒廣泛散佈前先測試該應用程式。
 
-在建立應用程式期間，開發人員會建立並新增應用程式識別碼至資訊清單檔案。 從欄位設定啟用欄位 `External app ID` 後，您可以在 [管理應用程式] 頁面上檢視此外部應用程式識別碼。 您也可以在自訂應用程式的應用程式詳細資料頁面上檢視。 此識別碼僅適用於自訂應用程式。
+<!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
+
+## <a name="understand-sideloading-of-custom-apps"></a>瞭解自訂應用程式側載
+
+開發自訂應用程式時，以及在發佈這些應用程式給使用者之前，開發人員會透過將應用程式新增至 Teams 市集進行測試來測試應用程式。 開發人員可以自行或使用指定的使用者群組進行測試，但該應用程式無法透過 Microsoft Store 提供給組織中的其他使用者使用。 此方法稱為側載應用程式，僅適用於自訂應用程式。
+
+開發人員可以側載應用程式，將它提供給特定團隊的成員使用，通常是用來測試開發中的應用程式。 以這種方式使用應用程式會限制應用程式開發人員的使用，而且只要系統管理員允許在 Teams 中側載，就不需要系統管理員核准。
+
+開發人員可以與特定團隊共用側載應用程式，而不需要將它提交到 Teams 應用程式目錄。 它讓側載的自訂應用程式可供少數使用者使用，但無法在貴組織的應用程式市集中提供給所有使用者。
+
+身為系統管理員，您可以不允許所有開發人員側載應用程式。 如果您不允許側載，開發人員仍然可以透過[建立個別的測試租用戶](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)來測試其應用程式。 自訂應用程式開發完成後，開發人員會要求系統管理員將自訂應用程式發佈給使用者。 如需詳細資料，請參閱 [如何發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 身為系統管理員，您可以允許 (或封鎖) 所有使用者或特定使用者使用自訂應用程式。
 
 ## <a name="custom-app-policy-and-settings"></a>自訂應用程式原則和設定
 
@@ -71,9 +86,14 @@ ms.locfileid: "68656009"
 
 1. 登入 Teams 系統管理中心並存取 **Teams 應用程式**  >  **[設定原則](https://admin.teams.microsoft.com/policies/app-setup)**。
 1. 選取 [新增 **]**。
-1. 開啟或關閉 [上傳自訂應用程式 **]**。
+1. 提供原則的名稱和描述。
+1. 開啟或關閉 **[上傳自訂應用程式]** 設定。
 1. 選擇您想要用於原則的任何其他設定。
 1. 選取 [儲存 **]**。
+1. [將原則套用至](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users) 開發自訂應用程式，並允許上傳這些應用程式的使用者。
+
+> [!NOTE]
+> 若要變更此設定，請允許 [全組織應用程式設定](manage-apps.md#manage-org-wide-app-settings)中的自訂應用程式。
 
 ### <a name="team-custom-app-setting"></a>小組自訂應用程式設定
 

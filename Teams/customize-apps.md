@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何變更應用程式的中繼資料和外觀，以重新命名應用程式，以便在貴組織中更有效地採用應用程式。
-ms.openlocfilehash: f12e6ead6c0d031100bcf30783de980986a14563
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 870ee97b874b2600abf136cd045d47e9fca934d3
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738729"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912652"
 ---
-# <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>使用應用程式自訂來更新貴組織 Teams 市集中應用程式的商標
+# <a name="use-app-customization-to-update-branding-of-apps-in-your-org-store"></a>使用應用程式自訂來更新組織市集中應用程式的商標
 
 Microsoft Teams 系統管理員可以修改某些 Teams 應用程式的外觀，為組織使用者提供個人化的品牌體驗。 這類修改可以增強使用者的 Teams 市集體驗，並協助遵守組織的品牌。 例如，系統管理員可以修改應用程式的描述和圖示。 自訂可讓使用者輕鬆識別應用程式為內部工具、瞭解其組織特定的使用案例，以及自信地使用它。 系統管理員透過變更應用程式的一些中繼資料或屬性來進行這些更新。 變更僅適用于其組織內。 這項功能稱為應用程式自訂。
 
@@ -154,7 +154,7 @@ Microsoft Teams 系統管理員可以修改某些 Teams 應用程式的外觀，
 | --- | --- |
 | 我的更新不適用於我的使用者。 | 請等候幾個小時，讓變更散播。 |
 | 我無法自訂應用程式。 | 交互檢查應用程式是否 [可自訂](#verify-if-an-app-is-customizable)。|
-| 我開始自訂應用程式，但無法儲存或套用我的變更。 | 遵守欄位的限制。 尋找 UI 上的錯誤以及 [應用程式自訂的限制](#considerations-and-limitations-of-app-customization) |
+| 我開始自訂應用程式，但無法儲存或套用我的變更。 | 遵守欄位的限制。 尋找 UI 上的錯誤以及 [應用程式自訂的限制](#considerations-and-limitations-of-app-customization)。 |
 | 管理無法正確載入的應用程式頁面。 應用程式清單不會顯示。 | 管理員使用的帳戶必須已指派 Teams 授權。 |
 
 <!--- Check ICM for error string. --->

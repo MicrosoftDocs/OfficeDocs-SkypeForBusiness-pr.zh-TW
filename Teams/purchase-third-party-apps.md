@@ -1,5 +1,5 @@
 ---
-title: 購買協力廠商 Teams 應用程式的授權
+title: 購買協力廠商應用程式及管理訂閱
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -10,21 +10,21 @@ audience: admin
 ms.date: 10/04/2022
 ms.collection:
 - M365-collaboration
-ms.reviewer: chhavib, vaibhava, nsuter
+ms.reviewer: chhavib, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: 瞭解如何使用信用卡、轉帳卡或發票帳單，從 Teams 市集購買授權協力廠商應用程式。
+description: 瞭解如何在 Teams 市集中使用信用卡、轉帳卡或發票帳單購買付費應用程式授權。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 82364d5659009e067a6884551266c6fabf93dc04
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738549"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912422"
 ---
-# <a name="purchase-licenses-for-third-party-teams-apps"></a>購買協力廠商 Teams 應用程式的授權
+# <a name="purchase-third-party-teams-apps-and-manage-subscriptions"></a>購買協力廠商 Teams 應用程式及管理訂閱
 
 某些 Teams 應用程式可能需要購買服務訂閱，才能體驗應用程式的完整功能和範圍。 這些服務訂閱稱為軟體即服務 (SaaS) 優惠。 授權可透過 [AppSource](https://appsource.microsoft.com/) 和 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)購買。
 

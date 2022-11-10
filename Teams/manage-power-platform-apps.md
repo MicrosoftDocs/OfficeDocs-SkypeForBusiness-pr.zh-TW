@@ -18,16 +18,14 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心使用 Microsoft Power Platform 來管理自訂應用程式組建的存取權。
-ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c4ac0bd3551bb53da06de3301447c6bf4842540c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656029"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912582"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心管理 Microsoft Power Platform 應用程式
-
-## <a name="manage-custom-apps-created-using-microsoft-power-platform-apps"></a>管理使用 Microsoft Power Platform 應用程式建立的自訂應用程式
 
 本文提供如何在 Microsoft Teams 系統管理中心使用 [Microsoft Power Platform](https://powerplatform.microsoft.com/) 應用程式管理自訂應用程式的概觀。 自訂應用程式是由貴組織內部的開發人員為內部使用者所建立。
 

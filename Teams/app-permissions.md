@@ -19,14 +19,14 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377131"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912472"
 ---
-# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>由 Teams 應用程式和系統管理員考慮所存取的資訊和執行的動作
+# <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>應用程式和相關系統管理員考慮所執行的資訊存取和執行的動作
 
 Microsoft Teams 應用程式會將一或多個功能匯總到可安裝、升級及卸載的應用程式。 應用程式的功能包括：
 
@@ -37,17 +37,9 @@ Microsoft Teams 應用程式會將一或多個功能匯總到可安裝、升級�
 
 身為系統管理員，您只能管理應用程式。 不過，本文的焦點在於功能層級的權限與考量，因為應用程式中的功能會影響應用程式的必要權限和風險設定檔。 對於使用方式，應用程式是由使用者同意，並由 IT 專業人員從原則角度管理。
 
-以下以大寫字母列出的權限，例如 `RECEIVE_MESSAGE` 和 `REPLYTO_MESSAGE`，僅適用於圖例和說明用途。 這些字串或權限不會出現在 [Microsoft Teams 開發人員文件](/microsoftteams/platform/overview)或 [Microsoft Graph 權限](/graph/permissions-reference)的任何位置。
+<!---  The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).  --->
 
 ## <a name="global-app-permissions-and-considerations"></a>全域應用程式權限與考量
-
-### <a name="required-permissions"></a>必要權限
-
-無
-
-### <a name="optional-permissions"></a>選擇性權限
-
-無
 
 ### <a name="considerations"></a>考量
 
@@ -59,25 +51,23 @@ Microsoft Teams 應用程式會將一或多個功能匯總到可安裝、升級�
 
 ## <a name="bots-and-messaging-extensions"></a>Bot 和訊息擴充功能
 
-### <a name="required-permissions"></a>必要權限
+### <a name="required-permissions-for-bots-and-messaging-extensions"></a>Bot 和傳訊擴充功能的必要許可權
 
-* RECEIVE_MESSAGE、REPLYTO_MESSAGE：Bot 可以接收使用者的訊息並回覆。<sup>1</sup>
+* Bot 可以接收來自使用者的訊息並回復。 有些 Bot 只會傳送訊息。 它們稱為僅限通知的 Bot，但這個字詞不會參照 Bot 允許或不允許執行的動作。 這表示 Bot 不提供交談體驗。 Teams 會使用此欄位停用 UI 中通常會啟用的功能。 相較于公開交談體驗的 Bot，Bot 在允許執行的動作上並沒有受到限制。
+* 使用者傳送訊息給 Bot 後，Bot 可以隨時直接或主動傳送訊息給該使用者。
+* 新增至團隊的 Bot 可以取得團隊中頻道的名稱和識別碼清單。
 
-* POST_MESSAGE_USER：在使用者傳送訊息給 Bot 之後，Bot 可以隨時傳送使用者直接訊息 (也稱為 *主動訊息*。
+### <a name="optional-permissions-for-bots-and-messaging-extensions"></a>Bot 和訊息擴充功能的選擇性許可權
 
-* GET_CHANNEL_LIST：新增至團隊的 Bot 可以取得團隊中頻道的名稱和識別碼清單。
+* 在頻道中使用時，應用程式的 Bot 可以存取小組成員的基本身分識別資訊， (名字、姓氏、使用者主體名稱 [UPN]、電子郵件地址) 。 在個人或群組聊天中使用此功能時，Bot 可以存取這些使用者的相同資訊。
 
-### <a name="optional-permissions"></a>選擇性權限
+* 應用程式的 Bot 可以傳送直接或主動的訊息給團隊成員，即使他們未與 Bot 互動。
 
-* 身分識別：在頻道中使用時，應用程式的 Bot 可以存取團隊成員的基本身分識別資訊 (名字、姓氏、使用者主體名稱 [UPN]、電子郵件地址)。 在個人或群組聊天中使用此功能時，Bot 可以存取這些使用者的相同資訊。
+* 下列並非明確許可權，而是透過接收和回復訊息的能力，以及可使用 Bot 的範圍所暗示。
 
-* POST_MESSAGE_TEAM：允許應用程式的 Bot 隨時傳送直接 (主動) 訊息給團隊成員，即使使用者從未與 Bot 互動。
-
-* 下列並非明確權限，而是 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 所隱含，以及在資訊清單中宣告可使用 Bot 的範圍：
-
-  * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
+  * 接收個人訊息並回復。
+  * 接收群組聊天並回復。
+  * 接收頻道訊息並回復。
 
 * 下列並非明確權限，而是 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 所隱含，以及在資訊清單中宣告可使用 Bot 的範圍：
 
@@ -87,7 +77,7 @@ Microsoft Teams 應用程式會將一或多個功能匯總到可安裝、升級�
 
 * SEND_FILES，RECEIVE_FILES：<sup>2</sup> 控制機器人是否可以在個人聊天中傳送和接收檔案 (尚不支援群組聊天或頻道)。
 
-### <a name="considerations"></a>考量
+### <a name="considerations-for-bots-and-messaging-extensions"></a>Bot 和傳訊擴充功能的考慮
 
 * Bot 只能存取已將其新增的團隊或已安裝的使用者。
 
@@ -103,7 +93,7 @@ Microsoft Teams 應用程式會將一或多個功能匯總到可安裝、升級�
 
 * Bot 可以擷取 (且可能儲存) 團隊中的頻道清單; 此資料會離開公司網路。
 
-* 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者登入; 使用者登入後，Bot 就會有存取權杖，以使用該權杖執行其他動作。 這些其他項目的確切功能取決於 Bot 以及使用者登入的位置：Bot 是在 https://apps.dev.microsoft.com/ 註冊的 Azure AD 應用程式，而且能擁有自己的一組權限。
+* 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者登入;使用者登入後，Bot 就會有存取權杖，可以使用它來執行其他動作。 這些其他項目的確切功能取決於 Bot 以及使用者登入的位置：Bot 是在 `https://apps.dev.microsoft.com/` 註冊的 Azure AD 應用程式，而且能擁有自己的一組權限。
 
 * 當檔案傳送給 Bot 時，檔案會離開公司網路。 傳送和接收檔案需要使用者核准每個檔案。
 
@@ -136,7 +126,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 無 (目前)
 
-### <a name="considerations"></a>考量
+### <a name="considerations-for-tabs"></a>索引標籤的考慮
 
 * 索引標籤的風險設定檔與在瀏覽器索引標籤中執行的相同網站幾乎完全相同。
 
@@ -144,17 +134,9 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ## <a name="connectors"></a>連接器
 
-當外部系統發生事件時，連接器會將訊息張貼至頻道。
+當外部系統發生事件時，連接器會將訊息張貼至頻道。 連接器的必要許可權是能夠在頻道中張貼訊息。 連接器的選擇性許可權是回復郵件的許可權。 有些連接器支援可採取動作的訊息，可讓使用者對連接器訊息張貼目標回復。 例如，新增 GitHub 問題的回應，或將日期新增至 Trello 卡片。
 
-### <a name="required-permissions"></a>必要權限
-
-POST_MESSAGE_CHANNEL
-
-### <a name="optional-permissions"></a>選擇性權限
-
-REPLYTO_CONNECTOR_MESSAGE。 某些連接器支援可採取動作的訊息，可讓使用者張貼針對連接器訊息的回覆，例如透過新增對 GitHub 問題的回應或將日期新增至 Trello 卡片。
-
-### <a name="considerations"></a>考量
+### <a name="considerations-for-connectors"></a>連接器的考慮
 
 * 張貼連接器訊息的系統並不知道它張貼給誰或誰會收到訊息：不會揭露收件者的相關資訊。 (Microsoft 是實際的收件者，而不是租用戶; Microsoft 會實際張貼到頻道。)
 
@@ -175,17 +157,13 @@ REPLYTO_CONNECTOR_MESSAGE。 某些連接器支援可採取動作的訊息，可
 
 ## <a name="outgoing-webhooks"></a>外寄 Webhook
 
-_外寄 Webhook_ 是由團隊擁有者或團隊成員所建立。 它們不是 Teams 應用程式的功能; 包含此資訊以求完整性。
+外寄 Webhook 是由團隊擁有者或團隊成員所建立。 它們不是 Teams 應用程式的功能; 包含此資訊以求完整性。
 
-### <a name="required-permissions"></a>必要權限
+### <a name="required-permissions-for-outgoing-webhooks"></a>待發網絡任務的必要許可權
 
 RECEIVE_MESSAGE、REPLYTO_MESSAGE。 可以接收來自使用者的訊息並回覆。
 
-### <a name="optional-permissions"></a>選擇性權限
-
-無
-
-### <a name="considerations"></a>考量
+### <a name="considerations-for-outgoing-webhooks"></a>外寄網路任務的考慮
 
 * 外寄 Webhook 與 Bot 類似，但權限較少。 它們必須明確提及，就像 Bot 一樣。
 

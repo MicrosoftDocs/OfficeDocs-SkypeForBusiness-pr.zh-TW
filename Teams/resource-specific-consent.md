@@ -14,18 +14,18 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd47f8e46147e3b4d30052ff4a1b9fcde6c128e1
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377151"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912592"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams 中的資源特定同意
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式存取團隊資料。 這類存取權的範例包括讀取頻道訊息、建立和刪除頻道，以及建立和移除頻道索引標籤的功能。
+RSC)  (特定資源同意是 Microsoft Teams 和 Microsoft 圖形 API整合，可讓應用程式使用 API 端點來管理組織內團隊的特定資源。 RSC 許可權可讓團隊擁有者授與同意應用程式存取及修改團隊資料。 Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式存取團隊資料。 這類存取權的範例包括讀取頻道訊息、建立和刪除頻道，以及建立和移除頻道索引標籤的功能。
 
 身為系統管理員，您可以控制貴組織中的小組擁有者是否可以透過您使用 Azure Active Directory (Azure AD) PowerShell 模組或 Azure 入口網站及 Microsoft Teams 系統管理中心設置的設定來授予同意。  
 
@@ -95,7 +95,7 @@ Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式�
 
 ## <a name="related-articles"></a>相關文章
 
-* [可用的 RSC 權限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [在 Microsoft Graph 中使用 Teams 資料的 RSC 許可權](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 * [Microsoft Graph](https://developer.microsoft.com/graph)
 * [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
 * [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)

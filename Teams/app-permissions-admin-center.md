@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f05c835f475aa9e48f04bb9c70fb9f3ac9933e58
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 6a2c9244acfb3fdb08404f045c72860e0cd708c5
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377141"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912802"
 ---
-# <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心中檢視應用程式權限並授與系統管理員同意
+# <a name="view-app-permissions-and-grant-admin-consent-in-teams-admin-center"></a>在 Teams 系統管理中心檢視應用程式許可權並授與系統管理員同意
 
 系統管理員可從 Teams 系統管理中心的 [管理應用程式] 頁面檢視及管理所有 Teams 應用程式。 您可以管理在組織內建立且僅供使用者使用的自訂應用程式，以及管理 Teams App 市集中提供的協力廠商。 例如，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至貴組織的 App 市集、允許組織層級或個別使用者的應用程式。
 
