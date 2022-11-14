@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 瞭解如何在 Teams 中管理會議原則設定，以進行錄製和轉譯。
-ms.openlocfilehash: 57e90984cde312f1804d5d2144c82a4d252822b6
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466201"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928309"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>記錄&轉錄的會議原則設定
 
@@ -34,8 +34,6 @@ ms.locfileid: "67466201"
 這是每個召集人和個別使用者原則的組合。 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 開始錄製的人需要開啟此設定，才能使用這些功能進行錄製。
 
 開啟此設定將建立與會議錄製內容一起儲存的文字記錄，從而在會議錄製內容中啟用 **[搜尋]**、**[CC]** 和 **[文字記錄]**。
-
-錄製會議的轉譯目前僅支援在 Teams 會議中設定語言或說英文的使用者。
 
 ## <a name="cloud-recording"></a>雲端錄製
 

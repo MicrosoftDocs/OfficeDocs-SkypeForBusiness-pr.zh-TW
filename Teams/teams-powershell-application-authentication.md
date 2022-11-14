@@ -12,16 +12,16 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組中的應用程式型驗證。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912642"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928330"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模組中的應用程式型驗證
 
-Teams PowerShell 模組的預覽版本為 4.7.1-preview 或更新版本，現在支援應用程式型驗證。 此驗證模式目前僅在商業環境中受到支援。
+Teams PowerShell 模組現在支援版本 4.7.1-preview 或更新版本中的應用程式型驗證。 此驗證模式目前僅在商業環境中受到支援。
 
 
 ## <a name="cmdlets-supported"></a>支援 Cmdlet
