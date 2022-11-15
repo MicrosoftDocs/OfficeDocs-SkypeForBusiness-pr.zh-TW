@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 04863f6dd914b935b68120fd5c2df6105770c634
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 380b761b90f49549ad6605ee7ca069269a796ea9
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576449"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019389"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -38,7 +38,7 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 
 <br/>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
+> [!VIDEO <https://www.microsoft.com/videoplayer/embed/RE476Yj>]
 
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
@@ -77,12 +77,12 @@ In addition to administrator roles, Teams lets you assign owner and member user 
 |問問自己|動作 |
 |------------|-------|
 |應該對每個角色指派誰？ | 若要比較每個角色的功能，請參閱[在 Microsoft Teams 中指派團隊擁有者、仲裁者和成員](assign-roles-permissions.md)。
-|如何指派使用者角色？ | 若要指派或變更角色，請參閱[指派使用者角色](assign-roles-permissions.md#assign-a-user-role)。
+|如何指派使用者角色？ | 若要指派或變更角色，請參閱[指派使用者角色](assign-roles-permissions.md)。
 |我需要控制誰可以在頻道中貼文及回覆嗎？ | 若要設定仲裁，請參閱[在 Microsoft Teams 中設定和管理頻道仲裁](manage-channel-moderation-in-teams.md)。
 
 ### <a name="messaging-policies"></a>訊息原則
 
-Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization.
 
 |問問自己|動作 |
 |------------|-------|
@@ -104,7 +104,6 @@ Guest access in Teams lets individuals outside your organization access teams an
 
 > [!NOTE]
 > 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
-
 
 |問問自己|動作 |
 |------------|-------|
@@ -153,9 +152,9 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 |------------|-------|
 |<br> 誰需要查看 Teams 使用情況報告，以及他們是否具備檢視報告的正確角色？ |<ul><li>如果使用者不是系統管理員，請[指派報告讀取者角色](teams-activity-reports.md#reports-reader-role)。</li><li>請參閱[角色和使用權限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)和[檢視和指派角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)來了解如何在 Azure Active Directory 中指派系統管理員角色。|
 
-### <a name="teams-default-apps"></a>Teams 預設應用程式 
+### <a name="teams-default-apps"></a>Teams 預設應用程式
 
-Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams.
 
 若要深入瞭解如何在 Teams 中推出和管理應用程式，請參閱我們深入的 [應用程式管理](deploy-apps-microsoft-teams-landing-page.md) 指導方針。
 
@@ -179,7 +178,7 @@ For the full Teams experience, every user should be enabled for Exchange, ShareP
 |------------|-------|
 | 我是否能部署我目前使用 Exchange 和 SharePoint 部署所需的 Teams 功能？ |如需 Teams 中 Exchange 和 SharePoint 的詳細資訊，請參閱：<ul><li> [Exchange 和 Teams 如何互動](exchange-teams-interact.md)</li><li>[SharePoint Online 和 OneDrive 如何與 Teams 互動](sharepoint-onedrive-interact.md)|
 
-### <a name="teams-limits-and-specifications"></a>Teams 的限制和規格 
+### <a name="teams-limits-and-specifications"></a>Teams 的限制和規格
 
 規劃 Teams 的企業部署時，應考慮任何相關的限制和規格，例如團隊中成員人數的上限、使用者可建立的團隊人數上限等等。
 
@@ -199,7 +198,6 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 
 Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
-
 | 問問自己 | 動作 |
 |--------------|--------|
 |我是否需要對可以建立團隊的人員實作控制？| 請閱讀[規劃 Teams 中的控管](plan-teams-governance.md)。|
@@ -214,7 +212,7 @@ A pinned app shows up in the side rail in Teams. By creating Teams application p
 |我應該建立預先設定的釘選 Teams 應用程式集嗎？ | 請閱讀[在 Teams 中管理應用程式的設定](admin-settings.md)。|
 |我如何決定哪些群組會收到這些應用程式群組？|請閱讀 [Teams 應用程式權限和考量](app-permissions.md)。|
 
-### <a name="archiving-and-compliance"></a>封存與合規性 
+### <a name="archiving-and-compliance"></a>封存與合規性
 
 Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
@@ -224,7 +222,7 @@ Your organization might require that you implement controls on how teams are arc
 |我需要設定團隊封存嗎？|若要封存或還原團隊，請參閱[封存或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。|
 |我需要設定額外的合規性設定嗎？|如需安全性和合規性的詳細資訊，請參閱 [Teams 的安全性與合規性概觀](security-compliance-overview.md)。|
 
-### <a name="conditional-access"></a>條件式存取 
+### <a name="conditional-access"></a>條件式存取
 
 Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
@@ -232,7 +230,7 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 |--------------|--------|
 |<br>我需要為 Teams 設定條件式存取嗎？|<ul><li>若要了解存取原則的運作方式，請參閱[條件式存取原則如何適合 Teams？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要為 Teams 設定多重要素驗證 (MFA)，請參閱：<ul><li>[快速入門：透過 Azure Active Directory 條件式存取來要求特定應用程式需要 MFA](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 條件式存取設定參考](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 
-### <a name="education-edu"></a>教育版 (EDU) 
+### <a name="education-edu"></a>教育版 (EDU)
 
 在教育單位工作的 IT 專業人員可以利用教育版 Teams，該版本提供許多專為與學生、教職員和更廣泛企業的教育特定案例而量身打造的功能。
 
@@ -251,6 +249,7 @@ Office 365 政府版 - GCC (政府社群雲端) 適合用來滿足在美國聯�
 | 我會需要在 Office 365 政府版 (政府社群雲端環境) 中部署 Teams 嗎? | 如需部署考量，請參閱[規劃 Office 365 政府版 - GCC 部署](plan-for-government-gcc.md)。|
 
 ## <a name="next-steps"></a>後續步驟
+
 - 聊天、團隊、頻道和應用程式的[推動採用](adopt-microsoft-teams-landing-page.md)。
 - 在您的 Teams 初始推出中包含精選應用程式，例如 Planner。 在您推動 Teams 採用時新增其他 [Teams 應用程式](deploy-apps-microsoft-teams-landing-page.md) 。
 - [推出會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)

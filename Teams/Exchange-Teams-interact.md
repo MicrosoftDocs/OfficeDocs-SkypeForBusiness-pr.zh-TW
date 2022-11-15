@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e52524c3113d7b2d776c355784772a8a059b221f
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480683"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019399"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -90,7 +90,7 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>為內部部署主控的的郵箱建立和檢視會議的需求
 
   > [!NOTE]
-  > 目前僅在網路、GCC 和 GCC High 環境中支援針對內部部署託管信箱建立和檢視會議。
+  > 僅在商業、GCC 和 GCC High 環境中支援建立 **和檢視託管于內部部署之信箱的會議** 。
 
 如果為內部部署主控的郵箱，則要建立和檢視會議，必須滿足以下要求：
 
@@ -133,6 +133,9 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 - 在 Exchange 混合式部署中，聊天訊息中的內容都是可搜尋的，而不管聊天參與者是使用雲端式郵箱還是內部部署信箱。 若要了解更多資訊，請參閲[搜尋內部部署的雲端式郵箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要瞭解如何在 Teams 中搜尋內容，請閱讀[Microsoft Purview 合規性入口網站中的內容搜尋](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
 - 對於目前狀態，Microsoft Teams 必須檢查郵箱是裝載於 Exchange Online 還是内部部署。 然後服務决定存取郵箱的位置。 若要使 Teams 服務能够透過對 Exchange Online 服務的 REST API 呼叫檢查郵箱位置，您必須透過執行 Exchange 混合組態精靈來部署 Exchange 混合環境，如[使用混合組態精靈建立混合部署](/exchange/hybrid-deployment/deploy-hybrid)中所述。
+
+>[!Important]
+>**GCC-H 客戶：** 當使用者的信箱裝載于內部部署Exchange Server時，GCC-High環境不支援委 *派的 Teams 會議排* 程。
 
 ## <a name="troubleshooting"></a>疑難排解
 
