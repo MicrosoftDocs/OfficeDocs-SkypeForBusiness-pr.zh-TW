@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 707360ec39e82c86732433e42752cedbdb649119
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405125"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928503"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -62,6 +62,9 @@ ms.locfileid: "67405125"
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux 電腦上 Teams 的硬體需求
+
+> [!NOTE]
+> Linux 版 Teams 電腦版將于 2022 年 12 月淘汰。
 
 | 元件 | 需求 |
 |---------|---------|
