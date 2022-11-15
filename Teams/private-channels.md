@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 2f6dd23c5f15d2c96a1a5bb7cec6f4b9107f436c
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f5513b5b86e77a49978e1dcd1cd09f6e12bff70a
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647447"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68962948"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -36,7 +36,7 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 - 小組中的一群人希望能有個專屬空間能共同作業，而不需建立個別小組。
 - 團隊中的一部分人員想要使用私人頻道來討論機密資訊，例如預算、重新採購、策略定位等等。
 
-鎖定圖示表示私人頻道。只有私人頻道的成員才能查看以及參與他們所加入的私人頻道。
+A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
 私人頻道建立之後，會連結到父系小組，且不能移至其他小組。 此外，私人頻道不能轉換成標準頻道，反之亦然。
 
@@ -94,7 +94,7 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 私人頻道網站會同步處理資料分類，並繼承父系小組網站中的來賓存取權限。 網站擁有者和成員群組的成員資格，會與 Teams 內私人頻道的成員資格保持同步。 無法透過 SharePoint 獨立管理私人頻道網站的網站權限。 
 
-Teams 會管理私人頻道網站的生命週期。如果在 Teams 以外刪除網站，只要私人頻道仍在使用中，背景作業就會在 4 小時內還原網站。
+Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active.
 
 如果還原私人頻道或含有私人頻道的小組，則會一併還原網站。 如果私人頻道網站已還原，且超過私人頻道的 30 天虛刪除時機，則網站會以獨立網站的方式運作。
 
@@ -130,8 +130,6 @@ Teams 會管理私人頻道網站的生命週期。如果在 Teams 以外刪除�
 來自私人頻道的通知不會包含在錯過的活動電子郵件中。
 
 無法排程頻道會議。
-
-頻道會議無法使用會議標題自訂。
 
 ## <a name="related-topics"></a>相關主題
 

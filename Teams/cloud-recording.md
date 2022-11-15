@@ -20,12 +20,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 281a8997e3020b229ce8b34919177c1f6f2318c9
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584884"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965745"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -109,6 +109,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | 我想讓大部分使用者不能錄製會議，但我能選擇性地啟用特定使用者允許他進行錄製。 | <ol><li>確認 Global CsTeamsMeetingPolicy 具有 AllowCloudRecording = False。<li>大部分使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = False。<li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True 的授權。 <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> 如果啟用 Teams 原則合規性錄製之外部租使用者的 Teams 使用者加入會議或在租使用者上通話，則不論您租使用者開啟或關閉雲端式錄製，其他租使用者都會基於合規性目的錄製該會議/通話。 如果其他租使用者的使用者不應擷取錄製內容，建議您將屬於您租使用者中會議一部分的簡報者從會議中移除。 如需有關 Teams 上原則合規性錄製的詳細資訊，請參 [閱 Teams 原則型錄製簡介，以通話&會議](teams-recording-policy.md)。
 
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>封鎖或允許下載頻道會議錄製內容
 
@@ -278,7 +280,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 對於非頻道會議，其錄製內容會儲存在錄製者的 OneDrive 中，因此在員工離職後處理擁有權和保留時，將遵循一般 [OneDrive 和 SharePoint 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)的規定。
 
-會議錄製的預設到期時間為 120 天。 您可以關閉 [會議自動過期] 設定或變更預設到期時間。 Mer informasjon[會議錄製自動過期的相關資訊](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)。
+會議錄製的預設到期時間為 120 天。 您可以關閉 [會議自動過期] 設定或變更預設到期時間。 深入瞭解 [會議錄製自動過期](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)。
 
 ## <a name="closed-captions-for-recordings"></a>錄製內容的隱藏式輔助字幕
 
