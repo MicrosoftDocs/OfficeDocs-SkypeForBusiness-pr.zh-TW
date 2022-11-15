@@ -17,12 +17,12 @@ description: 瞭解如何使用 Microsoft Teams 系統管理中心的 Teams 即�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
-ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
+ms.openlocfilehash: 970247bf863942a4f938f96e30533ff550d37e94
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68033811"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68964979"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 即時活動使用方式報告
 
@@ -60,7 +60,7 @@ Microsoft Teams 系統管理中心的 Teams 即時活動使用方式報告會顯
 
 :::image type="content" alt-text="顯示即時活動的詳細資料的螢幕擷取畫面。" source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-如果貴組織已啟用 [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN 或 [Kollective](https://kollective.com) eCDN，您可以按一下合作夥伴報告連結，以取得其他出席者分析資料。
+如果您的組織使用 Microsoft eCDN，您可以從 [eCDN 儀表板](https://admin.ecdn.microsoft.com)檢視和匯出進階分析。  如果貴組織已啟用 [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN 或 [Kollective](https://kollective.com) eCDN，您可以按一下合作夥伴報告連結，以取得其他出席者分析資料。
 
 ## <a name="related-topics"></a>相關主題
 

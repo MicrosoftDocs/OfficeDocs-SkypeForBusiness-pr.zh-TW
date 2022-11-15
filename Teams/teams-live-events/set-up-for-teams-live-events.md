@@ -21,12 +21,12 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 65c9766350327ff64874c2ee242a7fdbace9f13a
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: a6fff8443899431176c904bf5a253ceed38d44f4
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584434"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965099"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -92,9 +92,11 @@ ms.locfileid: "68584434"
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>步驟 4：在 Teams 中針對即時活動設定視訊發佈解決方案
 
-播放即時活動視訊會使用的自適性串流 (ABR)，但它是單點廣播串流，表示每個檢視器都會從網際網路取得自己的視訊。 針對向外傳送給組織中大多數的即時活動或視訊，檢視器可能會明顯耗用大量網際網路頻寬。 針對想要減少即時活動的這項網際網路流量的組織，即時活動解決方案已與 Microsoft 信任的視訊傳遞合作夥伴整合，其提供軟體定義的網路 (SDN) 或企業內容傳遞網路 (eCDN)。 這些 SDN/eCDN 平台能讓組織將網路頻寬最佳化，而不需犧牲使用者的瀏覽體驗。 我們的合作夥伴可協助您在整個商業網路中更具伸縮性且有效率的視訊發佈。
+播放即時活動視訊會使用的自適性串流 (ABR)，但它是單點廣播串流，表示每個檢視器都會從網際網路取得自己的視訊。 針對向外傳送給組織中大多數的即時活動或視訊，檢視器可能會明顯耗用大量網際網路頻寬。 針對想要減少即時活動的網際網路流量的組織，Microsoft 提供第一方解決方案 [Microsoft eCDN](/ecdn) (企業內容傳遞網路) 。 即時活動解決方案也與 Microsoft 信任的影片傳遞合作夥伴整合，提供軟體定義的網路 (SDN) 或 eCDN。 這些 SDN/eCDN 平臺可讓組織優化網路頻寬，而不需要犧牲使用者檢視體驗。 這些解決方案可協助您在整個商業網路上進行更可縮放且更有效率的視訊發佈。
 
-**在 Teams 以外購買和設定您的解決方案** 運用 Microsoft 信任的視訊傳遞合作夥伴，獲得擴大視訊傳遞的專家協助。 您必須先購買並設定 SDN/eCDN 解決方案，然後才能讓影片傳遞提供者與 Teams 搭配使用。
+- **Microsoft eCDN** Microsoft eCDN 已整合至 Teams，並且與 Stream 和 Yammer 相容。 它在公司網路中採用對等技術，以從 WAN 連線卸載頻寬。
+
+- **在 Teams 以外購買和設定您的解決方案** 運用 Microsoft 信任的視訊傳遞合作夥伴，獲得擴大視訊傳遞的專家協助。 
 
 下列 SDN/eCDN 解決方案已預先整合，且可設定以搭配 Stream 使用。
 
@@ -107,7 +109,7 @@ ms.locfileid: "68584434"
 - **Riverbed** 是網路優化的業界標準，它正將加速解決方案延伸至 Microsoft Teams 和 Stream。  現在，Microsoft 365 客戶可以放心地加速 365 流量，包括 Teams 和 Stream，以及豐富的其他前導企業 SaaS 服務，以隨時隨地提高員工生產力。 Teams 和 Stream 加速可透過隨附于 Riverbed 世界級支援與持續投資的所有保證輕鬆設定來啟用。
 
 > [!NOTE]
-> 您選擇的 SDN 或 eCDN 解決方案受限於選取的 **協力廠商提供者的服務條款和隱私權原則**，其將控管您對提供者解決方案的使用方式。 您對提供者解決方案的使用方式將不受限於 Microsoft 大量授權條款或線上服務條款。 如果您不同意 **協力廠商提供者的條款**，則不要在 Teams 中啟用該解決方案。
+> 如果您選擇協力廠商 SDN 或 eCDN 解決方案，則會受到所選 **協力廠商提供者的服務條款和隱私權原則** 所規範，這將會規範您對提供者解決方案的使用。 您對提供者解決方案的使用方式將不受限於 Microsoft 大量授權條款或線上服務條款。 如果您不同意 **協力廠商提供者的條款**，則不要在 Teams 中啟用該解決方案。
 
 設定了 SDN 或 eCDN 解決方案之後，您就可以開始為 Teams 中的即時活動設定提供者。
 
