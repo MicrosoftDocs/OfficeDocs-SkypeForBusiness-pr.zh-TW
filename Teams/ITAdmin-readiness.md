@@ -18,12 +18,12 @@ ms.custom:
 description: 訓練影片、PowerPoint 投影片組、教學課程，以及系統管理員如何規劃、部署和執行 Microsoft Teams 的其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890062"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025155"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -61,6 +61,8 @@ ms.locfileid: "68890062"
 | 電話系統簡介 | [視訊](https://aka.ms/teams-phone-system) | [甲板](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [影片 1：在 Teams 中規劃直接路由](https://aka.ms/teams-dr-plan)<br>[影片 2：在 Teams 中設定及管理直接路由](https://aka.ms/teams-dr-config)<br>[影片 3：在 Teams 中移轉至直接路由](https://aka.ms/teams-dr-migrate)  | [甲板](https://aka.ms/teams-direct-routing-deck) |
 | 從商務用 Skype 升級至 Teams | [影片 1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片 2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片 3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片 4：系統管理員體驗](https://aka.ms/teams-upgrade-admin) | [甲板](https://aka.ms/teams-upgrade-deck)|
+| Teams 裝置部署播放簿 | | [甲板](https://aka.ms/teams-devices-deployment-playbook) |
+| Teams Phone 部署播放簿 | | [甲板](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>TEAMS 會議室 IT & AV 專業版基礎</h2>
 
@@ -77,7 +79,6 @@ ms.locfileid: "68890062"
 | 模組 7：管理Microsoft Teams 會議室，第 2 部分  | [甲板](https://aka.ms/TeamsRoomsModule7) |
 | 模組 8：功能、採用和疑難排解 | [甲板](https://aka.ms/TeamsRoomsModule8)|
 | 單點觸控加入指示 |  [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Microsoft Teams 會議室受管理服務簡介 | [甲板](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android 裝置</h2>
 

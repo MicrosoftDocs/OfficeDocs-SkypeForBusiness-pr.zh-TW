@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定並將您的 SBC 連線到 Teams Phone System Direct Routing。
-ms.openlocfilehash: 0423c374e903aab2e283ee45bcabf9ceb31ef869
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b34762b9df84839b17be6693b9ed782b5029525a
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682662"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025165"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>將會話框線控制器 (SBC) 連線至直接路由
 
@@ -97,6 +97,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > 3. 不支援在 SBC 端對應相同 FQDN 的多個 IP。
   > 4. 為了提供一流的加密給我們的客戶，Microsoft 將會強制使用 TLS1.2 直接路由 SIP 介面。
   > 若要避免任何服務影響，請確定您的 SBC 已設定為支援 TLS1.2，而且可以使用下列其中一個密碼套件連線：TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384即。 ECDHE-RSA-AES256-GCM-SHA384 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256即 ECDHE-RSA-AES128-GCM-SHA256 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384，也即 ECDHE-RSA-AES256-SHA384 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 i.e. ECDHE-RSA-AES128-SHA256
+  > 5. SIP 選項偵測不可超過每 60 秒一筆交易的頻率，而且每隔 180 秒針對每個端點設定的主幹，不得超過一筆交易的頻率或頻率。
 
 以下是範例：
 
@@ -168,7 +169,7 @@ Enabled               : True
 
 |必填？|Teams 系統管理中心設定|PowerShell 參數|描述|預設|可能的值|類型與限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|是|**新增 SBC 的 FQDN**|FQDN |無|FQDN 名稱，限制 63 個字元|字串，請參閱在[Active Directory 中為電腦、網域、網站和 OU 命名慣例](https://support.microsoft.com/help/909264)上的允許和不允許的字元清單|
+|是|**新增 SBC 的 FQDN**|Fqdn |無|FQDN 名稱，限制 63 個字元|字串，請參閱在[Active Directory 中為電腦、網域、網站和 OU 命名慣例](https://support.microsoft.com/help/909264)上的允許和不允許的字元清單|
 |否|**Enabled**|Enabled|用來開啟 SBC 來接聽撥出電話。 您可以使用此功能在服務更新或維護期間暫時移除 SBC。 |假|真<br/>假|Boolean|
 |是|**SIP 訊號埠**|SipSignalingPort |這是使用傳輸層 (TLS) 通訊協定來與直接路由通訊時所用的聆聽埠。|無|任何埠|0 到 65535 |
 |否|**傳送 SIP 選項**|SendSIPOptions |定義 SBC 是否會傳送 SIP 選項訊息。 強烈建議您開啟此設定。 關閉此設定時，系統會排除 SBC。|真|真<br/>假|Boolean|
