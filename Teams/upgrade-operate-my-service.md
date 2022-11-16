@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a74ac2974202097e3040d646f3f077f2369ad17c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 7da8db4b8ba281082d7f1565800a9f4d543dcb97
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616059"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019429"
 ---
 # <a name="operate-your-service"></a>營運您的服務
 
@@ -255,7 +255,7 @@ Teams 的使用狀況資料可在 [報告] 儀表板中使用。 您可以在三
 
 [Microsoft Teams 使用者活動報告](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview)
 
-#### <a name="required-permissions"></a>必要許可權
+#### <a name="required-permissions"></a>必要權限
 
 系統管理中心的使用方式報告可由獲指派 **全域管理員** 角色的人員存取，或是 (**Exchange 系統管理員**、**商務用 Skype系統管理員**、**SharePoint 系統管理員**) 的產品特定系統管理員角色存取。
 
@@ -310,7 +310,7 @@ Teams 的使用狀況資料可在 [報告] 儀表板中使用。 您可以在三
 
 您也可以使用全業界的方法來評估稱為網路促銷員分數 (NPS) 的使用者情緒，如下一節所述。
 
-### <a name="nps"></a>NPS
+### <a name="nps"></a>Nps
 
 NPS)  (Net promoter 分數是全業界客戶忠誠度指派，是用來評估使用者情緒的好方法。 您可以詢問兩個問題來計算 NPS：「您建議同事使用 Teams 的可能性如何？」，後面接著手繪多邊形問題「為什麼？」
 
@@ -490,7 +490,7 @@ Teams 服務有多個設定，可在全租使用者中設定。
 
 ### <a name="team-creation-optional"></a>團隊建立 (選擇性) 
 
-根據預設，在 Exchange Online 中擁有信箱的所有使用者都有權建立 Microsoft 365 群組，因此也可以在 Microsoft Teams 中建立團隊。 如果您想要更緊密地控制及 [限制新團隊的建立](assign-roles-permissions.md#permissions-to-create-teams) (，並因此建立新的 Microsoft 365 群組) ，您可以將群組建立和管理許可權委派給一組系統管理員。 如果貴組織想要執行此選項，請參閱本文所述的程式，允許使用者提交由指派的小組處理的要求。
+根據預設，在 Exchange Online 中擁有信箱的所有使用者都有權建立 Microsoft 365 群組，因此也可以在 Microsoft Teams 中建立團隊。 如果您想要更緊密地控制及 [限制新團隊的建立](assign-roles-permissions.md) (，並因此建立新的 Microsoft 365 群組) ，您可以將群組建立和管理許可權委派給一組系統管理員。 如果貴組織想要執行此選項，請參閱本文所述的程式，允許使用者提交由指派的小組處理的要求。
 
 <!--ENDOFSECTION-->
 
