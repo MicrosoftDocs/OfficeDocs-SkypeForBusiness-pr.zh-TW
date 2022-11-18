@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
-ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
+ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/15/2022
-ms.locfileid: "69019399"
+ms.locfileid: "68965029"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -135,7 +135,7 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 - 對於目前狀態，Microsoft Teams 必須檢查郵箱是裝載於 Exchange Online 還是内部部署。 然後服務决定存取郵箱的位置。 若要使 Teams 服務能够透過對 Exchange Online 服務的 REST API 呼叫檢查郵箱位置，您必須透過執行 Exchange 混合組態精靈來部署 Exchange 混合環境，如[使用混合組態精靈建立混合部署](/exchange/hybrid-deployment/deploy-hybrid)中所述。
 
 >[!Important]
->**GCC-H 客戶：** 當使用者的信箱裝載于內部部署Exchange Server時，GCC-High環境不支援委 *派的 Teams 會議排* 程。
+>**GCC-H 客戶：** 委 *派的 Teams 會議排程* 不支援GCC-High環境。 
 
 ## <a name="troubleshooting"></a>疑難排解
 
