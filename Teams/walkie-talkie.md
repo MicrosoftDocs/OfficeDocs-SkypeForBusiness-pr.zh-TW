@@ -20,51 +20,51 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.date: 11/17/2022
+ms.openlocfilehash: 90dcdf19f66b8c0f814540708be81bae36564b21
+ms.sourcegitcommit: f905ce4428155e81a56a1251351730f0eea3a421
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743138"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69107425"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
-Teams 中的 [無線對講機] 應用程式可為您的團隊提供即時推入式 (式 PTT) 通訊，而且可在 Android 和 iOS 上使用。 無線對講機可讓使用者使用屬於其成員的相同基礎頻道與其團隊連線。 只有連線到頻道中無線對講機的使用者會成為參與者，而且可以一次使用一個推播式對講機彼此通訊。
+Teams 中的 [無線對講機] 應用程式可為您的團隊提供即時推入式 (式 PTT) 通訊，而且可在 Android 和 iOS 上使用。 無線對講機可讓使用者使用屬於其成員的相同基礎頻道與其團隊連線。
 
-有了 Teams 中的無線對講機，第一線工作人員就可以安全地與熟悉的 PTT 體驗通訊，而不需要攜帶大量無線電，而且無線對講機可以在 WiFi 或行動網路網際網路連線的任何地方使用。
+只有連線到頻道中無線對講機的使用者會成為參與者，並可使用 PTT 彼此通訊。 使用者會繼續收到傳輸，直到他們點選 [  **中斷連線] 為止**。
+
+有了 Teams 中的無線對講機，使用者就可以安全地與熟悉的 PTT 體驗通訊，而不需要攜帶大量無線電，而且無線對講機可以在 WiFi 或行動網路網際網路連線的任何地方使用。
 
 > [!NOTE]
 > 中國目前不提供無線對講機。
 
 ## <a name="license-requirements"></a>授權需求
 
-Microsoft [365 和 Office 365 訂閱](/office365/servicedescriptions/teams-service-description)的所有 Teams 付費授權都包含無線對講機。 如需取得 Teams 的詳細資訊，請參[閱如何?取得 Microsoft Teams 的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Microsoft [365 和 Office 365 訂閱](/office365/servicedescriptions/teams-service-description)的所有 Teams 付費授權都包含無線對講機。 如需取得 Teams 的詳細資訊，請查看[如何?取得 Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="deploying-walkie-talkie"></a>部署無線對講機
 
 搭配 Google Mobile Services (MCS) 和 iOS 裝置的 Android 裝置支援無線對講機。
 
-> [!NOTE]
-> 如果您的使用者使用藍牙配件，請確定您的行動裝置管理 (MDM) 解決方案不會封鎖藍牙裝置。
+### <a name="step-1-make-sure-walkie-talkie-is-enabled-in-your-organization"></a>步驟 1：確認貴組織已啟用無線對講機
 
-### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>啟用或停用組織中的無線對講機
+根據預設，對講機應用程式會為組織中的所有 Teams 使用者啟用。
 
-根據預設，組織中所有的 Teams 使用者都會啟用無線對講機。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
+您可以在 Microsoft Teams 系統管理中心的 [ [管理應用程式](manage-apps.md) ] 頁面上控制該應用程式是否可在組織層級使用。 若要確認貴組織已啟用應用程式：
 
 1. 在 Teams 系統管理中心的左側導覽中，移至 **[Teams 應用程式]** > **[管理應用程式]**。
-2. 在應用程式清單中，搜尋 [無線對講機] 應用程式，選取它，然後將 **[狀態** ] 切換為 [ **已封鎖** ] 或 [ **允許]**。
+2. 在應用程式清單中，搜尋 [無線對講機] 應用程式，選取它，然後確定 **[狀態** ] 切換已設定為 [ **允許]**。
 
-### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>為貴組織中的特定使用者啟用或停用無線對講機
+如果您想要允許或封鎖組織中的特定使用者使用無線對講機，請確定已在 [ [管理應用程式](manage-apps.md) ] 頁面上為貴組織啟用無線對講機。 然後建立應用程式許可權的自訂原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
-若要允許或封鎖貴組織中的特定使用者使用無線對講機，請確定貴組織已在 [ [管理應用程式](manage-apps.md) ] 頁面上開啟 [無線對講機]。 然後建立應用程式許可權的自訂原則、將它新增至應用程式設定原則，然後將它指派給這些使用者。 若要深入瞭解，請參閱 [在 Teams 中管理應用程式許可權原則](teams-app-permission-policies.md) 和 [在 Microsoft Teams 中管理應用程式設定原則](teams-app-setup-policies.md)。
-
-### <a name="pin-walkie-talkie-to-teams"></a>將無線對講機釘選到 Teams
+### <a name="step-2-pin-walkie-talkie-to-teams"></a>步驟 2：將無線對講機釘選到 Teams
 
 #### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>使用量身打造的第一線應用程式體驗，將無線對講機和其他應用程式釘選到 Teams
 
 Teams 中量身打造的第一線應用程式體驗可為擁有 [F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者釘選 Teams 中最相關的應用程式。 釘選的應用程式包括無線對講機、班次、工作和核准。 根據預設，此功能為您的第一線工作人員提供專為其需求量身打造的全新體驗。
 
-應用程式會釘選到應用程式行，也就是 Teams 桌面用戶端側邊和 Teams 行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
+這些應用程式會釘選到 Teams 行動用戶端底部的應用程式匣，使用者可在此快速且輕鬆地存取它們。
 
 若要深入瞭解，包括體驗如何與您所設定的應用程式原則搭配運作，請參閱 [為您的第一線員工量身打造 Teams 應用程式](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)。
 
@@ -124,9 +124,16 @@ Teams 中的無線對講機需要網際網路連線。 您必須有下列網路�
 > [!NOTE]
 > 這些裝置未通過 Teams 認證。 他們已通過驗證，可搭配 Teams 無線對講機使用。
 
+## <a name="bluetooth-devices"></a>藍牙裝置
+
+> [!NOTE]
+> 如果您的使用者使用藍牙配件，請確定您的行動裝置管理 (MDM) 解決方案不會封鎖藍牙裝置。
+
+在執行 Android OS 版本 12 或更新版本的裝置上，必須具備藍牙許可權，也不再需要使用 BLE 堆疊連線的位置許可權。 如果 Teams 層級未授與「鄰近許可權」，使用者將會收到藍牙許可權的提示。 無論頭戴式裝置等藍牙配件是否已連接到其裝置，都隨即顯示此提示。 如果已連接藍牙配件，請點選 [ **允許** 將無線對講機連線到藍牙配件]。
+
 ## <a name="more-information"></a>詳細資訊
 
-- 如果您的前線員工使用行動資料透過 Teams 進行通訊，無線對講機會使用相同的方法。
+- 如果使用者使用行動資料透過 Teams 進行通訊，無線對講機將會使用相同的方法。
 - 無線對講機在頻寬不足或智慧型手機連線正常運作的情況下，應該可以正常運作。 完全沒有連線時，無線對講機就無法運作。
 
 若要深入瞭解使用者體驗，請參閱：

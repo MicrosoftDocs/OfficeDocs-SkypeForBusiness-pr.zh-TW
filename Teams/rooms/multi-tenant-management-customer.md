@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 客戶的合作夥伴管理。
 f1keywords: ''
-ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 56aaf61092dd1bbd61c2734be6da1732f4882e49
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842161"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046862"
 ---
 # <a name="partner-management-for-customers"></a>客戶的合作夥伴管理
 
@@ -77,7 +77,7 @@ Teams 會議室專業版管理服務中的合作夥伴管理可讓客戶順暢�
 
 ## <a name="managing-partner-roles"></a>管理合作夥伴角色
 
-合作夥伴角色可讓您的合作夥伴更精細地將職責委派給其他人員。 這些角色的概念與角色 [型存取控制](microsoft-teams-rooms-premium-rbac.md)中所述的相同。 請務必注意，合作夥伴角色與您的自訂角色不同。 
+合作夥伴角色可讓您的合作夥伴更精細地將職責委派給其他人員。 這些角色的概念與角色 [型存取控制](rooms-pro-rbac.md)中所述的相同。 請務必注意，合作夥伴角色與您的自訂角色不同。 
 
 **主要系統管理員** 角色是您新增的每個合作夥伴的唯一內建角色。 您為 TRM 服務指派的合作夥伴幾乎擁有擁有權限， (請參閱 [表格 1](#table-1)) 。 例如，如果您在世界各地都有會議室，並指派合作夥伴管理所有美式會議室，則主要系統管理員只能管理及委派這些會議室的許可權。 在此情況下，此合作夥伴的主要系統管理員無法看到美國以外的任何會議室。 
 

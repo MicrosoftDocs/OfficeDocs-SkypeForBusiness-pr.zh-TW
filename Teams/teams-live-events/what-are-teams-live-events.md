@@ -23,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: fb6e808b162736b5d3e682cf8ae00682b4334388
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486593"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046752"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft Teams 即時活動
 
@@ -97,13 +97,12 @@ Teams 可讓召集人建立採用適當參與者權限的活動、指定活動�
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企業內容傳遞網路 (eCDN)
 
-eCDN 的目標是從網際網路拍攝影片內容，並將內容發佈至整個企業，而不會影響網路效能。 您可以使用下列其中一個通過認證的 eCDN 合作夥伴，針對組織內部舉辦的即時活動最佳化您的網路：
+eCDN 的目標是從網際網路拍攝影片內容，並將內容發佈至整個企業，而不會影響網路效能。 您可以使用 [Microsoft 第一方 eCDN 解決方案](/ecdn) ，或是下列其中一個認證的 eCDN 合作夥伴，針對組織內舉行的即時活動優化您的網路：
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>出席者體驗
 

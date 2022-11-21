@@ -1,7 +1,7 @@
 ---
 title: 資料與隱私權資訊
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 06/01/2022
 ms.reviewer: ''
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 資料與隱私權資訊
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: ec28dcafa7825e7f754d3631d2c21400a08c9b83
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532463"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046782"
 ---
 # <a name="approach"></a>方法
 
@@ -102,4 +102,4 @@ Microsoft Teams 會議室 Windows 安全性： [[Microsoft Teams for Windows 安
 Android 安全性Microsoft Teams 會議室：[Android 版 Microsoft Teams 安全性](/microsoftteams/rooms/security-android) \
 Microsoft 隱私權聲明： https://aka.ms/privacy \
 Microsoft 的資料管理： https://www.microsoft.com/trust-center/privacy/data-management \
-受管理的服務服務描述： [Microsoft Teams Room 受管理的服務](microsoft-teams-rooms-premium.md)
+受管理的服務服務描述： [Microsoft Teams Room 受管理的服務](rooms-pro-management.md)

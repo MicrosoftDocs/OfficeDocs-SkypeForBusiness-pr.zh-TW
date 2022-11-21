@@ -21,12 +21,12 @@ description: 瞭解如何在 Teams 教育版 的 Microsoft Teams 系統管理中
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91afcd8036cddfae2550aaddad776958ca413a78
-ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
+ms.openlocfilehash: 1475406697778080d5e49aae58729e6eb1d1576c
+ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67624293"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69111140"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
@@ -39,7 +39,11 @@ Teams 教育版中的作業和成績功能可讓授課者將工作、工作或�
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的作業整合
 
-您可以使用 Microsoft Teams 系統管理中心的系統管理設定，為貴組織中的授課者及其學生開啟或關閉功能。 下列是與作業相關的設定：
+您可以使用 Microsoft Teams 系統管理中心的系統管理設定，為貴組織中的授課者及其學生開啟或關閉功能。
+
+若要檢視和管理 [作業] 設定，請移至 Teams 系統管理中心的 <a href="https://admin.teams.microsoft.com/education/assignments-settings" target="_blank"> **[教育**  >  **作業設定**</a>]。
+
+下列是與作業相關的設定：
 
 <a name="#bkemaildigest"> </a>
 

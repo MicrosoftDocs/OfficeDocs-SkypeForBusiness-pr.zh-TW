@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cebff25642b98b7012a7c4bb2dac0c708c5e57c6
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: a4f5db5f79d2a273701e7c2cd8883c89aba2d1a2
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614075"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69126959"
 ---
 # <a name="plan-for-sip-gateway"></a>規劃 SIP 閘道
 
@@ -71,18 +71,18 @@ Teams 使用者必須有已啟用 PSTN 通話的電話號碼，才能使用 SIP 
 |廠商    |模型      |最小韌體版本|已核准韌體版本|備註|連結|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |執行企業韌體的裝置必須轉換成多重格式韌體。 請閱讀右側的指南以瞭解做法。|[Cisco 韌體轉換指南](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832       |11.3.5MPP   |11-3-7MPP  |   |   |
-|          |6821       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7811       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7821       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7841       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7861       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8811       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8841       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8845       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8851       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8861       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8865       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8832<sup>1</sup>       |11.3.5MPP   |11-3-7MPP  |   |   |
+|          |6821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |7861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8845<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8851<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8865<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
 |**聚**  |           |            |           |裝置會自動重新開機並安裝選取的韌體。|   |
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
@@ -136,6 +136,18 @@ Teams 使用者必須有已啟用 PSTN 通話的電話號碼，才能使用 SIP 
 |          |T53W<sup>1</sup>      |83          |96.86.5.1  |   |   |
 |          |T54W<sup>1</sup>      |83          |96.86.5.1  |   |   |
 |          |T57W<sup>1</sup>      |83          |96.86.5.1  |   |   |
+|          |W56H                  |            |61.85.0.56 |   |   |
+|          |W73H                  |            |116.85.0.38|   |   |
+|          |W59R                  |            |115.85.0.56|   |   |
+|          |W70B NOAM             |            |146.85.5.4 |   |   |
+|          |W70B EMEA             |            |146.85.5.2 |   |   |
+|          |W70B APAC             |            |146.85.5.3 |   |   |
+|          |W80 NOAM              |            |130.85.5.5 |   |   |
+|          |W80 EMEA              |            |130.85.5.6 |   |   |
+|          |W80 APAC              |            |130.85.5.4 |   |   |
+|          |W90 NOAM              |            |130.85.5.5 |   |   |
+|          |W90 EMEA              |            |130.85.5.6 |   |   |
+|          |W90 APAC              |            |130.85.5.4 |   |   |
 |**AudioCodes**|       |            |           |某些 AudioCodes SIP 裝置需要布建 URL 設定。 在右側下載並安裝受影響之 AudioCodes 裝置的升級檔案。 |[在 AudioCodes 為受影響裝置下載的檔案](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
 |          |405<sup>1</sup>        |2.2.8      |2.2.16.589 |   |   |
 |          |405HD<sup>1</sup>      |3.2.1      |2.2.16.589 |   |   |
@@ -187,6 +199,9 @@ Teams 使用者必須有已啟用 PSTN 通話的電話號碼，才能使用 SIP 
 
 > [!NOTE]
 > Ascom 聽筒會從 Ascom IP-DECT 伺服器透過空中接收韌體更新。
+
+> [!NOTE]
+> 針對 Yealink DECT 基座，請使用上面所列的適當地區特定韌體版本，以獲得最佳的通話體驗。
 
 > [!NOTE]
 > 針對支援查詢，搭配 Teams SIP 閘道使用 IP-DECT 系統的客戶應連絡其 DECT 製造商或其實作通道合作夥伴。

@@ -19,13 +19,13 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在 Microsoft Teams 中使用和管理原則套件，以簡化、簡化並協助在管理使用者群組的原則時提供一致性。
-ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+description: 瞭解如何在 Microsoft Teams 中使用、管理及自訂原則套件，以簡化、簡化並協助在管理使用者群組的原則時提供一致性。
+ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68877514"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69128187"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>管理 Microsoft Teams 的原則套件
 
@@ -36,9 +36,6 @@ Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的�
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="系統管理中心中 [原則套件] 頁面的螢幕擷取畫面。" lightbox="media/policy-packages-admin-center.png":::
 
 您可以自訂原則套件中的原則設定，以符合使用者的需求。 當您變更套件中的原則設定時，所有獲指派該套件的使用者都會取得更新的設定。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來管理原則套件。
-
-> [!NOTE]
-> 這項功能暫時在公開預覽中提供給所有 Microsoft Teams 客戶使用。 若要在預覽之後取得此功能，每個使用者都需要進階通訊附加元件授權。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 ## <a name="what-is-a-policy-package"></a>什麼是原則套件？
 

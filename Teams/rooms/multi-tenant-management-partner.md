@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 合作夥伴的 Mult-tenant 客戶管理。
 f1keywords: ''
-ms.openlocfilehash: e4e89d483d15ad7f521afd9c0686b3d72ab9e09d
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243904"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046822"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>合作夥伴的多租使用者客戶管理
 
-Teams 會議室專業管理服務中的多租使用者管理 (MTM) ，可協助合作夥伴組織使用自己的網域認證，在同一個地方管理多個客戶。 合作夥伴使用者只會看到獲指派管理的客戶會議室。 您可以在 MTM 入口網站中為每位客戶套用自訂角色，讓合作夥伴組織能夠精細地控制客戶資源的許可權。 
+Teams 會議室專業版管理服務中的多租使用者管理 (MTM) ，可協助合作夥伴組織使用自己的網域認證，在同一個地方管理多個客戶。 合作夥伴使用者只會看到獲指派管理的客戶會議室。 您可以在 MTM 入口網站中為每位客戶套用自訂角色，讓合作夥伴組織能夠精細地控制客戶資源的許可權。 
 
 您可以透過此 [連結](https://partner.rooms.microsoft.com/)存取 MTM 入口網站。
 
@@ -102,7 +102,7 @@ Teams 會議室專業管理服務中的多租使用者管理 (MTM) ，可協助�
 
 ## <a name="managing-partner-roles"></a>管理合作夥伴角色
 
-合作夥伴角色允許將職責委派給其他人員。 這些角色的概念與 [角色型存取控制](microsoft-teams-rooms-premium-rbac.md)中所述相同，但與每個客戶有關。 此外，請務必注意，合作夥伴角色與客戶的角色不同。 客戶可以刪除合作夥伴角色。 
+合作夥伴角色允許將職責委派給其他人員。 這些角色的概念與 [角色型存取控制](rooms-pro-rbac.md)中所述相同，但與每個客戶有關。 此外，請務必注意，合作夥伴角色與客戶的角色不同。 客戶可以刪除合作夥伴角色。 
 
 **主要系統管理員** 角色是每個內部部署客戶的唯一內建角色，而且擁有 Pro Management 服務的幾乎擁有權限，就客戶而言 (請參閱資料表 1) 。 合作夥伴** 角色許可權只會延伸至客戶指定的會議室。 例如，如果客戶是通用群組織，並指派合作夥伴管理所有美式會議室，則主要系統管理員只能管理及委派這些會議室的許可權。 合作夥伴無法看到客戶在其他國家/地區擁有的其他會議室。 
 
@@ -127,7 +127,7 @@ Teams 會議室專業管理服務中的多租使用者管理 (MTM) ，可協助�
 
 1. 移至 [ **設定] >角色]**。 
 1. 從您要編輯合作夥伴角色的下拉式功能表中選取客戶。
-1. 建立 [自訂角色](microsoft-teams-rooms-premium-rbac.md#built-in-roles)。
+1. 建立 [自訂角色](rooms-pro-rbac.md#built-in-roles)。
 
 
 

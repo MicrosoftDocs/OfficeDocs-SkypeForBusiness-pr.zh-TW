@@ -17,12 +17,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 從 Slack 移轉到 Microsoft Teams 的完全指引。
-ms.openlocfilehash: fbcd47f894445595534bf6a88d21f7372268d983
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b283e38332ab592ec2dedc8a61c1575edfb3359d
+ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268748"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69111110"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>從 Slack 移轉到 Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "67268748"
 
 ## <a name="plan-your-migration-from-slack"></a>規劃從 Slack 的移轉
 ### <a name="what-you-can-and-cant-migrate"></a>可以或不可移轉的項目
-您的 Slack 服務方案將決定您可以或無法移轉的項目。例如，某些 Slack 服務方案只允許您匯出公用頻道的歷程記錄和檔案，而其他則需要 DocuSign 要求，才能包含私人頻道和直接訊息。 
+Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. 
 
 若要決定您的 Slack 工作區服務等級，請登入 Slack 並記下在 **[關於此工作區]** 頁面上的的方案類型。
 
@@ -54,7 +54,7 @@ ms.locfileid: "67268748"
 ### <a name="assess-your-slack-workspaces"></a>評估您的 Slack 工作區
 在可規劃組織的移轉方案之前，您必須先集結一些與 Slack 工作區相關的資訊。 了解您 Slack 工作區的使用方式將幫助您決定移轉的範圍。 例如，要移轉多少工作區？ 是由某個特定部門、許多部門，還是由整個組織使用？
 
-如果您屬於打算移轉之 Slack 工作區的成員之一，您可以前往 *\<your Slack workspace\>.slack.com/stats* 來自行分析使用方式。查看 [頻道] 和 [成員] 索引標籤以尋找使用模式。決定要移轉何種工作區 (以及要留下哪些工作區)。 
+If you’re a member of the Slack Workspaces you want to migrate, you can analyze the usage yourself by going to *\<your Slack workspace\>.slack.com/stats*. Review the Channels and Members tabs to look for usage patterns. Decide which workspaces you want to migrate (and which ones you want to leave behind). 
 
 > [!NOTE]
 > 如果您沒有統計資料頁面的存取權，您就不是系統管理員或擁有者。 
@@ -68,7 +68,7 @@ ms.locfileid: "67268748"
 若要深入了解 Slack 的匯出選項，請移至 Slack 網站：https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
 > [!IMPORTANT]
-> 檢查組織對頻道資料的隱私權與合規性需求。除了遵守使用者可識別內容 (EUII) 的生命週期外，您的組織還可能對處理、儲存和處理此資料方面有合規性要求。
+> Check your organization’s privacy and compliance requirements around channel data. Your organization may have compliance requirements around the handling, storage, and processing of this data, in addition to complying with the lifecycle of end-user identifiable content (EUII).
 
 ### <a name="export-direct-messages"></a>匯出直接訊息
 直接訊息與 Teams 中的聊天相同，也就是1:1 或一對多非頻道交談。 匯出能力取決於您的 Slack 服務方案，以及您是否已要求將直接訊息包含在 [Slack 匯出] 中。 Teams 目前不支援匯入直接訊息。 請諮詢 Microsoft 合作夥伴，以了解可探索之將直接訊息內容匯入 Teams 的協力廠商相關解決方案。
@@ -77,7 +77,7 @@ ms.locfileid: "67268748"
 
 ### <a name="apps-and-custom-integrations"></a>應用程式和自訂整合
 
-Slack 中的應用程式就如同 Teams 中的應用程式。當您在工作區中擁有應用程式及其設定清單後，您可以在 Teams 應用程式市集中搜尋，以查看它們是否可於 Teams 中使用*。 
+Apps in Slack are like apps in Teams. Once you have a list of apps and their configurations in the Workspace, you can search in the Teams App store to see if they’re available for Teams*. 
 
 前往 \<your Slack workspace\>.slack.com/apps/manage 以取得應用程式和自訂整合清單。 此頁面也會顯示每個應用程式使用中的設定數量。 自訂整合按照「移轉能力」而有所不同。 如果是 Web Hook，您通常可以將其傳送到 Microsoft 365 或 Office 365 連接器，以將工作流程轉換至 Teams。 視情況評估 Bot 和其他應用程式，以規劃將其移至 Teams。
 
@@ -193,11 +193,11 @@ Slack 工作區可以代表單一團隊、多個團隊或整個組織。 當您�
 使用您在上述 [規劃] 章節中所編譯的 [頻道庫存]，與您的 Slack 擁有者和系統管理員合作，以找出哪些頻道應成為團隊，以及哪些頻道應成為團隊中的頻道。 使用 Excel 或 Power BI 來協助本次分析 - 兩種都可以提供額外的深入資訊，以幫助推動有關保留哪些頻道的討論。
 
 > [!TIP]
-> Teams 目前有每個團隊 200 個頻道的限制。如果您的頻道清單正接近該限制，請找出將其分割成兩個個別團隊的方法。
+> Teams currently has a 200-channel limit per team. If your list of channels is getting close to that limit, you should figure out a way to split them into two separate teams.
 
 ### <a name="channel-history"></a>頻道歷程記錄
 
-根據組織保留公用和私人通道歷程記錄的需求，您同時可使用 GitHub 上的免費解決方案和付費方案。此外，您也可將其編寫為 Teams 中的指令碼。
+There are both free solutions on GitHub and paid solutions you can use, depending on your organization’s requirements to retain Channel History of Public and Private channels. Additionally, this could be scripted into Teams.
 
 一旦在 Teams 中設定好新的團隊和頻道結構，您可以將匯出的檔案複製到 Teams 頻道中適當的文件庫。
 
@@ -205,7 +205,7 @@ Slack 工作區可以代表單一團隊、多個團隊或整個組織。 當您�
 
 ### <a name="channel-files"></a>頻道檔案
 
-大部分解決方案都可匯出檔案。然而它們通常會以頻道歷程記錄中連結的方式提供，需要 API 金鑰才能以程式設計方式擷取。
+Most solutions will export files. However, they’re typically provided as links in the Channel History that require an API key to programmatically retrieve.
 
 針對儲存在 Slack 中的檔案，一旦您設定好 Teams 中的團隊和頻道，可以以程式設計的方式由 Slack 將其複製到目標的 Teams 頻道。
 
@@ -339,7 +339,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 - New Relic
   - 查看[傳送 New Relic 警示到 Teams](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3) 的使用者解決方案
 - Nagios
-  - 警示現在可透過連接器整合。https://github.com/isaac-galvan/nagios-teams-notify
+  - 可透過 [連接器] 立即整合警示。 https://github.com/isaac-galvan/nagios-teams-notify
 - Zendesk
   - 可在 Teams Store 找到應用程式
 - Jenkins

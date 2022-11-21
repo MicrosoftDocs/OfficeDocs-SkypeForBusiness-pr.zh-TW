@@ -10,30 +10,30 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 瞭解如何在 Teams 會議室 專業管理入口網站中設定 ServiceNow
+description: 瞭解如何在 Teams 會議室專業版 管理入口網站中設定 ServiceNow
 f1keywords: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_MTRP
-ms.openlocfilehash: e437a27b6c1ba04b76cd71aa70c9913acf78c45d
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: 2166332df2c4ea388256d32a9dbc35a709042041
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243724"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046852"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>設定 ServiceNow for Teams 會議室
 
-本文將說明在 Teams 會議室 專業管理入口網站中設定 ServiceNow 環境的必要條件和步驟。
+本文將說明在Teams 會議室專業版管理入口網站中設定 ServiceNow 環境的必要條件和步驟。
 
-## <a name="watch-microsoft-teams-rooms-pro-management--service-now-integration"></a>觀看：Microsoft Teams 會議室專業管理 - 服務現在整合
+## <a name="watch-microsoft-teams-rooms-pro-management--service-now-integration"></a>觀看：Microsoft Teams 會議室專業版管理 - 服務現在整合
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
 
 
 ### <a name="teams-rooms-prerequisites"></a>Teams 會議室先決條件
 
-- 您必須擁有指派的服務系統管理員角色。 如需詳細資訊，請參閱使用[Microsoft Teams 會議室專業管理的角色型存取控制](microsoft-teams-rooms-premium-rbac.md)。
+- 您必須擁有指派的服務系統管理員角色。 如需詳細資訊，請參閱[使用Microsoft Teams 會議室專業版管理的角色型存取控制](rooms-pro-rbac.md)。
 
 ### <a name="servicenow-prerequisites"></a>ServiceNow 必要條件
 
@@ -44,10 +44,10 @@ ms.locfileid: "68243724"
 
 ## <a name="configure-your-environment"></a>設定您的環境
 
-您的環境設定方式是高度可自訂的，而且會視貴組織的需求而定。 下列步驟將逐步說明如何將您在 ServiceNow 中的現有設定複製到Teams 會議室專業管理入口網站。
+您的環境設定方式是高度可自訂的，而且會視貴組織的需求而定。 下列步驟將逐步說明如何將您在 ServiceNow 中的現有設定複製到Teams 會議室專業版管理入口網站。
 
-1. 開啟您要複製的 ServiceNow 實例。 當您在 Teams 會議室 專業管理入口網站中完成組態表單時，必須參照此資訊。
-2. 在新的瀏覽器索引標籤中，移至 [[Teams 會議室專業管理] 入口網站](https://portal.rooms.microsoft.com/)，然後移至 [**設定]**。 然後，在左側導覽功能表中選取 **[ServiceNow** ] 以開啟組態表單。
+1. 開啟您要複製的 ServiceNow 實例。 當您在Teams 會議室專業版管理入口網站中完成組態表單時，必須參照此資訊。
+2. 在新的瀏覽器索引標籤中，移至 [[Teams 會議室專業版管理] 入口網站](https://portal.rooms.microsoft.com/)，然後移至 [**設定]**。 然後，在左側導覽功能表中選取 **[ServiceNow** ] 以開啟組態表單。
 3. 選取驗證方法以登入並輸入您的 ServiceNow 實例主機和 API URI。
 4. [欄位對應] 區段的 [ServiceNow 功能變數] 欄中的所有必要專案都應預先填入。 下表包含每個 ServiceNow 欄位及其對應的Microsoft Teams 會議室欄位。 完成 [欄位對應] 區段中每一列的動作。 如需每個 ServiceNow 欄位的定義，請參閱 [ServiceNow 欄位定義](#servicenow-field-definitions)。
 
@@ -76,16 +76,16 @@ ms.locfileid: "68243724"
 
 ## <a name="servicenow-field-definitions"></a>ServiceNow 欄位定義
 
-- **short_description**：ServiceNow 中的簡短描述欄位是簡短的 160 個字元英數位元值，提供事件摘要。 簡短描述相當於Teams 會議室專業管理入口網站中的事件描述。
+- **short_description**：ServiceNow 中的簡短描述欄位是簡短的 160 個字元英數位元值，提供事件摘要。 簡短描述相當於Teams 會議室專業版管理入口網站中的事件描述。
 
-- **描述**：ServiceNow 中的描述欄位是 ServiceNow 事件交談記錄中的第一個值。 描述相當於Teams 會議室專業管理入口網站中的第一封郵件。
+- **描述**：ServiceNow 中的描述欄位是 ServiceNow 事件交談記錄中的第一個值。 描述相當於Teams 會議室專業版管理入口網站中的第一封郵件。
 
-- **assignment_group**：ServiceNow 中的 [工作分派群組] 欄位是用來組織事件。 作業群組相當於Teams 會議室專業管理入口網站中的 [會議室] 群組。 根據預設，有一個聊天室群組，而且可以新增更多聊天室群組。 您可以決定有多少個群組，以及如何將事件分組。 例如，您可以選擇依據位置來組織事件。
+- **assignment_group**：ServiceNow 中的 [工作分派群組] 欄位是用來組織事件。 作業群組相當於Teams 會議室專業版管理入口網站中的 [會議室] 群組。 根據預設，有一個聊天室群組，而且可以新增更多聊天室群組。 您可以決定有多少個群組，以及如何將事件分組。 例如，您可以選擇依據位置來組織事件。
 
-- **嚴重性**：ServiceNow 中的嚴重性欄位是用來依優先順序組織事件。 指定優先順序的值是可自訂的。 嚴重性相當於Teams 會議室專業管理入口網站中的 [響鈴] 欄位。 若要自訂Teams 會議室專業管理入口網站中的頻道，請移至左側導覽功能表中的 **更新**。 然後移至 [ **頻道] 索引卷** 標，然後選取 **[新增頻道]**。
+- **嚴重性**：ServiceNow 中的嚴重性欄位是用來依優先順序組織事件。 指定優先順序的值是可自訂的。 嚴重性相當於Teams 會議室專業版管理入口網站中的 [響鈴] 欄位。 若要自訂Teams 會議室專業版管理入口網站中的頻道，請移至左側導覽功能表中的 **更新**。 然後移至 [ **頻道] 索引卷** 標，然後選取 **[新增頻道]**。
 
-- **批註**：[批註] 是 ServiceNow 中的選擇性欄位，用於在 Teams 會議室 專業管理入口網站設定中包含來自 ServiceNow 實例的自訂必要欄位。 等同于批註是 Teams 會議室 專業管理入口網站中的自訂值。
+- **批註**：[批註] 是 ServiceNow 中的選擇性欄位，用於在您的 Teams 會議室專業版 管理入口網站設定中包含來自 ServiceNow 實例的自訂必要欄位。 等同于批註是Teams 會議室專業版管理入口網站中的自訂值。
 
-- **狀態 (解決了)**： ServiceNow 中的狀態 (解決了) 欄位，用來指定事件的解決方式，以及關閉事件的必要條件。 已解決) 值的狀態 (可自訂。 Teams 會議室專業管理入口網站中的自訂值相當於 (解決) 狀態。
+- **狀態 (解決了)**： ServiceNow 中的狀態 (解決了) 欄位，用來指定事件的解決方式，以及關閉事件的必要條件。 已解決) 值的狀態 (可自訂。 )  (解決狀態的對應值是Teams 會議室專業版管理入口網站中的自訂值。
 
-- **close_code**：在事件完全解決之後，必須指派關閉代碼給事件。 這個值可在 ServiceNow 中自訂。 等同于關閉程式碼是 Teams 會議室 專業管理入口網站中的自訂值。
+- **close_code**：在事件完全解決之後，必須指派關閉代碼給事件。 這個值可在 ServiceNow 中自訂。 等同于關閉程式碼是Teams 會議室專業版管理入口網站中的自訂值。
