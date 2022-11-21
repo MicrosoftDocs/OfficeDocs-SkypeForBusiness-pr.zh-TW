@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c618552a574a567a91ddab0e2303fd5f99a2373a
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 3511dec4f3238babc3356bafbe2bb69e791e7632
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912602"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131312"
 ---
 # <a name="use-of-teams-apps-for-external-attendees-or-guest-from-outside-an-organization"></a>將 Teams 應用程式用於外部出席者或組織外部來賓
 
@@ -89,9 +89,9 @@ Teams 應用程式可讓您與組織外部人員共同作業。 身為系統管�
 
 匿名使用者只能與會議中既有可用但無法取得及管理這類應用程式的應用程式互動。 即使匿名使用者正在參與會議，原生使用者仍可繼續使用會議應用程式。
 
-### <a name="disallow-anonymous-users-to-use-apps-in-meetings"></a>不允許匿名使用者在會議中使用應用程式
+### <a name="allow-anonymous-users-to-use-apps-in-meetings"></a>允許匿名使用者在會議中使用應用程式
 
-根據預設，匿名使用者可以在會議中與現有的應用程式互動。 您可以不允許匿名使用者與應用程式互動。
+根據預設，匿名使用者可以在會議中與現有的應用程式互動。 匿名使用者無法將新的應用程式新增至會議。 您可以不允許匿名使用者與應用程式互動。
 
 1. 登入 Teams 系統管理中心並存取 **會議**  >  **[會議設定](https://admin.teams.microsoft.com/meetings/settings)**。
 

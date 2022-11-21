@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 description: 瞭解團隊範本，以及如何在 Microsoft Teams 系統管理中心管理它們。
 f1.keywords:
@@ -20,12 +21,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fc4f5c88e123981ee5224a76c28996306e51ded
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 6ca199dbe81b2636a895ca25386abf53f6277758
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046893"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131332"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在 Teams 系統管理中心開始使用團隊範本
 

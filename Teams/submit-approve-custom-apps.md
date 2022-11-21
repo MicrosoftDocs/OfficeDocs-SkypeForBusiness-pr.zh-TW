@@ -15,15 +15,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用 Teams 應用程式提交 API 來核准您提交的自訂應用程式。
-ms.openlocfilehash: 63493041d834c99f5ffa93ba2fb580130afa0e29
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: 83a4896fbd849cf55020854fd617da003d589cb0
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494616"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131262"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>發佈使用 Teams 應用程式提交 API 提交的自訂應用程式
 

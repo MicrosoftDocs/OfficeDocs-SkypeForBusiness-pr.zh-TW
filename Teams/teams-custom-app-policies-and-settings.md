@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: 瞭解如何管理原則和設定，以控制組織中的誰可以側載應用程式及上傳自訂應用程式。
 f1.keywords:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 19f18d89ec2f423c1531639adb630992bdbdc547
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912412"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130992"
 ---
 # <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>在 Teams 系統管理中心管理自訂和側載應用程式
 
@@ -41,9 +41,9 @@ Microsoft Teams 可讓組織內部的開發人員為組織內部使用者建置�
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 傳統型應用程式中 Teams 市集中自訂應用程式的螢幕擷取畫面。" lightbox="media/built-for-your-org2.png":::
 
-身為 Teams 系統管理員，您可以使用自訂應用程式原則和設定來控制組織中誰可以將自訂應用程式上傳到 Microsoft Teams。 系統管理員決定可上傳自訂應用程式的使用者，而系統管理員與小組擁有者可判斷貴組織中的特定小組是否可將自訂應用程式新增至其小組。 編輯自訂應用程式原則之後，變更可能需要幾個小時的時間才會生效。 您必須是全域管理員或 Teams 服務系統管理員，才能管理這些原則。
+身為 Teams 系統管理員，您可以使用自訂應用程式原則和設定來控制組織中誰可以將自訂應用程式上傳到 Microsoft Teams。 系統管理員決定可上傳自訂應用程式的使用者，而系統管理員與小組擁有者可判斷貴組織中的特定小組是否可將自訂應用程式新增至其小組。 編輯自訂應用程式原則之後，變更需要幾個小時才會生效。 您必須是全域管理員或 Teams 服務系統管理員，才能管理這些原則。
 
-貴組織內的開發人員可透過將應用程式套件 (.zip 檔案中) 直接上傳至小組或個人內容中，將自訂應用程式新增至 Teams。 這與透過 Teams 應用程式市集新增應用程式的方式不同。 透過上傳應用程式套件新增自訂應用程式 (也稱為側載)，讓貴組織的特定使用者在應用程式就緒廣泛散佈前先測試該應用程式。
+貴組織內的開發人員可透過將應用程式套件 (.zip 檔案中) 直接上傳至小組或個人內容中，將自訂應用程式新增至 Teams。 這個方法與透過 Teams App Store 新增應用程式的方式不同。 透過上傳應用程式套件新增自訂應用程式 (也稱為側載)，讓貴組織的特定使用者在應用程式就緒廣泛散佈前先測試該應用程式。
 
 <!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
 
@@ -119,7 +119,7 @@ Microsoft Teams 可讓組織內部的開發人員為組織內部使用者建置�
 
 ### <a name="org-wide-custom-app-setting"></a>全組織的自訂應用程式設定
 
-在 [[管理應用程式]](manage-apps.md) 頁面上的 **[允許與自訂應用程式互動]** 全組織自訂應用程式設定會套用至貴組織中的所有人，並控管人員是否可上傳或與自訂應用程式互動。 此設定會做為使用者和小組自訂應用程式原則設定的主控開/關切換。 其目的是在安全性事件期間做為主控的開/關切換。 因此，除非啟用整個組織的自訂應用程式設定，否則使用者和小組自訂應用程式原則設定將不會生效，即使已啟用使用者和小組自訂應用程式原則設定也不會生效。
+在 [[管理應用程式]](manage-apps.md) 頁面上的 **[允許與自訂應用程式互動]** 全組織自訂應用程式設定會套用至貴組織中的所有人，並控管人員是否可上傳或與自訂應用程式互動。 此設定會做為使用者和小組自訂應用程式原則設定的主控開/關切換。 其目的是在安全性事件期間做為主控的開/關切換。 使用者和小組自訂應用程式原則設定只有在您啟用整個組織的自訂應用程式設定後才會生效。
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>設定全組織自訂應用程式設定
 
