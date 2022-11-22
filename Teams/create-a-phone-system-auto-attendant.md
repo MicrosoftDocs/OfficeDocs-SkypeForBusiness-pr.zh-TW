@@ -21,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中設定和管理自動語音應答。
-ms.openlocfilehash: 7b9d34e7e33ee0274f957afc8b1c4efecb044974
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 68a3364130fa344786cffbc642fe77e0b7a6a2cd
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614366"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139137"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -48,7 +48,7 @@ ms.locfileid: "68614366"
 > [!NOTE]
 > 將通話重新導向至 **組織中的人員** 時，該人員必須具備語音功能。 如需啟用語音的詳細資訊，請參閱 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 >
-> 雖然定義 **運** 算符是選用的，但建議您使用運算子。  如果來電者未在功能表上進行選取、重複選取不正確選項，或是依名稱或號碼重複撥號失敗，自動語音應答會將呼叫重新導向至電信業者。  如果未定義電信業者，自動語音應答會捨棄通話。
+> 雖然定義 **運** 算符是選用的，但建議您使用運算子。  如果因為刪除使用者或共用語音信箱帳戶而導致自動語音應答設定發生錯誤，自動語音應答會將電話重新導向至電信業者。  如果未定義電信業者，自動語音應答會捨棄通話。
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>過去 6 個月自動語音應答的新功能
  

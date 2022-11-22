@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解國家或地區是否可使用音訊會議、電話系統、通話方案、通訊點數，以及免付費電話號碼和免付費電話號碼。
-ms.openlocfilehash: 2f9bc15a51765d595a1c8eb24c800971079b1207
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: a20d8344182d8fefeaeb8cbc6c9789178b87829f
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641934"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139167"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -203,16 +203,11 @@ ms.locfileid: "67641934"
 
 請使用頁面頂端的下拉式清單來搜尋國家/地區以及可用的服務。
 
-### <a name="calling-plans"></a>通話方案
+### <a name="microsoft-teams-calling-plans"></a>Microsoft Teams 通話方案
 
-|功能     |詳細資料  |
-|----------|-----------|
-|可以購買通話方案嗎？  |是          |   
-|通話方案可用分鐘數。    |每個行事曆月有五個可用的計畫選項： <ul><li>隨選即用通話方案 </li><li> 120 分鐘國內通話方案 </li><li> 240 分鐘國內通話方案 </li><li> 1200 分鐘國內通話方案 </li><li> 國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以行事曆月份的第一個到達者為准) </li></ul>|
+除了電話系統，通話方案可讓使用者撥打和接聽電話。 您會先取得使用者 (使用者) 電話號碼 (而不是服務號碼，) 指派給使用者，然後指派通話方案。 有三種可用的通話方案： **國內**、 **國際** 和隨選即用 **付費**。 如需詳細資訊，請參閱 [通話 Microsoft Teams 方案](../calling-plans-for-office-365.md) 。
 
-與電話系統一起使用時，通話方案可讓使用者撥打及接聽電話。 您會先取得使用者 (使用者) 電話號碼 (而不是服務號碼，) 指派給使用者，然後指派通話方案。 有兩種類型的通話方案可用： **國內** 和 **國際**。 如需詳細資訊，請參閱[電話系統和通話方案](../calling-plan-landing-page.md)。
-
-您也可以參閱[電話系統和通話方案授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)以取得授權資訊。
+您也可以查看 [Microsoft Teams 附加元件授權選項以](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 取得授權資訊。
 
 > [!NOTE]
 > 國家/地區所根據的是使用者授權在 [Microsoft 365 系統管理中心] > [作用中的使用者] 中的位置，**而非** [Microsoft 365 系統管理中心] 的 [組織設定檔] 底下所列的帳單地址。
