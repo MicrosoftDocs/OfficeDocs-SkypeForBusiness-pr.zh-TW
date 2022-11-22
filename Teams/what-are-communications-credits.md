@@ -22,13 +22,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- admindeeplinkMAC
 description: '瞭解哪些通訊點數 (PSTN 消費) 帳單、如何尋找費率，以及您可取得哪些服務。 '
-ms.openlocfilehash: 75a1f3702140543f08d963a2572841bdca79c9b1
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 6d64c89aa62d7209a1135234e975f492e7c182a9
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584204"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139157"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
@@ -48,15 +49,33 @@ ms.locfileid: "68584204"
 
 - 如果您有隨選即用的通話方案，則所有撥出電話每分鐘撥出並支付一次。
 
-> [!NOTE]
-> 您的音訊會議訂閱可能會包含一些目的地的撥出電話。 請查看您的訂閱資訊以取得詳細資料。
+## <a name="can-i-use-communication-credits"></a>我可以使用通訊點數嗎？
+
+並非所有客戶都可以或應該使用通訊點數。 以下是一些您無法或不應該使用通訊點數的原因。
+
+### <a name="call-destinations-may-be-included-in-your-subscription"></a>通話目的地可能包含在您的訂閱中
+
+您的音訊會議或通話方案訂閱可能會包含一些目的地的撥出電話。 購買不需要的通訊點數之前，請先查看您的訂閱資訊以取得詳細資料。
   
-> [!NOTE]
-> 如果貴組織所在的地區與 Enterprise 合約 (EA) 帳單位址不同，您可能無法購買通訊點數。 如果您無法取得通訊點數，請從入口網站開啟支援事件，我們會與您合作以減輕此問題，直到永久解決方案存在為止。
-  
+### <a name="conflicting-organization-addresses"></a>衝突的組織位址
+
+如果貴組織所在的地區與 Enterprise 合約 (EA) 帳單位址不同，您可能無法購買通訊點數。
+
+如果您無法購買通訊點數，請從入口網站開啟支援事件，我們會與您一起減輕此問題，直到永久解決方案解決為止。
+
+### <a name="customers-with-new-commerce-experience-calling-subscriptions"></a>擁有全新商務體驗的客戶撥打訂閱
+
+新的商務體驗 (NCE) 可讓客戶在使用服務之後支付服務費用，也稱為使用後計費。
+
+由於通訊點數是預付預算，可支援撥出分鐘方案，因此無法為使用 NCE 通話訂閱的客戶購買。
+
+相反地，NCE 客戶會在使用逾額撥出分鐘方案後付費。 不需要通訊點數集。
+
+如需通話訂閱之全新商務體驗的詳細資訊，請參閱 [為您的訂閱啟](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) 用隨付功能和 [電話公司付費就地支付的新商務超值](/partner-center/new-commerce-telco-payg)。
+
 ## <a name="what-are-the-communications-credits-rates"></a>什麼是通訊點數費率？
 
-如果您想知道通話方案的通話費用為何，請參閱 [語音電話的雲端電話系統](https://go.microsoft.com/fwlink/p/?LinkId=799523) (向下捲動至 [查看您要撥打電話的費率]) 。
+如果您想知道Microsoft Teams 通話方案的通話費用，請參閱[語音電話的雲端電話系統](https://go.microsoft.com/fwlink/p/?LinkId=799523) (向下捲動至 [查看您要撥打電話的費率]) 。
   
 ## <a name="what-is-it"></a>這是什麼？
 
@@ -72,7 +91,7 @@ ms.locfileid: "68584204"
 > [!NOTE]
 > 您可以登入Microsoft 365 系統管理中心，然後移 [至](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >  帳單 **訂閱**  >  **新增訂閱**，以查看方案和價格。
   
-在 **Microsoft 365 系統管理中心**  >  **Billing**  >  **購買服務**  >  **附加元件] 中**，您可以選取 [通訊點數] 來新增點數，而且您可以隨時手動新增點數。 您也可以啟用 **自動加值** 選項，當餘額低於您設定的閾值時，自動帳戶就會重新填入。 如果您選擇以一次性金額來提供通訊點數餘額，然後餘額降為零，上述其他通話案例將不再運作，包括免付費電話號碼。 因此，如果您的通訊點數餘額達到 0 (零) ，建議您使用 **自動加值** 設定來避免服務中斷。 您可以前往 **[向****您的產品**  >  收取 **通訊點數**]  >  來檢視您目前的通訊點數餘額。
+在 [Microsoft 365 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2024339)中，移至 **[計費**  >  **購買服務**  >  **附加** 元件]，您可以選取 [通訊點數] 來新增點數，而且您可以隨時手動新增點數。 您也可以啟用 **自動加值** 選項，當餘額低於您設定的閾值時，自動帳戶就會重新填入。 如果您選擇以一次性金額來提供通訊點數餘額，然後餘額降為零，上述其他通話案例將不再運作，包括免付費電話號碼。 因此，如果您的通訊點數餘額達到 0 (零) ，建議您使用 **自動加值** 設定來避免服務中斷。 您可以前往 **[向****您的產品**  >  收取 **通訊點數**]  >  來檢視您目前的通訊點數餘額。
 
 > [!NOTE]
 >系統會傳送 **電子郵件給** Lync 服務系統管理員、公司系統管理員、計費系統管理員、公司系統管理員、使用者帳戶管理員、技術服務系統管理員、服務支援系統管理員、計費系統管理員、Lync 服務系統管理員、裝置系統管理員、應用程式管理員、授權系統管理員、雲端裝置系統管理員、驗證系統管理員、許可權驗證系統管理員、Teams 通訊系統管理員、Teams 通訊支援工程師、Teams 通訊支援專員、Teams 系統管理員角色，當加值交易成功時，加值交易會失敗 (例如信用卡) 過期，或您的通訊點數餘額達到 0 (零) 。
@@ -109,7 +128,7 @@ ms.locfileid: "68584204"
 
 我們建議您先使用小額資金金額，對小型組織而言，金額至少可以是 $50 美元。 使用 PSTN 使用詳細資料包告收集一或兩個月的 PSTN 使用量之後，您就可以調整金額以符合貴組織中一般使用量。
   
-如果您已準備好設定這一切，請參閱 [為貴組織設定通訊點數](set-up-communications-credits-for-your-organization.md)。
+如果您已準備好設定通訊點數，請參閱 [為貴組織設定通訊點數](set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想知道方案和價格嗎？
 
