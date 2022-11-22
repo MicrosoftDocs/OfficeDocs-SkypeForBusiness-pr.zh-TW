@@ -1,5 +1,5 @@
 ---
-title: 設定通話方案
+title: 設定Microsoft Teams 通話方案
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,16 +27,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解如何設定通話方案，包括檢視您所在地區可用的方案、購買&指派授權、取得電話號碼，以及&位置新增緊急位址。
-ms.openlocfilehash: c33a7e3400df369b062468001b06d35dc98ad0ac
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: ac46c40fb5a63a40ed2ecbdc5f43fa71137f780c
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999528"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139147"
 ---
-# <a name="set-up-calling-plans"></a>設定通話方案
+# <a name="set-up-microsoft-teams-calling-plans"></a>設定Microsoft Teams 通話方案
 
-撥打給其他 Teams 使用者的通話是免費的，但如果您希望您的使用者能夠撥打公司以外的電話，請根據您的需求，在 Microsoft 365 中取得國內通話方案、國際通話方案或隨選即用通話方案。 為您的企業設定通話方案非常容易。  如需通話方案的詳細資訊，請參閱 [哪一個通話方案適合您？](calling-plan-landing-page.md)。
+撥打給其他 Teams 使用者的通話是免費的，但如果您希望您的使用者能夠撥打公司以外的電話，請根據您的需求，在 Microsoft 365 中取得國內通話方案、國際通話方案或隨選即用通話方案。 為您的企業輕鬆設定Microsoft Teams 通話方案。  如需通話方案的詳細資訊，請參閱 [哪一個通話方案適合您？](calling-plan-landing-page.md)。
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步驟 1：瞭解您的國家/地區是否提供通話方案
 
@@ -51,7 +51,8 @@ ms.locfileid: "67999528"
     > [!TIP]
     > **Microsoft** 365 的電話系統授權和通話方案搭配使用，因此若要查看購買通話方案的選項，您必須先擁有 **電話系統** 授權。
   
-2. 首先指派授權，然後將通話方案指派給貴組織中的人員。 請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+2. 首先指派授權，然後指派通話方案授權給貴組織中的人員。 請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+    1. 如果您購買隨時隨地付費通話方案，您可能需要購買通訊點數。 若要判斷您是否需要購買通訊點數，請參閱 [如何為隨付通話方案提供資金](calling-plans-for-office-365.md#how-to-fund-a-pay-as-you-go-calling-plan)。
 
 ## <a name="step-3-get-phone-numbers"></a>步驟 3：取得電話號碼
 

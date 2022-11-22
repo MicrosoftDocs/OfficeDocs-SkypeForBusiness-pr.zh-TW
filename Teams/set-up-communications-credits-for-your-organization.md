@@ -24,23 +24,33 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 瞭解如何為使用者和組織設定通訊點數 (PSTN 消費) 帳單授權。
-ms.openlocfilehash: 4ad3b6702d31f59c237bf7867aadd0e8d1c05abf
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 0a6489b0c3e7591139421b418be52d6bfcd8f4fa
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613835"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139127"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的 [通訊點數]
 
-如果您想要搭配 Microsoft Teams 使用免付費電話號碼，您需要設定通訊點數。 Microsoft 建議您針對通話方案設定通訊點數， (需要撥出到 **任何目的地** 的國內、國際或 Pay-As-You-Go) 和音訊會議使用者。 您的通話方案或音訊會議訂閱可能不包含某些目的地。
+如果您想要搭配 Microsoft Teams 使用免付費電話號碼，您需要設定通訊點數。 Microsoft 建議您針對需要撥出到 **任何目的地** 的 Microsoft Teams 通話方案設定通訊點數 (國內、國際或隨付) 和音訊會議使用者。 部分目的地可能不包含在您的通話方案或音訊會議訂閱中。
 
-當您註冊通話方案和/或音訊會議時，您會根據您的國家/地區取得特定的通話分鐘數。 如需詳細資訊，請參閱 [音訊會議和通話方案的國家或地區可用性清單](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization)。
+當您註冊通話方案和/或音訊會議時，您會根據您的國家/地區取得幾分鐘的時間。 如需詳細資訊，請參閱 [音訊會議和通話方案的國家或地區可用性清單](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization)。
 
 如果您未設定通訊點數，而且貴組織的時間不足，這些使用者將無法撥打電話或從音訊會議撥出電話。 您可以閱讀[什麼是通訊點數](what-are-communications-credits.md)，取得詳細資訊，包括建議的金額。
   
-> [!NOTE]
-> 如需方案與價格的詳細資訊， [請參閱這裡的費率](https://go.microsoft.com/fwlink/p/?LinkId=799523)。
+如需方案與價格的詳細資訊， [請參閱這裡的費率](https://go.microsoft.com/fwlink/p/?LinkId=799523)。
+
+> [!IMPORTANT]
+> **對於擁有全新商務體驗之客戶，請撥打訂閱電話：**
+>
+> 新的商務體驗 (NCE) 可讓客戶在使用服務之後支付服務費用，也稱為使用後計費。
+>
+> 由於通訊點數是預付預算，可支援撥出分鐘方案，因此無法為使用 NCE 通話訂閱的客戶購買。
+>
+> 相反地，NCE 客戶會在使用逾額撥出分鐘方案後付費。 不需要通訊點數集。
+>
+> 如需通話訂閱之全新商務體驗的詳細資訊，請參閱 [為您的訂閱啟](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) 用隨付功能和 [電話公司付費就地支付的新商務超值](/partner-center/new-commerce-telco-payg)。
 
 若要為貴組織設定通訊點數，請遵循下列步驟：
 
@@ -83,7 +93,7 @@ ms.locfileid: "68613835"
 
    - **自動加值** 啟用自動加值會在餘額低於您設定的閾值時自動重新填入您的帳戶。
 
-     Microsoft 建議您使用 **自動加值** 設定，以避免在通訊點數餘額達到零時中斷服務。 當加值交易成功、加值交易失敗 (例如信用卡) 過期，以及您的通訊點數餘額達到零時，系統會傳送電子郵件給您。
+     如果您的通訊點數餘額達到零，Microsoft 建議您使用 **自動加值** 設定，以避免任何服務中斷。 當加值交易成功、加值交易失敗 (例如信用卡) 過期，以及您的通訊點數餘額達到零時，系統會傳送電子郵件給您。
 
    - **加值金額** 在達到以下觸發金額後，在 [ **加值** ] 方塊中輸入您要加值到帳戶的金額。
 
