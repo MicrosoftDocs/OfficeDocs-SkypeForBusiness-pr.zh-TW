@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
-description: 在本文中，您將瞭解如何在 Microsoft Teams 中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: b9c7f5575d5e6df4370c07bf1cd581cbd1a396dd
-ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+description: 在本文中，您將瞭解如何在 Microsoft Teams 中建立、編輯及管理資源帳戶。
+ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "69111130"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147430"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -42,13 +42,14 @@ ms.locfileid: "69111130"
 - [雲端自動語音應答](create-a-phone-system-auto-attendant.md)
 - [雲端通話佇列](create-a-phone-system-call-queue.md)
 
-您可以使用 [**編輯**] 選項編輯資源帳戶 **顯示名稱** 和 **資源帳戶** 類型。 完成 **後，** 按一下 [儲存]。
+您可以使用 [**編輯**] 選項編輯資源帳戶 **顯示名稱** 和 **資源帳戶** 類型。 完成 **後，** 選取 [儲存]。
 
-## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>將現有的資源帳戶變更為使用 Teams Phone 資源帳戶授權
-若要將現有資源帳戶的授權從 **Teams 電話標準方案** 授權切換為 **Microsoft Teams 電話資源帳戶** 授權，您必須取得 **Teams Phone 資源帳戶** 授權，然後依照Microsoft 365 系統管理中心中的步驟 [將使用者移至其他訂閱](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>將現有的資源帳戶變更為使用Microsoft Teams 電話資源帳戶授權
+
+若要將現有資源帳戶的授權從 **Teams 電話標準方案** 授權切換為 **Microsoft Teams 電話資源帳戶** 授權，您必須取得 **Microsoft Teams 電話資源帳戶** 授權，然後依照Microsoft 365 系統管理中心 [將使用者移至不同的訂閱](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
-> 一律移除完整Teams 電話標準方案授權，並在相同的授權活動中指派 **Microsoft Teams 電話資源帳戶** 授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法再如預期般運作。 如果發生這種情況，建議您為 **Microsoft Teams 電話資源** 帳戶授權建立新的資源帳戶，並移除損毀的資源帳戶。
+> 一律移除 **Teams 電話標準方案** 授權，並在相同的授權活動中指派 **Microsoft Teams 電話資源帳戶** 授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法再如預期般運作。 如果發生這種情況，建議您為 **Microsoft Teams 電話資源** 帳戶授權建立新的資源帳戶，並移除損毀的資源帳戶。
 
 ## <a name="skype-for-business-server-2019"></a>商務用 Skype Server 2019
 
@@ -74,7 +75,7 @@ ms.locfileid: "69111130"
 
 請務必在刪除之前先將電話號碼與資源帳戶解除關聯，以免服務號碼卡在擱置模式中。
 
-完成之後，您可以在 [使用者] 索引標籤底下刪除Microsoft 365 系統管理中心中的資源帳戶。
+完成之後，您可以在 [使用者] 索引 **標籤底** 下刪除Microsoft 365 系統管理中心中的資源帳戶。
 
 若要解除直接路由電話號碼與資源帳戶的關聯，請使用下列 Cmdlet：
 
