@@ -14,18 +14,16 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 374cda125d688c4e38797f1afbee4ae3a55bb064
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912592"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156819"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams 中的資源特定同意
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-RSC)  (特定資源同意是 Microsoft Teams 和 Microsoft 圖形 API整合，可讓應用程式使用 API 端點來管理組織內團隊的特定資源。 RSC 許可權可讓團隊擁有者授與同意應用程式存取及修改團隊資料。 Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式存取團隊資料。 這類存取權的範例包括讀取頻道訊息、建立和刪除頻道，以及建立和移除頻道索引標籤的功能。
+RSC)  (資源特定同意是Microsoft Teams 和Microsoft 圖形 API整合，可讓應用程式使用 API 端點來管理組織內團隊的特定資源。 RSC 許可權可讓團隊擁有者授與同意應用程式存取及修改團隊資料。 Microsoft Teams 中的資源特定同意可讓小組擁有者同意應用程式存取團隊資料。 這類存取權的範例包括讀取頻道訊息、建立和刪除頻道，以及建立和移除頻道索引標籤的功能。
 
 身為系統管理員，您可以控制貴組織中的小組擁有者是否可以透過您使用 Azure Active Directory (Azure AD) PowerShell 模組或 Azure 入口網站及 Microsoft Teams 系統管理中心設置的設定來授予同意。  
 
@@ -49,7 +47,7 @@ RSC)  (特定資源同意是 Microsoft Teams 和 Microsoft 圖形 API整合，�
 
 您也可以使用 PowerShell 管理此設定。 若要深入了解，請參閱將 [將使用者內容設定為應用程式](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)。
 
-#### <a name="the-enablegroupspecificconsent-setting"></a>「EnableGroupSpecificConsent」 設定
+#### <a name="control-to-let-group-owners-consent-to-apps-that-access-company-data"></a>允許群組擁有者同意存取公司資料的應用程式的控制項
 
 此設定會控制貴組織中的使用者是否可以同意他們擁有之群組的應用程式存取公司資料。 必須啟用此設定，小組擁有者才能授予同意。 如需如何使用 PowerShell 管理此設定的步驟，請參閱 [設定群組擁有者同意存取群組資料的應用程式](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)。
 
@@ -95,7 +93,7 @@ RSC)  (特定資源同意是 Microsoft Teams 和 Microsoft 圖形 API整合，�
 
 ## <a name="related-articles"></a>相關文章
 
-* [在 Microsoft Graph 中使用 Teams 資料的 RSC 許可權](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [在 Microsoft 圖形中使用 Teams 資料的 RSC 許可權](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 * [Microsoft Graph](https://developer.microsoft.com/graph)
 * [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
 * [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
