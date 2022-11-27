@@ -22,16 +22,16 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: f2db002a063f32052dec6facc70ecdca7dcc9454
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: fdbd655958a3c49a99f4442495a1543b045a5d98
+ms.sourcegitcommit: 548978550d58f8657d7035b57b736e9cf9b15984
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795455"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69163243"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
-Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 可讓您更加瞭解使用這些服務撥打的通話品質。 本主題提供有關透過 CQD 顯示的維度和度量單位的詳細資訊。 若要深入瞭解 CQD，請參閱 [使用 CQD 管理 Microsoft Teams 中的通話和會議品質](quality-of-experience-review-guide.md)。
+Microsoft Teams 和 商務用 Skype Online 的 [通話品質儀表板] (CQD) 可讓您更加瞭解使用這些服務撥打的通話品質。 本主題提供有關透過 CQD 顯示的維度和度量單位的詳細資訊。 若要深入瞭解 CQD，請參閱[使用 CQD 管理 teams Microsoft通話和會議品質](quality-of-experience-review-guide.md)。
 
 ## <a name="first-and-second-endpoint-classification"></a>第一個和第二個端點分類
 
@@ -153,7 +153,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個端點標籤 3|String|這是可自訂的標籤，可從端點資料檔讀取資訊。| <br/>&bull; 端點沒有資料檔案 |
 | First ASN|String|第一個端點的製表系統編號。 <br/> **範例值：** 8069  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第二個 ASN|String|第二個端點的製表系統編號。 <br/> **範例值：** 8069  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
-| 第一個 ASN ISP 名稱|String|ASN 擁有者的名稱 ，通常是網際網路服務提供者或 ISP，以表示第一個端點的管理系統編號。 <br/> **範例值** Microsoft Corporation  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
+| 第一個 ASN ISP 名稱|String|ASN 擁有者的名稱 ，通常是網際網路服務提供者或 ISP，以表示第一個端點的管理系統編號。 <br/> Microsoft Corporation 的 **範例值**  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第二個 ASN ISP 名稱|String|ASN 擁有者的名稱，通常是網際網路服務提供者或 ISP，用於管理第二個端點的系統編號。 <br/> **範例值：** Microsoft Corporation  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第一個 ASN 國碼|String|決定第一個端點之資訊系統編號的國家/地區代碼。 <br/> **範例值：** 我們  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第二個 ASN 國碼|String|針對決定第二個端點的[實作系統號碼] 的國家/地區代碼。 <br/> **範例值：** 我們  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
@@ -219,7 +219,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二筆 QoE 記錄可用  | Boolean  | 如果將第一個端點的 QoE 記錄回報為 CQD，則為 True。   ||
 | 持續時間 5 秒以內  | Boolean  | 如果 stream 的持續時間小於 5 秒，則為 True，否則為 False。   ||
 | 持續時間 60 秒或更久  | Boolean  | 如果 stream 的持續時間超過 60 秒，則為 True，否則為 False。   | |
-| 是 Teams  | Boolean  | True 表示串流的第一個或第二個使用者代理程式是 Microsoft Teams 端點。 <br/> False 表示使用者代理程式商務用 Skype端點。 |  |
+| 是 Teams  | Boolean  | True 表示串流的第一個或第二個使用者代理程式是Microsoft Teams 端點。 <br/> False 表示使用者代理程式商務用 Skype端點。 |  |
 | 持續時間 (分鐘)   | 範圍 (分鐘)   | 以分鐘為單位的串流持續時間。 依範圍分組的值。 <br/> **範例值：** 065：[3-4)  ||
 | 持續時間 (秒)   | 範圍 (秒)  | 以秒為內的串流持續時間。 依範圍分組的值。 <br/> **範例值：** 062：[1 -2) ||
 |**日期**||| |
@@ -291,10 +291,10 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個本機網站 | String | 第二個端點的 IP 位址，如媒體轉送伺服器所示。 這通常是與串流第二個端點相關聯的公用網際網路 IP 位址。 如果轉送因某種原因無法連線或配置失敗，這會是第一個端點上本機介面的 IP。 <br/> 這類似于第二反身本機 IP，但此資訊是由傳輸診斷事件回報，而不是 QoE。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 <br/> **範例值：** 104.43.195.251 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
 | 第一個遠端網站 | String | 第二個端點回報的本機網站 IP 位址，並與第一個端點交換。 <br/> 第二端點上的傳輸診斷事件因任何原因無法使用時的額外資訊。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 <br/> **範例值：** 104.43.195.251 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
 | 第二個遠端網站 | String | 第一個端點回報的本機網站 IP 位址，並與第二個端點交換。 <br/> 萬一端點上的傳輸診斷事件因任何原因無法使用時，請提供額外資訊。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 <br/> **範例值：** 104.43.195.251 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
-| 第一個本機媒體轉送位址 | String | 由第一個端點配置之媒體轉送伺服器的 Microsoft IP 位址。 <br/> 此資訊與第一次轉送 IP 類似，但會由傳輸診斷事件回報，而不是 QoE。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
-| 第二個本機媒體轉送位址 | String | 由第二個端點配置之媒體轉送伺服器的 Microsoft IP 位址。 <br/> 這是類似第二次轉送 IP 的資訊，但會由傳輸診斷事件而不是 QoE 報告。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
-| 第一個遠端媒體轉送位址 | String | 由第二個端點配置的媒體轉送伺服器的 Microsoft IP 位址，並與第一個端點交換。 <br/> 如果基於任何原因無法使用第二端點上的傳輸診斷事件，請提供額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
-| 第二個遠端媒體轉送位址 | String | 由第一個端點配置並與第二個端點交換之媒體轉送伺服器的 Microsoft IP 位址。 <br/> 萬一端點上的傳輸診斷事件因任何原因無法使用時，請提供額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
+| 第一個本機媒體轉送位址 | String | Microsoft第一個端點配置之媒體轉送伺服器的 IP 位址。 <br/> 此資訊與第一次轉送 IP 類似，但會由傳輸診斷事件回報，而不是 QoE。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
+| 第二個本機媒體轉送位址 | String | Microsoft第二個端點配置之媒體轉送伺服器的 IP 位址。 <br/> 這是類似第二次轉送 IP 的資訊，但會由傳輸診斷事件而不是 QoE 報告。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
+| 第一個遠端媒體轉送位址 | String | Microsoft第二個端點所配置之媒體轉送伺服器的 IP 位址，並與第一個端點交換。 <br/> 如果基於任何原因無法使用第二端點上的傳輸診斷事件，請提供額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
+| 第二個遠端媒體轉送位址 | String | Microsoft由第一個端點配置並與第二個端點交換之媒體轉送伺服器的 IP 位址。 <br/> 萬一端點上的傳輸診斷事件因任何原因無法使用時，請提供額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
 | 第一個傳輸通訊協定 | 列舉字串 | 第一個端點用來傳送媒體的通訊通訊協定。 <br/>**可能的值** <br/>&bull;UDP - 用於 TURN 和主機配置的多重用途 UDP <br/>&bull;TurnTCP - TCP TURN 配置。 如果指定 Proxy 設定，請使用 Proxy <br/>&bull;TCPHostPassive - TCP 聆聽主機套接式的被動式連線類型 <br/>&bull;TCPHostActive - 使用使用中連線類型的 TCP 連線 <br/>&bull;複合式 TCP - 結合了上游和下游的 TCP 連線。 通常是透過 HTTPS 通訊協定。 <br/>&bull;MultiTCP - 使用多個 TCP 連線的連線模型，並使用圓形環圈分配封包給每個連線模式。 </br> | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
 | 第二個傳輸通訊協定 | 列舉字串 | 第二個端點用來傳送媒體的通訊通訊協定。 <br/>**可能的值** <br/>&bull;UDP - 用於 TURN 和主機配置的多重用途 UDP <br/>&bull;TurnTCP - TCP TURN 配置。 如果指定 Proxy 設定，請使用 Proxy <br/>&bull;TCPHostPassive - TCP 聆聽主機套接式的被動式連線類型 <br/>&bull;TCPHostActive - 使用使用中連線類型的 TCP 連線 <br/>&bull;複合式 TCP - 結合了上游和下游的 TCP 連線。 通常是透過 HTTPS 通訊協定。 <br/>&bull;MultiTCP - 使用多個 TCP 連線的連線模型，並使用圓形環圈分配封包給每個連線模式。 </br> | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
 | 第一個反身本機 IP 網路 | String | 如媒體轉送伺服器所示，IP 子網 (/24) 第一個端點。 這通常是與串流第一個端點相關聯之公用網際網路 IP 位址的子網。 <br/>**範例值：** 52.114.5.0 | &bull; 未報告傳輸診斷類型 <br/>&bull; 尚未建立媒體路徑 |
@@ -315,12 +315,12 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第一個轉譯 Dev 驅動程式  | String  | 第一個端點所使用的轉譯設備磁碟機名稱。 針對： <br/> 音訊串流 - 用於喇叭的驅動程式 <br/> 視訊和視訊型螢幕共用串流 - 用於顯示器的驅動程式 <br/> 應用程式共用串流 - 空白  <br/> **範例值：** Microsoft：10.0.14393.0 | <br/>&bull; 端點未回報此資料 <br/>&bull; 尚未建立媒體路徑 <br/>&bull; 該串流是應用程式共用    |
 | 第二個轉譯 Dev 驅動程式  | String  | 第二個端點所使用的轉譯設備磁碟機名稱。 針對： <br/> 音訊串流 - 用於喇叭的驅動程式 <br/> 視訊和視訊型螢幕共用串流 - 用於顯示器的驅動程式 <br/> 應用程式共用串流 - 空白 <br/> **範例值：** Microsoft：10.0.14393.0  | <br/>&bull; 端點未回報此資料 <br/>&bull; 尚未建立媒體路徑 <br/>&bull; 該串流是應用程式共用   |
 |**無線**||||
-| 第一Wi-Fi Microsoft 驅動程式  | String  | 第一個端點回報所使用的 Microsoft WiFi 驅動程式名稱。 值可以根據端點所使用的語言當地語系化。 <br/> **範例值：** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊|
-| 第二Wi-Fi Microsoft 驅動程式  | String  | 第二個端點回報所使用的 Microsoft WiFi 驅動程式名稱。 值可以根據端點所使用的語言當地語系化。 <br/> **範例值：** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊|
+| 第一Wi-Fi Microsoft驅動程式  | String  | 第一個端點所報告所使用的 Microsoft WiFi 驅動程式名稱。 值可以根據端點所使用的語言當地語系化。 <br/> **範例值：** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊|
+| 第二Wi-Fi Microsoft驅動程式  | String  | 第二個端點回報所使用的 Microsoft WiFi 驅動程式名稱。 值可以根據端點所使用的語言當地語系化。 <br/> **範例值：** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊|
 | 第一Wi-Fi廠商驅動程式  | String  | 第一個端點回報的 WiFi 驅動程式廠商和名稱。 <br/> **範例值：** Contoso Dual Band Wireless-AC 驅動程式  | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊 |
 | 第二Wi-Fi廠商驅動程式  | String  | 第二個端點回報的 WiFi 驅動程式廠商和名稱。  <br/> **範例值：** Contoso Dual Band Wireless-AC 驅動程式 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊 |
-| Microsoft 驅動程式版本Wi-Fi  | String  | 第一個端點回報的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
-| 第二Wi-Fi Microsoft 驅動程式版本  | String  | 第二個端點回報的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
+| 第一Wi-Fi Microsoft驅動程式版本  | String  | 第一個端點回報的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
+| 第二Wi-Fi Microsoft驅動程式版本  | String  | 第二個端點回報的 Microsoft WiFi 驅動程式版本。 <br/> **範例值：** Microsoft：10.0.14393.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
 | 初Wi-Fi廠商驅動程式版本  | String  | 第一個端點回報的廠商和 WiFi 驅動程式版本。 <br/> **範例值：** Contoso：15.1.1.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
 | 第二Wi-Fi廠商驅動程式版本  | String  | 廠商和第二個端點回報的 WiFi 驅動程式版本。 <br/> **範例值：** Contoso：15.1.1.0 | <br/>&bull; 端點未使用 WiFi <br/>&bull; 未回報驅動程式資訊  |
 | 第一Wi-Fi通道  | String  | 第一個端點使用的 WiFi 通道。  <br/> **範例值：** 10| <br/>&bull; 未使用 WiFi <br/>&bull; 未回報頻道   |
@@ -390,7 +390,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 視訊不佳，因為 VideoFrameRateAvg  | Boolean  | 如果視訊串流根據此處所列的視訊框架速率 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊串流永遠都是 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流 |
 | 由於 VideoPostFecplr 導致 VBS 不佳  | Boolean  | 如果視訊型螢幕共用串流依據此處所列的 [影片張貼 FEC PLR] 標準閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊型螢幕共用串流永遠都是 False。    | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流  |
 | 由於 VideoLocalFrameLossPercentageAvg 導致 VBSS 不佳  | Boolean  | 如果視訊型螢幕共用串流根據此處所列的影片本機框架遺失百分比 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊螢幕共用串流永遠都是 False。    | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流  |
-| 視訊因凍結而不佳 | Boolean  | 1 如果視訊串流根據 [視訊凍結] 實例分類為不佳： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md) | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流。 此欄位僅限 Microsoft Teams。 |
+| 視訊因凍結而不佳 | Boolean  | 1 如果視訊串流根據 [視訊凍結] 實例分類為不佳： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md) | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流。 此欄位僅限Microsoft Teams。 |
 | 因為 VideoFrameRateAvg 而造成 VBS 不佳  | Boolean  | 如果視訊型螢幕共用串流根據此處所列的視訊框架速率 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊型螢幕共用串流永遠都是 False。   | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流   |
 | 因被破壞的TilePercentTotal而造成應用程式共用不佳  | Boolean  | 如果應用程式共用串流根據此處所列的 [被破壞的磚百分比總計百分比] 閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。   | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流。  |
 | 因為 RelativeOneWayAverage 而導致 App 分享不佳  | Boolean  | 如果應用程式共用串流依據此處所列的相對單向平均公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
@@ -495,7 +495,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 有媒體診斷 Blob  | Boolean  | 如果會話有媒體診斷資料，則為 True，否則為 False。   | &bull; 未針對此串流收集某些訊號資料   |
 | 通話設定失敗原因  | 枚舉  | 無法針對通話建立媒體連線的分類。 <br/>**可能的值：** <br/> **遺失 FW 深度封包檢查免稅規則** - 表示該路徑上的網路設備可能因為深度封包檢查規則而導致媒體路徑無法建立。 這可能是因為 Proxy 或防火牆規則未正確設定所導致。 <br/> **遺失 FW IP 封鎖免稅規則**- 表示沿著可能阻止媒體路徑建立至Office 365網路的路徑的網路設備。 這可能是因為 Proxy 或防火牆規則未正確設定為允許存取用於商務用 Skype流量的 IP 位址和埠。 <br/> **其他** - 表示無法建立通話的媒體路徑，但無法分類根本原因。 <br/> 非媒體失敗 - 表示未偵測到媒體路徑的重新部署問題。  | &bull; 因不明媒體問題而無法設定通話  |
 | 會話類型  | 枚舉 <br/>**可能的值：** <br/> Conf、P2P  | 表示通話會話類型是否為會議 (Conf) 或對等通話 (P2P) 案例。 <br/> **範例值：** Conf | |
-| CDR 回應原因  | 枚舉 <br/>**可能的值：** <br/> 0 或 200 = 「OK」 <br/> 410 = 「MediaConnectivityErrors」<br/> 480 = 「UserUnavailable」<br/> 487 = 「PickupTimedOut」 <br/> 603 = 「CallDeclined」 <br/> 所有其他 CDR 代碼 = 「Other」 | 提供通話會話結束、通話成功與否的原因，並允許在未接聽、忙碌、拒絕 () 和未接聽的通話之間區分不完整的通話， (媒體記錄) 。 請注意，410 錯誤不一定會與「失敗」分類相互關聯;這是因為已識別排除專案，因此不視為影響媒體失敗。 <br/> **範例值：** 還行 | <br/>&bull; 「其他」值表示回應程式碼在 Microsoft 工程團隊之外在診斷上沒有用處 |
+| CDR 回應原因  | 枚舉 <br/>**可能的值：** <br/> 0 或 200 = 「OK」 <br/> 410 = 「MediaConnectivityErrors」<br/> 480 = 「UserUnavailable」<br/> 487 = 「PickupTimedOut」 <br/> 603 = 「CallDeclined」 <br/> 所有其他 CDR 代碼 = 「Other」 | 提供通話會話結束、通話成功與否的原因，並允許在未接聽、忙碌、拒絕 () 和未接聽的通話之間區分不完整的通話， (媒體記錄) 。 請注意，410 錯誤不一定會與「失敗」分類相互關聯;這是因為已識別排除專案，因此不視為影響媒體失敗。 <br/> **範例值：** 還行 | <br/>&bull;「其他」值表示回應程式碼在診斷上不適用於Microsoft的工程小組之外 |
 |**DNS**||||
 | 已使用 DNS 解析快取  | Boolean  | 如果端點使用 DNS 快取解決媒體轉送位址，則為 True，否則為 False。    | <br/>&bull; 端點未回報此資料    |
 |**UserData**| |||
@@ -513,8 +513,8 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個意見反應文字|String| 第二個端點使用者在通話結束時提供的逐字意見反應文字，如果有的話。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。||
 | 第一個用戶端端點名稱|String|第一個端點的電腦名稱稱。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。||
 | 第二個用戶端端點名稱|String|第二個端點的機器名稱。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。||
-| 第一個端點產品名稱|String|商務用 Skype或 Microsoft Teams)  (第一個端點的產品名稱。||
-| 第二個端點產品名稱|String|第二個端點的產品名稱 (商務用 Skype或 Microsoft Teams) 。||
+| 第一個端點產品名稱|String|第一個端點的產品名稱 (商務用 Skype或Microsoft Teams) 。||
+| 第二個端點產品名稱|String|第二個端點的產品名稱 (商務用 Skype或Microsoft Teams) 。||
 | 第一個 UserType|列舉字串|第一個端點上的使用者類型。 <br/> **可能的值：** 使用者， 伺服器， 匿名， 應用程式， PSTN， 語音信箱， 未知 <br/> <br/>**未知** - 如果無法根據收到的資訊來判斷 UserType 的預設值。 <br/>**PSTN** - PSTN 使用者。 <br/>**匿名**- Teams 使用者或商務用 Skype訪客。 <br/>**應用程式** - Bot。 <br/>**使用者**- AAD 使用者可以是商務用 Skype使用者或 Teams 使用者。 <br/>**伺服器** - 針對會議，至少一邊是伺服器。 <br/>**語音信箱 - 語音信箱** 服務已回復端點。||
 | 第二個 UserType|列舉字串|第二個端點上的使用者類型。 <br/> **可能的值：** 使用者， 伺服器， 匿名， 應用程式， PSTN， 語音信箱， 未知 <br/> <br/>**未知** - 如果無法根據收到的資訊來判斷 UserType 的預設值。 <br/>**PSTN** - PSTN 使用者。 <br/>**匿名**- Teams 使用者或商務用 Skype訪客。 <br/>**應用程式** - Bot。 <br/>**使用者**- AAD 使用者可以是商務用 Skype使用者或 Teams 使用者。 <br/>**伺服器** - 針對會議，至少一邊是伺服器。 <br/>**語音信箱 - 語音信箱** 服務已回復端點。||
 | Organizer ObjectId|String|會議召集人使用者的 Active Directory 物件識別碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。  | &bull; 使用者沒有檢視 EUII 的許可權。 <br/>&bull; 記錄早于 28 天。 |
@@ -535,11 +535,13 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |PSTN 電信業者名稱|String|由法規機關授權經營電信系統的公司。<br/>**例子：** 柯 爾 特|直接路由沒有電信業者。 只有通話方案具有電信業者。|
 |PSTN 通話類型|String|這個字串結合了服務類型和通話類型。<br/><br/>服務類型：<br/>使用者 ->通話方案<br/>byot -> 直接路由<br/>conf -> 音訊會議<br/>ucap -> 語音應用程式<br/>緊急 ->緊急號碼<br/><br/>通話類型：<br/>輸入>通話<br/>撥出 ->撥出電話<br/>Out_transfer ->撥出電話會轉接給第三人<br/>Out_forward ->撥出電話轉接至第三人<br/>Out_conf ->臨時 PSTN 參與者的撥出通話<br/><br/>**例子：** ByotIn||
 |PSTN 連線類型|String|PSTN 連線類型包括直接路由、通話方案或音訊會議。 目前，[通話品質儀表板] (CQD) 中僅提供直接路由。<br/>**例子：** 直接路由||
-|PSTN 最終 SIP 程式碼片語|String|對應至 SIP 回應碼和 Microsoft 回應碼的原因片語。<br/>**例子：** 再見||
-|PSTN 通話結束子原因|Int|從 Microsoft 元件傳送的回應代碼，指出所發生的特定動作。<br/>**範例：** 540000||
+|PSTN 最終 SIP 程式碼片語|String|對應至 SIP 回應碼和Microsoft回應代碼的原因片語。<br/>**例子：** 再見||
+|PSTN 通話結束子原因|Int|從Microsoft元件傳送的回應代碼，指出所發生的特定動作。<br/>**範例：** 540000||
 |PSTN 事件種類|String|提供遙測的事件種類。<br/>**例子：** 結束||
-|PSTN 事件資訊時間|日期|從 Microsoft 網路啟動撥出電話或撥入通話到達 Microsoft 網路時，使用 UTC 格式的時間。<br/>**範例：** 2020-02-06 20：57：53.1750000||
+|PSTN 事件資訊時間|日期|當撥出電話從Microsoft網路啟動或輸入通話到達Microsoft網路時，以 UTC 格式啟動的時間。<br/>**範例：** 2020-02-06 20：57：53.1750000||
 |PSTN MP 位置|String|當處於非略過模式時，媒體處理器位置會顯示媒體路徑。<br/>**例子：** USWE||
+|PSTN 主幹通話識別碼|String|PSTN SIP 主幹和 SIP Proxy 之間的 SIP 通話識別碼。 直接路由客戶可以使用此值來疑難排解 PSTN 通話案例，方法是交互參照主機通話識別碼與會話框線控制器或媒體閘道的記錄。||
+|PSTN 主幹使用者代理程式|String|PSTN SIP 主幹會話框線控制器或媒體閘道的製造商和型號資訊。<br/>**例子：** Mediant 1000/v.7.20A.258.750 ||
 |PSTN 通話結束原因|Int|三位數整數回應碼會顯示通話的最終狀態。 <br/> 如需 SIP 說明的詳細資訊，請參閱 [SIP 回應代碼清單](https://www.wikipedia.org/wiki/List_of_SIP_response_codes)。 <br/>**範例：** 404||
 |**Voice Apps (預覽)**||如需詳細資訊，請參閱 [自動語音應答&通話佇列歷史報告](aa-cq-cqd-historical-reports.md) 。) ||
 |自動語音應答身分識別|String|附加至自動語音應答的資源帳戶名稱。|&bull; 使用者沒有檢視 EUII 的許可權。 <br/>&bull; 記錄早于 28 天。|
@@ -600,10 +602,10 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |通話總和百分比 |百分比 |總通話長度小於 1 分鐘的百分比。 |
 |媒體失敗總數百分比 |百分比 |無法建立媒體路徑或無法正常終止之所有串流的百分比。 |
 |音訊串流總持續時間 (分鐘)  |分鐘 |在選取的時間範圍內，以分鐘為單位的總音訊串流持續時間。 |
-|媒體失敗，因為防火牆 DPI 串流計數 |串流數目 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
-|防火牆 DPI 媒體失敗百分比 |百分比 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
-|媒體失敗，因為防火牆 IP 封鎖的串流計數 |串流數目 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
-|防火牆 IP 封鎖媒體失敗百分比 |百分比 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 Microsoft 365 或 Office 365 中商務用 Skype使用的 IP 位址和埠。 |
+|媒體失敗，因為防火牆 DPI 串流計數 |串流數目 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置設定不正確，無法正確地存取 Microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
+|防火牆 DPI 媒體失敗百分比 |百分比 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置設定不正確，無法正確地存取 Microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
+|媒體失敗，因為防火牆 IP 封鎖的串流計數 |串流數目 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置設定不正確，無法正確地存取 Microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
+|防火牆 IP 封鎖媒體失敗百分比 |百分比 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 商務用 Skype 在 Microsoft 365 或 Office 365 中使用的 IP 位址和埠。 |
 | 媒體因其他串流計數而失敗|串流數目| 端點之間因未確定/未分類原因而無法建立媒體路徑的串流數目。|
 | 其他媒體失敗百分比|百分比| 由於未確定/未分類的原因，無法在端點之間建立媒體路徑的串流百分比。 |
 | 可用的 CDR 通話總數|串流數目|提供可靠性/診斷資訊的媒體串流總數。 此量值有高達 0.2% 的錯誤。 如需詳細資訊，請參閱下方附注。|
@@ -620,10 +622,10 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |音訊因降級計數而不佳 |串流數目 |降級計量超過此處所列之閾值的音訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |由於 RoundTrip Count 導致音訊不佳 |串流數目 |此處所列的來回超過閾值的音訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |音訊不佳，因為隱藏的不規則計數 |串流數目 |隱藏比例超過此處所列之閾值的音訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
-|音訊 SLA 良好通話計數 |通話數目 |商務用 Skype語音品質 SLA ([Microsoft 產品和線上服務大量授權](https://aka.ms/voicequalitysla)範圍內的音訊通話數目，) 分類為符合網路效能目標。 |
-|音訊 SLA 通話計數不佳 |通話數目 |商務用 Skype語音品質 SLA ([Microsoft 產品和線上服務大量授權](https://aka.ms/voicequalitysla)範圍內的音訊通話數目，) 分類為不符合網路效能目標。 |
-|音訊 SLA 通話計數 |通話數目 |商務用 Skype Voice Quality SLA (Microsoft[產品和線上服務大量授權](https://aka.ms/voicequalitysla)) 範圍內的音訊通話數目。 |
-|音訊 SLA 良好通話百分比 |百分比 |商務用 Skype語音品質 SLA ([Microsoft 產品和線上服務大量授權](https://aka.ms/voicequalitysla)範圍內的音訊通話百分比，) 已分類為符合網路效能目標。 |
+|音訊 SLA 良好通話計數 |通話數目 |商務用 Skype語音品質 SLA (Microsoft[產品和線上服務大量授權](https://aka.ms/voicequalitysla)範圍內的音訊通話數目，) 分類為符合網路效能目標。 |
+|音訊 SLA 通話計數不佳 |通話數目 |商務用 Skype語音品質 SLA (Microsoft[產品和線上服務大量授權](https://aka.ms/voicequalitysla)範圍內的音訊通話數目，) 分類為不符合網路效能目標。 |
+|音訊 SLA 通話計數 |通話數目 |商務用 Skype語音品質 SLA (Microsoft[產品與線上服務大量授權](https://aka.ms/voicequalitysla)) 範圍內的音訊通話數目。 |
+|音訊 SLA 良好通話百分比 |百分比 |商務用 Skype語音品質 SLA (Microsoft[產品和線上服務大量授權](https://aka.ms/voicequalitysla)範圍內的音訊通話百分比，) 已分類為符合網路效能目標。 |
 |音訊良好通話串流計數 |串流數目 |根據此處所列的網路計量，通話中兩個音訊串流 (撥號串) 未分類為不佳的音訊串流數目： [[通話品質儀表板] 中的 [串流分類]](stream-classification-in-call-quality-dashboard.md)。 |
 |音訊不佳通話串流計數 |串流數目 |通話中至少有一個音訊串流 (撥號串) 的音訊串流數目，根據此處所列的網路計量而分類為不佳： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |未分類的音訊通話串流計數 |串流數目 |通話中兩個音訊串流 (撥號串) 因為網路計量遺失而無法分類的音訊串流數目。 |
@@ -645,12 +647,12 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |視訊不佳，因為 VideoPostFecplr Count |串流數目 |影片張貼類別超過此處所列閾值的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |視訊不佳，因為 VideoLocalFrameLossPercentageAvg Count |串流數目 |影片本機框架遺失百分比 Avg 超過此處所列之閾值的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |視訊不佳，因為 VideoFrameRateAvg 計數 |串流數目 |視訊框架速率 Avg 超過此處所列之閾值的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
-|視訊因凍結計數而不佳 |串流數目 | 影片凍結計量超過此處所列閾值的主要視訊串流數目。 [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 此欄位僅限 Microsoft Teams |
+|視訊因凍結計數而不佳 |串流數目 | 影片凍結計量超過此處所列閾值的主要視訊串流數目。 [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 此欄位僅限Microsoft Teams |
 |視訊不佳的串流計數 |串流數目 |此處所列的通話 [品質儀表板中的 Stream 分類](stream-classification-in-call-quality-dashboard.md)所列的網路計量，分類為不佳的視訊串流數目。 |
 |視訊良好串流計數 |串流數目 |根據此處所列的網路計量分類為良好視訊串流的數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |影片未分類的串流計數 |串流數目 |根據此處所列的網路計量，沒有足夠的資料可分類為良好或不佳的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 未分類的串流在「不佳百分比」計算中會被省略。 |
 |視訊不佳百分比|百分比 |根據此處所列之 [ [通話品質儀表板中的 Stream 分類](stream-classification-in-call-quality-dashboard.md)] 所列之網路計量分類的分類視訊串流百分比。 |
-|視訊凍結導致百分比不佳|百分比 | 此處[ [通話品質儀表板] 中的 [串流分類](stream-classification-in-call-quality-dashboard.md)] 中列出以 [視訊不佳] 計量為基礎的主要視訊串流百分比。 此欄位僅限 Microsoft Teams |
+|視訊凍結導致百分比不佳|百分比 | 此處[ [通話品質儀表板] 中的 [串流分類](stream-classification-in-call-quality-dashboard.md)] 中列出以 [視訊不佳] 計量為基礎的主要視訊串流百分比。 此欄位僅限Microsoft Teams |
 |VBSS 串流計數 |串流數目 |視訊螢幕共用串流的數目。 |
 |由於 VideoPostFecplr 計數導致 VBS 不佳 |串流數目 |視訊型螢幕共用串流中[視訊張貼類別] plr 超過此處所列閾值的串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |由於 VideoLocalFrameLossPercentageAvg Count 導致 VBSS 不佳 |串流數目 |影片本機框架遺失百分比 Avg 超過此處所列之閾值的視訊型螢幕共用串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
