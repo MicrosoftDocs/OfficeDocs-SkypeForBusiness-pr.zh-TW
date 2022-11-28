@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 瞭解如何在 [通話品質儀表板] (CQD) 中上傳租使用者和建置資料。
-ms.openlocfilehash: d9559490aa990f3df800e0e9438810c63d153d3c
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: d999098a2d920c8709ae1878ac94648451c00f0b
+ms.sourcegitcommit: 548978550d58f8657d7035b57b736e9cf9b15984
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789638"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69163223"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在 [通話品質儀表板] (CQD) 中上傳租使用者和建築物資料
 
@@ -83,9 +83,9 @@ CQD 中的第一種租使用者資料檔案類型是 **「建築物** 」資料�
   | NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | 需要<sup>1</sup>  |
   | NetworkRange       | 數量    | 26                        | 必要              |
   | BuildingName       | String    | SEATTLE-SEA-1             | 需要<sup>1</sup>  |
-  | OwnershipType      | String    | Contoso                   | 選用              |
-  | BuildingType       | String    | IT 終止            | 選用              |
-  | BuildingOfficeType | String    | 工程               | 選用              |
+  | OwnershipType      | String    | Contoso                   | 選用<sup>4</sup>  |
+  | BuildingType       | String    | IT 終止            | 選用<sup>4</sup>  |
+  | BuildingOfficeType | String    | 工程               | 選用<sup>4</sup>  |
   | 城市               | String    | 西雅圖                   | 建議           |
   | 郵遞區號            | String    | 98001                     | 建議           |
   | 國家            | String    | 我們                        | 建議           |
@@ -93,13 +93,15 @@ CQD 中的第一種租使用者資料檔案類型是 **「建築物** 」資料�
   | 地區             | String    | MSUS                      | 建議           |
   | InsideCorp<sup>2</sup>         | Bool      | 1             | 必要              |
   | ExpressRoute<sup>3</sup>       | Bool      | 0             | 必要              |
-  | VPN                | Bool      | 0                         | 選用              |
+  | Vpn                | Bool      | 0                         | 選用              |
 
   <sup>1</sup> 雖然 CQD 不需要，但範本已設定為顯示建築物和網路名稱。
 
   <sup>2</sup> 此設定可用來反映子網是否在公司網路內。 您可以針對其他用途自訂使用量。
 
   <sup>3</sup> 此設定可用來反映網路是否使用 Azure ExpressRoute。 您可以針對其他用途自訂使用量。  
+  
+  <sup>4</sup> 當這些選用欄被命名為建議您可能想要將這些值填入哪些值時，您可以針對其他用途自訂使用量。 例如：網路優先順序 - `Tier 1, Tier 2, Tier 3` 
 
   **範例列：**
 
@@ -140,9 +142,9 @@ CQD 中的第一種租使用者資料檔案類型是 **「建築物** 」資料�
 > [!IMPORTANT]
 > 網路範圍可用來代表超級網路。 所有新的建築物資料檔上傳都會檢查是否有任何重迭的範圍。 如果您先前已上傳建築物檔案，您應該下載目前的檔案並再上傳一次，以找出任何重迭專案並修正問題。 先前上傳的檔案中的任何重迭可能會導致報表中子網對應到建築物的錯誤。
 
-### <a name="vpn"></a>VPN
+### <a name="vpn"></a>Vpn
 
-用戶端傳送至 Microsoft 365 或 Office 365 之 QoE) 資料 (體驗品質，也就是 CQD 資料的來源位置，都包含 VPN 標幟。 CQD 會將此視為第一個 VPN 和第二個 VPN 維度。 不過，此旗標需仰賴 VPN 廠商向 Windows 報告註冊的 VPN 網路介面卡是遠端存取介面卡。 並非所有 VPN 廠商都能正確註冊遠端存取介面卡。 因此，您可能無法使用內建的 VPN 查詢篩選。 使用上述討論的 VPN 欄來精確標記及識別 VPN 子網。 也建議您為 VPN 網路加上標籤，以便在報告中輕鬆識別。 以下是為 VPN 子網加上標籤的兩個範例：
+用戶端傳送給 Microsoft 365 或 Office 365 之 QoE) 資料 (體驗品質，也就是 CQD 資料的來源位置，都包含 VPN 標幟。 CQD 會將此視為第一個 VPN 和第二個 VPN 維度。 不過，此旗標需仰賴 VPN 廠商向 Windows 報告註冊的 VPN 網路介面卡是遠端存取介面卡。 並非所有 VPN 廠商都能正確註冊遠端存取介面卡。 因此，您可能無法使用內建的 VPN 查詢篩選。 使用上述討論的 VPN 欄來精確標記及識別 VPN 子網。 也建議您為 VPN 網路加上標籤，以便在報告中輕鬆識別。 以下是為 VPN 子網加上標籤的兩個範例：
 
 - 在此欄位中輸入 VPN 子網的 [VPN] 來定義網路 **名稱** 。
 
