@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解自動語音應答和通話佇列，以及如何使用自動語音應答和通話佇列來協助來電者在功能表系統之間移動，以連絡組織中的人員或部門。
-ms.openlocfilehash: 8c02bd3d8881bcbfa0d998098b39106ed8476435
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
+ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613955"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "69166729"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>規劃 Teams 自動語音應答和通話佇列
 
@@ -70,41 +70,44 @@ ms.locfileid: "68613955"
 
 若要設定自動語音應答和通話佇列，您需要下列資源：
 
-- 每個自動語音應答和每個通話佇列的[資源帳戶](manage-resource-accounts.md)
-- 每個資源帳戶的免費Microsoft Teams 電話資源帳戶授權，可直接從 Teams 使用者或外部電話號碼撥號
-- 針對您要直接從外部電話號碼撥號的每個資源帳戶，至少一個 [Microsoft 服務號碼](getting-service-phone-numbers.md)、運算子連線號碼、直接路由號碼或混合式號碼
-  - 服務號碼可能是付費或免付費電話號碼
+- 每個自動語音應答以及每個通話佇列的 [資源帳戶](manage-resource-accounts.md) 。
+- 每個資源帳戶的免費[Microsoft Teams 電話資源帳戶授權](teams-add-on-licensing/virtual-user.md)，可直接從 Teams 使用者或外部電話號碼撥號。
+- 針對您要直接從外部電話號碼撥號的每個資源帳戶，至少一個[Microsoft服務號碼](getting-service-phone-numbers.md)、運算子[聯](operator-connect-plan.md)機[號碼、直接路由號碼](direct-routing-plan.md)或混合式號碼。
+  - 服務號碼可能是付費或免付費號碼。
 
 > [!NOTE]
 > 資源帳戶因登入而停用，且必須維持不變。 這些帳戶無法使用聊天和目前狀態。
 
 從通話佇列接聽來電的代理人必須企業語音啟用線上或內部部署使用者。 此外，如果通話佇列是使用直接路由號碼，則需要開會或轉接電話的代理程式也需要：
 
-- 如果通話佇列使用轉接模式，則會指派線上語音路由原則
-- 如果通話佇列使用會議模式，則指派的音訊會議授權或線上語音路由原則
+- 如果通話佇列使用轉接模式，則會指派 [線上語音路由](manage-voice-routing-policies.md) 原則。
+- 如果通話佇列使用會議模式，則會指派 [音訊會議授權](set-up-audio-conferencing-in-teams.md) 或 [線上語音路由](manage-voice-routing-policies.md) 原則。
 
 如果您的專員使用 Microsoft Teams 應用程式進行通話佇列通話，則他們必須處於 TeamsOnly 模式。
 
 在通話佇列中使用資源帳戶做為通話行識別碼用途時，資源帳戶必須具有 Teams 電話資源帳戶授權，以及下列其中一項指派：
 
-- [通話方案](calling-plans-for-office-365.md)授權和指派的電話號碼
-- 指派 [的運算子聯](operator-connect-plan.md) 機電話號碼
-- 使用直接路由) 時，選擇性地指派電話號碼 ([線上語音路](manage-voice-routing-policies.md) 由原則
+- [通話方案](calling-plans-for-office-365.md)授權和指派的電話號碼。
+- 指派 [的運算子連線](operator-connect-plan.md) 電話號碼。
+- [線上語音路由原則](manage-voice-routing-policies.md)。
+  - 使用直接路由時，電話號碼指派是選用的。
 
 當自動語音應答或通話佇列將來電轉接至外部號碼時，如下所述的特定資源帳戶必須具有 Teams 電話資源帳戶授權，以及下列其中一項指派：
 
-- [通話方案](calling-plans-for-office-365.md)授權和指派的電話號碼
-- 指派 [的運算子聯](operator-connect-plan.md) 機電話號碼
-- 使用直接路由) 時，選擇性地指派電話號碼 ([線上語音路](manage-voice-routing-policies.md) 由原則
+- [通話方案](calling-plans-for-office-365.md)授權和指派的電話號碼。
+- 指派 [的運算子連線](operator-connect-plan.md) 電話號碼。
+- [線上語音路由原則](manage-voice-routing-policies.md)。
+  - 使用直接路由時，電話號碼指派是選用的。
 
 授權的資源帳戶：
-- 當自動語音應答轉接給其他自動語音應答或呼叫佇列以外部轉接來電時，授權第一個接收來電之自動語音應答的資源帳戶
-- 在所有其他通話案例中，授權自動語音應答的資源帳戶或執行外部轉接的通話佇列
+
+- 當自動語音應答轉接給其他自動語音應答或呼叫佇列以外部轉接來電時，授權第一個接收來電之自動語音應答的資源帳戶。
+- 在所有其他通話案例中，授權自動語音應答的資源帳戶或執行外部轉接的通話佇列。
 
 > [!NOTE]
-> 如果指派給資源帳戶的通話方案已停用或遭到移除， [則通訊點](what-are-communications-credits.md)數若在租使用者 (中提供，但未指派給資源帳戶) ，則會被使用。 如果沒有通話方案或通訊點數，則通話將會失敗。
+> 如果指派給資源帳戶的通話方案已停用或遭到移除， [則通訊點](what-are-communications-credits.md)數若在租使用者 (中提供，但未指派給資源帳戶) ，則會被使用。 如果沒有通話方案或通訊點數，通話將會失敗。
 >
-> Microsoft Teams 使用者和通話代理程式僅支援自動語音應答和通話佇列的直接路由服務號碼。
+> 自動語音應答的直接路由服務號碼和通話佇列僅支援Microsoft Teams 使用者和通話代理程式。
 > 
 > 不支援通話方案、運算子連線和直接路由主幹之間的傳輸。
 > 
@@ -122,7 +125,8 @@ ms.locfileid: "68613955"
 - 您是否要允許通話佇列中的代理程式選擇不接聽電話？
 - 您希望通話佇列中的代理程式或電信業者在撥出時擁有特定的來電者識別碼嗎？
 - 您想要啟用組織中的 [通話駐駐和擷取](call-park-and-retrieve.md) 功能，以協助連絡人或部門之間的撥號作業嗎？
-- 針對語音提示，您是否要錄製自己的語音或使用系統產生的語音？  (系統產生的語音很容易更新。) 
+- 針對語音提示，您是否要錄製自己的語音或使用系統產生的語音？
+  - 系統產生的語音很容易更新。
 
 ## <a name="technical-decisions"></a>技術決策
 
@@ -143,8 +147,8 @@ ms.locfileid: "68613955"
 
 **會議模式** 是通話佇列中的一個選項，可大幅減少將 Teams VOIP 通話和 PSTN 通話連線至專員所需的時間。 若要讓會議模式正常運作，通話佇列中的代理程式必須使用下列其中一個用戶端：
 
-- 最新版本的 Microsoft Teams 桌面用戶端、Android 應用程式或 iOS 應用程式
-- Microsoft Phone System 版本 1449/1.0.94.2020051601 或更新版本
+- 最新版本的 Microsoft Teams 桌面用戶端、Android 應用程式或 iOS 應用程式。
+- Microsoft手機系統版本 1449/1.0.94.2020051601 或更新版本。
   
 將專員的 Teams 帳戶設定為僅限 Teams 模式。 不符合需求的代理程式不包含在通話路由清單中。
 
@@ -160,7 +164,7 @@ ms.locfileid: "68613955"
 
 2. 針對您計畫建立的每個資源帳戶取得 [Teams Phone 資源帳戶授權](teams-add-on-licensing/virtual-user.md) 。 這些授權是免費的，因此我們建議您在日後決定變更資源帳戶時，多多取得一些授權。
 
-3. 為您要建立的每個自動語音應答和通話佇列建立[資源帳戶](manage-resource-accounts.md)。 為每個帳戶指派一個 Teams 電話資源帳戶授權，以及一個服務號碼。
+3. 為您要建立的每個自動語音應答和通話佇列建立[資源帳戶](manage-resource-accounts.md)。 將 Teams 電話資源帳戶授權指派給每個可直接撥打的資源帳戶，並選擇性地指派服務號碼。
 
 4. [建立您想要在](set-up-holidays-in-teams.md) 自動語音應答中分別傳送通話的假日。
 
@@ -168,7 +172,7 @@ ms.locfileid: "68613955"
 
 6. 建立您要用來包含通話佇列之通話代理程式的群組。
 
-7. 如果您打算允許擴充功能撥打，請確定您已將使用者的分機號碼新增至他們的 Azure Active Directory 設定檔。
+7. 如果您打算允許透過分機撥號，請確定您已將使用者的分機號碼新增至 Azure Active Directory (Azure AD) 設定檔。
 
 完成上述步驟後，就可以建立自動語音應答和通話佇列。 因為自動語音應答和通話佇列可以將通話重新導向至彼此，請參閱您建立的工作流程圖表，判斷應該先建立哪個自動語音應答或通話佇列。 在上述圖表中的範例中，您會在建立 Contoso 主自動語音應答之前建立銷售和支援通話佇列，因為主自動語音應答需要將來電者導向銷售和支援通話佇列。
 
@@ -178,14 +182,14 @@ ms.locfileid: "68613955"
 - [建立通話佇列](create-a-phone-system-call-queue.md)
 
 > [!IMPORTANT]
-> 使用者的 Azure Active Directory (AAD) GUID 權杖會在使用者設定為：
+> 使用者的 Azure AD GUID 權杖會在使用者設定為：時，儲存為自動語音應答或通話佇列設定的一部分：
 >
 >  - 自動語音應答或通話佇列 **授權使用者**。
 >  - 自動語音應答 **運算子**。
 >  - **組織轉移點中的人員**。
 >  - 通話佇列的個別成員。
 > 
-> 自動語音應答和通話佇列設定未與 AAD 生命週期事件同步處理。  Teams 系統管理員必須手動更新自動語音應答和通話佇列設定，以便在設定中包含的使用者離開組織時移除此個人資料。
+> 自動語音應答和通話佇列設定未與 Azure AD 生命週期事件同步處理。  Teams 系統管理員必須手動更新自動語音應答和通話佇列設定，以便在設定中包含的使用者離開組織時移除此個人資料。
 >
 > 這不適用於透過通訊群組清單或頻道設定的通話佇列代理成員資格。 也不適用於透過自動語音應答的 [ **以名稱撥號** ] 或 [ **以號碼撥號** 方式撥號] 功能聯繫的使用者。
 
