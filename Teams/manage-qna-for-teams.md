@@ -14,12 +14,12 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: 瞭解 IT 系統管理員如何在 Teams Q&A 中設定、使用及管理 Q&A，以結構化的方式收集問題、組織討論、刪除個別訊息、使用可用的語言，以及瞭解資料生命週期以及資料保留和刪除原則。
-ms.openlocfilehash: edcf1578b70bf39ccf330b7a328b7d0de7558263
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 3d85dbe4c9035a9de0ccb47557735bb797bdf244
+ms.sourcegitcommit: 94e3f5e8dcfe8b3098ed8de2e4397e2338038f03
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268628"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69177719"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>在 Teams 會議中管理 Q&A
 
@@ -39,14 +39,16 @@ Q&A 可讓簡報者回答出席者的問題，並即時回答。 這項功能最
 
 Q&A 可由下列使用者類型使用：
 
-- 一般使用者：在您的租使用者中具有 Microsoft 365 認證的使用者。
-- 同盟使用者：具有 Microsoft 365 認證至不同租使用者的使用者。
-- 來賓使用者：任何您新增至 Microsoft Teams、SharePoint 或 Azure Active Directory 的來賓。
+- 一般使用者：租使用者中具有 Microsoft 365 認證的使用者。
+- 同盟使用者：具有Microsoft 365 認證至不同租使用者的使用者。
+- 來賓使用者：您新增至 Microsoft Teams、SharePoint 或 Azure Active Directory 的任何來賓。
 
 > [!NOTE]
-> Q&A 將無法供僅供超過會議容量的 [檢視出席者] 使用。
+> Q&A 不適用於 GCC。
 
 當系統管理員啟用 Q&A 時，擁有 [召集人角色](https://aka.ms/GetQnA) 的使用者可以在建立或更新會議時開啟 Q&A。 透過 Teams 和 Outlook 會議選項，召集人也可以將 Q&A 從先前新增來阻止出席者使用此功能的會議中移除。
+> [!NOTE]
+> Q&A 將無法供僅供超過會議容量的 [檢視出席者] 使用。
 
 ## <a name="use-the-teams-admin-center-to-manage-qa"></a>使用 Teams 系統管理中心管理 Q&A
 
@@ -105,7 +107,7 @@ Q&A 會預設為使用者的 Teams 語言。 當 Teams 與 Yammer 使用的語�
 
 - 如果您在租使用者的 Teams 應用程式中使用 Teams Q&A，不論您的 Yammer 網路設定或存在，此內容都可以在 eDiscovery 中使用。 若要將 eDiscovery 用於標準 Yammer 內容，您的 Yammer 網路必須處於 [原生模式](/yammer/configure-your-yammer-network/overview-native-mode)。
 - 當您執行 eDiscovery 時，您可以判斷郵件是在 Yammer 中產生，還是透過 Teams 中的 Q&A 產生。 在 [檔案中繼資料] 區段中，您可以在 [專案類別] 欄位中找到該資訊。
-- 如果您的組織使用由 Yammer 提供的 Teams Q&A，Q&A 所產生的內容會被視為 Yammer 內容，且可被搜尋。 如需 Microsoft 365 應用程式中電子檔探索的詳細資訊，請參閱 [Microsoft 365 中的電子檔探索解決方案。](/microsoft-365/compliance/ediscovery)
+- 如果您的組織使用由 Yammer 提供的 Teams Q&A，Q&A 所產生的內容會被視為 Yammer 內容，且可被搜尋。 如需 Microsoft 365 應用程式中電子檔探索的詳細資訊，請參閱[Microsoft 365 中的電子檔探索解決方案。](/microsoft-365/compliance/ediscovery)
 - 如果會議召集人啟用匿名張貼，則會將問題出席者文章內嵌到召集人電子檔探索的信箱中。
 
 ## <a name="data-storage"></a>資料儲存空間
@@ -133,7 +135,7 @@ Teams 中 Q&A 所產生資料的生命週期取決於您在合規性中心的 Ya
 保留內容會遵循 Yammer 的保留原則，無論您是否為 Yammer 和 Teams 設定了不同的原則。
 
 > [!NOTE]
-> 如果您的 Yammer 網路不是原生模式，在這裡建立的原則只會套用至 Teams Q&A 資料。 在原生模式中，所有 Yammer 使用者都位於 Azure Active Directory (Azure AD) ，所有群組都是 Microsoft 365 群組，所有檔案都會儲存在 SharePoint Online 中。
+> 如果您的 Yammer 網路不是原生模式，在這裡建立的原則只會套用至 Teams Q&A 資料。 在原生模式中，所有 Yammer 使用者都位於 Azure Active Directory (Azure AD) ，所有群組都Microsoft 365 群組，而且所有檔案都會儲存在 SharePoint Online 中。
 
 ## <a name="faq"></a>常見問題集
 
@@ -141,13 +143,13 @@ Teams 中 Q&A 所產生資料的生命週期取決於您在合規性中心的 Ya
 
 **答：** Q&A 內容會儲存在Microsoft 365 合規性中心中，並透過 eDiscovery 存取。 未來的反覆運算將包含會議重點報告和會議召集人的匯出功能。
 
-**問：Q&A 是否支援 Microsoft 365 Multi-Geo 功能？**
+**問：Q&A 是否支援 365 多重地理Microsoft功能？**
 
 **答：** Q&A 目前不支援 Microsoft 365 Multi-Geo 功能。 Q&A 資料預設會儲存在 北美洲 或 EU (視客戶的 Yammer 網路位置) 而定。
 
 **問：我可以在哪裡深入瞭解結構化會議？**
 
-**答：** 請遵循以下 [最佳做法](/MicrosoftTeams/quick-start-meetings-live-events) ，在 Microsoft Teams 中成功主持大型會議。
+**答：** 請遵循以下 [最佳做法](/MicrosoftTeams/quick-start-meetings-live-events)，在 Microsoft Teams 中成功主持大型會議。
 
 **問：透過 Teams App Store 設定 Q&A 與使用會議選項有何不同？**
 

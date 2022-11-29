@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解訊息中心原則，以及如何在 Teams 中用來控制聊天訊息。
-ms.openlocfilehash: 2b428f39624ce7e6fb82815c7cbba3872b2113c2
-ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
+ms.openlocfilehash: 83ee815651a0e08dc01d25639570c69f03edc588
+ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67609441"
+ms.lasthandoff: 11/28/2022
+ms.locfileid: "69176680"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息傳遞原則
 
 <!--- Add zone marker here--->
 
-訊息原則是用來控制哪些聊天和頻道訊息功能可供 [Microsoft Teams 中 (擁有者和成員) 的使用者 ](assign-roles-permissions.md) 使用。 您可以使用全組織 (預設) 自動建立的原則，或建立及指派自訂訊息原則。
+訊息原則是用來控制哪些聊天和頻道訊息功能可供[使用者 (擁有者和成員) ](assign-roles-permissions.md)在 Microsoft Teams 中使用。 您可以使用全組織 (預設) 自動建立的原則，或建立及指派自訂訊息原則。
 
 除非您建立並指派自訂原則，否則貴組織中的使用者會自動取得全域原則。 編輯全域原則中的設定，或建立並指派一或多個自訂原則來開啟或關閉您要的功能。
 
@@ -40,7 +40,7 @@ ms.locfileid: "67609441"
 
 ## <a name="create-a-custom-messaging-policy"></a>建立自訂訊息原則
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **[訊息中心原則]**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[訊息中心原則]**。
 2. 選取 [新增 **]**。
 3. 輸入原則的名稱和描述。
 4. 選擇您想要的設定。
@@ -58,7 +58,7 @@ ms.locfileid: "67609441"
 
 您可以編輯全域原則和您建立的任何自訂原則。
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **[訊息中心原則]**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[訊息中心原則]**。
 2. 按一下原則名稱左側來選取原則，然後選取 [編輯 **]**。
 3. 從此處，進行您需要的變更。
 4. 選取 [儲存 **]**。
@@ -88,6 +88,7 @@ ms.locfileid: "67609441"
 <a name="bkchat"> </a>
 
 - **聊天**  如果您希望組織中的使用者能夠使用 Teams 應用程式與其他人聊天，請開啟此設定。
+- **與群組聊天** 使用者可以與通訊群組、具備郵件功能的安全性群組，以及Microsoft 365 群組開始聊天。
 - *在交談中使用 Giphy** 如果您開啟 Giphy，使用者可以將 Giphy 包含在與其他人的聊天交談中。 Giphy 是線上資料庫和搜尋引擎，允許使用者搜尋和共用 GIF 動畫檔案。 每個 Giphy 都有內容分級。 除了開啟此設定之外，您還必須啟用 [選擇性連線體驗](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) ，才能在交談中使用 Giphy。
 - **Giphy 內容分級**
   - **沒有限制** 這表示無論內容分級為何，您的使用者都可以在聊天中插入任何 Giphy。
@@ -96,8 +97,8 @@ ms.locfileid: "67609441"
 - **交談中的 Meme** 如果您開啟 [Memes]，使用者就可以在與其他人的聊天交談中包含 Meme。
 - **交談中的圖戳** 如果您開啟此功能，使用者可以將貼圖包含在與其他人的聊天交談中。
 - **URL 預覽** 使用此設定可開啟或關閉郵件中的自動 URL 預覽。
-- **翻譯訊息** 開啟此設定，讓使用者自動將 Teams 訊息翻譯成其 Microsoft 365 或 Office 365 個人語言設定所指定的語言。
-- **訊息的沈浸式閱讀程式** 開啟此設定可讓使用者檢視 Microsoft 沈浸式閱讀程式中的訊息。 沈浸式閱讀程式是一種學習工具，提供全螢幕閱讀體驗，提高文字的可讀性。
+- **翻譯訊息** 開啟此設定，讓使用者自動將 Teams 訊息翻譯成其Microsoft 365 或Office 365個人語言設定所指定的語言。
+- **訊息的沈浸式閱讀程式** 開啟此設定可讓使用者在Microsoft 沈浸式閱讀程式中檢視郵件。 沈浸式閱讀程式是一種學習工具，提供全螢幕閱讀體驗，提高文字的可讀性。
 - **使用優先順序通知傳送緊急訊息** 如果您開啟此功能，使用者可以使用 [優先順序通知傳送訊息](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 優先順序通知會每 2 分鐘通知使用者 20 分鐘，或直到收件者取回並讀取標示為 *緊急* 的郵件為止。 這項功能會提高及時處理郵件的可能性。 您無法在傳送郵件後編輯緊急訊息。
 - **建立語音訊息**
   > [!Important]
