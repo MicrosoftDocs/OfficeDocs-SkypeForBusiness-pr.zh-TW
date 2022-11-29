@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 3de0ed17ceee33106e3281707d90427569558922
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928503"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183012"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -44,7 +44,7 @@ ms.locfileid: "68928503"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    |
-|視訊通話和會議|<ul><li>需要雙核心處理器。 對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。</li> <li>背景影片效果需要 Windows 10 或具有 AVX2 指令集的處理器。</li> <li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>需要藍牙 LE 才能在 Microsoft Teams 會議室中使用近接偵測功能加入會議。 Windows 上的藍牙 LE 需要在用戶端裝置上啟用藍牙，且需要 64 位版本的 Teams 用戶端。 此功能不適用於 32 位 Teams 用戶端。</li></ul> |
+|視訊通話和會議|<ul><li>需要雙核心處理器。 對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。</li> <li>背景影片效果需要 Windows 10 或具有 AVX2 指令集的處理器。</li> <li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Microsoft Teams 會議室 中使用近接偵測加入會議需要藍牙 LE。 Windows 上的藍牙 LE 需要在用戶端裝置上啟用藍牙，且需要 64 位版本的 Teams 用戶端。 此功能不適用於 32 位 Teams 用戶端。</li></ul> |
 |Teams 即時活動 | 如果您會產生 Teams 即時活動，建議您使用配備 Core i5 Kaby Lake 處理器、4.0-GB RAM (或更高)、硬體編碼器的電腦。 如需 **不支援的** 解碼器和編碼器清單，請參閱 [硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac 電腦上 Teams 的硬體需求
@@ -58,7 +58,7 @@ ms.locfileid: "68928503"
 |作業系統  |    macOS 三個最新版本的其中一個。 您可以在[這裡](https://support.apple.com/en-us/HT201260)找到最新 macOS 版本的資訊以及如何升級 macOS 版本。 例如，當新版本的 macOS 發行時，新版本和前兩個版本會變成支援的版本。      |
 |影片  |    相容的網路攝影機     |
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
-|視訊通話和會議 | <ul><li>需要雙核心處理器。 對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。 </li><li>需要藍牙 LE 才能在 Microsoft Teams 會議室中使用近接偵測功能加入會議。 藍牙 LE 需要在用戶端裝置上啟用藍牙。</li></ul>
+|視訊通話和會議 | <ul><li>需要雙核心處理器。 對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。 </li><li>需要藍牙 LE，才能在 Microsoft Teams 會議室中使用近接偵測功能加入會議。 藍牙 LE 需要在用戶端裝置上啟用藍牙。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux 電腦上 Teams 的硬體需求

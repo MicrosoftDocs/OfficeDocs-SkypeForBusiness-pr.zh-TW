@@ -17,22 +17,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供如何使用 Teams 面板裝置的指導方針。
-ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: b5dbe92b1c2c3f08683ca58a403fdbb4e318efca
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801774"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183002"
 ---
-# <a name="how-to-use-microsoft-teams-panels"></a>如何使用 Microsoft Teams 面板
+# <a name="how-to-use-microsoft-teams-panels"></a>如何使用 teams 面板Microsoft
 
-Microsoft Teams 面板是壓縮的數字顯示設備，安裝在會議空間外，通常位於進入旁邊。 這些觸控螢幕面板是專屬的 Microsoft Teams 裝置，可讓您快速檢視會議空間和排定的會議。 透過生動的色彩編碼 LED 和主畫面指示器，您可以判斷空間是否可供使用或從遠處保留。 您可以使用 Teams 面板，現場為臨時會議保留可用的會議空間。
+Microsoft Teams 面板是壓縮的數字顯示設備，安裝在會議空間外，通常位於進入旁邊。 這些觸控螢幕面板是專屬Microsoft Teams 裝置，可讓您快速檢視會議空間和排定的會議。 透過生動的色彩編碼 LED 和主畫面指示器，您可以判斷空間是否可供使用或從遠處保留。 您可以使用 Teams 面板，現場為臨時會議保留可用的會議空間。
 
 Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 Teams 行事曆排程的會議詳細資料。
 
 本文提供有關如何使用 Teams 面板裝置的指引給使用者和系統管理員。 它也會提供有關使用這些裝置的 [常見問題解答](#frequently-asked-questions) 。
 
-如需面板裝置的概觀，以及如何在貴組織中規劃、交付及管理這些裝置的指導方針，請參閱 [部署 Microsoft Teams 面板](teams-panels.md)。
+如需面板裝置的概觀，以及如何在貴組織中規劃、交付及管理這些裝置的指導方針，請參閱[部署 Microsoft Teams 面板](teams-panels.md)。
 
 如需快速入門，請參閱 [開始使用 Teams 面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
 
@@ -125,7 +125,7 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="主畫面顯示臨時會議所保留的會議空間。":::
 
     > [!NOTE]
-    > 如果會議空間是 Microsoft Teams 會議室，您可以使用會議室內的 Microsoft Teams 會議室或 Surface Hub 裝置 _加入_ 此 Teams 會議。
+    > 如果會議空間是 Microsoft Teams 會議室，您可以使用會議室Microsoft Teams 會議室或 Surface Hub 裝置 _加入_ 此 Teams 會議室。
 
 ### <a name="report-a-problem"></a>回報問題
 
@@ -186,7 +186,7 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 > [!NOTE]
 > 有些 OEM 可能會以自己的自訂選項取代 **Teams 系統管理員設定** 選項。 如果您沒有看到 **[Teams 系統管理員設定** ] 選項，請查看您的裝置檔，以取得如何存取面板的系統管理員設定的指示。
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>將Teams 面板與 Android 上的 Microsoft Teams 會議室配對
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>在 Android 上將Teams 面板與Microsoft Teams 會議室配對
 
 若要在 Android 上配對Teams 面板和 Teams 會議室，這兩個裝置都必須登入相同的資源帳戶。
 
@@ -202,13 +202,16 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 
 當 Teams 面板與 Android 上的 Microsoft Teams 會議室配對時，可以啟用簽入通知，以便在會議延遲時出現在會議前方顯示器上。
 
-若要啟用簽入和會議室版本，請參閱 [Microsoft Teams 面板上的簽入和會議室發行](check-in-and-room-release.md)。
+若要啟用簽入和會議室版本，請參閱在[Microsoft Teams 面板上存回和會議室版本](check-in-and-room-release.md)。
 
 #### <a name="enable-or-disable-check-out-manual-room-release"></a>啟用或停用手動會議室發行 () 
 
 啟用取出功能時，使用者可以使用Teams 面板手動釋出聊天室。 釋出聊天室會結束目前的預約，並讓其他人可以排程該聊天室。
 
 此功能預設為停用，但可以每個裝置啟用。 若要啟用此功能，請移至 [ **設定>裝置設定] > Teams 系統管理員設定>會議** ]，然後開啟 [ **取出]**。
+
+> [!NOTE]
+> 如果會議室是在排定的預約結束之前釋出，召集人會收到來自拒絕聊天室的電子郵件訊息。 這是因為會議室會從排程中移除預約，以便由其他使用者預約。 拒絕保留的訊息可以忽略。
 
 > [!NOTE]
 > 如果配對的Teams 會議室裝置正在進行通話，則無法使用Teams 面板釋出聊天室。
@@ -231,7 +234,7 @@ Teams 面板裝置已預先安裝 Microsoft Teams，並顯示透過 Outlook 或 
 
 會議室容量警告預設為停用，但可以每個裝置啟用。 若要啟用此功能，請執行下列動作：
 
-1. 依照在[Android 上將Teams 面板與 Microsoft Teams 會議室配對](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)中的步驟進行。 面板和 Teams 會議室裝置必須登入相同的資源帳戶。
+1. 依照在[Android 上將Teams 面板與Microsoft Teams 會議室配對](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)中的步驟進行。 面板和 Teams 會議室裝置必須登入相同的資源帳戶。
 2. 移至 [ **設定] > [裝置設定] > Teams 系統管理員設定>會議** 並開啟 **[最大會議室] 通知**。
 
 #### <a name="enable-or-disable-viewing-of-room-equipment"></a>啟用或停用檢視會議室設備
