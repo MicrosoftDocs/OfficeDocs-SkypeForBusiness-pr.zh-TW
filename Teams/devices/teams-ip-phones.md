@@ -21,33 +21,33 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 06d5f81b830115d775a2237f7758d3f7ec62be18
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+description: 瞭解哪些電話機和會議電話經過Microsoft Teams 認證，以產生最佳結果。
+ms.openlocfilehash: ca060d9f077d9f79b9e8d02bea49002d321aae6b
+ms.sourcegitcommit: 167868ad6fc02676cfdade5d498e7c4e09778bec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131142"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69190324"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
-Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 Teams 體驗中提供更高的效能目標和品質指 (音訊、視訊、使用者介面) 。 Microsoft 和 OEM 合作夥伴正積極合作，以確保裝置符合所有認證需求，包括安全性、音訊和視訊品質、Teams 體驗和協助工具。
+Microsoft Teams 裝置認證計畫可確保認證裝置符合高標準，在整個 Teams 體驗中提供更高的效能目標和品質指 (音訊、視訊、使用者介面) 。 Microsoft和 OEM 合作夥伴正積極合作，以確保裝置符合所有認證需求，包括安全性、音訊和視訊品質、Teams 體驗和協助工具。
 
 > [!IMPORTANT]
-> Microsoft Teams 裝置認證計畫確保通過認證的裝置僅符合硬體設計和效能的特定需求。 認證計畫不會評估功能層級或雲端環境支援。
+> Microsoft Teams 裝置認證計畫確保認證裝置僅符合硬體設計和效能的特定需求。 認證計畫不會評估功能層級或雲端環境支援。
 >
 > 如需 Windows Teams 會議室 和 Android Teams 會議室 支援哪些功能的相關資訊，包括雲端環境支援，請參[閱 Windows 和 Android 功能比較Teams 會議室](../rooms/teams-devices-feature-comparison.md)。
 
 認證程式的設計目的是要確保所有通過認證的裝置都執行 Android 版本，並具備適用于 Teams 和 Teams 系統管理中心的必要功能集。 認證結束日期是根據裝置進入認證計畫時在裝置上執行的 Android OS 版本。 我們的 OEM 合作夥伴正致力於藉由升級 Android OS 版本並重新取得認證，或發行最新狀態的新模型，來延長認證的存留期。
 
-在認證期間之後，Microsoft 致力於在認證期間結束後於這類裝置上支援最新版的 Teams 用戶端兩年。
+在認證期間之後，Microsoft會致力於在認證期間結束後於這類裝置上支援最新版的 Teams 用戶端。
 
 >[!NOTE]
 >認證結束日期將會根據 OEM 合作夥伴計畫定期更新，以升級至較新的 Android 作業系統版本。
 
 ## <a name="certified-teams-phones"></a>已認證的 Teams 手機
 
-下列裝置已通過 Microsoft Teams 手機認證計畫認證：
+下列裝置是根據 Microsoft Teams 手機認證計畫認證：
 
 |裝置型號    | 韌體版本    | 目前的認證結束日期 | Android OS 版本                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -105,7 +105,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 ## <a name="certified-teams-displays"></a>通過認證的 Teams 顯示器
 
-下列裝置是根據 Microsoft Teams Display Android 認證計畫進行認證：
+下列裝置是根據 teams 顯示器 Android 認證計畫Microsoft認證：
 
 | 裝置型號 | 韌體版本 | 目前的認證結束日期  | Android OS 版本 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -115,7 +115,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 |Lenovo ThinkSmart 檢視|`CD-18781Y.201006.099`| 2022 年 12 月 5 日 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>通過認證的 Teams 面板
-下列裝置已在 Microsoft Teams 面板認證計畫下認證：
+下列裝置在 Microsoft Teams 面板認證計畫下方通過認證：
 
 | 裝置型號| 韌體版本 | 目前的認證結束日期 | Android OS 版本 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -159,7 +159,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 #### <a name="firmware-versions"></a>韌體版本
 
-當您在裝置上安裝新的韌體版本時，您可以判斷對應的 Microsoft Teams 應用程式安裝版本、公司入口網站和管理員專員。 在 [ **包含的產品發行** ] 欄中尋找產品版本，然後查詢前述 **App 版本** 資料表中的產品版本。
+當您在裝置上安裝新的韌體版本時，您可以判斷Microsoft Teams 應用程式、公司入口網站和管理員專員的對應安裝版本。 在 [ **包含的產品發行** ] 欄中尋找產品版本，然後查詢前述 **App 版本** 資料表中的產品版本。
 
 | 裝置型號  | 韌體版本  | 包含的產品版本  |
 |:----------------|:--------------|:----------------------------|
@@ -252,9 +252,9 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 | Yealink VP59        | `91.15.0.54`         | 2020 更新 #7           |
 | Yealink CP960       | `73.15.0.115`      | 2020 更新 #7           |
 
-如需這些裝置支援之功能的相關資訊，請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) 。
+如需這些裝置支援功能的資訊，請參閱[Microsoft Teams 手機功能集](phones-for-teams.md)。
 
-請參閱 [Microsoft Teams 顯示器](teams-displays.md)。
+請[參閱 teams 顯示Microsoft](teams-displays.md)。
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上Teams 會議室的產品發行資訊
 
@@ -278,7 +278,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 #### <a name="firmware-versions"></a>韌體版本
 
-當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員代理程式。 然後在上面的 **App 版本** 表格中查詢產品版本。
+當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員專員。 然後在上面的 **App 版本** 表格中查詢產品版本。
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
@@ -287,10 +287,14 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 | Logi RoomMate  | `1.7.202`   | 2022 更新#2B  |
 | Logi 主機  | `1.7.200`    | 2022 更新#2B  |
 | EPOS EXPAND Vision 3T |`1.5.22242.02`   | 2022 更新 U2A |
+| Yealink MeetingBoard 65 吋 | `155.15.0.17 `   | 2022 更新#2B  |
 | Yealink MeetingBoard 65 吋 | `155.15.0.10 `   | 2022 更新#2A  |
 | Poly Studio X30 | `3.13.0.368067` | 2022 更新#2A   |
 | Poly Studio X50 | `3.13.0.368067` | 2022 更新#2A |
 | Poly TC8        | `3.13.0.210799`          | 2022 更新#2A   |
+| Yealink 會議列 A20 | `133.310.0.44 `   | 2022 更新#2B  |
+| Yealink 會議列 A30 | `133.310.0.44 `   | 2022 更新#2B  |
+| Yealink CTP18 | `137.310.0.12`   | 2022 更新#2B  |
 | Yealink 會議列 A20 | `133.310.0.25 `   | 2022 更新#2A  |
 | Yealink 會議列 A30 | `133.310.0.25 `   | 2022 更新#2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 更新#2A  |
@@ -361,7 +365,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 ### <a name="product-release-information-for-teams-displays"></a>Teams 顯示器的產品版本資訊
 
-以下是最新的 Microsoft Teams Display 應用程式和韌體版本。
+以下是 Teams 顯示應用程式和韌體版本的最新Microsoft。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -376,7 +380,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 #### <a name="firmware-versions"></a>韌體版本
 
-當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員代理程式。 然後在上面的 **App 版本** 表格中查詢產品版本。
+當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員專員。 然後在上面的 **App 版本** 表格中查詢產品版本。
 
 | 裝置型號  | 韌體版本 | 包含的產品版本|
 |:--------------|:-----------------|:-------------------------|
@@ -388,7 +392,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 ### <a name="product-release-information-for-teams-panels"></a>Teams 面板的產品版本資訊
 
-以下是最新的 Microsoft Teams 面板應用程式和韌體版本。
+以下是最新Microsoft Teams 面板應用程式和韌體版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -403,7 +407,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 #### <a name="firmware-versions"></a>韌體版本
 
-當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員代理程式。 然後在上面的 **App 版本** 表格中查詢產品版本。
+當您在裝置上安裝新的韌體版本時，您可以在 [**包含的產品發行**] 欄中尋找產品版本，判斷對應的 Microsoft Teams 應用程式、公司入口網站和管理員專員。 然後在上面的 **App 版本** 表格中查詢產品版本。
 
 | 裝置型號  | 韌體版本 | 包含的產品版本|
 |:--------------|:-----------------|:-------------------------|
@@ -426,16 +430,16 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 ## <a name="more-resources"></a>更多資源
 
-如需這些裝置支援之功能的相關資訊，請參閱 [Microsoft Teams 手機功能集](phones-for-teams.md) 。
+如需這些裝置支援功能的資訊，請參閱[Microsoft Teams 手機功能集](phones-for-teams.md)。
 
 請參閱 [在行動裝置上尋找韌體版本](phones-for-teams.md) ，以判斷行動裝置上的裝置韌體版本。
 
-您可以在[Microsoft 365 或Office 365訂閱](/office365/servicedescriptions/teams-service-description)中購買 Microsoft Teams 授權。 若要深入瞭解在手機上使用 Microsoft Teams 所需的授權，請參閱可用 [的電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams 授權可以在[Microsoft 365 或 Office 365 訂閱中](/office365/servicedescriptions/teams-service-description)購買。 若要深入瞭解在手機上使用 Microsoft Teams 所需的授權，請參閱可用[的電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
-如需取得 Teams 的詳細資訊，請參[閱如何?取得 Microsoft Teams 的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+如需取得 Teams 的詳細資訊，請查看[如何?存取 Microsoft Teams 嗎？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 如果您是尋求加入認證計畫的廠商，請參閱 [如何加入](/skypeforbusiness/certification/how-to-join) 以瞭解需求和可用的程式。
 
-[探索 Microsoft Teams 手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
+[探索Microsoft Teams 手機和經過認證的裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Teams 和 Skype 互通性](../teams-skype-interop.md)
