@@ -1,5 +1,5 @@
 ---
-title: 適用于 Microsoft Teams 的電話和裝置
+title: 適用于 Teams Microsoft手機和裝置
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,19 +15,19 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 已通過 Microsoft Teams 認證。
+ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
+ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738619"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69194934"
 ---
-# <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
+# <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 認證的 USB 音訊和視訊裝置
 
-周邊設備認證計畫可確保耳機、免持聽筒、網路攝影機和監視器等 USB 周邊設備 (，) 提供豐富的音訊或視訊品質。 認證裝置可 (接上電源&不需要額外設定即可玩) ，並提供 Microsoft Teams 和 商務用 Skype 的通話控制。 產品可為使用者和系統管理員提供絕佳的體驗。
+周邊設備認證計畫可確保耳機、免持聽筒、網路攝影機和監視器等 USB 周邊設備 (，) 提供豐富的音訊或視訊品質。 通過認證的裝置可 (插入&播放) ，而不需要額外的設定，並透過 Microsoft Teams 和 商務用 Skype 提供通話控制。 產品可為使用者和系統管理員提供絕佳的體驗。
 
-若要探索經過 Microsoft Teams 測試和認證的裝置，請前往 [Teams 市集](https://products.office.com/microsoft-teams/across-devices/devices)。
+若要探索針對 Microsoft Teams 測試和認證的裝置，請前往[Teams 市集](https://products.office.com/microsoft-teams/across-devices/devices)。
 
 如需有關 Teams 通話控制支援的詳細資訊，請參閱 [在 Teams 中使用耳機控制通話](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
 
@@ -36,14 +36,14 @@ ms.locfileid: "68738619"
 
 ## <a name="understanding-certification-categories"></a>瞭解認證類別
 
-從 商務用 Skype 升級至 Teams 時，使用者不需要更換先前通過認證的裝置。  所有通過認證的裝置都支援 Microsoft Teams 和商務用 Skype使用者，並僅有一些差異。  認證也提供特定裝置類別的進一步指定。
+從 商務用 Skype 升級至 Teams 時，使用者不需要更換先前通過認證的裝置。  所有通過認證的裝置都支援Microsoft Teams 和商務用 Skype使用者，但差異只有一些。  認證也提供特定裝置類別的進一步指定。
 
-- 商務用 Skype通過此層級的 **Teams 升級裝置認證**，一開始是通過商務用 Skype認證。 Microsoft 與裝置製造商合作，盡可能提供最佳的 Teams 整合體驗，而不會對原始硬體進行任何變更。 當通話不在時， *[切換* ] 按鈕會做為 Teams 按鈕，而且可能會隨著時間包含更多功能。  此類別中的裝置可能會在行銷資料上攜帶 Teams 認證徽章。
-- **已通過 Microsoft Teams 認證** 此層級認證的裝置表示已認證的最新裝置，以獲得無危害的 Teams 體驗。 這些裝置提供先前認證的所有優點，同時也包含具有 LED 指示器的專用 Teams 按鈕。 在大部分的表單因素下，Teams 按鈕會是含有 Teams 標誌的易於尋找的觸控按鈕。 隨著時間，Microsoft 會持續與裝置製造商合作，透過韌體更新來提供新的價值。
+- 商務用 Skype通過此層級的 **Teams 升級裝置認證**，一開始是通過商務用 Skype認證。 Microsoft與裝置製造商合作，盡可能提供最佳的 Teams 整合體驗，而不會對原始硬體進行任何變更。 當通話不在時， *[切換* ] 按鈕會做為 Teams 按鈕，而且可能會隨著時間包含更多功能。  此類別中的裝置可能會在行銷資料上攜帶 Teams 認證徽章。
+- 通過此層級認證 **的Microsoft Teams** 裝置表示已認證的最新裝置，以獲得完全不折不扣的 Teams 體驗。 這些裝置提供先前認證的所有優點，同時也包含具有 LED 指示器的專用 Teams 按鈕。 在大部分的表單因素下，Teams 按鈕會是含有 Teams 標誌的易於尋找的觸控按鈕。 Microsoft持續與裝置製造商合作，透過韌體更新一段時間來提供新的價值。
 
 ### <a name="special-usage-designations"></a>特殊使用方式指定
 
-- **原生藍牙認證音訊周邊設備**  大多數通過 Microsoft Teams 認證的藍牙耳機和免持聽筒，都是設計用來搭配 USB 硬體鎖來連線到電腦和 Mac 主機。 許多使用者一直要求選擇直接將裝置與主機配對，因為他們沒有足夠的 USB 埠，或不想記得在不同位置工作時隨身攜帶 USB 硬體鎖。
+- **原生藍牙認證音訊周邊設備** 大多數通過 Microsoft Teams 認證的藍牙耳機和免持聽筒，都是設計用來搭配 USB 硬體鎖來連線到電腦和 Mac 主機。 許多使用者一直要求選擇直接將裝置與主機配對，因為他們沒有足夠的 USB 埠，或不想記得在不同位置工作時隨身攜帶 USB 硬體鎖。
 
     Windows 電腦支援原生藍牙認證裝置，包括耳機和免持聽筒 (未來可能會支援 macOS) 。 裝置會針對音訊效能、通話控制和 Teams 按鈕整合進行測試，不含與不使用 USB 硬體鎖。
 
@@ -52,7 +52,7 @@ ms.locfileid: "68738619"
 - **開啟 Office 的進階麥克風** 所有耳機都經過測試以提供清楚的音訊，但開啟辦公室和其他吵雜的環境會構成更大的挑戰。 具有此指定的耳機會接聽頭戴式裝置使用者的聲音，但不會傳送其周邊的音效。
 - **會議室大小** 免持聽筒和相機等共用裝置有支援的使用距離。 建議的距離可能會根據製造商而有所不同。 為提供客戶清楚的指導方針，所有共用裝置都會通過認證，以針對定義明確的會議室大小和噪音環境進行測試。
 
-流覽 [已通過 Microsoft Teams 認證的裝置](https://products.office.com/microsoft-teams/across-devices/devices)。
+流覽[已通過 Microsoft Teams 認證的裝置](https://products.office.com/microsoft-teams/across-devices/devices)。
 
 ## <a name="end-user-experience"></a>使用者體驗
 
@@ -88,6 +88,7 @@ ms.locfileid: "68738619"
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |ADAPT 561 II 頭戴式裝置                                       |10/20/2022      |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |已通過 Microsoft Teams 認證                           |
 |Cisco                |桌面相機 4K                                             |10/15/2022      |已通過 Microsoft Teams 認證                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |已通過 Microsoft Teams 認證                           |
@@ -142,17 +143,17 @@ ms.locfileid: "68738619"
 |戴爾                 |WH3022 專業有線耳機                                   |4/22/2021       |已通過 Microsoft Teams 認證                           |
 |羅技             |C920e Webcam                                               |4/22/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P5 網路攝影機                                           |4/22/2021       |已通過 Microsoft Teams 認證                           |
-|Jabra                |Biz 2400 II                                                |4/22/2021       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Biz 2300                                                   |4/22/2021       |升級至 Microsoft Teams 商務用 Skype      |
-|微軟            |Modern Wireless Headset                                    |4/19/2021       |已通過 Microsoft Teams 認證                           |
-|微軟            |現代化 USB-C 喇叭                                       |4/15/2021       |已通過 Microsoft Teams 認證                           |
-|微軟            |新式 USB 頭戴式裝置                                         |4/15/2021       |已通過 Microsoft Teams 認證                           |
+|Jabra                |Biz 2400 II                                                |4/22/2021       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Biz 2300                                                   |4/22/2021       |商務用 Skype升級至 Microsoft Teams      |
+|Microsoft            |Modern Wireless Headset                                    |4/19/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |現代化 USB-C 喇叭                                       |4/15/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |新式 USB 頭戴式裝置                                         |4/15/2021       |已通過 Microsoft Teams 認證                           |
 |Yealink              |UVC20 網路攝影機                                               |3/30/2021       |已通過 Microsoft Teams 認證                           |
-|微軟            |新式網路攝影機                                              |3/24/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |新式網路攝影機                                              |3/24/2021       |已通過 Microsoft Teams 認證                           |
 |EPOS/Sennheiser      |調整 200 系列耳機                                  |3/19/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |Voyager Focus 2 耳機                                    |3/11/2021       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |已通過 Microsoft Teams 認證                           |
-|微軟            |Surface Headphones 2+                                      |2/26/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |Surface Headphones 2+                                      |2/26/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P15 視訊列                                       |2/1/2021        |已通過 Microsoft Teams 認證                           |
 |聚                 |同步 40 免持聽筒                                       |1/19/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |將 40+ 免持聽筒與 Poly BT600 USB 硬體鎖同步           |1/19/2021       |已通過 Microsoft Teams 認證                           |
@@ -163,32 +164,32 @@ ms.locfileid: "68738619"
 |Yealink              |WH63 DECT 頭戴式裝置                                          |12/23/2020      |已通過 Microsoft Teams 認證                           |
 |Yealink              |WH62 雙/單聲道 DECT 頭戴式裝置                                |12/23/2020      |已通過 Microsoft Teams 認證                           |
 |EPOS/Sennheiser      |調整 100 個系列耳機                                  |12/22/2020      |已通過 Microsoft Teams 認證                           |
-|戴爾                 |Pro 身歷聲耳機 - UC350                                 |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|戴爾                 |Pro 身歷聲耳機 - UC150                                 |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|聯想               |Pro Wired VoIP 立體耳機                              |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|戴爾                 |Pro 身歷聲耳機 - UC350                                 |12/21/2020      |商務用 Skype升級至 Microsoft Teams      |
+|戴爾                 |Pro 身歷聲耳機 - UC150                                 |12/21/2020      |商務用 Skype升級至 Microsoft Teams      |
+|聯想               |Pro Wired VoIP 立體耳機                              |12/21/2020      |商務用 Skype升級至 Microsoft Teams      |
 |聚                 |Svit Office 7320                                           |12/18/2020      |已通過 Microsoft Teams 認證                           |
 |聚                 |Svit Office 7310                                           |12/18/2020      |已通過 Microsoft Teams 認證                           |
-|Jabra                |Evolve 75e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 65e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |商務用 Skype升級至 Microsoft Teams      |
 |戴爾                 |C3422WE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
 |戴爾                 |C2722DE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
 |戴爾                 |C2422HE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
 |聚                 |將 20 + 免持聽筒與 Poly BT600 USB 硬體鎖同步          |11/9/2020       |已通過 Microsoft Teams 認證                           |
 |聚                 |同步處理 20 部免持聽筒                                       |11/9/2020       |已通過 Microsoft Teams 認證                           |
-|Jabra                |Evolve 65t Headset                                         |10/31/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 80 Headset                                          |8/23/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 40 Headset                                          |8/23/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 30 II Headset                                       |8/23/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 20 Headset                                          |8/23/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 660               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 630               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 260               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 75 / SE Headset                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 65 / SE Headset                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |參與 50 頭戴式裝置                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 65t Headset                                         |10/31/2020      |商務用 Skype升級至 Microsoft Teams      |
+|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |商務用 Skype升級至 Microsoft Teams      |
+|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Evolve 80 Headset                                          |8/23/2020       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Evolve 40 Headset                                          |8/23/2020       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Evolve 30 II Headset                                       |8/23/2020       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Evolve 20 Headset                                          |8/23/2020       |商務用 Skype升級至 Microsoft Teams      |
+|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |商務用 Skype升級至 Microsoft Teams      |
+|EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 660               |8/20/2020       |商務用 Skype升級至 Microsoft Teams      |
+|EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 630               |8/20/2020       |商務用 Skype升級至 Microsoft Teams      |
+|EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 260               |8/20/2020       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Evolve 75 / SE Headset                                          |7/31/2020       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |Evolve 65 / SE Headset                                          |7/31/2020       |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |參與 50 頭戴式裝置                                          |7/31/2020       |商務用 Skype升級至 Microsoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve2 85 Headset                                         |7/17/2020       |已通過 Microsoft Teams 認證                           |
 |玻 色                 |NC 700 頭戴式裝置                                             |6/8/2020        |已通過 Microsoft Teams 認證                           |
@@ -198,46 +199,46 @@ ms.locfileid: "68738619"
 | EPOS                | Sennheiser Adapt 460T 頭戴式裝置                             | 5/15/2020      | 已通過 Microsoft Teams 認證                          |
 | EPOS                | Sennheiser Adapt 360 頭戴式裝置                              | 5/15/2020      | 已通過 Microsoft Teams 認證                          |
 | Yealink             | UH36 頭戴式裝置                                              | 5/13/2020      | 已通過 Microsoft Teams 認證                          |
-| 聚                | Svia 8210 Office                                          | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Svia 8210 UC                                              | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Svia 8220 Office                                          | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Svia 8220 UC                                              | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Svia 8240 Office                                          | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Svia 8240 UC                                              | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Svia 8245 Office                                          | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Svia 8245 UC                                             | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Blackwire 5210 耳機                                    | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Blackwire 5220 耳機                                    | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Blackwire 7225 耳機                                    | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 聚                | Voyager Focus UC                                          | 4/20/2020      | 升級至 Microsoft Teams 商務用 Skype     |
+| 聚                | Svia 8210 Office                                          | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Svia 8210 UC                                              | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Svia 8220 Office                                          | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Svia 8220 UC                                              | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Svia 8240 Office                                          | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Svia 8240 UC                                              | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Svia 8245 Office                                          | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Svia 8245 UC                                             | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Blackwire 5210 耳機                                    | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Blackwire 5220 耳機                                    | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Blackwire 7225 耳機                                    | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | Voyager Focus UC                                          | 4/20/2020      | 商務用 Skype升級至 Microsoft Teams     |
 | Yealink             | CP700                                                     | 4/13/2020      | 已通過 Microsoft Teams 認證                          |
 | Jabra               | Evolve2 65 Headset                                        | 4/13/2020      | 已通過 Microsoft Teams 認證                          |
-| EPOS/Sennheiser     | 影響 SC 30                                              | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 45                                              | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 60                                              | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 75 MS                                           | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 75 MS EUL                                       | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 230 USB MS II                                   | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 260 USB MS II                                   | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 630 USB MS                                      | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 635 USB                                         | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 660 USB MS                                      | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 660 ANC USB                                     | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| EPOS/Sennheiser     | 影響 SC 665 USB                                         | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
+| EPOS/Sennheiser     | 影響 SC 30                                              | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 45                                              | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 60                                              | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 75 MS                                           | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 75 MS EUL                                       | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 230 USB MS II                                   | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 260 USB MS II                                   | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 630 USB MS                                      | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 635 USB                                         | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 660 USB MS                                      | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 660 ANC USB                                     | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
+| EPOS/Sennheiser     | 影響 SC 665 USB                                         | 4/9/2020       | 商務用 Skype升級至 Microsoft Teams     |
 | 羅技            | Zone Wireless                                             | 4/8/2020       | 已通過 Microsoft Teams 認證                          |
-| 聚                | Voyager 8200 頭戴式裝置                                      | 3/26/2020      | 升級至 Microsoft Teams 商務用 Skype     |
+| 聚                | Voyager 8200 頭戴式裝置                                      | 3/26/2020      | 商務用 Skype升級至 Microsoft Teams     |
 | 羅技            | 區域有線                                                | 3/26/2020      | 已通過 Microsoft Teams 認證                          |
 | Jabra               | Evolve2 40 Headset                                        | 3/26/2020      | 已通過 Microsoft Teams 認證                          |
-| 聚                | Voyager 6200 頭戴式裝置                                      | 3/23/2020      | 升級至 Microsoft Teams 商務用 Skype     |
+| 聚                | Voyager 6200 頭戴式裝置                                      | 3/23/2020      | 商務用 Skype升級至 Microsoft Teams     |
 | 聚                | Voyager 4245 Office                                       | 3/23/2020      | 已通過 Microsoft Teams 認證                          |
 | 聚                | Blackwire 8225 耳機                                    | 3/23/2020      | 已通過 Microsoft Teams 認證                          |
 | 聚                | Calisto 5300-M                                            | 03/05/2020     | 已通過 Microsoft Teams 認證                          |
 | 聚                | Voyager 4210 Office                                       | 03/05/2020     | 已通過 Microsoft Teams 認證                          |
-| 聚                | Voyager 4210 UC                                           | 03/05/2020     | 升級至 Microsoft Teams 商務用 Skype     |
+| 聚                | Voyager 4210 UC                                           | 03/05/2020     | 商務用 Skype升級至 Microsoft Teams     |
 | 聚                | Voyager 4220 Office                                       | 03/05/2020     | 已通過 Microsoft Teams 認證                          |
-| 聚                | Voyager 4220 UC                                           | 03/05/2020     | 升級至 Microsoft Teams 商務用 Skype     |
+| 聚                | Voyager 4220 UC                                           | 03/05/2020     | 商務用 Skype升級至 Microsoft Teams     |
 | 聚                | Voyager 5200 Office                                       | 03/05/2020     | 已通過 Microsoft Teams 認證                          |
-| 聚                | Voyager 5200 UC                                           | 03/05/2020     | 升級至 Microsoft Teams 商務用 Skype     |
+| 聚                | Voyager 5200 UC                                           | 03/05/2020     | 商務用 Skype升級至 Microsoft Teams     |
 | 聚                | Blackwire 3310-M                                          | 03/05/2020     | 已通過 Microsoft Teams 認證                          |
 | 聚                | Blackwire 3315-M                                          | 03/03/2020     | 已通過 Microsoft Teams 認證                          |
 | 聚                | Blackwire 3320-M                                          | 03/05/2020     | 已通過 Microsoft Teams 認證                          |
