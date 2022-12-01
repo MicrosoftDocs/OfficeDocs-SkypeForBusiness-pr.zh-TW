@@ -1,9 +1,9 @@
 ---
 title: 墨西哥的電話號碼管理
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
-ms.reviewer: davlick,krkilaru
+ms.reviewer: krkilaru
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,13 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Calling Plans
 description: 使用下表尋找在墨西哥取得和管理 Microsoft Teams 電話號碼的相關資訊。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7af7c01a740f953be40033e21b5cc3c7e5c6f68
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 9f0794a53e6f3bdb8f10b85e823d746b7991cebf
+ms.sourcegitcommit: 8ec18996c84ad0dc0809a0a405f8429b1f2e0ebc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590330"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "69236332"
 ---
 # <a name="phone-number-management-for-mexico"></a>墨西哥的電話號碼管理
 
@@ -33,10 +32,10 @@ ms.locfileid: "67590330"
   
 |**您想要做什麼？**|**下載正確的表單並將它們傳送給我們**|
 |:-----|:-----|
-|取得未列在 Microsoft Teams 系統管理中心的新使用者或服務電話號碼。   <br/> |下載下列其中一個表單。 <br/>  [新的墨西哥電話號碼要求 (es-mx) ](https://download.microsoft.com/download/0/0/8/008e6ad0-1b1c-4b2c-949d-9b885f6f3650/new-phone-number-request-for-mexico-(v.1.0)-(es-mx).pdf) <br/>  [ (en-us 的新墨西哥電話號碼要求) ](https://download.microsoft.com/download/0/2/6/02657735-678d-44cb-b2ed-36a66407150e/new-phone-number-request-for-mexico-(v.1.0)-(en-us).pdf)<br/>  <br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。<br/><br/> 您也必須填寫三方合約並簽署，並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 我們 TNS 服務台小組會在您下單以取得新的電話號碼之後，將此表單傳送給您。 <br/><br/>|
-|將電話號碼移轉給我們。  <br/> | 下載此表單。 <br/>[墨西哥 (es-mx (LOA) 授權書) ](https://download.microsoft.com/download/a/7/b/a7bc578f-218b-46f6-a192-0df5b6abc653/LOA-MX-GEO-ES.pdf) <br/> <br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 <br/><br/> 您也必須填寫三方合約並簽署，並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 我們 TNS 服務台小組會在您下單移轉電話號碼之後，將此表單傳送給您。<br/><br/>|
+|取得未列在 Microsoft Teams 系統管理中心中的新使用者或服務電話號碼。   <br/> |下載下列其中一個表單。 <br/>  [新的墨西哥電話號碼要求 (es-mx) ](https://download.microsoft.com/download/0/0/8/008e6ad0-1b1c-4b2c-949d-9b885f6f3650/new-phone-number-request-for-mexico-(v.1.0)-(es-mx).pdf) <br/>  [ (en-us 的新墨西哥電話號碼要求) ](https://download.microsoft.com/download/0/2/6/02657735-678d-44cb-b2ed-36a66407150e/new-phone-number-request-for-mexico-(v.1.0)-(en-us).pdf)<br/>  <br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。<br/><br/> 您也必須填寫三方合約並簽署，並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 我們 TNS 服務台小組會在您下單以取得新的電話號碼之後，將此表單傳送給您。 <br/><br/>|
+|將電話號碼移轉給我們。  <br/> | 下載此表單。 <br/>[墨西哥 (es-mx (LOA) 授權書) ](https://download.microsoft.com/download/a/7/b/a7bc578f-218b-46f6-a192-0df5b6abc653/LOA-MX-GEO-ES.pdf) <br/> <br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 <br/><br/> 除了 LOA，您也必須包含下列專案： <br/>- 律師權 <br/>- 授權人員的識別碼 <br/>- 最新的發票 <br/>- 轉寄信件\* <br/><br/> \**我們 TNS 服務台小組會在您下單移轉電話號碼之後，將此表單傳送給您。* <br/><br/> **注意：** 墨西哥的所有移轉啟用都會在當地時間上午 2 點到上午 7：30 之間的 *移轉視窗* 期間進行，在此期間，系統會完成移轉號碼的工作，而在此轉換期間，您的電話語音系統服務會發生障礙。如果您需要在移轉視窗完成後回報任何服務障礙，請 [連絡 TNS 服務台](contact-tns-service-desk.md)。|
 |發佈/解除發佈電話號碼 (國家電話目錄中的) 。  <br/> |如需有關您要發佈/解除發佈之電話號碼清單的指示，請連絡[TNS 服務台](contact-tns-service-desk.md)。      <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |如需有關您要轉換為服務號碼之使用者號碼清單的指示，請[連絡 TNS 服務台](contact-tns-service-desk.md)。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |登入 Teams 系統管理中心，移至 **[電話號碼** ] 頁面，然後選 **取 [取得電話號碼支援]**。 <br/> |
 |進行目錄服務更新以撥打佇列或自動語音應答號碼。 |若要新增或變更通話佇列或自動語音應答號碼，請連絡 [TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
