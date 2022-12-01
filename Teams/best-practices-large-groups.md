@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 瞭解在 Microsoft Teams 中管理大型團隊以符合貴組織需求的最佳做法。
+description: 瞭解在 Microsoft Teams 中管理大型團隊的最佳做法，以符合貴組織的需求。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,17 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: fddf4b5cf80c51977b2a57ceceac8a07e529c51f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576399"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199075"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>在 Microsoft Teams 中管理大型團隊 - 最佳做法
 
-Microsoft Teams 同樣有效地促進數十個成員的小型群組和具有數千個成員的大型群組之間的通訊。 檢閱 [Teams 的限制和規格](limits-specifications-teams.md) ，以取得有關團隊大小的更新。 團隊規模增加會導致獨特的管理和營運挑戰。 本文將說明建立和管理由數千個成員組成的大型團隊的最佳做法。
+Microsoft Teams 在協助數十個成員的小型群組與擁有數千個成員的大型群組之間進行溝通時，同樣有效。 檢閱 [Teams 的限制和規格](limits-specifications-teams.md) ，以取得有關團隊大小的更新。 團隊規模增加會導致獨特的管理和營運挑戰。 本文將說明建立和管理由數千個成員組成的大型團隊的最佳做法。
 
 ## <a name="value-of-large-teams"></a>大型團隊的價值
 
@@ -48,9 +50,9 @@ Microsoft Teams 同樣有效地促進數十個成員的小型群組和具有數�
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>大量匯入/匯出/移除小組中的成員
 
-Azure 入口網站可讓使用者大量匯入/匯出/移除 Microsoft 365 群組中的成員。 如需詳細資訊，請參閱 [大量匯入群組成員](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
+Azure 入口網站可讓使用者在 Microsoft 365 群組中大量匯入/匯出/移除成員。 如需詳細資訊，請參閱 [大量匯入群組成員](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
 
-由於每個團隊都由 Microsoft 365 群組支援，您可以使用Azure 入口網站，在對應到團隊的群組中執行這些作業。 成員作業會在 24 小時內反映在團隊中。
+由於每個小組都由 Microsoft 365 群組支援，您可以使用Azure 入口網站，在對應到團隊的群組中執行這些作業。 成員作業會在 24 小時內反映在團隊中。
 
 ## <a name="create-channels-to-focus-discussions"></a>建立頻道來聚焦討論
 

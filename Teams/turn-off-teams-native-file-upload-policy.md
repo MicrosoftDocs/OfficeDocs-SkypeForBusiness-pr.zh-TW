@@ -12,14 +12,15 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 1993371099d0712d21106987f21575e85e181ad7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c7d5c89c780fa5c9286f5d7f7d2304f2e6c6220
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268925"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198525"
 ---
 # <a name="turn-off-teams-native-file-upload-policy"></a>關閉 Teams 原生檔案上傳原則
 
@@ -34,15 +35,15 @@ Microsoft Teams 會使用 OneDrive 和 SharePoint 來儲存及共用內容，但
 
 ## <a name="prepare-to-update-the-teams-files-policy"></a>準備更新 Teams 檔案原則
 
-### <a name="set-up-microsoft-powershell"></a>設定 Microsoft PowerShell
+### <a name="set-up-microsoft-powershell"></a>設定 powerShell Microsoft
 
 目前，Teams 系統管理中心無法變更此原則。 貴組織的 Microsoft 365 租使用者系統管理員必須使用本文稍後詳述的 PowerShell Cmdlet 進行變更。
 
-若要瞭解如何使用 PowerShell 資源庫 安裝 PowerShell Teams 模組，請閱讀[安裝 Microsoft Teams PowerShell 模組](teams-powershell-install.md)。
+若要瞭解如何使用 PowerShell 資源庫 安裝 PowerShell Teams 模組，請閱讀安裝[Microsoft Teams PowerShell 模組](teams-powershell-install.md)。
 
-若要安裝或下載 Teams PowerShell 模組，請參[閱 microsoft Teams PowerShell 資源庫](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0)。
+若要安裝或下載 Teams PowerShell 模組，請參閱[Microsoft Teams 的PowerShell 資源庫](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0)。
 
-如需如何設定 Teams 管理用 PowerShell 的詳細資訊，請參閱 [使用 Microsoft Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)。
+如需如何設定 Teams 管理用 PowerShell 的詳細資訊，請參閱[使用 Microsoft Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)。
 
 ### <a name="allow-third-party-apps-in-teams-admin-center"></a>在 Teams 管理員 中心中允許協力廠商應用程式
 
@@ -50,7 +51,7 @@ Microsoft Teams 會使用 OneDrive 和 SharePoint 來儲存及共用內容，但
 
 您的 Microsoft 365 租使用者系統管理員必須在 Teams 系統管理中心啟用「允許協力廠商應用程式」原則。
 
-若要瞭解如何允許協力廠商或自訂應用程式，請參閱 [在 Microsoft Teams 系統管理中心管理您的應用程式中的](/microsoftteams/manage-apps#manage-org-wide-app-settings)管理整個組織的應用程式設定。
+若要瞭解如何允許協力廠商或自訂應用程式，請參閱在[Microsoft Teams 系統管理中心管理您的應用程式中的](/microsoftteams/manage-apps#manage-org-wide-app-settings)管理整個組織的應用程式設定。
 
 ## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>針對整個租使用者關閉 NativeFileEntryPoints
 

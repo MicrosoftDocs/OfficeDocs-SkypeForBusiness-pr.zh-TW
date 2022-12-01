@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中從現有團隊建立範本
+title: 在 Teams 中從現有團隊建立範本Microsoft
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -12,28 +12,29 @@ description: 瞭解如何使用現有的團隊在 Microsoft Teams 中建立新�
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df92a9f43481c394f0d6566bc1a3dfe49e134df1
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c6a908b360f64a62b44d160ad1abe9dc5ccc3bb0
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674355"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198945"
 ---
-# <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>在 Microsoft Teams 中從現有團隊建立團隊範本
+# <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>在 Teams 中從現有團隊建立團隊範本Microsoft
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **EDU 客戶尚未支援自訂範本。**
 
-Microsoft Teams可讓您從現有小組建立範本，以便儲存及修改以符合您特定的組織需求。
+Microsoft Teams 可讓您從現有團隊建立範本，以便儲存及修改以符合您的特定組織需求。
 
 1. 登入 Teams 系統管理中心。
 
-2. 在左側導覽中，展開 **[Teams**  >  **Team 範本]**。
+2. 在左側導覽中，展開 **Teams 小組**  >  **範本**。
 
 3. 選取 [新增 **]**。
 
@@ -68,6 +69,6 @@ Microsoft Teams可讓您從現有小組建立範本，以便儲存及修改以�
 
 ## <a name="related-articles"></a>相關文章
 
-- [在系統管理中心使用小組範本開始](get-started-with-teams-templates-in-the-admin-console.md)
+- [在系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)
 - [從現有的小組範本建立範本](create-template-from-existing-template.md)
 - [建立團隊範本](create-a-team-template.md)

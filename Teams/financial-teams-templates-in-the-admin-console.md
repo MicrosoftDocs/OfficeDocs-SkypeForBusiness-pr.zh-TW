@@ -17,14 +17,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ec855bc9065bb65c0f6eae14a3e41683cfbc6f
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046129"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198686"
 ---
 # <a name="use-financial-team-templates"></a>使用金融團隊組範本
 
@@ -38,14 +39,14 @@ Teams 中包括專為金融服務組織設計的範本。 使用這些預先建�
 
 |如果您是: | 那麼, 您: |
 | ---- | --------- |
-| 系統管理員或 IT 專業人員 |[Teams 系統管理中心管理團隊範本](#manage-team-templates-in-the-teams-admin-center)。檢視團隊範本並申請範本原則, 以控制職員在 Teams 中建立團隊時可使用的範本。 |
+| 系統管理員或 IT 專業人員 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 開發人員 | [使用 Microsoft Graph](#use-team-templates-with-microsoft-graph)從團隊範本建立團隊。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>在系統管理中心管理團隊範本
 
 身為系統管理員, 您可以在 Microsoft Teams 系統管理中心管理團隊範本。 您可以在這裡檢視每個範本的詳細資訊。 您也可以[建立及指派範本原則](templates-policies.md)給職員, 以控制他們在 Teams 中[建立團隊](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)時看到的範本。
 
-若要深入了解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
+若要深入瞭解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
 我們目前為金融服務組織提供下列預先建立的團隊範本。 若要查看, 請前往 Teams 系統管理中心左側版面配置, 前往 **Teams** > **團隊範本**。
 
@@ -60,7 +61,7 @@ Teams 中包括專為金融服務組織設計的範本。 使用這些預先建�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 
-開發人員可以使用 Microsoft Graph 從預先組建的團隊範本建立團隊。若要深入了解在 Microsoft Graph 中使用團隊範本, 請參閱[開始在 Microsoft Graph 中使用團隊範本](get-started-with-teams-templates.md), [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0), 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0&preserve-view=true), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0&preserve-view=true).
 
 ### <a name="bank-branch"></a>銀行分行
 

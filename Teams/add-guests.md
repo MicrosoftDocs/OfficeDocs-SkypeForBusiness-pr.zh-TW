@@ -14,16 +14,18 @@ ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-description: 系統管理員可以瞭解如何在 Microsoft Teams 桌面和 Web 用戶端以及 Azure Active Directory B2B 共同作業入口網站中，將新來賓新增至組織。
-ms.openlocfilehash: 17ba8ff379566208a186857071310f6b7c6fd416
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: 系統管理員可以瞭解如何在 Teams 桌面和 Web 用戶端以及 Azure Active Directory B2B 共同作業入口網站中，將新來賓新增至組織Microsoft。
+ms.openlocfilehash: 1427b523f2e9e8ec802a8e8d3459f9edadbb68ca
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268128"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199135"
 ---
 # <a name="add-a-guest-to-a-team"></a>將來賓新增至團隊
 
@@ -39,7 +41,7 @@ ms.locfileid: "67268128"
 
 透過 Azure AD B2B 共同作業功能，組織可為 B2B 使用者強制執行條件式存取和多重要素驗證 (MFA) 原則。 這些原則可以在租用戶層級、應用程式或個別使用者層級強制執行，與為組織全職員工和成員啟用原則的方式相同。 這類原則會在資源組織強制執行。 如需詳細資訊，請參閱[適用於 B2B 共同作業使用者的條件式存取](/azure/active-directory/external-identities/conditional-access)。 無法封鎖個別來賓。
 
-您已透過 Azure AD B2B、Microsoft 365 群組 或 SharePoint 新增的來賓已準備就緒。 Microsoft 365 系統管理員或團隊擁有者可以將這些來賓新增到各自的團隊。 如果您直接將來賓新增至與團隊相關聯的 Microsoft 365 群組，來賓將可存取團隊，但 Microsoft 365 群組不會向來賓產生邀請電子郵件，因此團隊中的人員應通知來賓。
+您已透過 Azure AD B2B、Microsoft 365 群組 或 SharePoint 新增的來賓已準備就緒。 Microsoft 365 系統管理員或團隊擁有者可以將這些來賓新增到各自的團隊。 如果您直接將來賓新增至與團隊關聯的Microsoft 365 群組，來賓將可存取團隊，但Microsoft 365 群組不會產生邀請電子郵件給來賓，因此團隊中的某人應該通知來賓。
 
 > [!NOTE]
 > 來賓須遵守 [Microsoft 365 或 Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) 和 [Azure Active Directory](/azure/active-directory/external-identities/current-limitations) 的服務限制。

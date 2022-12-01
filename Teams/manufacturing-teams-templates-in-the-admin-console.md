@@ -1,5 +1,5 @@
 ---
-title: 開始系統管理中心的製造小組範本
+title: 在系統管理中心開始使用製造小組範本
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -17,14 +17,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2f7329e293d8b3b20747382686599d18d47bea
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 5d159605af5050b8b874fb7b1c077ce9f2d639fc
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646322"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198895"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>在系統管理中心使用製造小組範本
 
@@ -36,7 +37,7 @@ ms.locfileid: "65646322"
 
 如果您負責在製造組織中規劃、部署和管理多個小組，本文適合供您使用。 您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](./deploy-overview.md)。
 
-若要深入瞭解一般團隊範本，請參閱[使用團隊範本開始](get-started-with-teams-templates-in-the-admin-console.md)。
+若要深入瞭解一般團隊範本，請參閱 [開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="quality-and-safety"></a>品質與安全
 

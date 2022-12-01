@@ -12,14 +12,15 @@ search.appverid: MET150
 description: 瞭解 [共用至 Teams] 功能，此功能可讓使用者從 Outlook 共用電子郵件和電子郵件附件到 Teams 中的任何聊天或頻道。
 ms.collection:
 - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
+ms.openlocfilehash: 24f8334f8dbdbebce17dea4a8a4ebc8ebf798b79
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952757"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198485"
 ---
 # <a name="share-to-teams-from-outlook"></a>從 Outlook 共用至 Teams
 

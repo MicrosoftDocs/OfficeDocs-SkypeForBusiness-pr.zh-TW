@@ -12,21 +12,22 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: dc4e7e88e855432f17c7daed9584e20e0e4739f1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 93b8b06238b0f6e15ab5fac5dcb0caeece819d9e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842111"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198355"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 
 設定團隊目標階層可讓貴組織將內容發佈到一大組團隊。 團隊目標階層可定義階層中所有團隊之間的相互關聯性、哪些使用者可以發佈工作，以及哪些團隊使用者有權發佈。 除非為貴組織設定小組目標階層，否則所有使用者都會停用發佈功能。 若要設定團隊目標階層，您必須建立定義階層的檔案，然後上傳至 Teams 以將它套用到您的組織。 上傳架構之後，Teams 內的應用程式就可以使用它。
 
 > [!IMPORTANT]
-> 在初始版本中，只有 [工作] 應用程式支援階層式團隊。  將小組目標階層套用至貴組織，即可在 [工作] 應用程式中 [發佈工作](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 。 您不會在 Microsoft Teams 的其他區域中看到團隊階層。
+> 在初始版本中，只有 [工作] 應用程式支援階層式團隊。  將小組目標階層套用至貴組織，即可在 [工作] 應用程式中 [發佈工作](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 。 您不會在 Teams 的其他區域中看到團隊階層Microsoft。
 
 以下是 Teams 中 [工作] 應用程式中階層的呈現方式範例。 建立工作清單之後，發佈小組的成員就可以選取收件者小組來傳送 (發佈) 工作清單。 選取團隊時，發佈團隊可以依階層、屬性或兩者的組合來篩選。<br>
 
@@ -150,7 +151,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ## <a name="apply-your-hierarchy"></a>套用階層
 
 > [!NOTE]
-> 若要執行此步驟，您必須使用 Microsoft Teams PowerShell Cmdlet。 您應該使用版本 4.6.0 或更新版本的 Microsoft Teams Cmdlet。 此需求也適用于政府社群雲端 (GCC) 客戶。
+> 若要執行此步驟，您必須使用 Microsoft Teams PowerShell Cmdlet。 您應該使用 4.6.0 版或更新版本的 Microsoft Teams Cmdlet。 此需求也適用于政府社群雲端 (GCC) 客戶。
 
 在架構 CSV 檔案中定義階層之後，就可以將它上傳到 Teams。 若要這麼做，請執行下列命令。 您必須是全域系統管理員或 Teams 服務系統管理員，才能執行此步驟。
 
@@ -198,7 +199,7 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>安裝 Teams PowerShell 模組
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從[PowerShell 資源庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 Teams PowerShell 模組。 如需如何安裝模組的步驟，請參閱 [安裝 Microsoft Teams PowerShell 模組](teams-powershell-install.md)。
+> 若要執行此步驟，您必須從[PowerShell 資源庫](https://www.powershellgallery.com/packages/MicrosoftTeams/)安裝並使用 Teams PowerShell 模組。 如需如何安裝模組的步驟，請參[閱安裝 Microsoft Teams PowerShell 模組](teams-powershell-install.md)。
 
 ### <a name="sample-script"></a>範例腳本
 
@@ -266,13 +267,13 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-檢查以確認您在架構 CSV 檔案中為小組使用正確的 TeamId。 TeamId 應與支援小組的 Microsoft 365 群組識別碼相同。 您可以在 Microsoft Teams 系統管理中心查詢團隊的群組識別碼。
+檢查以確認您在架構 CSV 檔案中為小組使用正確的 TeamId。 TeamId 應與支援小組之 Microsoft 365 群組的 [群組識別碼] 相同。 您可以在 Microsoft Teams 系統管理中心查詢團隊的群組識別碼。
 
-1. 在 [Microsoft Teams 系統管理中心的](https://admin.teams.microsoft.com/)左側導覽中，移至 **[Teams**  >  **管理團隊]**。
+1. 在 [Microsoft Teams 系統管理中心的](https://admin.teams.microsoft.com/)左側導覽畫面中，移至 **[Teams**  >  **管理團隊]**。
 2. 如果資料表中未顯示 [ **群組標識** 符] 欄，請選取表格右上角的 **[編輯欄** ]，然後開啟 [ **群組識別碼]**。
 3. 在清單中尋找小組，然後找出 [群組識別碼]。
 
-確認架構 CSV 檔案中的 TeamId 與 Microsoft Teams 系統管理中心顯示的群組識別碼相符。
+請確認架構 CSV 檔案中的 TeamId 與 Microsoft Teams 系統管理中心中顯示的群組識別碼相符。
 
 ## <a name="related-topics"></a>相關主題
 

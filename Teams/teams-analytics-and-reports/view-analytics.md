@@ -14,14 +14,15 @@ search.appverid: MET150
 description: 瞭解 Teams 中的跨團隊分析、每個團隊分析，以及每個頻道的分析，讓使用者查看他們所屬團隊或頻道的使用狀況資料。
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 9755eca1c6f6f1afb57b615dfa7e96fd0cbefe64
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a6092a39616d78f4b85cab79fa754c770797c262
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267388"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199085"
 ---
 # <a name="view-analytics-in-teams"></a>在 Teams 中檢視分析
 

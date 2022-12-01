@@ -17,16 +17,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
+- chat-teams-channels-revamp
 description: 您的 Teams 或 IT 系統管理員可以設定其他網域的外部會議和聊天，讓來自這些網域的使用者尋找、通話、聊天，以及設定與使用者的會議。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f78e679785deb1ea4740721937440fa9aa81d0b0
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: d1cb230b362ca3c38c9986d54f222a903cb06eed
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738719"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198565"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部會議和聊天
 

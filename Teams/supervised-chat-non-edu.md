@@ -8,21 +8,22 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解 Microsoft Teams 會議中非教育租使用者受監督的聊天。
+description: 瞭解Microsoft Teams 會議中非教育租使用者受監督的聊天。
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
-ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
+ms.openlocfilehash: dc7ddf23b600ec2a7f4d4f02c2328587627572fc
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "67446766"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198285"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育租使用者受監督的聊天
 

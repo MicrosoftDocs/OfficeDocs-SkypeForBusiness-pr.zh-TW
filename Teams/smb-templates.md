@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft Graph 建置之中小型企業的小組範本
+title: 使用 Microsoft Graph 建置的中小型企業的小組範本
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -15,16 +15,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: 使用 Microsoft Graph 內建的 Microsoft Teams 預先定義範本，輕鬆快速地為中小型企業建立團隊。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 644d45660fba729991796f33e7210222832e0c0f
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+description: 使用 Microsoft Graph 中內建的 Microsoft Teams 預先定義範本，快速輕鬆地為中小型企業建立團隊。
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: 85f1573cb93f5362dc046ab97e2ac621f147fe4a
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278477"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198715"
 ---
-# <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>內建于 Microsoft Graph 中小型企業的小組範本
+# <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Microsoft圖形中內建的小組範本，適用于中小型企業
 
 Microsoft Teams 的團隊範本提供預先定義的設定、頻道和預先安裝應用程式的團隊結構, 讓您快速且輕鬆地建立團隊。
 
@@ -35,7 +37,7 @@ Microsoft Teams 的團隊範本提供預先定義的設定、頻道和預先安�
 > [!NOTE]
 > 您也可以使用 Microsoft Graph 建立您自己的自訂範本。 若要深入瞭解，請參閱 [teamTemplate 資源類型](/graph/api/resources/teamtemplate)。
 
-若要深入瞭解一般團隊範本，請參閱 [開始使用 Microsoft Graph 的團隊範本](get-started-with-teams-templates.md)。
+若要深入瞭解一般團隊範本，請參閱[使用 Microsoft Graph 開始使用團隊範本](get-started-with-teams-templates.md)。
 
 ## <a name="company-wide-template"></a>Company-Wide範本
 
@@ -43,11 +45,11 @@ Company-Wide範本適用于整個公司的通訊和共同作業。 您可以使�
 
 | 範本類型  | TemplateId | 此範本提供的屬性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>全公司 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 頻道 <ul><li>一般\*</li><li>人力資源\*</li><li>有趣的內容\*</li></ul><br> 應用程式<ul><li>釘選到人力資源頻道) 公司入口網站 (網站 </li> </UL><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> |
+| Smb- <br>全公司 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 頻道 <ul><li>一般\*</li><li>人力資源\*</li><li>有趣的內容\*</li></ul><br> 應用程式<ul><li>釘選到人力資源頻道) 公司入口網站 (網站 </li> </UL><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> |
 
 *自動加入我的最愛的頻道 
 
-若要從預先定義的範本中使用預設設定來建立Company-Wide團隊，請在要求內文中提供團隊物件的 JSON 表示。 若要深入瞭解如何部署小組範本，請參閱 [建立團隊的](/graph/api/team-post?view=graph-rest-beta)Microsoft Graph 文章。
+若要從預先定義的範本中使用預設設定來建立Company-Wide團隊，請在要求內文中提供團隊物件的 JSON 表示。 若要深入瞭解如何部署小組範本，請參閱建立團隊Microsoft圖表[文章](/graph/api/team-post?view=graph-rest-beta&preserve-view=true)。
 
 #### <a name="request"></a>請求 
 ```http 
@@ -67,11 +69,11 @@ Content-Type: application/json
 
 | 範本類型  | TemplateId | 此範本提供的屬性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>高階主管團隊 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 頻道 <ul><li>一般\*</li><li>私人 \*</li></ul> 應用程式<ul><li>OneNote (釘選到 **私人** 頻道) </li> <li>Planner (釘選到 **私人** 頻道)  </li></ul><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> | 
+| Smb- <br>高階主管團隊 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 頻道 <ul><li>一般\*</li><li>私人 \*</li></ul> 應用程式<ul><li>OneNote (釘選到 **私人** 頻道) </li> <li>Planner (釘選到 **私人** 頻道)  </li></ul><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> | 
 
 *自動加入我的最愛的頻道<br>
 
-若要從預先定義的範本中使用預設設定來建立高階主管團隊，請在要求內文中提供團隊物件的 JSON 表示。 若要深入瞭解如何部署小組範本，請參閱 [建立團隊的](/graph/api/team-post?view=graph-rest-beta)Microsoft Graph 文章。
+若要從預先定義的範本中使用預設設定來建立高階主管團隊，請在要求內文中提供團隊物件的 JSON 表示。 若要深入瞭解如何部署小組範本，請參閱建立團隊Microsoft圖表[文章](/graph/api/team-post?view=graph-rest-beta&preserve-view=true)。
 
 #### <a name="request"></a>請求 
 ```http 
@@ -93,11 +95,11 @@ Content-Type: application/json
 
 | 範本類型 | TemplateId | 此範本提供的屬性 |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>財務  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 頻道 <ul><li>一般\*</li><li>私人 \*</li></ul><br> 應用程式<ul><li>OneNote (釘選到 **私人** 頻道) </li> <li>Planner (釘選到 **私人** 頻道)  </li> </ul><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> | 
+| Smb- <br>財務  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 頻道 <ul><li>一般\*</li><li>私人 \*</li></ul><br> 應用程式<ul><li>OneNote (釘選到 **私人** 頻道) </li> <li>Planner (釘選到 **私人** 頻道)  </li> </ul><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> | 
 
 *自動加入我的最愛的頻道
 
-若要從預先定義的範本中使用預設設定來建立財務小組，請在要求內文中提供團隊物件的 JSON 表示。 若要深入瞭解如何部署小組範本，請參閱 [建立團隊的](/graph/api/team-post?view=graph-rest-beta)Microsoft Graph 文章。
+若要從預先定義的範本中使用預設設定來建立財務小組，請在要求內文中提供團隊物件的 JSON 表示。 若要深入瞭解如何部署小組範本，請參閱建立團隊Microsoft圖表[文章](/graph/api/team-post?view=graph-rest-beta&preserve-view=true)。
 
 #### <a name="request"></a>請求 
 ```http 
@@ -186,4 +188,4 @@ Content-Type: application/json
 
 - [在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)
 - [開始用 Microsoft Graph 使用團隊範本](get-started-with-teams-templates.md)
-- [在](/graph/api/team-post?view=graph-rest-beta) 預覽) 中建立團隊 (
+- [在](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) 預覽) 中建立團隊 (

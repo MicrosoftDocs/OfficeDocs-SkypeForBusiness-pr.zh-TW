@@ -8,23 +8,24 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: 在本文中，您將瞭解如何在 Microsoft Teams 中封存或永久刪除團隊。
+description: 在本文中，您將瞭解如何封存或永久刪除 Microsoft Teams 中的團隊。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 79a9472286a7e08e8c6dce4c4f40d76b7e4f2b4e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792782"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198965"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 
@@ -69,9 +70,9 @@ ms.locfileid: "68792782"
 
 ## <a name="restore-a-deleted-team"></a>還原刪除的小組
 
-請依照下列步驟還原與團隊關聯的 Microsoft 365 群組，以還原已刪除的團隊。 還原團隊的 Microsoft 365 群組可還原團隊內容，包括索引標籤、標準頻道、私人頻道及其相關聯的網站集合。
+請依照下列步驟還原與團隊關聯的Microsoft 365 群組，以還原已刪除的團隊。 還原團隊的 Microsoft 365 群組會還原團隊內容，包括索引標籤、標準頻道和私人頻道及其相關聯的網站集合。
 
-根據預設，已刪除的 Microsoft 365 群組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)。
+根據預設，已刪除Microsoft 365 群組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安裝 AzureADPreview 模組
 
@@ -92,7 +93,7 @@ ms.locfileid: "68792782"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的 Microsoft 365 群組
+### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的Microsoft 365 群組
 
 1. 執行下列命令連線到 Azure AD：
 
@@ -102,7 +103,7 @@ ms.locfileid: "68792782"
 
     當您看到提示時，使用您的系統管理員帳戶和密碼登入。
 
-1. 執行下列動作以顯示所有仍處於 30 天保留期間內的虛刪除 Microsoft 365 群組清單。 如果您有許多群組，請使用 **-All $True** 參數。
+1. 執行下列動作以顯示 30 天保留期間內的所有虛刪除Microsoft 365 群組清單。 如果您有許多群組，請使用 **-All $True** 參數。
 
     ```PowerShell
     Get-AzureADMSDeletedGroup

@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 了解如何使用外部存取和來賓存取在 Microsoft Teams 中通話、聊天、尋找和新增來自組織外部的使用者。
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418462"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198315"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用來賓存取和外部存取與組織外的人員共同作業
 
@@ -116,7 +117,7 @@ ms.locfileid: "67418462"
 <sup>1</sup> 前提是已將使用者新增為來賓，並使用來賓帳戶登入。<br>
 <sup>2</sup> 僅透過電子郵件或工作階段初始通訊協定 (SIP) 位址。<br>
 <sup>3</sup> 支援來自兩個不同組織的僅 Teams 到僅 Teams 使用者的一對一聊天。 <br>
-<sup>4</sup> 依預設，外部參與者無法查看撥入的參與者電話號碼。如果您想要維護這些電話號碼的隱私權，請選取 [進入/退出宣告類型] 的 [音調] (這可避免 Teams 將號碼朗讀出來)。若要深入了解，請參閱[開啟或關閉 Microsoft Teams 中會議的進入和退出宣告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。<br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> 預設會允許，但可以由 Teams 系統管理員關閉
 
 ## <a name="related-topics"></a>相關主題

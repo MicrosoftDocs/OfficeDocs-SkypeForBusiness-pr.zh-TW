@@ -9,21 +9,22 @@ ms.service: msteams
 ms.reviewer: kblevens
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何啟用和停用 Microsoft Teams 交談可採取動作的活動電子郵件
+description: 瞭解如何啟用和停用 teams 交談中可採取動作的活動電子郵件Microsoft
 ms.collection:
 - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43435c436685c53e0ad077887a9fe9d991cf2d61
-ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
+ms.openlocfilehash: de1bd12a0f079154a37156e3a01c3e5791bef10c
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68899687"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198505"
 ---
 # <a name="manage-actionable-activity-emails"></a>管理可採取動作的活動電子郵件
 
-可採取動作的活動電子郵件預設為啟用，並通知貴組織中的使用者 Microsoft Teams 有未接的交談。
+可採取動作的活動電子郵件預設為啟用，並通知貴組織中的使用者Microsoft Teams 上的未接交談。
 
 錯過的活動電子郵件會顯示交談的最新回復，包括在未接的訊息之後傳送的訊息。 這項功能可讓使用者直接從 Outlook 回復，方法是選取 [ **回復]**。
 

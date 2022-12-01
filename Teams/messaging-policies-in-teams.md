@@ -19,13 +19,14 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 description: 瞭解訊息中心原則，以及如何在 Teams 中用來控制聊天訊息。
-ms.openlocfilehash: 83ee815651a0e08dc01d25639570c69f03edc588
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: d819811ba39e3c0a8246e399977079aa15447934
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176680"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198745"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息傳遞原則
 

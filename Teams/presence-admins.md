@@ -8,7 +8,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
 description: 瞭解 Teams 中的 [目前狀態] 及 [目前狀態] 功能的系統管理設定。
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -17,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 2f2969af142828ca5d478f29f2afee319ada91b7
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283094"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198585"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -47,13 +49,13 @@ ms.locfileid: "67283094"
 || ![紅色空心圓圈，表示忙碌。](media/Presence_Busy_OOF.png) 通話中，外出|
 |  ![紅色圓圈加白線，表示請勿打擾。](media/Presence_DND.png) 請勿打擾 ||
 || ![紅色圓圈加白線，表示簡報中。](media/Presence_DND.png) 簡報中|
-|| ![紅色圓圈加白線，表示專注。](media/Presence_DND.png) 專注。當使用者在行事曆中排程 [MyAnalytics/Insights] 時，就會進入 [專注] 功能。|
+|| ![紅色圓圈加白線，表示專注。](media/Presence_DND.png) 專注。 當使用者在行事曆中排程 [MyAnalytics/Insights] 時，就會進入 [專注] 功能。|
 | ![黃色時鐘圖示，表示離開。](media/Presence_Away.png) 離開| ![黃色時鐘圖示，表示離開。](media/Presence_Away.png) 離開|
 || ![黃色時鐘圖示，表示離開](media/Presence_Away.png)上次看到的 *時間*|
 |![黃色時鐘圖示，表示離開，馬上回來。](media/Presence_Away.png) 馬上回來| |
-|![灰色圓圈帶 x，表示離線。](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 |
+|![灰色圓圈帶 x，表示離線。](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。  當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 |
 || ![空心灰色圓圈，表示狀態不明。](media/Presence_Unknown.png) 狀態不明|
-|| ![紫色圓圈加箭號，表示外出。](media/Presence_OOF.png) 外出。設定為自動回覆時，會使用 [外出] 功能。 |
+|| ![紫色圓圈加箭號，表示外出。](media/Presence_OOF.png) 外出。 設定為自動回復時，會使用 [外出] 功能。 |
 
  > [!NOTE]
  > 對於擁有其信箱託管於內部部署的使用者，預期目前狀態延遲為一小時 (最大值)。

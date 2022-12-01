@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
+- chat-teams-channels-revamp
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: e691a224679b8026ec91ecf3b1b5c16f6016c20e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268818"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198325"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -142,7 +143,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 >
 
 > [!IMPORTANT]
-> 適用於 Teams 的建議程式機器人只能用來傳遞歡迎訊息給您的部署團隊。不會收集額外的資料。
+> Advisor for Teams Bot 只能用來傳遞歡迎訊息給部署團隊。 不會收集額外的資料。
 
 > [!IMPORTANT]
 > Advisor for Teams Bot 依預設為開啟。 如果您使用或計劃使用 Advisor for Teams，則請勿關閉此功能。
@@ -212,7 +213,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 在您自訂您的網站並將您的學習方案放在一起之後，請考量您將如何促進使用者的認知，以鼓勵他們針對持續學習來使用學習路徑。
 
-使用您的通訊頻道以推廣網站及引起關注。例如，在與您的使用者溝通中加入標準的標語，像是「查看我們的訓練及支援網站，了解如何透過 Teams 提高生產力」。
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 透過將使用者可在 Teams 中共同作業的方式醒目提示，給予他們鼓勵，然後將他們導向至學習路徑網站以瞭解使用方式。
 
@@ -258,7 +259,7 @@ Advisor for Teams 會尋求您的同意才收集非 EUII (使用者識別資訊)
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>我可以使用 Advisor for Teams 搭配 FastTrack 嗎
 
-可以，FastTrack 會針對所有希望部署 Teams 的客戶運用 Advisor for Teams。他們可以使用 Advisor for Teams 協助您部署團隊的初始設定 (如有需要)，也可以在 Teams 推出期間針對特定主題提供所需的支援。
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>我可以與合作夥伴一起使用 Advisor for Teams 嗎？
 

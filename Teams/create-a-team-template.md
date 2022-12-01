@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中建立自訂團隊範本
+title: 在 Teams 中建立自訂團隊範本Microsoft
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -8,22 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何在 Microsoft Teams 中建立自訂團隊範本。
+description: 瞭解如何在 teams 中建立自訂團隊範本Microsoft。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b313df288488de22e99943120ffd0fd94d34210
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c99fc2ebedac1372beff283ccbcf057c0bfdf78b
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675565"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198515"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中建立自訂團隊範本
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Teams 中建立自訂團隊範本Microsoft
 
 **EDU 客戶尚未支援自訂範本。**
 
@@ -38,7 +39,7 @@ ms.locfileid: "65675565"
 
 1. 登入 Teams 系統管理中心。
 
-2. 在左側導覽中，展開 **[Teams**  >  **Team 範本]**。
+2. 在左側導覽中，展開 **Teams 小組**  >  **範本**。
 
 3. 選取 [新增 **]**。
 
@@ -102,14 +103,14 @@ ms.locfileid: "65675565"
 
 我們目前正在針對從自訂範本建立的未來團隊開發修正程式。
 
-**問題**：在瀏覽器中使用Teams時，某些網站不支援在Teams索引標籤中顯示。
+**問題**：在瀏覽器中使用 Teams 時，有些網站不支援在 Teams 索引標籤中顯示。
 
 ![瀏覽器錯誤訊息。](media/browser-error-message.png)
 
-**解決方案**：如果您無法檢視網站索引標籤的內容，系統會將您重新導向至在另一個網頁中開啟索引標籤，或改為在傳統型應用程式中開啟Teams，以檢視您的網站索引標籤應用程式。
+**解決方案**：如果您無法檢視網站索引標籤的內容，系統會將您重新導向至在另一個網頁中開啟索引標籤，或改為在傳統型應用程式中開啟 Teams 來檢視您的網站索引標籤應用程式。
 
 ## <a name="related-topics"></a>相關主題
 
-- [在系統管理中心使用小組範本開始](get-started-with-teams-templates-in-the-admin-console.md)
+- [在系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)
 - [從現有團隊建立範本](create-template-from-existing-team.md)
 - [從現有的團隊範本建立團隊範本](create-template-from-existing-template.md)

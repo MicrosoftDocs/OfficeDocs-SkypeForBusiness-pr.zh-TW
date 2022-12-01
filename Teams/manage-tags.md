@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理標籤
+title: 在 Teams 中管理Microsoft標籤
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,21 +8,22 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在 Microsoft Teams 中管理貴組織中的標籤使用方式。
-ms.openlocfilehash: 56a2daf53c362accec8059b11fba400547a7b6ff
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+description: 瞭解如何在 Teams 中管理貴組織中標籤的使用方式Microsoft。
+ms.openlocfilehash: ddf7956486db8bbd483ddde9d51c568450a7fe45
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869558"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199115"
 ---
-# <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams 中管理標籤
+# <a name="manage-tags-in-microsoft-teams"></a>在 Teams 中管理Microsoft標籤
 
 Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一部分人員聯繫。 您可以建立及指派自訂標籤，根據屬性將人員分類，例如角色、專案、技能或位置。 或者，標籤可以根據人員的排程和班次資訊，自動指派給 [ [班次] 應用程式](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)中的人員。 將標籤新增至一或多個小組成員之後，頻道貼文中的團隊中任何人都可以在@mentions中使用標籤，僅通知被指派該交談標籤的人員。
 
@@ -50,9 +51,9 @@ Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一�
 
 ## <a name="manage-tags-for-your-organization"></a>管理貴組織的標籤
 
-身為系統管理員，您可以在 Microsoft Teams 系統管理中心控制整個組織使用標籤的方式。 請注意，您無法使用 PowerShell 來管理標籤。
+身為系統管理員，您可以在 Microsoft Teams 系統管理中心控制貴組織中使用標籤的方式。 請注意，您無法使用 PowerShell 來管理標籤。
 
-:::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="Microsoft Teams 系統管理中心的標記設定螢幕擷取畫面。":::
+:::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="在 Microsoft Teams 系統管理中心標記設定的螢幕擷取畫面。":::
 
 團隊最多可以有 100 個標籤，最多可為 200 個小組成員指派一個標籤，而同一個團隊中最多可將 25 個標籤指派給單一使用者。
 
@@ -60,7 +61,7 @@ Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一�
 
 根據預設，團隊擁有者可以建立、編輯及刪除標籤。 您可以變更 [ **誰可以管理標籤** ] 設定，允許團隊擁有者和小組成員管理標籤，或者您也可以關閉組織的標籤。
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽中，按一下 **[Teams** \> **Teams 設定]**。
+1. 在 [Microsoft Teams 系統管理中心的左側導覽畫面中，按一下 **[Teams Teams** \> **設定]**。
 
 2. 在 [ **標記**] 底下的 [ **誰可以管理標籤] 旁邊**，選取下列其中一個選項：
 
@@ -72,7 +73,7 @@ Microsoft Teams 中的標籤可讓使用者快速且輕鬆地與團隊中的一�
 
 您可以設定下列標籤設定，以控制在整個組織中使用標籤的方式。
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽中，按一下 **[Teams** \> **Teams 設定]**。
+1. 在 [Microsoft Teams 系統管理中心的左側導覽畫面中，按一下 **[Teams Teams** \> **設定]**。
 
 2. 在 [ **標記**] 下，根據貴組織的需求設定下列專案。
 

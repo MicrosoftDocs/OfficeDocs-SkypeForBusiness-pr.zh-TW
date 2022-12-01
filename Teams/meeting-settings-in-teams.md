@@ -23,12 +23,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: e5cacfb81cf3bf1ef768051d2094b0a70af93927
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583874"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198335"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -55,7 +55,7 @@ ms.locfileid: "68583874"
 
     ![系統管理中心中會議的參與者設定螢幕擷取畫面。](media/meeting-settings-participants.png "Microsoft Teams 系統管理中心中 Teams 會議的參與者設定螢幕擷取畫面")
 
-> [!CAUTION]
+> [!Important]
 > 如果您不想讓匿名使用者加入由組織中的使用者排程的會議，請關閉此設定。
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>使用 PowerShell 設定每一召集人原則
@@ -99,7 +99,7 @@ ms.locfileid: "68583874"
 
 3. 在 [參與者 **]** 中，可以變更 [匿名使用者可以在會議中使用應用程式進行互動 **]** 設定。
 
-> [!CAUTION]
+> [!Important]
 > 如果您不想讓匿名使用者與組織中使用者排程的會議中的應用程式互動，請關閉此設定。
 
 ## <a name="customize-meeting-invitations"></a>自訂會議邀請

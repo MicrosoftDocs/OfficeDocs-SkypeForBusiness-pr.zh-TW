@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 - m365initiative-securecollab
@@ -18,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: b7f151b68bf37ccf3e14e3a442b4d2b1c6acc52f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869673"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199145"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -69,7 +70,7 @@ Shared channels is enabled by default in Teams. You can choose if people can cre
 
 如果共用頻道擁有者是一或多個共用頻道的最後一位擁有者，則無法透過 Teams 用戶端將其移除。
 
-如果最後一個共用通道擁有者離開貴組織，或是從與團隊關聯的 Microsoft 365 群組中移除，您組織的共用頻道成員會自動升級為共用頻道擁有者。 如果貴組織沒有成員可以升級，共用通道將維持無擁有者狀態。 Teams 系統管理員必須手動指派頻道擁有者。 請考慮新增多個擁有者，以避免這種情況。
+如果最後一個共用頻道擁有者離開貴組織，或是從與團隊關聯的Microsoft 365 群組中移除，您組織的共用頻道成員會自動升級為共用頻道擁有者。 如果貴組織沒有成員可以升級，共用通道將維持無擁有者狀態。 Teams 系統管理員必須手動指派頻道擁有者。 請考慮新增多個擁有者，以避免這種情況。
 
 來賓-包括轉換為成員 (在其使用者類型屬性) - 無法新增到共用頻道。
 

@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中使用整個組織的團隊來協助每個人共同作業
+title: 在 teams 中使用整個組織的團隊Microsoft，以協助每個人共同作業
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: phlouie
@@ -18,15 +18,17 @@ ms.collection:
 - ContentEnagagementFY23
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee17d482c311a4bdd92ebad55e29058104a89b98
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: 5acc918c4fbe3994a93020e7b4b09db4ab1671f3
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890052"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198915"
 ---
-# <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>在 Microsoft Teams 中使用整個組織的團隊來協助每個人共同作業
+# <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>在 teams 中使用整個組織的團隊Microsoft，以協助每個人共同作業
 
 全域系統管理員可以建立整個組織的團隊，讓中小型組織中的每個人成為單一共同作業團隊的一員。 全組織的團隊會自動包含組織中的每個使用者，並在使用者加入並離開組織時，讓成員資格保持在最新狀態。
 
@@ -46,7 +48,7 @@ ms.locfileid: "68890052"
 
 建立整個組織的團隊時，所有全域系統管理員和 Teams 系統管理員都會新增為團隊擁有者，且所有作用中的使用者都會新增為團隊成員。 團隊成員無法離開整個組織的團隊，但團隊擁有者可以視需要手動新增或移除使用者。 當 Teams 自動新增或移除某人時，通知會傳送至 [一般] 頻道。
 
-未授權的使用者也會新增至小組。 當未授權的使用者第一次登入 Teams 時，系統會指派 Microsoft Teams 探索授權。 若要深入瞭解探索授權，請參閱 [管理 Microsoft Teams Exploratory 授權](teams-exploratory.md)。
+未授權的使用者也會新增至小組。 當未授權的使用者第一次登入 Teams 時，系統會指派Microsoft Teams 探索授權。 若要深入瞭解探索授權，請參閱[管理Microsoft Teams Exploratory 授權](teams-exploratory.md)。
 
 下列類型的帳戶不會新增至整個組織的小組：
 
@@ -98,4 +100,4 @@ ms.locfileid: "68890052"
 
 ## <a name="related-topics"></a>相關主題
 
-觀看有關 [如何在 Microsoft Teams 中建立全組織團隊的](https://www.youtube.com/watch?v=x3qGlwwCz_w)影片。
+觀看影片，瞭解[如何在 Microsoft Teams 中建立整個組織的團隊](https://www.youtube.com/watch?v=x3qGlwwCz_w)。
