@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 已通過 Microsoft Teams 認證。
-ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194934"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242307"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -81,7 +81,7 @@ ms.locfileid: "69194934"
 
 ## <a name="certified-devices"></a>已認證的裝置
 
-*2022 年 10 月更新表格*
+*2022 年 11 月更新表格*
 
 > [!NOTE]
 > 日期格式為 MM/DD/YYYY。
@@ -93,7 +93,7 @@ ms.locfileid: "69194934"
 |Cisco                |桌面相機 4K                                             |10/15/2022      |已通過 Microsoft Teams 認證                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |已通過 Microsoft Teams 認證                           |
 |聯想               |移至耳機In-Ear USB-C ANC                             |9/20/2022       |已通過 Microsoft Teams 認證                           |
-|Logi                 |Brio 500/505 相機                                       |9/14/2022       |已通過 Microsoft Teams 認證                           |
+|Logi                 |Brio 500/505/501 相機                                   |9/14/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |已通過 Microsoft Teams 認證                           |

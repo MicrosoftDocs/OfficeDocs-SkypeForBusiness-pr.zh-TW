@@ -1,30 +1,30 @@
 ---
-title: Microsoft Teams 的職涯教練疑難排解
-author: SerdarSoysal
-ms.author: serdars
+title: 疑難排解 Teams Microsoft職涯教練
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何疑難排解 Microsoft Teams 的職業教練中的常見問題。
+description: 瞭解如何疑難排解 Microsoft Teams 的 [職涯教練] 中的常見問題。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5ebda4324f7cc46d69b882a53684b21b4fa2932
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 4c00837c40fe405ab4d9d608326a12567843c8bb
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024146"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242447"
 ---
-# <a name="troubleshoot-career-coach-for-microsoft-teams"></a>Microsoft Teams 的職涯教練疑難排解
+# <a name="troubleshoot-career-coach-for-microsoft-teams"></a>疑難排解 Teams Microsoft職涯教練
 
-本文適用于需要針對 Microsoft Teams 的職涯教練進行疑難排解的教育版 IT 系統管理員。
+本文適用于需要針對 Microsoft Teams 的職業教練進行疑難排解的教育版 IT 系統管理員。
 
 以下是 IT 系統管理員使用職業教練可能採取的常見問題和解決步驟。
 
@@ -32,12 +32,7 @@ ms.locfileid: "67024146"
 
 如果您在 [職涯教練] 體驗中看到「目前正在設定職涯教練，供您使用」，則 **尚未新增所有必要的組態資料**。
 
-您 **必須先完成下列各節** ，才能使用職業教練：
-
-- [品牌和喜好設定](career-coach-set-up-steps.md#brand-and-preferences)
-- [LinkedIn連線](career-coach-set-up-steps.md#linkedin-connection)
-- [課程目錄](career-coach-set-up-steps.md#course-catalog)
-- [研究欄位](career-coach-set-up-steps.md#fields-of-study)
+您的機構必須已完全設定 [LinkedIn聯](career-coach-set-up-steps.md#linkedin-connection-required) 機。
 
 參考 [[職涯教練] 設定狀態](career-coach-set-up-steps.md#configuration-status) ，以查看哪些設定需要完成。
 
@@ -59,16 +54,16 @@ ms.locfileid: "67024146"
 
 ## <a name="setup-policy-changes-arent-complete"></a>安裝原則變更尚未完成
 
-如果使用者的 Microsoft Teams 未顯示 [職涯教練]，則設定原則變更可能尚未生效。 在設定原則變更生效之前，Microsoft Teams 不會為使用者安裝和釘選職涯教練。 原則變更可能需要幾個小時才會生效。
+如果使用者無法在 Microsoft Teams 中顯示 [職涯教練]，則設定原則變更可能尚未生效。 在設定原則變更生效之前，將不會為 teams 中的使用者安裝和釘選職業教練Microsoft。 原則變更可能需要幾個小時才會生效。
 
-不過，[職涯教練] 可以直接從 Microsoft Teams App Store 安裝。
+不過，您可以直接從 Teams 應用程式商店Microsoft安裝職涯教練。
 
-- 如果使用者在 Microsoft Teams App Store 中找不到 [職涯教練]，請檢閱您的應用程式許可權原則，並確保 [職涯教練] 不是封鎖的應用程式。
-- [職涯教練] 是一個 Microsoft 應用程式，最佳作法是依許可權原則允許 Microsoft 應用程式。 深入瞭解 [設定許可權原則](teams-app-permission-policies.md)。
+- 如果使用者在 Microsoft Teams 應用程式商店中找不到 [職涯教練]，請檢閱您的應用程式許可權原則，並確保 [職涯教練] 不是封鎖的應用程式。
+- [職涯教練] 是Microsoft應用程式，最佳作法是依許可權原則允許Microsoft應用程式。 深入瞭解 [設定許可權原則](teams-app-permission-policies.md)。
 
 ## <a name="career-coach-initialization-isnt-complete"></a>職涯教練初始化尚未完成
 
-您可能會遇到下列錯誤：「我們無法擷取應用程式的設定。 請再試一次。 如果您仍然遇到問題，請連絡 Microsoft 客戶支援」。
+您可能會遇到下列錯誤：「我們無法擷取應用程式的設定。 請再試一次。 如果仍然有問題，請連絡Microsoft客戶支援」。
 
 檢查 [[職涯教練] 設定頁面](career-coach-set-up-steps.md#career-coach-settings-status)上的 **[服務布建狀態**]。
 

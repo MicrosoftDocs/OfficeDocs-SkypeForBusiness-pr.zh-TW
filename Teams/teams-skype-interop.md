@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的 Teams 使用者與 Skype (消費者) 使用者之間的互通性功能。
 ms.localizationpriority: medium
-ms.openlocfilehash: e8f6d102a3b66d5140473d0f2ab11b5af97fc78f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 5cbb4bdf492de67131c75c97685317ef8cae866c
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198675"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242317"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams 和 Skype 互通性
 
@@ -87,7 +87,7 @@ Teams 使用者接受或封鎖 Skype 使用者的初始交談要求之後，他�
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心
 
-在 Microsoft Teams 系統管理中心，移至 **[使用者**  >  **外部存取]**，然後開啟 **[使用者可以與 Skype 使用者通訊]**。 如需如何設定此和其他外部存取設定的逐步指導方針，請參閱 [管理 Teams 中的外部存取](./manage-external-access.md#allow-or-block-domains)。
+在 Microsoft Teams 系統管理中心，移至 **[使用者**  >  **外部存取]**，然後開啟 **[使用者可以與 Skype 使用者通訊]**。 如需如何設定此和其他外部存取設定的逐步指導方針，請參閱 [管理 Teams 中的外部存取](./manage-external-access.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

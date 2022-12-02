@@ -1,32 +1,32 @@
 ---
-title: 開始使用 Microsoft Teams 的職業教練
-author: SerdarSoysal
-ms.author: serdars
+title: 開始使用 Microsoft Teams 的職涯教練
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何開始使用 Microsoft Teams 的職業教練，包括支援的語言和需求。
+description: 瞭解如何開始使用適用于 Microsoft Teams 的職涯教練，包括支援的語言和需求。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f85e257e42abace7d39c9fa13fc81a7a76cd0c4f
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 149a23de49cacc0f7c345f2c9e1de4e29a4ba165
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023966"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242277"
 ---
-# <a name="get-started-with-career-coach-for-microsoft-teams"></a>開始使用 Microsoft Teams 的職業教練
+# <a name="get-started-with-career-coach-for-microsoft-teams"></a>開始使用 Microsoft Teams 的職涯教練
 
-[職涯教練] 是一款Microsoft Teams 教育版應用程式，由LinkedIn提供個人化的指導方針，讓教育學生能夠流覽其職涯旅程。 透過職涯教練，教育機構可以協助學生探索其職涯路徑、發展實務技能，以及在單一位置建立人脈。
+[職涯教練] 是一個Microsoft Teams 教育版應用程式，由LinkedIn提供個人化的指引，讓學生能夠流覽其職涯旅程。 透過職涯教練，教育機構可以協助學生探索其職涯路徑、發展實務技能，以及在單一位置建立人脈。
 
-本文適用于教育機構的 IT 系統管理員，以開始設定其機構的職涯教練。
+本文適用于教育機構 IT 系統管理員，以開始為其機構設定職涯教練。
 
 以下是教育領導者、授課者和學生的職涯教練資源：
 
@@ -63,10 +63,10 @@ ms.locfileid: "67023966"
 
 ### <a name="data-and-files-from-your-educational-institution"></a>您教育機構的資料和檔案
 
-- 教育機構以 [必要格式](career-coach-set-up-steps.md#brand-and-preferences)顯示的標誌和圖形資產。
-- 課程目錄資料。 [檢視範例檔案](https://aka.ms/career-coach/docs/it-admins/sample-catalog) 和 [檔案格式](career-coach-set-up-steps.md#course-catalog-document-format-and-schema)。
-- 提供的研究欄位清單。 [檢視範例檔案](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy)。
-- 教育機構的 [LinkedIn學校頁面 URL](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)。
+- 教育機構的 [LinkedIn學校頁面 URL](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en) (必要) 。
+- 教育機構以 [必要格式](career-coach-set-up-steps.md#brand-and-preferences-optional) 顯示的標誌和圖形資產， (選擇性) 。
+- 課程目錄資料。  (選用) 檢[視範例檔案](https://aka.ms/career-coach/docs/it-admins/sample-catalog)和[檔案格式](career-coach-set-up-steps.md#course-catalog-document-format-and-schema)。
+- 提供的研究欄位清單。 [檢視範例檔案](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) (選用) 。
 - 教育機構的隱私權原則 URL (選用) 。
 - 教育機構連結至職涯相關資源，例如職涯服務網站和學生 (選用) 。
 

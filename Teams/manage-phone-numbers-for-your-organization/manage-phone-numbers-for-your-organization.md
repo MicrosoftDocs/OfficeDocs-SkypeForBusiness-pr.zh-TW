@@ -26,22 +26,22 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: 瞭解如何為貴組織取得及管理使用者 () 與服務， (Microsoft Teams 的付費和免付費) 電話號碼。
-ms.openlocfilehash: 699631d4408ebdf1ce9a3851651704539317644d
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+description: 瞭解如何為貴組織取得及管理使用者 (使用者) 與服務， (Microsoft Teams 的付費和免付費) 電話號碼。
+ms.openlocfilehash: 5356fc0f3cdfd42d6ef3f06eea58f6ef77d59b83
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583854"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242437"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>管理通話方案的電話號碼
 
 有四種方式可以讓使用者 (訂閱者) 和服務 (通話方案的付費和免付費) 電話號碼：
 
 - [在 Microsoft Teams 系統管理中心取得新的使用者電話號碼](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
-- [在 Microsoft Teams 管理員中心取得新的服務電話號碼](../getting-service-phone-numbers.md#get-new-service-numbers)。
+- [在 Microsoft Teams 管理員 中心取得新的服務電話號碼](../getting-service-phone-numbers.md#get-new-service-numbers)。
 - [將您現有的電話號碼移轉或 _移_ 轉給我們](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)。
-- 針對未列在 Microsoft Teams 系統管理中心的新電話號碼使用要求表單。
+- 針對未列在 Microsoft Teams 系統管理中心中的新電話號碼，使用要求表單。
 
 > [!IMPORTANT]
 > 如需澳洲的新電話號碼，請參閱 [Telstra Voice Services](https://aka.ms/TelstraVoicePlan)。 如需日本的新電話號碼，請參閱 [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan)。
@@ -70,6 +70,7 @@ ms.locfileid: "68583854"
 > - [拉脫維亞](phone-number-management-for-latvia.md)
 > - [立陶宛](phone-number-management-for-lithuania.md)
 > - [盧森堡](phone-number-management-for-luxembourg.md)
+> - [墨西哥](phone-number-management-for-mexico.md)
 > - [紐西蘭](phone-number-management-for-new-zealand.md)
 > - [挪威](phone-number-management-for-norway.md)
 > - [波蘭](phone-number-management-for-poland.md)
@@ -84,7 +85,7 @@ ms.locfileid: "68583854"
 > - [瑞士](phone-number-management-for-switzerland.md)
 > - [荷蘭](phone-number-management-for-the-netherlands.md)
 > - [英國](phone-number-management-for-the-u-k.md)
-> - [波多黎各Estados Unidos &](phone-number-management-for-the-u-s.md)
+> - [波多黎各美國 &](phone-number-management-for-the-u-s.md)
 
 ***
 
@@ -94,15 +95,15 @@ ms.locfileid: "68583854"
 
 ### <a name="request-forms-for-new-phone-numbers"></a>要求新電話號碼的表單
 
-每個國家或地區都有不同的指示、不同類型的電話號碼 (地理/非地理位置及服務 (付費/免付費) ) 以及取得電話號碼的規則/法規，以便在 Microsoft Teams 中使用。
+每個國家或地區都有不同的指示、不同類型的電話號碼 (地理/非地理及服務 (免付費/免付費) ) 以及取得電話號碼的規則/法規，以便在 Microsoft Teams 中使用。
 
-有時候 (視您的國家或地區而定) 您將無法使用 Microsoft Teams 系統管理中心取得新的使用者 (訂閱) 或服務 (付費或免付費) 電話號碼，或者您可能需要 _特定_ 電話號碼 (虛名要求) 或 _特定_ 的區碼。
+有時候 (視您的國家或地區而定) 您將無法使用 Microsoft Teams 系統管理中心取得新的使用者 () 或服務 (付費或免付費) 電話號碼，或者您可能需要 _特定_ 電話號碼 (虛名要求) 或 _特定_ 的區碼。
 
 若是如此，您必須下載正確的 PDF LOA 表單 (每個國家或地區，並) 電話號碼類型，並將它傳回給我們。 我們的服務台會從這裡開始處理您的要求。
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>移轉/移轉現有電話號碼 (LOAs 授權書)  
 
-如果您需要將現有的電話號碼從其他服務提供者移轉/移轉至 Teams，您必須下載、填寫及傳送授權委託書 (LOA) 。 LOA 授與 Microsoft 許可權，代表您要求並將來自不同服務提供者的現有號碼移轉至 Teams。
+如果您需要將現有的電話號碼從其他服務提供者移轉/移轉至 Teams，您必須下載、填寫及傳送授權委託書 (LOA) 。 LOA 提供Microsoft許可權，代表您要求並將來自不同服務提供者的現有號碼移轉至 Teams。
 
 如果您目前與其他電信業者有下列關係，請傳送 **LOA** 給我們：
 
@@ -121,7 +122,7 @@ ms.locfileid: "68583854"
 
 - 若要查看您的國家或地區 _是否_ 提供哪些通話方案，請閱讀 [音訊會議和通話方案的國家/地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - 若要協助您選擇正確的電話號碼類型，請參閱 [通話方案所用的各種電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
-- 若要取得有關為貴組織設定電話號碼的協助，請參閱：[商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)。
+- 若要取得有關為貴組織設定電話號碼的協助，請參閱：[商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products?tabs=online)。
 
 ## <a name="related-topics"></a>相關主題
 

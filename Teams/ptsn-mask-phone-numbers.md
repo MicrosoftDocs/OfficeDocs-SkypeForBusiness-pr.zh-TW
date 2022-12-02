@@ -1,7 +1,7 @@
 ---
-title: 在 Microsoft Teams 會議中遮罩電話號碼
+title: 在 Teams 會議中遮罩電話號碼Microsoft
 author: heidip
-ms.author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: moakram
 ms.topic: article
@@ -17,14 +17,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 會議中遮罩電話號碼
-ms.openlocfilehash: cad28ad446c39a45b865fd24767347fdf11bb9c8
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: 7072d1853a49d9e7ebc59e360c971874ed6549a3
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801764"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242267"
 ---
-# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在 Microsoft Teams 會議中遮罩電話號碼
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在 Teams 會議中遮罩電話號碼Microsoft
 
 為提高隱私權，使用音訊會議撥入 Teams 會議的參與者電話號碼會完全顯示給內部參與者。 這些數位會遭到組織外部參與者的遮罩。 此設定是所有組織的預設設定。 遮罩號碼會顯示如下圖所示：
 
@@ -48,7 +48,7 @@ ms.locfileid: "68801764"
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>使用 Microsoft PowerShell 設定電話號碼遮罩
 
-若要變更 PowerShell 中的 PSTN 遮罩設定，請將 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Cmdlet 的參數設定 **`MaskPstnNumbersType`** 為其中一個可用選項。
+若要變更 PowerShell 中的 PSTN 遮罩設定，請將 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) Cmdlet 的參數設定 **`MaskPstnNumbersType`** 為其中一個可用選項。
 
 若只要遮罩外部參與者的電話號碼，請執行下列命令：
 

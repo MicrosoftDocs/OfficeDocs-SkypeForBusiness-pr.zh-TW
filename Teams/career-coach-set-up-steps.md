@@ -1,14 +1,14 @@
 ---
-title: 設定和設定 Microsoft Teams 的職涯教練
-author: SerdarSoysal
-ms.author: serdars
+title: 設定和設定 teams Microsoft職涯教練
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何設定、設定及提供 Microsoft Teams 的 [職涯教練]。
+description: 瞭解如何設定、設定及提供 Teams Microsoft職涯教練。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
@@ -18,16 +18,16 @@ ms.custom:
 - admindeeplinkMAC
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f162b4dc15a2c0b776ba3c9c3b0df8ac0ed2ce87
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: e0edb6d1028a3e2143b13b24649745379b514592
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024149"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242557"
 ---
-# <a name="set-up-and-configure-career-coach-for-microsoft-teams"></a>設定和設定 Microsoft Teams 的職涯教練
+# <a name="set-up-and-configure-career-coach-for-microsoft-teams"></a>設定和設定 teams Microsoft職涯教練
 
-本文適用于教育版 IT 系統管理員，以瞭解如何設定 Microsoft Teams 的職涯教練。
+本文適用于教育版 IT 系統管理員，以瞭解如何為 Microsoft Teams 設定職涯教練。
 
 設定、設定及釋出 [職涯教練] 的主要步驟為：
 
@@ -94,7 +94,7 @@ ms.locfileid: "67024149"
 
 [職涯教練] 使用LinkedIn帳戶連線的方式有兩種：
 
-- 若要允許學生與教職員將其 Microsoft 365 帳戶連結至其LinkedIn帳戶，並 [從 [職涯教練] 傳送LinkedIn邀請](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_connect_your_linkedin_account)。
+- 若要允許學生與教職員將其 Microsoft 365 帳戶連結至其LinkedIn帳戶，並[從 [職涯教練] 傳送LinkedIn邀請](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_connect_your_linkedin_account)。
 - 若要使用來自LinkedIn的公用校友資料，開啟 [建立您的網路](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_build_your_network) 和 [探索職涯](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_discover_your_career_path) 功能。
 
 若要開啟LinkedIn帳戶連線：
@@ -115,16 +115,16 @@ ms.locfileid: "67024149"
 > [!NOTE]
 > 未經使用者同意，即不會共用任何資料。
 
-#### <a name="allow-microsoft-apps-in-teams"></a>在 Teams 中允許 Microsoft 應用程式
+#### <a name="allow-microsoft-apps-in-teams"></a>在 Teams 中允許Microsoft應用程式
 
-[職涯教練] 是 Microsoft 應用程式，因此必須在 Teams 應用程式許可權原則中允許。
+[職涯教練] 是Microsoft應用程式，因此必須在 Teams 應用程式許可權原則中允許。
 
 1. 登入 **[Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)**。
 
 2. 在左側導覽中，選 **取 [Teams 應用程式**  >  **[許可權原則]](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
 3. 選取您的慣用原則。
-    1. 如果您不確定該使用哪一個原則，請參閱 [Microsoft Teams 原則管理檔](policy-packages-edu.md)   ，或使用 [教育原則精靈](easy-policy-setup-edu.md)   來設定 Microsoft Teams 的原則。
+    1. 如果您不確定該使用哪個原則，請參閱 [Microsoft Teams 原則管理檔](policy-packages-edu.md)   ，或使用 [教育原則精靈](easy-policy-setup-edu.md)   來設定 Microsoft Teams 的原則。
 
 深入瞭解 [設定許可權原則](teams-app-permission-policies.md)。
 
@@ -135,17 +135,17 @@ ms.locfileid: "67024149"
 1. 登入 [Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)。
 
 2. 選 **取 [Teams 應用程式**   >  **設定原則**]，然後選取您的慣用原則。
-    1. 如果您不確定該使用哪一個原則，請參閱 [Microsoft Teams 原則管理檔](policy-packages-edu.md)   ，或使用 [教育原則精靈](easy-policy-setup-edu.md)   來設定 Microsoft Teams 的原則。
+    1. 如果您不確定該使用哪個原則，請參閱 [Microsoft Teams 原則管理檔](policy-packages-edu.md)   ，或使用 [教育原則精靈](easy-policy-setup-edu.md)   來設定 Microsoft Teams 的原則。
 
 3. 在 **[已安裝的應用程式]** 底下，選  **取 [+新增應用程式]**。
 
-4. 在 [ **新增已安裝的應用程式** ] 窗格中，搜尋您要在啟動 Teams 時自動為使用者安裝的應用程式。 您也可以依應用程式許可權原則篩選應用程式。
+4. 在 [ **新增已安裝的應用程式** ] 窗格中，搜尋您要在啟動 Teams 時自動為使用者安裝的應用程式。 您也可以依應用程式權限原則篩選應用程式。
 
 5. 當您選擇應用程式清單時，請選取 [ **新增]**。
 
 6. 選  **取 [儲存**  >  **確認]**。
 
-編輯或指派原則可能需要幾個小時，變更才會生效。 在變更完成之前，Microsoft Teams 將無法使用職業教練。
+編輯或指派原則可能需要幾個小時，變更才會生效。 在變更完成之前，Microsoft Teams 不會提供職業教練。
 
 ### <a name="step-2-purchase-career-coach-licenses"></a>步驟 2：購買職涯教練授權
 
@@ -161,7 +161,7 @@ ms.locfileid: "67024149"
 
 #### <a name="purchase-licenses"></a>購買授權
 
-職涯教練提供全球 (，除了中國和美國之外，) 合格的高等教育機構是透過註冊教育解決方案 (EES) 、雲端服務提供者 (雲端解決方案提供者) ，以及Microsoft 365 系統管理中心 (網頁直接) 的附加元件授權。
+職業教練提供全球 (，除了中國和美國之外，) 透過註冊教育解決方案 (EES) 、雲端服務提供者 (雲端解決方案提供者) ，以及Microsoft 365 系統管理中心 (網頁直接) ，為合格教育機構提供附加元件授權。
 
 做為 Microsoft Teams 應用程式，租使用者必須具備 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能購買附加元件職業教練授權。 系統會為學生和教職員使用者提供個別的授權。
 
@@ -191,53 +191,15 @@ ms.locfileid: "67024149"
 
 ### <a name="step-4-configure-career-coach-settings"></a>步驟 4：設定職涯教練設定
 
-若要為學生與教職員設定職涯教練，必須執行下列設定。
+您可以為學生、教職員和教職員設定下列職涯教練設定。
 
-- [品牌和喜好設定](#brand-and-preferences)
-- [LinkedIn連線](#linkedin-connection)
-- [課程目錄](#course-catalog)
-- [研究欄位](#fields-of-study)
+- [LinkedIn需要聯](#linkedin-connection-required) 機 () 
+- 選擇性)  ([品牌和喜好](#brand-and-preferences-optional)設定
+- [課程目錄](#course-catalog-optional) (選用) 
+- [研究](#fields-of-study-optional) (選用) 
+- 選擇性)  ([自訂選項](#customization-options-optional)
 
-您也可以設定選擇性的 [自訂](#customization-options) 設定。
-
-#### <a name="brand-and-preferences"></a>品牌和喜好設定
-
-自訂職涯教練以符合您的教育機構品牌。 您必須尊重他人的權利，包括著作權和商標權。
-
-> [!IMPORTANT]
-> 這是必要區段。 沒有提交 **品牌和喜好設定** ，就無法開啟職涯教練。
-
-1. 登入 **[Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)**。
-
-2. 選 **取 Teams 應用程式**  >  **管理應用程式**  >  **[職涯教練**  >  **設定**  >  **] 編輯品牌和喜好設定**。
-
-3. 在 **[商標] 底** 下，新增 **組織名稱**。
-
-4. 上傳 **[組織] 圖示**。 此圖示會用於整個 [職涯教練] 中，用來識別您的教育機構專屬的內容、整個應用程式的課程目錄資源，以及儀表板的實際體驗區段。
-
-    最適合將圖示格式設定為：
-
-    - 透明 PNG
-    - 1：1 的長寬比
-    - 64 px x 64 px 的大小上限
-
-5. 上傳 **學習內容縮圖影像**。 當您的教育機構未針對課程指定特定影像時，縮圖將用於整個應用程式的課程目錄學習資源。
-
-    縮圖最適合格式化為：
-
-    - A PNG
-    - 16：9 的長寬比
-    - 360 px x 200 px 的大小上限
-
-6. 這是選擇性的步驟。 新增 **組織隱私權原則 URL**。 如果新增，學生可在 [職涯教練] 中檢閱機構的隱私權原則。
-
-7. 選取 **[提交]**。
-
-8. 若要確認已成功提交設定，請檢查 [[職涯教練] 設定狀態](#configuration-status) 以 **完成**。
-
-![顯示系統管理中心的 [職涯教練] 品牌區段的螢幕擷取畫面。](media/career-coach-brand-updated.png)
-
-#### <a name="linkedin-connection"></a>LinkedIn連線
+#### <a name="linkedin-connection-required"></a>需要LinkedIn連線 () 
 
 [LinkedIn連線] 設定會將 [職涯教練] 與機構LinkedIn學校頁面的公用校友資料連結。
 
@@ -245,6 +207,8 @@ ms.locfileid: "67024149"
 
 > [!IMPORTANT]
 > 這是必要區段。 若未驗證LinkedIn學校頁面連線，就無法開啟職涯教練。
+>
+> LinkedIn連線支援多個租使用者。
 
 ##### <a name="add-the-linkedin-school-page-url"></a>新增LinkedIn學校頁面 URL
 
@@ -292,14 +256,45 @@ LinkedIn學校頁面驗證必須由您的教育機構的 [LinkedIn School Page S
 
    ![顯示 LinkedIn 開發人員入口網站中LinkedIn頁面驗證的螢幕擷取畫面。](media/career-coach-linkedin-verification-updated.png)
 
-#### <a name="course-catalog"></a>課程目錄
+#### <a name="brand-and-preferences-optional"></a>品牌和喜好設定 (選用) 
+
+自訂職涯教練以符合您的教育機構品牌。 您必須尊重他人的權利，包括著作權和商標權。
+
+1. 登入 **[Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)**。
+
+2. 選 **取 Teams 應用程式**  >  **管理應用程式**  >  **[職涯教練**  >  **設定**  >  **] 編輯品牌和喜好設定**。
+
+3. 在 **[商標] 底** 下，新增 **組織名稱**。
+
+4. 上傳 **[組織] 圖示**。 此圖示會用於整個 [職涯教練] 中，用來識別您的教育機構專屬的內容、整個應用程式的課程目錄資源，以及儀表板的實際體驗區段。
+
+    最適合將圖示格式設定為：
+
+    - 透明 PNG
+    - 1：1 的長寬比
+    - 64 px x 64 px 的大小上限
+
+5. 上傳 **學習內容縮圖影像**。 當您的教育機構未針對課程指定特定影像時，縮圖將用於整個應用程式的課程目錄學習資源。
+
+    縮圖最適合格式化為：
+
+    - A PNG
+    - 16：9 的長寬比
+    - 360 px x 200 px 的大小上限
+
+6. 這是選擇性的步驟。 新增 **組織隱私權原則 URL**。 如果新增，學生可在 [職涯教練] 中檢閱機構的隱私權原則。
+
+7. 選取 **[提交]**。
+
+8. 若要確認已成功提交設定，請檢查 [[職涯教練] 設定狀態](#configuration-status) 以 **完成**。
+
+![顯示系統管理中心的 [職涯教練] 品牌區段的螢幕擷取畫面。](media/career-coach-brand-updated.png)
+
+#### <a name="course-catalog-optional"></a>課程目錄 (選用) 
 
 課程目錄會記錄您的教育機構提供的課程和課程。
 
 職涯教練會使用課程目錄資料，從學生的成績單中識別學生的技能，並建議要參加的課程。
-
-> [!IMPORTANT]
-> 這是必要區段。 沒有課程目錄就無法開啟職涯教練。
 
 這些課程在 [職涯教練] 中使用兩個區域：
 
@@ -329,7 +324,7 @@ LinkedIn學校頁面驗證必須由您的教育機構的 [LinkedIn School Page S
 
 7. 若要確認已成功提交設定，請檢查 [[職涯教練] 設定狀態](#configuration-status) 是否標示為 [ **完成]**。
 
-若要上傳新檔案，請選取 [ (X]) 關閉檔預覽，確保清除最後一個檔案。 這個動作可讓 **[上傳** ] 按鈕再次顯示。
+若要上傳新檔案，請選取 [ (**X**) 來關閉檔預覽，確保清除最後一個檔案。 這個動作可讓 **[上傳** ] 按鈕再次顯示。
 
 ![顯示 [職涯教練] 應用程式 [課程目錄] 區段的螢幕擷取畫面。](media/course-catalog-updated.png)
 
@@ -347,11 +342,11 @@ LinkedIn學校頁面驗證必須由您的教育機構的 [LinkedIn School Page S
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
 | courseId         | 必要    | 字串 | 課程識別碼會對應到學生文字記錄中產生的內容。             |
 | 標題            | 必要    | 字串 | 課程標題。                                                              |
-| sourceLink       | 必要    | URL    | 網站連結至課程頁面，以深入瞭解課程和教學大綱。   |
+| sourceLink       | 必要    | Url    | 網站連結至課程頁面，以深入瞭解課程和教學大綱。   |
 | 描述      | 建議 | 字串 | 說明學習目標之課程的簡介文字。       |
 | language         | 建議 | 字串 | 課程的語言。 使用標準語言代碼。                           |
 | 格式           | 建議 | 字串 |  (線上、影片、親自) 教學模式。                                   |
-| 縮圖連結    | 建議 | URL    | 課程影像的縮圖連結。                                            |
+| 縮圖連結    | 建議 | Url    | 課程影像的縮圖連結。                                            |
 | 縮圖AltText | 建議 | 字串 | 影像的協助工具替代文字                                           |
 | educationLevel   | 建議 | 字串 | 例如，研究層級。 應徵者/畢業生。                                       |
 | 主題           | 建議 | 字串 | 與課程教學技能相關的主題或標籤。          |
@@ -377,16 +372,14 @@ LinkedIn學校頁面驗證必須由您的教育機構的 [LinkedIn School Page S
 
 如果課程目錄狀態中的欄為空白，表示目前正在處理檔，且無法使用這些值。 視目錄的大小而定，此程式最多可能需要 6 小時。 檔處理完成後，值就會填入。 您可以重新整理頁面以檢查更新。
 
-#### <a name="fields-of-study"></a>研究欄位
+#### <a name="fields-of-study-optional"></a>研究 (選用) 
 
 研究領域是與主要領域、學術專業和學位計畫同義字。 當學生開始使用 [職涯教練] 並開始設定其個人化設定檔時，會參考這些研究欄位。
 
 欄位清單可讓學生探索可能感興趣的學習欄位，並將計畫中的學術重點新增至其在 [職涯教練] 中的個人檔案。
 
 > [!IMPORTANT]
-> 這是必要區段。 沒有研究欄位清單，就無法開啟職涯教練。
->
-> 新增所有可供學生使用的學習欄位，例如工程、英文、商務等等
+> 如果您要為 [職涯教練] 設定研究欄位，請新增所有可供學生使用的學習欄位，例如工程、英文、商務等等。
 
 ##### <a name="add-the-fields-of-study"></a>新增研究欄位
 
@@ -410,7 +403,7 @@ LinkedIn學校頁面驗證必須由您的教育機構的 [LinkedIn School Page S
 |---------------|----------|--------|--------------------------------|
 | fieldsOfStudy | 必要 | 字串 | 研究欄位的名稱 |
 
-#### <a name="customization-options"></a>自訂選項
+#### <a name="customization-options-optional"></a>選擇性)  (自訂選項
 
 [自訂] 設定支援新增機會，以在您的教育機構提供給學生的儀表板上獲得實務經驗。
 
@@ -444,20 +437,20 @@ Teams 系統管理中心的 [職涯教練] 設定頁面提供設定 [職涯教�
 | --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
 | 服務布建狀態 | 職業教練正在初始化您的租使用者。     | 存取 [職涯教練] 設定頁面時，系統會自動布建服務。 設定變更必須等到初始設定完成後才會接受。 服務布建的預估時間最多為 15 分鐘。 |
 | 服務布建狀態 | [職涯教練] 已準備好設定。       | [職涯教練] 設定頁面已準備好供 IT 系統管理員提交設定。 |
-| 品牌和喜好設定       | 尚未開始                                   | 必須提交設定。 |
-| 品牌和喜好設定       | 遺失：學習圖示                        | 上傳遺失的學習內容縮圖影像。 |
-| 品牌和喜好設定       | 遺失：標誌                                 | 上傳遺失的機構圖示。 |
-| 品牌和喜好設定       | 遺失：機構名稱                     | 上傳遺失的機構名稱。 |
-| 品牌和喜好設定       | 完成                                      | 不再需要採取任何動作。 設定已完成。 |
-| 課程目錄上傳       | 尚未開始                                   | 必須提交課程目錄 CSV。 |
+| 品牌和喜好設定       | 尚未開始                                   | 未提交設定。 這是選擇性的步驟，不會阻止您完成設定。 |
+| 品牌和喜好設定       | 遺失：學習圖示                        | 上傳學習內容縮圖圖像。 |
+| 品牌和喜好設定       | 遺失：標誌                                 | 上傳機構圖示。 |
+| 品牌和喜好設定       | 遺失：機構名稱                     | 上傳機構名稱。 |
+| 品牌和喜好設定       | 完成                                      | 設定已完成。 |
+| 課程目錄上傳       | 尚未開始                                   | 課程目錄未提交。 這是選擇性的步驟，不會阻止您完成設定。 |
 | 課程目錄上傳       | 遺失：成功上傳課程目錄   | 如需課程目錄處理的詳細資料，請查看課程目錄狀態。 |
-| 課程目錄上傳       | 完成                                      | 不再需要採取任何動作。 設定已完成。 |
-| LinkedIn學校連線  | 尚未開始                                   | LinkedIn必須提交學校頁面 URL。 |
+| 課程目錄上傳       | 完成                                      | 設定已完成。 |
+| LinkedIn學校連線  | 尚未開始                                   | LinkedIn未提交學校頁面 URL。 |
 | LinkedIn學校連線  | 遺失：核准LinkedIn學校頁面 URL | 等待LinkedIn學校頁面的系統管理員驗證核准。 |
 | LinkedIn學校連線  | 完成                                      | 不再需要採取任何動作。 設定已完成。 |
-| 上傳研究欄位      | 尚未開始                                   | 必須提交研究領域 CSV。 |
+| 上傳研究欄位      | 尚未開始                                   | 未提交研究領域 CSV。 這是選擇性的步驟，不會阻止您完成設定。 |
 | 上傳研究欄位      | 遺失：感興趣的領域                    | 檢查上傳研究欄位是否成功。 |
-| 上傳研究欄位      | 完成                                      | 不再需要採取任何動作。 設定已完成。 |
+| 上傳研究欄位      | 完成                                      | 設定已完成。 |
 
 將所有必要步驟標示為完成後，[職涯教練] 就可以成功發行到您的租使用者。
 
@@ -473,13 +466,13 @@ Teams 系統管理中心的 [職涯教練] 設定頁面提供設定 [職涯教�
 
 ### <a name="set-up-policies-and-pin-the-app"></a>設定原則並釘選應用程式
 
-釘選 [職涯教練] 會將它新增到 Microsoft Teams 視窗的左側軌，讓學生更容易存取和看到它。 如果您想要為一部分使用者釘選 [職涯教練]，則必須實作包含該群組的 [設定原則](teams-app-setup-policies.md) 。
+釘選 [職涯教練] 會將它新增到 [Microsoft Teams] 視窗的左側軌，讓學生更容易存取和看到它。 如果您想要為一部分使用者釘選 [職涯教練]，則必須實作包含該群組的 [設定原則](teams-app-setup-policies.md) 。
 
 1. 登入 **[Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)**。
 
 2. 選 **取 [Teams 應用程式**  >  **設定原則**]，然後選取您的慣用原則。
 
-    如果您不確定該使用哪一個原則，請參閱 [Microsoft Teams 原則管理檔](policy-packages-edu.md) ，或使用 [教育原則精靈](easy-policy-setup-edu.md) 來設定 Microsoft Teams 的原則。
+    如果您不確定該使用哪一個原則，請參閱[Microsoft Teams 原則管理檔](policy-packages-edu.md)，或使用[教育原則精靈](easy-policy-setup-edu.md)來設定Microsoft Teams 的原則。
 
 3. 在 **[釘選的應用程式]** 底下，選擇 [ **新增應用程式]**。
 
@@ -489,4 +482,4 @@ Teams 系統管理中心的 [職涯教練] 設定頁面提供設定 [職涯教�
 
 6. 選擇要顯示應用程式的順序，然後選取 [ **確認]**。
 
-學生將會在 Microsoft Teams 中收到已釘選 [職涯教練] 的通知。
+學生會在 teams Microsoft收到已釘選職業教練的通知。
