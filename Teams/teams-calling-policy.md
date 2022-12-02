@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8efff8e93dd95ef2b1199b6a766f175e9b2afa4
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68892603"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245634"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Teams 中的通話和來電轉接
+# <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>通話原則：Teams 中的通話和來電轉接功能
 
 在 Microsoft Teams 中，通話原則可控制哪些呼叫和來電轉接功能可供使用者使用。 通話原則決定使用者是否可以撥打私人電話、使用來電轉接或同時撥打給其他使用者或外部電話號碼、將通話路由至語音信箱、將電話傳送給通話群組、使用委派進行輸入和撥出電話等等。
 
@@ -37,7 +37,7 @@ ms.locfileid: "68892603"
 
 請依照下列步驟建立自訂通話原則。
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **語音**  >  **通話原則**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **語音**  >  **通話原則**。
 2. 選取 [新增 **]**。
 3. 開啟或關閉通話原則中要使用的功能。
     - 例如，若要控制使用者是否可以將撥入電話路由至語音信箱，請選 **取 [已啟用** ] 或 [ **使用者控制]**。 若要防止路由到語音信箱，請選取 **[未啟用]**。
@@ -47,7 +47,7 @@ ms.locfileid: "68892603"
 
 請依照下列步驟編輯現有的通話原則。
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽中，選取 **[語音**  >  **通話原則]**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，選取 **[語音**  >  **通話原則]**。
 2. 按一下您要修改的原則旁邊，然後選取 [ **編輯]**。
 3. 進行您要的變更，然後按一下 [ **儲存]**。
 

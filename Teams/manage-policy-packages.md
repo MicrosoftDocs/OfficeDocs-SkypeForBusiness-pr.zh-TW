@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理原則套件
+title: 在 Teams 中管理原則套件
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中使用、管理及自訂原則套件，以簡化、簡化並協助在管理使用者群組的原則時提供一致性。
-ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69128187"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245784"
 ---
-# <a name="manage-policy-packages-for-microsoft-teams"></a>管理 Microsoft Teams 的原則套件
+# <a name="managing-policy-packages-in-teams"></a>管理 Teams 中的原則套件
 
 Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的集合，您可以將之指派給組織中具有類似角色的使用者。 我們已建置原則套件以簡化、簡化，並協助在管理貴組織中使用者群組的原則時提供一致性。  
 
@@ -87,7 +87,7 @@ Teams 目前包含下列原則套件。
 
 若要建立新的自訂原則套件：
 
-1. 在 Microsoft Teams 系統管理中心的左窗格中，選取 [ **原則套件**]，然後按一下 [ **新增]**。
+1. 在 [Microsoft Teams 系統管理中心的左窗格中，選取 [**原則套件**]，然後按一下 [**新增]**。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="系統管理中心之 [原則套件] 頁面上的 [新增] 按鈕螢幕擷取畫面。" lightbox="media/policy-packages-add.png":::
 
@@ -116,17 +116,17 @@ Teams 目前包含下列原則套件。
 > [!NOTE]
 > 您也可以在指派套件之後，變更原則套件中的原則設定。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。
 
-以下是如何在 Microsoft Teams 系統管理中心檢視、指派及自訂原則套件的步驟。
+以下是如何在 teams 系統管理中心檢視、指派及自訂原則套件的步驟Microsoft。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>檢視原則套件中的原則設定
 
-1. 在 Microsoft Teams 系統管理中心的左窗格中，選取 [ **原則套件**]，然後按一下套件名稱左側以選取原則套件。
+1. 在 Microsoft Teams 系統管理中心的左窗格中，選取 [**原則套件**]，然後按一下套件名稱左側以選取原則套件。
 
 2. 選取您要檢視的原則。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自訂原則套件中的原則
 
-您可以透過 [原則 **套** 件] 頁面或直接移至 Microsoft Teams 系統管理中心的原則頁面來編輯原則設定。
+您可以透過 [原則 **套** 件] 頁面或直接移至 Microsoft Teams 系統管理中心的原則頁面，來編輯原則的設定。
 
 1. 在 Microsoft Teams 系統管理中心的左窗格中，執行下列其中一項操作：
     - 選取 **[原則套件**]，然後按一下套件名稱左邊來選取原則套件。

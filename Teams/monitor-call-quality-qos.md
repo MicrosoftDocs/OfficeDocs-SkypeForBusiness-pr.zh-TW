@@ -1,5 +1,5 @@
 ---
-title: 監控和改善 Microsoft Teams 的通話品質
+title: 監控和改善 Teams Microsoft通話品質
 author: CarolynRowe
 ms.author: crowe
 manager: Serdars
@@ -17,16 +17,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac317ff6ac17a2b6a0e94c0fa5683979cb887b90
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 969fc5645023bfcf4ad2bc0aadfe692f61b350f0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66793240"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245687"
 ---
-# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>監控和改善 Microsoft Teams 的通話品質
+# <a name="improve-call-quality-in-microsoft-teams"></a>改善 Teams Microsoft通話品質
 
-本文介紹三種可在 Microsoft Teams 中用來監視、疑難排解、管理和改善通話品質的重要工具。 
+本文介紹三種主要工具，可用來監控、疑難排解、管理及改善 Microsoft Teams 中的通話品質。 
 
 - **呼叫品質儀表板 (CQD)**：若要分析全組織的趨勢或問題，請推動效能的改善
 
@@ -53,7 +53,7 @@ ms.locfileid: "66793240"
 
 在理想情況下，您會在內部網路上實作 QoS，並準備好推出 Teams，但您可以隨時執行。 如果您夠小，可能就不需要 QoS。
 
-當您準備好時，請閱讀 [Microsoft Teams 中的實作服務品質 (QoS) ](QoS-in-Teams.md)。
+準備好時，請參閱在[Microsoft Teams 中 (QoS) 實作服務品質](QoS-in-Teams.md)。
 
 若要使用 QoS 管理會議流量，請閱讀 [設定您要如何處理 Teams 會議的即時媒體流量](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
 

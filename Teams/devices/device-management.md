@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理您的裝置
+title: 在 Teams 中管理Microsoft裝置
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,23 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
-description: 瞭解如何管理組織中與 Teams 搭配使用的裝置。
+description: 管理您組織中與 Microsoft Teams 搭配使用的裝置。
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc65025ed255dff1685f7aa30a555facdd3f11c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270838"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245719"
 ---
-# <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams：管理您的裝置 
+# <a name="manage-devices-in-teams"></a>在 Teams 中管理裝置 
 
-您可以從 Microsoft Teams 系統管理中心管理組織中與 Microsoft Teams 搭配使用的裝置。 您可以檢視和管理貴組織的裝置庫存，並執行更新、重新開機和監視裝置診斷等工作。 您也可以建立並指派組態設定檔給裝置或裝置群組。
+您可以從 Microsoft Teams 系統管理中心管理組織中與Microsoft Teams 搭配使用的裝置。 您可以檢視和管理貴組織的裝置庫存，並執行更新、重新開機和監視裝置診斷等工作。 您也可以建立並指派組態設定檔給裝置或裝置群組。
 
-若要管理裝置，例如變更裝置設定、重新開機裝置、管理更新，或檢視裝置和周邊健康情況，您必須獲派下列其中一個 Microsoft 365 系統管理員角色：
+若要管理裝置，例如變更裝置設定、重新開機裝置、管理更新，或檢視裝置和周邊健康情況，您必須獲派下列其中一個Microsoft 365 系統管理員角色：
 
 - Microsoft 365 全域系統管理員
 - Teams 服務系統管理員
@@ -56,7 +56,7 @@ ms.locfileid: "67270838"
 
 您可以使用 Teams 系統管理中心檢視及遠端系統管理貴組織 Windows 裝置上的Teams 會議室。 Teams 系統管理中心可讓您快速查看哪些裝置健康且需要注意，並可讓您專注于特定裝置，以查看裝置健康情況、會議效能、通話品質及周邊裝置的詳細資訊。 
 
-以下是您可以管理Teams 會議室裝置的一些方法。 Teams 會議室裝置可以在 Windows 上的 **[Teams 裝置**  >  ] 底下的 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)**找到Teams 會議室**。
+以下是您可以管理Teams 會議室裝置的一些方法。 Teams 會議室裝置可以在 Windows 上的 [Teams 裝置] 底下的 Microsoft **Teams**  >  系統 [管理中心](https://admin.teams.microsoft.com)**找到Teams 會議室。**
 
 如需如何管理Teams 會議室裝置的詳細資訊，請參閱[管理Microsoft Teams 會議室](../rooms/rooms-manage.md)。
 
