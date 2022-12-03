@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564111"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251886"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>登出 Microsoft Teams
 
@@ -50,7 +50,7 @@ SSO 對登出有重要影響。當使用者登出 Teams 時，與其帳戶相關
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>在行動裝置上登出 Teams
 
-在行動裝置上, 您可以移至功能表，選取 **[更多]** 功能表，然後選取 **[登出]**，以登出 Teams。一旦登出，則需在下一次啟動該應用程式時，重新輸入認證。
+在行動裝置上，您可以移至使用者圖示、選取 [ **設定**]，然後選取 [注 **銷]**，以登出 Teams。登出後，您必須在下次啟動應用程式時重新輸入其認證。
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>適用於前線工作者的全域登入和登出
 

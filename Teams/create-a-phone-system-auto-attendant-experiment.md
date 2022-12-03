@@ -1,5 +1,5 @@
 ---
-title: 設定 Microsoft Teams 自動語音應答
+title: 設定 Teams Microsoft自動語音應答
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,19 +20,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: 瞭解如何在 teams 中設定和管理自動語音應答Microsoft。
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
+ms.openlocfilehash: cafbe1594666f156801f83b7944e4ecce4887752
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251756"
+ms.locfileid: "69251992"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>設定 Microsoft Teams 自動語音應答
+# <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
 自動語音應答可讓人員撥打電話給您的組織，並流覽功能表系統與正確的部門、通話佇列、人員或電信業者通話。 您可以透過 teams 系統管理中心或 PowerShell Microsoft為貴組織建立自動語音應答。
 
@@ -52,7 +49,7 @@ ms.locfileid: "69251756"
 > [!NOTE]
 > 將通話重新導向至 **組織中的人員** 時，該人員必須具備語音功能。 如需啟用語音的詳細資訊，請參閱 [指派 Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 >
-> 雖然定義 **運** 算符是選用的，但建議您使用運算子。  如果因為刪除使用者或共用語音信箱帳戶而導致自動語音應答設定發生錯誤，自動語音應答會將電話重新導向至電信業者。  如果未定義電信業者，自動語音應答會捨棄通話。
+> 雖然定義 **運** 算符是選用的，但建議您使用運算子。  如果來電者未在功能表上進行選取、重複選取不正確選項，或是依名稱或號碼重複撥號失敗，自動語音應答會將呼叫重新導向至電信業者。  如果未定義電信業者，自動語音應答會捨棄通話。
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>過去 6 個月自動語音應答的新功能
 
@@ -75,9 +72,7 @@ ms.locfileid: "69251756"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>請依照下列步驟設定自動語音應答
 
-## <a name="step-1-general-info"></a>[步驟 1：一般資訊](#tab/general-info)
-
-## <a name="step-1-set-the-auto-attendants-general-information"></a>步驟 1：設定自動語音應答的一般資訊
+### <a name="step-1-set-the-auto-attendants-general-information"></a>步驟 1：設定自動語音應答的一般資訊
 
 若要設定自動語音應答，請在 [Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展開 **[語音**]，選取 [ **自動語音應答**]，然後選取 [ **新增]**。
 
@@ -96,23 +91,21 @@ ms.locfileid: "69251756"
 
 設定自動語音應答的一般資訊之後，請選取 [ **下一步]**。
 
-## <a name="step-2-basic-call-flow"></a>[步驟 2：基本通話流程](#tab/call-flow)
+### <a name="step-2-set-up-the-basic-call-flow"></a>步驟 2：設定基本通話流程
 
-## <a name="step-2-set-up-the-basic-call-flow"></a>步驟 2：設定基本通話流程
-
-### <a name="set-a-greeting"></a>設定問候語
+#### <a name="set-a-greeting"></a>設定問候語
 
 - 如果您選取 **[播放音訊檔案** ]，您可以使用 **[上傳檔案]** 按鈕上傳儲存為音訊的錄製問候語訊息。WAV、.MP3 或 。WMA 格式。 錄製不得大於 5 MB。
 
 - 如果您選取 **[輸入問候語訊息** ]，系統會在自動語音應答接聽電話時讀出您輸入 (最多 1000 個字元) 文字。
 
-### <a name="route-the-call"></a>路由通話
+#### <a name="route-the-call"></a>路由通話
 
 - 如果您選取 **[中斷連線**]，自動語音應答會掛斷通話。
 - 如果您選取 **[重新導向通話**]，您可以選擇其中一個呼叫路由目的地。
 - 如果您選取 [ **播放] 功能表選項**，可以選擇 **[播放音訊檔案]** 或 [ **在問候語訊息中輸入** ]，然後選擇功能表選項和目錄搜尋。
 
-#### <a name="play-menu-options"></a>[播放] 功能表選項
+##### <a name="play-menu-options"></a>[播放] 功能表選項
 
 *新增 - 可以啟用強制聆聽選項，讓來電者在選取前必須先聆聽所有功能表選項。* 
 *新增 - \* (星號) 和 \# (磅) 鍵現在可用於功能表選項中。*
@@ -131,7 +124,7 @@ ms.locfileid: "69251756"
 
 - **重新導向至** - 來電者選擇此選項時所使用的通話路由目的地。 如果您要重新導向至自動語音應答或通話佇列，請選擇與其相關聯的資源帳戶。
 
-##### <a name="directory-search"></a>目錄搜尋
+###### <a name="directory-search"></a>目錄搜尋
 
 如果您將撥號鍵指派給目的地，建議您選擇 [目錄 **] 搜尋****的 [無**]。 如果來電者嘗試使用指派給特定目的地的按鍵撥打名稱或分機，則在完成名稱或分機輸入之前，可能會意外路由到目的地。 建議您為目錄搜尋建立個別的自動語音應答，並使用撥號鍵將主要自動語音應答連結至該自動語音應答。
 
@@ -148,9 +141,7 @@ ms.locfileid: "69251756"
 
 設定基本通話流程選項後，請選取 [ **下一步]**。
 
-## <a name="step-3-after-hours-call-flow"></a>[步驟 3：下班後通話流程](#tab/after-hours)
-
-## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>步驟 3：設定數小時後的通話流程 (選擇性) 
+### <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>步驟 3：設定數小時後的通話流程 (選擇性) 
 
 您可以為每個自動語音應答設定上班時間。
 
@@ -168,9 +159,7 @@ ms.locfileid: "69251756"
 
 新增下班後通話流程後，請選取 [ **下一步]**。
 
-## <a name="step-4-holiday-call-flow"></a>[步驟 4：假日通話流程](#tab/holidays)
-
-## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步驟 4：設定假日 (選擇性) 
+### <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步驟 4：設定假日 (選擇性) 
 
 您的自動語音應答可以為 [您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您可以為每個自動語音應答新增最多 20 個排定的假日。
 
@@ -197,9 +186,7 @@ ms.locfileid: "69251756"
 
 新增所有佳節時段後，請選取 [ **下一步]**。
 
-## <a name="step-5-dial-scope"></a>[步驟 5：撥號範圍](#tab/dial-scope)
-
-## <a name="step-5-set-up-dial-scope-optional"></a>步驟 5：將撥號範圍設定 (選用) 
+### <a name="step-5-set-up-dial-scope-optional"></a>步驟 5：將撥號範圍設定 (選用) 
 
 *撥號範圍* 會定義當來電者使用撥號依據名稱或撥號方式延伸時，哪些使用者可在目錄中使用。 [**所有線上使用者]** 的預設值包含貴組織中所有使用 商務用 Skype Server 的線上使用者或內部部署託管的使用者。
 
@@ -212,9 +199,7 @@ ms.locfileid: "69251756"
 
 選取 **您的 [撥號範圍** ] 選項後，選取 [ **下一步]**。
 
-## <a name="step-6-resource-accounts"></a>[步驟 6：資源帳戶](#tab/resource-accounts)
-
-## <a name="step-6-set-up-resource-accounts-optional"></a>步驟 6： (選用) 設定資源帳戶
+### <a name="step-6-set-up-resource-accounts-optional"></a>步驟 6： (選用) 設定資源帳戶
 
 所有自動語音應答都必須有相關聯的資源帳戶。  第一層自動語音應答至少需要一個具有相關聯服務號碼的資源帳戶。 如有需要，您可以將多個資源帳戶指派給自動語音應答，每個帳戶都有個別的服務號碼。
 
@@ -223,8 +208,6 @@ ms.locfileid: "69251756"
 新增資源帳戶後，請選取 [ **下一步]**。
 
 如需詳細資訊，請參閱 [管理 Teams 資源帳戶](manage-resource-accounts.md) 。
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>複雜案例的資源
 

@@ -14,14 +14,14 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
-ms.openlocfilehash: 31a185239607c2458636dd6cadc83b7462135112
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 9b1155560c0f901b88d3983e2ff3738e5ffa6e47
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131172"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251766"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理稱讚應用程式
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Teams 系統管理中心管理 [Microsoft稱讚] 應用程式
 
 Microsoft Teams 中的 [稱讚] 應用程式可協助使用者對貴組織或教室的成員表示感謝。 [稱讚] 中的徽章旨在協助辨識 Teams 使用者在從教育人員到前線工作者等各種工作中所投入的工作。 若要深入瞭解，請參閱 [傳送稱讚給其他人](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
@@ -41,20 +41,17 @@ Microsoft Teams 中的 [稱讚] 應用程式可協助使用者對貴組織或教
 
 請記住，這項設定會同時影響 Teams 中Viva Insights應用程式中的稱讚應用程式和稱讚功能。
 
-如果您將 [狀態] 設為 [封鎖]，Teams 的 [稱讚] 應用程式會在幾分鐘內遭到封鎖。 不過，Viva Insights中的稱讚可能需要 7-9 天才能被封鎖。
+如果您將狀態設定為 **[封鎖**]，Teams 的 [稱讚] 應用程式會在幾分鐘內遭到封鎖。 不過，Viva Insights中的稱讚可能需要 7-9 天才能被封鎖。
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>啟用或停用貴組織中特定使用者的稱讚
 
 若要允許或封鎖貴組織中的特定使用者使用「稱讚」，請確定已在 [ [管理應用程式](manage-apps.md) ] 頁面上為貴組織開啟 [稱讚]。 然後建立應用程式許可權的自訂原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
-## <a name="badges"></a>徽章
+## <a name="composer"></a>作曲家
 
-以下是 [稱讚] 中的預設徽章集合。 貴組織中的 Teams 使用者可以使用這些徽章來辨識同儕在工作上超越上手。
+貴組織中的 Teams 使用者可以使用稱讚作者來辨識同儕在工作上超越的功用。 在撰寫訊息時，他們可以挑選 14 個標題 &mdash; ，像是「**待發」**、「**待發**」、**「同心**」和「**創意** &mdash; 」，以辨識同事的貢獻。
 
-:::image type="content" source="media/default-set-praise.png" alt-text="預設徽章集中的徽章影像。":::
-
-> [!NOTE]
-> 自 2022 年 2 月開始，人員只能傳送和接收預設徽章。 自訂徽章已不再提供使用，且已從 Teams 系統管理中心移除自訂徽章的選項。
+:::image type="content" source="media/praise.png" alt-text="稱讚作者螢幕擷取畫面。":::
 
 ## <a name="related-articles"></a>相關文章
 

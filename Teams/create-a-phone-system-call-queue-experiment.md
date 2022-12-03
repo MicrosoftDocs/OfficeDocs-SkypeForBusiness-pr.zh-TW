@@ -23,19 +23,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
+robots: noindex
 description: 瞭解如何在 teams 中設定通話佇列Microsoft。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
+ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251786"
+ms.locfileid: "69251995"
 ---
-# <a name="create-a-call-queue-in-microsoft-teams"></a>在 Teams 中建立通話佇列Microsoft
+# <a name="create-a-call-queue"></a>建立通話佇列
 
 通話佇列會將來電者路由給組織中可協助解決特定問題或問題的人員。 通話會一次一次分配給佇列中稱為 *專員* 的人員。
 
@@ -69,15 +66,13 @@ ms.locfileid: "69251786"
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>請依照下列步驟設定通話佇列
 
-## <a name="step-1-general-info"></a>[步驟 1：一般資訊](#tab/general-info)
-
-## <a name="step-1-set-up-general-information"></a>步驟 1：設定一般資訊
+### <a name="step-1-set-up-general-information"></a>步驟 1：設定一般資訊
 
 若要設定通話佇列，請在 [Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展開 **[語音**]，選取 [ **撥號佇列**]，然後選取 [ **新增]**。
 
 在頂端方塊中輸入通話佇列的名稱。
 
-### <a name="add-a-resource-account"></a>新增資源帳戶
+#### <a name="add-a-resource-account"></a>新增資源帳戶
 
 若要新增現有的資源帳戶：
 
@@ -102,7 +97,7 @@ ms.locfileid: "69251786"
 
 如需詳細資訊，請參閱 [管理 Teams 資源帳戶](manage-resource-accounts.md)。
 
-### <a name="assign-a-calling-id-optional"></a>將通話識別碼指派 (選擇性) 
+#### <a name="assign-a-calling-id-optional"></a>將通話識別碼指派 (選擇性) 
 
 **適用于 Teams 頻道/共同作業通話桌面使用者，以及標準通話佇列的 Teams 行動用戶端使用者。**
 
@@ -138,7 +133,7 @@ ms.locfileid: "69251786"
 - 指派Microsoft通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則
 - 如果您使用的是Microsoft通話方案，請將[服務電話號碼指派給資源帳戶](manage-resource-accounts.md#assign-a-service-number)
 
-### <a name="set-the-call-queue-language"></a>設定通話佇列語言
+#### <a name="set-the-call-queue-language"></a>設定通話佇列語言
 
 選擇 [支援的語言](create-a-phone-system-call-queue-languages.md)。
 
@@ -146,9 +141,7 @@ ms.locfileid: "69251786"
 
 選取語言之後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-## <a name="step-2-greeting-and-music"></a>[步驟 2：問候語與音樂](#tab/greeting-music)
-
-## <a name="step-2-add-a-greeting-and-on-hold-music"></a>步驟 2：新增問候語和等候音樂
+### <a name="step-2-add-a-greeting-and-on-hold-music"></a>步驟 2：新增問候語和等候音樂
 
 *新增 - 現在已支援電話佇列主要問候語 ([文字轉換語音] (TTS) ) 的 **問候語訊** 息。*
 
@@ -168,9 +161,7 @@ ms.locfileid: "69251786"
 
 選取問候語和等候音樂後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-## <a name="step-3-call-answering"></a>[步驟 3：電話接聽](#tab/call-answering)
-
-## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>步驟 3：設定誰接聽來電
+### <a name="step-3-set-up-who-will-answer-incoming-calls"></a>步驟 3：設定誰接聽來電
 
 檢閱將 [專員新增至通話佇列的先決條件](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -194,7 +185,7 @@ ms.locfileid: "69251786"
 >
 > 如果小組中有超過 200 個成員，則只會依字母順序將前 200 位成員新增為通話佇列中的代理人。
 
-### <a name="users-and-groups"></a>使用者和群組
+#### <a name="users-and-groups"></a>使用者和群組
 
 您最多可以透過群組個別新增 20 個代理程式和最多 200 個代理程式。
 
@@ -216,7 +207,7 @@ ms.locfileid: "69251786"
 >
 > 如果群組中有超過 200 個成員，則只會依字母順序將前 200 位成員新增為通話佇列中的代理人。
 
-### <a name="conference-mode"></a>會議模式
+#### <a name="conference-mode"></a>會議模式
 
 **會議模式** 會減少在代理人接聽來電後，來電者與代理人連線所需的時間。 若要讓會議模式正常運作，通話佇列中的代理程式必須使用下列其中一個用戶端：
 
@@ -241,9 +232,7 @@ ms.locfileid: "69251786"
 
 選取來電接聽選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-## <a name="step-4-agent-selection"></a>[步驟 4：代理程式選取範圍](#tab/agent-selection)
-
-## <a name="step-4-select-your-agent-routing-options"></a>步驟 4：選取您的專員路由選項
+### <a name="step-4-select-your-agent-routing-options"></a>步驟 4：選取您的專員路由選項
 
 **路由方法** 會決定代理程式從佇列接聽來電的順序。
 
@@ -269,7 +258,7 @@ ms.locfileid: "69251786"
 >
 > 代理程式的通話佇列通話簡報可能會與位置路由限制發生衝突。 在此情況下，專員會收到快顯通知，但無法接聽來電。 此條件會繼續執行，直到有其他專員可以接聽電話、來電者掛斷或發生通話佇列逾時條件為止。  
 
-### <a name="presence-based-call-routing"></a>目前狀態型通話路由
+#### <a name="presence-based-call-routing"></a>目前狀態型通話路由
 
 **目前狀態型通話路由** 使用通話代理程式的顯示狀態，判斷是否應將所選路由方法的呼叫路由清單中包含專員。
 
@@ -291,13 +280,13 @@ ms.locfileid: "69251786"
 >
 > 啟用目前狀態型路由時，使用商務用 Skype用戶端的代理程式不會包含在通話路由清單中。 如果您有使用商務用 Skype的專員，請勿啟用目前狀態型通話路由。
 
-### <a name="call-agents-can-opt-out-of-taking-calls"></a>通話專員可以選擇不接聽電話
+#### <a name="call-agents-can-opt-out-of-taking-calls"></a>通話專員可以選擇不接聽電話
 
 您可以指定通話代理程式是否能夠選擇不接聽電話。
 
 我們建議開啟 **「通話專員」可以選擇不接聽電話**。
 
-### <a name="agent-alert-time"></a>專員警示時間
+#### <a name="agent-alert-time"></a>專員警示時間
 
 **專員警示時間** 指定專員的電話會在佇列重新導向至下一位專員之前響鈴多久。
 
@@ -306,9 +295,7 @@ ms.locfileid: "69251786"
 
 選取您的代理人通話路由選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-## <a name="step-5-call-overflow"></a>[步驟 5：通話溢位](#tab/call-overflow)
-
-## <a name="step-5-set-how-to-handle-call-overflow"></a>步驟 5：設定如何處理通話溢位
+### <a name="step-5-set-how-to-handle-call-overflow"></a>步驟 5：設定如何處理通話溢位
 
 **佇列中的通話數目** 上限可指定在任何指定時間在佇列中等候的通話數目上限。
 
@@ -331,9 +318,7 @@ ms.locfileid: "69251786"
 
 選取來電溢位處理選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-## <a name="step-6-call-timeout"></a>[步驟 6：通話逾時](#tab/call-timeout)
-
-## <a name="step-6-set-how-to-handle-call-timeouts"></a>步驟 6：設定如何處理通話逾時
+### <a name="step-6-set-how-to-handle-call-timeouts"></a>步驟 6：設定如何處理通話逾時
 
 **通話逾時：等待時間上限** 可指定電話在佇列中保留的時間上限，才能重新導向或中斷連線。
 
@@ -351,8 +336,6 @@ ms.locfileid: "69251786"
 > 語音信箱 (個人) 會將電話傳送給使用者，而不會直接傳送至其語音信箱，如所示。 支援人員正在調查此問題。
 
 選取通話逾時處理選項後，請選取 [**新增通話佇列**] 頁面底部的 [**提交**] 按鈕。
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>複雜案例的資源
 
@@ -404,8 +387,8 @@ ms.locfileid: "69251786"
 8. 僅支援公用頻道。
 9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
 10. 針對 GCCH/DOD，僅可透過 [使用者設定] 入口網站取得：：
-- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- 國防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+    - GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+    - 國防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>支援的用戶端
 
