@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -15,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何針對音訊會議、電話系統和通話方案等功能，將 Teams 附加元件授權指派給使用者。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 635280582796f2b373efc0c763fea0887bcd6e42
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606052"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307778"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派 Teams 附加元件授權給使用者
 
@@ -37,7 +38,7 @@ ms.locfileid: "67606052"
 
 - 如果您使用的是內部部署的公用交換電話網路 (PSTN) 使用者的連線能力，您只需要指派Teams 電話標準方案授權。 請勿指派通話方案授權。
 
-- 將 Microsoft 通話方案指派給使用者之後，最多可能需要 24 小時，他們才會在 Teams 用戶端中看到撥號鍵台。 如果 24 小時內未顯示撥號鍵台，請檢查 [您的撥號鍵台設定](../dial-pad-configuration.md)。 如有需要，您也可以 [連絡支援服務](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 將Microsoft通話方案指派給使用者之後，最多可能需要 24 小時，他們才會在 Teams 用戶端中看到撥號鍵台。 如果 24 小時內未顯示撥號鍵台，請檢查 [您的撥號鍵台設定](../dial-pad-configuration.md)。 如有需要，您也可以 [連絡支援服務](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 如果您尚未購買正確的授權數目，您會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇購買更多授權的選項。
 
@@ -124,11 +125,11 @@ ms.locfileid: "67606052"
 
 | 產品名稱| SKU 元件名稱 |
 |--------------|---------------|
-| 使用電話系統) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM |
-| 不含音訊會議) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM_NOPSTNCONF |
-| 具備音訊會議) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM |
-| Microsoft Enterprise E3 | ENTERPRISEPACK |
-| Microsoft Enterprise E1 | STANDARDPACK |
+| Microsoft配備電話系統的企業版 E5 ()  | ENTERPRISEPREMIUM |
+| Microsoft不含音訊會議 (的企業版 E5)  | ENTERPRISEPREMIUM_NOPSTNCONF |
+| Microsoft具有音訊會議的企業版 E5 ()  | ENTERPRISEPREMIUM |
+| Microsoft企業版 E3 | ENTERPRISEPACK |
+| Microsoft企業版 E1 | STANDARDPACK |
 | Microsoft 365 商務基本版 | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 商務標準版 | O365_BUSINESS_PREMIUM|
 | Microsoft 365 商務版 | SPB|
@@ -144,9 +145,10 @@ ms.locfileid: "67606052"
 |  (區域-1 國家/地區) 的隨用付費通話方案 | MCOPSTN_PAYG_1 |
 |  (區域-2 個國家/地區) 隨地付費通話方案 | MCOPSTN_PAYG_2 |
 | Microsoft Teams 會議室基本版 | Microsoft_Teams_Rooms_Basic |
-| Microsoft Teams 會議室基本]，不含音訊會議 | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| 不含音訊會議的Microsoft Teams 會議室基本版 | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Microsoft Teams 會議室專業版 | Microsoft_Teams_Rooms_Pro |
-| Microsoft Teams 會議室沒有音訊會議的專業版 | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| 不含音訊會議的Microsoft Teams 會議室專業版 | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| Microsoft Teams 進階版 | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>相關內容
 

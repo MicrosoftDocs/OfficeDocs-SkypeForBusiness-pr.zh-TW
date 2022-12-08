@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理音訊和視訊的會議原則設定。
-ms.openlocfilehash: 1f03f81c52c089a922040e0065621f5bf95fe20e
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 111b91a26a3c1058c6fb574f5feb7b6a6d8c00b2
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551477"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307888"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音訊&視訊的會議原則設定
 
@@ -36,10 +36,10 @@ ms.locfileid: "68551477"
 - [IP 音訊的模式](#mode-for-ip-audio)
 - [IP 視訊的模式](#mode-for-ip-video)
 - [IP 視訊](#ip-video)
-- [媒體位元速率 (KB)](#media-bit-rate-kbs)
+- [媒體位元速率 (Kbps) ](#media-bit-rate-kbps)
 - [視訊篩選模式](#video-filters-mode)
 - [允許自訂背景設定](#allow-custom-background-settings)
-- [適用于 PTZ) 相機 (點傾斜縮放 (FECC) 的遠端相機控制](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
+- [ (FECC) 的遠端相機控制 (PTZ) 相機的平移傾斜縮放功能](#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras)
 
 ## <a name="mode-for-ip-audio"></a>IP 音訊的模式
 
@@ -136,7 +136,7 @@ ms.locfileid: "68551477"
 
 對於 Teams 行動用戶端的使用者，在會議期間分享相片和影片的功能也取決於 **IP 視** 訊或 **IP 視訊模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
 
-## <a name="media-bit-rate-kbs"></a>媒體位元速率 (KB)
+## <a name="media-bit-rate-kbps"></a>媒體位元速率 (Kbps) 
 
 這是每一使用者原則。 此設定會決定使用者在通話和會議中音訊、視訊及視訊應用程式共用傳輸的媒體位元速率。 它會同時套用於通話或會議使用者的上行連結和下行媒體周遊。 此設定會提供您對組織中頻寬管理的細微控制。 根據使用者需要的會議案例而定，我們建議有足夠的頻寬，以便擁有良好的品質體驗。 最小值為 30 Kbps，而最大值取決於會議案例。 若要深入了解 Teams 中高品質會議、通話和即時活動的最低建議頻寬，請參閱[頻寬需求](prepare-network.md#bandwidth-requirements)。
 
@@ -201,9 +201,9 @@ ms.locfileid: "68551477"
 > [!NOTE]
 > 變更可能需要 24 小時才會生效。
 >
-> 這項功能暫時在公開預覽中提供給所有 Microsoft Teams 客戶使用。 若要在預覽之後取得此功能，每個使用者都需要進階通訊附加元件授權。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
+> 這項功能暫時在公開預覽中提供給所有Microsoft Teams 客戶使用。 若要在預覽之後取得此功能，每個使用者都需要進階通訊附加元件授權。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
-## <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>適用于 PTZ) 相機 (點傾斜縮放 (FECC) 的遠端相機控制
+## <a name="far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras"></a> (FECC) 的遠端相機控制 (PTZ) 相機的平移傾斜縮放功能
 
 遠端相機控制是可指派給 Windows 資源帳戶上Teams 會議室的原則。 它允許連線至 Teams 會議室的 PTZ 相機，在會議期間由 Teams 用戶端應用程式中的會議參與者控制。
 

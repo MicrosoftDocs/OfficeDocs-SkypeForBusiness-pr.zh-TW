@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 adobe-target: true
-adobe-target-activity: ''
+adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: 瞭解如何在 teams 中設定通話佇列Microsoft。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: a55573b5a7c713366eb4f930f58de34971d21fce
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251786"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307548"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>在 Teams 中建立通話佇列Microsoft
 

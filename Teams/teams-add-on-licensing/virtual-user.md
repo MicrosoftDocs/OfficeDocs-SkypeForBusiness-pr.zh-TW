@@ -20,16 +20,16 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: 瞭解如何為貴組織中的自動語音應答和通話佇列指派Microsoft Teams 電話資源帳戶授權給資源帳戶。
-ms.openlocfilehash: bba516249ec1b30e0361e2f9a6be003343f9c892
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: d3eacab8569981550520385c4aee297ae6835a59
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377361"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307758"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 電話資源帳戶授權
 
-在 Microsoft Teams 中，所有自動語音應答和通話佇列都需要相關聯的資源帳戶。 每個資源帳戶都必須指派 **Microsoft Teams 電話資源帳戶** 授權，以確保系統正確識別並正常運作，*不論是否要指派電話號碼給資源帳戶*。 訂閱包含 Teams Phone 的組織，會自動設定特定數量的 **Teams Phone 資源帳戶** 授權，且無需額外付費。  除非您想要能夠使用該資源帳戶撥出，否則不需要 Microsoft 通話方案。 如需詳細資訊，請參閱 [規劃 Teams 自動語音應答和通話佇列](../plan-auto-attendant-call-queue.md#prerequisites)。
+在 Microsoft Teams 中，所有自動語音應答和通話佇列都需要相關聯的資源帳戶。 每個資源帳戶都必須指派 **Microsoft Teams 電話資源帳戶** 授權，以確保系統正確識別並正常運作，*不論是否要指派電話號碼給資源帳戶*。 訂閱包含 Teams Phone 的組織，會自動設定特定數量的 **Teams Phone 資源帳戶** 授權，且無需額外付費。  除非您想要能夠使用該資源帳戶撥出，否則不需要Microsoft通話方案。 如需詳細資訊，請參閱 [規劃 Teams 自動語音應答和通話佇列](../plan-auto-attendant-call-queue.md#prerequisites)。
 
 > [!NOTE]
 > 之前，只有在指派電話號碼給資源帳戶時，才需要 Teams **電話資源帳戶** 授權 (稱為 **虛擬使用者** 授權) 。 現在，所有資源帳戶都必須指派 **Teams 電話資源帳戶** 授權，不論是否獲指派電話號碼。 此外，請勿將 **Teams 電話標準方案** 授權指派給資源帳戶。 如果您目前已使用 **Teams 電話標準方案** 授權設定資源帳戶，您必須切換到 **Teams Phone 資源帳戶** 授權，如下所述。
@@ -39,7 +39,7 @@ ms.locfileid: "68377361"
 
 貴組織會根據其整體大小配置 **Teams Phone 資源帳戶** 授權。 擁有電話系統功能訂閱的任何組織，例如 **Teams 電話標準方案** 和含 **通話方案授權的 Teams Phone**，皆可免費配置 25 個 **Teams 電話資源帳戶** 授權。 
 
-針對貴組織中每 10 個 **Teams 電話標準方案** 或 **含通話方案的 Teams Phone** 使用者授權，還有一個 **Teams 電話資源帳戶** 授權可供使用。  根據此縮放比例計畫，大部分的組織都會擁有足夠的 **Teams 電話資源帳戶** 授權。 如果需要更多 **Teams 電話資源帳戶** 授權，您可以透過 Microsoft 客戶代表購買超出標準配置的更多 **Teams Phone 資源帳戶** 授權。
+針對貴組織中每 10 個 **Teams 電話標準方案** 或 **含通話方案的 Teams Phone** 使用者授權，還有一個 **Teams 電話資源帳戶** 授權可供使用。  根據此縮放比例計畫，大部分的組織都會擁有足夠的 **Teams 電話資源帳戶** 授權。 萬一需要更多 **Teams 電話資源帳戶** 授權，您可以透過 EA、EAS、EES、雲端解決方案提供者、Web Direct、NCE – 客戶主導及 NCE – 合作夥伴主導或您的Microsoft客戶代表，購買超過標準配置的更多 **Teams Phone 資源帳戶** 授權。
 
 ### <a name="license-allocation-example"></a>授權配置範例
 

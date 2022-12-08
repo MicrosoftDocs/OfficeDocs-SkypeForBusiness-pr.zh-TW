@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 將Teams 會議室裝置上線至專業管理入口網站
 f1keywords: ''
-ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: f5994c5ced6097104ee74044ee2441bc8388f5c3
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243784"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307958"
 ---
 # <a name="enroll-device-into-pro-management"></a>將裝置註冊至專業管理
 
-部署需要將Microsoft Teams 會議室裝置上線至 Microsoft Teams 會議室 專業管理入口網站。 監控服務代理程式適用于經過認證的 Microsoft Teams 會議室 (MTR) 系統和周邊設備。
+部署需要將Microsoft Teams 會議室裝置上線至Microsoft Teams 會議室專業版管理入口網站。 監控服務代理程式適用于經過認證的 Microsoft Teams 會議室 (MTR) 系統和周邊設備。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -51,7 +51,7 @@ ms.locfileid: "68243784"
      *例子：*
 
      ```DOS
-     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
 ### <a name="enabling-tpm-settings"></a>啟用 TPM 設定
@@ -77,7 +77,7 @@ ms.locfileid: "68243784"
 以系統管理員身分登入裝置 (本機系統管理員) ：
 
 1. 確定您掛斷任何進行中的通話，並返回主畫面。
-1. 在 Microsoft Teams 會議室使用者介面中，選取  **[更多**]，然後選取 [ **設定**]，系統會提示您輸入裝置上的本機系統管理員密碼 (預設密碼為 **_sfb_**) 。
+1. 在 [Microsoft Teams 會議室使用者介面中，選取 [**更多**]，然後選取 [**設定**]，當系統提示您輸入裝置上的本機系統管理員密碼 (預設密碼為 **_sfb_**) 。
 1. 選 **取 [設定]**，然後選取  **[Windows 設定]**  以本機系統管理員身分存取 Windows。
 
 1. 從 Windows 登入畫面中顯示的使用者清單中  **，選取** [系統管理員 (或您裝置) 的個別本機系統管理員。
@@ -96,7 +96,7 @@ ms.locfileid: "68243784"
 ## <a name="urls-required-for-communication"></a>通訊所需的 URL
 
  > [!NOTE]
- > MTR 裝置代理程式和 Microsoft Teams 會議室 專業管理入口網站之間的所有網路流量都是透過埠 443 的 SSL *。*  請[參閱Office 365 URL 和 IP 位址範圍 - Microsoft 365 企業版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
+ > MTR 裝置代理程式與Microsoft Teams 會議室專業版管理入口網站之間的所有網路流量都是透過埠 443 的 SSL *。*  請[參閱Office 365 URL 和 IP 位址範圍 - Microsoft 365 企業版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
 
 如果您已在企業環境中啟用 **交通允許清單** ，則必須允許下列主機：
 
@@ -116,7 +116,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 註冊程式涉及下列步驟：
 
-1. 在Microsoft Teams 會議室專業管理入口 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 網站的左側導覽列中，展開 [**設定]**，然後選取 [**一般]**。
+1. 在Microsoft Teams 會議室專業版管理入口 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 網站的左側導覽列中，展開 [**設定]**，然後選取 [**一般]**。
 1. 在 *[註冊聊天室] 底* 下，選取 **[下載安裝程式**  ] 以下載監控專員軟體。
 1. **選：** 設定代理程式的 Proxy 設定;請參閱 [ (選擇性) 新增 Proxy 設定](#adding-proxy-settings-optional)。
 1. 安裝在 MTR 裝置上進行步驟 2) 下載的代理程式安裝程式 (，方法是在 MTR 裝置上執行 MSI，或透過將 MSI 應用程式大量發佈到環境中裝置的標準方式， (群組原則等) 
@@ -129,7 +129,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 ## <a name="installation"></a>安裝
 
-從 Microsoft (從入口網站下載安裝程式之後，或使用上述) 提供的 AKA.ms URL，解壓縮其內容以存取檔案 **ManagedRoomsInstaller.msi**。
+從入口網站或使用) 上方提供的 AKA.ms URL 從Microsoft (下載安裝程式之後，解壓縮其內容以存取檔案 **ManagedRoomsInstaller.msi**。
 
 安裝模式有兩種：1) 個別的本機電腦安裝，以及 2) 大量部署模式， (通常透過Intune類似的方法) 。 我們建議針對未加入網域的電腦或您無法遠端執行 MSI 安裝程式的電腦個別安裝。
 
@@ -149,7 +149,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 1. 選取 **[是]**。
 
-    安裝將會繼續。 安裝程式期間，主機視窗會開啟並開始 Microsoft Teams 會議室 Pro 監視軟體安裝的最後一個階段。
+    安裝將會繼續。 在安裝程式期間，主機視窗會開啟並開始Microsoft Teams 會議室專業版監視軟體安裝的最後一個階段。
 
     > [!NOTE]
     > 請勿關閉視窗。 安裝完成後，精靈會顯示「完成」按鈕。
@@ -159,16 +159,16 @@ mmrprodnoamstor.blob.core.windows.net
 下列元件是成功安裝的先決條件： 
 
 - **Intune註冊**：Windows 裝置上的Teams 會議室必須已經在 Intune 註冊。
-  如需如何在 Intune 的 Windows 裝置上註冊Teams 會議室的詳細資訊，請參閱使用[Microsoft 端點管理員 在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+  如需如何在 Intune 的 Windows 裝置上註冊Teams 會議室的詳細資訊，請參閱使用[Microsoft Endpoint Manager 在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - **包含 Windows 裝置上所有Teams 會議室成員的 Azure AD 群組**– 在 Azure AD 中建立的群組，其中包含應為Microsoft Teams 會議室進階版服務一部分的 Windows 裝置上的所有Teams 會議室。 這個群組將用來定位 MTR Pro 代理程式的部署。
   
 > [!NOTE]
-> 您可以考慮將 Azure AD 中的動態群組用於此用途，如需詳細資訊，請參閱使用[Microsoft 端點管理員在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+> 您可以考慮將 Azure AD 中的動態群組用於此用途，如需詳細資訊，請參閱使用[Microsoft Endpoint Manager 在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - **下載 MTR Pro 代理****程式安裝程式**- 從 <https://aka.ms/serviceportalagentmsi> 中下載專員的 zip 檔案，並將 zip (ManagedRoomsInstaller.msi) 的內容擷取到本機暫存資料夾。
 
 **使用 Intune 安裝**
 
-1. 登入[Microsoft 端點管理員 系統管理中心](https://go.microsoft.com/fwlink/?linkid=2109431)。
+1. 登入[Microsoft端點管理員系統管理中心](https://go.microsoft.com/fwlink/?linkid=2109431)。
 1. 選 **取 [應用程式**  >  **所有應用程式**  >  **新增]**。
 1. 在 [ **選取應用程式類型** ] 窗格的 [ **其他** 應用程式類型] 底下，選取 **[企業營運應用程式]**。
 1. 按一下 **[選取]**。 隨即顯示 **[新增應用程式** ] 步驟。 
@@ -225,13 +225,13 @@ mmrprodnoamstor.blob.core.windows.net
 
    此命令會將裝置重設為使用者標準 MTR 更新，並移除 MTR Pro 監控代理程式和檔案。
 
-1. 在 [Microsoft Teams 會議室專業管理] 入口網站的左側功能表中，選取 [**會議室]**。
+1. 從 [Microsoft Teams 會議室專業版管理] 入口網站的左側功能表中，選取 [**會議室]**。
 1. 在提供的聊天室清單中，選擇您要取消註冊的聊天室，然後選取 [ **取消註冊** ] 以停止取得事件警示或調查票證，或是回報該聊天室的事件。
 
 ## <a name="troubleshooting-table"></a>疑難排解表格
 
 > [!NOTE]
-> 所有Microsoft Teams 會議室專業版監控錯誤都會記錄在名為 **Microsoft Managed Rooms** 的特定事件記錄檔上。
+> 所有Microsoft Teams 會議室專業版監控錯誤都會記錄在Microsoft **受管理會議室** 的特定事件記錄檔上。
 
 ***應用程式執行時間記錄檔位置*** =
 
@@ -243,6 +243,6 @@ C：\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-
 |||
 |您收到錯誤訊息，指出： </p><p> ***找不到 TPM 資料***|確定您的裝置在 BIOS 中已開啟 TPM (信賴平臺模組) 。 這通常會在裝置 BIOS 的安全性設定中找到。|
 |||
-|您收到錯誤訊息： </p><p> ***錯誤：找不到名為「管理員」或「Skype」的本機使用者帳戶***|確定已認證的 Microsoft Teams 會議室系統裝置上有使用者帳戶。|
+|您收到錯誤訊息： </p><p> ***錯誤：找不到名為「管理員」或「Skype」的本機使用者帳戶***|確定使用者帳戶存在於經過認證的 Microsoft Teams 會議室系統裝置上。|
 |||
-|您會收到上述未涵蓋的任何錯誤狀態訊息。|請將安裝記錄檔的複本提供給您的 Microsoft Teams System 支援專員。|
+|您會收到上述未涵蓋的任何錯誤狀態訊息。|請將安裝記錄檔的複本提供給Microsoft Teams 系統支援專員。|

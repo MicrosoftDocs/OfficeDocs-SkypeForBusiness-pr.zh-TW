@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486613"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307528"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -165,9 +165,9 @@ Users who participate in conversations that are part of the chat list in Teams m
 如需即時活動的詳細資訊，請移至 [Teams 即時活動](teams-live-events/plan-for-teams-live-events.md#teams-live-events)。 請參閱[排程 Teams 即時活動](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
 > [!IMPORTANT]
-> **Microsoft 365 的即時活動限制增加**
+> **Microsoft 365 即時活動限制增加**
 >
-> **為了繼續支援客戶的需求，我們將延長即時活動的暫時限制增加，直到 2022年 12 月 31 日，包括**:
+> **為了繼續支援客戶的需求，我們會將即時活動的暫時限制延長至 2023 年 6 月 30 日，包括：**
 >
 >- 活動支援最多達 20000 個出席者
 >- 不同租用戶可以同時進行 50 個活動

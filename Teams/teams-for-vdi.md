@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
-description: 瞭解如何在虛擬桌面基礎結構 (VDI) 環境中執行 Microsoft Teams。
+description: 瞭解如何在虛擬桌面基礎結構 (VDI) 環境中執行Microsoft Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92d46cacd510f448943deba86a6ed25d4f4360ab
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3a3193b48559fdfc941181963e493d73668bef52
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706510"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307748"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -66,7 +66,7 @@ Teams 傳統型應用程式已與前置字元虛擬化解決方案提供者進�
 
 |平台|解決 方案|
 |----|---|
-|![代表 Microsoft 的標誌。](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure 虛擬桌面</a>，<a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
+|![代表Microsoft的標誌。](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure 虛擬桌面</a>，<a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![代表 Citrix 的標誌。](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虛擬應用程式和桌面</a> |
 |![代表 VMware 的標誌。](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
@@ -84,7 +84,7 @@ Citrix 虛擬應用程式和桌面 (先前稱為 XenApp 和 XenDesktop) 提供�
 
 您可以在 [Citrix 下載網站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下載最新版的 Citrix 虛擬應用程式和桌面。  (您必須先登入。) 根據預設，必要的元件會搭售到 [Citrix 工作區應用程式 (CWA) ](https://www.citrix.com/downloads/workspace-app/) 和虛擬傳遞代理程式 (VDA) 。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
 
-如需最新的伺服器和用戶端需求，請參閱 Citrix 網站上 [的 Microsoft Teams 優化](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html) 文章。
+如需最新的伺服器和用戶端需求，請參閱 Citrix 網站上[Microsoft Teams 優化](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)一文。
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware Horizon Workspace 和桌面需求
 
@@ -92,7 +92,7 @@ VMware Horizon 是現代化平臺，可安全地跨混合式雲端傳遞虛擬�
 
 您可以從 [VMware 下載](https://customerconnect.vmware.com/downloads/#all_products) 頁面下載最新版的 VMware Horizon。 根據預設，必要的媒體優化元件是 Horizon Agent 和 Horizon 用戶端的一部分，不需要安裝任何其他外掛程式即可使用 Teams 的優化功能。
 
-若要取得有關如何設定 Teams 媒體優化的最新需求和指示，請參閱 VMware 網站上 [的為 Microsoft Teams 設定媒體優化](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html) 一文。
+若要取得有關如何設定 Teams 媒體優化的最新需求和指示，請參閱 VMware 網站上的[針對Microsoft Teams 設定媒體優化](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)一文。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安裝或更新 Teams 傳統型應用程式
 
@@ -200,7 +200,7 @@ Microsoft 365 Apps 企業版不支援 Teams 的每個電腦安裝。 若要使�
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        此程式會將 Teams 安裝到 `%ProgramFiles(x86)%` 32 位作業系統上的資料夾，以及 `%ProgramFiles%` 64 位作業系統上的資料夾。 此時，金色影像設定已完成。
+        此程式會將 Teams 安裝到 `%ProgramFiles(x86)%` 64 位作業系統上的資料夾，以及 `%ProgramFiles%` 32 位作業系統上的資料夾。 此時，金色影像設定已完成。
 
         > [!IMPORTANT]
         >  非持續性設定需要每台電腦安裝 Teams。
@@ -401,9 +401,9 @@ Teams 模組中提供 Teams VDI 原則。 這些原則在非優化的 VDI 環境
 > [!NOTE]
 > 這僅適用于未優化的環境。
 
-### <a name="connect-to-microsoft-teams-powershell"></a>連線到 Microsoft Teams PowerShell
+### <a name="connect-to-microsoft-teams-powershell"></a>連線至 Microsoft Teams PowerShell
 
-依照 [安裝 Microsoft Teams PowerShell 模組](/Teams/teams-powershell-install.md) 中的指示連線到 Microsoft Teams PowerShell 模組。 然後執行下列命令以確認所有 VDI Cmdlet 皆可使用：
+依照[安裝 Microsoft Teams PowerShell 模組](/Teams/teams-powershell-install.md)] 中的指示連線至 Microsoft Teams PowerShell 模組。 然後執行下列命令以確認所有 VDI Cmdlet 皆可使用：
 
 ```PowerShell
 Get-Command -Noun *VDI*
@@ -526,7 +526,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 ```
 
-然後重新開機 VDA。 若要深入瞭解，請參閱這篇 Citrix 支援文章： [Microsoft Teams HDX 優化疑難排解](https://support.citrix.com/article/CTX253754)。
+然後重新開機 VDA。 若要深入瞭解，請參閱這篇 Citrix 支援文章：[針對 Microsoft Teams 的 HDX 優化進行疑難排解](https://support.citrix.com/article/CTX253754)。
 
 ## <a name="related-topics"></a>相關主題
 

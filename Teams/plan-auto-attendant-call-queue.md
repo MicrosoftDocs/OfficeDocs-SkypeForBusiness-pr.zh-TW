@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解自動語音應答和通話佇列，以及如何使用自動語音應答和通話佇列來協助來電者在功能表系統之間移動，以連絡組織中的人員或部門。
-ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
-ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
+ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "69166729"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307618"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>規劃 Teams 自動語音應答和通話佇列
 
@@ -78,7 +78,7 @@ ms.locfileid: "69166729"
 > [!NOTE]
 > 資源帳戶因登入而停用，且必須維持不變。 這些帳戶無法使用聊天和目前狀態。
 
-從通話佇列接聽來電的代理人必須企業語音啟用線上或內部部署使用者。 此外，如果通話佇列是使用直接路由號碼，則需要開會或轉接電話的代理程式也需要：
+從通話佇列接聽來電的代理人必須企業語音啟用線上或內部部署使用者。 如需詳細資訊，請參閱 [指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) 和 [啟用使用者的直接路由](/microsoftteams/direct-routing-enable-users)。 此外，如果通話佇列是使用直接路由號碼，則需要開會或轉接電話的代理程式也需要：
 
 - 如果通話佇列使用轉接模式，則會指派 [線上語音路由](manage-voice-routing-policies.md) 原則。
 - 如果通話佇列使用會議模式，則會指派 [音訊會議授權](set-up-audio-conferencing-in-teams.md) 或 [線上語音路由](manage-voice-routing-policies.md) 原則。
