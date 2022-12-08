@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中使用、管理及自訂原則套件，以簡化、簡化並協助在管理使用者群組的原則時提供一致性。
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245784"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318410"
 ---
 # <a name="managing-policy-packages-in-teams"></a>管理 Teams 中的原則套件
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的集合，您可以將之指派給組織中具有類似角色的使用者。 我們已建置原則套件以簡化、簡化，並協助在管理貴組織中使用者群組的原則時提供一致性。  
 
@@ -81,7 +84,7 @@ Teams 目前包含下列原則套件。
 ## <a name="custom-policy-packages"></a>自訂原則套件
 
 > [!NOTE]
-> 可預覽自訂原則套件功能。 若要在預覽之後使用此功能，每個使用者都需要 Teams 進階版授權。
+> 自訂原則套件需要 Teams 進階版。
 
 自訂原則套件可讓您為組織中具有類似角色的使用者，組合自己的一組原則。 新增所需的原則類型和原則，以建立您自己的原則套件。
 
