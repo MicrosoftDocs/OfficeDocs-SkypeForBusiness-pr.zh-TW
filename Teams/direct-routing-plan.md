@@ -18,25 +18,25 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 瞭解 Microsoft 直接路由如何讓您將受支援的客戶提供的會話框線控制器 (SBC) 連線至電話系統。
-ms.openlocfilehash: de829008a45e8f4c1095138ddc1b1dcc32cdb3eb
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+description: 瞭解Microsoft直接路由如何讓您將受支援的客戶提供的會話框線控制器 (SBC) 連線至電話系統。
+ms.openlocfilehash: e3da76d8fa3f848945607a7e27f6b162623951b3
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680516"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343183"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
 > [!Tip]
-> 請觀看下列會話，以瞭解直接路由的優點、規劃方法，以及如何部署： [Microsoft Teams 中的直接路由](https://aka.ms/teams-direct-routing)
+> 請觀看下列會話，以瞭解直接路由的優點、規劃方法，以及如何部署：[在 Microsoft Teams 中直接路由](https://aka.ms/teams-direct-routing)
 
-直接路由可讓您將客戶提供的會話框線控制器 (SBC) 連線至電話系統。 透過這項功能，您可以設定內部部署的公用交換電話網路 (PSTN) 與 Microsoft Teams 用戶端的連線能力，如下圖所示： 
+直接路由可讓您將客戶提供的會話框線控制器 (SBC) 連線至電話系統。 使用此功能，您可以設定內部部署的公用交換電話網路 (PSTN) 連線能力與 Microsoft Teams 用戶端，如下圖所示： 
 
 ![顯示內部部署 PSTN 連線能力設定的圖表。](media/PlanDirectRouting1-PSTNwithTeams.png "設定與 Microsoft Teams 用戶端的內部部署 PSTN 連線能力")
 
   > [!NOTE]
-  > 商務用 Skype Online 也可讓您配對客戶提供的 SBC，但這需要在 SBC 與 Microsoft Cloud 之間進行內部部署商務用 Skype Server部署或稱為雲端連接器的特殊版本 商務用 Skype。 此案例稱為混合式語音。 相反地，直接路由可讓支援的 SBC 和 Microsoft Cloud 之間直接連線。
+  > 商務用 Skype Online 也可讓您配對客戶提供的 SBC，但這需要在 SBC 與Microsoft雲端之間進行內部部署商務用 Skype Server或稱為雲端連接器的特殊版本 商務用 Skype。 此案例稱為混合式語音。 相反地，直接路由可讓支援的 SBC 和雲端Microsoft之間直接連線。
 
 > [!Important]
 > 雲端連接器版本將于 2021 年 7 月 31 日與 商務用 Skype Online 一起淘汰。 一旦貴組織升級至 Teams，瞭解如何使用 [直接路由](direct-routing-landing-page.md)將您的內部部署電話語音網路連線至 Teams。 
@@ -47,17 +47,17 @@ ms.locfileid: "68680516"
 
 - 在客戶擁有的電話語音設備之間設定互通性，例如協力廠商專用分公司交換 (PBX) 、類比裝置和 Teams。
 
-Microsoft 也提供全雲語音解決方案，例如通話方案。 不過，混合式語音解決方案在下列情況中可能最適合您的組織： 
+Microsoft也提供全雲語音解決方案，例如通話方案。 不過，混合式語音解決方案在下列情況中可能最適合您的組織： 
 
-- 您所在的國家/地區不提供 Microsoft 通話方案。 
+- Microsoft通話方案不適用於您的國家/地區。 
 
 - 您的組織需要連線至協力廠商類比裝置、通話中心等。 
 
 - 貴組織已與 PSTN 電信業者簽訂合約。
 
-直接路由也支援擁有 Microsoft 通話方案額外授權的使用者。 如需詳細資訊，請參閱 [電話系統和通話方案](calling-plan-landing-page.md)。 
+直接路由也支援擁有Microsoft通話方案額外授權的使用者。 如需詳細資訊，請參閱 [電話系統和通話方案](calling-plan-landing-page.md)。 
 
-透過直接路由，當使用者參與排定的會議時，撥入號碼是由 Microsoft 音訊會議服務提供，需要適當的授權。  撥出時，Microsoft 音訊會議服務會使用需要適當授權的線上通話功能撥打通話。  (請注意，如果使用者沒有 Microsoft 音訊會議授權，通話會透過 Direct Routing.) 路由進行，如需詳細資訊，請參閱 [使用 Teams 進行線上會議](https://www.microsoft.com/en-us/microsoft-teams/online-meetings)。 
+透過直接路由，當使用者參與排定的會議時，撥入號碼是由Microsoft音訊會議服務提供，需要適當的授權。  撥出時，Microsoft音訊會議服務會使用需要適當授權的線上通話功能撥打通話。  (請注意，如果使用者沒有Microsoft音訊會議授權，通話會透過直接路由路由傳) 如需詳細資訊，請參閱[使用 Teams 進行線上會議](https://www.microsoft.com/en-us/microsoft-teams/online-meetings)。 
  
 規劃部署直接路由是成功實作的關鍵。 本文說明基礎結構與授權需求，並提供 SBC 連線的相關資訊： 
 
@@ -79,15 +79,15 @@ Microsoft 也提供全雲語音解決方案，例如通話方案。 不過，混
 |:--- |:--- |
 |會話框線控制器 (SBC) |支援的 SBC。 如需詳細資訊，請參閱 [支援的 SBC](#supported-session-border-controllers-sbcs)。|
 |連接至 SBC 的電話語音主幹|連接至 SBC 的一或多個電話語音主幹。 在一端，SBC 會透過直接路由連線到電話系統。 SBC 也可以連線至協力廠商電話語音實體，例如 PBX、類比電話語音介面卡等。 任何連線到 SBC 的 PSTN 連線選項都可運作。  (若要設定 SBC 的 PSTN 主幹，請參閱 SBC 廠商或主幹提供者。) |
-|Microsoft 365 組織|您用來為 Microsoft Teams 使用者提供家用的 Microsoft 365 組織，以及 SBC 的設定和連線。|
-|使用者註冊機構|使用者必須在 Microsoft 365 中使用。<br/>如果您公司的內部部署商務用 Skype或 Lync 環境具有 Microsoft 365 的混合式連線能力，您就無法在 Teams 中為內部部署使用者啟用語音功能。<br/><br/>若要檢查使用者的註冊機構，請使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet 的輸出應該會顯示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|域|新增至 Microsoft 365 或Office 365組織的一或多個網域。<br/><br/>請注意，您無法使用自動為租使用者建立的預設網域 \* .onmicrosoft.com。<br/><br/>若要檢視網域，您可以使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>如需網域和 Microsoft 365 或Office 365組織的詳細資訊，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|Microsoft 365 組織|Microsoft 365 組織，您用來為 Microsoft Teams 使用者提供家用，以及 SBC 的設定和連線。|
+|使用者註冊機構|使用者必須在 Microsoft 365 中使用。<br/>如果貴公司的內部部署商務用 Skype或 Lync 環境具有 Microsoft 365 的混合式連線能力，您就無法在 Teams 中為內部部署使用者啟用語音功能。<br/><br/>若要檢查使用者的註冊機構，請使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet 的輸出應該會顯示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|域|新增到您Microsoft 365 或Office 365組織的一或多個網域。<br/><br/>請注意，您無法使用自動為租使用者建立的預設網域 \* .onmicrosoft.com。<br/><br/>若要檢視網域，您可以使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>如需網域和 Microsoft 365 或Office 365組織的詳細資訊，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公用 IP 位址|可用來連線至 SBC 的公用 IP 位址。 根據 SBC 的類型，SBC 可以使用 NAT。|
 |SBC 的完整功能變數名稱 (FQDN) |SBC 的 FQDN，其中 FQDN 的網域部分是您 Microsoft 365 或Office 365組織中的其中一個註冊網域。 如需詳細資訊，請參閱 [SBC 功能變數名稱](#sbc-domain-names)。|
 |SBC 的公用 DNS 專案 |將 SBC FQDN 對應到公用 IP 位址的公用 DNS 專案。 |
 |SBC 的公用信任憑證 |SBC 的憑證，用於所有具有直接路由的通訊。 如需詳細資訊，請參閱 [SBC 的公用信任憑證](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的連接點 |直接路由的連接點為下列三個 FQDN：<br/><br/>`sip.pstnhub.microsoft.com` – 必須先試用全球 FQDN。<br/>`sip2.pstnhub.microsoft.com` – 次要 FQDN，地理位置對應到第二優先順序區域。<br/>`sip3.pstnhub.microsoft.com` – 從地理位置對應到第三優先順序區域的 FQDN。<br/><br/>如需設定需求的相關資訊，請參閱 [SIP 訊號：FQDN](#sip-signaling-fqdns)。|
-|直接路由媒體的防火牆 IP 位址和埠 |SBC 會在雲端中與下列服務通訊：<br/><br/>SIP Proxy，可處理訊號<br/>處理媒體的媒體處理器 -除了開啟媒體旁路時<br/><br/>這兩個服務在 Microsoft Cloud 中有個別的 IP 位址，如本文稍後所述。<br/><br/>如需詳細資訊，請參閱[URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft Teams 一節](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
+|直接路由媒體的防火牆 IP 位址和埠 |SBC 會在雲端中與下列服務通訊：<br/><br/>SIP Proxy，可處理訊號<br/>處理媒體的媒體處理器 -除了開啟媒體旁路時<br/><br/>這兩個服務在Microsoft雲端有個別的 IP 位址，如本文稍後所述。<br/><br/>如需詳細資訊，請參閱[URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)>一節。 |
 |媒體傳輸設定檔|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Microsoft Teams 媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參閱 [URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
@@ -96,9 +96,9 @@ Microsoft Teams 媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參�
 
 直接路由使用者必須在 Microsoft 365 中指派下列授權： 
 
-- Microsoft Phone System
+- Microsoft電話系統]
 - Microsoft Teams + 商務用 Skype方案 2，如果包含在授權中
-- Microsoft Audio Conferencing (閱讀下方的備忘稿和段落，以瞭解何時需要此授權的特定範例。) 
+- Microsoft音訊會議 (閱讀下方的備忘稿和段落，以瞭解何時需要此授權的特定範例。) 
 
 > [!NOTE]
 > 商務用 Skype方案不應從包含此合約的任何授權合約中移除。 
@@ -114,23 +114,23 @@ Microsoft Teams 媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參�
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>臨時通話升級和音訊會議授權
 
-Teams 使用者可以啟動一對一 Teams 對 PSTN 或 Teams 對 Teams 通話，並在通話中新增 PSTN 參與者。 此案例稱為臨時會議。 通話採用的路徑取決於升級通話的使用者是否獲指派 Microsoft 音訊會議授權：
+Teams 使用者可以啟動一對一 Teams 對 PSTN 或 Teams 對 Teams 通話，並在通話中新增 PSTN 參與者。 此案例稱為臨時會議。 通話採用的路徑取決於升級通話的使用者是否獲指派Microsoft音訊會議授權：
 
-- **如果向上呈報通話的 Teams 使用者獲指派 Microsoft 音訊會議授權**，則會透過 Microsoft 音訊會議服務升級。 受邀參與現有通話的遠端 PSTN 參與者會收到關於來電的通知，並看到指派給開始升級之 Teams 使用者的 Microsoft 橋接器號碼。
+- **如果向上呈報通話的 Teams 使用者獲指派Microsoft音訊會議授權**，則升級會透過Microsoft音訊會議服務進行。 受邀參與現有通話的遠端 PSTN 參與者會收到關於來電的通知，並看到指派給開始升級之 Teams 使用者的Microsoft橋接器號碼。
 
-- **如果向上呈報通話的 Teams 使用者沒有指派 Microsoft 音訊會議授權**，則升級會透過連接至直接路由介面的會話框線控制器進行升級。 受邀參與通話的遠端 PSTN 參與者會收到關於來電的通知，並看到啟動升級的 Teams 使用者人數。 用於升級的特定 SBC 是由使用者的路由原則所定義。 
+- **如果向上呈報通話的 Teams 使用者沒有指派Microsoft音訊會議授權**，則升級會透過連接至直接路由介面的會話框線控制器進行升級。 受邀參與通話的遠端 PSTN 參與者會收到關於來電的通知，並看到啟動升級的 Teams 使用者人數。 用於升級的特定 SBC 是由使用者的路由原則所定義。 
 
 您必須確定下列事項：
  
 - CsOnlineVoiceRoutingPolicy 已指派給使用者。 
 
-- 允許私人通話會在 Microsoft Teams 的租使用者層級啟用。 
+- 允許 Teams 的租使用者層級已啟用 Microsoft [允許私人通話]。 
 
-直接路由也支援具有 Microsoft 通話方案授權的使用者。 電話系統與通話方案可以使用直接路由介面路由一些通話。 不過，使用者的電話號碼必須先在線上取得，或是移轉至 Microsoft。  
+直接路由也支援授權Microsoft通話方案的使用者。 電話系統與通話方案可以使用直接路由介面路由一些通話。 不過，使用者的電話號碼必須先在線上取得，或是移轉到Microsoft。  
 
-混合同一個使用者的通話方案和直接路由連線是選用的，但可能很有用。 例如，當使用者獲派 Microsoft 通話方案，但想要使用 SBC 路由一些通話時。 其中一個最常見的案例是呼叫協力廠商 PBX。  使用協力廠商 PBX 時，除了撥打到連線至該 PBX 的電話外，所有通話都是使用 Microsoft 通話方案路由，但連接到協力廠商 PBX 之電話的電話會移至 SBC，因此會留在商業網路內，而非 PSTN。 
+混合同一個使用者的通話方案和直接路由連線是選用的，但可能很有用。 例如，當使用者獲派Microsoft通話方案，但想要使用 SBC 路由一些通話時。 其中一個最常見的案例是呼叫協力廠商 PBX。  使用協力廠商 PBX 時，除了撥號至連線至該 PBX 的電話外，所有通話都會使用Microsoft通話方案路由，但撥打到協力廠商 PBX 的電話會移至 SBC，因此會保持在商業網路內，而不是 PSTN。 
 
-如需電話系統授權的詳細資訊，請參閱 [充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) 和 [方案選項](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 和 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+如需電話系統授權的詳細資訊，請參閱[充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[方案選項](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)和[Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
 
 ## <a name="supported-end-points"></a>支援的端點 
 
@@ -138,9 +138,9 @@ Teams 使用者可以啟動一對一 Teams 對 PSTN 或 Teams 對 Teams 通話�
 
 - 任何 Teams 用戶端。 
 
-- 常見的區域電話。 請參閱 [設定 Microsoft Teams 的通用區域電話](./set-up-common-area-phones.md)。 設定具有直接路由的共同區域電話時，不需要通話方案授權。
+- 常見的區域電話。 請參閱[為 Microsoft Teams 設定通用區域電話](./set-up-common-area-phones.md)。 設定具有直接路由的共同區域電話時，不需要通話方案授權。
 
-- 商務用 Skype 3PIP 手機。 使用[Microsoft Teams 查看商務用 Skype手機 (3PIP) 支援](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+- 商務用 Skype 3PIP 手機。 使用[Microsoft Teams 查看 商務用 Skype 手機 (3PIP) 支援](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>SBC 功能變數名稱
@@ -166,7 +166,7 @@ SBC 只需要一個 FQDN，而且可以從配對租使用者中的任何位址�
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC 的公用信任憑證
 
-Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 如需有關為 SBC 產生 CSR 的特定指示，請參閱 SBC 廠商提供的相互連接指示或檔。 
+Microsoft建議您透過產生認證簽署要求 (CSR) ，來要求 SBC 的憑證。 如需有關為 SBC 產生 CSR 的特定指示，請參閱 SBC 廠商提供的相互連接指示或檔。 
 
 > [!NOTE]
 > 大部分憑證授權單位單位 (CAs) 需要至少 2048 個私密金鑰大小。 產生 CSR 時請記住這點。
@@ -175,8 +175,8 @@ Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 
 
 或者，直接路由支援 CN 和/或 SAN 中的萬用字元，萬用字元必須符合標準 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 例如，使用 \* .contoso.com 會符合 SBC FQDN sbc.contoso.com，但與 sbc.test.contoso.com 不相符。
 
-直接路由 SIP 介面只會信任由憑證授權單位單位 (CAs 簽署的憑證，) 屬於 Microsoft 信任的根憑證計畫。 請確定您的 SBC 憑證是由屬於該程式一部分的 CA 簽署，且憑證的擴充 (EKU) 副檔名包含伺服器驗證。
-深入瞭解： [計畫需求 - Microsoft 根信任計畫](/security/trusted-root/program-requirements)
+直接路由 SIP 介面只會信任由憑證授權單位單位 (CAs 簽署的憑證，) 屬於Microsoft受信任的根憑證計畫。 請確定您的 SBC 憑證是由屬於該程式一部分的 CA 簽署，且憑證的擴充 (EKU) 副檔名包含伺服器驗證。
+深入瞭解：[計畫需求 - Microsoft受信任的根計畫](/security/trusted-root/program-requirements)
   
 [隨附的 CA 憑證清單](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
   
@@ -186,7 +186,7 @@ Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> 如果已針對 SBC 上的 Teams 連線啟用共同 TLS (MTLS) 支援，則您必須在 Teams TLS 內容的 SBC 根信任存放區中安裝[連線埠] 和 [DigiCert 全域根 G2] 憑證。  (這是因為 Microsoft 服務憑證使用這兩種根憑證的其中之一。) 若要下載這些根憑證，請[參閱Office 365加密鏈。](/microsoft-365/compliance/encryption-office-365-certificate-chains) 如需詳細資料，請參閱 [Office TLS 憑證變更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
+> 如果已針對 SBC 上的 Teams 連線啟用共同 TLS (MTLS) 支援，則您必須在 Teams TLS 內容的 SBC 根信任存放區中安裝[連線埠] 和 [DigiCert 全域根 G2] 憑證。  (這是因為Microsoft服務憑證使用這兩種根憑證的其中之一。) 若要下載這些根憑證，[請參閱Office 365加密鏈結](/microsoft-365/compliance/encryption-office-365-certificate-chains)。 如需詳細資料，請參閱 [Office TLS 憑證變更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
 
 ## <a name="sip-signaling-fqdns"></a>SIP 訊號：FQDN 
 
@@ -203,7 +203,7 @@ Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 
 
 直接路由的連接點為下列三個 FQDN：
 
-- **sip.pstnhub.microsoft.com** – 全球 FQDN – 必須先試用。 當 SBC 傳送解決此名稱的要求時，Microsoft Azure DNS 伺服器會傳回指向指派給 SBC 的主要 Azure 資料中心之 IP 位址。 作業是根據資料中心的效能指派，以及與 SBC 的地理鄰近度。 傳回的 IP 位址會對應到主要的 FQDN。
+- **sip.pstnhub.microsoft.com** – 全球 FQDN – 必須先試用。 當 SBC 傳送解決此名稱的要求時，Microsoft Azure DNS 伺服器會傳回指向指派給 SBC 之主要 Azure 資料中心的 IP 位址。 作業是根據資料中心的效能指派，以及與 SBC 的地理鄰近度。 傳回的 IP 位址會對應到主要的 FQDN。
 
 - **sip2.pstnhub.microsoft.com** – 次要 FQDN – 地理位置對應到第二優先順序地區。
 
@@ -218,7 +218,7 @@ Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 
 FQDN - sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com – 將解析為來自下列子網的 IP 位址：
 
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 您必須在防火牆中開啟所有這些 IP 位址範圍的埠，以允許內送和外寄流量從位址進入和移出訊號。
 
@@ -248,7 +248,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 將從下列子網解析為 IP 位址：
 
 ## <a name="sip-signaling-ports"></a>SIP 訊號：埠
 
-您必須針對提供直接路由的 Microsoft 365 或Office 365環境使用下列埠：
+您必須針對提供直接路由的Microsoft 365 或Office 365環境使用下列埠：
 
 - Microsoft 365 或 Office 365
 - Office 365 GCC
@@ -276,7 +276,7 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 ## <a name="media-traffic-port-ranges"></a>媒體流量：埠範圍
 請注意，如果您想要部署沒有媒體旁路的直接路由，下列需求適用。 如需 Media Bypass 的防火牆需求，請參閱 [使用直接路由規劃媒體略過](./direct-routing-plan-media-bypass.md)。
 
-媒體流量會流經 Microsoft Cloud 中不同服務的往來。 媒體流量的 IP 位址範圍如下所示。
+媒體流量會流經和從Microsoft雲端的個別服務。 媒體流量的 IP 位址範圍如下所示。
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 環境
 
@@ -300,7 +300,7 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 |UDP/SRTP|Sbc|媒體處理器|定義于 SBC|3478-3481 和 49152 – 53247|
 
   > [!NOTE]
-  > Microsoft 建議至少在 SBC 上同時通話兩個埠。
+  > Microsoft建議至少在 SBC 上同時通話兩個埠。
 
 
 ## <a name="media-traffic-media-processors-geography"></a>媒體流量：媒體處理器地理位置
@@ -316,7 +316,7 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 ## <a name="media-traffic-codecs"></a>媒體流量：編解碼器
 
-### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC 和雲端媒體處理器或 Microsoft Teams 用戶端之間的長腿
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC 和雲端媒體處理器或 Microsoft Teams 用戶端之間的長段
 
 同時適用于媒體略過案例和非略過案例。
 
@@ -331,14 +331,14 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 僅適用于非媒體略過案例。 使用 Media Bypass，媒體會直接在 Teams 用戶端和 SBC 之間延伸。
 
-在雲端媒體處理器和 Microsoft Teams 用戶端之間的腿上，會使用 SILK 或 G.722。 此長段上的編解碼器選擇是以 Microsoft 演算法為基礎，並考慮多個參數。 
+在雲端媒體處理器和 Microsoft Teams 用戶端之間的腿上，會使用 SILK 或 G.722。 此欄位上的編解碼器選擇是根據Microsoft演算法，並考慮多個參數。 
 
   > [!NOTE]
   > 不支援媒體重新設定目標。 在直接路由通話期間，如果 SBC 傳送新的媒體 IP 至 Teams 直接路由，雖然是在 SIP 訊號中交涉，但媒體永遠不會從 Teams 直接路由傳送至新的 IP 位址。
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支援的會話框線控制器 (SBC) 
 
-Microsoft 僅支援通過認證的 SB 與直接路由配對。 由於企業語音對企業而言至關重要，因此 Microsoft 會針對選取的 SBC 執行密集測試，並與 SBC 廠商合作以確保兩種系統相容。 
+Microsoft僅支援通過認證的 SB 與直接路由配對。 由於企業語音對企業而言至關重要，Microsoft會對選取的 SBC 執行密集測試，並與 SBC 廠商合作以確保兩種系統相容。 
 
 已驗證的裝置列為「Teams 直接路由認證」。 認證的裝置可在所有案例中都能正常運作。 
 

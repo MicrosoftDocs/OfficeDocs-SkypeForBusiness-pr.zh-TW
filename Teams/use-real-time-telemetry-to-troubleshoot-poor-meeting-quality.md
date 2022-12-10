@@ -21,23 +21,23 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 使用即時遙測與裝置、網路和連線的詳細資料，以疑難排解 Microsoft Teams 排程會議的使用者問題。
-ms.openlocfilehash: 203f16d83d211a4a85f3217992d509bccba5dea3
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+description: 使用即時遙測以及裝置、網路和連線的詳細資料，針對Microsoft Teams 排程會議的使用者問題進行疑難排解。
+ms.openlocfilehash: bbda6d34a990ad810b22ce1742ab60a886295a6a
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810175"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343275"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用即時遙測來疑難排解會議品質不佳的問題
 
-本文說明如何使用 Real-Time Analytics (RTA) ，針對個別使用者的 Microsoft Teams 會議品質不佳問題進行疑難排解。 如果您有下列其中一個角色，您可以存取Real-Time分析：
+本文說明如何使用 Real-Time Analytics (RTA) ，針對個別使用者Microsoft Teams 會議品質不佳的問題進行疑難排解。 如果您有下列其中一個角色，您可以存取Real-Time分析：
 
 - Teams 系統管理員
 - Teams 通訊支援專家
 - Teams 通訊支援工程師
 
-如需 Teams 系統管理員角色的詳細資訊，請參閱 [使用 Microsoft Teams 系統管理員角色管理 Teams](/MicrosoftTeams/using-admin-roles)。
+如需 Teams 系統管理員角色的詳細資訊，請參[閱使用 Microsoft Teams 系統管理員角色來管理 Teams](/MicrosoftTeams/using-admin-roles)。
 
 Real-Time分析可讓 IT 系統管理員查看重要使用者排定的會議，並查看音訊、視訊、內容共用和網路相關問題。 身為系統管理員，您可以使用此遙測在會議期間調查這些問題，並即時進行疑難排解。
 
@@ -51,9 +51,13 @@ Real-Time分析會針對您Office 365帳戶中的每位使用者顯示 Teams 會
 
 ## <a name="where-to-find-per-user-real-time-troubleshooting-telemetry"></a>何處可尋找個別使用者的即時遙測疑難排解
 
-若要查看使用者的所有會議資訊和資料，請移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。 在 [**使用者**  >  **管理使用者**] 底下，選取使用者，然後開啟使用者設定檔頁面上的 [**會議&通話**] 索引標籤。 在 [ **最近的會議**] 底下，您會看到使用者在過去 24 小時內參與的會議清單，提供 *即時遙測* 功能，包括任何進行中的會議。 如果會議尚未進行，或沒有即時遙測資料，則會顯示在 [ **過去的會議]** 中。
+若要查看使用者的所有會議資訊和資料，請移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。 在 [**使用者**  >  **管理使用者**] 底下，選取使用者，然後開啟使用者設定檔頁面上的 [**會議&通話**] 索引標籤。 在 [ **最近的會議**] 底下，您會看到使用者在過去 24 小時內參與的會議清單，提供 *即時遙測* 功能，包括任何進行中的會議。 如果會議沒有進行中，或沒有即時遙測資料，它會顯示在 [ **過去的會議]** 中。
 
 :::image type="content" alt-text="最近會議表格的螢幕擷取畫面。" source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
+
+> [!NOTE]
+> 若要讓會議顯示在 [最近的會議] 下方，Teams 系統管理員必須在進行會議時，在 [分析] 中按一下會議Real-Time，才能開始即時用戶端遙測流程。
+
 
 若要取得有關進行中會議參與者的其他資訊，包括其裝置、網路和音訊統計資料，請在 [ **最近的會議** ] 中尋找會議，然後選取 [ **參與者** ] 欄底下的連結。
 
@@ -70,13 +74,13 @@ Real-Time分析會針對您Office 365帳戶中的每位使用者顯示 Teams 會
 |:---|:---|:---|
 | 音訊擷取裝置 | 音訊擷取裝置的名稱 (例如：使用中的麥克風)  | 系統可能沒有與裝置 (相關聯的名稱，例如：遠端桌面或虛擬機器「遠端音訊」裝置)   |
 | 音訊轉譯裝置 | 音訊轉譯裝置的名稱 (例如：使用中的喇叭或耳機)  | 系統可能沒有與裝置 (相關聯的名稱，例如：遠端桌面或虛擬機器「遠端音訊」裝置)   |
-| 視訊擷取裝置 | 使用中的視訊擷取裝置名稱 | 使用者不會從受監視的端點傳送視訊 |
+| 視訊擷取裝置 | 使用中的視訊擷取裝置名稱 | 使用者無法從受監視的端點傳送視訊 |
 
 ### <a name="connectivity-information"></a>連線資訊
 | 度量 | 單位/可能的值 | 描述 | 空白值的可能原因|
 |:---|:---|:---|:---|
 | 網路類型 | &bull; 乙太網 <br/> &bull; Wi-Fi | 使用中的網路連線類型 | |
-| Wi-Fi強度 | &bull; 絕佳 ：-50dBm 或更高 <br/> &bull; 良好 ： -51 dBm 轉 -64 dBm<br/> &bull; 不佳：-65 dBm 或較低 | 使用者目前Wi-Fi連線的強度 | 使用者未連線至Wi-Fi |
+| Wi-Fi強度 | &bull; 絕佳 ：-50 dBm 或更高 <br/> &bull; 良好 ： -51 dBm 轉 -64 dBm<br/> &bull; 不佳：-65 dBm 或較低 | 使用者目前Wi-Fi連線的強度 | 使用者未連線至Wi-Fi |
 | Wi-Fi頻道 | 整數 | 廣播Wi-Fi網路存取點的頻道 | 使用者未連線至Wi-Fi |
 | 實體類型 | String <br/> &bull; 範例：802.11ac | 使用中的無線基礎結構類型 | 使用者未連線至Wi-Fi |
 | Wi-Fi頻帶 | 2.4 GHz 或 5 GHz | Wi-Fi與使用者連線的頻帶 | 使用者未連線至Wi-Fi |
@@ -148,6 +152,8 @@ Real-Time分析會針對您Office 365帳戶中的每位使用者顯示 Teams 會
 
 ## <a name="limitations"></a>限制
 
+- 即時遙測訂閱不會自動用於所有會議，而且必須在進行會議時由 Teams 系統管理員啟動。
+- 即時遙測僅適用于會議支援的端點，從系統管理員第一次在 Real-Time Analytics 中按一下進行中的會議為止。
 - 即時遙測僅適用于排程會議和立即開會。 針對 PSTN、1 對 1 通話和群組通話，無法使用即時遙測。
 - 即時遙測僅適用于已排程即時活動的簡報者。 目前不適用於即時活動出席者。
 - 即時遙測資料可在會議結束後 24 小時于 [ **最近的會議** ] 底下進行會議。 24 小時後，您將無法存取資料，且會議會移至 **[過去的會議]**。 如果會議時間超過 3 小時，即時遙測只能 *在最後 3 小時* 使用。

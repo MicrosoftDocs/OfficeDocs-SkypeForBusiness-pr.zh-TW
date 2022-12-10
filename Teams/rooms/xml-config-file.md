@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題和建立主設定檔案。
-ms.openlocfilehash: 44c984d95964f48090599c059b84c3d6a10beff4
-ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
+ms.openlocfilehash: 5e9603c17962a8759b21c13e7f35f607e7c842ff
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68686051"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343193"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定
 
@@ -70,6 +70,7 @@ ms.locfileid: "68686051"
   <FrontRowVideoSize>medium</FrontRowVideoSize>
   <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <ShowMeetingChat>true</ShowMeetingChat>
   <EnablePublicPreview>false</EnablePublicPreview>
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
   <SendLogs>
@@ -132,7 +133,7 @@ ms.locfileid: "68686051"
 | `<ConfigureDomain>`                         | 字串&#x2777;            |                | 您可以列出數個網域，並以逗號分隔。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | `<ModernAuthEnabled>`                       | 布林值&#x2777;            |                | 預設停用。 <br/> <br/>設為 True 時，Microsoft Teams 會議室應用程式只會使用新式驗證來連線至資源，而不會回復到基本驗證。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | `<TeamsMeetingsEnabled>`                    | 布林值&#x2777;            | 第一個&#x2776; | 預設停用。 <br/> <br/> 如果同時 `<SkypeMeetingsEnabled>` 停用和 `<TeamsMeetingsEnabled>` 停用，XML 檔案會被視為無法形成，但同時啟用這兩個設定是可以接受的。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `<SfbMeetingEnabled>`                       | 布林值&#x2778;            | 第一個&#x2776; | 預設停用。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `<SfbMeetingEnabled>`                       | 布林值&#x2777;            | 第一個&#x2776; | 預設停用。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `<IsTeamsDefaultClient>`                    | 布林值&#x2777;            | 第一個&#x2776; | 預設啟用。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | `<WebExMeetingsEnabled>`                    | 布林值&#x2777;            | 第一個&#x2776; | 預設停用。 <br/> <br/> 如果為 True，可為 Cisco Webex 會議啟用直接來賓加入體驗。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | `<ZoomMeetingsEnabled>`                     | 布林值&#x2777;            | 第一個&#x2776; | 預設停用。 <br/> <br/> 如果為 True，則啟用縮放會議的直接來賓加入體驗。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -148,6 +149,7 @@ ms.locfileid: "68686051"
 | `<FrontRowEnabled>`                         | 布林值&#x2777;            | 第一個&#x2776; | 預設啟用。 如果為 false，則會停用前列。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `<FrontRowVideoSize>`                       | String                      |                | 可讓您設定前方列的大小，為遠端參與者視訊和共用內容提供更多或較少的空間。 可能的值為 `small` 、 `medium` 和 `large` 。 預設值為 `medium` 。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `<DefaultFoRExperience>`                    | 布林值&#x2777;            | 第一個&#x2776; | 根據預設，圖庫檢視。 [放置 1] 可將預設版面配置從 [圖庫檢視] 變更為 [前列]。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `<ShowMeetingChat>`                         | 布林值&#x2777;            | 第一個&#x2776; | 預設啟用。 如果停用，會議聊天不會顯示在Teams 會議室裝置上的任何會議版面配置中。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | `<SingleFoRDefaultContentLayout>`           | String                      |                | 在單一顯示模式中，您可以設定 [內容+人員] 和 [僅內容] 之間的預設版面配置：<br><ul><li><b>0</b> 僅限內容</li><li><b>1</b> 個內容+人員 (預設) </li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `<EnablePublicPreview>`                     | 布林值&#x2777;            | 第一個&#x2776; | 預設停用。 如果為 True，則會啟用公開預覽，且使用者可以在啟用的Teams 會議室存取公開預覽中的功能。 如需詳細資訊，請參閱[Windows 上Microsoft Teams 會議室的公開預覽](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows)。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | `<NoiseSuppressionDefault>`                 | String                      | 第一個&#x2776; | 控制 Teams 中的噪音抑制等級。<br><ul><li><b>0</b> [關閉]。 僅使用 OEM 提供的噪音抑制功能。</li><li><b>1</b> 自動 (預設) 。 Teams 會根據當地噪音決定最佳的噪音抑制層級。</li><li><b>2</b> 低。 隱藏低等級的持續性背景雜音，例如電腦風扇或空氣條件器。</li><li><b>3</b> 高。 隱藏所有不是語音的背景音效。</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -204,7 +206,7 @@ ms.locfileid: "68686051"
   
 ## <a name="supported-meeting-modes-app-version-49"></a>支援的會議模式應用程式版本 4.9
 
-**商務用 Skype (預設) 和 Microsoft Teams**
+**商務用 Skype (Teams 預設) 和Microsoft**
 
 | XML 標記法                | XML 值      |
 |----------------------------|---------------|
@@ -212,7 +214,7 @@ ms.locfileid: "68686051"
 | `<SfbMeetingEnabled>`        |   真         |
 | `<IsTeamsDefaultClient>`     |   假        |
 
-**商務用 Skype和 Microsoft Teams (預設)**
+**商務用 Skype和Microsoft Teams (預設)**
 
 | XML 標記法                | XML 值      |
 |----------------------------|---------------|
@@ -228,7 +230,7 @@ ms.locfileid: "68686051"
 | `<SfbMeetingEnabled>`        |   真         |
 | `<IsTeamsDefaultClient>`     |   假        |
 
-**僅限 Microsoft Teams**
+**僅Microsoft Teams**
 
 | XML 標記法                | XML 值      |
 |----------------------------|---------------|
@@ -239,14 +241,14 @@ ms.locfileid: "68686051"
 
 ## <a name="supported-meeting-modes-app-version-48-or-lower"></a>支援的會議模式應用程式版本 4.8 或較低版本
 
-**商務用 Skype (預設) 和 Microsoft Teams**
+**商務用 Skype (Teams 預設) 和Microsoft**
 
 | XML 標記法                | XML 值      |
 |----------------------------|---------------|
 |  `<TeamsMeetingsEnabled>`     |   真         |
 |  `<IsTeamsDefaultClient>`     |   假        |
 
-**商務用 Skype和 Microsoft Teams (預設)**
+**商務用 Skype和Microsoft Teams (預設)**
 
 | XML 標記法                | XML 值      |
 |----------------------------|---------------|

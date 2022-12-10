@@ -18,12 +18,12 @@ description: 了解如何將 Adobe Acrobat 設定為預設的 PDF 檢視器，�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 67be332ee916f30b0341dc3ac03e047558cead0c
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251896"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343278"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>將 Adobe Acrobat 設定為 Microsoft Teams 中的預設 PDF 檢視器
 
@@ -66,7 +66,9 @@ ms.locfileid: "69251896"
 
 1. 選取 [儲存 **]**。
 
-選取 [儲存] 之後，Teams 會使用 Adobe Acrobat 應用程式做為 PDF 檔案的預設檔案處理常式。
+1. 或者，如果您擁有 Adobe Acrobat 授權，也可以允許 SSO 使用Microsoft Azure Active Directory身分識別。 我們建議您使用設定 [身分識別和單一登入](https://helpx.adobe.com/enterprise/using/set-up-identity.html)中的指示來設定 SSO。
+
+完成設定後，Teams 會使用 Adobe Acrobat 應用程式做為 PDF 檔案的預設檔案處理常式。
 
 如果您想要為少數人或群組選擇性地允許 Adobe Acrobat 應用程式，請使用 [應用程式許可權原則](teams-app-permission-policies.md)。
 
@@ -81,4 +83,5 @@ ms.locfileid: "69251896"
 * 若要卸載應用程式，使用者可以從他們的 Teams 用戶端移除應用程式。 管理員可以使用安裝原則移除 Adobe Acrobat 應用程式。
 * 如果您封鎖 Adobe Acrobat 應用程式，請從設定原則中移除應用程式。 這可確保使用者體驗還原為使用原生 PDF 檔案檢視器。
 * 如果您在 Teams 桌面用戶端中登入 Adobe Acrobat 應用程式時遇到任何問題，請使用 [瀏覽器中的 Teams](https://teams.microsoft.com/) 登入。
-* 您必須登入免費 [的 Adobe 帳戶](https://acrobat.adobe.com/us/en/) ，才能為 PDF 檔案加上批註或加上批註。
+* 登入免費 [的 Adobe 帳戶](https://acrobat.adobe.com/us/en/) ，以在 PDF 檔案上加上批註或加上批註。 Teams 中的應用程式可以提供像是注釋、組織、壓縮及保護 PDF 檔案等功能。 如需功能與先決條件的完整清單，請參閱 [在 Teams 中使用 Acrobat 應用程式管理 PDF 檔案](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf)。
+* 當您在 PDF 檔上共同作業時，系統會將檔暫時儲存 (最多 24 小時，) 儲存在您所在地區的 Adobe 伺服器上。 此暫時儲存空間有助於暫時處理。 當您的檔從本機檔案系統傳輸到伺服器，並在伺服器上保持加密時，您的檔會端對端加密。 請參閱 [Acrobat 的安全性](https://aka.ms/Adobe_Acrobat_Security)。

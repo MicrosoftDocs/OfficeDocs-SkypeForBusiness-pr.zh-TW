@@ -25,16 +25,16 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 有關如何在 Microsoft 365 中為貴組織設定 Teams Phone System 的逐步指南。
-ms.openlocfilehash: beb82fd78fa58a4a3339dc1b7a5f54ceb5117479
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974cabac0d02f30d9371114e0f6886fdbc9f9389
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999538"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343173"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>設定貴組織的 [電話系統]
 
-本文提供設定電話系統之內容的藍圖--Microsoft 在 Microsoft 365 雲端啟用通話控制和私人分支 Exchange (PBX) 功能的技術。 更多詳細資訊的連結可在每一個步驟的結尾處取得。
+本文提供設定電話系統之內容的藍圖，Microsoft啟用Microsoft 365 雲端中通話控制和專用 Exchange (PBX) 功能的技術。 更多詳細資訊的連結可在每一個步驟的結尾處取得。
 
 閱讀本文之前，請確定您已閱讀 [什麼是電話系統](what-is-phone-system-in-office-365.md) ， [以下是您透過電話系統取得的內容](here-s-what-you-get-with-phone-system.md)。 後兩篇文章說明電話系統需求和功能。
 
@@ -50,15 +50,17 @@ ms.locfileid: "67999538"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>步驟 1：購買並指派電話系統授權
 
-若要指派電話系統授權給單一使用者，步驟與指派 Microsoft 365 授權相同。 您也可以大量指派授權給多個使用者。 如需有關可用的電話系統授權，以及如何取得和指派授權的詳細資訊，請參閱 [Teams 附加元件授權](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 和 [指派 Microsoft Teams 附加元件授權](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
+若要指派電話系統授權給單一使用者，步驟與指派Microsoft 365 授權相同。 您也可以大量指派授權給多個使用者。 如需有關可用的電話系統授權，以及如何取得及指派授權的詳細資訊，請參閱[Teams 附加元件授權](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)和[指派Microsoft Teams 附加元件授權](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>步驟 2. 選擇 PSTN 連線選項
 
-若要讓使用者撥打和接聽外部電話，您必須將電話系統連線到公用交換電話網路 (PSTN) 。 Microsoft 提供多種連線到 PSTN 的選項，包括：
+若要讓使用者撥打和接聽外部電話，您必須將電話系統連線到公用交換電話網路 (PSTN) 。 Microsoft提供多個連線到 PSTN 的選項，包括：
 
-- 通話方案。 將 Microsoft 做為 PSTN 電信業者的所有雲端解決方案。
+- 通話方案。 Microsoft做為 PSTN 電信業者的所有雲端解決方案。
 
 - 運算子連線。 如果您現有的電信業者參與 Microsoft 運算子連線計畫，他們可以為您管理 PSTN 通話和會話框線控制器 (SBC) 。
+
+- Teams Phone Mobile。 如果您現有的電信業者參與Microsoft Teams 電話行動計畫，他們可以在 Teams 中管理使用啟用 SIM 卡的行動電話號碼的服務。
 
 - 直接路由。 將您的 SBC 連線至手機系統，以使用您自己的 PSTN 電信業者。
 
@@ -81,12 +83,12 @@ ms.locfileid: "67999538"
 
 除了取得使用者的電話號碼，您還可以取得自動語音應答和通話佇列等服務的付費或免付費電話號碼。 服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。
 
-您可以從 Microsoft 取得您的授權所包含的服務號碼。 如果您透過運算子連線或直接路由擁有 PSTN 連線能力，您可以使用由您自己的電信業者或電信業者所提供的服務號碼。
+您可以從授權中包含的Microsoft取得服務號碼。 如果您透過運算子連線或直接路由擁有 PSTN 連線能力，您可以使用由您自己的電信業者或電信業者所提供的服務號碼。
 
 如需詳細資訊，請參閱：
 
 - [管理貴組織的電話號碼](manage-phone-numbers-landing-page.md) – 提供電話號碼類型的概觀，並提供取得及管理號碼的特定文章連結，視您的 PSTN 連線選項而定。
-說明您授權中包含的 Microsoft 提供的 [服務電話號碼](manage-phone-numbers-landing-page.md#service-telephone-numbers) 。 如需運算子連線或直接路由所提供的服務號碼的相關資訊，請連絡您的提供者。
+說明您授權中所包含Microsoft提供的[服務電話號碼](manage-phone-numbers-landing-page.md#service-telephone-numbers)。 如需運算子連線或直接路由所提供的服務號碼的相關資訊，請連絡您的提供者。
 
 - [您可以取得多少電話號碼](how-many-phone-numbers-can-you-get.md) – 根據您購買和指派的電話號碼類型和授權類型，描述您可以取得多少電話號碼。
 
@@ -104,7 +106,7 @@ ms.locfileid: "67999538"
 
 ## <a name="step-7-set-up-communications-credits-for-toll-free-numbers"></a>步驟 7：設定免付費電話號碼的通訊點數
 
-如果您想要搭配 Microsoft Teams 使用免付費電話號碼，您必須設定通訊點數。 免付費電話每分鐘計費一次，且需要有正向的通訊點數餘額。
+如果您想要將免付費電話號碼與 Microsoft Teams 搭配使用，您必須設定通訊點數。 免付費電話每分鐘計費一次，且需要有正向的通訊點數餘額。
 
 通訊點數是新增免付費電話號碼的便利方式，如下所示：
 

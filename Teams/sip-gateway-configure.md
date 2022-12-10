@@ -3,7 +3,7 @@ title: 設定 SIP 閘道
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/30/2021
+ms.date: 12/8/2022
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -22,28 +22,28 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b785ffe1c9e08507c1d45a1e837cf7020ec1d711
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: c93aec7cb65cdd40c05a540b51a3da8ba268c7e9
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584310"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343281"
 ---
 # <a name="configure-sip-gateway"></a>設定 SIP 閘道
 
-本文說明如何設定 SIP 閘道，讓貴組織能夠使用與 Microsoft Teams 相容的 SIP 裝置。 若要瞭解 SIP 閘道可為貴組織執行哪些工作，以及貴組織需要哪些硬體、軟體和授權，請閱讀 [規劃 SIP 閘道](sip-gateway-plan.md)。
+本文說明如何設定 SIP 閘道，讓貴組織能夠搭配 Microsoft Teams 使用相容的 SIP 裝置。 若要瞭解 SIP 閘道可為貴組織執行哪些工作，以及貴組織需要哪些硬體、軟體和授權，請閱讀 [規劃 SIP 閘道](sip-gateway-plan.md)。
 
 設定 SIP 閘道之前，請執行下列動作：
 
 - **將 SIP 裝置重設為原廠預設設定。** 您或貴組織的使用者必須將搭配 SIP 閘道使用的每個 SIP 裝置重設為原廠預設設定。 若要瞭解做法，請參閱製造商的指示。
 
-- **開啟您的防火牆至 Microsoft 365 和 Teams。** 開啟網路防火牆至 Microsoft 365 和 Teams 流量[，如Office 365 URL 和 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)中所述。 輸出流量只需要防火牆規則。
+- **開啟防火牆以Microsoft 365 和 Teams。** 開啟網路防火牆以Microsoft 365 和 Teams 流量[，如Office 365 URL 和 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)中所述。 輸出流量只需要防火牆規則。
 
 - **請確定 SIP 裝置不在 Proxy 之後。** 確定 HTTP/s 流量略過任何公司 HTTP/s Proxy。
 
-- **開啟 UDP 埠。** 針對 IP 範圍 52.112.0.0.0/14 和 52.120.0.0/14，開啟範圍 49152 到 53247 中的 UDP 埠。
+- **開啟 UDP 埠。** 針對 IP 範圍 52.112.0.0.0/14 和 52.122.0.0/15，開啟範圍 49152 到 53247 中的 UDP 埠。
 
-- **開啟 TCP 埠。** 開啟 IP 範圍為 52.112.0.0.14 和 52.120.0.0/14 的 TCP 埠 5061。
+- **開啟 TCP 埠。** 開啟 IP 範圍為 52.112.0.0.14 和 52.122.0.0/15 的 TCP 埠 5061。
 
 - **開啟下列 HTTPs 端點 (IP 位址和 URL) ：**
 
@@ -104,7 +104,7 @@ ms.locfileid: "68584310"
 
 ### <a name="by-using-powershell"></a>使用 PowerShell
 
-您也可以使用 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Cmdlet 來啟用 SIP 閘道。 若要啟用 SIP 裝置的使用者，請選取原則，並將屬性設 `-AllowSIPDevicesCalling` 為 `True` 。 預設值為 `False` ，因此除非您啟用，否則使用者將無法使用他們的 SIP 裝置。
+您也可以使用 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) Cmdlet 來啟用 SIP 閘道。 若要啟用 SIP 裝置的使用者，請選取原則，並將屬性設 `-AllowSIPDevicesCalling` 為 `True` 。 預設值為 `False` ，因此除非您啟用，否則使用者將無法使用他們的 SIP 裝置。
 
 > [!NOTE]
 > - 原則傳播最多可能需要 24 小時。
@@ -145,9 +145,9 @@ ms.locfileid: "68584310"
 
 ## <a name="configure-conditional-access"></a>設定條件式存取
 
-條件式存取是 Azure Active Directory (Azure AD) 功能，可協助確保可正確管理且安全地管理存取 Microsoft 365 資源的裝置。 SIP 閘道會使用 Azure AD 驗證 SIP 裝置，因此如果您的組織針對公司網路中的裝置使用條件式存取，則應排除下列 IP 位址：
+條件式存取是 Azure Active Directory (Azure AD) 功能，可協助確保可存取您Microsoft 365 資源的裝置受到妥善管理且安全。 SIP 閘道會使用 Azure AD 驗證 SIP 裝置，因此如果您的組織針對公司網路中的裝置使用條件式存取，則應排除下列 IP 位址：
 
-- 北米：
+- 北美洲：
     - 美國東部：52.170.38.140
     - 美國西部：40.112.144.212
 -   EMEA 地區：
@@ -184,7 +184,7 @@ ms.locfileid: "68584310"
 
    - **若要布建許多裝置：**
 
-     a. 在 **[等待啟用**] 底下的右側，選取 [ **導** 出 (Microsoft Excel 圖示) 。
+     a. 在 **[等待啟** 用] 底下的右側，選取 [**導** 出 (Microsoft Excel 圖示) 。
      
      b. 在 [ **布建裝置]** 窗格的 [ **上傳多個 MAC 位址**] 底下，選 **取 [下載範本]**。
      
@@ -232,7 +232,7 @@ ms.locfileid: "68584310"
 3. 將 SIP 手機上顯示的配對代碼輸入 Web 驗證應用程式，將 SIP 手機與使用者的帳戶配對。 成功登入可能需要一些時間，如果裝置支援，SIP 手機將會顯示電話號碼和使用者名稱。
 
 > [!NOTE]
-> Azure Active Directory Web 驗證應用程式上顯示的裝置位置是裝置連線至的 SIP 閘道資料中心。 範圍內的 SIP 手機不支援 OAuth 功能，因此 SIP 閘道會透過 Web 驗證應用程式驗證使用者，然後將裝置與使用者的認證配對。 Mer informasjon這裡：[Microsoft 身分識別平臺和 OAuth 2.0 裝置授權授與流程](/azure/active-directory/develop/v2-oauth2-device-code)。
+> Azure Active Directory Web 驗證應用程式上顯示的裝置位置是裝置連線至的 SIP 閘道資料中心。 範圍內的 SIP 手機不支援 OAuth 功能，因此 SIP 閘道會透過 Web 驗證應用程式驗證使用者，然後將裝置與使用者的認證配對。 在這裡深入瞭解：[Microsoft 身分識別平臺和 OAuth 2.0 裝置授權授與流程](/azure/active-directory/develop/v2-oauth2-device-code)。
 
 ### <a name="sign-out"></a>登出
 
@@ -309,12 +309,12 @@ SIP 裝置通常可以顯示多種語言的資訊。 設定 UI 語言會影響�
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams 和 IPv6
 
-SIP 閘道僅支援 IPv4。 Microsoft Teams 服務和用戶端同時支援 IPv4 和 IPv6。 如果您想要控制與 Microsoft Teams 的通訊，請使用 [Microsoft 365 URL 和 IP 位址範圍中的 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+SIP 閘道僅支援 IPv4。 Microsoft Teams 服務和用戶端同時支援 IPv4 和 IPv6。 如果您想要控制與 Teams Microsoft通訊，請使用[Microsoft 365 URL 和 IP 位址範圍中的 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
 
 ## <a name="emergency-calling"></a>緊急電話
 
 SIP 閘道支援動態緊急呼叫 (動態 E911) ，適用于透過連接線共用網路屬性的相容 SIP 裝置。 這些屬性是在 Teams 系統管理中心中布建，可以結合本機 IP 和子網長度，或是底盤識別碼和網路埠號碼。 對於未共用位置屬性的裝置，或基於任何原因無法動態解析位置，SIP 閘道會繼續支援根據登錄位址的緊急通話。 目前，直接路由案例不支援已註冊的位址。 如需緊急電話的詳細資訊，請參閱 [規劃及管理緊急通話](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
 
-## <a name="report-problems-to-microsoft"></a>向 Microsoft 回報問題
+## <a name="report-problems-to-microsoft"></a>回報問題以Microsoft
 
-若要回報問題，[請連絡pomoc techniczna firmy Microsoft](https://support.microsoft.com)。
+若要回報問題，[請連絡Microsoft 支援服務](https://support.microsoft.com)。

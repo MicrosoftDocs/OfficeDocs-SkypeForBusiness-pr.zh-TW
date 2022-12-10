@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 合作夥伴的 Mult-tenant 客戶管理。
 f1keywords: ''
-ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: 6a98ff56548dcefc48be41657b368a9634ad8123
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046822"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343303"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>合作夥伴的多租使用者客戶管理
 
@@ -36,7 +36,7 @@ Teams 會議室專業版管理服務中的多租使用者管理 (MTM) ，可協�
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>透過 MTM 體驗管理客戶的先決條件
 
-若要存取 MTM 入口網站，貴組織必須成為 MTR Pro 管理的 Elite 合作夥伴。 若要成為 Elite 合作夥伴 askelite@microsoft.com。
+提供多樣式管理主控台存取權的 Elite 計畫已中止，我們也不會將任何新合作夥伴登入此計畫。 感謝您的理解和耐心等候，並即將宣佈新的格式。 
 
 ## <a name="on-boarding-customers"></a>登入客戶
 
@@ -161,9 +161,9 @@ Teams 會議室專業版管理服務中的多租使用者管理 (MTM) ，可協�
 
 終端客戶保留其資料存取權的控制權，而且可以隨時完全移除合作夥伴或特定角色。
 
-透過委派的存取功能，合作夥伴不會獲得專業管理入口網站以外的任何其他許可權。 例如，使用此功能邀請合作夥伴在專業管理入口網站管理會議室，就不會授與 AAD 或 Teams 管理員 中心或任何其他 Microsoft 產品的許可權。 此外，合作夥伴也無法檢視或修改邀請範圍中未定義的會議室。
+透過委派的存取功能，合作夥伴不會獲得專業管理入口網站以外的任何其他許可權。 例如，使用此功能邀請合作夥伴在專業管理入口網站管理會議室，就不會授與 AAD 或 Teams 管理員 中心或任何其他Microsoft產品的許可權。 此外，合作夥伴也無法檢視或修改邀請範圍中未定義的會議室。
 
-一旦建立合作夥伴—客戶關係—如本檔的「上線客戶」中所述，合作夥伴就可以在專業管理入口網站中檢視會議室資料。 這包括專業管理入口網站中的任何資料，但衍生自其他 Microsoft 產品。 例如，專業管理入口網站中的通話品質報告衍生自 Teams 通話品質資料。
+一旦建立合作夥伴—客戶關係—如本檔的「上線客戶」中所述，合作夥伴就可以在專業管理入口網站中檢視會議室資料。 這包括專業管理入口網站中的任何資料，但衍生自其他Microsoft產品。 例如，專業管理入口網站中的通話品質報告衍生自 Teams 通話品質資料。
 
 資料位於客戶的租使用者中，不會複製到合作夥伴的租使用者。 
 
