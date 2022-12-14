@@ -23,14 +23,16 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 982730f7c839eeab2a55bc8997eade8aec31bebc
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614266"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392193"
 ---
 # <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動。
 
@@ -44,7 +46,7 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 
 | 會議類型 | 參與者的數量 | 互動 | 支援註冊 |
 |----------|--------|--------|-----|
-| 會議  | 最多 20,000* 位 | - 最多 1,000 位參與者具有完整的互動式平等會議功能。 <br> - 超過 1,000 位參與者 (最多 20,000 位) 具有[僅供檢視](view-only-meeting-experience.md)功能。  | 否 |
+| 會議  | 最多 20,000* 位 | - 最多 1,000 位參與者具有完整的互動式平等會議功能。 <br> - 超過 1,000 位參與者 (最多 20,000 位) 具有[僅供檢視](view-only-meeting-experience.md)功能。  | 是，具有註冊 (網路研討會 1.0 的會議)  |
 | 網路研討會 | - 最多 1,000 位<br>- 增加[僅供檢視](view-only-meeting-experience.md)功能的限制即將推出。 |- 最多 1,000 位參與者具有完整的互動式功能。<br> - 可設定的觀眾互動。<br> - 可以指定簡報者。 | 是 |
 | 即時活動 | 最多 20,000** 位 |- 向大批觀眾廣播。 <br>- 觀眾互動的仲裁問與答。 <br> - 能夠指定製作者和簡報者，包括外部簡報者。<br>- 支援更進階的生產功能。 | 否 |
 
@@ -55,7 +57,7 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> 如需其他資訊，並取得使用 Microsoft Teams 提供線上活動之角色的指引，請參閱 [虛擬事件播放簿](https://aka.ms/VirtualEventPlaybook)。 您也可以加入Microsoft Tech Community上的[虛擬活動論壇](https://aka.ms/VirtualEventForum)。
+> 如需其他資訊，並取得使用 Microsoft Teams 提供線上活動的角色指導方針，請參閱[虛擬事件播放簿](https://aka.ms/VirtualEventPlaybook)。 您也可以加入Microsoft Tech Community上的[虛擬活動論壇](https://aka.ms/VirtualEventForum)。
 
 > [!NOTE]
 > 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -95,7 +97,30 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 
 ## <a name="webinars"></a>網路研討會
 
-**網路研討會** 是結構化會議，其中簡報者和參與者具有清楚的角色。 網路研討會與 Teams 會議的主要差異在於網路研討會支援註冊並提供出席者參與資料。 若要在組織中啟用網路研討會，請參閱[在 Teams 中設定網路研討會](set-up-webinars.md)。
+**網路研討會** 是結構化會議，其中簡報者和參與者具有清楚的角色。 網路研討會和 Teams 會議的主要差異在於網路研討會支援強大的註冊管理、可自訂的事件和註冊網站，以及以事件為導向的預設會議選項。
+
+如果您的組織已經使用網路研討會，您已熟悉 Teams 會議原則和下列設定，可讓您支援會議註冊和追蹤參與資料：
+
+- AllowMeetingRegistration (啟用或停用) 
+- WhoCanRegister (公司中除了來賓外的所有人員或每個人) 
+
+隨著新網路研討會體驗的發行，將會推出包含下列設定的新 Teams 事件原則：
+
+- AllowWebinars (啟用或停用) 
+- EventAccessType (公司中除了來賓或所有人都) 
+
+新原則將繼續支援註冊和追蹤，並提供網路研討會體驗的其他功能。 一開始，下列專案可供使用：
+
+- 條款及條件自訂問題
+- 簡報者 bio
+- 橫幅、標誌和預先定義的色彩
+- 進階註冊功能：手動核准、等候清單、註冊日期和時間限制
+- 註冊概觀與管理：針對每個事件，註冊狀態摘要，並顯示不同註冊狀態的出席者清單，視已啟用的註冊功能而定。
+
+您會想要開始使用新原則，以便在新功能推出時善用新功能。
+
+如需功能及如何設定網路研討會的詳細資訊，請參閱 [設定網路研討會](set-up-webinars.md)。
+
 
 ### <a name="key-training-for-end-users"></a>針對終端使用者的重要訓練
 
@@ -152,6 +177,8 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 任何人都可以免費參加 Teams 會議、網路研討會或即時活動 -- 無需任何授權。
 
 對於召集、排程和舉辦會議、網路研討會或即時活動的人員，這些人員需要 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)中所列的 Microsoft 365 授權之一。 如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議、網路研討會和即時活動所需的授權。
+
+如需 Teams Premium 授權的相關資訊，請參閱 [Teams 進階版授權](teams-add-on-licensing/licensing-enhance-teams.md)。
 
 若要允許人員使用電話撥入會議，您必須設定音訊會議。 如需音訊會議的詳細資訊，請參閱 [Teams 中的音訊會議](deploy-audio-conferencing-teams-landing-page.md)。
 

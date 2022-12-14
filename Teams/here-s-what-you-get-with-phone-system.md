@@ -22,19 +22,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '瞭解功能、可用性，以及如何為您的企業規劃和設定 Microsoft Phone System。 '
-ms.openlocfilehash: ccc931bd15e511903715ca328a142eb4da313dea
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+description: '瞭解功能、可用性，以及如何為您的企業規劃和設定Microsoft電話系統。 '
+ms.openlocfilehash: 118f2d52193583149e881bf564fb1df616bf108c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584784"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392243"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>以下是可透過電話系統獲得的功能
 
 本文將說明電話系統功能。 如需使用電話系統做為私人交換 (PBX) 取代的詳細資訊，以及連線到公用交換電話網路 (PSTN) 的選項，請參閱 [什麼是電話系統](what-is-phone-system-in-office-365.md)。
 
-用戶端適用于 PC、Mac 和行動裝置，可在裝置上提供從平板電腦、行動電話到電腦和桌面 IP 手機等功能。 如需詳細資訊，請參閱 [取得 Microsoft Teams 的用戶端](get-clients.md)。
+用戶端適用于 PC、Mac 和行動裝置，可在裝置上提供從平板電腦、行動電話到電腦和桌面 IP 手機等功能。 如需詳細資訊，請參閱[取得Microsoft Teams 的用戶端](get-clients.md)。
 
  > [!Note]
 > 如需不同平臺上 Teams 手機系統的詳細資訊，請參閱 [各平臺的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。

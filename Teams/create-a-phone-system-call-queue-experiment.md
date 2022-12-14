@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: 瞭解如何在 teams 中設定通話佇列Microsoft。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251995"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392523"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -129,9 +129,9 @@ ms.locfileid: "69251995"
 
 在您建立這個用於通話 ID 的新資源帳戶之後，您仍然需要：
 
-- 指派 [Teams 電話資源帳戶授權](manage-resource-accounts.md#assign-a-license)
-- 指派Microsoft通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則
-- 如果您使用的是Microsoft通話方案，請將[服務電話號碼指派給資源帳戶](manage-resource-accounts.md#assign-a-service-number)
+- 指派 [Teams Phone 資源帳戶授權](manage-resource-accounts.md#assign-a-license)。
+- 指派Microsoft通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則。
+- 如果您使用的是Microsoft通話方案，請將電話號碼指派[給資源帳戶](manage-resource-accounts.md#assign-a-phone-number)。
 
 #### <a name="set-the-call-queue-language"></a>設定通話佇列語言
 

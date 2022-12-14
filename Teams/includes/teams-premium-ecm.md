@@ -1,0 +1,1 @@
+![資訊圖示 ](../media/info.png) **本文所述的一些功能需要 [Teams 進階版 (預覽)](/MicrosoftTeams/enhanced-teams-experience) 目前推出**

@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
-description: 在本文中，您將瞭解如何在 Microsoft Teams 中建立、編輯及管理資源帳戶。
-ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+description: 在本文中，您將瞭解如何在 Teams 中建立、編輯和管理資源帳戶Microsoft。
+ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147430"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392203"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -35,7 +35,7 @@ ms.locfileid: "69147430"
 
 ## <a name="next-steps"></a>後續步驟
 
-當您完成資源帳戶設定，並視需要指派服務號碼後，就可以透過自動語音應答或通話佇列使用資源帳戶。
+當您完成資源帳戶設定，並視需要指派電話號碼後，就可以透過自動語音應答或通話佇列使用資源帳戶。
 
 若要深入瞭解，請參閱下列參照：
 
@@ -73,7 +73,7 @@ ms.locfileid: "69147430"
 
 ## <a name="delete-a-resource-account"></a>刪除資源帳戶
 
-請務必在刪除之前先將電話號碼與資源帳戶解除關聯，以免服務號碼卡在擱置模式中。
+請務必先將電話號碼與資源帳戶解除關聯再刪除，以免電話號碼卡在擱置模式中。
 
 完成之後，您可以在 [使用者] 索引 **標籤底** 下刪除Microsoft 365 系統管理中心中的資源帳戶。
 

@@ -16,19 +16,19 @@ description: 本文提供在貴組織中部署 Teams 手機和顯示器的工作
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4ba5c1a9ab59765a5a0af2ac145baf69fc4a8a9a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606842"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392513"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>規劃您的 Teams 手機裝置和顯示器部署
 
 從規劃開始，成功部署 Teams 手機裝置和 Teams 顯示器。 本文將引導您完成在組織中部署這些裝置的工作與步驟。 它也會提供有關裝置使用方式、授權、與您的環境、觸控點和管理整合的指導方針。
 
 > [!TIP]
-> [Microsoft 365 採用中樞](https://adoption.microsoft.com/) 是開始使用 Microsoft Teams 進行採用旅程的絕佳位置。
+> [Microsoft 365 採用中](https://adoption.microsoft.com/)樞是使用 Microsoft Teams 開始採用旅程的絕佳位置。
 
 ## <a name="task-1-what-are-your-deployment-objectives"></a>工作 1：您的部署目標為何？
 
@@ -56,7 +56,7 @@ Teams 手機和顯示器可符合下列兩個角色的其中之一：
 - 執行特定功能，例如常見區域電話或會議室裝置，並且需要專用帳戶和功能授權才能存取服務。
 - 將共用裝置視為具有一對多關聯性：一個由許多使用者共用的裝置。
 - 部署在會議室、接收區或製造樓層等共用空間。 
-- 使用者介面 (UI) 是其功能特有的，例如 Common Area Phone UI 或會議室 UI 取決於共用裝置的功能和位置。
+- 使用者介面 (UI) 是其功能特有的，例如常見區域電話 UI 或會議室 UI 取決於共用裝置的功能和位置。
 - 需要設定和選擇性的硬化，以確保設定不會變更，或是防止帳戶登出。 
 - 共用空間裝置上的其他功能包括搜尋常見區域手機和使用空閒逾時的桌上電話
 
@@ -67,8 +67,8 @@ Teams 手機和顯示器可符合下列兩個角色的其中之一：
 - 需要多少個人裝置，以及誰擁有一部裝置？
 - 需要共用裝置的會議室或空間數目？ 每個空間是否都有相同類型的裝置？ 
 - 您的裝置需要符合特定需求嗎？
-    - 範例包括螢幕大小、表單階和製造商或型號？ 如需已認證手機和顯示器的清單，請參閱 [Microsoft Teams 認證的裝置](teams-ip-phones.md)。
--  您需要 Teams 手機或 Teams 顯示器嗎？ 如需 Teams 手機支援的功能清單，請參閱 [Microsoft Teams 手機](phones-for-teams.md#features-supported-by-teams-phones)版。 如需 Teams 顯示器支援的功能清單，請參閱 [Microsoft Teams 顯示器](teams-displays.md#features-supported-by-teams-displays)。
+    - 範例包括螢幕大小、表單階和製造商或型號？ 如需已認證手機和顯示器的清單，請[參閱Microsoft Teams 認證裝置](teams-ip-phones.md)。
+-  您需要 Teams 手機或 Teams 顯示器嗎？ 如需 Teams 手機支援的功能清單，請參[閱 Teams Microsoft電話](phones-for-teams.md#features-supported-by-teams-phones)。 如需 Teams 顯示器支援的功能清單，請[參閱 teams 顯示Microsoft](teams-displays.md#features-supported-by-teams-displays)。
 - 您是否擁有足夠的裝置供新使用者使用，或是新訂單和遞送的處理常式？
 - 您是否有可供維護的備用裝置，或裝置遇到硬體問題？ 能夠快速交換裝置可避免干擾使用者體驗。
 
@@ -76,15 +76,15 @@ Teams 手機和顯示器可符合下列兩個角色的其中之一：
 
 現在您知道需要多少部裝置，下一步是決定需要多少個授權。 Teams 手機和顯示器需要授權才能存取 Microsoft Teams 和 Microsoft 365。
 
-共用和個人裝置需要不同的授權。 對於個人裝置，可以使用指派給使用者帳戶的授權。 共用裝置需要其功能的特定授權。 對於手機和顯示器，適用的授權為[Microsoft Teams 的通用區域電話授權](../set-up-common-area-phones.md#step-1---buy-the-licenses)和[Microsoft Teams 會議室授權](../rooms/rooms-licensing.md)。
+共用和個人裝置需要不同的授權。 對於個人裝置，可以使用指派給使用者帳戶的授權。 共用裝置需要其功能的特定授權。 對於手機和顯示器，適用的授權為[Microsoft Teams 共用裝置授權](/microsoftteams/teams-add-on-licensing/teams-shared-device-license)和[Microsoft Teams 會議室授權](../rooms/rooms-licensing.md)。
 
-如需詳細資訊並比較您的授權選項，請參閱 [Microsoft 365 授權方案](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)。
+如需詳細資訊並比較您的授權選項，請參[閱Microsoft 365 授權方案](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)。
 
 ## <a name="task-3-what-are-your-dependencies"></a>工作 3：您的相依性為何？ 
 
 ### <a name="objective-plan-your-device-identities"></a>目標：規劃您的裝置身分識別
 
-身分識別可讓裝置存取 Microsoft 365 服務，而且應該讓裝置更容易在組織內探索、管理和連線。 若要達成此目標，請在規劃裝置身分識別時考慮下列事項：
+身分識別可讓裝置存取 Microsoft 365 服務，而且應該讓裝置更容易在貴組織內探索、管理和連線。 若要達成此目標，請在規劃裝置身分識別時考慮下列事項：
 
 - 使用者主體名稱及其格式和網域
 - 顯示名稱
@@ -116,7 +116,7 @@ Teams Phone 裝置和顯示器需要存取網際網路，才能如預期連線�
 - 您的網路基礎結構是否有足夠的容量？ 考慮切換埠、無線存取點及其他涵蓋範圍。
 - 如果您使用 VLAN 和 DHCP，您的範圍是否相應地調整大小？
 - 評估及測試從裝置部署到 Microsoft 365 的網路路徑。 
-- 依照指引開啟 Microsoft 365 所需的防火牆埠和 URL。
+- 根據指引，開啟 Microsoft 365 所需的防火牆埠和 URL。
 - 檢閱及測試 E911 需求和設定，以瞭解位置準確性和合規性。 
 - 避免使用 Proxy 伺服器，並針對可靠性和品質優化媒體路徑。
 
@@ -133,7 +133,7 @@ Teams Phone 裝置和顯示器需要存取網際網路，才能如預期連線�
 
 ### <a name="task-5-how-will-you-manage-deployed-devices"></a>工作 5：您將如何管理已部署的裝置？
 
-Teams 手機和顯示器是由兩個到三個 Microsoft 365 入口網站及其各自的 PowerShell 模組管理： 
+Teams 手機和顯示器是由兩個到三個Microsoft 365 入口網站及其各自的 PowerShell 模組管理： 
 
 #### <a name="azure-active-directory-admin-center"></a>Azure Active Directory 管理員中心
 
@@ -155,9 +155,9 @@ Teams 手機和顯示器是由兩個到三個 Microsoft 365 入口網站及其�
 - 固件
 - 疑難排解及下載記錄
 
-#### <a name="endpoint-manager-admin-center-if-you-use-intune-for-device-management"></a>如果您使用裝置管理Intune (，端點管理員 管理員中心) 
+#### <a name="endpoint-manager-admin-center-if-you-use-intune-for-device-management"></a>端點管理員管理員中心 (如果您使用Intune來管理裝置) 
 
-使用 端點管理員 管理員 中心管理： 
+使用端點管理員管理員中心來管理： 
 
 - 裝置合規性原則
 - 註冊限制

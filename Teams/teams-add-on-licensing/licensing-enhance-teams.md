@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 瞭解如何使用 Microsoft Teams 進階版附加元件授權來增強Microsoft Teams 體驗
-ms.openlocfilehash: e650c5c40623e3748deb9275d439dfd5328a317b
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308004"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392343"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams 進階版授權
 
@@ -41,7 +41,6 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 - [Teams 進階版與 Teams 有何比較？](#how-does-teams-premium-compare-to-teams)
 - [目前 Teams 功能是否會移至 Teams 進階版？](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [購買 Teams 進階版的需求為何？](#what-are-the-requirements-to-purchase-teams-premium)
-- [Teams 如何強制存取 Teams 進階版功能？](#how-does-teams-enforce-access-to-teams-premium-features)
 - [Teams 進階版與Teams 會議室專業版有何不同？](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [在購買授權之前，我可以體驗 Teams 進階版嗎？](#can-i-experience-teams-premium-before-buying-licenses)
 - [如何?購買 Teams 進階版授權？](#how-do-i-purchase-teams-premium-licenses)
@@ -60,7 +59,7 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 |---------|:-----:|:-------------:|
 | 主持和參加 Teams 會議 | X | X |
 | 體驗 Teams 的標準外觀與風格 | X | X |
-| 使用標準 Teams 會議背景 | X | X |
+| 在使用者層級使用標準和自訂會議背景| X | X |
 | 在會議期間朗讀即時輔助字幕 | X | X |
 | 自訂群組織的會議範本 |  | X |
 | 將組織商標新增至會議大廳 |  | X |
@@ -176,25 +175,6 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 **使用者需求** 是：
 
 - Teams Office 365或 Microsoft 365 訂閱。
-
-## <a name="how-does-teams-enforce-access-to-teams-premium-features"></a>Teams 如何強制存取 Teams 進階版功能？
-
-使用者擁有哪一種 Teams 體驗，取決於他們的 Teams 授權和 Teams 角色。 Teams 會依功能檢查使用者的授權和角色功能，以提供適當的體驗。
-
-例如，在 Teams 會議中，Teams 會檢查每個使用者的 Teams 授權，以及他們是否是會議召集人或出席者。 這些因素會決定使用者的體驗，以及可能其他參與者在會議中的體驗。
-
-- **以召集人為基礎的：** 某些功能會在召集人層級檢查授權。 如果會議召集人擁有適當功能的授權，該功能也會共用，並在該會議期間讓會議出席者易於存取。
-- **Attendee 型：** 部分功能會檢查出席者層級的授權。 其他出席者不會在會議期間共用他們的 Teams 體驗，並可存取這些體驗。
-
-下表顯示每個 Teams 進階版功能的授權檢查。
-
-|  | 召集人授權檢查 | 出席者授權檢查 |
-|--|-------------------------------|------------------------------|
-| **會議** | &#10004;使用自訂會議範本 </br> &#10004;使用自訂主題會議 </br> &#10004;使用 Microsoft eCDN 進行即時活動 | &#10004;使用自訂共聚模式場景 </br> &#10004;使用自訂背景和大廳 |
-| **網路研討會** | &#10004;設定網路研討會綠色會議室 </br> &#10004;管理網路研討會模式 </br> &#10004;使用 RTMP-In </br> &#10004;手動核准網路研討會註冊 </br> &#10004;建立註冊等候清單 </br> &#10004;限制註冊日期和時間 |  |
-| **會議保護** | &#10004;針對最多 50 位參與者的會議使用端對端加密 </br> &#10004;新增浮水印至會議 </br> &#10004;將敏感度標籤套用至會議 </br> &#10004;防止在會議聊天中複製/貼上 </br> &#10004;控制誰可以錄製會議 </br> &#10004;自訂使用者原則套件 |  |
-| **智慧型會議** | &#10004;即時朗讀翻譯的輔助字幕 </br> &#10004;使用自動產生的章節流覽會議 | &#10004;翻譯會議後轉譯文字 </br></br> *會議回顧 AI 功能：* </br> &#10004;查看何時加入及離開會議的時間戳記 </br> &#10004;在會議後接收建議的工作 </br> &#10004;使用建議的喇叭搜尋 </br> &#10004;檢視@mentions |
-| **虛擬約會** | &#10004;設定簡訊通知 </br> &#10004; Access Premium 虛擬約會 應用程式 </br> &#10004;在約會和大廳使用自訂背景 | &#10004;設定簡訊通知 </br> &#10004; Access Premium 虛擬約會 應用程式 </br> &#10004;檢視及管理排程和隨選約會佇列 </br> &#10004;檢視進階虛擬約會分析 </br> &#10004;傳送約會後後續追蹤 |
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams 進階版與Teams 會議室專業版有何不同？
 

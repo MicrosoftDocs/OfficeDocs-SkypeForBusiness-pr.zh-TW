@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 瞭解適用于系統管理員和 IT 專業人員Microsoft Teams 進階版。
-ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379460"
+ms.locfileid: "69392473"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams 進階版 - 適用于系統管理員的概觀
 
@@ -63,8 +63,6 @@ Teams 進階版提供下列主要功能來保護會議安全的其他方式：
 - **端對端加密** - 透過敏感度標籤強制執行。 端對端加密可提高需要更高保護層級之會議的安全性。
 
 
-
-
 | 功能/工作  | 適用于系統管理員的檔 | 適用于使用者的檔
 | -------------------- | ----------- | ------------ |
 | 敏感度標籤 | [設定具有三層保護層級的 Teams 會議](configure-meetings-three-tiers-protection.md) | |
@@ -82,16 +80,17 @@ Teams 進階版提供下列自訂會議的其他功能：
 
 - **會議主題** - 可讓貴組織在整個會議體驗中擴展其視覺身分識別。 您可以針對單一租使用者內的各種業務單位和部門設定及建立會議主題。
 
-- **自訂會議背景** - 您可以建立及定義自訂的會議背景，然後供使用者使用。 
+- **為組織自訂會議背景** - 您可以建立並定義自訂會議背景，然後使用 Teams 進階版授權供使用者使用。
 
-- **自訂共聚模式場景** - Teams 應用程式，可讓貴組織中的開發人員定義及自訂會議的視訊場景。  
+- **為組織自訂共聚模式場景** - 您可以建立、自訂或接受會議的自訂共聚模式場景，然後使用 Teams 進階版授權供使用者使用。
+
 
 | 功能/工作 | 適用于系統管理員的檔 | 適用于使用者的檔
 | -------------------- | ----------- | ------------ |
 | 會議範本 | - [概述](custom-meeting-templates-overview.md)<br>- [建立自訂會議範本](create-custom-meeting-template.md)| [使用自訂範本](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | 會議主題 | [Teams 會議的主題](meeting-themes.md) | [使用會議主題](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| 自訂會議背景 | [會議背景](custom-meeting-backgrounds.md)| |
-| 自訂共聚模式場景 | [為您和您的開發人員提供的內容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| 組織的自訂會議背景 | [會議背景](custom-meeting-backgrounds.md)| |
+| 為組織自訂共聚模式場景 | [為您和您的開發人員提供的內容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解Microsoft直接路由如何讓您將受支援的客戶提供的會話框線控制器 (SBC) 連線至電話系統。
-ms.openlocfilehash: e3da76d8fa3f848945607a7e27f6b162623951b3
-ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
+ms.openlocfilehash: 811115c23d88ff3ce1b7fa6af8f8757afb33fecf
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2022
-ms.locfileid: "69343183"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392323"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -122,26 +122,25 @@ Teams 使用者可以啟動一對一 Teams 對 PSTN 或 Teams 對 Teams 通話�
 
 您必須確定下列事項：
  
-- CsOnlineVoiceRoutingPolicy 已指派給使用者。 
+- CsOnlineVoiceRoutingPolicy 已指派給使用者。
 
-- 允許 Teams 的租使用者層級已啟用 Microsoft [允許私人通話]。 
+- 允許 Teams 的租使用者層級已啟用 Microsoft [允許私人通話]。
 
 直接路由也支援授權Microsoft通話方案的使用者。 電話系統與通話方案可以使用直接路由介面路由一些通話。 不過，使用者的電話號碼必須先在線上取得，或是移轉到Microsoft。  
 
-混合同一個使用者的通話方案和直接路由連線是選用的，但可能很有用。 例如，當使用者獲派Microsoft通話方案，但想要使用 SBC 路由一些通話時。 其中一個最常見的案例是呼叫協力廠商 PBX。  使用協力廠商 PBX 時，除了撥號至連線至該 PBX 的電話外，所有通話都會使用Microsoft通話方案路由，但撥打到協力廠商 PBX 的電話會移至 SBC，因此會保持在商業網路內，而不是 PSTN。 
+混合同一個使用者的通話方案和直接路由連線是選用的，但可能很有用。 例如，當使用者獲派Microsoft通話方案，但想要使用 SBC 路由一些通話時。 其中一個最常見的案例是呼叫協力廠商 PBX。  使用協力廠商 PBX 時，除了撥號至連線至該 PBX 的電話外，所有通話都會使用Microsoft通話方案路由，但撥打到協力廠商 PBX 的電話會移至 SBC，因此會保持在商業網路內，而不是 PSTN。
 
-如需電話系統授權的詳細資訊，請參閱[充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[方案選項](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)和[Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+如需電話系統授權的詳細資訊，請參閱[充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[方案選項](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)和[Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-## <a name="supported-end-points"></a>支援的端點 
+## <a name="supported-end-points"></a>支援的端點
 
 您可以做為終點：
 
-- 任何 Teams 用戶端。 
+- 任何 Teams 用戶端。
 
-- 常見的區域電話。 請參閱[為 Microsoft Teams 設定通用區域電話](./set-up-common-area-phones.md)。 設定具有直接路由的共同區域電話時，不需要通話方案授權。
+- 常見的區域電話。 請參閱[為 Microsoft Teams 設定通用的區域電話](./set-up-common-area-phones.md)。 設定具有直接路由的通用區域電話時，不需要通話方案授權。
 
 - 商務用 Skype 3PIP 手機。 使用[Microsoft Teams 查看 商務用 Skype 手機 (3PIP) 支援](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
-
 
 ## <a name="sbc-domain-names"></a>SBC 功能變數名稱
 
@@ -155,7 +154,8 @@ contoso.com|是|**有效的名稱：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.
 |contoso.onmicrosoft.com|否|SBC 名稱不支援使用 *.onmicrosoft.com 網域
 
 假設您想要使用新的功能變數名稱。 例如，您的租使用者 contoso.com 為在租使用者中註冊的功能變數名稱，而您想要使用 sbc1.sip.contoso.com。 您必須先在租使用者的網域中註冊功能變數名稱 sip.contoso.com，才能將 SBC 與名稱 sbc1.sip.contoso.com 配對。 如果您在註冊功能變數名稱前先嘗試將 SBC 與 sbc1.sip.contoso.com 配對，您會收到下列錯誤：「無法使用「sbc1.sip.contoso.com」網域，因為它尚未為此租使用者設定。」
-新增功能變數名稱之後，您也需要使用 UPN user@sip.contoso.com 建立使用者，並指派 Teams 授權。 將功能變數名稱新增至租使用者的網域後，最多可能需要 24 小時才能完整布建功能變數名稱、建立有新名稱的使用者，以及指派授權給使用者。 
+
+新增功能變數名稱之後，您也需要使用 UPN user@sip.contoso.com 建立使用者，並指派 Teams 授權。 將功能變數名稱新增至租使用者的網域後，最多可能需要 24 小時才能完整布建功能變數名稱、建立有新名稱的使用者，以及指派授權給使用者。
 
 有可能是公司在一個租使用者中有幾個 SIP 位址空間。 例如，公司可能會將 contoso.com 為 SIP 位址空間，fabrikam.com 做為第二個 SIP 位址空間。 有些使用者有位址 user@contoso.com，有些使用者有位址 user@fabrikam.com。 
 
@@ -166,14 +166,16 @@ SBC 只需要一個 FQDN，而且可以從配對租使用者中的任何位址�
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC 的公用信任憑證
 
-Microsoft建議您透過產生認證簽署要求 (CSR) ，來要求 SBC 的憑證。 如需有關為 SBC 產生 CSR 的特定指示，請參閱 SBC 廠商提供的相互連接指示或檔。 
+Microsoft建議您透過產生認證簽署要求 (CSR) ，來要求 SBC 的憑證。 如需有關為 SBC 產生 CSR 的特定指示，請參閱 SBC 廠商提供的相互連接指示或檔。
 
 > [!NOTE]
 > 大部分憑證授權單位單位 (CAs) 需要至少 2048 個私密金鑰大小。 產生 CSR 時請記住這點。
 
 憑證必須將 SBC FQDN 做為 CN () 常用名稱或主旨替代名稱 (SAN) 欄位。
 
-或者，直接路由支援 CN 和/或 SAN 中的萬用字元，萬用字元必須符合標準 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 例如，使用 \* .contoso.com 會符合 SBC FQDN sbc.contoso.com，但與 sbc.test.contoso.com 不相符。
+或者，直接路由支援 CN 和/或 SAN 中的萬用字元，萬用字元必須符合標準 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。
+
+例如，使用 \* .contoso.com 會符合 SBC FQDN sbc.contoso.com，但與 sbc.test.contoso.com 不相符。
 
 直接路由 SIP 介面只會信任由憑證授權單位單位 (CAs 簽署的憑證，) 屬於Microsoft受信任的根憑證計畫。 請確定您的 SBC 憑證是由屬於該程式一部分的 CA 簽署，且憑證的擴充 (EKU) 副檔名包含伺服器驗證。
 深入瞭解：[計畫需求 - Microsoft受信任的根計畫](/security/trusted-root/program-requirements)
@@ -188,7 +190,7 @@ Microsoft建議您透過產生認證簽署要求 (CSR) ，來要求 SBC 的憑�
 > [!NOTE]
 > 如果已針對 SBC 上的 Teams 連線啟用共同 TLS (MTLS) 支援，則您必須在 Teams TLS 內容的 SBC 根信任存放區中安裝[連線埠] 和 [DigiCert 全域根 G2] 憑證。  (這是因為Microsoft服務憑證使用這兩種根憑證的其中之一。) 若要下載這些根憑證，[請參閱Office 365加密鏈結](/microsoft-365/compliance/encryption-office-365-certificate-chains)。 如需詳細資料，請參閱 [Office TLS 憑證變更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
 
-## <a name="sip-signaling-fqdns"></a>SIP 訊號：FQDN 
+## <a name="sip-signaling-fqdns"></a>SIP 訊號：FQDN
 
 在下列環境中提供直接路由：
 
@@ -274,6 +276,7 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>媒體流量：埠範圍
+
 請注意，如果您想要部署沒有媒體旁路的直接路由，下列需求適用。 如需 Media Bypass 的防火牆需求，請參閱 [使用直接路由規劃媒體略過](./direct-routing-plan-media-bypass.md)。
 
 媒體流量會流經和從Microsoft雲端的個別服務。 媒體流量的 IP 位址範圍如下所示。
@@ -292,7 +295,8 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 - 52.127.88.0/21
 
 ### <a name="port-range-applicable-to-all-environments"></a>適用于所有環境的埠範圍 () 
-媒體處理器的埠範圍如下表所示： 
+
+媒體處理器的埠範圍如下表所示：
 
 |交通|從|自|來源埠|目的地埠|
 |:--- |:--- |:--- |:--- |:--- |
@@ -301,7 +305,6 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
   > [!NOTE]
   > Microsoft建議至少在 SBC 上同時通話兩個埠。
-
 
 ## <a name="media-traffic-media-processors-geography"></a>媒體流量：媒體處理器地理位置
 
@@ -331,22 +334,23 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 僅適用于非媒體略過案例。 使用 Media Bypass，媒體會直接在 Teams 用戶端和 SBC 之間延伸。
 
-在雲端媒體處理器和 Microsoft Teams 用戶端之間的腿上，會使用 SILK 或 G.722。 此欄位上的編解碼器選擇是根據Microsoft演算法，並考慮多個參數。 
+在雲端媒體處理器和 Microsoft Teams 用戶端之間的腿上，會使用 SILK 或 G.722。 此欄位上的編解碼器選擇是根據Microsoft演算法，並考慮多個參數。
 
   > [!NOTE]
   > 不支援媒體重新設定目標。 在直接路由通話期間，如果 SBC 傳送新的媒體 IP 至 Teams 直接路由，雖然是在 SIP 訊號中交涉，但媒體永遠不會從 Teams 直接路由傳送至新的 IP 位址。
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支援的會話框線控制器 (SBC) 
 
-Microsoft僅支援通過認證的 SB 與直接路由配對。 由於企業語音對企業而言至關重要，Microsoft會對選取的 SBC 執行密集測試，並與 SBC 廠商合作以確保兩種系統相容。 
+Microsoft僅支援通過認證的 SB 與直接路由配對。 由於企業語音對企業而言至關重要，Microsoft會對選取的 SBC 執行密集測試，並與 SBC 廠商合作以確保兩種系統相容。
 
-已驗證的裝置列為「Teams 直接路由認證」。 認證的裝置可在所有案例中都能正常運作。 
+已驗證的裝置列為「Teams 直接路由認證」。 認證的裝置可在所有案例中都能正常運作。
 
 如需支援的 SBC 的詳細資訊，請參閱 [通過直接路由認證的會話框線控制器](direct-routing-border-controllers.md)。
 
 ## <a name="support-boundaries"></a>支援邊界
+
 與認證裝置一起使用時，Microsoft 僅支援具有直接路由的電話系統。 如果發生問題，您必須先與您的 SBC 廠商的客戶支援聯繫。 如有必要，SBC 廠商會透過內部管道將問題呈報給 Microsoft。 Microsoft 保留拒絕非認證裝置透過直接路由連接到電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，則客戶需要與 SBC 廠商重新聯繫以尋求支援。
- 
+
 ## <a name="see-also"></a>另請參閱
 
 [設定直接路由](direct-routing-configure.md)

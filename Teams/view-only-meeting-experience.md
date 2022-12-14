@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 872d2f904919186d631fbfbd913ee500ea6421d9
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706830"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392093"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -30,6 +30,9 @@ ms.locfileid: "67706830"
 
 > [!Note]
 > 如果您的會議達到容量限制，Teams 將會無縫調整，以容納 10,000 人僅供檢視的廣播體驗。 此外，在遠端工作數量增加的這段時間裡，到今年年底，請利用 20,000 人的更大廣播容量。 網路研討會目前不支援僅供檢視的廣播體驗。
+
+> [!Note]
+> Teams 會議不是 Teams Live Event (TLE) ，也不會運用 eCDN Microsoft。 如需詳細資訊，[請參閱Microsoft eCDN 上線檢查清單](/ecdn/integration/onboarding-checklist-for-tle-customers)。
 
 Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主要會議的容量限制後 (即 1000 位使用者進入會議時)，其他出席者將以僅供檢視體驗加入。
 
@@ -44,7 +47,7 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主
 
 ## <a name="teams-view-only-experience-controls"></a>Teams 僅供檢視體驗控制
 
-您可以使用來自 [SkypeForBusiness PowerShell 模組](/powershell/module/skype/?view=skype-ps)或 [MicrosoftTeams 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)至少 2.0.0 版的 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet 啟用僅供檢視體驗。
+您可以使用來自 [SkypeForBusiness PowerShell 模組](/powershell/module/skype/)或 [MicrosoftTeams 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)至少 2.0.0 版的 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 啟用僅供檢視體驗。
 
 若要使用建議的 `MicrosoftTeams` 模組：
 

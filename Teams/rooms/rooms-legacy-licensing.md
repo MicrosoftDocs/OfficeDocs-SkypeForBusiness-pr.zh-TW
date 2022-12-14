@@ -22,19 +22,19 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解及比較之前針對 Microsoft Teams 會議室 中不同類型的通話和會議功能所提供的授權。
-ms.openlocfilehash: bc1874a91aee3096c37e6b4c95774a3c8e3c1b7d
-ms.sourcegitcommit: 30429a67cf477afa97fb09aa3b301443d989f8eb
+ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68384780"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392390"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>Microsoft Teams 會議室舊版授權
 
 本文提供給于 2022 年 9 月 6 日前購買Microsoft Teams 會議室標準版或Microsoft Teams 會議室進階版舊版授權的客戶。 Teams 會議室已不再提供標準版和 Teams 會議室 進階版舊版授權可供購買。 如果您的舊版授權即將到期，或如果您需要為Teams 會議室裝置購買新的授權，請參[閱Microsoft Teams 會議室授權](rooms-licensing.md)。
 
 > [!IMPORTANT]
-> 本文中的資訊僅適用于 Teams 會議室 Standard 和 Teams 會議室 Premium 舊版授權，不適用於 Teams 會議室 Basic 和 Teams 會議室 專業版授權。 如需 Teams 會議室 Basic 和 Teams 會議室 專業版授權的相關資訊，請參[閱Microsoft Teams 會議室授權](rooms-licensing.md)。
+> 本文中的資訊僅適用于 Teams 會議室 Standard 和 Teams 會議室 Premium 舊版授權，不適用於 Teams 會議室 Basic 和 Teams 會議室專業版 授權。 如需Teams 會議室基本版和Teams 會議室專業版授權的相關資訊，請參[閱Microsoft Teams 會議室授權](rooms-licensing.md)。
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共用通訊裝置的授權解決方案
 
@@ -75,4 +75,4 @@ ms.locfileid: "68384780"
 
  另請參閱[絕佳的會議室體驗：認識新的Microsoft Teams 會議室標準版和進階版](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)。
 
- 如需授權通用區域電話的相關資訊，您可以閱讀設定 [Microsoft Teams 的通用區域電話授權](../set-up-common-area-phones.md) 。
+ 如需授權通用區域電話的相關資訊，您可以閱讀[為 Microsoft Teams 設定通用的區域電話](../set-up-common-area-phones.md)。

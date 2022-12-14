@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何針對音訊會議、電話系統和通話方案等功能，將 Teams 附加元件授權指派給使用者。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 635280582796f2b373efc0c763fea0887bcd6e42
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307778"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392083"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派 Teams 附加元件授權給使用者
 
@@ -148,6 +148,7 @@ ms.locfileid: "69307778"
 | 不含音訊會議的Microsoft Teams 會議室基本版 | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Microsoft Teams 會議室專業版 | Microsoft_Teams_Rooms_Pro |
 | 不含音訊會議的Microsoft Teams 會議室專業版 | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| Microsoft Teams 共用裝置 | MCOCAP |
 | Microsoft Teams 進階版 | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>相關內容

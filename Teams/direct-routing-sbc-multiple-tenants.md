@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定一個會話框線控制器 (SBC) ，為 Microsoft 合作夥伴和/或 PSTN 電信業者提供多個租使用者服務。
+description: 瞭解如何設定一個會話框線控制器 (SBC) ，為Microsoft合作夥伴和/或 PSTN 電信業者提供多個租使用者。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 570709730f7563b30b98626395f6b0a72fc1ac48
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614406"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392293"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
 直接路由支援設定一個會話框線控制器 (SBC) 以服務多個租使用者。
 
 > [!NOTE]
-> 此案例是專為本檔稍後提到的 Microsoft 合作夥伴和/或 PSTN 電信業者所設計。 電信業者銷售傳送給 Microsoft Teams 給客戶的電話語音服務。 
+> 此案例是專為Microsoft合作夥伴和/或 PSTN 電信業者所設計，在本文稍後提到。 電信業者將傳送給 Microsoft Teams 的電話語音服務銷售給客戶。 
 
 電信業者：
 -  (客戶不需要實作 SBC，即可在其資料中心部署及管理 SBC，且會從 Teams 用戶端) 中的電信業者接收電話語音服務。
@@ -38,7 +38,7 @@ ms.locfileid: "68614406"
 - 管理結束通話品質。
 - PSTN 服務需另行收費。
 
-Microsoft 不會管理電信業者。 Microsoft 提供電話系統—私人 Exchange (PBX) ，以及 Teams 用戶端。 Microsoft 也會認證手機，並認證可搭配手機系統使用的 SBC。 選擇電信業者之前，請先確定您的選擇有經過認證的 SBC，而且可以管理端對尾的語音品質。
+Microsoft不管理電信業者。 Microsoft提供電話系統—私人 Exchange (PBX) ，以及 Teams 用戶端。 Microsoft也認證手機，並認證可搭配手機系統使用的 SBC。 選擇電信業者之前，請先確定您的選擇有經過認證的 SBC，而且可以管理端對尾的語音品質。
 
 以下是設定案例的技術實作步驟。
 
@@ -52,15 +52,15 @@ Microsoft 不會管理電信業者。 Microsoft 提供電話系統—私人 Exch
 2. 啟用子功能變數名稱稱。
 3. 設定從電信業者到客戶租使用者的主幹，並布建使用者。
 
-*請確定您瞭解 DNS 基本概念，以及如何在 Microsoft 365 中管理功能變數名稱。請參閱 [取得 Microsoft 365 網域的說明，](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 然後再繼續進行。*
+*請確定您瞭解 DNS 基本概念，以及如何在 Microsoft 365 中管理功能變數名稱。請參閱 [取得Microsoft 365 網域的](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)說明，然後再繼續進行。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署和設定 SBC
 
 如需如何針對 SBC 主機服務案例部署和設定 SBC 的詳細步驟，請參閱 SBC 廠商的檔。
 
-- **AudioCodes：** 如需 SBC 主機服務案例的設定，請參閱 [直接路由設定附注](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) ，如「將 AudioCodes SBC 連線到 Microsoft Teams 直接路由主機模式設定注意事項」中所述。 
-- **甲骨文：** 如一節所述，請參閱 SBC 主機服務案例設定的 [直接路由設定附注](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) 。 
-- **功能區通訊：** 如需如何設定功能區核心系列 SBC 的檔，請參閱 [功能區通訊 SBC Core Microsoft Teams 設定指南](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) 。 另請參閱 [功能區最佳做法 - 設定 Microsoft Teams 直接路由 SBC Edge 的貨運公司](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **AudioCodes：** 如「將 AudioCodes SBC 連線至 Microsoft Teams 直接路由主機模式設定注意事項」中所述，請參閱 SBC 主機服務設定的 [直接路](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)由設定附注。 
+- **Oracle:** See [Direct Routing Configuration notes](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) for configuration of the SBC hosting scenario as described in the "Microsoft" section. 
+- **功能區通訊：** 如需如何設定功能區核心系列 SBC 的檔，請參閱功能 [區通訊 SBC Core Microsoft Teams 設定指南](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide)。 另請參閱[功能區最佳做法 - 設定 Microsoft Teams 直接路由 SBC Edge 的](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)貨運公司
 - **TE-Systems (任何節點) ：** 在 [TE-Systems 社群頁面網站上](https://community.te-systems.de/) 註冊，以取得如何為多個租使用者設定任何節點 SBC 的檔和範例。
 - **元切換：** 在 [元切換社群頁面網站上](https://manuals.metaswitch.com/MAN39555) 註冊，以取得如何為多個租使用者啟用 Perimeta SBC 的檔。
 
@@ -77,13 +77,13 @@ Microsoft 不會管理電信業者。 Microsoft 提供電話系統—私人 Exch
 在下列範例中：
 
 - Adatum 是提供網際網路和電話語音服務，為多位客戶提供服務的電信業者。
-- Woodgrove Bank、Contoso 和 Adventure Works 是三個擁有 Microsoft 365 網域但從 Adatum 接收電話語音服務的客戶。
+- Woodgrove Bank、Contoso 和 Adventure Works 是三個客戶，他們擁有Microsoft 365 個網域，但從 Adatum 接收電話語音服務。
 
 子域 **必須** 符合客戶所設定之主幹的 FQDN 名稱，以及傳送邀請至 Microsoft 365 時連絡人標頭中的 FQDN 名稱。 
 
 當來電送達 Microsoft 365 直接路由介面時，介面會使用連絡人標頭來尋找應查詢使用者的租使用者。 直接路由不會在 [邀請] 上使用電話號碼查閱，因為有些客戶的非 DID 號碼可能會與多個租使用者重迭。 因此，需要連絡人標頭中的 FQDN 名稱，才能識別確切的租使用者，才能依電話號碼查詢使用者。
 
-*如需在 Microsoft 365 組織中建立功能變數名稱的詳細資訊，請參閱 [取得 Microsoft 365 網域的說明](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。*
+*如需在 Microsoft 365 組織中建立功能變數名稱的詳細資訊，請參閱 [取得Microsoft 365 網域的說明](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。*
 
 下圖摘要列出基礎網域、子域和連絡人標頭的需求。
 
@@ -116,7 +116,7 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 
 若要驗證您擁有的角色，請登入Microsoft 365 系統管理中心 (https://portal.office.com) ，移至 **[使用者**  >  **作用中使用者**]，然後確認您擁有全域系統管理員角色。 
 
-如需有關系統管理員角色以及如何在 Microsoft 365 中指派角色的詳細資訊，請參閱 [關於系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+如需有關系統管理員角色以及如何在 Microsoft 365 中指派角色的詳細資訊，請參閱[關於系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>將基本網域新增至租使用者並進行驗證
 
@@ -141,12 +141,12 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 - 含 Office 365 F3 或 Microsoft 365 F1/F3 的使用者帳戶。
 - 含 G1/G3/G5 或 Microsoft 365 G3/G5 Office 365使用者帳戶。
 - 具有Microsoft 365 商務基本版/標準/進階版的使用者帳戶。
-- 具有通用區域電話的使用者帳戶。
+- 具有 **Microsoft Teams 共用裝置授權的** 使用者帳戶。
 - 具有 **Microsoft Teams 電話資源帳戶授權的資源帳戶**。
 
 此外，帳戶的 UPN (使用者主體名稱) 或商務用 Skype內部部署 SIP 位址必須與新建立的網域使用相同的 FQDN。
 
-如需在 Microsoft 365 組織中新增使用者的詳細資訊，請參閱 [取得 Microsoft 365 網域的說明](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。
+如需在 Microsoft 365 組織中新增使用者的詳細資訊，請參閱[取得Microsoft 365 網域的說明](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。
 
 例如：test@customers.adatum.biz
 
@@ -164,7 +164,7 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 
 若要驗證您擁有的角色，請登入Microsoft 365 系統管理中心 (https://portal.office.com) ，移至 **[使用者**  >  **作用中使用者**]，然後確認您擁有全域系統管理員角色。 
 
-如需有關系統管理員角色以及如何在 Microsoft 365 中指派角色的詳細資訊，請參閱 [關於系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+如需有關系統管理員角色以及如何在 Microsoft 365 中指派角色的詳細資訊，請參閱[關於系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>新增子域至客戶租使用者並進行驗證
 
@@ -206,12 +206,12 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 -   含 Office 365 E1/E3/E5/A3/A5 或 Microsoft 365 E3/E5/A3/A5 的使用者帳戶
 -   含 Office 365 F1/F3 或 Microsoft 365 F1/F3 的使用者帳戶
 -   含 Microsoft 365 商務基本版/標準/進階版和 G3/G5 方案的使用者帳戶
--   具有通用區域電話的使用者帳戶
+-   具有 **Microsoft Teams 共用裝置授權的** 使用者帳戶
 -   具有Microsoft Teams 電話 **資源帳戶授權的資源帳戶**
 
 此外，帳戶的 UPN (使用者主體名稱) 或商務用 Skype內部部署 SIP 位址必須與新建立的子域使用相同的 FQDN。
 
-如需在 Microsoft 365 組織中新增使用者的詳細資訊，請參閱 [取得 Microsoft 365 的說明](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。
+如需在 Microsoft 365 組織中新增使用者的詳細資訊，請參閱[取得 Microsoft 365 的說明](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。
 
 例如：test@sbc1.customers.adatum.biz
 
@@ -219,7 +219,7 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 
 ### <a name="create-a-trunk-and-provision-users"></a>建立主幹和布建使用者
 
-在初次發行直接路由時，Microsoft 需要使用New-CSOnlinePSTNGateway Cmdlet 將主幹新增至每個服務的租使用者 (客戶租使用者) 。
+初次發行直接路由時，Microsoft需要使用New-CSOnlinePSTNGateway Cmdlet 將主幹新增至每個服務的租使用者 (客戶租使用者) 。
 
 不過，此方法無法求出最佳的兩個原因：
  
@@ -227,7 +227,7 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 
 -  **負荷處理**。 收集和監控主幹健康情況資料： 從多個邏輯主幹收集的 SIP 選項，實際上是相同的 SBC 和相同的實體主幹，會減慢路由資料的處理速度。
  
-根據此意見反應，Microsoft 將提供新的邏輯，為客戶租使用者布建主幹。
+根據此意見反應，Microsoft會引入新的邏輯，為客戶租使用者布建主幹。
 
 已引進兩個新實體：
 
