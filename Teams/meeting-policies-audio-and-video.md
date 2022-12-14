@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理音訊和視訊的會議原則設定。
-ms.openlocfilehash: 111b91a26a3c1058c6fb574f5feb7b6a6d8c00b2
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 9e4e4ac9e2c1c63b9f45a71c5e006bba48ebbfc8
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307888"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379369"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音訊&視訊的會議原則設定
 
@@ -205,21 +205,21 @@ ms.locfileid: "69307888"
 
 ## <a name="far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras"></a> (FECC) 的遠端相機控制 (PTZ) 相機的平移傾斜縮放功能
 
-遠端相機控制是可指派給 Windows 資源帳戶上Teams 會議室的原則。 它允許連線至 Teams 會議室的 PTZ 相機，在會議期間由 Teams 用戶端應用程式中的會議參與者控制。
+遠端相機控制是可指派給Teams 會議室資源帳戶的原則。 它允許連線至 Teams 會議室的 PTZ 相機，在會議期間由 Teams 用戶端應用程式中的會議參與者控制。
 
 若要使用遠端相機控制，會議參與者必須取得 **PTZ 相機控制項** 應用程式。  請參閱 [允許和封鎖應用程式](manage-apps.md#allow-and-block-apps) ，以瞭解如何在貴組織的應用程式市集中使用該應用程式。
 
-若要指定誰可以在會議中使用遠端相機控制項，請使用[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) Cmdlet 建立並指派新原則給Teams 會議室資源帳戶，或使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)來修改現有的原則。 `TeamsCameraFarEndPTZMode`將參數設定為下列其中一個值：
+若要指定誰可以在會議中使用遠端相機控制項，請使用[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 建立並指派新原則給Teams 會議室資源帳戶，或使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)來修改現有的原則。 `TeamsCameraFarEndPTZMode`將參數設定為下列其中一個值：
 
 |設定值|行為|
 |---|---|
-|已停用|這是預設設定。 設定為「停用」時，沒有人可以使用 PTZ 相機控制項。|
-|AutoAcceptAll|PTZ 相機控制項會自動提供給任何會議參與者使用。|
-|AutoAcceptInTenant|PTZ 相機控制項僅自動提供給與 Teams 會議室相同的組織中的參與者使用。|
+|`Disabled`|這是預設設定。 設定為 `Disabled` 時，沒有人可以使用 PTZ 相機控制項。|
+|`AutoAcceptAll`|PTZ 相機控制項會自動提供給任何會議參與者使用。|
+|`AutoAcceptInTenant`|PTZ 相機控制項僅自動提供給與 Teams 會議室相同的組織中的參與者使用。|
 
 設定 `TeamsCameraFarEndPTZMode` 為 `AutoAcceptAll` 或 `AutoAcceptInTenant` 時，在會議期間，仍然可以從 Teams 會議室手動關閉相機控制項。 當相機關閉時，相機控制也無法使用。
 
-支援任何具有機械 PTZ 和 UVC 控制項的相機。 如需 Teams 認證的相機清單，包括 PTZ 和非 PTZ 相機，請參閱 [USB 音訊和視訊周邊裝置的認證韌體版本](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)。 在配備數位 PTZ 控制項的相機或 Android 上的 Teams 會議室 上尚未支援此功能。  
+支援任何具有機械 PTZ 和 UVC 控制項的相機。 如需 Teams 認證的相機清單，包括 PTZ 和非 PTZ 相機，請參閱 [USB 音訊和視訊周邊裝置的認證韌體版本](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)。 使用數位 PTZ 控制項的相機尚未支援此功能。  
 
 > [!NOTE]
 > 測試 PTZ 控制項之前，請先更新您的相機韌體。 請參閱原始設備製造商 (OEM) 檔以更新韌體。

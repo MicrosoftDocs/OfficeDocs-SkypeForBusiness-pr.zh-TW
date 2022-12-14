@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: 瞭解如何在 teams 中設定和管理自動語音應答Microsoft。
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307538"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379389"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>設定 Microsoft Teams 自動語音應答
 
@@ -172,7 +172,7 @@ ms.locfileid: "69307538"
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步驟 4：設定假日 (選擇性) 
 
-您的自動語音應答可以為 [您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您可以為每個自動語音應答新增最多 20 個排定的假日。
+您的自動語音應答可以為 [您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您最多可以在每個自動語音應答中新增 20 組佳節。 每個假日集最多可以包含 10 個唯一的日期範圍。 在自動語音應答中新增的所有假日集中，假日日期都必須是唯一的。
 
 *新增 - 可以啟用強制聆聽選項，讓來電者在選取前必須先聆聽所有功能表選項。* 
 *新增 - \* (星號) 和 \# (磅) 鍵現在可用於功能表選項中。* 

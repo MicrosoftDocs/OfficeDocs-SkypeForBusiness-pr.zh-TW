@@ -1,5 +1,5 @@
 ---
-title: 設定 Microsoft Teams 的自動語音應答
+title: 設定 Teams Microsoft自動語音應答
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,17 +20,17 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: 瞭解如何在 Microsoft Teams 中設定和管理自動語音應答。
-ms.openlocfilehash: 97f298e03a6495dda4ec7568f3e3b022548bba08
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+description: 瞭解如何在 teams 中設定和管理自動語音應答Microsoft。
+ms.openlocfilehash: 0acdbacb9899184aaf21003193d62b3dcc4eab3a
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139257"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379359"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
-自動語音應答可讓人員撥打電話給您的組織，並流覽功能表系統與正確的部門、通話佇列、人員或電信業者通話。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 為貴組織建立自動語音應答。
+自動語音應答可讓人員撥打電話給您的組織，並流覽功能表系統與正確的部門、通話佇列、人員或電信業者通話。 您可以透過 teams 系統管理中心或 PowerShell Microsoft為貴組織建立自動語音應答。
 
 請確定您已閱讀 [規劃 Teams 自動語音應答和通話佇列](plan-auto-attendant-call-queue.md) ，並遵循 [開始步驟](plan-auto-attendant-call-queue.md#getting-started) ，然後再遵循本文中的程式。
 
@@ -39,8 +39,8 @@ ms.locfileid: "69139257"
 - **運算子** - 為自動語音應答定義的運算子。 定義運算子是選用的。 運算子可以定義為此清單中的其他任何目的地。
 - **組織中的** 人員- 組織中可接聽語音通話的人員。 此人可以是線上使用者或使用商務用 Skype Server裝載于內部部署的使用者。
 - **語音應用程式** - 另一個自動語音應答或通話佇列。  (選擇此目的地時，選擇與自動語音應答或通話佇列相關聯的資源帳戶。) 
-- **語音信箱** - 與您指定的 Microsoft 365 群組相關聯的語音信箱。 您可以選擇是否要語音信箱轉譯，以及「請在鈴聲後面留下訊息」。 系統提示。
-  - 在 M365 管理員中心為您指定的 Microsoft 365 群組啟用「讓組織外部的人員傳送電子郵件給此小組」。
+- **語音信箱**- 與您指定Microsoft 365 群組相關聯的語音信箱。 您可以選擇是否要語音信箱轉譯，以及「請在鈴聲後面留下訊息」。 系統提示。
+  - 在 M365 管理員中心為您指定的Microsoft 365 群組啟用「讓組織外部的人員傳送電子郵件給此小組」。
 - **外部電話號碼** - 任何電話號碼。 請參閱 [外部傳輸技術詳細資料](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details)。
 - **公告 (音訊檔案)** - 播放音訊檔案。 您上傳儲存為音訊的錄製公告訊息。WAV、.MP3 或 。WMA 格式。 錄製不得大於 5 MB。 系統會播放公告，然後返回自動語音應答功能表。
 - **宣告 (輸入)** - 輸入訊息。 您要讓系統讀取的文字。 您最多可以輸入 1000 個字元。 系統會播放公告，然後返回自動語音應答功能表。
@@ -170,7 +170,7 @@ ms.locfileid: "69139257"
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步驟 4：設定假日 (選擇性) 
 
-您的自動語音應答可以為 [您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您可以為每個自動語音應答新增最多 20 個排定的假日。
+您的自動語音應答可以為 [您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您最多可以在每個自動語音應答中新增 20 組佳節。 每個假日集最多可以包含 10 個唯一的日期範圍。 在自動語音應答中新增的所有假日集中，假日日期都必須是唯一的。
 
 *新增 - 可以啟用強制聆聽選項，讓來電者在選取前必須先聆聽所有功能表選項。* 
 *新增 - \* (星號) 和 \# (磅) 鍵現在可用於功能表選項中。* 
@@ -201,7 +201,7 @@ ms.locfileid: "69139257"
 
 *撥號範圍* 會定義當來電者使用撥號依據名稱或撥號方式延伸時，哪些使用者可在目錄中使用。 [**所有線上使用者]** 的預設值包含貴組織中所有使用 商務用 Skype Server 的線上使用者或內部部署託管的使用者。
 
-您可以選取 [包含] 或 [**排除****] 底下的** **[自訂使用者群組**]，然後選擇一或多個 Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定使用者。 例如，您可能會想要將貴組織中的高階主管從撥號目錄中排除。
+您可以在 [包含] 或 [**排除****] 底下** 選取 [**自訂使用者群組**]，然後選擇一或多個Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定使用者。 例如，您可能會想要將貴組織中的高階主管從撥號目錄中排除。
 
 如果使用者同時在兩份清單中，則會從目錄中排除使用者。
 

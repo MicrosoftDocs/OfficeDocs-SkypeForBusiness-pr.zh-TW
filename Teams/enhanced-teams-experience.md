@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 瞭解適用于系統管理員和 IT 專業人員Microsoft Teams 進階版。
-ms.openlocfilehash: f38afe581c96cfe64bd5fd305c3d5f7f09b7c83e
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308016"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379460"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams 進階版 - 適用于系統管理員的概觀
 
@@ -65,13 +65,13 @@ Teams 進階版提供下列主要功能來保護會議安全的其他方式：
 
 
 
-| 功能/工作  | 適用于系統管理員的檔 |
-| -------------------- | ----------- | 
-| 敏感度標籤 | [設定具有三層保護層級的 Teams 會議](configure-meetings-three-tiers-protection.md) | 
-| 浮水印 | [會議需要浮水印 (文章) ](watermark-meeting-content-video.md) |
-| 端對端加密 (E2EE)  | [機密會議加密](end-to-end-encrypted-meetings.md) | 
-| 範本、標籤和原則 | [範本、敏感度標籤和原則](meeting-templates-sensitivity-labels-policies.md)
-| 限制可以錄製的人員 | [管理敏感性會議的錄製內容](manage-meeting-recording-options.md) | 
+| 功能/工作  | 適用于系統管理員的檔 | 適用于使用者的檔
+| -------------------- | ----------- | ------------ |
+| 敏感度標籤 | [設定具有三層保護層級的 Teams 會議](configure-meetings-three-tiers-protection.md) | |
+| 浮水印 | [會議需要浮水印](watermark-meeting-content-video.md) | [會議浮水印](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
+| 端對端加密 (E2EE)  | [機密會議加密](end-to-end-encrypted-meetings.md) | [使用加密](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| 範本、標籤和原則 | [範本、敏感度標籤和原則](meeting-templates-sensitivity-labels-policies.md)  | [使用自訂範本](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
+| 限制可以錄製的人員 | [管理敏感性會議的錄製內容](manage-meeting-recording-options.md) | [錄製會議](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 
 
 ## <a name="custom-meetings"></a>自訂會議
@@ -86,12 +86,12 @@ Teams 進階版提供下列自訂會議的其他功能：
 
 - **自訂共聚模式場景** - Teams 應用程式，可讓貴組織中的開發人員定義及自訂會議的視訊場景。  
 
-| 功能/工作 | 適用于系統管理員的檔 |
-| -------------------- | ----------- | 
-| 會議範本 | - [概述](custom-meeting-templates-overview.md)<br>- [建立自訂會議範本](create-custom-meeting-template.md)|
-| 會議主題 | [Teams 會議的主題](meeting-themes.md) | 
-| 自訂會議背景 | [會議背景](custom-meeting-backgrounds.md)| 
-| 自訂共聚模式場景 | [為您和您的開發人員提供的內容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+| 功能/工作 | 適用于系統管理員的檔 | 適用于使用者的檔
+| -------------------- | ----------- | ------------ |
+| 會議範本 | - [概述](custom-meeting-templates-overview.md)<br>- [建立自訂會議範本](create-custom-meeting-template.md)| [使用自訂範本](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| 會議主題 | [Teams 會議的主題](meeting-themes.md) | [使用會議主題](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| 自訂會議背景 | [會議背景](custom-meeting-backgrounds.md)| |
+| 自訂共聚模式場景 | [為您和您的開發人員提供的內容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 
@@ -108,11 +108,11 @@ Teams 進階版提供新的 Teams 事件原則，為您的使用者提供進階�
 - **註冊概觀和管理** - 根據已啟用的註冊功能，每個事件的註冊狀態摘要，包含不同註冊狀態的出席者清單。
 
 
-| 功能/工作 | 適用于系統管理員的檔 | 
-| -------------------- | ----------- | 
-| 瞭解會議、網路研討會和即時活動 | [快速入門](quick-start-meetings-live-events.md) | 
-| 設定網路研討會 | [設定網路研討會](set-up-webinars.md) | 
-| 網路研討會的會議原則 | [會議原則](meeting-policies-in-teams-general.md)
+| 功能/工作 | 適用于系統管理員的檔 | 適用于使用者的檔
+| -------------------- | ----------- | ----------- |
+| 瞭解會議、網路研討會和即時活動 | [快速入門](quick-start-meetings-live-events.md) | |
+| 設定網路研討會 | [設定網路研討會](set-up-webinars.md) | - [管理網路研討會註冊](https://support.microsoft.com/office/manage-webinar-registration-923f382a-0cca-433a-b38d-7461971192d1) <br> - [管理出席者看到的內容](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| 網路研討會的會議原則 | [會議原則](meeting-policies-in-teams-general.md) | |
 
 
 
