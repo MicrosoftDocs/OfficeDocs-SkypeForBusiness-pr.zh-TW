@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 43e960a623992502f07d028a152fec3104e8670b
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912472"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412246"
 ---
 # <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>應用程式和相關系統管理員考慮所執行的資訊存取和執行的動作
 
@@ -68,12 +68,6 @@ Microsoft Teams 應用程式會將一或多個功能匯總到可安裝、升級�
   * 接收個人訊息並回復。
   * 接收群組聊天並回復。
   * 接收頻道訊息並回復。
-
-* 下列並非明確權限，而是 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 所隱含，以及在資訊清單中宣告可使用 Bot 的範圍：
-
-  * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES，RECEIVE_FILES：<sup>2</sup> 控制機器人是否可以在個人聊天中傳送和接收檔案 (尚不支援群組聊天或頻道)。
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我們向想要使用音訊會議的客戶提出的一些常見問題。
-ms.openlocfilehash: 84d8ab22cd30d11dc15867bd3de67109bc245a17
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: e7ea0d02e258d7a6fa47b53c4a13f2af1ae45189
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641734"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412236"
 ---
 # <a name="audio-conferencing-common-questions"></a>音訊會議的常見問題
 
@@ -66,7 +66,7 @@ ms.locfileid: "67641734"
   
 ## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Microsoft 365 中的音訊會議或Office 365支援多少個國際撥入號碼？
 
-如需目前的國家/地區清單，請參閱 [Microsoft Teams 中音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
+如需目前的國家/地區清單，請參閱[Microsoft Teams 中音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
   
 ## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>音訊會議會議的長度上限為何？
 
@@ -86,7 +86,7 @@ ms.locfileid: "67641734"
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>使用者為何開始收到含有音訊會議資訊的電子郵件？
 
-我們新增了一項新功能，可讓系統 [管理員](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)您在電子郵件中傳送及更新音訊會議資訊和 PIN。 若要深入瞭解，包括如何停用，請參閱 [當 Microsoft Teams 中的音訊會議設定變更時，啟用或停用傳送電子郵件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)。
+我們新增了一項新功能，可讓系統 [管理員](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)您在電子郵件中傳送及更新音訊會議資訊和 PIN。 若要深入瞭解，包括如何停用，請參閱[啟用或停用在 teams 中音訊會議設定變更時傳送電子郵件Microsoft。](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>使用者可以取得個人會議 ID 嗎？
 
@@ -94,7 +94,7 @@ Teams 使用者會被隨機指派會議識別碼。 使用者無法保留或設�
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>使用者可以在會議期間取得電信業者協助嗎？
 
-否，使用者在會議期間按 *0，無法取得任何電信業者協助或支援。 如果音訊會議有問題，組織的系統管理員可以連絡[Microsoft 支援服務以取得Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+否，使用者在會議期間按 *0，無法取得任何電信業者協助或支援。 如果音訊會議有問題，組織的系統管理員可以連[絡Microsoft支援Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>使用者如何存取或變更其會議 ID？
 
@@ -126,15 +126,17 @@ Teams 使用者可以在設定之後傳送給他們的電子郵件中找到 PIN�
 
 僅適用于會議召集人：
 
-| 命令名稱                   | 命令按鍵 | 描述                                                 |
-|--------------------------------|--------------|-------------------------------------------------------------|
-| [全部准許]                      | \*21         | 按 \* 21 以准許所有在大廳等候的參與者。  |
-| 全部靜音                       | \*22         | 按 \* 22 以將召集人) 以外的所有 (參與者設為靜音。 |
-| 切換 Enter/Exit 宣告 | \*23         | 按 \* 23 以啟用或停用 Enter/Exit 宣告。    |
+| 命令名稱                     | 命令按鍵 | 描述                                                   |
+|----------------------------------|--------------|---------------------------------------------------------------|
+| [全部准許]                        | \*21         | 按 \* 21 以准許所有在大廳等候的參與者。    |
+| 全部靜音                         | \*22         | 按 \* 22 以將召集人) 以外的所有 (參與者設為靜音。   |
+| 切換 Enter/Exit 宣告   | \*23         | 按 \* 23 以啟用或停用 Enter/Exit 宣告。      |
+| 在大廳聆聽參與者計數  | \*24         | 按 \* 24 以聆聽在大廳等候的參與者計數。|
+
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-teams-meeting"></a>出席者參加 Teams 會議時，是否可以撥出國際電話號碼？
 
-是的，出席者可以撥出國際電話，並邀請其他來電者加入 Teams 會議。 請參閱 [從 Microsoft Teams 會議撥出，讓其他人可以加入會議](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)。
+是的，出席者可以撥出國際電話，並邀請其他來電者加入 Teams 會議。 請參閱[從 Microsoft Teams 會議撥出，讓其他人可以加入會議](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)。
   
 ## <a name="how-does-a-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Teams 使用者如何使用音訊會議會議詳細資料排程會議？
 
@@ -146,7 +148,7 @@ Teams 使用者可以在設定之後傳送給他們的電子郵件中找到 PIN�
 
 - **選項 #1**：根據預設，如果會議召集人和所有參與者都使用電話加入會議，會議召集人必須輸入她的音訊會議 PIN 才能啟動會議。 當來電者撥打線上會議的電話號碼時，系統會詢問他們是否要驗證為指定會議的召集人。 在召集人開始前透過撥入加入會議的所有參與者都會被置於大廳，並聆聽保留的音樂。 對於 Teams 會議，參與者會根據自動允許召集人會議原則中的人員設定值加入會議。
 
-- **選項 #2**：預設會停用 [允許未驗證的來電者成為會議中的第一位人員] 設定。 如果已為指定的召集人啟用此設定，則該召集人所排程的所有會議都可以在召集人輸入音訊會議 PIN 之前開始。 啟用此設定時，第一個參與者透過撥入電話號碼加入會議時，會議就會立即開始，且第一個參與者不會被置於大廳。 如需詳細資訊，請參閱 [在 Microsoft Teams 中管理使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。
+- **選項 #2**：預設會停用 [允許未驗證的來電者成為會議中的第一位人員] 設定。 如果已為指定的召集人啟用此設定，則該召集人所排程的所有會議都可以在召集人輸入音訊會議 PIN 之前開始。 啟用此設定時，第一個參與者透過撥入電話號碼加入會議時，會議就會立即開始，且第一個參與者不會被置於大廳。 如需詳細資訊，請參閱[在 Microsoft Teams 中管理使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。
 
 ## <a name="related-topics"></a>相關主題
 
