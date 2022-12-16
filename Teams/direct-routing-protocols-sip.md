@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a5a05dbc6519c4f90cf0cc0d49e996467bf10230
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396314"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414721"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 通訊協定
 
@@ -46,7 +46,7 @@ ms.locfileid: "67396314"
 > 請注意，SIPS URI 不應與直接路由搭配使用，因為它不受支援。
 > 檢查會話框線控制器設定，並確認您未在 SIP 要求中使用「取代」標頭。 直接路由會拒絕已定義取代標頭的 SIP 要求。
 
-在來電中，SIP Proxy 必須尋找來電目的地的租使用者，並在此租使用者中尋找特定使用者。 租使用者系統管理員可能會在多個租使用者中設定非 DID 號碼，例如 +1001。 因此，請務必尋找要執行數位查閱的特定租使用者，因為非 DID 的數位在多個 Microsoft 365 或Office 365組織中可能相同。  
+在來電中，SIP Proxy 必須尋找來電目的地的租使用者，並在此租使用者中尋找特定使用者。 租使用者系統管理員可能會在多個租使用者中設定非 DID 號碼，例如 +1001。 因此，請務必尋找要執行數位查閱的特定租使用者，因為非 DID 的數位在多個Microsoft 365 或Office 365組織中可能相同。  
 
 本節說明 SIP Proxy 如何尋找租使用者和使用者，並在傳入連線上執行 SBC 驗證。
 
@@ -60,7 +60,7 @@ ms.locfileid: "67396314"
 | 從頁首 | 從頁首：<sip：+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | 移至頁首 | To：sip:+183338006777@sbc1.adatum.biz | 
 | CSeq 標頭 | CSeq：1 邀請 | 
-| 連絡頁首 | 連絡人：<sip：68712781@sbc1.adatum.biz：5058;transport=tls> | 
+| 連絡頁首 | 聯繫： <sip:+17168712781@sbc1.adatum.biz:5058;transport=tls> | 
 
 收到邀請時，SIP Proxy 會執行下列步驟：
 
@@ -72,17 +72,17 @@ ms.locfileid: "67396314"
 
 2. 嘗試使用連絡人標頭中顯示的完整 FQDN 名稱尋找租使用者。  
 
-   檢查連絡人標題 (sbc1.adatum.biz) 的 FQDN 名稱是否在任何 Microsoft 365 或Office 365組織中註冊為 DNS 名稱。 如果找到，使用者的查閱會在已註冊為功能變數名稱的 SBC FQDN 租使用者中執行。 如果找不到，則適用步驟 3。   
+   檢查連絡人標頭中的 FQDN 名稱 (sbc1.adatum.biz) 是否在任何Microsoft 365 或Office 365組織中註冊為 DNS 名稱。 如果找到，使用者的查閱會在已註冊為功能變數名稱的 SBC FQDN 租使用者中執行。 如果找不到，則適用步驟 3。   
 
 3. 步驟 3 僅適用于步驟 2 失敗時。 
 
-   移除 FQDN 中的主機部分，此部分會在 [連絡人] 標題 (FQDN 中顯示：移除主機部分之後 sbc12.adatum.biz：adatum.biz) ，並檢查此名稱是否在任何 Microsoft 365 或Office 365組織中註冊為 DNS 名稱。 如果找到，使用者查閱會在此租使用者中執行。 如果找不到，通話會失敗。
+   移除 FQDN 中的主機部分，此部分在移除主機部分後，于 [連絡人] 標題 (FQDN 中顯示：sbc12.adatum.biz：adatum.biz) ，並檢查此名稱是否在任何Microsoft 365 或Office 365組織中註冊為 DNS 名稱。 如果找到，使用者查閱會在此租使用者中執行。 如果找不到，通話會失敗。
 
 4. 使用 Request-URI 中顯示的電話號碼，在步驟 2 或 3 找到的租使用者內執行反向號碼查閱。 將呈現的電話號碼與上一個步驟找到之租使用者內的使用者 SIP URI 相符。
 
 5. 套用主幹設定。 尋找此 SBC 租使用者系統管理員所設定的參數。
 
-   Microsoft 不支援在 Microsoft SIP Proxy 與配對 SBC 之間擁有協力廠商 SIP Proxy 或使用者代理伺服器，這可能會修改由配對 SBC 建立的要求 URI。
+   Microsoft不支援在 Microsoft SIP Proxy 和配對 SBC 之間擁有協力廠商 SIP Proxy 或使用者代理伺服器，這可能會修改由配對 SBC 建立的要求 URI。
 
    這兩個查閱的需求 (本文稍後所說明的一個 SBC 與許多租使用者相互連線至許多租使用者 (電信業者案例時，所需步驟 2 和 3) ) 步驟 2 和 3。
 
@@ -90,7 +90,7 @@ ms.locfileid: "67396314"
 
 #### <a name="contact-header"></a>連絡頁首
 
-針對 [選項] (所有內送 SIP 訊息，邀請) 至 Microsoft SIP Proxy，連絡人標頭必須在 URI 主機名稱中擁有配對的 SBC FQDN，如下所示：
+對於 [選項] (的所有內送 SIP 訊息，邀請) 至 Microsoft SIP Proxy，連絡人標頭必須在 URI 主機名稱中有配對的 SBC FQDN，如下所示：
 
 語法：連絡人：<SBC 的 sip：phone 或 sip address@FQDN;transport=tls> 
 
@@ -98,7 +98,7 @@ ms.locfileid: "67396314"
 
 語法：連絡人：<SBC 的 sip：FQDN;transport=tls>
 
-此名稱 (FQDN) 也必須位於通用名稱或主旨替代名稱欄位 (所呈現憑證的) 。 Microsoft 支援在憑證的 [通用名稱] 或 [主旨替代名稱] 欄位中使用名稱 () 的萬用字元值。   
+此名稱 (FQDN) 也必須位於通用名稱或主旨替代名稱欄位 (所呈現憑證的) 。 Microsoft支援在憑證的 [通用名稱] 或 [主旨替代名稱] 欄位中使用名稱 () 的萬用字元值。   
 
 [RFC 2818，第 3.1 節](https://tools.ietf.org/html/rfc2818#section-3.1)說明萬用字元的支援。 特別：
 
@@ -133,9 +133,9 @@ SIP Proxy 需要針對新的對話方塊用戶端交易計算下一個躍點 FQD
 
 根據 [RFC 3261，區段 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)，任何可能導致新對話方塊的要求中都必須有連絡人標頭。 只有 Proxy 想要維持在對話方塊中未來要求的路徑時，才需要Record-Route。 如果 Proxy SBC 正與 [「本機媒體優化」搭配直接路由](./direct-routing-media-optimization.md)使用，記錄路由就必須設定為 Proxy SBC 需要留在路由中。 
 
-如果不使用 Proxy SBC，Microsoft 建議您只使用連絡人標頭：
+Microsoft建議在不使用 Proxy SBC 時，只使用連絡人標頭：
 
-- 根據 [RFC 3261，區段 20.30](https://tools.ietf.org/html/rfc3261#section-20.30)，如果 Proxy 想要維持在對話方塊中未來要求的路徑，則會使用Record-Route。如果沒有設定 Proxy SBC，因為 Microsoft SIP Proxy 和配對 SBC 之間的流量都沒關係。 
+- 根據[RFC 3261，區段 20.30](https://tools.ietf.org/html/rfc3261#section-20.30)，如果 Proxy 想要維持在對話方塊中未來要求的路徑，則會使用Record-Route。如果沒有設定 Proxy SBC，因為所有流量都會在 Microsoft SIP Proxy 和配對 SBC 之間移動，這並非必要。 
 
 - Microsoft SIP Proxy 只會使用連絡人標頭 (而非 Record-Route) 來判斷傳送輸出 ping 選項時的下一個躍點。 只要設定一個參數 (連絡人) ，而不是兩個 (連絡人和 Record-Route) 簡化不使用 Proxy SBC 的系統管理。 
 
@@ -228,7 +228,7 @@ SBC 必須支援 [以取代邀請]。
 
 ## <a name="size-of-sdp-considerations"></a>SDP 考慮的大小
 
-直接路由介面可能會傳送超過 1，500 位元組的 SIP 訊息。  SDP 的大小主要會導致此問題。 不過，如果 SBC 後方有 UDP 主幹，如果郵件從 Microsoft SIP Proxy 轉寄到未修改的主幹，可能會拒絕該郵件。 Microsoft 建議您在將郵件傳送到 UDP 主幹時，在 SBC 上的 SDP 中去除某些值。 例如，可以移除 ICE 候選字或未使用的編解碼器。
+直接路由介面可能會傳送超過 1，500 位元組的 SIP 訊息。  SDP 的大小主要會導致此問題。 不過，如果 SBC 後方有 UDP 主幹，如果郵件從 Microsoft SIP Proxy 轉寄至未修改的主幹，可能會拒絕該郵件。 Microsoft建議在將郵件傳送到 UDP 主幹時，在 SBC 上的 SDP 中去除某些值。 例如，可以移除 ICE 候選字或未使用的編解碼器。
 
 ## <a name="call-transfer"></a>來電轉接
 
@@ -317,11 +317,11 @@ SIP Proxy 支援 (一律在非略過的通話上提供) 會話計時器，但不
 
 SIP Proxy 會分析 Request-URI，如果出現參數 user=phone，服務會以電話號碼處理 Request-URI，與使用者的號碼相符。 如果參數不存在，SIP Proxy 會套用語言來判斷電話號碼或 SIP 位址)  (Request-URI 使用者類型。
 
-Microsoft 建議一律套用 user=phone 參數，以簡化通話設定程式。
+Microsoft建議一律套用 user=phone 參數以簡化通話設定程式。
 
 ## <a name="history-info-header"></a>History-Info頁首
 
-History-Info標頭用於重新設定 SIP 要求，以及「提供 () 擷取要求歷程記錄資訊的標準機制，以便為網路和使用者啟用各種服務」。 如需詳細資訊，請參閱 [RFC 4244 – 節 1.1](http://www.ietf.org/rfc/rfc4244.txt)。 對於 Microsoft Phone System，此標頭用於 Simulring 和來電轉接案例。  
+History-Info標頭用於重新設定 SIP 要求，以及「提供 () 擷取要求歷程記錄資訊的標準機制，以便為網路和使用者啟用各種服務」。 如需詳細資訊，請參閱 [RFC 4244 – 節 1.1](http://www.ietf.org/rfc/rfc4244.txt)。 對於Microsoft電話系統，此標頭用於 Simulring 和來電轉接案例。  
 
 如果傳送，History-Info會以下列方式啟用：
 
@@ -363,7 +363,7 @@ History-Info受到強制性 TLS 機制保護。
 
 ## <a name="retry-after"></a>Retry-After
 
-如果直接路由資料中心忙碌中，服務可以將間隔一秒的Retry-After郵件傳送到 SBC。 當 SBC 收到含有Retry-After標頭的 503 郵件以回應 INVITE 時，SBC 必須終止該連線，並嘗試下一個可用的 Microsoft 資料中心。
+如果直接路由資料中心忙碌中，服務可以將間隔一秒的Retry-After郵件傳送到 SBC。 當 SBC 收到含有Retry-After標頭的 503 郵件以回應 INVITE 時，SBC 必須終止該連線，並嘗試下一個可用Microsoft資料中心。
 
 ## <a name="handling-retries-603-response"></a>處理 603 回應 (重述) 
 如果使用者在拒絕來電後觀察到多個未接來電，表示 SBC 或 PSTN 主幹提供者的重試機制設定錯誤。 SBC 必須重新設定，才能停止 603 回應的重試。

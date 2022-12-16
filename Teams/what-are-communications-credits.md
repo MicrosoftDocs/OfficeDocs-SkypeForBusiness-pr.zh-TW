@@ -24,12 +24,12 @@ ms.custom:
 - Licensing
 - admindeeplinkMAC
 description: '瞭解哪些通訊點數 (PSTN 消費) 帳單、如何尋找費率，以及您可取得哪些服務。 '
-ms.openlocfilehash: 6d64c89aa62d7209a1135234e975f492e7c182a9
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: e66edfcb63b7569b02268b355c7b851c61763810
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139157"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414691"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
@@ -39,7 +39,7 @@ ms.locfileid: "69139157"
 
 - 從音訊會議撥出電話，即可從全球各地新增其他人。
 
-- 使用 Microsoft Teams 應用程式或已安裝的商務用 Skype應用程式，從音訊會議撥出到您的行動電話，以連至訂閱中尚未包含的目的地。
+- 使用已安裝 Microsoft Teams 應用程式或 商務用 Skype 應用程式，從音訊會議撥出到您的行動電話，以移至訂閱中尚未包含的目的地。
 
 - 當您有 **國內通話方案** 訂閱時，撥打任何國際電話號碼。
 
@@ -98,7 +98,7 @@ ms.locfileid: "69139157"
   
 ## <a name="communications-credits"></a>通訊點數
 
-每個組織都會有不同的通話方案音量和費率的使用方式。 您必須向目前的服務提供者取得這種類型的使用狀況資料。 對於已經使用 Teams 作為其服務提供者的組織，您可以在 Microsoft Teams 系統管理中心檢閱資料>**分析&報告**  >  **使用方式報告**，然後選取 **[PSTN 與 SMS (預覽) 使用方式**]，以取得使用狀況資料。
+每個組織都會有不同的通話方案音量和費率的使用方式。 您必須向目前的服務提供者取得這種類型的使用狀況資料。 對於已經使用 Teams 作為其服務提供者的組織，您可以在 Microsoft Teams 系統管理中心檢閱資料>**分析&報告****使用方式報告**  >  ，然後選取 **[PSTN 與簡訊 (預覽) 使用方式**]，以取得使用狀況資料。
   
 當您設定通訊點數時，您必須調查貴組織的通話使用狀況，以判斷您需要存入的金額。 您可以檢閱 PSTN 使用方式報告，以取得通話使用狀況資訊。 此報告可讓您將通話資料記錄匯出至 Excel，並建立自訂報告。
 
@@ -106,11 +106,11 @@ ms.locfileid: "69139157"
 
 - 計費系統管理員
 - 商務用 Skype系統管理員]
-- 公司系統管理員
-- 使用者帳戶系統管理員
+- 全域系統管理員
+- 使用者系統管理員
 - 技術服務管理員
 - 服務支援系統管理員
-- 裝置系統管理員
+- Azure AD 加入裝置本機系統管理員
 - 應用程式系統管理員
 - 授權系統管理員
 - 雲端裝置系統管理員
@@ -142,7 +142,7 @@ ms.locfileid: "69139157"
 
 您也可以 [登入Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至  >  帳單 **購買服務**，以查看價格的相關資訊。
   
-若要查看每個功能所需的授權或授權資料表，請參閱 [Microsoft Teams 附加](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)元件授權。
+若要查看每個功能所需的授權資料表，請[參閱Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-articles"></a>相關文章
 

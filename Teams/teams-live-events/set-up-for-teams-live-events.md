@@ -21,12 +21,12 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a6fff8443899431176c904bf5a253ceed38d44f4
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 899229e5acfdbd5864cc055672f4ae7ac16e6dee
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965099"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414711"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -81,7 +81,7 @@ ms.locfileid: "68965099"
 
 若要讓使用者排程使用外部應用程式或裝置製作的活動，您也必須執行下列步驟：
 
-1. 為組織中的使用者啟用 Microsoft Stream。 Stream 隨附于合格的 Microsoft 365 或Office 365訂閱或獨立服務中。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](/stream/license-overview)。
+1. 為組織中的使用者啟用 Microsoft Stream。 Stream 可做為符合資格的 Microsoft 365 或Office 365訂閱或獨立服務的一部分提供。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](/stream/license-overview)。
 
    >[!Note]
    > 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。 深入瞭解如何 [**指派授權給使用者**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者能夠存取 Stream。 請確定 [**不會依照本文**](/stream/disable-user-organization)所定義，封鎖使用者的 Stream。
@@ -92,7 +92,7 @@ ms.locfileid: "68965099"
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>步驟 4：在 Teams 中針對即時活動設定視訊發佈解決方案
 
-播放即時活動視訊會使用的自適性串流 (ABR)，但它是單點廣播串流，表示每個檢視器都會從網際網路取得自己的視訊。 針對向外傳送給組織中大多數的即時活動或視訊，檢視器可能會明顯耗用大量網際網路頻寬。 針對想要減少即時活動的網際網路流量的組織，Microsoft 提供第一方解決方案 [Microsoft eCDN](/ecdn) (企業內容傳遞網路) 。 即時活動解決方案也與 Microsoft 信任的影片傳遞合作夥伴整合，提供軟體定義的網路 (SDN) 或 eCDN。 這些 SDN/eCDN 平臺可讓組織優化網路頻寬，而不需要犧牲使用者檢視體驗。 這些解決方案可協助您在整個商業網路上進行更可縮放且更有效率的視訊發佈。
+播放即時活動視訊會使用的自適性串流 (ABR)，但它是單點廣播串流，表示每個檢視器都會從網際網路取得自己的視訊。 針對向外傳送給組織中大多數的即時活動或視訊，檢視器可能會明顯耗用大量網際網路頻寬。 對於想要減少即時活動的網際網路流量的組織，Microsoft提供第一方解決方案[，Microsoft eCDN](/ecdn) (企業內容傳遞網路) 。 即時活動解決方案也與Microsoft信任的影片傳遞合作夥伴整合，提供軟體定義的網路 (SDN) 或 eCDN。 這些 SDN/eCDN 平臺可讓組織優化網路頻寬，而不需要犧牲使用者檢視體驗。 這些解決方案可協助您在整個商業網路上進行更可縮放且更有效率的視訊發佈。
 
 - **Microsoft eCDN** Microsoft eCDN 已整合至 Teams，並且與 Stream 和 Yammer 相容。 它在公司網路中採用對等技術，以從 WAN 連線卸載頻寬。
 
@@ -104,9 +104,9 @@ ms.locfileid: "68965099"
 
 - **Kollective** 是雲端型智慧對等通訊平臺，可運用您現有的網路基礎結構，以多種形式提供內容， (即時串流視訊、隨選視訊、軟體更新、安全性修補程式，以及更快速、更可靠且頻寬較少的) 。 我們的安全平台受到世界上最大的金融機構信任，且不需要額外的硬體，且設定和維護極為簡單。 [深入了解](https://kollective.com/microsoft-pilot/)。
 
-- **Ramp OmniCache** 提供下一代的網路發佈方式，並確保在全球 WAN 上順暢地傳送視訊內容，協助活動製作人將網路頻寬最佳化，並支援成功的即時活動廣播和隨選串流處理。 針對在 Teams 中所產生即時活動的 Ramp OmniCache 支援近期推出。 [深入了解](https://rampecdn.com)。
+- **Ramp** 提供通用的 eCDN 解決方案，可提供安全無瑕疵的視訊傳遞。 由頂級財務、醫療保健和政府機構所信任，Ramp 會在雲端或混合式部署內部部署，非常適合零信任環境。 我們的通用授權包含所有三種 eCDN 傳遞方法， (P2P、Multicast 和快取) ，確保您的即時串流和隨選影片以最高品質提供，並以最低頻寬影響來保護共用公司網路的商務關鍵應用程式。 [深入了解](https://rampecdn.com/)。
 
-- **Riverbed** 是網路優化的業界標準，它正將加速解決方案延伸至 Microsoft Teams 和 Stream。  現在，Microsoft 365 客戶可以放心地加速 365 流量，包括 Teams 和 Stream，以及豐富的其他前導企業 SaaS 服務，以隨時隨地提高員工生產力。 Teams 和 Stream 加速可透過隨附于 Riverbed 世界級支援與持續投資的所有保證輕鬆設定來啟用。
+- **Riverbed** 是網路優化的業界標準，它正將加速解決方案延伸至 Microsoft Teams 和 Stream。  現在Microsoft 365 位客戶可以安心地加速 365 個流量，包括 Teams 和 Stream，以及豐富的其他前導企業 SaaS 服務，以隨時隨地提高員工生產力。 Teams 和 Stream 加速可透過隨附于 Riverbed 世界級支援與持續投資的所有保證輕鬆設定來啟用。
 
 > [!NOTE]
 > 如果您選擇協力廠商 SDN 或 eCDN 解決方案，則會受到所選 **協力廠商提供者的服務條款和隱私權原則** 所規範，這將會規範您對提供者解決方案的使用。 您對提供者解決方案的使用方式將不受限於 Microsoft 大量授權條款或線上服務條款。 如果您不同意 **協力廠商提供者的條款**，則不要在 Teams 中啟用該解決方案。

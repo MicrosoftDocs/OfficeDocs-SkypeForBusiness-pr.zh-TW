@@ -20,26 +20,26 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除 Teams 使用者的公司電話號碼，讓外部企業和用戶端可以撥入電話。
-ms.openlocfilehash: d26df14f2f75e205c1824b66c9b8f2f394972d43
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 0dd126f3aa19e0b65b7a0c789f769cef1803f8c8
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551657"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414681"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
-當您設定通話方案、運算子連線或 Teams Phone Mobile 時，您會將電話號碼指派給使用者。 在 Microsoft Teams 中，當使用者按一下 [ **通話**] 時，會列出您指派的電話號碼。
+當您設定通話方案、運算子連線或 Teams Phone Mobile 時，您會將電話號碼指派給使用者。 在 Microsoft Teams 中，當使用者按一下 [**通話**] 時，會列出您指派的電話號碼。
 
 本文適用于通話方案、電信業者連線和 Teams Phone Mobile。 如需在直接路由案例中指派、變更或移除使用者電話號碼的相關資訊，請參閱 [啟用使用者的直接路由、語音和語音信箱](./direct-routing-enable-users.md)。
 
 在指派通話方案、電信業者連線或 Teams Phone Mobile 使用者的號碼之前，您必須先為使用者取得號碼。 如需詳細資訊，請參閱 [取得通話方案使用者的號碼](getting-phone-numbers-for-your-users.md)、 [設定運算子連線使用者的號碼](operator-connect-configure.md#set-up-phone-numbers)，或 [為 Teams Phone Mobile 使用者設定號碼](operator-connect-mobile-configure.md)。
 
 > [!NOTE]
-> 查看使用者是否已指派授權的其中一個方法是移至 Microsoft Teams 系統管理中心> **使用者]**。 如果已指派授權，該授權會顯示在頁面上。  您也可以使用Microsoft 365 系統管理中心。
+> 查看使用者是否已指派授權的其中一個方法是移至 Microsoft Teams 系統管理中心>**使用者]**。 如果已指派授權，該授權會顯示在頁面上。  您也可以使用Microsoft 365 系統管理中心。
 
 > [!NOTE]
-> 本附注適用于具有內部部署的 Active Directory混合式部署的客戶。 如果您想要將通話方案或運算子連接電話號碼指派給使用者或資源帳戶，您必須確保已移除儲存在使用者或資源帳戶物件上 msRTCSIP-Line 屬性中的任何電話號碼 內部部署的 Active Directory，且變更已同步處理至 Microsoft 365。
+> 本附注適用于具有內部部署的 Active Directory混合式部署的客戶。 如果您要將通話方案或運算子連接電話號碼指派給使用者或資源帳戶，您必須確保已移除儲存在使用者或資源帳戶物件上 msRTCSIP-Line 屬性中的任何電話號碼 內部部署的 Active Directory，並將變更同步處理至 Microsoft 365。
 
 ## <a name="assign-a-phone-number-to-a-user"></a>指派電話號碼給使用者
 
@@ -78,14 +78,11 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550103" -PhoneNumberType OCMobile
 ```
 
-
-
-
-
-
-
 > [!NOTE]
 > 由於 Microsoft 365 和 Teams 之間的延遲，使用者最多可能需要 24 小時才能啟用。 如果 24 小時後未正確指派電話號碼，請參閱 [電話號碼服務中心](https://pstnsd.powerappsportals.com/)。
+
+> [!NOTE]
+> 當您指派電話號碼時，EnterpriseVoiceEnabled 標幟會自動設定為 True。
 
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
 
