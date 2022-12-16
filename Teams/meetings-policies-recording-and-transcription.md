@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 瞭解如何在 Teams 中管理會議原則設定，以進行錄製和轉譯。
-ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 06a05d2eb8a8c1542b79fa4c37b68ea4a3aa6d32
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928309"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436764"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>記錄&轉錄的會議原則設定
 
@@ -98,11 +98,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 #### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>在 Microsoft Purview 中錄製到期設定和 Microsoft 365 保留原則
 
-檔案保留優先于檔案刪除。 在保留期間完成之前，Teams 會議錄製到期原則無法刪除具有許可權保留原則的 Teams 會議錄製。 例如，如果您的 [許可權] 保留原則指出檔案將保留五年，而 Teams 會議錄製到期原則設定為 60 天，則 Teams 會議錄製到期原則會在五年後刪除錄製內容。
+檔案保留優先于檔案刪除。 在保留期間完成之前，Teams 會議錄製到期原則無法刪除具有許可權保留原則的 Teams 會議錄製。 例如，如果您有一個 Purview 保留原則，指出檔案將保留五年，而 Teams 會議錄製到期原則設定為 60 天，則 Teams 會議錄製到期原則會在五年後永久刪除錄製。
 
 如果您有不同刪除日期的 Teams 會議錄製到期原則和許可權刪除原則，檔案會在兩個日期的最早日期刪除。 例如，如果您的 [許可權] 刪除原則指出檔案將在一年後刪除，而 Teams 會議錄製到期日設定為 120 天，則 Teams 會議錄製到期原則會在 120 天后刪除該檔案。
 
-除非有禁止錄製的許可權保留原則，否則使用者可以在到期日之前手動刪除錄製內容。
+除非有禁止錄製的許可權保留原則，否則使用者可以在到期日之前手動刪除錄製內容。 如果使用者已手動刪除仍處於保留期間的錄製內容，該錄製會保留在檔保留庫中。 不過，錄製內容會顯示為已刪除給使用者。 若要深入瞭解，請參閱 [瞭解 SharePoint 和 OneDrive 的保留](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive)。
 
 ### <a name="deletion-of-recordings"></a>刪除錄製內容
 

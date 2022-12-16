@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理參與者和來賓的會議原則設定。
-ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68876279"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436669"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -50,11 +50,11 @@ ms.locfileid: "68876279"
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>讓匿名人員加入會議
 
-此每個召集人設定可讓任何人以匿名使用者的身分加入會議，方法是選取會議邀請中的連結。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名使用者加入會議的能力也會受到貴組織層級的控制，而較嚴格的設定將會有效。 若要深入瞭解，請參閱 [使用 Microsoft Teams 系統管理中心來設定整個組織的原則](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
+此每個召集人設定可讓任何人以匿名使用者的身分加入會議，方法是選取會議邀請中的連結。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名使用者加入會議的能力也會受到貴組織層級的控制，而較嚴格的設定將會有效。 若要深入瞭解，請參[閱使用 Microsoft Teams 系統管理中心來設定整個組織的原則](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
-此設定是每個召集人的原則，可召開無前置字元電話撥入式會議。 此設定會控制撥入式使用者是否可以在未出席組織中經過驗證的使用者的情況下加入會議。 根據預設，此設定為關閉，這表示撥入式使用者會在大廳等候，直到組織中經過驗證的使用者加入會議為止。
+此設定是每個召集人的原則，可召開無前置字元電話撥入式會議。 此設定會控制匿名使用者和撥入式來電者是否可以在未由組織已驗證的使用者出席的情況下加入會議。 根據預設，此設定為關閉，這表示匿名使用者和撥入式來電者會在大廳等候，直到組織中經過驗證的使用者加入會議為止。
 
 > [!NOTE]
 > 如果關閉此設定，且撥入式使用者會先加入會議並置於大廳，則組織使用者必須使用 Teams 用戶端加入會議，才能允許使用者進入大廳。 撥入的使用者沒有可用的大廳控制項。
