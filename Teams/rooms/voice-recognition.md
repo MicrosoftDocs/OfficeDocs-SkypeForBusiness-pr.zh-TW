@@ -17,16 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
-ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
+ms.openlocfilehash: 478e739be2787eb2758a2070a441f68c7da727ba
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "68350746"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438301"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧喇叭的語音辨識技術控制項
 
-智慧型喇叭會使用語音設定檔資訊來辨識即時轉譯內容的人員。 當 Windows 會議室的Microsoft Teams 會議室配備智慧型喇叭時，可在會議期間使用即時轉譯。 本文說明租使用者系統管理員您如何控制用於語音辨識的語音分析，以產生即時轉譯。 您可以控制組織使用語音辨識的程度，以及下列功能：
+智慧型喇叭會使用語音設定檔資訊來辨識即時轉譯內容的人員。 當 Windows 會議室上的Microsoft Teams 會議室配備智慧喇叭時，可在會議期間使用即時轉譯。 本文說明租使用者系統管理員您如何控制用於語音辨識的語音分析，以產生即時轉譯。 您可以控制組織使用語音辨識的程度，以及下列功能：
 
 - 在文字記錄中編輯演講者的名稱。
 - 變更文字記錄中單一口說的喇叭，或變更文字記錄 (中所有說出的演講者，但日後文字記錄) 。
@@ -106,11 +106,11 @@ ms.locfileid: "68350746"
 
 [資料保留概觀](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)中會說明一般保留原則。 此外，如果使用者在 1 年內沒有受邀參加任何智慧型喇叭會議，使用者的語音設定檔資料也會在 1 年後刪除。 現有員工的任何會議中不會使用資料。 如果員工已離開公司，語音設定檔資料會被視為使用者內容，並會根據資料保留概觀中所描述的Office 365[資料保留原則](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)來處理。
 
-**所有 Microsoft 服務是否使用語音設定檔資料？**
+**跨Microsoft服務使用語音設定檔資料嗎？**
 
-否，語音設定檔資料僅用於使用者提供同意的目的。 除了 Teams 語音辨識案例之外，Microsoft 不會使用語音設定檔資料。
+否，語音設定檔資料僅用於使用者提供同意的目的。 除了 Teams 語音辨識案例之外，Microsoft不會使用語音設定檔資料。
 
-例如，Microsoft 不會在下列情況中使用資料：
+例如，Microsoft在下列情況中不會使用資料：
 
 **當我在其他組織加入會議時，是否使用我的語音設定檔資料？**
 

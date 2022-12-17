@@ -12,20 +12,20 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
-description: 瞭解 Microsoft Teams 系統管理中心提供的 Teams 通知和通知功能。
+description: 瞭解 Teams 系統管理中心提供的 Teams 通知和通知功能Microsoft。
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 18279954a9bd71932422bd60519977288ae30ca6
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283084"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438251"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams 監控與警示
 
-Teams 系統管理中心提供新的 Microsoft Teams 監控和警示功能。 使用 Teams 系統管理中心 [ **通知&通知** ] 區段下所提供的不同規則來監控 Teams 功能並接收通知。 例如，如果 Teams 裝置非預期離線，您可以主動監控 IP 電話、共同作業列等裝置的健康情況。  
+Teams 系統管理中心提供適用于 Microsoft Teams 的新監控和警示功能。 使用 Teams 系統管理中心 [ **通知&通知** ] 區段下所提供的不同規則來監控 Teams 功能並接收通知。 例如，您可以主動監視 Teams 裝置的健康情況，例如 IP Phone、Android 上的 Teams 會議室，以及其他裝置意外離線。  
 
 您的組織可以使用 Teams 監控和警示來執行下列專案：
 

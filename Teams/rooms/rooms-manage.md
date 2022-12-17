@@ -16,18 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 瞭解如何開發和執行持續維護和作業，以確保您的Microsoft Teams 會議室系統可供使用者使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 977987cf0283008235a12fdfdda2ffc792c2e289
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706820"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438271"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 會議室
 
-如果您的組織中有Microsoft Teams 會議室，您有彈性的管理選項。  您可以在管理所有 Teams 解決方案的同一個中央位置自行管理裝置，Microsoft Teams 系統管理中心。 或者，您可以使用Microsoft Teams 會議室[管理服務](https://portal.rooms.microsoft.com)，將管理責任轉移給專屬專家。  您也可以針對其中一個選項，將管理存取權委派給您選擇的合作夥伴。
+如果您的組織中有Microsoft Teams 會議室，您有彈性的管理選項。  您可以在管理所有 Teams 解決方案的同一個中央位置自行管理裝置，Microsoft Teams 系統管理中心。
 
-有了 Microsoft Teams 系統管理中心，您就可以：
+透過 Microsoft Teams 系統管理中心，您可以：
 
 - 執行裝置管理，例如重新開機裝置和下載裝置記錄
 - 套用 Teams 特定設定
@@ -35,7 +35,7 @@ ms.locfileid: "67706820"
 - 檢閱目前和過去的會議活動 (例如通話品質、網路健康情況和連線能力的詳細資料，以及) 
 - 查看周邊設備 (，例如) 連接到Microsoft Teams 會議室的相機和投影機
 
-若要管理Teams 會議室裝置，請開啟 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)，然後移至 **Windows 上的** **Teams 裝置**  >  Teams 會議室。
+若要管理Teams 會議室裝置，請開 [啟 Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)，然後移至 **Windows 上的** **Teams 裝置**  >  Teams 會議室。
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams 會議室 Teams 系統管理中心的摘要頁面。":::
 
@@ -64,7 +64,7 @@ ms.locfileid: "67706820"
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *帳戶*                                                    |                                                        |                    |
 | **Email**                                                    | Email位址                                          | 否                 |
-| **支援的會議模式**                                   | 僅限 Microsoft Teams<br>商務用 Skype (預設) 和 Microsoft Teams<br>商務用 Skype和 Microsoft Teams (預設) <br>僅商務用 Skype|是|
+| **支援的會議模式**                                   | 僅Microsoft Teams<br>商務用 Skype (Teams 預設) 和Microsoft<br>商務用 Skype和Microsoft Teams (預設) <br>僅商務用 Skype|是|
 | **新式驗證**                                    | 開啟<br>關閉                                              | 是                |
 | **Exchange 位址**                                         | Email位址                                          | 否                 |
 | **網域\使用者名稱 (選擇性)**                               | 帳戶網域和使用者名稱                           | 否                 |
@@ -142,7 +142,7 @@ ms.locfileid: "67706820"
 
 當您移除裝置時，裝置會從貴組織移除，且不會再出現在您 Windows 上 Teams 系統管理中心的Teams 會議室清單中。
 
-如果您移除裝置，但仍使用有效的使用者名稱和密碼進行設定，如果該裝置再次連線至 Microsoft 365，它會自動重新新增至您的Teams 會議室清單。
+如果您移除裝置，但仍使用有效的使用者名稱和密碼進行設定，如果該裝置再次連線至 Microsoft 365，則會自動重新新增至Teams 會議室清單中。
 
 若要移除一或多個裝置，請執行下列動作：
 
@@ -151,7 +151,7 @@ ms.locfileid: "67706820"
 
 ## <a name="download-device-logs"></a>下載裝置記錄檔
 
-如果 Microsoft 支援服務要求，您可以下載裝置診斷記錄檔的複本。 記錄檔會壓縮成 zip 檔案，可從 Teams 系統管理中心下載。
+如果Microsoft支援要求，您可以下載裝置診斷記錄檔的複本。 記錄檔會壓縮成 zip 檔案，可從 Teams 系統管理中心下載。
 
 若要從Teams 會議室裝置下載記錄檔到您的電腦，請執行下列動作：
 
@@ -172,7 +172,7 @@ Teams 會議室系統儀表板一目了然地顯示您所有裝置的狀態和�
 若要檢視裝置的詳細資訊，請從裝置清單中選取其名稱。 在詳細資料檢視中，您可以看到下列裝置相關資訊：
 
 - **健康情況狀態** 顯示Teams 會議室裝置的整體健康情況。 健康狀態可以是 **健康** 狀態或 **不健康**。
-- **離線，因為** 顯示 Microsoft 365 最後一次與裝置通訊的時間。
+- **離線，因為** 顯示Microsoft 365 最後一次能夠與裝置通訊。
 - **裝置狀態** 顯示裝置的目前狀態： **閒置**、 **Teams 會議**、 **Skype 會議** 或 **Ingest**。
 - **外設** 顯示連接到您Teams 會議室裝置的周邊設備及其健康情況狀態。 健康情況狀態可以是 **已連線** 或 **中斷連線**。
 - **健康** 顯示連接到您Teams 會議室裝置的周邊設備、網路連線能力、必要服務的登入狀態，以及軟體版本資訊的詳細資訊。

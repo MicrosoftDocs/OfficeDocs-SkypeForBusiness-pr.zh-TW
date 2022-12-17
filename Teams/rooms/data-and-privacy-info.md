@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 資料與隱私權資訊
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: ec28dcafa7825e7f754d3631d2c21400a08c9b83
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: dd80718da862be02b42a5cf18334c89e86c3807c
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046782"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438428"
 ---
 # <a name="approach"></a>方法
 
-使用Microsoft Teams 會議室受管理服務的客戶會將 Microsoft 最有價值的資產 — 資料。 他們信任其隱私權會受到保護，而且只會以符合其期望的方式使用。
+使用Microsoft Teams 會議室受管理服務的客戶將Microsoft以其最有價值的資產 — 資料。 他們信任其隱私權會受到保護，而且只會以符合其期望的方式使用。
 
 技術會遵循隱私權程式，以確保符合客戶在收集和使用有效執行服務的資料時的承諾。
 ## <a name="data-collection-and-privacy"></a>資料收集與隱私權
@@ -39,19 +39,19 @@ ms.locfileid: "69046782"
 
 ## <a name="who-can-access-data"></a>誰可以存取資料
 
-受管理的服務會採取強烈措施，協助保護客戶資料，避免未經授權的人員不當存取或使用。 這些措施包括限制 Microsoft 人員和轉包商的存取權。
+受管理的服務會採取強烈措施，協助保護客戶資料，避免未經授權的人員不當存取或使用。 這些措施包括限制Microsoft人員和轉包商的存取權。
 
 ## <a name="zero-standing-access-data-storage"></a>零常用存取資料儲存空間
 
-受管理的服務可透過零獨立存取原則，降低與具有組織內外惡意行為者許可權存取權之帳戶相關聯的風險。 此原則可讓受管理的服務在沒有任何使用者預設可用的許可權下運作。 結合「時間僅限時間」和「Just-Enough-Access」原則，為預設安全且符合規範的架構提供了強大的架構。 診斷資料可透過內部入口網站提供給 Microsoft 服務營運小組使用。
+受管理的服務可透過零獨立存取原則，降低與具有組織內外惡意行為者許可權存取權之帳戶相關聯的風險。 此原則可讓受管理的服務在沒有任何使用者預設可用的許可權下運作。 結合「時間僅限時間」和「Just-Enough-Access」原則，為預設安全且符合規範的架構提供了強大的架構。 診斷資料可透過內部入口網站提供給Microsoft服務營運小組使用。
 
 ## <a name="data-handling"></a>資料處理
 
-Microsoft 受到資料傳輸、儲存、使用和保留的嚴格標準所規範。 Microsoft 提供資料處理標準原則，以規範資料分類處理方式。
+Microsoft受到嚴格的資料傳輸、儲存、使用及保留標準所規範。 Microsoft有資料處理標準原則，可規範資料的分類處理方式。
 
 ## <a name="technology-description"></a>技術描述
 
-受管理的服務會將資料傳送至 Microsoft，以便監控、診斷及減輕部署中的任何問題。 範例包括
+受管理的服務會將資料傳送至Microsoft，以便監控、診斷及減輕部署中的任何問題。 範例包括
 
 - 確保裝置是最新 (包括應用程式、作業系統、驅動程式、F/W) 
 - 確保裝置已準備好使用 (登入、所有周邊設備報告健康狀態等) 
@@ -71,7 +71,7 @@ Microsoft 受到資料傳輸、儲存、使用和保留的嚴格標準所規範�
  
 |類別|詳細資料|查詢理由|
 | :- | :- | :- |
-|持續的資料收集與管理|IP 位址、Exchange (聊天室帳戶的身分識別、商務用 Skype和/或 Teams) 、位置座標、與 Microsoft 或軟體在入口網站內的電子郵件和通訊|識別並聯機到管理下的系統;識別、診斷及減輕失敗;追蹤使用狀況、分析和深入資訊;查詢與修復線上狀態|
+|持續的資料收集與管理|IP 位址、Exchange (聊天室帳戶的身分識別、商務用 Skype和/或 Teams) 、位置座標、電子郵件以及入口網站內與Microsoft或軟體的通訊|識別並聯機到管理下的系統;識別、診斷及減輕失敗;追蹤使用狀況、分析和深入資訊;查詢與修復線上狀態|
 |臨機操作資料收集與管理|事件記錄資訊、使用者登入記錄檔之聊天室的使用者活動/身分識別，以及診斷資訊、Windows 系統查詢 (範例：USB 裝置清單、電源狀態等) |識別、診斷及減輕失敗，以及使用方式、分析和深入解析|
 
 [裝置活動] 記錄檔中的某些機密資料會在本機轉帳 (不受 Managed Services) 收集：
@@ -81,7 +81,7 @@ Microsoft 受到資料傳輸、儲存、使用和保留的嚴格標準所規範�
 - 在會議 IM 訊息內容中
 
 > [!NOTE]
-> 隨著 Microsoft 不斷演進受管理的服務，特定資料可能會變更。
+> 隨著Microsoft管理服務的發展，特定資料可能會變更。
 
 ### <a name="enrollment"></a>註冊
 
@@ -89,17 +89,17 @@ Managed Services 已在線上入口網站註冊，以用於自動化監控和支
 
 ### <a name="unenrollment"></a>取消註冊
 
-卸載 Managed Services 可取消註冊裝置。 Microsoft 也會在解除委任期間將裝置從後端監視中移除，並可視要求刪除收集的資料。
+卸載 Managed Services 可取消註冊裝置。 Microsoft也會在解除委任期間將裝置從後端監視中移除，而且可以視要求刪除收集的資料。
 ## <a name="compliance"></a>合規性
 
-所有使用產品的工程師都必須接受安全性與隱私權意識訓練。 Microsoft 也確保所有人員都接受隱私權需求的責任。
+所有使用產品的工程師都必須接受安全性與隱私權意識訓練。 Microsoft也可確保所有人員都接受隱私權需求的責任。
 
 Managed Services 會透過歐洲 (歐盟) 、亞太地區 (APAC) 以及美國 (美國) 的資料中心提供地區資料居住支援。 服務客戶將擁有與組織相關的資料，儲存在其所選區域的資料中心。
 
 ## <a name="more-resources"></a>更多資源
 
-Microsoft Teams 會議室 Windows 安全性： [[Microsoft Teams for Windows 安全性](/microsoftteams/rooms/security-windows)] \
-Android 安全性Microsoft Teams 會議室：[Android 版 Microsoft Teams 安全性](/microsoftteams/rooms/security-android) \
-Microsoft 隱私權聲明： https://aka.ms/privacy \
-Microsoft 的資料管理： https://www.microsoft.com/trust-center/privacy/data-management \
-受管理的服務服務描述： [Microsoft Teams Room 受管理的服務](rooms-pro-management.md)
+Windows 安全性Microsoft Teams 會議室：[[Microsoft Windows 安全性 Teams](/microsoftteams/rooms/security-windows) \
+Android 安全性上的Microsoft Teams 會議室：[Microsoft Android 版 Teams 安全性](/microsoftteams/rooms/security-android) \
+Microsoft隱私權聲明：https://aka.ms/privacy \
+Microsoft的資料管理：https://www.microsoft.com/trust-center/privacy/data-management \
+受管理的服務服務描述：[Microsoft Teams 會議室管理服務](rooms-pro-management.md)

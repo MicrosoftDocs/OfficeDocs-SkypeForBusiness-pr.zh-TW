@@ -1,5 +1,5 @@
 ---
-title: 適用于 Windows 安全性Microsoft Teams 會議室
+title: Windows 安全性上的Microsoft Teams 會議室
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,19 +15,19 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: 瞭解如何保護 Windows 裝置Microsoft Teams 會議室。
-ms.openlocfilehash: b35d856afb7ca044388802aa514039bd9b8d40d3
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+description: 瞭解如何在 Windows 裝置上保護您的Microsoft Teams 會議室。
+ms.openlocfilehash: f7774b43542885118bd66eb09cf1d30049b84425
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532422"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438464"
 ---
-# <a name="microsoft-teams-rooms-for-windows-security"></a>適用于 Windows 安全性Microsoft Teams 會議室
+# <a name="microsoft-teams-rooms-on-windows-security"></a>Windows 安全性上的Microsoft Teams 會議室
 
-Microsoft 與我們的合作夥伴合作，提供安全且不需要額外動作來保護 Windows Microsoft Teams 會議室的解決方案。 本文探討 Windows 版 Teams 會議室 中找到的許多安全性功能。
+Microsoft與我們的合作夥伴合作，以提供安全且不需要額外動作來保護 Windows 上Microsoft Teams 會議室的解決方案。 本文討論 Windows 上 Teams 會議室 的許多安全性功能。
 
-如需 Android 裝置Teams 會議室安全性的相關資訊，請參[閱 Android 安全性Microsoft Teams 會議室](security-android.md)。
+如需 Android 裝置上Teams 會議室安全性的相關資訊，請參[閱 Android 安全性Microsoft Teams 會議室](security-android.md)。
 
 > [!NOTE]
 > Microsoft Teams 會議室不應該被視為一般的使用者工作站。 不僅使用案例有很大的不同，預設的安全性設定檔也有很大的不同。
@@ -101,14 +101,14 @@ Windows 設定設計工具可用來建立Windows 10布建套件。 除了變更�
 
 ## <a name="network-security"></a>網路安全性
 
-一般而言，Teams 會議室的網路需求與任何 Microsoft Teams 用戶端相同。 透過防火牆和其他安全性裝置存取的Teams 會議室與任何其他 Microsoft Teams 用戶端相同。 針對Teams 會議室，Teams 列為「必要」的類別必須在您的防火牆上開啟。 如果您使用 Microsoft Intune 管理裝置) ，Teams 會議室也需要存取 Windows Update、Microsoft Store 和 Microsoft Intune (。 如需Microsoft Teams 會議室所需的 IP 和 URL 完整清單，請參閱：
+一般而言，Teams 會議室的網路需求與任何 Microsoft Teams 用戶端相同。 透過防火牆和其他安全性裝置存取的Teams 會議室，與任何其他Microsoft Teams 用戶端的存取方式相同。 針對Teams 會議室，Teams 列為「必要」的類別必須在您的防火牆上開啟。 如果您使用 Microsoft Intune 管理裝置) ，Teams 會議室也需要存取 Windows Update、Microsoft Store 和 Microsoft Intune (。 如需Microsoft Teams 會議室所需的 IP 和 URL 完整清單，請參閱：
 
 - **Microsoft Teams** [Office 365 URL 和 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows Update**[設定 WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
-- [適用于 商務用 Microsoft Store 和教育](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)的 **Microsoft Store** 必要條件
+- **Microsoft Store** [商務用 Microsoft Store 和教育版先決條件](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune**[適用于 Microsoft Intune 的網路端點](/mem/intune/fundamentals/intune-endpoints)
 
-如果您使用的是 Microsoft Teams 會議室 Pro 的Microsoft Teams 會議室受管理服務元件，您也需要確認Teams 會議室可以存取下列 URL：
+如果您使用的是 Microsoft Teams 會議室專業版 的Microsoft Teams 會議室受管理服務元件，您也需要確認Teams 會議室可以存取下列 URL：
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -122,13 +122,13 @@ Windows 設定設計工具可用來建立Windows 10布建套件。 除了變更�
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams 會議室設定為自動讓自己保持修補最新的 Windows 更新，包括安全性更新。 Teams 會議室使用預先設定的本地原則，每天從早上 2：00 開始安裝任何擱置中的更新。 您不需要使用其他工具來部署和套用 Windows 更新。 使用其他工具來部署和套用更新可能會延遲安裝 Windows 修補程式，因此導致部署較不安全。 Teams 會議室應用程式是使用 Microsoft Store 來部署。
+Teams 會議室設定為自動讓自己保持修補最新的 Windows 更新，包括安全性更新。 Teams 會議室使用預先設定的本地原則，每天從早上 2：00 開始安裝任何擱置中的更新。 您不需要使用其他工具來部署和套用 Windows 更新。 使用其他工具來部署和套用更新可能會延遲安裝 Windows 修補程式，因此導致部署較不安全。 Teams 會議室應用程式是使用 Microsoft Store 部署。
 
 <!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Teams 會議室裝置可搭配大部分的 802.1X 或其他網路安全性通訊協定使用。 不過，我們無法針對所有可能的網路安全性設定測試Teams 會議室。 因此，如果出現可追蹤到網路效能問題的效能問題，如果您的組織已設定這些通訊協定，您可能需要停用這些通訊協定。
 
-為了獲得即時媒體的最佳效能，我們強烈建議您將 Teams 媒體流量設定為略過 Proxy 伺服器及其他網路安全性裝置。 即時媒體非常延遲，Proxy 伺服器和網路安全性裝置可能會大幅降低使用者的視訊和音訊品質。 此外，由於 Teams 媒體已加密，因此透過 Proxy 伺服器傳遞流量沒有任何明顯的優點。 如需詳細資訊，請參閱[將 (連線到雲端) — 一個架構的](/microsoft-365/solutions/networking-design-principles)架構，其中討論網路建議，以改善 Microsoft Teams 和 Microsoft Teams 會議室 媒體效能。
+為了獲得即時媒體的最佳效能，我們強烈建議您將 Teams 媒體流量設定為略過 Proxy 伺服器及其他網路安全性裝置。 即時媒體非常延遲，Proxy 伺服器和網路安全性裝置可能會大幅降低使用者的視訊和音訊品質。 此外，由於 Teams 媒體已加密，因此透過 Proxy 伺服器傳遞流量沒有任何明顯的優點。 如需詳細資訊，請參閱[將 (連線到雲端) — 一位架構的](/microsoft-365/solutions/networking-design-principles)架構討論網路建議，以透過 Microsoft Teams 和 Microsoft Teams 會議室 來改善媒體效能。
 
 > [!IMPORTANT]
 > Teams 會議室不支援已驗證的 Proxy 伺服器。

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: 瞭解如何在 Teams 中管理網路研討會和會議註冊原則。
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307578"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438471"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>在 Teams 中設定網路研討會Microsoft
 
@@ -52,6 +52,9 @@ Microsoft現在提供新的網路研討會體驗;本文將說明如何更新您�
 新的網路研討會體驗已在 PowerShell 中設定。 請參閱 [如何設定新的網路研討會體驗](#set-up-new-webinar-experience)的範例。
 
 如需會議、網路研討會和即時事件之間差異的詳細資訊，請參閱 [會議、網路研討會和即時活動](quick-start-meetings-live-events.md)。
+
+> [!NOTE]
+> 新的網路研討會體驗不適用於 Microsoft 365 GCC、Microsoft 365 GCC High 或 Microsoft 365 DoD。 現有的網路研討會體驗不適用於 Microsoft 365 GCC High 或 Microsoft 365 DoD。
 
 > [!IMPORTANT]
 > 若要讓使用者設定網路研討會，您必須在 SharePoint 中設定Microsoft 清單，方法是針對電子檔探索目的建立個人清單。 若要深入瞭解，請參閱[控制Microsoft 清單設定](/sharepoint/control-lists)。

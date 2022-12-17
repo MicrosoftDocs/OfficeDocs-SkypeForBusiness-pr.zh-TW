@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解及比較之前針對 Microsoft Teams 會議室 中不同類型的通話和會議功能所提供的授權。
-ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e02dd830f9d356400fa153305209dc59f48a765b
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392390"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438437"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>Microsoft Teams 會議室舊版授權
 
@@ -38,7 +38,7 @@ ms.locfileid: "69392390"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共用通訊裝置的授權解決方案
 
-下列授權適用于在 2022 年 9 月 6 日前購買 Android) Microsoft Teams 會議室、Microsoft Surface Hub 和 Teams 會議室 等Teams 會議室裝置 (的客戶。
+下列授權適用于在 2022 年 9 月 6 日之前于 Android) 上購買 Microsoft Teams 會議室、Microsoft Surface Hub 和 Teams 會議室 等Teams 會議室裝置 (的客戶。
 
 |&nbsp;|Microsoft Teams 會議室標準版 |Microsoft Teams 會議室進階版 |
 |:--- |:---: |:---: |

@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 4117cffe61e10c968cb92777ab5158732a62df21
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436699"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438281"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -36,7 +36,7 @@ Microsoft Teams 裝置認證計畫可確保認證裝置符合高標準，在整�
 > [!IMPORTANT]
 > Microsoft Teams 裝置認證計畫確保認證裝置僅符合硬體設計和效能的特定需求。 認證計畫不會評估功能層級或雲端環境支援。
 >
-> 如需 Windows Teams 會議室 和 Android Teams 會議室 支援哪些功能的相關資訊，包括雲端環境支援，請參[閱 Windows 和 Android 功能比較Teams 會議室](../rooms/teams-devices-feature-comparison.md)。
+> 如需 Windows 和 Android Teams 會議室 Teams 會議室 支援哪些功能的相關資訊，包括雲端環境支援，請[參閱 Windows 和 Android 功能比較上的Teams 會議室](../rooms/teams-devices-feature-comparison.md)。
 
 認證程式的設計目的是要確保所有通過認證的裝置都執行 Android 版本，並具備適用于 Teams 和 Teams 系統管理中心的必要功能集。 認證結束日期是根據裝置進入認證計畫時在裝置上執行的 Android OS 版本。 我們的 OEM 合作夥伴正致力於藉由升級 Android OS 版本並重新取得認證，或發行最新狀態的新模型，來延長認證的存留期。
 

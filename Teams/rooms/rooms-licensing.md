@@ -22,31 +22,31 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解並比較 Microsoft Teams 會議室 中不同通話和會議功能類型的可用授權。
-ms.openlocfilehash: af5f30f1a4ae0d34421629ffec3c67a619798b50
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: e999ec208aee8493c7b04fbe2d435e8852259070
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480483"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438451"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams 會議室授權
 
-Microsoft 為參與 Teams 會議和通話的Teams 會議室系統提供兩種授權：
+Microsoft為參與 Teams 會議和通話的Teams 會議室系統提供兩種授權：
 
-- **Microsoft Teams 會議室專業版** 提供增強的會議室內會議體驗，例如智慧型音訊和視訊、前列和大型圖庫，以及雙螢幕支援。 Teams 會議室專業版授權也提供進階管理功能，例如遠端裝置管理、條件式存取原則，以及詳細的裝置分析。
+- **Microsoft Teams 會議室專業版** 提供增強的會議室內會議體驗，例如智慧型音訊和視訊、前列和大型圖庫，以及雙螢幕支援。 Teams 會議室專業版授權也提供遠端裝置管理、條件式存取原則和詳細裝置分析等進階管理功能。
 
-    Teams 會議室專業版非常適合中型及企業組織，以及空間較大或進階需求較多的小型組織。 Teams 會議室專業版授權可用來授權通過認證的 Teams 會議室 系統和 Teams 面板。
+    Teams 會議室專業版非常適合中型及企業組織，以及空間較大或進階需求較多的小型組織。 Teams 會議室專業版授權可用來授權通過認證的Teams 會議室系統和 Teams 面板。
 
-- **Microsoft Teams 會議室 Basic** 提供核心會議體驗給購買已認證Microsoft Teams 會議室系統的組織，無需支付額外費用。 Teams 會議室基本版授權包含排程、加入會議、內容共用和共同作業白板，以及基本安全性與管理功能。
+- **Microsoft Teams 會議室基本版** 提供核心會議體驗給購買經認證Microsoft Teams 會議室系統的組織，無需支付額外費用。 Teams 會議室基本版授權包含排程、加入會議、內容共用和共同作業白板，以及基本安全性與管理功能。
 
-    Teams 會議室基本版授權可用來授權會議室中單一經過認證的Teams 會議室系統。 如果您想要使用相同的資源帳戶登入會議室中的多個Teams 會議室系統，您必須使用 Teams 會議室 專業版授權。
+    Teams 會議室基本版授權可用來授權會議室中單一經過認證的Teams 會議室系統。 如果您想要使用相同的資源帳戶登入會議室中的多個Teams 會議室系統，您必須使用Teams 會議室專業版授權。
 
-    您最多可以指派 25 Microsoft Teams 會議室基本授權給貴組織中的Teams 會議室系統。 如果您需要授權超過 25 個Teams 會議室系統，這些額外的授權必須Teams 會議室專業版授權。 Teams 會議室基本授權只能用來授權Teams 會議室系統，而非 Teams 面板。
+    您最多可以指派 25 個Microsoft Teams 會議室基本版授權給組織中的Teams 會議室系統。 如果您需要授權超過 25 個Teams 會議室系統，這些額外的授權必須Teams 會議室專業版授權。 Teams 會議室基本授權只能用來授權Teams 會議室系統，而非 Teams 面板。
 
 Teams 會議室系統可以是下列其中一項：
 
-- 適用于 Windows 計算模組和連接觸控主控台的Teams 會議室
-- 透過 IP 或 USB 連線連接的 Android 裝置和觸控主控台Teams 會議室
+- Windows 計算模組和連接的觸控主控台上的Teams 會議室
+- 透過 IP 或 USB 連線連接的 Android 裝置和觸控主控台上的Teams 會議室
 - A Surface Hub
 
 您在 Teams 系統管理中心的Teams 會議室系統或裝置上執行的遠端系統管理工作取決於系統或裝置指派的授權。 如需詳細資訊，[請參閱 Teams 系統管理中心的Microsoft Teams 會議室授權概觀](admin-center-license-overview.md)。
@@ -79,20 +79,20 @@ Teams 會議室系統可以是下列其中一項：
 
 ## <a name="switching-from-teams-rooms-standard-and-teams-rooms-premium"></a>從 Teams 會議室 Standard 和 Teams 會議室 Premium 切換
 
-如果您的組織有使用 Teams 會議室 Standard 或 Teams 會議室 Premium 舊版授權的會議裝置，您可以繼續使用這些授權，直到其到期日為止。 在現有舊版授權到期日之後，建議您轉換為 Teams 會議室 專業版授權。 兩個舊版授權中可用的會議和管理功能 <sup>*</sup> 已合併在 Teams 會議室 專業版授權中。
+如果您的組織有使用 Teams 會議室 Standard 或 Teams 會議室 Premium 舊版授權的會議裝置，您可以繼續使用這些授權，直到其到期日為止。 在現有舊版授權到期日之後，建議您轉換為Teams 會議室專業版授權。 兩個舊版授權中可用的會議和管理功能 <sup>*</sup> 已合併在Teams 會議室專業版授權中。
 
 > [!IMPORTANT]
-> 舊版授權不會自動轉換到新的授權。 舊版授權到期時，您必須購買新Teams 會議室專業版 (建議) 或Teams 會議室基本版授權。 Teams 會議室專業版授權可透過Microsoft 365 系統管理中心或您慣用的銷售通道購買。 Teams 會議室基本授權只能透過Microsoft 365 系統管理中心購買。
+> 舊版授權不會自動轉換到新的授權。 舊版授權到期時，您必須購買建議的新Teams 會議室專業版 () 或Teams 會議室基本版授權。 Teams 會議室專業版授權可透過Microsoft 365 系統管理中心或您慣用的銷售通道購買。 Teams 會議室基本授權只能透過Microsoft 365 系統管理中心購買。
 
-如果您的組織有Enterprise 合約，您可以繼續使用現有的舊版授權，直到下一個續約期間為止。 您也可以繼續保留額外的舊版授權，直到下次續約期間為止。 如需詳細資訊，請連絡您的 Microsoft 代表。
+如果您的組織有Enterprise 合約，您可以繼續使用現有的舊版授權，直到下一個續約期間為止。 您也可以繼續保留額外的舊版授權，直到下次續約期間為止。 如需詳細資訊，請連絡您的Microsoft代表。
 
 如需舊版授權的相關資訊，[請參閱Microsoft Teams 會議室舊版授權](rooms-legacy-licensing.md)。
 
-<sup>*</sup>自 2022 年 10 月 1 日起，Microsoft 服務工程師將不再擔任事件回應的中間人。
+<sup>*</sup>自 2022 年 10 月 1 日起，Microsoft服務工程師將不再擔任事件回應的中間人。
 
-## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Teams 會議室基本版和 Teams 會議室 專業版功能比較
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Teams 會議室基本與Teams 會議室專業版功能比較
 
-下表將比較 Teams 會議室 Basic 和 Teams 會議室 專業版授權，並顯示每個授權的可用功能。 如果授權無法使用某項功能，則無法在已指派該授權的Teams 會議室部裝置上使用該功能。 若要在Teams 會議室裝置上使用某項功能，請指派該功能可供該裝置使用的授權。
+下表將比較Teams 會議室基本版和Teams 會議室專業版授權，並顯示每個授權可用的功能。 如果授權無法使用某項功能，則無法在已指派該授權的Teams 會議室部裝置上使用該功能。 若要在Teams 會議室裝置上使用某項功能，請指派該功能可供該裝置使用的授權。
 
 ### <a name="meeting-join"></a>會議加入
 
@@ -126,7 +126,7 @@ Teams 會議室系統可以是下列其中一項：
 |                                                   | Microsoft Teams 會議室基本版 | Microsoft Teams 會議室專業版 |
 |:--------------------------------------------------|:---------------------------:|:-------------------------:|
 | **撥打及接聽對等通話和群組通話** | &#x2714;                    | &#x2714;                  |
-| **Microsoft 365 手機系統**                    |                             | &#x2714;                  |
+| **Microsoft 365 電話系統]**                    |                             | &#x2714;                  |
 
 ### <a name="intelligent-audio-and-video"></a>智慧型音訊和視訊
 

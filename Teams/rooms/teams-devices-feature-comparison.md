@@ -1,5 +1,5 @@
 ---
-title: 適用于 Windows 和 Android 的Teams 會議室功能比較
+title: 在 Windows 和 Android 上Teams 會議室功能比較
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
@@ -18,14 +18,14 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef7675881448597e8f20717c679fe1eabce11323
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 6648502d9b6a3e727ef30f1e94289f1428d8a4e2
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379450"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438528"
 ---
-# <a name="teams-rooms-for-windows-and-android-feature-comparison"></a>適用于 Windows 和 Android 的Teams 會議室功能比較
+# <a name="teams-rooms-on-windows-and-android-feature-comparison"></a>在 Windows 和 Android 上Teams 會議室功能比較
 
 Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都有獨特的需求，這就是為什麼Microsoft提供各種選項，包括 Windows 和 Android 上的Teams 會議室。 
 

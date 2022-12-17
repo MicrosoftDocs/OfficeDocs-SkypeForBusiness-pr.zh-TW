@@ -1,5 +1,5 @@
 ---
-title: 遠端更新 Microsoft Teams 裝置
+title: 遠端更新 teams 裝置Microsoft
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
@@ -13,61 +13,64 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 使用 Teams 系統管理中心遠端更新 Microsoft Teams 手機、Teams 面板和共同作業列
-ms.openlocfilehash: 36f84025feec5b88b2cbf28a52fcb89cb76aeaa5
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: 使用 Teams 系統管理中心遠端更新 Android 裝置上的 Teams 手機、Teams 面板和Teams 會議室Microsoft。
+ms.openlocfilehash: c69a4deb43df5d40bf158a3c5bc467d431b041d5
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269458"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438261"
 ---
-# <a name="update-microsoft-teams-devices-remotely"></a>遠端更新 Microsoft Teams 裝置
+# <a name="update-microsoft-teams-devices-remotely"></a>遠端更新 teams 裝置Microsoft
 
-您可以使用 Microsoft Teams 系統管理中心，遠端更新 Teams 手機、Teams 面板和共同作業列等 Teams 裝置，並選擇裝置韌體自動更新行為。 您可以在裝置上使用 Teams 系統管理中心更新下列專案：
+您可以使用 Microsoft Teams 系統管理中心，遠端更新您的 Teams 裝置，例如 Teams 手機、Teams 面板和 Android 上的Teams 會議室。 您可以從 Teams 系統管理中心更新您裝置上的下列軟體元件：
 
-- Teams 應用程式和團隊系統管理員代理程式
-- 公司入口網站應用程式
-- OEM 代理程式應用程式
+- Teams 應用程式
 - 裝置韌體
 
-裝置韌體更新可以自動套用或排定未來的日期和時間。 其他可用的裝置更新不會自動套用，但可以手動套用或排定未來的日期和時間。
+裝置韌體更新預設會自動進行。 不過，您可以手動更新韌體和其他軟體元件。 手動套用更新時，可以立即套用或排定未來的日期和時間。
 
-> [!NOTE]
-> 雖然可以排程裝置韌體更新，但如果排定的日期和時間落在設定的最多 30 或 90 天延遲之後，韌體更新會在到達最大延遲時套用。 排定的日期和時間會被忽略。 此外，從遠端更新 Microsoft Teams 裝置是美國政府雲端租使用者 (GCC-High) 尚未提供的功能。
+只有經過Microsoft測試的韌體版本可透過 Teams 系統管理中心進行自動或手動更新。 經Microsoft測試的韌體版本會標示 **為Microsoft驗證**。 未通過Microsoft測試的韌體版本會標示為 **[未知的版本]**。 執行未知韌體版本的裝置無法自動更新;這些裝置只能手動更新。
 
-若要管理裝置，您必須是全域系統管理員、Teams 服務系統管理員或 Teams 裝置系統管理員。如需系統管理員角色的詳細資訊，請參閱 [使用 Microsoft Teams 系統管理員角色管理 Teams](../using-admin-roles.md)。
+若要管理裝置，您必須是全域系統管理員、Teams 服務系統管理員或 Teams 裝置系統管理員。如需系統管理員角色的詳細資訊，請參[閱使用 Microsoft Teams 系統管理員角色來管理 Teams](../using-admin-roles.md)。
 
-## <a name="choose-automatic-device-firmware-update-behavior"></a>選擇自動裝置韌體更新行為
+## <a name="assign-devices-to-an-automatic-update-phase"></a>指派裝置至自動更新階段
 
-裝置韌體更新會自動套用。 如果您選擇此選項，您可以決定是否要在發行更新後立即套用更新 (，更新會在更新發行) 後的第一個週末套用，或在更新發行後的 30 或 90 天內套用。 根據預設，裝置韌體更新會在發行 30 天內套用。
+將裝置指派給自動更新階段是 Android 裝置上Teams 會議室的Teams 會議室專業版功能。 具有基本Teams 會議室授權的裝置將會指派給 [一般] 階段。 將會保留任何預先設定的階段，並且不允許進一步的變更。 如需詳細資訊，請[參閱Microsoft Teams 會議室授權](../rooms/rooms-licensing.md)。  
+
+無法在 GCC High 中使用 Teams 系統管理中心自動更新 Teams 裝置。 不過，GCC High 中的組織可以使用 Teams 系統管理中心 [手動更新 Teams 裝置](#manually-update-remote-devices) 。
 
 > [!IMPORTANT]
-> 最新的韌體更新版本不會套用至您的 Teams 裝置。 相反地，自動套用到您裝置上的更新會延遲一個版本。 例如，假設您的裝置已套用「10」版本，併發行「11」版本。 版本 「11」 尚未套用。 相反地，您的裝置只會在版本 「12」 發行後更新為版本 「11」。
+> 自動更新功能目前處於早期發行階段。 更新部署速度可能比您選取的階段慢。 在接下來幾個月內，自動部署更新的速度將會加快，直到它們到達您選取的階段為止。
 
 > [!NOTE]
-> 有些裝置還不支援自動韌體更新。 在不支援自動更新的裝置上套用自動韌體更新設定不會對這些裝置造成任何影響。 如需有關您的裝置是否支援自動韌體更新的問題，請連絡您的裝置製造商。
+> 有些裝置尚不支援自動韌體更新。 在不支援自動更新的裝置上套用自動韌體更新設定不會對這些裝置有任何影響。 如需有關您的裝置是否支援自動韌體更新的問題，請連絡您的裝置製造商。
+>
+> 更新會在週末和一般上班時間外套用，以避免干擾。 階段內的裝置將會在數周內逐漸更新，而不是一次更新所有裝置。
 
-若要選擇裝置的自動更新行為，請執行下列動作：
+若要選擇裝置的自動更新階段，請執行下列動作：
 
-1. 流覽以登入 Microsoft Teams 系統管理中心 https://admin.teams.microsoft.com 。
-2. 流覽 **Teams 裝置**  >  **IP 電話** 或 **共同作業列** 或 **Teams 面板**。
+1. 流覽以登入Microsoft Teams 系統管理中心 https://admin.teams.microsoft.com 。
+2. 流覽至 **Teams 裝置**，然後選取 [**手機**]、**[顯示器**]、[**面板****] 或 [在 Android 上Teams 會議室]**。  
 3. 選取一或多個裝置，然後選取 **[更新]**。
 4. 在 **[韌體自動更新**] 底下，選取下列其中一項：
-    - **一旦推出** 第二個最新的裝置韌體更新會在最新更新發行後的第一個週末套用。
-    - **延遲 30 天** 第二個最新的裝置韌體更新會在最新更新發行後的 30 天內套用。
-    - **延遲 90 天** 第二個最新的裝置韌體更新會在最新更新發行後 90 天套用。
+    - **測試** 此選項最適合實驗室或測試裝置，您可以執行任何需要執行的驗證。 更新在最新韌體版本發行後立即開始部署。 先前稱為 **「儘快執行」**。
+    - **一般** 這是預設選項，最適合您大部分的一般用途裝置。 更新在新韌體版本發行 30 天之後才開始部署。 先前稱為 **延期 30 天**。
+    - **最後** 此選項最適合 VIP 使用的裝置，以及完成大型驗證之後的大型設定。 更新在新韌體版本發行 90 天之後才開始部署。 先前稱為 **延期 90 天**。
 5. 選取 **[更新]**。
 
-如果因任何原因需要還原裝置韌體更新，您必須將裝置重設為原廠設定。 使用裝置製造商的指示重設您的裝置。  
+若要查看裝置處於哪個階段，請參閱 Teams 系統管理中心的 [ **韌體自動更新** ] 欄。 若要查看哪些裝置屬於特定階段的一部分，請使用 **[篩選** ] 選項搭配 **自動更新階段** 參數。
+
+若要還原裝置韌體更新，您必須將裝置重設為原廠設定。 使用裝置製造商的指示重設您的裝置。  
 
 ## <a name="manually-update-remote-devices"></a>手動更新遠端裝置
 
-當您使用系統管理中心更新一或多個裝置時，您可以決定是否要立即更新裝置，或是排定未來日期和時間的更新。
+如果您想要使用 Teams 系統管理中心手動更新裝置，您可以決定是否要立即更新裝置，或是排定未來日期和時間的更新。
 
 若要手動更新遠端裝置，請執行下列動作：
 
-1. 流覽以登入 Microsoft Teams 系統管理中心 https://admin.teams.microsoft.com 。
-2. 流覽 **Teams 裝置**  >  **IP 電話** 或 **共同作業列** 或 **Teams 面板**。
+1. 流覽以登入Microsoft Teams 系統管理中心 https://admin.teams.microsoft.com 。
+2. 流覽 **Teams 裝置**，然後在 Android 上選取 **[手機**]、**[顯示器**]、[**面板****] 或 [Teams 會議室]**。
 3. 選取一或多個裝置，然後選取 **[更新]**。
 4. 如果您想要針對未來的日期和時間排程更新，請在 **[手動更新**] 下方選取 [ **排** 程]。 更新會在時區中所選時區的日期和時間 **套用**。
 

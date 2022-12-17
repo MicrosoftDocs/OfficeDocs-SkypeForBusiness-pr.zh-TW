@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c6416115d65f223b3785be050520548c2e69ba4
-ms.sourcegitcommit: 23224d983ae027c4923e52ed8e31953ae0f84807
+ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69422812"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438361"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -106,8 +106,8 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 - 在 Teams 會議中啟動白板
 - 調整成框架會議室視訊名冊控制
 - 溢出會議支援
-- 透過識別碼 (直接來賓加入加入縮放會議) 
-- 協力廠商會議的品質修正 (直接來賓加入) 
+- 透過直接來賓加入，透過識別碼加入縮放會議。 此版本已新增使用識別碼加入縮放會議的支援，並將會在未來幾周啟用。
+- 協力廠商會議 (直接來賓加入) 品質修正
 - 在 Teams 未登入時，設定中顯示沒有授權的修正
 - 新的預設桌布 (生動標幟) 和其他四個新的桌布
 
@@ -337,7 +337,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 在此更新中推出：
 
-- 使用直接來賓加入，從 Teams 會議室 加入 Cisco Webex 會議
+- 使用 Direct Guest Join 從 Teams 會議室 加入 Cisco Webex 會議
 - Teams 管理員中心啟用和自動註冊
 - Windows 10 1909 版本支援
 - 即使在內容出現時，仍可切換到視訊庫版面配置
