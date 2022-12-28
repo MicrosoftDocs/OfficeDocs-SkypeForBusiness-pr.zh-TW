@@ -3,6 +3,15 @@
 
 
 
+## <a name="week-of-december-19-2022"></a>2022 年 12 月 19 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 12/19/2022 | [管理整個 Microsoft 365 的 Teams 應用程式存取權](/MicrosoftTeams/manage-third-party-teams-apps) | 改 性 |
+| 12/21/2022 | [Microsoft Teams 中的虛擬約會會議範本](/MicrosoftTeams/virtual-appointment-meeting-template) | 添加 |
+
+
 ## <a name="week-of-december-12-2022"></a>2022 年 12 月 12 日周
 
 
