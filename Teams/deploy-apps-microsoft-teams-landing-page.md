@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156839"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677413"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>瞭解 Microsoft Teams 應用程式及其功能
 
@@ -92,7 +92,7 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 使用者可以從 Teams 應用程式儲存在 Teams 桌面或 Web 用戶端中檢視 Teams 中所有可用的應用程式。 使用者可以依名稱搜尋、依類別流覽，以及流覽為您的組織所建置且使用 Power Platform 建置的應用程式，以在 Teams 中探索和安裝應用程式。
 
-應用程式可以釘選到 Teams 以便輕鬆存取。 如果設定原則允許，以及 Teams 系統管理員允許該應用程式，使用者就可以 [自行釘](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 選應用程式。系統管理員可以釘選應用程式並控制釘選應用程式的行為。如需詳細資訊，請參閱 [應用程式設定原則](/teams-app-setup-policies)。
+應用程式可以釘選到 Teams 以便輕鬆存取。 如果設定原則允許，以及 Teams 系統管理員允許該應用程式，使用者就可以 [自行釘](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 選應用程式。系統管理員可以釘選應用程式並控制釘選應用程式的行為。如需詳細資訊，請參閱 [應用程式設定原則](/microsoftteams/teams-app-setup-policies)。
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="螢幕擷取畫面顯示使用者可在 Microsoft Teams 中流覽應用程式的所有位置。" lightbox="media/user-app-experience-find-apps-full.png":::
 

@@ -16,12 +16,12 @@ description: 了解如何稽核貴組織中使用者和系統管理員的 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5aee5bf00d486586b4bc8e9583504be5e4a9b922
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9114bae9fa24a546aec2629f1f347af193b10fd5
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251876"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677503"
 ---
 # <a name="search-audit-logs-for-app-management-activities-and-events"></a>搜尋應用程式管理活動和事件的稽核記錄
 
@@ -78,7 +78,7 @@ Teams 中應用程式事件的稽核記錄可協助您調查系統管理員與�
 
 ## <a name="related-articles"></a>相關文章
 
-* [使用稽核記錄調查 Microsoft Power Platform 安裝活動](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
+* [使用稽核記錄來調查Microsoft Power Platform 安裝活動](manage-power-platform-apps.md#use-audit-logs-to-check-microsoft-power-platform-installation-activity)。
 * [在合規性入口網站中搜尋稽核記錄](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 * [Microsoft Purview 稽核進階版概觀](/microsoft-365/compliance/advanced-audit)。
 * [開啟或關閉稽核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。

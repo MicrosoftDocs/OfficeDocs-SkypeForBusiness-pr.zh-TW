@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0f01942dcee0ed5f2696c7e6ab5b31d67a98856
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: e86f5e372bc1c03c2dc75b09f5e26b8fb5d98241
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912872"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677493"
 ---
-# <a name="find-teams-apps-that-undergo-microsoft-365-app-compliance-program-for-security-compliance-and-privacy"></a>尋找在安全性、合規性和隱私權上經歷 Microsoft 365 應用程式合規性計畫的 Teams 應用程式
+# <a name="know-about-apps-that-undergo-app-compliance-program-for-security-data-handling-and-privacy"></a>瞭解透過應用程式合規性計畫進行安全性、資料處理和隱私權的應用程式
 
-Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措施，檢查和稽核應用程式。 此計畫示範了強大的安全性與合規性做法，以保護客戶資料。 計畫有下列階段:
+Microsoft 365 應用程式合規性計畫會針對衍生自業界標準架構的控制措施，檢查並稽核應用程式。 此計畫示範了強大的安全性與合規性做法，以保護客戶資料。 計畫有下列階段:
 
 * [Publisher 驗證](#publisher-verification)。
 * [Publisher 證明](#publisher-attestation)。
@@ -57,7 +57,7 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="在 Teams 系統管理中心，所有已證明的應用程式上都會顯示發行者證明圖示。":::
 
-* 在 Teams 系統管理中心中，在您 [授與應用程式許可權](app-permissions-admin-center.md)之前，應用程式名稱前方的藍色核取記號表示它是發行者證明的應用程式。 所有 Microsoft 365 應用程式也會經過發行者證明，因此 Microsoft 365 應用程式也會顯示藍色核取記號。
+* 在 Teams 系統管理中心中，在您 [授與應用程式許可權](app-permissions-admin-center.md)之前，應用程式名稱前方的藍色核取記號表示它是發行者證明的應用程式。 所有Microsoft 365 應用程式也會經過發行者證明，因此Microsoft 365 應用程式也會顯示藍色核取記號。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 系統管理中心內，在授予權限的對話方塊中，藍色勾選記號表示發行者證明的應用程式。":::
 
@@ -90,7 +90,7 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="在 Teams 系統管理中心管理特定應用程式時，於應用程式橫幅中檢視 Microsoft 365 認證資訊":::
 
-* 在 Teams 系統管理中心中，在您 [授與應用程式許可權](app-permissions-admin-center.md)之前，應用程式名稱前方的藍色核取記號表示它是發行者證明的應用程式。 所有 Microsoft 365 應用程式也會經過發行者證明，因此 Microsoft 365 應用程式也會顯示藍色核取記號。
+* 在 Teams 系統管理中心中，在您 [授與應用程式許可權](app-permissions-admin-center.md)之前，應用程式名稱前方的藍色核取記號表示它是發行者證明的應用程式。 所有Microsoft 365 應用程式也會經過發行者證明，因此Microsoft 365 應用程式也會顯示藍色核取記號。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 系統管理中心，系統管理員可以於授與權限的對話方塊中檢查藍色核取記號，以確保應用程式已通過 Microsoft 365 認證":::
 
@@ -121,7 +121,7 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
 1. 選取 **[安全性與合規性]** 索引標籤。
 
-   :::image type="content" source="media/mcas.png" alt-text="Teams 系統管理中心安全性與合規性索引標籤的螢幕擷取畫面。":::
+   :::image type="content" source="media/mcas.png" alt-text="Teams 系統管理中心安全性與合規性索引標籤的螢幕擷取畫面。" lightbox="media/mcas.png":::
 
    若要取得應用程式支援功能的詳細資訊，請選取每個類別的下拉清單。
 

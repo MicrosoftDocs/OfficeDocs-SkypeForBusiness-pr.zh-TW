@@ -18,19 +18,19 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 系統管理中心使用 Microsoft Power Platform 來管理自訂應用程式組建的存取權。
-ms.openlocfilehash: c4ac0bd3551bb53da06de3301447c6bf4842540c
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: cf47cb5a2441676aba706b2353837d51997d9b4f
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912582"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677393"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心管理 Microsoft Power Platform 應用程式
 
-本文提供如何在 Microsoft Teams 系統管理中心使用 [Microsoft Power Platform](https://powerplatform.microsoft.com/) 應用程式管理自訂應用程式的概觀。 自訂應用程式是由貴組織內部的開發人員為內部使用者所建立。
+本文提供如何在 Microsoft Teams 系統管理中心管理使用[Microsoft Power Platform](https://powerplatform.microsoft.com/)應用程式建立的自訂應用程式的概觀。 自訂應用程式是由貴組織內部的開發人員為內部使用者所建立。
 
 > [!NOTE]
-> 本文不適用於從 [應用程式] 頁面安裝或透過應用程式設定原則釘選到 Teams 的 Power Apps 應用程式或 Power Virtual Agents 應用程式。 您可以使用[應用程式權限原則](teams-app-permission-policies.md)和[應用程式設定原則](teams-app-setup-policies.md)來管理 Microsoft Store 應用程式。
+> 本文不適用於 `Power Apps` 從 App Store 安裝或 `Power Virtual Agents` 透過應用程式設定原則釘選到 Teams 的應用程式或應用程式。 您可以使用[應用程式權限原則](teams-app-permission-policies.md)和[應用程式設定原則](teams-app-setup-policies.md)來管理 Microsoft Store 應用程式。
 
 [Power Apps](https://powerapps.microsoft.com) 是低程式碼或無程式碼的應用程式開發環境，組織中的應用程式建立者可以使用它來建置可連線至您商務資料的自訂應用程式。 [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) 是一個無程式碼的 Bot 建置環境，可讓應用程式開發人員建立功能強大的 Bot。 透過將 Microsoft Power Platform 應用程式整合至 Teams，組織可以簡化業務流程、更快速地回應不斷變更的業務需求以提升共同作業成效，並建立及共用自訂解決方案來提高工作效率。  
 
@@ -73,7 +73,7 @@ ms.locfileid: "68912582"
     * 若要封鎖在 Power Apps 或 Power Virtual Agents 中為貴組織中的所有使用者建立的應用程式，請搜尋 **[共用 Power Apps** ] 或 **[共用 Power Virtual Agent Apps]**，選取該應用程式，然後選取 **[封鎖]**。
     * 若要允許在 Power Apps 或 Power Virtual Agents 中為貴組織中的所有使用者建立應用程式，請搜尋 **[共用 Power Apps]** 或 **[共用 Power Virtual Agent Apps]**，選取該應用程式，然後選取 **[允許]**。
 
-### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>允許特定使用者使用 Microsoft Power Platform 應用程式
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>允許特定使用者Microsoft Power Platform 應用程式
 
 若要允許或封鎖貴組織中的特定使用者存取在 Power Apps 或 Power Virtual Agents 中建立的應用程式，請建立並指派一或多個自訂[應用程式權限原則](teams-app-permission-policies.md)。
 
@@ -81,7 +81,7 @@ ms.locfileid: "68912582"
 
 :::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="已封鎖共用 Power Apps 之應用程式許可權範例自訂原則的螢幕擷取畫面。":::
 
-### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>使用稽核記錄調查 Microsoft Power Platform 安裝活動
+### <a name="use-audit-logs-to-check-microsoft-power-platform-installation-activity"></a>使用稽核記錄來檢查Microsoft Power Platform 安裝活動
 
 您可以使用 Teams 的稽核記錄來調查使用者從 Teams [應用程式] 頁面的 **[使用 Power Platform 建置]** 　區段安裝 Microsoft Power Platform 應用程式的事件。 若要這麼做，請搜尋使用者或一組使用者的 **已安裝應用程式** Teams 事件 [稽核記錄](./audit-log-events.md) (在 **[已安裝的應用程式]** 下)。 若要尋找從 **[使用 Power Platform 建置]** 安裝的應用程式，請在指定記錄的詳細資料中尋找 **AppDistributionMode** 屬性中的 **TemplatedInstance** 值。
 
