@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理參與者和來賓的會議原則設定。
-ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 26d2fd24d8b241b8f79276148ed27abd3e5412b1
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436669"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693386"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -50,7 +50,7 @@ ms.locfileid: "69436669"
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>讓匿名人員加入會議
 
-此每個召集人設定可讓任何人以匿名使用者的身分加入會議，方法是選取會議邀請中的連結。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名使用者加入會議的能力也會受到貴組織層級的控制，而較嚴格的設定將會有效。 若要深入瞭解，請參[閱使用 Microsoft Teams 系統管理中心來設定整個組織的原則](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
+此每個召集人設定可讓任何人以匿名使用者的身分加入會議，方法是選取會議邀請中的連結。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名使用者加入會議的能力也會受到貴組織層級的控制，而較嚴格的設定將會有效。 若要深入瞭解，請參閱 [使用 Microsoft Teams 系統管理中心來設定整個組織的原則](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
@@ -61,14 +61,14 @@ ms.locfileid: "69436669"
 
 ## <a name="who-can-present-in-meetings"></a>誰可以在會議中簡報
 
-這是每一使用者原則。 此設定可讓您變更 Teams 用戶端的 [會議選項 **]** 中 [誰可以簡報?**]** 設定的預設值。 此原則設定會影響所有會議，包括「立即開會」會議。
+此設定是每個使用者的原則，可讓您在 Teams 用戶端的 **會議選項** 中變更 [**誰可以簡報？**] 設定的預設值。 [ **誰可以在會議中簡報]** 原則設定會影響所有會議，包括 [立即開會] 會議。
 
 [誰可以簡報?**]** 設定可讓會議召集人選擇可以成為會議簡報者的人員。 若要深入了解，請參閱[變更 Teams 會議的參與者設定](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e)和 [Teams 會議中的角色](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
 
-若要在 Teams 中指定 [ **誰可以簡報？** ] 設定的預設值，請設定為原則中的下列其中一個設定：
+若要在 Teams 中指定 [ **誰可以簡報？** ] 設定的預設值，請在 [ **誰可以在會議中簡報** ] 原則中設定下列其中一個設定：
 
 - **召集人，但使用者可以覆寫**：只有會議召集人可以是簡報者，所有會議參與者都指定為出席者。 此參數會與 Teams 中的 [只有我 **]** 設定對應。
-- **組織中的每個人都可以覆寫，但使用者可以覆寫**：組織中已驗證的使用者，包括來賓使用者，都可以是簡報者。 此設定會對應到 **Teams 中組織設定中的人員**。
+- **組織中的每個人都可以覆寫**：組織中已驗證的使用者，包括來賓，都可以是簡報者。 此設定會對應到 **Teams 中組織設定中的人員**。
 - **所有人，但使用者可以覆寫**：所有會議參與者都可以是簡報者。 這是預設值。 此設定會對應到 Teams 中的 [ **所有人** ] 設定。
 
 請記住，在您設定預設值之後，會議召集人仍然可以在 Teams 中變更此設定，並選擇誰可以在其排程的會議中簡報。
@@ -123,7 +123,7 @@ ms.locfileid: "69436669"
 ### <a name="live-translated-captions"></a>即時翻譯的輔助字幕
 
 > [!NOTE]
-> 這項功能暫時在公開預覽中提供。 預覽之後，會議召集人必須擁有 Teams 進階版授權，出席者才能使用即時翻譯的輔助字幕。
+> 這項功能暫時在公開預覽中提供。 預覽之後，會議召集人必須擁有Teams 進階版授權，出席者才能使用即時翻譯的輔助字幕。
 
 根據預設， **即時輔助字幕** 會以會議期間說出的語言顯示。 **即時翻譯的輔助字幕** 可讓您的使用者看到輔助字幕翻譯成他們最喜歡的語言。
 
@@ -145,7 +145,7 @@ ms.locfileid: "69436669"
 
 套用至會議召集人的原則可能會影響會議中的其他使用者。 例如：
 
-- 如果召集人將 **[會議中的聊天** ] 設 **為 [為所有人開啟]** ，或是 **針對除了匿名使用者以外的所有人開啟該** 聊天，則會套用使用者的個別原則，而設定 [ **為所有人關閉** 聊天] 的任何使用者將無法在會議中聊天。
+- 如果召集人將 **[會議中的聊天** ] 設 **為 [為所有人開啟]** 或 [ **針對除了匿名使用者以外的所有人開啟聊天**]，則會套用使用者的個別原則，而任何設定 **為 [為所有人關閉** 聊天] 的使用者將無法在會議中聊天。
 - 如果召集人將 **會議中的 [聊天** ] 設 **為 [為所有人關閉]**，則會套用召集人的原則，且沒有人能在會議中聊天。
 
 <a name="bkparticipantsandguests"> </a>
@@ -156,7 +156,7 @@ ms.locfileid: "69436669"
 
 此設定會在會議建立或召集人更新時強制執行。 此設定預設會關閉。 深入瞭解 [Teams 會議中的 Q&A](/manage-qna-for-teams)。
 
-參數 QnAEngagementMode 會在 PowerShell 中控制此原則。 Q&A 也可以在 Teams 系統管理中心內進行調整。
+Teams Q&A 可在 Teams 系統管理中心內，根據 [**參與者&來賓**] 區段中的 **會議**  >  **會議原則** 進行調整。 `-QnAEngagementMode`參數會在 PowerShell 中控制此原則。
 
 |設定值 |行為  |
 |---------|---------|
@@ -169,7 +169,7 @@ ms.locfileid: "69436669"
 
 ## <a name="enable-meeting-policy-settings"></a>啟用會議原則設定
 
-若要啟用會議原則設定，您可以使用 [Teams 系統管理中心](https://admin.teams.microsoft.com/policies/meetings) (**會議原則**  >  **編輯**  >  原則 **參與者&來賓)** 或 Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet。 
+若要啟用會議原則設定，您可以使用 [Teams 系統管理中心](https://admin.teams.microsoft.com/policies/meetings) (**會議原則**  >  **編輯**  >  原則 **參與者&來賓)** 或 Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet。
 
 在此範例中，我們使用 PowerShell 來修改全域會議原則，允許任何人開始或加入會議。
 
@@ -178,7 +178,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 設定原則之後，您必須將原則套用至使用者。 如果您修改了全域 (組織的預設) 原則，它會自動套用至使用者。 您必須等候至少 4 小時，任何原則變更才會生效，但最多可能需要 24 小時。
-
 
 ## <a name="related-topics"></a>相關主題
 
