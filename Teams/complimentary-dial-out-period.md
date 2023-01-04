@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 瞭解 Microsoft Teams 中 Microsoft 365 通話方案和音訊會議的免費撥出期間。
-ms.openlocfilehash: 72ec36eb99a4a0eb2358195a52db00b26bb591e5
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 472482f49109932dded4594bf0381ebd93febab3
+ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641894"
+ms.lasthandoff: 01/04/2023
+ms.locfileid: "69696848"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音訊會議免費撥出期間
 
@@ -39,7 +39,7 @@ ms.locfileid: "67641894"
 
 免費撥出功能已于 2019 年 12 月 1 日結束。 如需詳細資訊，請參閱 [音訊會議訂閱撥出，並以優惠方式撥號給我](audio-conferencing-subscription-dial-out.md)。
 
-這項變更並未針對有音訊會議訂閱的國家/地區進行，但我們目前並未啟用設定通訊點數。 這些特定國家是俄羅斯、南韓和臺灣。
+這項變更並未針對可使用音訊會議訂閱的國家和地區進行，但我們目前並未啟用設定通訊點數。 這些特定國家和地區是俄羅斯、南韓和臺灣。
 
 ### <a name="complimentary-dial-out-period-details"></a>免費撥出期間詳細資料
 
@@ -47,7 +47,7 @@ ms.locfileid: "67641894"
 
 此外，免費撥出期間有 900 分鐘的限制，例如：
 
-擁有授權使用位置 (該位置的使用者國家/地區，是在 _任何_ _ 國家/地區的Microsoft 365 系統管理中心) 授權區域中定義的使用者國家/地區，可以從會議撥出到 44 [個 A 區國家/地區中](audio-conferencing-zones.md)的任何一個。 每個使用者每個月會收到每個使用者 900 分鐘到 _任何_ [A 區域國家與地區，這些國家和地區](audio-conferencing-zones.md)是在租使用者層級集合。 例如，客戶已購買 115 個音訊會議訂閱授權，而且在美國有 10 個使用者，英國有 100 個使用者，印度有 5 個使用者，全部都已獲指派給使用者的音訊會議訂閱授權。
+擁有授權使用位置 (該位置的使用者是位於 _任何_ _國家或地區中Microsoft 365 系統管理中心) 授權區域中定義的使用者國家或地區位置，可以從會議撥出到 44 [個 A 區國家與地區](audio-conferencing-zones.md)中的任何一個。 每個使用者每個月會收到每個使用者 900 分鐘到 _任何_ [A 區域國家與地區，這些國家和地區](audio-conferencing-zones.md)是在租使用者層級集合。 例如，客戶已購買 115 個音訊會議訂閱授權，而且在美國有 10 個使用者，英國有 100 個使用者，印度有 5 個使用者，全部都已獲指派給使用者的音訊會議訂閱授權。
 
 - 所有 115 個使用者共用一個 (115 個使用者的集區 X 900 分鐘) = 每個行事曆月 103，500 分鐘的會議撥出分鐘數，可用來撥打撥出電話到 [任何 A 區域國家和地區](audio-conferencing-zones.md)。
 
