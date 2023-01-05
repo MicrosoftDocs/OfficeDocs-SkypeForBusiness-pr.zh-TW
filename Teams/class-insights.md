@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: f93359c04dba3f926983214d9fa8b856f58915c6
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397270"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707815"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -47,7 +47,7 @@ Insights 可提供其班級內學生進度和活動的即時分析。 利用容�
 
 使用 Insights 沒有特別的必要條件，授課者只需要在 Teams 中將 Insights 新增至左側的應用程式列或以索引標籤形式新增至他們的每個班級即可。
 
-授課者由教職員授權所識別。授課者必須擁有教職員授權，並成為班級團隊的擁有者，才能在 Insights 中查看資料。
+Educators are identified by faculty licenses. Educators must have a faculty license and be a class team owner to see the data in Insights.
 
 ### <a name="education-leaders"></a>教育領導者
 
@@ -68,8 +68,6 @@ Insights 可提供其班級內學生進度和活動的即時分析。 利用容�
 > Insights 會收集關於 Teams 中學生活動的資料。
 >
 > 學生是 Teams 內班級團隊的成員。 依其授權加以識別，且他們 **無權存取** Insights 應用程式或索引標籤 (即使他們是團隊擁有者)。
->
-> 來賓 *無法* 被視為學生。
 
 ## <a name="where-do-users-find-insights"></a>使用者可在哪裡找到 Insights？
 
@@ -84,7 +82,7 @@ Insights 可提供其班級內學生進度和活動的即時分析。 利用容�
 
 Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能新增為公用頻道的索引標籤。 該索引標籤會反映來自非擁有者 (包括非班級團隊擁有者的授課者) 的班級團隊中每個人的活動。
 
-在這兩個檢視中，授課者都可以存取班級資料。使用此個人應用程式，授課者必須向下切入班級層級，而使用索引標籤則可讓其直接存取班級資料。
+In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 在班級層級，如果某位授課者擁有班級團隊，就可以使用 Insights，而不需要 IT 系統管理員進行任何其他動作。
 
@@ -114,7 +112,7 @@ Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能�
 
 ## <a name="when-is-insights-used"></a>Insights 的使用時機？
 
-Insights 在整個 **學習週期** 支援學習社群。透過多個維度的即時度量，Insights 可支援學校社群成員之間的識別、反映、討論和採取行動的持續循環。
+Insights supports learning communities throughout **the learning cycle**. With real-time metrics across multiple dimensions, Insights supports a continuous cycle of identification, reflection, discussion, and taking action amongst members of the school community.
 
 - **識別** 學生與授課者、課程教材及其同儕互動的方式和時間，以及他們執行作業的情況。
 - **反映** 該意見如何支援學生以獲得成功，判斷成長領域，以及需要協助之處。
@@ -131,7 +129,7 @@ Insights 可產生功能強大的分析，以協助授課者提供更完善的�
 
 ### <a name="data-collection"></a>資料收集
 
-將為 Insights 從 Teams 中的學生和授課者活動收集資料。 不會收集來賓資料。
+將為 Insights 從 Teams 中的學生和授課者活動收集資料。
 
 Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可行的深入解析，以協助您參與教學和學習。
 
@@ -149,10 +147,10 @@ Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可�
 |**職涯教練**|學生提供的主修 (學習領域) 和學校年份、職涯教練應用程式中的學生活動，包括: 技能、技能興趣、職業興趣、學習興趣和工作相關活動。|
 
 > [!NOTE]
-> 收集的資料多數會在幾分鐘內出現在 Insights 中。班級會議 (與其中一個班級頻道相關聯的會議) 中的出席資訊，會在會議結束後顯示幾小時 (通常最多為 24 小時)。
+> Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
 > [!NOTE]
-> 在教育版分析中收集的資料會保留，直到 IT 系統管理員關閉 [[教育版分析切換]](#turn-sds-for-insights-on-or-off)，或租用戶 Office 訂閱結束為止。關閉 Teams 中的特定功能不會刪除歷史資料。
+> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### <a name="privacy-and-security"></a>隱私權和安全性
 
@@ -212,7 +210,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 ## <a name="manage-permissions"></a>管理權限
 
-身為 IT 系統管理員，您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社交工作者和心理學家提供權限。當授課者擁有班級團隊時，系統就會 *自動* 提供其權限。
+As an IT admin you can provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 若要深入了解，請參閱 [**管理 Education Insights 的使用者存取權**](education-insights-manage-access.md)。
 
@@ -222,7 +220,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 如果授課者想要直接存取每個班級，他們可以在上方瀏覽功能表手動安裝 Insights 索引標籤。 此索引標籤可讓授課者處於 Teams 中的該班級時直接存取相關資料，以查看班級內容中的該資料。
 
-在這兩個檢視中，授課者都可以存取班級資料。使用此個人應用程式，授課者必須向下切入班級層級，而使用索引標籤則可讓其直接存取班級資料。
+In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 > [!TIP]
 > 如需詳細資訊，請參閱[適用於教育界的 Teams 原則和原則套件](./policy-packages-edu.md)。
@@ -336,13 +334,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 若要加以確認，請開啟 [SDS 系統管理中心](https://sds.microsoft.com)，並移至 **[設定]** > **[管理 Education Insights]**。 檢查‘收集 Insights 活動資料’的狀態。
 
-如果已關閉，請將其重新開啟。Insights 會開始收集資料，但可能需要最多 24 小時的時間，才能在報告中看到資料。
-
-### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>為什麼我會看到部分學生或班級的資料，而非全部？
-
-我們只會收集經 *授權* 學生的資料，因此最可能的原因是您的學生以來賓身分參與班級，因此不會收集其資料。 您可能會看到他們的名稱，但沒有任何資料。
-
-檢查學生的狀態，以確保他們都擁有學生授權。
+If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports.
 
 ### <a name="why-dont-educators-see-meeting-data"></a>為什麼授課者看不到會議資料？
 
@@ -351,7 +343,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 此外，請檢查學生並未[在沒有 Teams 帳戶的情況下加入班級會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 在這種情況下，系統不會收集該學生的活動。
 
 > [!TIP]
-> 針對想要追蹤學生出勤的授課者，您可以建議其在會議期間傳送訊息以要求學生回覆。這麼做可在幾分鐘內註冊其出席。
+> For those educators who want to track student attendance, you can recommend sending a message during the meeting asking students to reply. This registers their attendance within a few minutes.
 
 > [!NOTE]
 > 如果您的問題仍未獲得回覆，請[開啟支援票證](https://aka.ms/edusupport)。 請包含代表問題的相關螢幕擷取畫面和問題發生的日期。 新增您認為可能有助於我們解決問題的任何其他資料。
