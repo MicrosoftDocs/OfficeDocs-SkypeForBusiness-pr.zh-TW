@@ -19,31 +19,31 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-description: 在 Teams 中Microsoft撥號對應表和路由
-ms.openlocfilehash: b45fd9ec15ae6a9bb8f342096711b58512aead43
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+description: Microsoft Teams 中的撥號對應表和路由
+ms.openlocfilehash: 1d8c4ed750369c6b5bf393ebceae850703f89395
+ms.sourcegitcommit: 0a2476471713e1eba791060db2c8c888484033a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242467"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69722113"
 ---
 # <a name="microsoft-teams-dial-plans-and-routing"></a>Microsoft Teams 撥號對應表和路由
 
-本節中的文章說明 teams 中Microsoft撥號對應和通話路由。 
+本節中的文章說明 Microsoft Teams 中的撥號對應和通話路由。 
 
 - [什麼是撥號對應表](what-are-dial-plans.md)
 - [建立和管理撥號對應表](create-and-manage-dial-plans.md)
-- [將通話路由至未指派的 Nu 問題](routing-calls-to-unassigned-numbers.md)
+- [將通話路由至未指派的號碼](routing-calls-to-unassigned-numbers.md)
 
 本節中的文章適用于連線到公用交換電話網路的所有選項 (PSTN) ：通話方案、電信業者連線、Teams Phone Mobile 和直接路由。 如需所有 PSTN 連線選項的詳細資訊，請參閱 [PSTN 連線選項](pstn-connectivity.md)。
 
-如果您選擇 [通話方案]、[電信業者連線] 或 [Teams Phone Mobile]，大部分的通話路由是由Microsoft或您的提供者負責。 不過，直接路由需要額外步驟來設定通話路由。 
+如果您選擇 [通話方案]、[電信業者連線] 或 [Teams Phone Mobile]，則大部分的通話路由是由 Microsoft 或您的提供者負責。 不過，直接路由需要額外步驟來設定通話路由。 
 
 若是直接路由，您必須指定語音路由，並將語音路由原則指派給使用者，藉此設定通話路由。 您可以在主幹層級設定撥號對應表，以確保可與會話框線控制器 (SBC) 互通性。 如需詳細資訊，請參閱設定 [直接路由的語音路由](direct-routing-voice-routing.md)、 [管理語音路由原則](manage-voice-routing-policies.md) 和 [翻譯電話號碼](direct-routing-translate-numbers.md)。
 
 請注意，您可以將直接路由線上語音路由原則指派給通話方案和運算子連線使用者。 舉例來說，您可能會想要這樣做，讓使用者能夠直接撥入通話中心。 您可以設定直接路由主幹到話務中心。
 
-例如，如果使用者擁有通話方案授權，該使用者的撥出電話會自動透過Microsoft通話方案 PSTN 基礎結構路由。 如果您設定並指派直接路由線上語音路由原則給使用者，系統會檢查使用者的撥出電話，以判斷撥號是否符合線上語音路由原則中定義的號碼模式。 如果有相符專案，通話會透過直接路由主幹路由路由傳送。 如果沒有相符的專案，通話會透過通話方案 PSTN 基礎結構路由。
+例如，如果使用者有通話方案授權，該使用者的撥出電話會自動透過 Microsoft 通話方案 PSTN 基礎結構路由。 如果您設定並指派直接路由線上語音路由原則給使用者，系統會檢查使用者的撥出電話，以判斷撥號是否符合線上語音路由原則中定義的號碼模式。 如果有相符專案，通話會透過直接路由主幹路由路由傳送。 如果沒有相符的專案，通話會透過通話方案 PSTN 基礎結構路由。
 
 如需詳細資訊，請參閱 [直接路由語音路由原則考慮](direct-routing-voice-routing.md#voice-routing-policy-considerations)。
 
