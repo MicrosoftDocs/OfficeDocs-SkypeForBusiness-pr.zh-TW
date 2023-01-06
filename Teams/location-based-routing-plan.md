@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7b6b360f51c803aef3eb7811b15c17a748df5f0
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 354a3ae6ec4fb482b6ba0d5136597438c37acbe2
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67705832"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727785"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
@@ -32,7 +32,6 @@ ms.locfileid: "67705832"
 當您準備好啟用Location-Based路由時，請參閱：
 
 - [設定依位置路由的網路設定](location-based-routing-configure-network-settings.md)
-- [部署Location-Based路由的網路設定](location-based-routing-configure-network-settings.md)
 - [啟用直接路由的依位置路由](location-based-routing-enable.md)
 
 > [!NOTE]
@@ -342,7 +341,7 @@ Location-Based路由的運作方式是根據使用者 Teams 端點的 IP 位址�
 
 可從Location-Based啟用路由的閘道撥打輸入 PSTN 電話，以連線到自動語音應答或通話佇列。 
 
-啟用Location-Based路由的使用者位於輸入 PSTN 通話的來源網站時，支援接收這些應用程式的撥入來電轉接。
+啟用Location-Based路由的使用者位於輸入 PSTN 通話的來源網站時，支援接收這些應用程式的撥入來電轉接。 若要在這些案例中支援本機媒體優化和媒體旁路，通話佇列必須針對轉接模式設定 (會議模式 = 關閉) 。
  
 來電轉接和同時撥打給使用者，並允許 PSTN 進行語音應用程式轉接。 完成目標通話受限於先前列出的相同Location-Based路由規則。  
  

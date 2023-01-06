@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中管理 Bookings 應用程式Microsoft
+title: 在 Microsoft Teams 中管理 Bookings 應用程式
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -25,16 +25,16 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: ''
 description: 瞭解如何在 Teams 中為組織中的使用者管理 Bookings 應用程式。
-ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 66e3d0450eaad1843c94833cb7bb6d417959eb8c
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307518"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727755"
 ---
-# <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Teams 中管理 Bookings 應用程式Microsoft
+# <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理 Bookings 應用程式
 
-Microsoft Teams 中的 Bookings 應用程式提供簡單的親自和虛擬約會排程方式。 例如，醫療探訪、財務諮詢、面談、客戶支援，以及教育辦公室時間。 若要深入瞭解，請[參閱使用 Teams 和 Bookings 應用程式虛擬約會](/microsoft-365/frontline/bookings-virtual-appointments)。
+Microsoft Teams 中的 Bookings 應用程式提供一個簡單的方式來排程親自和虛擬約會。 例如，醫療探訪、財務諮詢、面談、客戶支援，以及教育辦公室時間。 若要深入瞭解，請[參閱使用 Teams 和 Bookings 應用程式虛擬約會](/microsoft-365/frontline/bookings-virtual-appointments)。
 
 排程器可以從單一體驗管理多個部門和教職員行事曆，以及與內部和外部出席者通訊。 虛擬約會會透過 Teams 會議進行，以提供強大的視訊會議功能。
 
@@ -64,13 +64,16 @@ Teams 版 Bookings 應用程式可在桌面和網頁上使用。 您可以 [在 
 
 ## <a name="sms-text-notifications"></a>簡訊通知
 
-![資訊圖示 ](media/info.png) **此功能正移至 [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (預覽版) 。使用者可以在預覽期間繼續使用此功能。預覽之後，使用者需要 Teams 進階版授權。**
+![資訊圖示 ](media/info.png) **此功能正移至 [Teams 進階版 (](teams-add-on-licensing/licensing-enhance-teams.md) Preview) 。使用者可以在預覽期間繼續使用此功能。預覽之後，使用者需要Teams 進階版授權。**
+
+> [!NOTE]
+> 我們將于 2023 年 3 月 1 日 (之前于 2023 年 1 月 31 日) 提供無限制的簡訊通知給擁有 Bookings 授權的客戶。 隨著我們即將結束促銷期間，我們將提供授權需求的其他詳細資料。 請連絡您的帳戶小組或支援，以在促銷期間之後收到價格詳細資料。
 
 您可以控制是否可以傳送簡訊簡訊通知給外部出席者，以進行貴組織員工排程的虛擬約會。
 
 根據預設，此設定為開啟狀態，且貴組織中所有 Bookings 行事曆都會啟用簡訊通知。 請記住，Bookings 系統管理員和排程器稍後可以選擇在 [排定的約會類型](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) 和排定的個別約會中視需要關閉或開啟簡訊通知。
 
-若要設定此設定，請移至 [Microsoft 365 系統管理中心 \> **設定** \> 組織 **] 設定**，然後選擇 **[Bookings]**。 選取或清除 [**允許Microsoft傳送簡訊通知**] 核取方塊。
+若要設定此設定，請移至 [Microsoft 365 系統管理中心 \> **設定** \> 組織 **] 設定**，然後選擇 **[Bookings]**。 選取或清除 [ **允許 Microsoft 傳送簡訊通知** ] 核取方塊。
 
 深入瞭解如何 [為貴組織設定簡訊通知](/microsoft-365/bookings/turn-bookings-on-or-off)。
 

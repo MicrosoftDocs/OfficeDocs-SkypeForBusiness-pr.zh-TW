@@ -22,16 +22,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
-ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
+ms.openlocfilehash: a41393f763c9d8ebb328d586f6ae12636e87b0b4
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/29/2022
-ms.locfileid: "69677413"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727735"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>瞭解 Microsoft Teams 應用程式及其功能
 
-Teams 中的應用程式可協助使用者整合工作場所的工具和服務，並與其他人共同作業。 例如，使用者在 Teams 中使用釘選行事曆應用程式快速與其他人共同作業、應用程式具有機器人功能，可通知使用者 Teams 頻道中 Web 服務的品質，以及共用和指派工作給頻道中各種使用者的應用程式。 Microsoft Teams 應用程式是 Web 架構的 SaaS 應用程式，不需要在本機部署。
+Teams 中的應用程式可協助使用者整合工作場所的工具和服務，並與其他人共同作業。 例如，使用者在 Teams 中使用釘選行事曆應用程式快速與其他人共同作業、應用程式具有機器人功能，可通知使用者 Teams 頻道中 Web 服務的品質，以及共用和指派工作給頻道中各種使用者的應用程式。 Microsoft Teams 應用程式就像是不需要在本機部署的 Web SaaS 應用程式。 使用者不需要安裝二進位檔案，即可將應用程式新增至 Teams 用戶端。
 
 身為系統管理員，您可以設定應用程式控管程式，在使用者的眾多需求與貴組織的 IT 原則、標準和風險設定檔之間取得平衡。
 
@@ -43,7 +43,7 @@ Teams 中的應用程式可協助使用者整合工作場所的工具和服務�
 
 * [屬於 Teams 一部分的核心應用程式](#core-apps)。
 * [Microsoft 創建的其他應用程式](#apps-created-by-microsoft)。
-* 由合作夥伴建立[的協力廠商應用程式](#third-party-apps-created-by-independent-app-developers) (經Microsoft) 驗證。
+* 由合作夥伴建立[的協力廠商應用程式](#third-party-apps-created-by-independent-app-developers) (經過 Microsoft) 驗證。
 * 由您自己的組織創建的[自訂應用程式](#custom-apps-created-within-an-organization-for-internal-use)。
 
 ## <a name="core-apps"></a>核心應用程式
@@ -52,17 +52,17 @@ Teams 中的應用程式可協助使用者整合工作場所的工具和服務�
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心應用程式是預設釘選在 Teams 中的應用程式。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="apps-created-by-microsoft"></a>由 Microsoft 建立的應用程式
+## <a name="apps-created-by-microsoft"></a>Microsoft 建立的應用程式
 
-Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使用者可以尋找在 Teams 系統管理中心列為 Publisher 或在 Teams 市集中列為提供者Microsoft來尋找這些應用程式。
+Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使用者可以在 Teams 系統管理中心尋找列為 Publisher 的 Microsoft，或在 Teams 市集中列為「提供者」，藉此找到這些應用程式。
 
 Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在初始推出 Teams 時包括精選的應用程式，例如 Microsoft Planner。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="顯示 Teams 系統管理中心中Microsoft應用程式清單的螢幕擷取畫面。" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="顯示 Teams 系統管理中心中 Microsoft 應用程式清單的螢幕擷取畫面。" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-created-by-independent-app-developers"></a>由獨立應用程式開發人員建立的協力廠商應用程式
 
-除了Microsoft提供的應用程式，您還可以使用協力廠商應用程式。 Microsoft嚴格驗證所有這些應用程式的功能和安全性。 在 Teams 市集中提供這些應用程式之前，會先執行詳盡的手動和自動化測試，而且即使在即時發佈應用程式之後，許多測試仍會以一般頻率繼續。 若要瞭解應用程式驗證的優點，請參閱 [驗證協力廠商應用程式](overview-of-app-validation.md)。 部分應用程式訂閱[Microsoft合規性計畫](overview-of-app-certification.md)，以在驗證之外接受多層進一步檢查。
+除了 Microsoft 提供的應用程式之外，您還可以使用協力廠商應用程式。 Microsoft 會嚴格驗證所有這些應用程式的功能和安全性。 在 Teams 市集中提供這些應用程式之前，會先執行詳盡的手動和自動化測試，而且即使在即時發佈應用程式之後，許多測試仍會以一般頻率繼續。 若要瞭解應用程式驗證的優點，請參閱 [驗證協力廠商應用程式](overview-of-app-validation.md)。 部分訂閱 [Microsoft 合規性計畫的](overview-of-app-certification.md) 應用程式會經歷驗證以外的多層進一步檢查。
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 市集中協力廠商應用程式範例的螢幕擷取畫面。":::
 
@@ -78,7 +78,7 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 ## <a name="about-app-templates"></a>關於應用程式範本
 
-使用應用程式開發方法，Microsoft建立並提供功能性和生產就緒的範例應用程式。 這些應用程式統稱為 Teams 的應用程式範本，並提供給：
+使用應用程式開發方法，Microsoft 會建立並提供功能與生產就緒的範例應用程式。 這些應用程式統稱為 Teams 的應用程式範本，並提供給：
 
 * 說明 Teams 中的一些共同作業使用案例。
 * 展示應用程式開發的最佳做法和方法。
@@ -94,9 +94,9 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 應用程式可以釘選到 Teams 以便輕鬆存取。 如果設定原則允許，以及 Teams 系統管理員允許該應用程式，使用者就可以 [自行釘](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 選應用程式。系統管理員可以釘選應用程式並控制釘選應用程式的行為。如需詳細資訊，請參閱 [應用程式設定原則](/microsoftteams/teams-app-setup-policies)。
 
-:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="螢幕擷取畫面顯示使用者可在 Microsoft Teams 中流覽應用程式的所有位置。" lightbox="media/user-app-experience-find-apps-full.png":::
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="螢幕擷取畫面顯示使用者可以在 Microsoft Teams 中流覽應用程式的所有位置。" lightbox="media/user-app-experience-find-apps-full.png":::
 
-使用者可以從 Teams App Store 尋找並新增應用程式至 Teams。 他們也可以直接從其工作內容新增應用程式，例如聊天或頻道索引標籤、Teams 會議或訊息區。 如需詳細資訊，請參閱[將應用程式新增至 teams Microsoft](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)。
+使用者可以從 Teams App Store 尋找並新增應用程式至 Teams。 他們也可以直接從其工作內容新增應用程式，例如聊天或頻道索引標籤、Teams 會議或訊息區。 如需詳細資訊，請參閱 [將應用程式新增至 Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)。
 
 使用者只能在系統管理員允許應用程式時新增及使用應用程式，且該應用程式會透過 [許可權原則](teams-app-permission-policies.md)提供給使用者。 組織的 IT 系統管理員完全控制誰可以安裝哪些應用程式內容。 使用者無法新增已封鎖的應用程式，任何在 Teams 市集中具有鎖定圖示的應用程式都會針對該使用者封鎖。 不過， [使用者可以向組織 IT 系統管理員要求核准](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae)。 應用程式核准之後，使用者就可以從 Teams 市集新增應用程式。
 
@@ -111,11 +111,11 @@ Teams 應用程式功能是開發人員在應用程式中建置以完成各種 T
         :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
 --->
 
-* **Bot**：Bot 也稱為聊天機器人或交談機器人。 它是執行簡單且重複的工作的應用程式。 聊天機器人互動可以是快速的問題與解答，也可以是提供存取服務或協助的複雜交談。 使用者可以在個人聊天、頻道或群組聊天中與 Bot 交談。 如需詳細資訊，請參閱[Microsoft Teams 中的 Bot](/microsoftteams/platform/bots/what-are-bots)。
+* **Bot**：Bot 也稱為聊天機器人或交談機器人。 它是執行簡單且重複的工作的應用程式。 聊天機器人互動可以是快速的問題與解答，也可以是提供存取服務或協助的複雜交談。 使用者可以在個人聊天、頻道或群組聊天中與 Bot 交談。 如需詳細資訊，請參閱 [Microsoft Teams 中的 Bot](/microsoftteams/platform/bots/what-are-bots)。
 
-* **索引標籤**：索引標籤是釘選在頻道或聊天頂端的 Teams 感知網頁。 索引標籤可讓您以類似網頁的體驗與內容和服務互動。 這些是簡單的 HTML `iframe` 標記，可新增為個別使用者團隊、群組聊天或個人應用程式內頻道的一部分。 如需詳細資訊，[請參閱Microsoft Teams 索引標籤](/microsoftteams/platform/tabs/what-are-tabs)。
+* **索引標籤**：索引標籤是釘選在頻道或聊天頂端的 Teams 感知網頁。 索引標籤可讓您以類似網頁的體驗與內容和服務互動。 這些是簡單的 HTML `iframe` 標記，可新增為個別使用者團隊、群組聊天或個人應用程式內頻道的一部分。 如需詳細資訊，請參閱 [Microsoft Teams 索引標籤](/microsoftteams/platform/tabs/what-are-tabs)。
 
-* **網路功能和連接器**：Web 端子和連接器可協助您將各種 Web 服務連線至Microsoft Teams 中的頻道和團隊。 Web 端子是使用者定義的 HTTP 回撥，會通知使用者 Teams 頻道中已執行的任何動作。 這是應用程式取得即時資料的一種方式。 連接器可讓使用者訂閱，以接收來自 Web 服務的通知和訊息。 如需詳細資訊，請參閱 [網路任務和連接器](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
+* **網路任務和連接器**：Web 端子和連接器可協助將各種 Web 服務連線到 Microsoft Teams 中的頻道和團隊。 Web 端子是使用者定義的 HTTP 回撥，會通知使用者 Teams 頻道中已執行的任何動作。 這是應用程式取得即時資料的一種方式。 連接器可讓使用者訂閱，以接收來自 Web 服務的通知和訊息。 如需詳細資訊，請參閱 [網路任務和連接器](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
 
   若要允許使用者在 Teams 中使用自訂連接器，請參閱 [在 Teams 中使用自訂連接器](office-365-custom-connectors.md)。
 
