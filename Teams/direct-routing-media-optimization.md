@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由的本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
-ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
+ms.openlocfilehash: ce9d25e84c67f5ae8b3b4fec51535d53f7b0044f
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "68018109"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740808"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>規劃直接路由的本機媒體優化
 
@@ -338,4 +338,4 @@ ms.locfileid: "68018109"
 | 內部客戶之間從 1 到 1 通話的通話升級為外部客戶的多方通話/資源導致通話中斷 | 正在處理修正程式。 或者，停用直接路由 SBC 上的本機媒體優化。|
 | Teams 使用者將通話設為保留。 音樂會在 PSTN 端播放，而本機媒體優化正在運作。 Teams 使用者會繼續通話。 PSTN 通話會繼續進行，但本機媒體優化無法運作，且通話會透過中央 (Proxy) SBC 繼續進行 | 當使用者停用電話來啟動等候音樂 (MoH) 時，呼叫控制器會將通話從 1：1 升級為多方通話，以叫用媒體控制器和媒體處理器 (做為 AVMCU 混搭) MoH 接獲保留的使用者。 通話繼續之後，降級為 1 對 1 通話，並不會依照設計進行。 停用直接路由 SBC 上的本機媒體優化。|
 |建立通話數秒後，使用者可能會聽到靜音。| 由於本機媒體優化架構的複雜性，在某些情況下可能會發生這種情況。|
-|語音應用程式 (例如自動語音應答、通話佇列) 無法運作。| LMO 不支援 Voice Apps，因為它們位於雲端，需要外部連線。 目前沒有因應措施。|
+|語音應用程式 (例如自動語音應答、通話佇列) 無法運作。| 本機媒體優化不支援 Voice Apps，因為它們位於雲端，需要外部連線。 如需Location-Based路由案例，請參閱 [語音應用程式 (自動語音應答或通話佇列) ](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)。|

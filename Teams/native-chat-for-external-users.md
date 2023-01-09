@@ -15,21 +15,24 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解兩個使用者都處於 TeamsOnly 升級模式Microsoft Teams 中，外部存取 (同盟) 使用者的原生 Teams 聊天體驗。
-ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+description: 瞭解 Microsoft Teams 中的外部存取 (同盟) 使用者的原生 Teams 聊天體驗。這兩個使用者都處於 TeamsOnly 升級模式。
+ms.openlocfilehash: 759ad4f03de099637df0e92a7a8925a7c18ae3fd
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198875"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740798"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams 中外部 (同盟) 使用者的原生聊天體驗
 
-當Microsoft Teams 使用者與外部 (同盟) 使用者聊天時，聊天體驗僅限於文字。 不過，如果您的 Teams 使用者和另一個組織中的人員都處於 TeamsOnly 升級模式，您可以擁有「原生-Teams 聊天體驗」，其中包括豐富的格式設定、@mentions和其他聊天功能。
+當 Microsoft Teams 使用者與外部 (同盟) 使用者聊天時，聊天體驗僅限於文字。 不過，如果您的 Teams 使用者和另一個組織中的人員都處於 TeamsOnly 升級模式，您可以擁有「原生-Teams 聊天體驗」，其中包括豐富的格式設定、@mentions和其他聊天功能。
 
 其他組織中人員的原生聊天體驗會針對所有 Teams 租使用者開啟，但並非所有人員都符合資格。 若要提供原生聊天體驗，必須針對 TeamsOnly 升級模式設定寄件者和接收器。 若要深入瞭解升級原則，請參閱 [設定您的共存與升級設定](setting-your-coexistence-and-upgrade-settings.md)。
 
 若要查看 Teams 中外部存取使用者的功能清單，請參閱 [比較外部和來賓存取權](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。
+
+> [!NOTE]
+> 原生聊天體驗不適用於跨 Microsoft 365 雲端環境：Microsoft 365 全球 (包括從/到 GCC High 的 GCC) 、從/到 DoD 的 GCC High，或從/到 DoD 的 WW。
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>如何?知道我是否在原生聊天中嗎？
 
