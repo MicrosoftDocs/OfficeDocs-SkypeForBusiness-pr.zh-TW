@@ -3,6 +3,18 @@
 
 
 
+## <a name="week-of-january-02-2023"></a>2023 年 1 月 2 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 1/3/2023 | [管理一般會議原則](/MicrosoftTeams/meeting-policies-in-teams-general) | 改 性 |
+| 1/3/2023 | [管理參與者和來賓的會議原則](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
+| 1/3/2023 | [音訊會議撥出/通話分鐘](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 改 性 |
+| 1/4/2023 | [Microsoft Teams 中 Education Insights 的 IT 系統管理員指南](/MicrosoftTeams/class-insights) | 改 性 |
+| 1/5/2023 | 美化現有的 Microsoft 365 群組 | 刪除 |
+
+
 ## <a name="week-of-december-26-2022"></a>2022 年 12 月 26 日周
 
 
