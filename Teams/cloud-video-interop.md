@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c732cc01a525a4895fafe45c954c965fe960853
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 37201c788618da1544d4f00b743907dc22ff6366
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706450"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749009"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 雲端視訊 Interop。
 
@@ -51,7 +51,8 @@ ms.locfileid: "67706450"
 
 Office 365可讓您將協力廠商應用程式整合至 SharePoint Online 網站、商務用 Skype、Teams、Microsoft 365 Apps 企業版 (中包含的 Office 應用程式，例如 Word、Excel、PowerPoint 和 Outlook) 和 Outlook Web App。 此外，Office 365支援與協力廠商服務提供者整合。 這些協力廠商應用程式和服務可能涉及在Office 365基礎結構以外的協力廠商系統上儲存、傳輸及處理貴組織的客戶資料，因此不在Office 365合規性和資料保護承諾的涵蓋範圍之內。 **建議您在評估貴組織適當使用這些服務時，檢閱協力廠商提供的隱私權與合規性聲明。**
 
-
+> [!NOTE]
+> Pexip Teams Connector 必須裝載于亞利桑那州或德州 Azure 地區的 GCC High。 維吉尼亞 Azure 地區不支援代管 GCC High 的 Pexip Teams Connector。
 
 ### <a name="partners-certified-for-microsoft-teams"></a>經 Microsoft Teams 認證的合作夥伴
 
