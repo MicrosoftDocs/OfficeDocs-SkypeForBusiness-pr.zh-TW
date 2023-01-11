@@ -18,22 +18,22 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6648502d9b6a3e727ef30f1e94289f1428d8a4e2
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 43026c80108adeff777e3a003fb93fece44d8c50
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438528"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774808"
 ---
 # <a name="teams-rooms-on-windows-and-android-feature-comparison"></a>在 Windows 和 Android 上Teams 會議室功能比較
 
-Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都有獨特的需求，這就是為什麼Microsoft提供各種選項，包括 Windows 和 Android 上的Teams 會議室。 
+Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都有獨特的需求，這就是為什麼 Microsoft 提供各種選項，包括 Windows 和 Android 上的Teams 會議室。 
 
 核心功能可在兩個平臺上使用，讓使用者隨時都能擁有絕佳的音訊和視訊體驗、使用單點觸控加入加入會議，以及存取包含性的功能，例如即時輔助字幕和舉手。 
 
-由於Microsoft為 Teams 和Teams 會議室帶來新功能，我們努力將這些功能帶到所有平臺，但功能可能會因為多種因素而在不同時間推出，包括技術效能和每個平臺的客戶意見反應等。 這表示您可能會在 Windows 上看到部分功能在 Android 平臺推出之前推出。 
+隨著 Microsoft 為 Teams 和Teams 會議室帶來新功能，我們努力將這些功能帶入所有平臺，但功能可能會因為許多因素而在不同時間推出，包括技術推廣和每個平臺的客戶意見反應等。 這表示您可能會在 Windows 上看到部分功能在 Android 平臺推出之前推出。 
 
-若要協助引導您瞭解哪些功能可在不同的平臺上使用，您可以參閱下方圖表，該圖表會定期更新。 並非所有Teams 會議室功能都會包含在此清單中，因此請繼續洽[詢Microsoft 365 藍圖](https://www.microsoft.com/en-us/microsoft-365/roadmap)，並Microsoft銷售代表以取得其他詳細資料。    
+若要協助引導您瞭解哪些功能可在不同的平臺上使用，您可以參閱下方圖表，該圖表會定期更新。 並非所有Teams 會議室功能都會包含在此清單中，因此請繼續洽詢[Microsoft 365 藍圖](https://www.microsoft.com/en-us/microsoft-365/roadmap)和 Microsoft 銷售代表以取得其他詳細資料。    
 
 ## <a name="teams-devices-for-shared-spaces"></a>共用空間的 Teams 裝置
 
@@ -50,7 +50,7 @@ Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都
 |                                          | 直接來賓加入                                                                                            | 有空                                                                                                                                      | 有空                                           |
 | **會議參與與共同作業** | 直覺式且專為您打造的應用程式體驗                                                                      | 有空                                                                                                                                      | 有空                                           |
 |                                          | 影片和內容版面配置 (例如[共聚模式]、大型圖庫、僅限圖庫，以及圖庫和內容)  | 有空                                                                                                                                      | 有空                                           |
-|                                          | 前列版面配置                                                                                             | 有空                                                                                                                                      | 無法使用                                       |
+|                                          | 前列版面配置                                                                                             | 有空                                                                                                                                      | 即將推出                                       |
 |                                          | 聊天泡泡                                                                                                 | 有空                                                                                                                                      | 即將推出                                         |
 |                                          | 舉手，全部下手                                                                                  | 有空                                                                                                                                      | 有空                                           |
 |                                          | 釘選多個參與者                                                                                    | 有空                                                                                                                                      | 即將推出                                         |
@@ -60,7 +60,7 @@ Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都
 |                                          | 即時隱藏式輔助字幕                                                                                         | 有空                                                                                                                                      | 有空                                           |
 |                                          | 雲端錄製和會議轉錄                                                                    | 有空                                                                                                                                      | 有空                                           |
 |                                          | 使用 Surface Hub 進行協調會議                                                                        | 有空                                                                                                                                      | 無法使用                                       |
-|                                          | Microsoft使用觸控螢幕顯示器 (螢幕筆跡功能的 Whiteboard)                                    | 有空                                                                                                                                      | 有空                                           |
+|                                          | 搭配觸控螢幕顯示器提供的 Microsoft Whiteboard (螢幕筆跡功能)                                    | 有空                                                                                                                                      | 有空                                           |
 |                                          | 智慧型內容擷取                                                                                  | 有空                                                                                                                                      | 即將推出                                         |
 | **會議和裝置控制項**          | 行動裝置上的會議室遙控                                                                               | 有空                                                                                                                                      | 有空                                           |
 |                                          | 無線共用                                                                                             | 有空                                                                                                                                      | 有空                                           |
@@ -83,6 +83,7 @@ Microsoft Teams 會議室體驗是以客戶為考慮而設計。 每個客戶都
 |                                          | Teams 應用程式自動更新                                                                                  | 有空                                                                                                                                      | 有空                                           |
 |                                          | 裝置自動註冊                                                                                       | 有空                                                                                                                                      | 有空                                           |
 |                                          | 通話品質分析                                                                                       | 有空                                                                                                                                      | 有空                                           |
+|                                          | 自訂主題                                                                                       | 有空                                                                                                                                      | 無法使用                                           |
 | **適合 / 空格鍵**                     | 專注 (2-4 個人)                                                                                            | 有空                                                                                                                                      | 有空                                           |
 |                                          | 小型 (4-6 人)                                                                                            | 有空                                                                                                                                      | 有空                                           |
 |                                          | 中 (6-12 人)                                                                                          | 有空                                                                                                                                      | 有空                                           |

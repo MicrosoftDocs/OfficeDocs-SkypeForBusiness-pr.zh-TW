@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 安裝 Power BI 連接器以使用通話品質儀表板 (CQD) 查詢範本
-ms.openlocfilehash: 80d1b39c6fbe26f04998b06b22fb527b60bbb6a0
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 534103fc2bec48566a1d0a57eeb390ed6ae0606c
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789868"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774748"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>安裝 Power BI 的 Microsoft 通話品質連接器以使用通話品質儀表板查詢範本
 
-在您可以使用 Power BI 查詢範本 (Microsoft Teams 通話品質儀表板 (CQD) 的 PBIX 檔案) 之前，您必須使用 [下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的 *MicrosoftCallQuality.pqx* 檔案來安裝 Power BI 的 Microsoft 通話品質連接器。
+在您可以使用 Power BI 查詢範本 (Microsoft Teams 通話品質儀表板 (CQD) 的 PBIX 檔案) 之前，您必須使用 [下載](https://www.microsoft.com/download/details.aspx?id=102291)中包含的 *MicrosoftCallQuality.pqx* 檔案來安裝 Power BI 的 Microsoft 通話品質連接器。
 
 請閱讀 [使用 Power BI 來分析 Teams 的 CQD 資料](CQD-Power-BI-query-templates.md) 以瞭解這些範本。
 
@@ -120,7 +120,7 @@ Microsoft 通話品質連接器查詢的設計應考慮到切入功能。 與其
 
 1. **計算結果欄 –** DirectQuery 連接器在 Power BI 中對計算結果欄的支援一般有限。 有些計算結果欄可能與連接器搭配使用，這些欄是例外。 一般規則是，計算結果欄無法運作。
 
-2. **匯總 –** 通話品質儀表板資料模型建置在 Cube 模型上，這表示已經以量值形式支援匯總。 嘗試手動將匯總新增至不同的維度，或變更量值的匯總類型將無法與連接器搭配使用，且通常會導致錯誤。
+2. **聚合–** 通話品質儀表板資料模型建置在 Cube 模型上，這表示已經以量值形式支援匯總。 嘗試手動將匯總新增至不同的維度，或變更量值的匯總類型將無法與連接器搭配使用，且通常會導致錯誤。
 
 3. **自訂視覺效果 –** 雖然 Microsoft 通話品質連接器可搭配各種自訂視覺效果使用，但我們無法保證與所有自訂視覺效果的相容性。 許多自訂視覺效果都仰賴計算結果欄或匯入資料的使用，DirectQuery 連接器不支援這些專案。
 

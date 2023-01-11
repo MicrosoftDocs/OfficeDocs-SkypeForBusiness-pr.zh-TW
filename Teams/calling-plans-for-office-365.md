@@ -28,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解商務用 Skype 選項的通話方案 (PSTN 通話方案) ，以及如何取得貴組織的授權。
-ms.openlocfilehash: eaf08af459a5f6149b3068802b104c1458dfc727
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: f09517572b27fb67ab9657dcfa4c7bd4c5c7867b
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139107"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774718"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams 通話方案
 
@@ -56,6 +56,9 @@ ms.locfileid: "69139107"
 
   - **Pay-As-You-Go 通話方案區域-2**：針對奧地利、比利時、克羅埃西亞、捷克共和國、丹麥、愛沙尼亞、芬蘭、法國、德國、匈牙利、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、荷蘭、紐西蘭、挪威、波蘭、葡萄牙、羅馬尼亞、新加坡、斯洛伐克、斯洛維尼亞、南非、西班牙、瑞典和瑞士的使用者購買此方案。
     - 美國和波多黎各目前不提供第 2 區授權供銷售。
+
+> [!NOTE]
+> 墨西哥有自己的隨手付費通話方案。 它不是任何區域的一部分。 您必須購買獨立隨選即用通話方案。
 
 相同國家/地區的所有使用者 (這是Microsoft 365 系統管理中心) 授權區域中定義的使用者國家/地區位置，且相同的通話方案共用通話分鐘方案。 例如，如果您有 100 個使用者位於相同的國家/地區，且已指派 120 分鐘的國內通話方案，則他們共用一個 12，000 分鐘的集區。 超過這些分鐘數的所有通話都會按分鐘計費。
 

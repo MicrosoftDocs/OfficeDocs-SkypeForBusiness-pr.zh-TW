@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何新增、變更或移除組織的緊急位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39db920ccbb6edd71591ad5439b0a8475a0655fb
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 99ab0821b8ccdb14664dc0a2aa37c959499ff8ac
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584664"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774738"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
@@ -77,6 +77,9 @@ ms.locfileid: "68584664"
 請參閱 [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress)。
     
 ## <a name="remove-an-emergency-location"></a>移除緊急位置
+
+> [!NOTE]
+> 您只能在未指派任何使用者或電話號碼的情況下移除位置。 如果將數位或使用者指派到該位置，您必須先將它們移除。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 

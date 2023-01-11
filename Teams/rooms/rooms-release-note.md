@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: f6d600552c2f636618ff14a1ccf88be60df74879
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438361"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774728"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -40,7 +40,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 |釋放 |發佈至 <br/> Microsoft Store |
 |--- |--- |
-|4.15.54.0 | 12/15/2022 |
+|4.15.58.0 | 12/15/2022 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -97,7 +97,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 會議室功能簡介和問題解決方式
 
-### <a name="415540-12152022"></a>4.15.54.0 (2022 年 12 月 15 日) 
+### <a name="415580-12152022"></a>4.15.58.0 (2022 年 12 月 15 日) 
 
 在此更新中推出：
 
@@ -121,7 +121,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 - 釘選和隱藏會議室視訊
 - 關閉雙顯示Teams 會議室<sup>1</sup>中分割圖庫的系統管理員設定
 - 雙顯示Teams 會議室現在最多可以顯示 18 個參與者視訊串流
-- 支援Microsoft Teams 會議室專業版和Microsoft Teams 會議室基本會議室授權
+- 支援Microsoft Teams 會議室專業版和 Microsoft Teams Room Basic 會議室授權
 
 <sup>1</sup>透過 XML 關閉分割圖庫的系統管理員設定可在使用[XML 組態檔從遠端系統管理Microsoft Teams 會議室主機設定](../rooms/xml-config-file.md)中找到。
 
@@ -142,7 +142,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
  <sup>2</sup> Teams 會議室在版本 4.12 中使用系統管理員覆寫來新增噪音抑制的支援。
 
 > [!IMPORTANT]
-> 透過此更新，新Teams 會議室裝置現在會在連線至 Microsoft Teams 和 Exchange Online 時預設使用新式驗證。
+> 透過此更新，新Teams 會議室裝置現在會在連線到 Microsoft Teams 和 Exchange Online 時預設使用新式驗證。
 >
 > 我們強烈建議您在 8 月底之前，開啟會議室帳戶的新式驗證，來測試您的Teams 會議室裝置。
 >
@@ -167,9 +167,9 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 ### <a name="4121260-4272022"></a>4.12.126.0 (2022 年 4 月 27 日) 
 
 在此更新中推出：
-- IT 系統管理員可以註冊 Teams 會議室裝置，透過 XML 設定接收公開預覽功能。 一旦註冊，裝置將會開始接收 Beta 功能。 在[Teams 公開預覽版Microsoft](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)會讀取所有要測試的測試功能 - Microsoft Tech Community <sup>1，2</sup>  
+- IT 系統管理員可以註冊 Teams 會議室裝置，透過 XML 設定接收公開預覽功能。 一旦註冊，裝置將會開始接收 Beta 功能。 所有要進行 Beta 測試的功能都會在[Microsoft Teams 公開預覽](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)版上公佈 - Microsoft Tech Community <sup>1，2</sup>  
 - IT 系統管理員可以透過 XML 設定<sup>2</sup>，設定 [會議室前方] 顯示器解析度和遠端縮放比例
-- IT 系統管理員可以透過 XML 設定<sup>3</sup>停用Microsoft噪音抑制 
+- IT 系統管理員可以透過 XML 設定<sup>3</sup>停用 Microsoft 噪音抑制功能 
 - IT 系統管理員可以透過登錄機碼設定<sup>4</sup>覆寫裝置上的下載資料夾清理
 - 讓使用者加入由其他雲端 (代管的 Teams 會議，也就是 GCCH 客戶可以加入在商業雲端上託管的 Teams 會議，反之亦然)  
 - Teams 會議室現在會封鎖從 PowerPoint Live 中的 URL 啟動 Edge 瀏覽器，做為使用觸控顯示器的 Teams 會議室新增的安全性措施 
@@ -210,7 +210,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 > <sup>1</sup> 這些功能是使用 Teams Web 用戶端推出，並將會在接下來幾周完成推行。 如需詳細資訊，請參閱 [深入瞭解 Teams 更新](../teams-client-update.md) 。
 > 
-> <sup>Windows 上的 2</sup>個 Teams 會議室僅在 Microsoft Teams 或 商務用 Skype 中執行，Microsoft Teams (預設) 會更新為新的 [開會] 和 [通話] 體驗，但其他模式不受此更新影響。
+> <sup>Windows 上的 2</sup>個 Teams 會議室僅在 Microsoft Teams 或 商務用 Skype 中執行，而 Microsoft Teams (預設) 會更新為新的 [開會] 和 [通話] 體驗，但其他模式不會受到此更新影響。
 > 
 > <sup>3</sup>請參閱為Teams 會議室設定[AAD 條件式存取](../rooms/rooms-authentication.md#azure-ad-conditional-access)原則的新增詳細資料。
 > 
@@ -324,13 +324,13 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 - 使用直接來賓加入Teams 會議室加入縮放會議 (預覽) 
 
 > [!NOTE]
-> 3x3 影片庫和本機即時隱藏式輔助字幕會透過 Microsoft Teams 服務提供。 這些功能適用于所有應用程式版本 4.5.37.0 及更新版本的Teams 會議室裝置。
+> 3x3 影片庫和本機即時隱藏式輔助字幕是透過 Microsoft Teams 服務提供。 這些功能適用于所有應用程式版本 4.5.37.0 及更新版本的Teams 會議室裝置。
 
 ### <a name="45370-08142020"></a>4.5.37.0 (2020/08/14) 
 
 在此更新中推出：
 
-- Microsoft Teams 和 Surface Hub 2S 之間的協調會議
+- Microsoft Teams 與 Surface Hub 2S 之間的協調會議
 - 修正安裝[更新 KB4565351 或 Windows 10 Windows 10更新 KB4571709](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351)時[](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)，商務用 Skype 登入失敗的問題
 
 ### <a name="45350-07232020"></a>4.5.35.0 (2020/07/23) 
@@ -421,16 +421,16 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 在此更新中推出：
 
 - Skype Room System 市集應用程式重新命名為「Microsoft Teams 會議室」
-- Microsoft Teams 會議室主機使用者介面重新調整為 Microsoft Teams
+- Microsoft Teams 會議室主機使用者介面已與 Microsoft Teams 重新調整
 - 主題更新：只在會議室顯示器前保留自訂背景影像，同時將主機背景設定為中性色彩，以確保主機 UI 控制項符合色彩對比 — 協助工具需求
-- Teams 通話/會議的會議內撥號控制通用列，以提供Microsoft Teams 電腦/Web/行動用戶端<sup>1</sup>的一致性體驗
+- 適用于 Teams 通話/會議的會議內撥號控制通用列，以提供 Microsoft Teams 電腦/Web/行動用戶端<sup>1</sup>的一致體驗
 - Teams 通話/會議之後的通話品質意見反應評分<sup>1</sup>
-- 從電腦/Web/Mobile Teams 用戶端<sup>1</sup> <sup>2</sup>共用時，在會議室顯示器的前Microsoft Teams 會議室上接收/Microsoft 轉譯白板
+- 從電腦/Web/行動裝置版 Teams 用戶端<sup>1</sup> <sup>2</sup>共用時，在會議室顯示器的Microsoft Teams 會議室前方接收/轉譯 Microsoft Whiteboard
 - 由於Microsoft Teams 會議室用戶端的相容性問題，已移除Windows 10版本 1809 升級的支援。 Windows 10版本 19H1 支援將會在未來的版本中新增
 
-<sup>1</sup> Microsoft使用 Teams 頻道推行 Teams 服務。 此功能可能早于或晚于 4.0.105.0 用戶端更新提供
+<sup>1</sup> 使用 Teams 頻道推行 Microsoft Teams 服務。 此功能可能早于或晚于 4.0.105.0 用戶端更新提供
 
-<sup>2</sup>需要 IT 系統管理員開啟 Microsoft Whiteboard。 此外，如果您在會議室顯示器前方有啟用觸控功能的顯示器，您必須使用 Windows 設定與裝置系統管理員登入來校正多個觸控顯示器，才能開始使用 Microsoft Whiteboard，以便從共用到 Teams 會議的聊天室顯示器進行共同作業
+<sup>2</sup> 需要 IT 系統管理員開啟 Microsoft Whiteboard。 此外，如果您在會議室顯示器前方有啟用觸控功能的顯示器，您必須使用 Windows 設定與裝置系統管理員登入來校正多個觸控顯示器，才能開始使用 Microsoft Whiteboard，以便從共用到 Teams 會議的會議室顯示器進行共同作業
 
 ### <a name="40850-0482019"></a>4.0.85.0 (2019 年 4 月 8 日) 
 
@@ -449,7 +449,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 在此更新中推出：
 
-- Microsoft Teams P2P 會議和 PSTN 通話的 DTMF 鍵台。 若要讓 Microsoft Teams 成為您的預設通話用戶端，系統管理員必須將 IsTeamsDefaultClient 設為 True
+- 適用于 Microsoft Teams P2P 會議和 PSTN 通話的 DTMF 鍵台。 若要將 Microsoft Teams 設為預設通話用戶端，系統管理員必須將 IsTeamsDefaultClient 設為 True
 - 將遠端參與者的傳入視訊釘選到會議室顯示器的全螢幕。 在主機上使用參與者名冊上的 [釘選] 命令
 - 改良 [大廳] 通知，並新增會議室前方通知
 - 當 Microsoft Teams 會議室 裝置未啟用藍牙指標時，已移除 [會議室] 前方的顯示投射圖示
@@ -515,7 +515,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 在此更新中推出：
 
-- 啟用Microsoft更靈活地管理 Windows 更新的變更。
+- 讓 Microsoft 更靈活地管理 Windows 更新的變更。
 - 使用者體驗不會變更。
 
 ### <a name="311120-06052018"></a>3.1.112.0 (2018/06/05) 
@@ -601,7 +601,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 在此更新中推出：
 
 - 會議室音訊和視訊 USB 裝置的應用程式內使用者選擇
-- 適用于使用 Microsoft Operations Management Suite，現為 Azure 監視器之客戶的整合式會議室主機狀態報表
+- 使用 Microsoft Operations Management Suite 的客戶的整合式會議室主機狀態報表，現在稱為 Azure 監視器
 
 ### <a name="release-to-market-1272016"></a>2016 年 12 月 7 日發行至市場 () 
 
