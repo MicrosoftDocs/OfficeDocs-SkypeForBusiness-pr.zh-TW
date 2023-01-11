@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中建立通話佇列Microsoft
+title: 在 Microsoft Teams 中建立通話佇列
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -27,15 +27,15 @@ adobe-target: true
 adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
-description: 瞭解如何在 teams 中設定通話佇列Microsoft。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: da0b94281619940a955a7ca7aa0b4127fbb93f3c
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
+ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392223"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763564"
 ---
-# <a name="create-a-call-queue-in-microsoft-teams"></a>在 Teams 中建立通話佇列Microsoft
+# <a name="create-a-call-queue-in-microsoft-teams"></a>在 Microsoft Teams 中建立通話佇列
 
 通話佇列會將來電者路由給組織中可協助解決特定問題或問題的人員。 通話會一次一次分配給佇列中稱為 *專員* 的人員。
 
@@ -81,14 +81,14 @@ ms.locfileid: "69392223"
 
 若要新增現有的資源帳戶：
 
-1. 在 [ **資源帳戶]** 底下，按一下 [ **新增** ] 按鈕，為此通話佇列新增資源帳戶。
+1. 在 [ **資源帳戶]** 底下，選取 [ **新增** ] 按鈕，為此通話佇列新增資源帳戶。
 1. 在 [ **新增帳戶]** 窗格中，搜尋要新增的資源帳戶。
 1. 選取您要指派至此通話佇列之資源帳戶旁的 [ **新增** ] 按鈕。
 1. 在窗格底部，選取 [ **新增]** 按鈕。
 
 如果您需要建立資源帳戶：
 
-1. 在 [ **資源帳戶]** 底下，按一下 [ **新增** ] 按鈕，為此通話佇列新增資源帳戶。
+1. 在 [ **資源帳戶]** 底下，選取 [ **新增** ] 按鈕，為此通話佇列新增資源帳戶。
 1. 在 [ **新增帳戶]** 窗格中，搜尋任何一組字母以提取結果下拉式清單。
 1. 選取結果底部的 **[+ 新增資源帳戶** ] 按鈕。
 1. 在 [ **新增資源帳戶]** 窗格中：
@@ -106,7 +106,7 @@ ms.locfileid: "69392223"
 
 **適用于 Teams 頻道/共同作業通話桌面使用者，以及標準通話佇列的 Teams 行動用戶端使用者。**
 
-您可以指定一或多個使用電話號碼的資源帳戶，為代理程式指派撥出來電號碼。 專員可以選取要用於每個撥出電話的撥出來電號碼。 在 [通話] 應用程式中，專員可以使用他們的通話佇列 (CQ) / 自動語音應答 (AA) 號碼或自己的個人 Direct InWard Dial (DID) 。
+指定一或多個使用電話號碼的資源帳戶，為代理程式指派撥出來電號碼。 專員可以選取要用於每個撥出電話的撥出來電號碼。 在 [通話] 應用程式中，專員可以使用他們的通話佇列 (CQ) / 自動語音應答 (AA) 號碼或自己的個人 Direct InWard Dial (DID) 。
 
 > [!NOTE]
 > 用於通話識別碼的資源帳戶必須具備 **Microsoft Teams 電話資源帳戶** 授權，以及下列其中一項指派：
@@ -122,7 +122,7 @@ ms.locfileid: "69392223"
 
 如果您沒有具有指定電話號碼的資源帳戶：
 
-1. 在 [ **資源帳戶]** 底下，按一下 [ **新增** ] 按鈕以新增資源帳戶。
+1. 在 [ **資源帳戶]** 底下，選取 [ **新增** ] 按鈕以新增資源帳戶。
 1. 在 [ **新增帳戶]** 窗格中，搜尋任何一組字母以提取結果下拉式清單。
 1. 選取結果底部的 **[+ 新增資源帳戶** ] 按鈕。
 1. 在 [ **新增資源帳戶]** 窗格中：
@@ -134,9 +134,9 @@ ms.locfileid: "69392223"
 
 在您建立這個用於通話 ID 的新資源帳戶之後，您仍然需要：
 
-- 指派 [Teams Phone 資源帳戶授權](manage-resource-accounts.md#assign-a-license)。
-- 指派Microsoft通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則。
-- 如果您使用的是Microsoft通話方案，請將電話號碼指派[給資源帳戶](manage-resource-accounts.md#assign-a-phone-number)。
+- 指派[Microsoft Teams 電話系統資源帳戶授權](manage-resource-accounts.md#assign-a-license)。
+- 指派 Microsoft 通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則。
+- 如果您使用的是 Microsoft 通話方案，請將電話號碼指派 [給資源帳戶](manage-resource-accounts.md#assign-a-phone-number)。
 
 ### <a name="set-the-call-queue-language"></a>設定通話佇列語言
 
@@ -164,7 +164,7 @@ ms.locfileid: "69392223"
 - 如果您想要播放特定音訊檔案，請選擇 **[播放音訊檔案** ] 並上傳 MP3、WAV 或 WMA 檔案。
 
 > [!NOTE]
-> 您必須負責獨立清除及保護所有必要的權利和許可權，以便在您的 Microsoft Teams 服務中使用任何音樂或音訊檔案，其中可能包含所有相關權利持有者之音訊檔案中的智慧財產權及其他權利，包括演出者、 演出者、演出者、專輯、專輯、作曲者、錄製標籤、音樂發行者、廠商、俱樂部、權利召集人、集體管理組織，以及擁有、控制或授權音樂著作權、音效、音訊和其他智慧財產權的任何其他當事人。
+> 貴使用者必須負責獨立清除及保護 Microsoft Teams 服務中使用任何音樂或音訊檔案的所有必要權利和許可權，這些服務可能包含所有相關權利持有者之音訊檔案中的智慧財產權及其他權利，包括演出者、 演出者、演出者、專輯、專輯、作曲者、錄製標籤、音樂發行者、廠商、俱樂部、權利召集人、集體管理組織，以及擁有、控制或授權音樂著作權、音效、音訊和其他智慧財產權的任何其他當事人。
 
 選取問候語和等候音樂後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
@@ -178,11 +178,11 @@ ms.locfileid: "69392223"
 
 您最多可以透過 Teams 頻道新增 200 個代理程式。 您必須是團隊成員或頻道的建立者或擁有者，才能將頻道新增至佇列。
 
-如果您想要 [使用 Teams 頻道來管理佇列](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)：
+若 [要使用 Teams 頻道來管理佇列](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)：
 
 1. 選取 **[選擇團隊** 選項按鈕]，然後選 **取 [新增頻道]**。
 1. 搜尋您要使用的團隊，選取該團隊，然後選取 [ **新增]**。
-1. 選取您要使用的頻道 (只支援標準通道) ，然後選取 [ **套用]**。
+1. 選取您想要使用 (只支援標準或私人頻道) ，然後選取 [ **套用]**。
 
 使用 Teams 頻道進行通話佇列時，支援下列用戶端：
 
@@ -193,6 +193,8 @@ ms.locfileid: "69392223"
 > 如果您使用此選項，通話佇列最多可能需要 24 小時才能完全運作。
 >
 > 如果小組中有超過 200 個成員，則只會依字母順序將前 200 位成員新增為通話佇列中的代理人。
+> 
+> 即使私人頻道只有小組成員子集，通話也會分散給團隊的所有成員。
 
 ### <a name="users-and-groups"></a>使用者和群組
 
@@ -204,12 +206,12 @@ ms.locfileid: "69392223"
 
 若要 **將使用者新** 增至佇列：
 
-1. 選取 **[新增使用者]**，搜尋使用者，按一下 [ **新增**]，然後按一下 [ **新增]**。
+1. 選取 **[新增使用者]**、搜尋使用者、選取 [ **新增**]，然後選取 [ **新增]**。
 
 若要 **將群組新** 增至佇列：
 
-1. 選取 **[新增群組**]、搜尋群組、按一下 [ **新增**]，然後按一下 [ **新增]**。 
-    1. 您可以使用通訊群組清單、安全性群組Microsoft 365 群組或Microsoft Teams 團隊。
+1. 選取 **[新增群組**]、搜尋群組、選取 [ **新增**]，然後選取 [ **新增]**。 
+    1. 您可以使用通訊群組清單、安全性群組，以及 Microsoft 365 群組或 Microsoft Teams 團隊。
 
 > [!NOTE]
 > 新增至群組的新使用者最多可能需要八小時，才能收到他們的第一個通話。
@@ -220,8 +222,8 @@ ms.locfileid: "69392223"
 
 **會議模式** 會減少在代理人接聽來電後，來電者與代理人連線所需的時間。 若要讓會議模式正常運作，通話佇列中的代理程式必須使用下列其中一個用戶端：
 
-- 最新版的 Microsoft Teams 桌面用戶端、Android 應用程式或 iOS 應用程式
-- Microsoft Teams 電話版本 1449/1.0.94.2020051601 或更新版本
+- 最新版本的 Microsoft Teams 桌面用戶端、Android 應用程式或 iOS 應用程式
+- Microsoft Teams 電話系統版本 1449/1.0.94.2020051601 或更新版本
   
 專員的 Teams 帳戶必須設定為 TeamsOnly 模式。 不符合需求的代理程式不包含在通話路由清單中。 如果您的代理程式使用相容的用戶端，建議您為通話佇列啟用會議模式。
 
@@ -229,9 +231,9 @@ ms.locfileid: "69392223"
 > 建議的設定是將 **會議模式** 設定為 [ **開** 啟]。
 
 > [!NOTE]
-> 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
+> 從已啟用位置路由的直接路由閘道路由到佇列的電話，不支援會議模式。
 >
-> 如果電話從商務用 Skype Server路由到佇列，則不支援會議模式。
+> 從 商務用 Skype Server 路由至佇列的電話不支援會議模式。
 > 
 > 如果 Teams 使用者需要透過通話佇列查閱/轉接電話，則必須使用會議模式。
 >
@@ -335,7 +337,7 @@ ms.locfileid: "69392223"
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>步驟 6：設定如何處理通話逾時
 
-**通話逾時：等待時間上限** 可指定電話在佇列中保留的時間上限，才能重新導向或中斷連線。
+**通話逾時：等待時間上限** 可指定在重新導向或中斷連線之前，通話在佇列中保留的時間上限。
 
 您可以指定 0 秒到 45 分鐘的值。
 
@@ -394,12 +396,12 @@ ms.locfileid: "69392223"
 
 #### <a name="notes"></a>注釋
 
-1. Microsoft Teams Windows 用戶端、Microsoft Teams Mac 用戶端，Microsoft虛擬化桌面基礎結構上的 Teams。
-2. Microsoft Teams iPhone 應用程式，Microsoft Teams Android 應用程式。
+1. Microsoft Teams Windows 用戶端、Microsoft Teams Mac 用戶端、虛擬化桌面基礎結構上的 Microsoft Teams。
+2. Microsoft Teams iPhone 應用程式、Microsoft Teams Android 應用程式。
 3. 針對代理程式路由方法選取 [最長閒置時間] 會自動啟用以目前狀態為基礎的路由。
 4. 您無法設定代理商要撥打的訂單。
 5. 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
-6. Microsoft Teams 電話。
+6. Microsoft Teams 電話系統]。
 7. 透過 的 [使用者設定] 入口網站頁面。 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)
 8. 僅支援公用頻道。
 9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
@@ -418,9 +420,9 @@ ms.locfileid: "69392223"
 - Android 商務用 Skype Client (版本 6.16.0.9 及更新版本) 
 - iPhone 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
 - iPad 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
-- Microsoft 32 位和 64 位版本的 Teams Windows 用戶端 () 
+- 32 位和 64 位版本的 Microsoft Teams Windows 用戶端 () 
 - Microsoft Teams Mac 用戶端
-- Microsoft Windows[虛擬桌面](teams-for-vdi.md)、Citrix 和 VMware (虛擬桌面基礎結構上的 Teams) 
+- Windows 虛擬桌面、Citrix 和 VMware ([虛擬桌面基礎](teams-for-vdi.md) 結構上的 Microsoft Teams) 
 - Microsoft Teams iPhone 應用程式
 - Microsoft Teams Android 應用程式
 
@@ -440,9 +442,9 @@ ms.locfileid: "69392223"
 
 3. 測試會傳回解決任何租使用者、原則和資源帳戶設定的最佳後續步驟，以驗證通話佇列是否能夠接聽來電。
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
-[以下是您可以透過Microsoft Teams 電話](here-s-what-you-get-with-phone-system.md)
+[以下是您在 Microsoft Teams 電話 System 中取得的功能](here-s-what-you-get-with-phone-system.md)
 
 [取得服務電話號碼](getting-service-phone-numbers.md)
 

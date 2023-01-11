@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解自動語音應答和通話佇列，以及如何使用自動語音應答和通話佇列來協助來電者在功能表系統之間移動，以連絡組織中的人員或部門。
-ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 097d4d0e921e0481e4986cce6f599cbd55044138
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307618"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763614"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>規劃 Teams 自動語音應答和通話佇列
 
@@ -71,8 +71,8 @@ ms.locfileid: "69307618"
 若要設定自動語音應答和通話佇列，您需要下列資源：
 
 - 每個自動語音應答以及每個通話佇列的 [資源帳戶](manage-resource-accounts.md) 。
-- 每個資源帳戶的免費[Microsoft Teams 電話資源帳戶授權](teams-add-on-licensing/virtual-user.md)，可直接從 Teams 使用者或外部電話號碼撥號。
-- 針對您要直接從外部電話號碼撥號的每個資源帳戶，至少一個[Microsoft服務號碼](getting-service-phone-numbers.md)、運算子[聯](operator-connect-plan.md)機[號碼、直接路由號碼](direct-routing-plan.md)或混合式號碼。
+- 每個[資源帳戶的免費Microsoft Teams 電話資源帳戶授權](teams-add-on-licensing/virtual-user.md)。
+- 針對您要直接從外部電話號碼撥號的每個資源帳戶，至少有一個 [Microsoft 服務號碼](getting-service-phone-numbers.md)、運算子 [連線號碼](operator-connect-plan.md)、 [直接路由號碼](direct-routing-plan.md)或混合式號碼。
   - 服務號碼可能是付費或免付費號碼。
 
 > [!NOTE]
@@ -107,7 +107,7 @@ ms.locfileid: "69307618"
 > [!NOTE]
 > 如果指派給資源帳戶的通話方案已停用或遭到移除， [則通訊點](what-are-communications-credits.md)數若在租使用者 (中提供，但未指派給資源帳戶) ，則會被使用。 如果沒有通話方案或通訊點數，通話將會失敗。
 >
-> 自動語音應答的直接路由服務號碼和通話佇列僅支援Microsoft Teams 使用者和通話代理程式。
+> Microsoft Teams 使用者和通話代理程式僅支援自動語音應答和通話佇列的直接路由服務號碼。
 > 
 > 不支援通話方案、運算子連線和直接路由主幹之間的傳輸。
 > 
@@ -148,11 +148,11 @@ ms.locfileid: "69307618"
 **會議模式** 是通話佇列中的一個選項，可大幅減少將 Teams VOIP 通話和 PSTN 通話連線至專員所需的時間。 若要讓會議模式正常運作，通話佇列中的代理程式必須使用下列其中一個用戶端：
 
 - 最新版本的 Microsoft Teams 桌面用戶端、Android 應用程式或 iOS 應用程式。
-- Microsoft手機系統版本 1449/1.0.94.2020051601 或更新版本。
+- Microsoft Phone System 版本 1449/1.0.94.2020051601 或更新版本。
   
 將專員的 Teams 帳戶設定為僅限 Teams 模式。 不符合需求的代理程式不包含在通話路由清單中。
 
-如果您的代理程式都使用相容的用戶端，建議您為通話佇列啟用會議模式。
+會議模式預設為啟用。 如果您的代理程式不符合需求，則會議模式必須在通話佇列設定期間手動停用。
 
 **呼叫路由流程** 方案可協助判斷撥入貴組織之人員最有效率的路由。 若要瞭解如何規劃您的來電路由流程，請參閱 [規劃您的通話路由流程](plan-your-call-routing-flow.md)。
 
