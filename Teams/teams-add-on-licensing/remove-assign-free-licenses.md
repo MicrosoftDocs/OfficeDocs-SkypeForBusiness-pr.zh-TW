@@ -19,14 +19,17 @@ ms.custom:
 - admindeeplinkMAC
 robots: noindex
 description: 瞭解如何移除 Teams 免費版 (傳統) 授權，並為貴組織的使用者指派付費的 Teams 授權。
-ms.openlocfilehash: 027f84577a50d445eb01bce896417f23e503abb7
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749151"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767664"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>為貴組織淘汰Microsoft Teams 免費版 (傳統) 
+
+> [!NOTE]
+> 如果您是 Teams Free (傳統) 使用者，您將無法在 2023 年 4 月中存取 Teams，除非您的 IT 系統管理員採取本文中的下列動作。
 
 Microsoft 將于 2023 年 4 月中淘汰 **Microsoft Teams 免費版 (傳統)** 授權。
 

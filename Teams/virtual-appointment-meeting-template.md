@@ -17,18 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 459845115d8a705673f21b5e8a57dadac59841f6
-ms.sourcegitcommit: f8da8f613fc3902d2607e322ad9dfbdeb8838c4c
+ms.openlocfilehash: f0d93bb05a6456499ab1c0c16070149d8cdfd949
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2022
-ms.locfileid: "69624913"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767624"
 ---
 # <a name="virtual-appointment-meeting-template-in-microsoft-teams"></a>Microsoft Teams 中的虛擬約會會議範本
 
+![資訊圖示 ](media/info.png) **本文所述的部分功能需要 [Teams 進階版 (](teams-add-on-licensing/licensing-enhance-teams.md)預覽)**。
+
 ## <a name="overview"></a>概觀
 
-虛擬約會範本是 Microsoft Teams 中的預設會議範本，您的使用者可以使用它來排程客戶、客戶和組織外部其他人的虛擬約會。 例如，使用它來排程並進行面試、指導會話、財務諮詢、虛擬購物體驗等等。
+虛擬約會範本是 Microsoft Teams 中的預設會議範本，您的使用者可以使用它來排程與客戶、客戶和組織外部其他人員的虛擬約會。 例如，使用它來排程並進行面試、指導會話、財務諮詢、虛擬購物體驗等等。
 
 範本可讓您為會議召集人通常控制的會議設定指定值。 它可讓您彈性地套用預設設定並強制執行設定。 您可以選擇鎖定設定，讓會議召集人在使用範本時無法變更設定。
 

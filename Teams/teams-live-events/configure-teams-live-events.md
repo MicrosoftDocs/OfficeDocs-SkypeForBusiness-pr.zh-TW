@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 449aaa73b42248661ec141bd8d004cf754379750
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 7ff5dada4c1f37c6afaf2948a5cef2b6169350d0
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965775"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767614"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動設定
 
@@ -56,23 +56,26 @@ ms.locfileid: "68965775"
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-如需詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)。
-## <a name="configure-a-third-party-video-distribution-provider"></a>設定協力廠商視訊發佈提供者 
 
-如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請在 Teams 中設定即時活動的提供者。 
+如需詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)。
+
+## <a name="configure-a-third-party-video-distribution-provider"></a>設定協力廠商視訊發佈提供者
+
+如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請在 Teams 中設定即時活動的提供者。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在左側導覽中，移至 **[會議**  >  **即時活動設定]**。
-2. 在 **[協力廠商視訊發佈提供者**] 底下，完成下列動作： 
+2. 在 **[協力廠商視訊發佈提供者**] 底下，完成下列動作：
 
     ![系統管理中心的協力廠商視訊發佈提供者設定。](../media/teams-live-events-settings-distribution-provider-new.png "即時活動之協力廠商視訊發佈提供者設定的螢幕擷取畫面")
 
     - **協力廠商通訊提供者** 開啟此開啟以啟用協力廠商視訊發佈提供者。
     - **SDN 提供者名稱** 選擇您正在使用的提供者。
     - **SDN 設定** 輸入 SDN 設定詳細資料。
-        
+
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
+
 從您的提供者連絡人取得授權識別碼或 API 權杖和 API 範本，然後根據您使用的提供者執行下列其中一項：
 
 **Microsoft eCDN**
@@ -99,15 +102,13 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 如需詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)。
 
 > [!NOTE]
-> 如果您打算使用外部應用程式或裝置建立即時活動，您也需要[使用Microsoft Stream設定您的 eCDN 提供者](/stream/network-caching)。 
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+> 如果您打算使用外部應用程式或裝置建立即時活動，您也需要 [設定您的 eCDN 提供者](../teams-stream-ecdn.md)。
 
 >[!Note]
 > 您選擇的 eCDN 解決方案受選定之協力廠商提供者的服務條款和隱私權原則所規範，這將會規範您使用 eCDN 提供者的解決方案。 您使用 eCDN 提供者的解決方案將不受 Microsoft 大量授權條款或線上服務條款的規範。 如果您不同意協力廠商提供者的條款，請不要在 Microsoft Teams 中啟用 eCDN 解決方案。
 
 ### <a name="related-topics"></a>相關主題
+
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [Teams 即時活動的方案](plan-for-teams-live-events.md)
 - [設定 Teams 即時活動](set-up-for-teams-live-events.md)
