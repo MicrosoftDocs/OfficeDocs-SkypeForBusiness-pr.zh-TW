@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: a478e203ed973ff2199b4ad500de0441e200918d
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245634"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69781438"
 ---
 # <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>通話原則：Teams 中的通話和來電轉接功能
 
@@ -37,7 +37,7 @@ ms.locfileid: "69245634"
 
 請依照下列步驟建立自訂通話原則。
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **語音**  >  **通話原則**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **語音**  >  **通話原則**。
 2. 選取 [新增 **]**。
 3. 開啟或關閉通話原則中要使用的功能。
     - 例如，若要控制使用者是否可以將撥入電話路由至語音信箱，請選 **取 [已啟用** ] 或 [ **使用者控制]**。 若要防止路由到語音信箱，請選取 **[未啟用]**。
@@ -47,7 +47,7 @@ ms.locfileid: "69245634"
 
 請依照下列步驟編輯現有的通話原則。
 
-1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，選取 **[語音**  >  **通話原則]**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，選取 **[語音**  >  **通話原則]**。
 2. 按一下您要修改的原則旁邊，然後選取 [ **編輯]**。
 3. 進行您要的變更，然後按一下 [ **儲存]**。
 
@@ -61,7 +61,7 @@ ms.locfileid: "69245634"
 
 ### <a name="make-private-calls"></a>可進行私人通話
 
-此設定會控制 Teams 中的所有通話功能。 關閉此功能可關閉 Teams 中的所有通話功能。
+此設定會控制 Teams 中的所有通話功能。 關閉此設定可關閉 Teams 中的所有通話功能。
 
 ### <a name="cloud-recording-for-calling"></a>用於通話的雲端錄製
 
@@ -89,7 +89,7 @@ ms.locfileid: "69245634"
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>撥入電話可以路由至通話群組
 
-此設定會控制是否可以將來電轉接至通話群組。 此功能預設為開啟。
+此設定會控制是否可以將來電轉接至通話群組。 此設定預設為開啟。
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>委派輸入和撥出電話
 
@@ -97,7 +97,7 @@ ms.locfileid: "69245634"
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止略過付費並透過 PSTN 傳送電話
 
-將此設定設為 [ **開** 啟] 會透過 PSTN 傳送電話並產生費用，而不是透過網路傳送電話並略過付費。 此設定預設為關閉。
+開啟此設定將會透過 PSTN 傳送電話並產生費用，而不是透過網路傳送電話並略過付費。 此設定預設為關閉。
 
 ### <a name="music-on-hold-for-pstn-calls"></a>PSTN 通話音樂保留
 
@@ -110,6 +110,7 @@ ms.locfileid: "69245634"
 - **未啟用** 未啟用忙碌選項，當使用者已在通話中時，新的或來電仍可傳送給使用者。
 - **啟用** 新來電或來電會以忙碌訊號拒絕。
 - **懸而未決** 使用者的未回答設定將會被使用，例如路由到語音信箱或轉寄給另一個使用者。
+- **使用者控制** 此選項目前無法運作;如果設定的話，系統會將此值讀取為 **[未啟用]**。
 
 ### <a name="web-pstn-calling"></a>Web PSTN 通話
 
@@ -117,7 +118,7 @@ ms.locfileid: "69245634"
 
 ### <a name="real-time-captions-in-teams-calls"></a>Teams 通話中的即時輔助字幕
 
-此設定會控制 Teams 通話中的即時輔助字幕是否可供使用者使用。 此功能預設為開啟。
+此設定會控制 Teams 通話中的即時輔助字幕是否可供使用者使用。 此設定預設為開啟。
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>自動回答傳入的會議邀請
 
@@ -125,7 +126,7 @@ ms.locfileid: "69245634"
 
 ### <a name="spam-filtering"></a>垃圾郵件篩選
 
-此設定可讓您控制來電中可用的垃圾郵件篩選類型。 基本和 Captcha 互動式語音 (IVR) 檢查都可以執行。 此功能預設為開啟。
+此設定可讓您控制來電中可用的垃圾郵件篩選類型。 基本和 Captcha 互動式語音 (IVR) 檢查都可以執行。 此設定預設為開啟。
 
 ### <a name="sip-devices-can-be-used-for-calls"></a>SIP 裝置可用於通話
 
