@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01621d73f1f16fa23a6b4c9042e7d0cecdc2f366
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 287bd53ffee2780927d2aa147f3bc2e2e07b3dbd
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198345"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778973"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>在系統管理中心使用一般團隊範本
 
@@ -33,7 +33,7 @@ ms.locfileid: "69198345"
 
 Microsoft Teams 的團隊範本提供預先定義的設定、頻道和預先安裝應用程式的團隊結構, 讓您快速且輕鬆地建立團隊。
 
-使用小組範本在組織中部署一致的團隊。 範本也可以協助使用者熟悉如何有效地使用 Teams。 您也可以擴充範本，以建立專為您特定組織需求量身打造的團隊。
+使用小組範本在組織中部署一致的團隊。 範本也可以協助使用者熟悉如何有效地使用 Teams。
 
 Teams 包含我們針對特定商務需求和專案所建立的預先建立範本。 在本文中，我們向您介紹可在組織中用於各種情況的一般範本類別。
 

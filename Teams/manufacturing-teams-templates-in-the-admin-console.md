@@ -6,7 +6,7 @@ manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: ''
 ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
@@ -20,22 +20,20 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d159605af5050b8b874fb7b1c077ce9f2d639fc
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: e2d6be964c29ca9133a5c52162c88f82e27424d7
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198895"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778953"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>在系統管理中心使用製造小組範本
 
-團隊範本提供預先定義的設定、頻道和預先安裝應用程式範本，可讓您快速且輕鬆地建立團隊。
+Microsoft Teams 的團隊範本提供預先定義的設定、頻道和預先安裝應用程式的團隊結構, 讓您快速且輕鬆地建立團隊。
 
-團隊範本具有預先內建的團隊結構定義，專為製造需求而設計。 您也可以擴充團隊範本，以建立專為您特定組織需求量身打造的團隊。
+使用小組範本在組織中快速部署一致的團隊。 範本也可以協助職員瞭解如何有效地使用 Teams。
 
-在本文中，我們介紹每個小組範本，並建議使用這些範本。
-
-如果您負責在製造組織中規劃、部署和管理多個小組，本文適合供您使用。 您已在組織中部署 Teams 服務。 如果您尚未推出 Teams，請先閱讀[如何推出 Microsoft Teams](./deploy-overview.md)。
+Teams 包含專為製造需求設計的預先建置範本。 在本文中，我們為您介紹這些範本。
 
 若要深入瞭解一般團隊範本，請參閱 [開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
@@ -43,7 +41,7 @@ ms.locfileid: "69198895"
 
 與製造廠房小組集中通訊、存取資源和工廠作業。 包括原則和程式檔、訓練影片、安全注意事項、移轉處理常式。
 
-| 範本類型|baseTemplateId| 此基本範本提供的屬性 |
-| ------------------|-- |----------------------------------------------------- |
-|品質與安全|`com.microsoft.teams.template.QualitySafety` |頻道： <ul><li>一般<li>公告</li><li>行 1</li><li>行 2</li><li>行 3</li><li>安全</li><li>訓練</li><li>維護</li><li>趣味內容</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>|範本類型|TemplateId| 此範本提供的屬性 |
+>| ------------------|-- |----------------------------------------------------- |
+>|品質與安全|`com.microsoft.teams.template.QualitySafety` |頻道： <ul><li>一般</li><li>領導</li><li>維護</li><li>生產線 1</li><li>生產線 2</li><li>生產線 3</li><li>健康與安全</li><li>訓練</li><li>有趣的內容</li></ul> 應用程式： <ul><li>核准</li><li>檢查</li><li>問題報告</li><li>班次</li> <li>Planner 和 To Do 的工作</li> <li>Wiki</li> </ul>|

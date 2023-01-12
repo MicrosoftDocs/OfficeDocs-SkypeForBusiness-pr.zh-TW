@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: cd5a1064c4a0104a4eab6d25a3adb0614c12d256
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198955"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69779053"
 ---
 # <a name="use-nonprofit-team-templates"></a>使用非營利組織團隊範本
 
@@ -33,21 +33,22 @@ Microsoft Teams 的團隊範本提供預先定義的設定、頻道和預先安�
 
 對於非營利組織來說，團隊範本可能特別有用，因為它們可協助您在整個組織中快速部署一致的團隊。 範本也可以協助職員瞭解如何有效地使用 Teams。
 
-Teams 包含專為簡化志願者管理活動設計的管理志願者團隊範本。 使用此預先建立的範本快速建立團隊，讓員工在志願者管理工作和活動上進行溝通和共同作業。
+Teams 包含管理志工團隊範本，專門用來簡化志工管理活動。 使用此預先建立的範本快速建立團隊，讓員工在志願者管理工作和活動上進行溝通和共同作業。
 
-在本文中，您將了解管理志願者團隊範本，以及如何使用它來建立團隊。 本文也將提供如何在 Teams 系統管理中心管理團隊範本的概觀。
+在本文中，您將瞭解管理自願者小組範本，以及如何使用它來建立團隊。 本文也將提供如何在 Teams 系統管理中心管理團隊範本的概觀。
 
-## <a name="manage-volunteers-team-template"></a>管理志願者團隊範本
+## <a name="manage-volunteers-team-template"></a>管理自願者小組範本
 
 將員工聚在一起，在志願者管理工作和活動上進行溝通和共同作業。
 
 此範本包含專為簡化志願者管理活動所設計的頻道和應用程式。 員工可以整理及共用上線材料和熱門檔案、查看報告、隨時了解重要團隊和活動公告等。 範本也會與 [[志願者管理]](/dynamics365/industry/nonprofit/volunteer-management-use) 整合，這是 [[非營利組織版本 Microsoft Cloud]](/industry/nonprofit/) 的一部分，讓教職員在 Teams 中管理志願者的參與機會。
 
-以下是管理志願者團隊範本的頻道和應用程式。
+以下是管理自願者團隊範本隨附的頻道和應用程式。
 
-| 範本類型 |TemplateId | 此範本提供的屬性 |
-| ------------------|-- |----------------------------------------------------- |
-|管理志願者| `ManageVolunteers` |頻道： <ul><li>一般<ul><li>網站&sup1;</li></ul><li>公告</li><li>報告<ul><li>Power BI&sup1;</li></ul></li><li>志願者管理<ul><li>Power Apps&sup1;</li></ul></li><li>預定機會<ul><li>工作&sup1;</li></ul></li><li>志願者上線<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> 應用程式： <ul><li>網站</li><li>YouTube</li><li>Power BI</li><li>Power 應用程式</li><li>工作</li><li>SharePoint</li><li>OneNote</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| 範本類型 |TemplateId | 此範本提供的屬性 |
+>| ------------------|-- |----------------------------------------------------- |
+>|管理自願者| `com.microsoft.teams.template.ManageVolunteers` |頻道： <ul><li>一般<ul><li>網站&sup1;</li></ul><li>公告</li><li>報告<ul><li>Power BI&sup1;</li></ul></li><li>志願者管理<ul><li>Power Apps&sup1;</li></ul></li><li>預定機會<ul><li>工作由 Planner 和 To Do&sup1;</li></ul></li><li>志願者上線<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>應用程式： <ul><li>OneNote</li><li>Power 應用程式</li><li>Power BI</li><li>SharePoint</li><li>Planner 和 To Do 的工作</li><li>網站</li><li>YouTube</li></ul>|
 
 &sup1;應用程式已做為索引標籤新增到頻道。
 

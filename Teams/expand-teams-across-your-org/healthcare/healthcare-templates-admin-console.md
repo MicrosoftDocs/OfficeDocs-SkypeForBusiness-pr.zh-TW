@@ -24,12 +24,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 瞭解如何在 Teams 系統管理中心管理及使用醫療保健小組範本, 以及使用 Microsoft Graph 快速且輕鬆地為醫療保健組織建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 17f5ce2774dd163f5f244bea0e685623f64ed59f
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131072"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778963"
 ---
 # <a name="use-healthcare-team-templates"></a>使用醫療保健團隊範本
 
@@ -53,52 +53,52 @@ Teams 中包括專為醫療保健組織設計的範本。 使用這些預先建�
 若要深入瞭解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](../../get-started-with-teams-templates-in-the-admin-console.md)。
 
 我們目前提供下列預先建立的醫療保健團隊範本。 若要查看, 請前往 Teams 系統管理中心左側版面配置, 前往 **Teams** > **團隊範本**。
+
 ### <a name="patient-care"></a>病患照護
 
- 此範本適用於在病房、配藥處或部門內進行通訊和共同作業。 您可以使用此範本來協助病患管理和病房的運作需求。 例如, 在 *公告* 頻道中張貼病房公告, 並在 *人員* 頻道中管理職員班次。
+簡化病房、配藥處或部門內的醫療保健通訊和共同作業。 使用此範本可促進病患管理和操作需求。 例如, 在 *公告* 頻道中張貼病房公告, 並在 *人員* 頻道中管理職員班次。
 
-| 範本類型 |TemplateId| 此範本提供的屬性 |
-| ------------------ |---|----------------------------------------------------- |
-| 病患照護 |`healthcareWard` | 頻道：<ul><li>一般</li><li>公告<ul><li>布告欄&sup1;</li></ul></li><li>小型會議<ul><li>清單 (病患清單)&sup1;</li></ul></li><li>輪班<ul><li>檢查&sup1;</li></ul></li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>Wiki</li><li>清單</li><li>工作</li><li>核准</li><li>班次</li><li>佈告欄</li><li>檢查</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 範本類型 |TemplateId| 此範本提供的屬性 |
+>| ------------------ |---|----------------------------------------------------- |
+>| 病患照護 |`healthcareWard` | 頻道：<ul><li>一般</li><li>公告</li><li>過程中討論</li><li>輪次</li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>核准</li><li>佈告欄</li><li>檢查</li><li>清單</li><li>班次</li><li>Planner 和 To Do 的工作</li><li>Wiki</li></ul>|
 
-&sup1;應用程式已做為索引標籤新增到頻道
 ### <a name="hospital"></a>醫院
 
-此範本適用於醫院內多個病房、配藥處或部門的通訊和共同作業。 此範本包含一組用於醫院作業的基本頻道, 且可延伸供進一步自訂。
+簡化醫院內多個病房、配藥處或部門之間的通訊和共同作業。 此範本包含一組用於醫院作業的基本頻道, 且可延伸供進一步自訂。
 
-| 範本類型 |TemplateId | 此範本提供的屬性 |
-| ------------------|-- |----------------------------------------------------- |
-|醫院|`healthcareHospital`|頻道： <ul><li>一般<ul><li>清單&sup1;</li></ul></li><li>公告<ul><li>布告欄&sup1;</li></ul></li><li>合規性</li><ul><li>檢查&sup1;</li></ul></li><li>監管</li><li>人力資源<ul><li>構想&sup1;</li></ul></li><li>藥品部</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>清單</li><li>核准</li><li>班次</li><li>佈告欄</li><li>檢查</li><li>構想</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 範本類型 |TemplateId | 此範本提供的屬性 |
+>| ------------------|-- |----------------------------------------------------- |
+>|醫院|`healthcareHospital`|頻道： <ul><li>一般</li><li>公告</li><li>合規性</li></li><li>監管</li><li>人力資源</li><li>藥品部</li></ul>  應用程式： <ul><li>核准</li><li>佈告欄</li><li>員工想法</li><li>檢查</li><li>清單</li><li>班次</li><li>Planner 和 To Do 的工作</li><li>Wiki</li></ul>|
 
-&sup1;應用程式已做為索引標籤新增到頻道
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 以下是預先建立的醫療保健團隊範本。
-### <a name="ward"></a>病房
 
-病房範本適用於在病房、配藥處或部門內進行通訊和共同作業。 此範本可用來協助病患管理和病房的運作需求。 例如，您可以在 *[公告]* 頻道中張貼病房公告，而班次可以在 *[人員]* 中管理。 如果您想要簡化您的病房作業，則此範本適合您。
+### <a name="patient-care"></a>病患照護
 
-|範本類型 |TemplateId |範本頻道|
-|:--- |:---|:---|
-|醫療保健 - 病房 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 一般<br>公告&sup2; <br> 小型會議&sup2; <br> 輪班&sup2; <br> 人員配置&sup2; <br> 訓練&sup2; |
-|     | |         |
+此範本適用於在病房、配藥處或部門內進行通訊和共同作業。 使用此範本可促進病患管理和操作需求。 例如，您可以在 *[公告]* 頻道中張貼病房公告，而班次可以在 *[人員]* 中管理。 如果您想要簡化您的病房作業，則此範本適合您。
+
+>[!div class="mx-tdBreakAll"]
+>|範本類型 |TemplateId |範本頻道|
+>|:--- |:---|:---|
+>|醫療保健 - 病房 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareWard')`   | 一般<br>公告&sup2; <br> 小型會議&sup2; <br> 輪班&sup2; <br> 人員配置&sup2; <br> 訓練&sup2; |
 
 &sup2;自動將頻道加入我的最愛
 
 ### <a name="hospital"></a>醫院
 
-醫院範本適用於醫院內多個病房、配藥處或部門的通訊和共同作業。 此範本包含數個操作頻道, 例如 *公告*、*監護人*, 和 *藥局*。 我們也提供指令碼, 您可以使用此指令碼來擴充範本, 以含其他部門或特殊頻道。 您可以編輯它以配合您的需求。
+此範本適用於醫院內多個病房、配藥處或部門的通訊和共同作業。 它包含數個營運通道，例如 *宣告*、*監護和信**道*。 我們也提供腳本，讓您可以將範本延伸至更多部門或特殊頻道。 您可以編輯它以配合您的需求。
 
-例如, 如果您有一個 *內科* 部門, 但不需要用於 *眼科* 的頻道, 指令碼可以調整為包含一個 *內分泌學* 頻道, 並移除 *眼科* 頻道。  建議您不要將這些專科或病房模型頻道自動加入我的最愛，以避免通知飽和。 使用者通常會將任何他們覺得相關的頻道加入最愛。
+例如，如果您有 *一個內分學* 部門，但不需要 *Ophthalmology* 的通道，您可以調整腳本以包含 *尾分詞* 通路，並移除眼 *科頻道。* 建議您不要將這些專科或病房模型頻道自動加入我的最愛，以避免通知飽和。 使用者通常會將任何他們覺得相關的頻道加入最愛。
 
-|範本類型 |TemplateId |範本頻道|
-|:--- |:---|:---|
-|醫療保健 - 醫院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 一般<br>公告&sup2; <br> 合規性&sup2; <br> 監管 <br> 人力資源 <br> 藥品部 |
-| | |  |
+>[!div class="mx-tdBreakAll"]
+>|範本類型 |TemplateId |範本頻道|
+>|:--- |:---|:---|
+>|醫療保健 - 醫院 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')`   | 一般<br>公告&sup2; <br> 合規性&sup2; <br> 監管 <br> 人力資源 <br> 藥品部 |
 
 &sup2;自動將頻道加入我的最愛
 
