@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 瞭解如何針對音訊會議、電話系統和通話方案等功能，將 Teams 附加元件授權指派給使用者。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392083"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799929"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派 Teams 附加元件授權給使用者
 
@@ -38,7 +39,7 @@ ms.locfileid: "69392083"
 
 - 如果您使用的是內部部署的公用交換電話網路 (PSTN) 使用者的連線能力，您只需要指派Teams 電話標準方案授權。 請勿指派通話方案授權。
 
-- 將Microsoft通話方案指派給使用者之後，最多可能需要 24 小時，他們才會在 Teams 用戶端中看到撥號鍵台。 如果 24 小時內未顯示撥號鍵台，請檢查 [您的撥號鍵台設定](../dial-pad-configuration.md)。 如有需要，您也可以 [連絡支援服務](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 將 Microsoft 通話方案指派給使用者之後，最多可能需要 24 小時，他們才會在 Teams 用戶端中看到撥號鍵台。 如果 24 小時內未顯示撥號鍵台，請檢查 [您的撥號鍵台設定](../dial-pad-configuration.md)。 如有需要，您也可以 [連絡支援服務](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 如果您尚未購買正確的授權數目，您會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇購買更多授權的選項。
 
@@ -125,11 +126,11 @@ ms.locfileid: "69392083"
 
 | 產品名稱| SKU 元件名稱 |
 |--------------|---------------|
-| Microsoft配備電話系統的企業版 E5 ()  | ENTERPRISEPREMIUM |
-| Microsoft不含音訊會議 (的企業版 E5)  | ENTERPRISEPREMIUM_NOPSTNCONF |
-| Microsoft具有音訊會議的企業版 E5 ()  | ENTERPRISEPREMIUM |
-| Microsoft企業版 E3 | ENTERPRISEPACK |
-| Microsoft企業版 E1 | STANDARDPACK |
+| 使用電話系統) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM |
+| 不含音訊會議) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM_NOPSTNCONF |
+| 具備音訊會議) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E3 | ENTERPRISEPACK |
+| Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 商務基本版 | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 商務標準版 | O365_BUSINESS_PREMIUM|
 | Microsoft 365 商務版 | SPB|

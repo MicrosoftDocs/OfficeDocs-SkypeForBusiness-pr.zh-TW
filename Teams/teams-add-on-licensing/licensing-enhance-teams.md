@@ -10,24 +10,25 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
-description: 瞭解如何使用 Microsoft Teams 進階版附加元件授權來增強Microsoft Teams 體驗
-ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 瞭解如何使用Microsoft Teams 進階版附加元件授權來增強您的 Microsoft Teams 體驗
+ms.openlocfilehash: d9307bc9b26421f4930c4355f42c274b5aad12a3
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392343"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800063"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams 進階版授權
 
 > [!NOTE]
-> Teams 進階版目前提供預覽版，可讓組織體驗及規劃 Teams 進階版的一般可用版本。 並非所有 Teams 進階版功能都可在此預覽版本中使用，但在整個預覽期間內將會發行更多功能。 若要體驗 Teams 進階版預覽功能，請參閱 [在購買授權之前可以體驗 Teams 進階版嗎？](#can-i-experience-teams-premium-before-buying-licenses)
+> Teams 進階版目前提供預覽版，可讓組織體驗及規劃一般可用的 Teams 進階版 版本。 並非所有Teams 進階版功能都可在此預覽版本中使用，但在整個預覽期間內將會發行更多功能。 若要體驗Teams 進階版預覽版功能，請參閱[購買授權之前是否能體驗Teams 進階版？](#can-i-experience-teams-premium-before-buying-licenses)
 
 Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 365 訂閱的組織以下列優點強化其 Teams 體驗：
 
@@ -36,22 +37,22 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 - IT 的進階管理和報告功能。
 - 進階虛擬約會。
 
-本文適用于想要瞭解 Teams 進階版授權並為使用者購買 Teams 進階版授權的 IT 系統管理員。 本文將提供下列問題的解答：
+本文適用于想要瞭解Teams 進階版授權並為使用者購買Teams 進階版授權的 IT 系統管理員。 本文將提供下列問題的解答：
 
 - [Teams 進階版與 Teams 有何比較？](#how-does-teams-premium-compare-to-teams)
 - [目前 Teams 功能是否會移至 Teams 進階版？](#are-there-current-teams-features-that-will-move-to-teams-premium)
-- [購買 Teams 進階版的需求為何？](#what-are-the-requirements-to-purchase-teams-premium)
+- [購買Teams 進階版的需求為何？](#what-are-the-requirements-to-purchase-teams-premium)
 - [Teams 進階版與Teams 會議室專業版有何不同？](#how-does-teams-premium-differ-from-teams-rooms-pro)
-- [在購買授權之前，我可以體驗 Teams 進階版嗎？](#can-i-experience-teams-premium-before-buying-licenses)
-- [如何?購買 Teams 進階版授權？](#how-do-i-purchase-teams-premium-licenses)
+- [購買授權之前，我可以體驗Teams 進階版嗎？](#can-i-experience-teams-premium-before-buying-licenses)
+- [如何?購買Teams 進階版授權？](#how-do-i-purchase-teams-premium-licenses)
 
-若要瞭解如何設定及設定 Teams 進階版功能，請[參閱Microsoft Teams 進階版 - 系統管理員概觀](/microsoftteams/enhanced-teams-experience)，其中也會包含使用者檔可用時的連結。
+若要瞭解如何設定及設定Teams 進階版功能，請參[閱Microsoft Teams 進階版 - 系統管理員概觀](/microsoftteams/enhanced-teams-experience)，其中也會包含使用者檔可用時的連結。
 
 ## <a name="how-does-teams-premium-compare-to-teams"></a>Teams 進階版與 Teams 有何比較？
 
-購買 Microsoft 365 訂閱的客戶也會收到使用者的 Teams 授權。 購買 Teams 進階版附加元件授權，可提供系統管理員和使用者在其 Microsoft 365 訂閱的頂端 Teams 上提供額外功能。
+購買 Microsoft 365 訂閱的客戶也會收到其使用者的 Teams 授權。 購買Teams 進階版附加元件授權可提供系統管理員和使用者的 Microsoft 365 訂閱，在熱門 Teams 上提供額外功能。
 
-下表將比較 Teams 和 Teams 進階版之間的重要功能。
+下表將比較 Teams 和 Teams 進階版 之間的重要功能。
 
 ### <a name="meetings"></a>會議
 
@@ -105,7 +106,7 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 | 自訂使用者原則套件 |  | X |
 | 開啟進階會議監控和警示 |  | X |
 
-\**此功能僅適用于訂閱Microsoft 365 E5 Teams 進階版使用者。如需授權需求的詳細資訊，請參閱 [購買 Teams 進階版的需求為何？](#what-are-the-requirements-to-purchase-teams-premium)*
+\**此功能僅適用于Teams 進階版訂閱Microsoft 365 E5使用者。如需授權需求的詳細資訊，請參閱 [購買Teams 進階版的需求為何？](#what-are-the-requirements-to-purchase-teams-premium)*
 
 ### <a name="meetings-reporting"></a>會議報告
 
@@ -141,9 +142,9 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>目前 Teams 功能是否會移至 Teams 進階版？
 
-隨著 Teams 進階版的一般發行，部分 Teams 功能將從 Teams 授權移至 Teams 進階版授權。 若要允許使用者繼續使用這些功能，您必須購買並指派 Teams 進階版授權。
+隨著Teams 進階版的一般發行，部分 Teams 功能將從 Teams 授權移至Teams 進階版授權。 若要允許使用者繼續使用這些功能，您必須購買並指派Teams 進階版授權。
 
-移至 Teams 進階版的功能如下：
+移至Teams 進階版的功能如下：
 
 - 即時翻譯的輔助字幕。
 - Teams 會議錄製中的時間軸標記，用於使用者離開或加入會議的時間。
@@ -154,23 +155,23 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 
 ### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>是否有寬限期可在使用者失去功能之前切換到 Teams Premium？
 
-當 Teams 進階版一般可供購買時，系統管理員將會有 30 天的寬限期來購買 Teams 進階版。
+當Teams 進階版通常可供購買時，系統管理員將會有 30 天的寬限期來購買Teams 進階版。
 
-在 30 天寬限期之後，使用者將無法存取 Teams 中先前沒有 Teams 進階版附加元件的功能，除非系統管理員購買並指派 Teams 進階版授權給使用者。
+在 30 天寬限期之後，除非系統管理員購買並指派Teams 進階版授權給使用者，否則使用者將無法存取先前在 Teams 中提供的功能，而沒有附加元件Teams 進階版。
 
-部分租使用者可能擁有 Teams 進階版試用版授權。 試用版授權到期後，使用者會立即失去 Teams 進階版功能。 與 Teams 進階版功能相關聯的資產，例如自訂範本和會議背景，會保留在租使用者中，但會呈現灰色且無法使用。
+有些租使用者可能擁有Teams 進階版試用版授權。 試用版授權到期後，使用者會立即遺失Teams 進階版功能。 與自訂範本和會議背景等Teams 進階版功能相關聯的資產會保留在租使用者中，但會呈現灰色且無法使用。
 
-## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>購買 Teams 進階版的需求為何？
+## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>購買Teams 進階版的需求為何？
 
-在發行時，Teams 進階版將可透過所有Microsoft購買通道在全球購買，包括 EA、EAS、EES、雲端解決方案提供者、Web Direct、NCE – 客戶主導，以及 NCE – 合作夥伴主導。
+發行時，Teams 進階版將可透過所有 Microsoft 購買通道在全球購買，包括 EA、EAS、EES、雲端解決方案提供者、Web Direct、NCE – 客戶主導，以及 NCE – 合作夥伴主導。
 
-在您可以為使用者購買 Teams 進階版授權之前，請確定您的租使用者和使用者符合需求。
+在您可以為使用者購買Teams 進階版授權之前，請確定您的租使用者和使用者符合需求。
 
 **租使用者需求** 為：
 
 - 必須是商業、全球的公用部門、EDU、GCC 或非營利租使用者。
-  - 在一般發行時，Microsoft不會提供 Teams 進階版的 EDU 特定授權或 EDU 折扣。
-  - GCC High 和 DoD 租使用者將無法在一般版本中購買 Teams 進階版授權。
+  - 在一般發行時，Microsoft 不會針對Teams 進階版提供 EDU 特定授權或 EDU 折扣。
+  - GCC High 和 DoD 租使用者將無法在一般發行時購買Teams 進階版授權。
 
 **使用者需求** 是：
 
@@ -178,32 +179,32 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams 進階版與Teams 會議室專業版有何不同？
 
-Teams 進階版授權會指派給貴組織的使用者，Teams 會議室專業版授權應該只指派給Microsoft Teams 會議室裝置。 這兩個授權彼此並不相依、功能不重迭，也不會造成授權強制執行衝突。
+Teams 進階版授權指派給貴組織的使用者，Teams 會議室專業版授權僅應指派給Microsoft Teams 會議室裝置。 這兩個授權彼此並不相依、功能不重迭，也不會造成授權強制執行衝突。
 
-在 Teams 會議室專業版 發行之前，Microsoft提供稱為 Teams 會議室 Premium 的Teams 會議室授權。 Teams 會議室進階版已經停用，與 Teams 進階版無關。
+在 Teams 會議室專業版 發行之前，Microsoft 已提供稱為 Teams 會議室 Premium 的 Teams 會議室 授權。 Teams 會議室進階版已經停用，與Teams 進階版無關。
 
-## <a name="can-i-experience-teams-premium-before-buying-licenses"></a>在購買授權之前，我可以體驗 Teams 進階版嗎？
+## <a name="can-i-experience-teams-premium-before-buying-licenses"></a>購買授權之前，我可以體驗Teams 進階版嗎？
 
-從 2022 年 12 月開始，組織可以購買 Microsoft 365 系統管理中心 中提供的零成本 Teams 進階版 30 天試用版授權，來試用 Teams 進[階版](https://go.microsoft.com/fwlink/p/?linkid=868433)。
+從 2022 年 12 月開始，組織可以購買 Microsoft 365 系統管理中心 中提供的零成本Teams 進階版 30 天試用版授權，[來嘗試Teams 進階版](https://go.microsoft.com/fwlink/p/?linkid=868433)。
 
-擁有 Teams 進階版試用版授權的組織將會有 25 個授權可以指派給使用者。 這 25 位使用者可以在 Teams 進階版功能推出時體驗並測試。 此外，系統管理員可以管理 25 個授權使用者的 Teams 進階版功能。
+擁有Teams 進階版試用版授權的組織將會有 25 個授權可以指派給使用者。 這 25 位使用者可以在功能推出時體驗及測試Teams 進階版功能。 此外，系統管理員可以管理 25 個授權使用者的Teams 進階版功能。
 
-大部分的組織區段都可以購買並使用 Teams 進階版試用版授權，但 GCC High 和 DoD 租使用者除外。
+大部分的組織區段都可以購買並使用Teams 進階版試用版授權，但 GCC High 和 DoD 租使用者除外。
 
 ### <a name="what-will-happen-if-my-users-trial-licenses-expire"></a>如果我的使用者試用版授權到期，會發生什麼情況？
 
-30 天試用版授權到期後，25 個授權使用者將失去所有 Teams 進階版功能。 試用版授權到期與功能喪失之間目前沒有寬限期。
+30 天試用授權到期後，25 個授權使用者將會遺失所有Teams 進階版功能。 試用版授權到期與功能喪失之間目前沒有寬限期。
 
-基於這個原因，我們建議組織規劃其 Teams 進階版試用期，確保在試用期到期之前，所有必要的測試案例都經過徹底檢查。
+因此，我們建議組織規劃其Teams 進階版試用期，確保在試用期到期之前，對所有必要的測試案例進行徹底檢查。
 
-試用版授權到期時，租使用者上傳的 Teams 進階版資產，例如自訂範本和會議背景，仍會保留在租使用者中，但會呈現灰色且無法使用。
+試用版授權到期時，租使用者上傳的Teams 進階版自訂範本和會議背景等資產仍會保留在租使用者中，但會呈現灰色且無法使用。
 
-如果貴組織希望在試用期過後繼續使用 Teams 進階版功能，您就必須在 Teams 進階版授權可供使用時購買，並將授權重新指派給使用者。
+如果貴組織希望在試用期過後繼續使用Teams 進階版功能，您就必須購買可用的Teams 進階版授權，並將授權重新指派給使用者。
 
-## <a name="how-do-i-purchase-teams-premium-licenses"></a>如何?購買 Teams 進階版授權？
+## <a name="how-do-i-purchase-teams-premium-licenses"></a>如何?購買Teams 進階版授權？
 
-如果您的租使用者和使用者符合 Teams 進階版的需求，您可以在 Teams 進階版推出之後，透過您慣用的購買通道購買 Teams 進階版附加元件授權。
+如果您的租使用者和使用者符合Teams 進階版的需求，一旦Teams 進階版一般可用，您就可以透過慣用的購買通道購買Teams 進階版附加元件授權。
 
-購買 Teams 進階版授權之後，您會將授權指派給[Microsoft 365 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=834822)中的使用者。
+購買Teams 進階版授權之後，您會將授權指派給[Microsoft 365 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=834822)中的使用者。
 
-如需在Microsoft 365 系統管理中心中指派授權的相關指示，請參閱[指派Microsoft 365 授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
+如需在Microsoft 365 系統管理中心中指派授權的相關指示，請參閱[指派 Microsoft 365 授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。

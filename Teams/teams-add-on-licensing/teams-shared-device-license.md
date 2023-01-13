@@ -9,6 +9,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,21 +19,21 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - admindeeplinkMAC
-description: 瞭解常見區域手機、Teams 顯示器和 Teams 面板的Microsoft Teams 共用裝置授權。
-ms.openlocfilehash: 5ab7f3dfae180d71abdcf51b0c33adc8abd0a9ab
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 瞭解適用于常見區域手機、Teams 顯示器和 Teams 面板的 Microsoft Teams 共用裝置授權。
+ms.openlocfilehash: bf43b7882b2e4cb97c987b6d820117d467dd9a7d
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392698"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800216"
 ---
 # <a name="microsoft-teams-shared-devices-licensing"></a>Microsoft Teams 共用裝置授權
 
-Microsoft Teams 可以支援混合式工作案例，並讓使用者在彈性空間中工作。 **Microsoft Teams 共用裝置** 附加元件授權可讓辦公室將裝置指定為共用裝置，包括通用的區域電話、適用于桌上型電腦的 Teams 顯示器，以及會議空間的 Teams 面板。
+Microsoft Teams 可以支援混合式工作案例，並讓使用者在彈性空間中工作。 **Microsoft Teams 共用裝置** 附加元件授權可讓辦公室將裝置指定為共用裝置，包括常用的區域電話、適用于桌上型電腦的 Teams 顯示器，以及會議空間的 Teams 面板。
 
-如需其他 Teams 附加元件授權的相關資訊，請[參閱Microsoft Teams 附加元件授權。](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+如需其他 Teams 附加元件授權的相關資訊，請參閱 [Microsoft Teams 附加元件授權](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
-**teams 共用裝置Microsoft** 授權支援：
+**Microsoft Teams 共用裝置** 授權支援：
 
 - Microsoft Teams
 - Microsoft Teams 電話 &sup1;
@@ -59,11 +60,11 @@ Microsoft Teams 可以支援混合式工作案例，並讓使用者在彈性空�
 
 1. 在 [Microsoft 365 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2024339)中，移至 **帳單**  >  **購買服務**。
 
-1. 尋找 [**從 Microsoft 購買**] 區段，然後選 **取 [檢視產品]**。
+1. 尋找 [ **從 Microsoft 購買]** 區段，然後選 **取 [檢視產品]**。
 
 1. 選取 [ **共同作業與通訊]** 篩選。
 
-1. 在產品清單中，尋找 **Microsoft Teams 共用裝置**]，然後選取 [**詳細資料]**。
+1. 在產品清單中，尋找 **Microsoft Teams 共用裝置**，然後選取 **[詳細資料]**。
 
 1. 輸入您需要的授權數目和帳單頻率。
 
@@ -75,4 +76,4 @@ Microsoft Teams 可以支援混合式工作案例，並讓使用者在彈性空�
 
 - [設定公共區域電話](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams 面板](/microsoftteams/devices/teams-panels)
-- [Microsoft Teams 顯示](/microsoftteams/devices/teams-displays)
+- [Microsoft Teams 顯示器](/microsoftteams/devices/teams-displays)

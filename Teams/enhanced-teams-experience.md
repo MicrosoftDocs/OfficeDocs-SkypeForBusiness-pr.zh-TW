@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,19 +19,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
-description: 瞭解適用于系統管理員和 IT 專業人員Microsoft Teams 進階版。
-ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 瞭解適用于系統管理員和 IT 專業人員的Microsoft Teams 進階版。
+ms.openlocfilehash: 2abcdd1c9f9df0101bbf7d0e22720c71375728d0
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392473"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800277"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams 進階版 - 適用于系統管理員的概觀
 
-![資訊圖示 ](media/info.png) **本文所述的大部分功能都需要 Teams 進階版，這是預覽版。** 一些功能，例如一些網路研討會功能，也可在其他授權中使用。 如需功能可用性和授權的詳細資訊，請參閱 [Teams 進階版授權](teams-add-on-licensing/licensing-enhance-teams.md)。
+![資訊圖示 ](media/info.png) **本文所述的大部分功能都需要Teams 進階版，也就是預覽版本。** 一些功能，例如一些網路研討會功能，也可在其他授權中使用。 如需功能可用性和授權的詳細資訊，請[參閱Teams 進階版授權。](teams-add-on-licensing/licensing-enhance-teams.md)
 
-本文適用于將部署和設定 Teams 進階版功能的 IT 專業人員和系統管理員。 本文提供功能的簡短描述，並提供更詳細檔的連結。
+本文適用于將部署及設定Teams 進階版功能的 IT 專業人員和系統管理員。 本文提供功能的簡短描述，並提供更詳細檔的連結。
 
 Teams 進階版是一種附加元件授權，可為 Teams 提供下列增強功能：  
 
@@ -40,9 +41,9 @@ Teams 進階版是一種附加元件授權，可為 Teams 提供下列增強功�
 
 
 > [!IMPORTANT]
-> 由於 Teams 進階版是公開預覽版，因此在一般可用狀態下，Teams 目前提供的部分功能僅提供 Teams 進階版授權。 
+> 由於Teams 進階版是公開預覽版，因此在一般可用狀態下，目前可在 Teams 中取得的部分功能僅提供Teams 進階版授權。 
 
-下列各節說明 Teams 進階版的增強功能：
+下列各節說明下列Teams 進階版增強功能：
 
 - [受保護的會議](#protected-meetings)
 - [自訂會議](#custom-meetings)
@@ -54,7 +55,7 @@ Teams 進階版是一種附加元件授權，可為 Teams 提供下列增強功�
 
 ## <a name="protected-meetings"></a>受保護的會議
 
-Teams 進階版提供下列主要功能來保護會議安全的其他方式： 
+Teams 進階版提供保護會議的其他方式，具有下列重要功能： 
 
 - **敏感度標籤** ： 敏感度標籤的延伸功能，可控制通常由會議召集人控制的會議設定。 這些功能包括控制大廳、聊天、聊天複本、簡報和錄製功能的新設定。
 
@@ -80,9 +81,9 @@ Teams 進階版提供下列自訂會議的其他功能：
 
 - **會議主題** - 可讓貴組織在整個會議體驗中擴展其視覺身分識別。 您可以針對單一租使用者內的各種業務單位和部門設定及建立會議主題。
 
-- **為組織自訂會議背景** - 您可以建立並定義自訂會議背景，然後使用 Teams 進階版授權供使用者使用。
+- **為組織自訂會議背景**- 您可以建立及定義自訂會議背景，然後為擁有Teams 進階版授權的使用者提供自訂會議背景。
 
-- **為組織自訂共聚模式場景** - 您可以建立、自訂或接受會議的自訂共聚模式場景，然後使用 Teams 進階版授權供使用者使用。
+- **為組織自訂共聚模式場景**- 您可以建立、自訂或接受會議的自訂共聚模式場景，然後使用者就可以使用Teams 進階版授權。
 
 
 | 功能/工作 | 適用于系統管理員的檔 | 適用于使用者的檔
@@ -98,7 +99,7 @@ Teams 進階版提供下列自訂會議的其他功能：
 
 ## <a name="premium-events"></a>進階版活動
 
-Teams 進階版提供新的 Teams 事件原則，為您的使用者提供進階網路研討會體驗。 在繼續支援註冊和追蹤的同時，新原則也會為會議主機和召集人提供功能，例如：
+Teams 進階版使用新的 Teams 活動原則，為您的使用者提供進階網路研討會體驗。 在繼續支援註冊和追蹤的同時，新原則也會為會議主機和召集人提供功能，例如：
 
 - **條款及條件自訂問題** - 向出席者發表簡報。
 - **簡報者簡歷** - 包含簡報者相關資訊。
@@ -118,7 +119,7 @@ Teams 進階版提供新的 Teams 事件原則，為您的使用者提供進階�
 
 ## <a name="advanced-virtual-appointments"></a>進階虛擬約會
 
-透過任何Microsoft 365 授權，您的使用者可以使用基本虛擬約會功能來排程及加入企業對客戶的會議。 例如，使用者可以在 Bookings 行事曆中排程約會，而外部出席者可以透過瀏覽器加入，而不需要下載 Teams。 
+有了任何 Microsoft 365 授權，您的使用者就可以使用基本虛擬約會功能來排程和加入企業對客戶的會議。 例如，使用者可以在 Bookings 行事曆中排程約會，而外部出席者可以透過瀏覽器加入，而不需要下載 Teams。 
 
 Teams 進階版提供進階的虛擬約會功能，例如：
 

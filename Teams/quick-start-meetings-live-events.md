@@ -23,12 +23,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e9fbd6e9075ee5680eaae4dc88dde96c842c5a7b
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392193"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800049"
 ---
 # <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動
 
@@ -50,14 +50,14 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 | 網路研討會 | - 最多 1,000 位<br>- 增加[僅供檢視](view-only-meeting-experience.md)功能的限制即將推出。 |- 最多 1,000 位參與者具有完整的互動式功能。<br> - 可設定的觀眾互動。<br> - 可以指定簡報者。 | 是 |
 | 即時活動 | 最多 20,000** 位 |- 向大批觀眾廣播。 <br>- 觀眾互動的仲裁問與答。 <br> - 能夠指定製作者和簡報者，包括外部簡報者。<br>- 支援更進階的生產功能。 | 否 |
 
-*到 2022 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。
+*通常的 10，000 人會增加到 20，000 人，到 2023 年 6 月 30 日為止。
 
-**到 2022 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](/stream/live-events-assistance)。
+**通常的 10，000 人會增加到 20，000 人，到 2023 年 6 月 30 日為止。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](/stream/live-events-assistance)。
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> 如需其他資訊，並取得使用 Microsoft Teams 提供線上活動的角色指導方針，請參閱[虛擬事件播放簿](https://aka.ms/VirtualEventPlaybook)。 您也可以加入Microsoft Tech Community上的[虛擬活動論壇](https://aka.ms/VirtualEventForum)。
+> 如需其他資訊，並取得使用 Microsoft Teams 提供線上活動之角色的指引，請參閱 [虛擬事件播放簿](https://aka.ms/VirtualEventPlaybook)。 您也可以加入Microsoft Tech Community上的[虛擬活動論壇](https://aka.ms/VirtualEventForum)。
 
 > [!NOTE]
 > 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -178,7 +178,7 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 
 對於召集、排程和舉辦會議、網路研討會或即時活動的人員，這些人員需要 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)中所列的 Microsoft 365 授權之一。 如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議、網路研討會和即時活動所需的授權。
 
-如需 Teams Premium 授權的相關資訊，請參閱 [Teams 進階版授權](teams-add-on-licensing/licensing-enhance-teams.md)。
+如需Teams 進階版授權的相關資訊，請參[閱Teams 進階版授權。](teams-add-on-licensing/licensing-enhance-teams.md)
 
 若要允許人員使用電話撥入會議，您必須設定音訊會議。 如需音訊會議的詳細資訊，請參閱 [Teams 中的音訊會議](deploy-audio-conferencing-teams-landing-page.md)。
 
