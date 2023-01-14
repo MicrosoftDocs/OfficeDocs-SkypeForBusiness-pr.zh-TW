@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中管理Microsoft裝置
+title: 在 Microsoft Teams 中管理裝置
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -21,18 +21,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: e545a6d4208e6f54abbf72327cf887d45b34e141
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245719"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69807450"
 ---
 # <a name="manage-devices-in-teams"></a>在 Teams 中管理裝置 
 
-您可以從 Microsoft Teams 系統管理中心管理組織中與Microsoft Teams 搭配使用的裝置。 您可以檢視和管理貴組織的裝置庫存，並執行更新、重新開機和監視裝置診斷等工作。 您也可以建立並指派組態設定檔給裝置或裝置群組。
+您可以從 Microsoft Teams 系統管理中心管理組織中與 Microsoft Teams 搭配使用的裝置。 您可以檢視和管理貴組織的裝置庫存，並執行更新、重新開機和監視裝置診斷等工作。 您也可以建立並指派組態設定檔給裝置或裝置群組。
 
-若要管理裝置，例如變更裝置設定、重新開機裝置、管理更新，或檢視裝置和周邊健康情況，您必須獲派下列其中一個Microsoft 365 系統管理員角色：
+若要管理裝置，例如變更裝置設定、重新開機裝置、管理更新，或檢視裝置和周邊健康情況，您必須獲派下列其中一個 Microsoft 365 系統管理員角色：
 
 - Microsoft 365 全域系統管理員
 - Teams 服務系統管理員
@@ -56,7 +56,7 @@ ms.locfileid: "69245719"
 
 您可以使用 Teams 系統管理中心檢視及遠端系統管理貴組織 Windows 裝置上的Teams 會議室。 Teams 系統管理中心可讓您快速查看哪些裝置健康且需要注意，並可讓您專注于特定裝置，以查看裝置健康情況、會議效能、通話品質及周邊裝置的詳細資訊。 
 
-以下是您可以管理Teams 會議室裝置的一些方法。 Teams 會議室裝置可以在 Windows 上的 [Teams 裝置] 底下的 Microsoft **Teams**  >  系統 [管理中心](https://admin.teams.microsoft.com)**找到Teams 會議室。**
+以下是您可以管理Teams 會議室裝置的一些方法。 Teams 會議室裝置可以在 Windows 上的 **[Teams 裝置**  >  ] 底下的 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)**找到Teams 會議室**。
 
 如需如何管理Teams 會議室裝置的詳細資訊，請參閱[管理Microsoft Teams 會議室](../rooms/rooms-manage.md)。
 
@@ -86,6 +86,23 @@ ms.locfileid: "69245719"
 | 使用裝置標籤篩選裝置        | 選取篩選圖示，選取 [ **標籤** ] 欄位，指定要篩選的裝置標籤，然後選取 [ **套用]**。 如需使用裝置標籤篩選裝置的詳細資訊，請參閱 [使用篩選來傳回具有特定標籤的裝置](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag)。 |
 | 檢視裝置歷程記錄與診斷     | 在 [ **歷程記錄]** 欄底下，按一下裝置的 [檢 **視** ] 連結，以檢視其更新記錄和診斷詳細資料。                                                                                                                                                                                         |
 
+### <a name="view-android-device-sign-in-failures"></a>檢視 Android 裝置登入失敗
+
+如果您無法登入 Android 裝置，您可以查看裝置的詳細資料頁面，以查看可能發生的登入失敗。
+
+1. 在左側導覽中，移至 **Teams 裝置** >選取 Teams 裝置類型。 例如，如果 Android 裝置是手機，請選取 [ **手機]**。
+2. 按一下您要檢視登入失敗之手機的顯示名稱。 這會開啟裝置的詳細資料頁面。
+3. 在 [裝置詳細資料] 頁面上，選取 [**活動] 索** 引標籤，然後選取 [**活動類型**] 下拉式清單中的 [登入 **失敗**]。
+
+> [!NOTE]
+> 如果無法登入的裝置沒有出現任何登入失敗，請確定裝置的韌體是在其製造商提供的最新版本上。
+
+傳回的結果包含下列資訊：
+
+- 發生登入失敗的時間。
+- 嘗試登入裝置的帳戶。
+- 失敗的原因。
+
 ### <a name="use-configuration-profiles-in-teams"></a>在 Teams 中使用組態設定檔
 
 使用組態設定檔來管理組織中不同 Teams 裝置的設定和功能，包括 Android 上的Teams 會議室、Teams 顯示器、Teams 手機和 Teams 面板。 您可以建立或上傳組態設定檔以包含您想要啟用或停用的設定和功能，然後將設定檔指派給裝置或一組裝置。 
@@ -101,6 +118,7 @@ ms.locfileid: "69245719"
    新建立的設定檔會顯示在配置檔案清單中。
 
 #### <a name="assign-a-configuration-profile"></a>指派組態設定檔
+
 為 Teams 裝置類型建立組態設定檔之後，請將它指派給一或多個裝置。
 
 1. 在左側導覽畫面中，移至 **[Teams 裝置** ] >選取 Teams 裝置類型。 例如，若要將組態設定檔指派給 Teams 面板裝置，請選 **取 Teams 裝置**  >  **Teams 面板**。
