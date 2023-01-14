@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 2da5a097e98053ec60e6acd0ffa7133ddf732bac
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: 1f406137d8cd3093ba968d47734f7019dfad63c6
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885605"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69806388"
 ---
 # <a name="step-7---manage-and-monitor-your-teams-meeting-space"></a>步驟 7 - 管理及監控您的 Teams 會議空間
 
@@ -43,7 +43,7 @@ ms.locfileid: "67885605"
 
  :::image type="content" source="media/teams-admin-center-overview.png" alt-text="Teams 系統管理中心概觀頁面。" lightbox="media/teams-admin-center-overview.png" border="false":::
 
-若要查看您可以從 Teams 系統管理中心變更Teams 會議室主機設定，請參閱[變更Teams 會議室裝置](rooms/rooms-manage.md#make-changes-to-teams-rooms-devices)。
+若要查看您可以從 Teams 系統管理中心變更Teams 會議室主機設定，請參閱[變更Teams 會議室裝置](rooms/rooms-manage.md#make-changes-to-teams-rooms-devices-or-surface-hubs)。
 
 若要查看Teams 會議室主機的相關資訊，包括健康情況資訊、會議詳細資料和參與者詳細資料，請參[閱檢視裝置資訊](rooms/rooms-manage.md#view-device-information)。
 
