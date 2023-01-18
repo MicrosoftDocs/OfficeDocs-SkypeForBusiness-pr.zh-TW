@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 瞭解如何使用更新的 Teams 自動語音應答&通話佇列歷程報告 Power BI 報告來檢視自動語音應答和通話佇列歷程記錄資料。
-ms.openlocfilehash: ed267cf2d96f15236aa68339049d2c721249ec00
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763554"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812730"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>自動語音應答和通話佇列歷史報告
 
@@ -302,9 +302,13 @@ Teams 自動語音應答&通話佇列歷史報告 Power BI 範本提供下列三
 
 ## <a name="known-issues"></a>已知的問題
 
-- 通話佇列和自動語音應答會以資源帳戶的識別碼顯示，而不是通話佇列/自動語音應答名稱。  若要顯示自動語音應答或通話佇列的所有流量，您必須選取指派給自動語音應答或通話佇列的所有資源帳戶。
+- [**通話佇列**] 報告中的 [**通話結果**] 視覺效果可能會報告大量 **_未知_** 的通話。 這是因為支援服務正在努力修正通話分類問題所導致。  這只是通話分類的問題，系統已成功處理這些通話。
 
-- 儀表板中僅提供 28 天歷程記錄，因為通話佇列/自動語音應答資料會被視為個人資料，並受限於資料隱私權保留原則。
+- 只有第一個自動語音應答或接聽來電的來電佇列中會顯示來電和來電者動作。  當一個自動語音應答轉接至另一個自動語音應答) 或連結的通話佇列 (當一個通話佇列移轉到另一個通話佇列) 未回報時，自動語音應答中的來電和來電動作會 (。 
+
+- 通話佇列和自動語音應答會以資源帳戶的識別碼顯示，而不是通話佇列或自動語音應答名稱。  若要顯示自動語音應答或通話佇列的所有流量，您必須選取指派給自動語音應答或通話佇列的所有資源帳戶。
+
+- 儀表板中僅提供 28 天歷程記錄，因為通話佇列和自動語音應答資料會被視為個人資料，並受限於資料隱私權保留原則。
 
 - 在某些情況下， **雲端通話佇列代理時間軸** 報告中的代理人接聽來電計數可能與 Teams 用戶端通話記錄中顯示的通話數目不同。 Teams 用戶端通話記錄正確無誤。 支援正在調查中，但目前沒有可供修復的估計時間。
 

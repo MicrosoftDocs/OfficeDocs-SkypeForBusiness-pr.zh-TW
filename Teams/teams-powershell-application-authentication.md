@@ -9,15 +9,15 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 瞭解 Teams PowerShell 模組中用於管理 Microsoft Teams 的應用程式型驗證。
+description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組中的應用程式型驗證。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60d9bf64233db3f5e615c0904c6eb376f187266c
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307948"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812840"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模組中的應用程式型驗證
 
@@ -47,6 +47,13 @@ Teams PowerShell 模組現在支援版本 4.7.1-preview 或更新版本中的應
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   當您使用 CertificateThumbprint 參數時，憑證必須安裝在您執行命令的電腦上。 憑證應該會安裝在使用者憑證存放區中。
+  
+- 使用憑證物件連線：
+
+  ```powershell
+  Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  當您使用憑證參數時，該憑證不需要安裝在您執行命令的電腦上。 憑證可以遠端儲存&執行腳本時擷取。 憑證參數可從 Teams PowerShell 模組版本 4.9.2-preview 或更新版本取得。
   
 - 使用 Access Token 連線：
   
@@ -91,8 +98,8 @@ Teams PowerShell 模組會使用應用程式識別碼、租使用者識別碼和
 
 1. 在 Azure AD 中註冊應用程式
 2. 指派 API 許可權給應用程式
-   - 對於 \* -Cs Cmdlet - 所需的Microsoft 圖形 API許可權為 `Organization.Read.All` 。
-   - 針對非 \* Cs Cmdlet - 所需的Microsoft 圖形 API許可權為 `Organization.Read.All` 、 `User.Read.All` 、 `Group.ReadWrite.All` 、、 `AppCatalog.ReadWrite.All` 、 `TeamSettings.ReadWrite.All` 、 `ChannelSettings.ReadWrite.All` `Channel.Delete.All` `ChannelMember.ReadWrite.All` 、  
+   - 針對 \* -Cs Cmdlet - 需要的 Microsoft 圖形 API許可權為 `Organization.Read.All` 。
+   - 針對非 \* Cs Cmdlet - 需要的 Microsoft 圖形 API許可權為 `Organization.Read.All` 、 `User.Read.All` 、、 `Group.ReadWrite.All` 、 `AppCatalog.ReadWrite.All` 、、 `ChannelMember.ReadWrite.All` `TeamSettings.ReadWrite.All` `Channel.Delete.All` `ChannelSettings.ReadWrite.All` 、  
 3. 產生自我簽署憑證
 4. 將憑證附加至 Azure AD 應用程式
 5. 指派 [Azure AD 角色](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 給應用程式

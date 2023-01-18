@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763564"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812720"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>在 Microsoft Teams 中建立通話佇列
 
@@ -400,10 +400,10 @@ ms.locfileid: "69763564"
 2. Microsoft Teams iPhone 應用程式、Microsoft Teams Android 應用程式。
 3. 針對代理程式路由方法選取 [最長閒置時間] 會自動啟用以目前狀態為基礎的路由。
 4. 您無法設定代理商要撥打的訂單。
-5. 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
+5. 如果電話從啟用Location-Based路由的直接路由閘道路由到佇列，則不支援會議模式。 如需使用Location-Based路由的通話佇列實作，請參閱 [語音應用程式 (自動語音應答或通話佇列) ](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)。
 6. Microsoft Teams 電話系統]。
 7. 透過 的 [使用者設定] 入口網站頁面。 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)
-8. 僅支援公用頻道。
+8. 僅支援標準通道。
 9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
 10. 針對 GCCH/DOD，僅可透過 [使用者設定] 入口網站取得：：
 - GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

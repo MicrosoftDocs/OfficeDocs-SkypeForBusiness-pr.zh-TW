@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中建立通話佇列Microsoft
+title: 在 Microsoft Teams 中建立通話佇列
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -24,13 +24,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 robots: noindex
-description: 瞭解如何在 teams 中設定通話佇列Microsoft。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
+ms.openlocfilehash: fd7ebc4c2be9024ba1f83b3adc8d1cff8834a015
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392523"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812850"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -130,8 +130,8 @@ ms.locfileid: "69392523"
 在您建立這個用於通話 ID 的新資源帳戶之後，您仍然需要：
 
 - 指派 [Teams Phone 資源帳戶授權](manage-resource-accounts.md#assign-a-license)。
-- 指派Microsoft通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則。
-- 如果您使用的是Microsoft通話方案，請將電話號碼指派[給資源帳戶](manage-resource-accounts.md#assign-a-phone-number)。
+- 指派 Microsoft 通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則。
+- 如果您使用的是 Microsoft 通話方案，請將電話號碼指派 [給資源帳戶](manage-resource-accounts.md#assign-a-phone-number)。
 
 #### <a name="set-the-call-queue-language"></a>設定通話佇列語言
 
@@ -157,7 +157,7 @@ ms.locfileid: "69392523"
 - 如果您想要播放特定音訊檔案，請選擇 **[播放音訊檔案** ] 並上傳 MP3、WAV 或 WMA 檔案。
 
 > [!NOTE]
-> 您必須負責獨立清除及保護所有必要的權利和許可權，以便在您的 Microsoft Teams 服務中使用任何音樂或音訊檔案，其中可能包含所有相關權利持有者之音訊檔案中的智慧財產權及其他權利，包括演出者、 演出者、演出者、專輯、專輯、作曲者、錄製標籤、音樂發行者、廠商、俱樂部、權利召集人、集體管理組織，以及擁有、控制或授權音樂著作權、音效、音訊和其他智慧財產權的任何其他當事人。
+> 貴使用者必須負責獨立清除及保護 Microsoft Teams 服務中使用任何音樂或音訊檔案的所有必要權利和許可權，這些服務可能包含所有相關權利持有者之音訊檔案中的智慧財產權及其他權利，包括演出者、 演出者、演出者、專輯、專輯、作曲者、錄製標籤、音樂發行者、廠商、俱樂部、權利召集人、集體管理組織，以及擁有、控制或授權音樂著作權、音效、音訊和其他智慧財產權的任何其他當事人。
 
 選取問候語和等候音樂後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
@@ -200,7 +200,7 @@ ms.locfileid: "69392523"
 若要 **將群組新** 增至佇列：
 
 1. 選取 **[新增群組**]、搜尋群組、按一下 [ **新增**]，然後按一下 [ **新增]**。 
-    1. 您可以使用通訊群組清單、安全性群組Microsoft 365 群組或Microsoft Teams 團隊。
+    1. 您可以使用通訊群組清單、安全性群組，以及 Microsoft 365 群組或 Microsoft Teams 團隊。
 
 > [!NOTE]
 > 新增至群組的新使用者最多可能需要八小時，才能收到他們的第一個通話。
@@ -211,7 +211,7 @@ ms.locfileid: "69392523"
 
 **會議模式** 會減少在代理人接聽來電後，來電者與代理人連線所需的時間。 若要讓會議模式正常運作，通話佇列中的代理程式必須使用下列其中一個用戶端：
 
-- 最新版的 Microsoft Teams 桌面用戶端、Android 應用程式或 iOS 應用程式
+- 最新版本的 Microsoft Teams 桌面用戶端、Android 應用程式或 iOS 應用程式
 - Microsoft Teams 電話版本 1449/1.0.94.2020051601 或更新版本
   
 專員的 Teams 帳戶必須設定為 TeamsOnly 模式。 不符合需求的代理程式不包含在通話路由清單中。 如果您的代理程式使用相容的用戶端，建議您為通話佇列啟用會議模式。
@@ -377,14 +377,14 @@ ms.locfileid: "69392523"
 
 #### <a name="notes"></a>注釋
 
-1. Microsoft Teams Windows 用戶端、Microsoft Teams Mac 用戶端，Microsoft虛擬化桌面基礎結構上的 Teams。
-2. Microsoft Teams iPhone 應用程式，Microsoft Teams Android 應用程式。
+1. Microsoft Teams Windows 用戶端、Microsoft Teams Mac 用戶端、虛擬化桌面基礎結構上的 Microsoft Teams。
+2. Microsoft Teams iPhone 應用程式、Microsoft Teams Android 應用程式。
 3. 針對代理程式路由方法選取 [最長閒置時間] 會自動啟用以目前狀態為基礎的路由。
 4. 您無法設定代理商要撥打的訂單。
 5. 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
 6. Microsoft Teams 電話。
 7. 透過 的 [使用者設定] 入口網站頁面。 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)
-8. 僅支援公用頻道。
+8. 僅支援標準通道。
 9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
 10. 針對 GCCH/DOD，僅可透過 [使用者設定] 入口網站取得：：
     - GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
@@ -401,9 +401,9 @@ ms.locfileid: "69392523"
 - Android 商務用 Skype Client (版本 6.16.0.9 及更新版本) 
 - iPhone 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
 - iPad 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
-- Microsoft 32 位和 64 位版本的 Teams Windows 用戶端 () 
+- 32 位和 64 位版本的 Microsoft Teams Windows 用戶端 () 
 - Microsoft Teams Mac 用戶端
-- Microsoft Windows[虛擬桌面](teams-for-vdi.md)、Citrix 和 VMware (虛擬桌面基礎結構上的 Teams) 
+- Windows 虛擬桌面、Citrix 和 VMware ([虛擬桌面基礎](teams-for-vdi.md) 結構上的 Microsoft Teams) 
 - Microsoft Teams iPhone 應用程式
 - Microsoft Teams Android 應用程式
 

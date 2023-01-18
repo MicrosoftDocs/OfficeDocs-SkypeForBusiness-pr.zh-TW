@@ -20,12 +20,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中設定雲端語音功能的網路設定。
-ms.openlocfilehash: a75ce05a29df84bb46cb430016e1a3453e96b64e
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: bdb81fa7f8dee559f7c47e276224ecb2333c7bb5
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584244"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812690"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>在 Microsoft Teams 中管理雲端語音功能的網路拓撲
 
@@ -180,6 +180,12 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 ```
 
 另請參閱 [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenanttrustedipaddress)。
+
+## <a name="enabling-network-roaming-policies"></a>啟用網路漫遊原則
+
+設定網路漫遊原則之後，您必須在 Teams 管理員中心的 [會議>會議原則] 底下，啟用每一個 _ *Meeting* 原則* 內的 **網路設定查閱****_**
+
+您可以編輯全域原則，或建立新原則，並將原則指派給特定使用者。
 
 ## <a name="related-topics"></a>相關主題
 
