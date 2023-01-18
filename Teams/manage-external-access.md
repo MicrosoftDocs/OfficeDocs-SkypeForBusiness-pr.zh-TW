@@ -22,12 +22,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域的外�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c405bdfb0690e0a34e7c3f92bb2e276780eb4ebe
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242427"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820348"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部會議和聊天
 
@@ -48,6 +48,9 @@ ms.locfileid: "69242427"
 外部存取原則包括組織與使用者層級中的控制項。 在組織層級關閉原則會對所有使用者關閉，無論其使用者層級設為何。 預設會啟用所有外部存取設定。
 
 Teams 系統管理中心會控制組織層級的外部存取權。 大部分選項 (網域限制除外) 可在使用者層級使用 PowerShell。 請參閱下方的 [使用 PowerShell](#using-powershell) 以瞭解更多資訊。
+
+> [!NOTE]
+> Microsoft 365 和 Office 365 政府版) 等不同雲端環境 (之間的外部存取需要 Teams 的外部 DNS 記錄。 如需詳細資訊，請參閱 [Teams 所需的外部 DNS 記錄](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams)。
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).

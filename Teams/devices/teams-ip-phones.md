@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 26d5e0c4ec5255629183f4720fcfca6b816f86db
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: fc9b078744f2d681989ed49befd4ba84b4aec90a
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812830"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820338"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -431,6 +431,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號  | 韌體版本 | 包含的產品版本|
 |:--------------|:-----------------|:-------------------------|
+|[記錄] 點選 [排程器] | `1.8.181` |2022 更新 #4  |
 |Yealink RoomPanel | ` 147.15.0.36 ` | 2022 更新 #4 |
 |[整齊的鍵檯面板] | `NFA1.20220914.1215` | 2022 更新#3A  |
 |[整齊的鍵檯面板] | `NFA1.20220914.1206` | 2022 更新#3A  |
