@@ -17,14 +17,13 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - admindeeplinkMAC
-robots: noindex
 description: 瞭解如何移除 Teams 免費版 (傳統) 授權，並為貴組織的使用者指派付費的 Teams 授權。
-ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
-ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
+ms.openlocfilehash: 7e9596f631c461e3c1e9134b279c232e384aba6b
+ms.sourcegitcommit: ff5411084dc34754462d5fd67b64db7a7e76f1e1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2023
-ms.locfileid: "69767664"
+ms.lasthandoff: 01/19/2023
+ms.locfileid: "69823292"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>為貴組織淘汰Microsoft Teams 免費版 (傳統) 
 
