@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 瞭解如何使用更新的 Teams 自動語音應答&通話佇列歷程報告 Power BI 報告來檢視自動語音應答和通話佇列歷程記錄資料。
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812730"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845910"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>自動語音應答和通話佇列歷史報告
 
@@ -537,11 +537,9 @@ VAAC API 可以由任何可存取 RESTful 應用程式的應用程式存取。  
 
 ### <a name="preparation"></a>製備
 
-下載 [「郵遞員」](https://www.postman.com/)。
-
-下載存放庫： [sync_pstn_avs分析](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) 並解壓縮。
-
-將資料夾匯入 Postman。 
+1. 下載 [「郵遞員」](https://www.postman.com/)。
+1. 在下載的 `sync_pstn_avs-analytics.zip` [zip 檔案指示](#v3xx-installation)中解壓縮檔案。
+1. 將資料夾匯入 Postman。 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="顯示已完成匯入的螢幕擷取畫面":::
 
@@ -555,7 +553,6 @@ VAAC API 可以由任何可存取 RESTful 應用程式的應用程式存取。  
 6. 按一下 [儲存]。
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="顯示已設定使用者名稱、密碼和租使用者識別碼欄位的螢幕擷取畫面":::
-
 
 7. 選取左側軌軌功能表上的 **[集錦** ]。
 8. 選 **取 [設定 API 存取權杖 - Prod** ]，然後流覽至 [ **本文]** 索引標籤。
@@ -585,7 +582,6 @@ VAAC API 可以由任何可存取 RESTful 應用程式的應用程式存取。  
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="顯示含有 dataResult 欄位之查詢結果的螢幕擷取畫面":::
 
 在此情況下，資料會以查詢維度和度量屬性中要求的相同順序，位於 [dataResult] 欄位中。
-
 
 ### <a name="compress-the-json-query"></a>壓縮 JSON 查詢
 

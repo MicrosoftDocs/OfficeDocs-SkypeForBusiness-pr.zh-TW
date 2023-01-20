@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解 Microsoft Teams 的 Microsoft 附加元件授權，以及您取得的每個授權功能。
-ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 490eb833c923ba1a247bb140222b449530131947
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69799919"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845880"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加元件授權
 
@@ -59,12 +59,12 @@ ms.locfileid: "69799919"
 
 無論您是小型企業、企業組織、教育機構、政府機構或非營利組織，您都有三種方式可以取得 Teams 電話系統和 PSTN 連線：
 
-- 購買 Microsoft 365 商務版、E1/E3、A1/A3 或 G1/G3 方案，並新增 **Teams Phone 與通話方案** 套件組合授權。
+- 使用 AAD、Microsoft 365 商務版、E1/E3、A1/A3、F1/F3 或 G1/G3 方案購買 Teams 程式集，並新增 **Teams Phone 搭配通話方案** 套件套件授權。
   - 此模型將為您提供 Teams 電話系統 PBX 功能和 Microsoft 國內通話方案。
   - 如果您想要由 Microsoft 處理所有電話號碼管理和帳單，請選擇此設定。
   - 檢查 [您所在的地區是否提供 Teams Phone with Calling Plan 套件套件授權](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- 購買 E1/E3、A1/A3 或 G1/G3 方案、新增 **Teams 電話標準方案** 授權，以及選擇 Microsoft 獨立通話方案或協力廠商 PSTN 電信業者。
+- 購買含 AAD、E1/E3、A1/A3、F1/F3 或 G1/G3 方案的 Teams 程式集、新增 **Teams 電話標準方案** 授權，以及選擇 Microsoft 獨立通話方案或協力廠商 PSTN 電信業者。
   - 此模型會提供您 Teams 電話系統，但您仍然需要連線到 PSTN。
   - 若要檢視所有 PSTN 連線選項，請參閱 [PSTN 連線選項](../pstn-connectivity.md)。
   - 若要瞭解所有語音解決方案，請參閱 [規劃您的 Teams 語音解決方案](../cloud-voice-landing-page.md)。

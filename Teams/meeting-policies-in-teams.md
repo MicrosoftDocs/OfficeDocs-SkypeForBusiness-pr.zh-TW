@@ -1,7 +1,7 @@
 ---
 title: Teams：管理會議原則
-author: tonysmit
-ms.author: tonysmit
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理會議原則設定。 使用原則設定來控制可供使用者排程的會議的會議參與者使用的功能。
-ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 9b4d816902f5956bdc3dabee5a79fc644768d170
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613995"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845870"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理會議原則
 

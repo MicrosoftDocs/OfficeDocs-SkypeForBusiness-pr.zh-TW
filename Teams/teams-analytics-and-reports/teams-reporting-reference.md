@@ -19,12 +19,12 @@ description: 在本文中，您將瞭解 Microsoft Teams 系統管理中心提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
-ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
+ms.openlocfilehash: 1062afeebfde89835330fbc4f367e0fccbe01513
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2023
-ms.locfileid: "69820318"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845920"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析與報告
 
@@ -66,6 +66,7 @@ Microsoft Teams 系統管理中心提供新的 Microsoft Teams 分析和報告�
 |[Teams 虛擬約會使用方式報告](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|是|是|否|否| 虛擬約會的數目<br>Bookings 約會數目<br> (EHR) 整合式約會的 Teams 電子健康記錄數目<br>約會的平均持續時間<br>出席者的平均大廳等候時間<br>開始時間<br>會議 ID<br>大廳等候時間<br>時間<br>地位<br>產品類型<br>出席者<br>部門<br>已傳送簡訊<br>約會是否使用進階虛擬約會功能|
 |[Teams 進虛擬約會活動報告](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |是|是|否|否|使用進階虛擬約會功能的使用者數目<br>使用簡訊通知的使用者數目<br>即將推出使用大廳聊天 (的使用者人數) <br>進行隨選約會的使用者數目|
 |[Teams EHR 連接器虛擬約會報表](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |是|是|否|否| 開始時間<br>時間<br>會議召集人) 的主要 (名稱<br>主要的電子郵件 (會議召集人的電子郵件) <br>部門<br>服務員<br>大廳等候時間<br>約會是否在配置限制內|
+|[無線對講機使用方式與效能報告](walkie-talkie-usage-report.md) |是|是|否|否| 計量包括 (PTT) 傳輸的推入式 (數、頻道活動、傳輸持續時間，以及裝置和參與者詳細資料。|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>將使用者的特定資料匿名化
