@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何手動提交移轉訂單要求。
-ms.openlocfilehash: a1a333b70f717e83df5743e2532bf0092c262054
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f00f8e31055e20dc39dbee9a5809adad566bc4b0
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749029"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835466"
 ---
 # <a name="manually-submit-a-port-order"></a>手動提交移轉訂單
 
-對於大多數客戶，可在 Microsoft Teams 系統管理中心完成移轉訂單。 如需有關該程式的指示，請參閱 [將電話號碼移轉到 Microsoft Teams](transfer-phone-numbers-to-teams.md)。
+對於大多數客戶，999 個或更少電話號碼的移轉訂單可以在 Microsoft Teams 系統管理中心完成。 如需有關該程式的指示，請參閱 [將電話號碼移轉到 Microsoft Teams](transfer-phone-numbers-to-teams.md)。
 
 在某些情況下，您可能需要手動提交服務要求，才能取得電話號碼、移轉電話號碼、釋出電話號碼或變更位址。 若要查看每個國家/地區的需求，或深入瞭解號碼移轉，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
@@ -40,6 +40,9 @@ ms.locfileid: "69749029"
 1. 下載適用于您國家或地區的 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 。
 2. 完成表單。
 4. 將它傳送到 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+
+> [!NOTE]
+> 如需有關用於移轉現有電話號碼及其他檔需求的 LOAs 詳細資訊，請參閱 [管理通話方案的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>關於號碼移轉，您應該知道的其他事項
 

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 瞭解如何取得新的電話號碼，以及移轉現有的音訊會議、自動語音應答和通話佇列號碼， (Teams) 服務號碼。
-ms.openlocfilehash: f72e24db204a53680a3f82469a7a77ca81943d8f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 21f577f2db325d57b9f87a2329dcd3ab121b4d5e
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749049"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835456"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>通話方案的服務電話號碼
 
@@ -74,7 +74,11 @@ ms.locfileid: "69749049"
 如果您遇到移轉精靈的問題，您可以 [手動提交移轉訂單](phone-number-calling-plans/manually-submit-port-order.md) ，或移至 [管理組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)、選取您的國家或地區，然後下載授權書 (LOA) 。 您必須針對每種類型的服務號碼提交個別的移轉訂單 (例如，使用 LOA 進行移轉的付費與免付費) 。 在 LOA 中，您必須選取正確的服務號碼類型。 請確定您指定您要移轉服務號碼 (，而不是) 使用者或訂閱者號碼，或是同時通話容量可能不足以處理通話量。  
 
 > [!NOTE]
-> 您可以在 Microsoft Teams 系統管理中心購買額外的電話號碼。 針對如有大量埠 (1000 個以上的) 埠、複雜的埠等特殊情況，或者如果您需要協助，請 [連絡 TNS 服務台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+> 如需有關用於移轉現有電話號碼及其他檔需求的 LOAs 詳細資訊，請參閱 [管理通話方案的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+>
+>若要為使用者移轉/移轉 999 個或更少的電話號碼，請在 Microsoft Teams 系統管理中心上傳已完成和簽署的 LOAs，以進一步處理。 您也可以在 Microsoft Teams 系統管理中心購買額外的電話號碼。
+>
+> 若要移轉/移轉超過 999 個電話號碼，或如果您在 Microsoft Teams 系統管理中心發生移轉程式問題，您可以 [手動將移轉訂單提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 給您地區的 TNS 服務台。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>檢視貴組織的電話號碼
 

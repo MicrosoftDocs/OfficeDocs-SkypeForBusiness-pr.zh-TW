@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用移轉精靈，將您的電話號碼從目前的服務提供者移轉至 Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 20c4caf97c5344d48f93feed47dc181495dd318d
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: dd296bcf987016cf77af538edcb2e04328ab525b
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749039"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835476"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼移轉到 Microsoft Teams
 
@@ -39,9 +39,6 @@ ms.locfileid: "69749039"
   > 免付費電話號碼的移轉可用性可能會因國家/地區而異。 若要尋找我們的詳細資訊，請參閱您的國家或地區特定檔，以查看移轉服務的可用支援。
 
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>建立移轉訂單並將電話號碼移轉到 Teams
-
-> [!NOTE]
-> 如果您在 Teams 系統管理中心遇到移轉程式問題，您可以 [手動將移轉訂單提交](manually-submit-port-order.md) 給 TNS 服務台。 若要取得您需要手動提交移轉訂單的表單，請在 [ [管理組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] 下拉式清單中選取您的國家或地區。
 
 1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[語音**  >  **電話號碼]**。 選 **取 [數位**]，然後選取 [ **埠** ] 以啟動移轉精靈。
 2. 檢閱 [ **開始** 使用] 頁面上的資訊，然後當您準備好時，選取 [ **下一步]**。
@@ -84,6 +81,10 @@ ms.locfileid: "69749039"
 
     > [!NOTE]
     > 上傳 LOA 之後，提交您的訂單。 只上傳 LOA 就不夠了。 您也必須提交訂單，才能進行處理。
+    >
+    > 如需有關用於移轉現有電話號碼及其他檔需求的 LOAs 詳細資訊，請參閱 [管理通話方案的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+    >
+    > 若要移轉/移轉超過 999 個電話號碼，或如果您在 Microsoft Teams 系統管理中心發生移轉程式問題，您可以 [手動將移轉訂單提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 給您地區的 TNS 服務台。
 
 7. 檢閱您的訂單詳細資料，然後選取 [ **提交]**。
 

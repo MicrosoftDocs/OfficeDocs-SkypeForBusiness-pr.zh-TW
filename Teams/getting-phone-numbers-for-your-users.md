@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何取得 Teams 的新號碼、移轉號碼或移轉現有號碼，以及如何向使用者顯示變更。
-ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: d92d48f95e620767148d3917a78d1e72c87f0645
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749059"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835486"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -78,6 +78,13 @@ ms.locfileid: "69749059"
 
 - 如果您需要移轉超過 999 個電話號碼，您可以 [手動提交移轉訂單](phone-number-calling-plans/manually-submit-port-order.md) ，或參閱 [管理組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization) ，以下載正確的授權書 (LOA) 。 完成並簽署 LOA 檔，然後連絡您地區的 [TNS 服務台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 。
 
+> [!NOTE]
+> 如需有關用於移轉現有電話號碼及其他檔需求的 LOAs 詳細資訊，請參閱 [管理通話方案的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+>
+>若要為使用者移轉/移轉 999 個或更少的電話號碼，請在 Microsoft Teams 系統管理中心上傳已完成和簽署的 LOAs，以進一步處理。 
+>
+> 若要移轉/移轉超過 999 個電話號碼，或如果您在 Microsoft Teams 系統管理中心發生移轉程式問題，您可以 [手動將移轉訂單提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 給您地區的 TNS 服務台。
+
 ## <a name="view-the-phone-numbers-for-your-organization"></a>檢視貴組織的電話號碼
 
 **使用 Microsoft Teams 系統管理中心**
@@ -87,9 +94,6 @@ ms.locfileid: "69749059"
 ## <a name="assign-phone-numbers-to-users"></a>將電話號碼指派給使用者
 
 取得電話號碼之後，您必須指派號碼給每個使用者。 如需詳細資訊，請參閱 [指派、變更或移除使用者的電話號碼](./assign-change-or-remove-a-phone-number-for-a-user.md)。
-
-> [!NOTE]
-> 如果您需要取得的電話號碼超過此數量，請[連絡商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products)。
 
 這段影片將示範指派電話號碼給使用者的步驟。
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得組織的電話號碼或埠 (移轉) 號碼時，您可能需要在 TNS 服務台取得協助及支援。
-ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+ms.openlocfilehash: 9984775a05458592fe1789c0dd8b173a08783220
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674404"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835556"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>電話號碼服務 (TNS) - 服務台
 
@@ -83,7 +83,7 @@ ms.locfileid: "67674404"
 
 - **[提交新要求]** - 如果您想要提交新要求，請選擇此選項。 例如，您想要提交移轉要求，或想要向 Microsoft 購買電話號碼。
 
-- **[一般諮詢]** - 如果您有問題，請選擇此選項，這可協助判斷您的要求。 例如，您必須知道您是否可以將無線號碼移轉到 Microsoft，或者您需要知道 Microsoft 是否支援替代免付費電話號碼。
+- **一般查詢** - 如果您有任何問題可協助您判斷您的要求，請選擇此選項。 例如，您必須知道您是否可以將無線號碼移轉到 Microsoft，或者您需要知道 Microsoft 是否支援替代免付費電話號碼。
 
 #### <a name="country-or-region"></a>國家或地區
 
@@ -149,6 +149,13 @@ ms.locfileid: "67674404"
 
   - **授權委託書 (LOA)** - 在這裡附加已簽署且填寫的 LOA。 Microsoft 無法處理沒有 LOA 的移轉要求。
 
+    > [!NOTE]
+    > 如需有關用於移轉現有電話號碼及其他檔需求的 LOAs 詳細資訊，請參閱 [管理通話方案的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+    >
+    >若要為使用者移轉/移轉 999 個或更少的電話號碼，請在 Microsoft Teams 系統管理中心上傳已完成和簽署的 LOAs，以進一步處理。
+    >
+    > 若要移轉/移轉超過 999 個電話號碼，或如果您在 Microsoft Teams 系統管理中心發生移轉程式問題，您可以 [手動將移轉訂單提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 給您地區的 TNS 服務台。
+
 - **位址更新**– 更新緊急通話位址。 請注意，此欄位僅適用于特定國家/地區。
 
   - **位置識別碼** - 緊急位址的位置識別碼。
@@ -194,7 +201,7 @@ ms.locfileid: "67674404"
 
 - 如需您的國家或地區可使用的通話方案的資訊，請參閱[[音訊會議與通話方案的適用國家/地區]](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- 如需詳細資訊，請參閱貴組織適用的電話號碼類型 () ，請參閱 [不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
+- 如需貴組織適用類型的 () 電話號碼的相關資訊，請參閱 [不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 
 - 如需管理貴組織的電話號碼的資訊，請參閱 [[管理貴組織的電話號碼]](manage-phone-numbers-for-your-organization.md)。
 
