@@ -17,20 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何在敏感的 Teams 會議中啟用或要求出席者視訊和共用內容上的浮水印。
-ms.openlocfilehash: 199ba2d84ca4187a7d8e3c4f9a4d471bb9251598
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 6037bc6e9dbe79d9ecee10666f4c34e4e778216a
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800254"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950500"
 ---
 # <a name="require-a-watermark-for-sensitive-teams-meetings"></a>針對敏感的 Teams 會議要求浮水印
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-您可以在 Teams 會議中針對在螢幕上共用的內容和出席者視訊，啟用浮水印。 浮水印會顯示會議參與者的電子郵件地址。 會議參與者無法關閉浮水印。 
+您可以在 Teams 會議中針對在螢幕上共用的內容和出席者視訊，啟用浮水印。 浮水印會顯示會議參與者的電子郵件地址。 會議參與者無法關閉浮水印。
 
-Teams 電腦版、Teams 行動裝置版、Windows 上的 Microsoft Teams 會議室 和 Surface Hub 上的 Microsoft Teams 會議室 都支援浮水印。  (Android 上的 Microsoft Teams 會議室 不支援浮水印。) 人員從不支援的平臺加入會議，包括[雲端視訊 Interop (CVI) ](cloud-video-interop.md)等，將能看到沒有浮水印的內容。
+Teams 電腦版和行動裝置版支援浮水印。 人員從不受支援的平臺加入會議，將會有音訊專用體驗。
+
+從 [雲端視訊 Interop (CVI) ](cloud-video-interop.md)加入的參與者，將能看到沒有浮水印的內容。
 
 使用浮水印時，下列參與者會有音訊專用體驗：
 
@@ -38,6 +40,10 @@ Teams 電腦版、Teams 行動裝置版、Windows 上的 Microsoft Teams 會議�
 - VDI) 參與者 (虛擬桌面基礎結構
 - 匿名參與者
 - 溢位參與者
+- 在 Surface Hub 上的 Windows 和 Microsoft Teams 會議室 上Microsoft Teams 會議室
+- 在 Android 上Microsoft Teams 會議室
+- 較舊的 Teams 用戶端
+- [在Microsoft Teams 會議室裝置上直接來賓加入](/microsoftteams/rooms/third-party-join)
 
 > [!Note]
 > 敏感度標籤、自訂會議範本及浮水印中的會議設定需要Teams 進階版。

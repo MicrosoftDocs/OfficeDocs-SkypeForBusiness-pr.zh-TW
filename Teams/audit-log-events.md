@@ -18,12 +18,12 @@ ms.reviewer: anwara
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f82b9b77422f4f8aca8da3333e81f9b5e4c2cf35
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: f7219ee11f6818890b8be34f42f76dfa26ef0d12
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046643"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950440"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜尋事件的稽核記錄
 
@@ -87,8 +87,8 @@ ms.locfileid: "68046643"
 
 以下是 Microsoft 365 稽核記錄中針對 Teams 中使用者和系統管理員活動所記錄的所有事件清單。 表格包含 [ **活動** ] 欄中顯示的易記名稱，以及當您匯出搜尋結果時，稽核記錄詳細資訊以及 CSV 檔案中所顯示的對應作業名稱。
 
-|易記名稱|操作|描述|
-|---|---|---|
+|**易記名稱**|**操作**|**描述**|
+|:----------------|:------------|:--------------|
 |已將 Bot 新增至團隊|BotAddedToTeam|使用者將 Bot 新增至團隊。|
 |已新增頻道|ChannelAdded|使用者將頻道新增至團隊。|
 |已新增連接器|ConnectorAdded|使用者在頻道中新增連接器。|
@@ -96,10 +96,12 @@ ms.locfileid: "68046643"
 |新增會議參與者的相關資訊 <sup>2</sup>|MeetingParticipantDetail|Teams 新增了會議參與者的相關資訊，包括每位參與者的使用者識別碼、參與者加入會議的時間，以及參與者離開會議的時間。|
 |已新增成員|MemberAdded|團隊擁有者會將成員新增至團隊、頻道或群組聊天。|
 |已新增索引標籤|TabAdded|使用者在頻道中新增索引標籤。|
+| 已套用敏感度標籤 | SensitivityLabelApplied | 使用者或會議召集人已將敏感度標籤套用至 Teams 會議。 |
 |已變更頻道設定|ChannelSettingChanged|當小組成員執行下列活動時，會記錄 ChannelSettingChanged 作業。 針對這些活動，稽核記錄搜尋結果中的 [ **專案** ] 欄中會顯示變更 (括弧的描述。 <ul><li>變更團隊頻道名稱 (**頻道名稱**) </li><li>變更團隊頻道 (**頻道描述**) </li> </ul>|
 |已變更組織設定|TeamsTenantSettingChanged|當全域系統管理員在 Microsoft 365 系統管理中心 中執行下列活動時，會記錄 TeamsTenantSettingChanged 作業。 這些活動會影響整個組織的 Teams 設定。 若要深入瞭解，請參閱 [管理組織的 Teams 設定](enable-features-office-365.md)。 <br>針對這些活動，稽核記錄搜尋結果中的 [ **專案** ] 欄中會顯示變更 () 括弧中所顯示之設定的描述。<ul><li>啟用或停用組織 Teams (**Microsoft Teams**) 。</li><li>啟用或停用 Microsoft Teams 與組織商務用 Skype之間的互通性， (**商務用 Skype互通性**) 。</li><li>啟用或停用 Microsoft Teams 用戶端中的組織結構檢 **視 (組織結構檢視**) 。</li><li>啟用或停用小組成員排程私人會議 (**私人會議排程**) 的能力。</li><li>啟用或停用團隊成員 (**頻道會議排** 程) 排程頻道會議的能力。</li><li>啟用或停用 Teams 會議中的視訊通話 (**Skype 會議** 的視訊) 。</li><li>啟用或停用組織在 Microsoft Teams 會議中的螢幕畫面分享 (**Skype 會議) 的螢幕畫面分享** 。</li><li>啟用或停用將動畫影像新增至 Teams 交談 (稱為 Giphys) 的功能， (**動畫影** 像) 。</li><li>變更組織的內容分級設定 (**內容分級**) 。 內容分級會限制交談中可顯示的動畫影像類型。</li><li>可讓小組成員將自訂影像新增 (從網際網路) 自訂 meme 至團隊交談 (**可從網際網路) 自訂影** 像的功能。</li><li>啟用或停用團隊成員新增可編輯影像 (稱為貼圖) 至小組交談 (**可編輯** 影像) 的能力。</li><li>啟用或停用團隊成員在 Microsoft Teams 聊天和頻道中使用 Bot 的能力， (**整個組織機器人)**。</li><li>啟用 Microsoft Teams 的特定 Bot。 這不包括 T-Bot，當組織 (**個人** 機器人) 啟用機器人時，可以使用 Teams 說明機器人。</li><li>啟用或停用小組成員在擴充功能或索引標籤)  (新增擴充功能 **或** 索引標籤的功能。</li><li>啟用或停用 Microsoft Teams 專屬 Bot 的側載載入 (端 **載入 Bot**) 。</li><li>啟用或停用使用者傳送電子郵件訊息至 Microsoft Teams 頻道 (**通道電子郵件**) 的功能。</li></ul>|
 |已變更團隊中成員的角色|MemberRoleChanged|團隊擁有者變更團隊中成員的角色。 下列值表示指派給使用者的角色類型。 <br><br>**1** - 表示成員角色。<br>**2** - 表示擁有者角色。<br>**3** - 表示來賓角色。<br><br>[成員] 屬性也包含貴組織的名稱和成員的電子郵件地址。|
 |已變更團隊設定|TeamSettingChanged|當小組擁有者執行下列活動時，會記錄 TeamSettingChanged 作業。 針對這些活動，稽核記錄搜尋結果中的 [ **專案** ] 欄中會顯示變更 () 括弧中所顯示之設定的描述。<ul><li>變更團隊的存取類型。 Teams 可以設定為私人或公開 (**團隊存取類型**) 。 當團隊為私人 (預設設定) 時，使用者只能透過邀請存取團隊。 當團隊公開時，任何人都可以搜尋到該團隊。</li><li>變更小組 (**小組分類**) 的資訊分類。 例如，小組資料可以分類為高業務影響、中等業務影響或低業務影響。</li><li>變更團隊名稱 (組 **名**) 。</li><li>變更團隊描述 (團隊 **描述**) 。</li><li>對團隊設定所做的變更。 若要存取這些設定，團隊擁有者可以以滑鼠右鍵按一下團隊，選取 **[管理團隊**]，然後按一下 [ **設定] 索引卷** 標。針對這些活動，已變更的設定名稱會顯示在稽核記錄搜尋結果的 [ **專案** ] 欄中。</li></ul>|
+| 已變更敏感度標籤 | SensitivityLabelChanged | 使用者變更 Teams 會議的敏感度標籤。 |
 |已建立聊天 <sup>1、 </sup> <sup>2</sup>|ChatCreated|已建立 Teams 聊天。|
 |已建立團隊|TeamCreated|使用者建立團隊。|
 |已刪除郵件|MessageDeleted|已刪除聊天或頻道中的訊息。|
@@ -121,6 +123,7 @@ ms.locfileid: "68046643"
 |已將 Bot 從團隊中移除|BotRemovedFromTeam|使用者從團隊中移除 Bot。|
 |已移除連接器|ConnectorRemoved|使用者從頻道中移除連接器。|
 |已移除成員|MemberRemoved|團隊擁有者會從團隊、頻道或群組聊天中移除成員。|
+| 已移除敏感度標籤 | SensitivityLabelRemoved | 使用者已從 Teams 會議中移除敏感度標籤。 |
 |已移除團隊頻道<sup>3</sup>的共用|TerminatedSharing|團隊或頻道擁有者已停用共用頻道的共用。|
 |已還原團隊頻道<sup>3</sup>的共用|SharingRestored|共用頻道的團隊或頻道擁有者重新啟用共用功能。|
 |已移除索引標籤|TabRemoved|使用者從頻道中移除索引標籤。|

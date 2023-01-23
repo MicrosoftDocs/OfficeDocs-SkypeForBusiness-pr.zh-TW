@@ -20,19 +20,19 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: 瞭解如何在 Teams 中管理網路研討會和會議註冊原則。
-ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 097f4c385261ba1aea96990751d208b99d4d8b93
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438471"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950430"
 ---
-# <a name="set-up-webinars-in-microsoft-teams"></a>在 Teams 中設定網路研討會Microsoft
+# <a name="set-up-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中設定網路研討會
 
 > [!NOTE]
-> 本文將說明網路研討會中處於預覽階段且需要 Teams 進階版授權的一些功能。
+> 本文將說明網路研討會中處於預覽階段且需要Teams 進階版授權的一些功能。
 
-Microsoft現在提供新的網路研討會體驗;本文將說明如何更新您的設定以使用這些功能。
+Microsoft 現在提供新的網路研討會體驗;本文將說明如何更新您的設定以使用這些功能。
 
 如果您打算使用網路研討會，建議您使用新的網路研討會體驗。
 
@@ -54,6 +54,8 @@ Microsoft現在提供新的網路研討會體驗;本文將說明如何更新您�
 如需會議、網路研討會和即時事件之間差異的詳細資訊，請參閱 [會議、網路研討會和即時活動](quick-start-meetings-live-events.md)。
 
 > [!NOTE]
+> 對於內部部署使用者，新的網路研討會體驗尚未提供。
+>
 > 新的網路研討會體驗不適用於 Microsoft 365 GCC、Microsoft 365 GCC High 或 Microsoft 365 DoD。 現有的網路研討會體驗不適用於 Microsoft 365 GCC High 或 Microsoft 365 DoD。
 
 > [!IMPORTANT]
@@ -61,7 +63,7 @@ Microsoft現在提供新的網路研討會體驗;本文將說明如何更新您�
 
 ## <a name="set-up-new-webinar-experience"></a>設定新的網路研討會體驗
 
-您必須使用 PowerShell 來為組織設定新的網路研討會體驗。 目前還無法在 Teams 系統管理中心設定新的網路研討會體驗。
+您必須使用 PowerShell 來為組織設定新的網路研討會體驗。 目前還無法在 Teams 系統管理中心中設定新的網路研討會體驗。
 
 會議註冊必須已開啟，才能使用新的網路研討會體驗。
 
@@ -74,7 +76,7 @@ Microsoft現在提供新的網路研討會體驗;本文將說明如何更新您�
 |AllowWebinars|Enabled|此設定會決定使用者是否可以建立網路研討會。|
 |EventAccessType|任何人|此設定會決定哪些使用者可以存取事件註冊頁面或即時網頁來註冊，以及允許哪些使用者類型加入會話 () 。|
 
-您必須先連線至 Teams PowerShell Microsoft才能執行這些 Cmdlet。 如需詳細資訊，請參閱[使用 Microsoft Teams PowerShell 管理 Teams](/microsoftteams/teams-powershell-managing-teams)。
+您必須先連線到 Microsoft Teams PowerShell，才能執行這些 Cmdlet。 如需詳細資訊，請參閱 [使用 Microsoft Teams PowerShell 管理 Teams](/microsoftteams/teams-powershell-managing-teams)。
 
 1. 開啟會議註冊。
 
@@ -113,7 +115,7 @@ Microsoft現在提供新的網路研討會體驗;本文將說明如何更新您�
 
 ### <a name="meeting-registration"></a>會議註冊
 
-如果您開啟 **會議註冊**，貴組織中的使用者可以排程需要註冊的網路研討會和會議。 預設會開啟此功能。 如果您想要關閉會議註冊和網路研討會，請將此原則設為 **[關閉]**。
+如果您開啟 **會議註冊**，貴組織中的使用者可以排程需要註冊的網路研討會和會議。 此設定預設會開啟。 如果您想要關閉會議註冊和網路研討會，請將此原則設為 **[關閉]**。
 
 **私人會議排程** 必須開啟，會議註冊才能運作。 深入瞭解 [私人會議排程](meeting-policies-in-teams-general.md)。
 
@@ -126,7 +128,7 @@ Microsoft現在提供新的網路研討會體驗;本文將說明如何更新您�
 
 此原則會控制哪些使用者只能使用會議註冊來註冊及參加網路研討會。 此原則有兩個選項，只有在會議 **註冊** 已開啟時才能使用。 根據預設， **[誰可以註冊** ] 設定為 [ **所有人]**。
 
-如果您選取 [ **所有人**]，所有使用者，包括匿名使用者，都可以註冊並參加網路研討會。 如果您選取 **組織中的 [所有人**]，則只有您組織中的使用者可以註冊並參加網路研討會。 如果關閉會議註冊，將無法使用 [ **誰可以註冊** ] 設定，而且沒有人可以註冊網路研討會。
+如果您選取 [ **所有人**]，所有使用者，包括匿名使用者，都可以註冊並參加網路研討會。 如果您選取 **組織中的 [所有人**]，則只有您組織中的使用者可以註冊並參加網路研討會。 如果關閉會議註冊，[ **誰可以註冊** ] 設定將無法使用，而且沒有人可以註冊網路研討會。
 
 Who **can register** 的預設值是教育租使用者中 **組織中的每個人** 。 如需詳細資訊，請[參閱Teams 教育版原則精靈]](easy-policy-setup-edu.md)。
 
@@ -134,7 +136,7 @@ Who **can register** 的預設值是教育租使用者中 **組織中的每個�
 
 您可以使用 [**會議會議**  >  原則] 下的 Teams 系統管理中心來開啟 **[參與] 報告**。****
 
-開啟此設定時，召集人可以查看誰註冊並參與他們所設定的網路研討會或會議。 此原則預設為開啟。 如需詳細資訊，請參閱 [Teams 中的會議原則 - 參與報告](meeting-policies-in-teams-general.md#engagement-report)。 如需使用者體驗的相關資訊，請參 [閱檢視及下載會議出席報告](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310)。
+開啟此設定時，召集人會看到誰註冊並參與他們所設定的網路研討會或會議的報告。 此原則預設為開啟。 如需詳細資訊，請參閱 [Teams 中的會議原則 - 參與報告](meeting-policies-in-teams-general.md#engagement-report)。 如需使用者體驗的相關資訊，請參 [閱檢視及下載會議出席報告](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310)。
 
 在 PowerShell 中， **AllowEngagementReport** 參數可用來開啟此功能。 此原則預設為開啟。 若要將它關閉，請在 PowerShell 中執行下列命令：
 
