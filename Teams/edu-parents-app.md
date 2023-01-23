@@ -19,12 +19,12 @@ ms.custom:
 - admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 32ef76aeff228bc9386917cb2214965942b8be4e
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147480"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948570"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中設定父系連線
 
@@ -36,8 +36,8 @@ Teams 教育版中的家長連線可協助授課者使用 Teams 安全地與班�
 
 以下是 IT 系統管理員可以與監護人和授課者共用的一些資源，以瞭解如何開始使用家長連線。
 
-- 如需有關設定監護人的指導方針，請參閱 [在 Teams 中與授課者聯繫](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)。
-- 如需有關如何設定授課者的指導方針，請參閱 [在 Microsoft Teams 中與監護人通訊](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)。
+- 如需有關設定監護人的指導方針，請參閱 [在 Microsoft Teams 中與監護人通訊](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)。
+- 如需讓授課者進行設定的指導方針，請參閱 [在 Teams 中與授課者聯繫](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)。
 
 ## <a name="benefits-of-parent-connection"></a>父系連線的優點
 

@@ -17,13 +17,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
+- admindeeplinkTEAMS
+- admindeeplinkMAC
 description: 瞭解如何使用Microsoft Teams 進階版附加元件授權來增強您的 Microsoft Teams 體驗
-ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
-ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
+ms.openlocfilehash: 1d85c5d601dc74d7c308f05fa07bd99a2f274791
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2023
-ms.locfileid: "69835566"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948560"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams 進階版授權
 
@@ -146,30 +148,24 @@ Microsoft Teams 進階版是 Teams 附加元件授權，可讓擁有 Microsoft 3
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>目前 Teams 功能是否會移至 Teams 進階版？
 
-隨著Teams 進階版的一般發行，部分 Teams 功能將從 Teams 授權移至Teams 進階版授權。 若要允許使用者繼續使用這些功能，您必須購買並指派Teams 進階版授權。
+隨著Teams 進階版的一般發行，部分 Teams 功能將從 Teams 授權移至Teams 進階版授權。 這些功能在一般可用性之後的寬限期為 30 或 60 天。 寬限期到期時，使用者將無法存取該功能。
+
+若要允許使用者繼續使用這些功能，您必須購買並指派Teams 進階版授權。
 
 移至Teams 進階版的功能如下：
 
 - 即時翻譯的輔助字幕。
-  - 所有 Teams 訂閱者可使用，直到Teams 進階版一般可用性的 60 天為止。
+  - Teams 進階版一般可用性之後，所有 Teams 訂閱者都能獲得 60 天的寬限期。
 - Teams 會議錄製中的時間軸標記，用於使用者離開或加入會議的時間。
-  - 所有 Teams 訂閱者可在Teams 進階版一般可用性後的 30 天內使用。
+  - Teams 進階版一般可用性之後，所有 Teams 訂閱者都能獲得 60 天的寬限期。
 - 自訂群組織共聚模式場景。
-  - 所有 Teams 訂閱者可在Teams 進階版一般可用性後的 30 天內使用。
+  - Teams 進階版一般可用性之後，所有 Teams 訂閱者都可獲得 30 天的寬限期。
 - 虛擬約會：簡訊通知。
-  - 所有 Teams 訂閱者可在Teams 進階版一般可用性後的 30 天內使用。
+  - Teams 進階版一般可用性之後，所有 Teams 訂閱者都可獲得 30 天的寬限期。
 - 虛擬約會：Teams 系統管理中心的組織分析。
-  - 所有 Teams 訂閱者可在Teams 進階版一般可用性後的 30 天內使用。
+  - Teams 進階版一般可用性之後，所有 Teams 訂閱者都可獲得 30 天的寬限期。
 - 虛擬約會：排定的佇列檢視。
-  - 所有 Teams 訂閱者可在Teams 進階版一般可用性後的 30 天內使用。
-
-### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>是否有寬限期可在使用者失去功能之前切換到 Teams Premium？
-
-當Teams 進階版一般可供購買時，系統管理員將會有 60 天的寬限期來購買Teams 進階版。
-
-在 60 天寬限期之後，除非系統管理員購買並指派Teams 進階版授權給使用者，否則使用者將無法存取先前在 Teams 中可用且不含Teams 進階版附加元件的功能。
-
-有些租使用者可能擁有Teams 進階版試用版授權。 試用版授權到期後，使用者會立即遺失Teams 進階版功能。 與自訂範本和會議背景等Teams 進階版功能相關聯的資產會保留在租使用者中，但會呈現灰色且無法使用。
+  - Teams 進階版一般可用性之後，所有 Teams 訂閱者都可獲得 30 天的寬限期。
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>購買Teams 進階版的需求為何？
 
@@ -233,21 +229,20 @@ Teams 進階版授權指派給貴組織的使用者，Teams 會議室專業版�
 
 許多Teams 進階版功能都需要 IT 系統管理員設定此功能，使用者才能存取該功能。
 
-下列清單指出Teams 進階版需要系統管理員設定才能存取此功能的功能：
+下列清單指出需要在 Teams 系統管理[中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)進行系統管理設定的Teams 進階版功能，使用者才能存取此功能：
 
-- 在最多 50 位參與者的會議上使用端對端加密
-- 將浮水印新增至會議
-- 新增敏感度標籤
-- 防止在會議聊天中複製並貼上
-- 使用組織自訂背景
-- 使用自訂 「共聚模式」場景的組織
-- 已指派自訂原則套件
-- 使用組織自訂的會議範本
-- 查看組織自訂商標
-- 使用 eCDN 進行即時活動
-- 使用 RTMP-In
-- 傳送 虛擬約會 簡訊通知
-- 存取 虛擬約會 進階版應用程式
-- 在 Teams 系統管理中心存取虛擬約會資料
+- 在最多 50 位參與者的會議上使用端對端加密功能。
+- 在會議中新增浮水印。
+- 新增敏感度標籤。
+- 防止在會議聊天中複製並貼上。
+- 使用組織自訂背景。
+- 使用自訂 [共聚] 模式場景的組織。
+  - 管理員必須建立自訂的共聚模式場景。
+- 已指派自訂原則套件。
+- 使用組織自訂的會議範本。
+- 查看組織自訂商標。
+- 使用 eCDN 進行即時活動。
+- 使用 RTMP-In。
+- 使用商標自訂虛擬約會大廳。
 
 如需指示連結，[請參閱Microsoft Teams 進階版 - 系統管理員概觀](/microsoftteams/enhanced-teams-experience)。

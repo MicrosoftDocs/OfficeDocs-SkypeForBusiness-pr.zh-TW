@@ -14,16 +14,20 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
-ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
+ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67854429"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948580"
 ---
 # <a name="whats-new-for-direct-routing"></a>直接路由的新功能
 
 本文將說明直接路由的新增功能。 請經常回來查看更新。
+
+## <a name="new-direct-routing-sip-endpoints"></a>新的直接路由 SIP 端點 
+
+Microsoft 將推出新的訊號 IP 給 Teams 直接路由 SIP 端點。 為確保這項變更不會影響您的服務可用性，請確定您的會話框線控制器和防火牆已設定為使用分類和 ACL 規則的建議子網 52.112.0.0/14 和 52.120.0.0/14。 如需詳細資訊，請參閱[Microsoft 365、Office 365 和 Office 365 GCC 環境](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments)。  
 
 ## <a name="trunk-demoting-logic-based-on-sip-options"></a>以 SIP 選項為基礎的主幹降級邏輯
 
