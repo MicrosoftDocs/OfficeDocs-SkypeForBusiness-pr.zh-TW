@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-january-16-2023"></a>2023 年 1 月 16 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 1/18/2023 | [Microsoft Teams 分析與報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 改 性 |
+| 1/19/2023 | [為您的使用者取得電話號碼](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 改 性 |
+| 1/19/2023 | [連絡電話號碼服務小組](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 改 性 |
+| 1/19/2023 | [Microsoft Teams 進階版授權](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 改 性 |
+| 1/20/2023 | [無線對講機使用方式與效能報告](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | 添加 |
+| 1/18/2023 | [Microsoft Teams 分析與報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 改 性 |
+| 1/19/2023 | [為您的使用者取得電話號碼](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 改 性 |
+| 1/19/2023 | [連絡電話號碼服務小組](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 改 性 |
+| 1/19/2023 | [Microsoft Teams 進階版授權](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 改 性 |
+| 1/20/2023 | [無線對講機使用方式與效能報告](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | 添加 |
+
+
 ## <a name="week-of-january-09-2023"></a>2023 年 1 月 9 日周
 
 
@@ -66,25 +83,3 @@
 |------|------------|--------|
 | 12/19/2022 | [管理整個 Microsoft 365 的 Teams 應用程式存取權](/MicrosoftTeams/manage-third-party-teams-apps) | 改 性 |
 | 12/21/2022 | [Microsoft Teams 中的虛擬約會會議範本](/MicrosoftTeams/virtual-appointment-meeting-template) | 添加 |
-
-
-## <a name="week-of-december-12-2022"></a>2022 年 12 月 12 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 12/14/2022 | [Microsoft Teams 共用裝置授權](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | 添加 |
-| 12/14/2022 | [控制誰可以在 Microsoft Teams 中略過會議大廳](/MicrosoftTeams/who-can-bypass-meeting-lobby) | 添加 |
-| 12/14/2022 | [設定 Microsoft Teams Android 裝置使用者介面](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 改 性 |
-| 12/14/2022 | [Teams 裝置](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 12/14/2022 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 改 性 |
-| 12/14/2022 | [Microsoft Teams 進階版 - 適用于系統管理員的概觀](/MicrosoftTeams/enhanced-teams-experience) | 改 性 |
-| 12/14/2022 | [設定 Microsoft Teams 常用的區域電話](/MicrosoftTeams/set-up-common-area-phones) | 改 性 |
-| 12/14/2022 | [Microsoft Teams 進階版授權](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 改 性 |
-| 12/15/2022 | [音訊會議的常見問題](/MicrosoftTeams/audio-conferencing-common-questions) | 改 性 |
-| 12/15/2022 | [電話號碼和授權變更](/MicrosoftTeams/phone-numbers-licensing-changes) | 改 性 |
-| 12/15/2022 | [Microsoft Teams 會議室 (Windows) 的版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 改 性 |
-| 12/16/2022 | [適用於 Microsoft Teams 或商務用 Skype® 2015 Online 的 Proxy 伺服器](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | 改 性 |
-| 12/16/2022 | [在 Android 上部署Microsoft Teams 會議室](/MicrosoftTeams/devices/collab-bar-deploy) | 改 性 |
-| 12/16/2022 | [遠端更新 Microsoft Teams 裝置](/MicrosoftTeams/devices/remote-update) | 改 性 |
-| 12/16/2022 | [Windows 安全性上的Microsoft Teams 會議室](/MicrosoftTeams/rooms/security-windows) | 改 性 |
