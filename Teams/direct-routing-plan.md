@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft 直接路由如何讓您將受支援的客戶提供的會話框線控制器 (SBC) 連線至電話系統。
-ms.openlocfilehash: ba0db105d94fef7c81d79929c5cc7f9371f0fc6c
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948510"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983691"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -189,6 +189,11 @@ Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 
 
 > [!NOTE]
 > 如果已針對 SBC 上的 Teams 連線啟用共同 TLS (MTLS) 支援，則您必須在 Teams TLS 內容的 SBC 根信任存放區中安裝[連線埠] 和 [DigiCert 全域根 G2] 憑證。  (這是因為 Microsoft 服務憑證使用這兩種根憑證的其中之一。) 若要下載這些根憑證，請[參閱Office 365加密鏈。](/microsoft-365/compliance/encryption-office-365-certificate-chains) 如需詳細資料，請參閱 [Office TLS 憑證變更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
+  
+若要確認 MTLS 連線來自 Teams 基礎結構，SBC 應設定為在 Teams 伺服器端憑證上實作下列檢查：
+- 檢查憑證發行鏈結是否源自下列其中一個根 CAs --[關聯性 CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root) 
+--  [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- 檢查憑證「主旨替代名稱」是否包含「sip.pstnhub.microsoft.com」
 
 ## <a name="sip-signaling-fqdns"></a>SIP 訊號：FQDN
 
@@ -284,7 +289,7 @@ SBC 會建立 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 環境
 
 - 52.112.0.0/14 (IP 位址從 52.112.0.1 到 52.115.255.254) 。
-- 52.120.0.0/14 (IP 位址從 52.120.0.1 到 52.123.255.254) 。
+- 52.122.0.0/15 (IP 位址從 52.122.0.1 到 52.123.255.254) 。
 
 ### <a name="office-365-dod-environment"></a>Office 365 DoD 環境
 
