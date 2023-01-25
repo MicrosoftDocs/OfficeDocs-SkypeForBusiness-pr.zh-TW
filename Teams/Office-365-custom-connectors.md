@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 09/01/2022
+ms.date: 01/24/2023
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
@@ -19,27 +19,26 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: bf38711da0205e7c674e769942d00d340d51f66e
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377001"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983681"
 ---
 # <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>管理 Microsoft 365 連接器和自訂連接器
 
-若要讓您的小組保持更新，連接器會直接將常用的內容和服務更新傳遞至 Teams 頻道。 有了連接器，您的 Teams 使用者就能接收來自 Trello、Wunderlist、GitHub 和 Azure DevOps 服務等熱門服務的更新。 更新會直接張貼到小組中的聊天串流中。
+Microsoft Teams 中的連接器會直接從協力廠商服務將內容和服務更新傳送到 Teams 頻道。 使用者會使用連接器，從 Trello、Wunderlist、GitHub 和 Azure DevOps Services 等熱門服務接收更新。 更新會直接張貼到聊天串流中。 這可讓所有成員輕鬆保持同步，並快速收到相關資訊。
 
-Microsoft 365 連接器同時用於 Microsoft Teams 和 Microsoft 365 群組。 它讓所有成員都更容易保持同步，並快速接收相關資訊。 您可以同時在 Microsoft Teams 和 Microsoft Exchange 中使用相同的連接器。 不過，如果您停用為 Microsoft 365 群組所設定的任何連接器，其也會停用 Microsoft 365 群組建立連接器的能力。
+Microsoft 365 連接器同時用於 Teams 和 Microsoft 365 群組。 您可以在 Teams 和 Microsoft Exchange 中使用相同的連接器。 
 
-如果小組權限允許，小組的任何成員都可以將其小組連線至熱門的雲端服務，而且所有的小組成員都會收到該服務的活動通知。 在最初設定連接器的成員離開之後，連接器會繼續工作。 任何具有新增或移除權限的小組成員都可以修改其他成員的連接器設定。
+<!--- However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors. --->
+
+如果團隊許可權允許，團隊中的任何成員都可以在團隊中新增連接器，而且所有小組成員都會收到來自該服務的活動通知。 任何具有新增或移除權限的小組成員都可以修改其他成員的連接器設定。
 
 ## <a name="enable-or-disable-connectors-in-teams"></a>在 Teams 中啟用或停用連接器
 
-Exchange Online PowerShell V2 模組使用新式驗證，並使用多重要素驗證 (MFA) 來連線到 Microsoft 365 中所有與 Exchange 相關的 PowerShell 環境。 系統管理員可以使用 Exchange Online PowerShell 來停用整個租用戶或特定群組信箱的連接器，這會影響該租用戶或信箱中的所有使用者。 無法為少數特定使用者停用。 此外，根據預設，政府社群雲端 (GCC) 環境會停用連接器。
-
-> [!NOTE]
-> 在政府雲端社群 (GCC) 環境中，連接器會根據預設定為停用。 若要啟用這些參數，請使用 `SetOrganizationConfig` Cmdlet 將 `ConnectorsEnabled` 或 `ConnectorsEnabledForTeams` 參數設定為 `$true`。 連線到 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true)。
+Exchange Online PowerShell v2 模組使用新式驗證，並搭配多重要素驗證 (MFA) 連線至 Microsoft 365 中所有 Exchange 相關 PowerShell 環境。 系統管理員可以使用 Exchange Online PowerShell 來停用整個租用戶或特定群組信箱的連接器，這會影響該租用戶或信箱中的所有使用者。 無法針對少數特定使用者停用。
 
 租用戶設定會覆寫群組設定。 例如，如果系統管理員啟用群組的連接器，並停用租用戶上的連接器，則群組的連接器會停用。 若要在 Teams 中啟用連接器，請使用新式驗證 (無論是否使用 MFA) [以連線至 Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true)。
 
@@ -81,7 +80,60 @@ Teams 連接器正在轉換為新的 URL，以增強安全性。 在轉換期間
 
    :::image type="content" source="media/teams-url-updated.png" alt-text="「URL 是最新的」訊息之螢幕擷取畫面。":::
 
+## <a name="considerations-when-using-connectors-in-teams"></a>在 Teams 中使用連接器時的考慮
+
+* 在政府雲端社群 (GCC) 環境中，連接器會根據預設定為停用。 若要啟用這些參數，請使用 `SetOrganizationConfig` Cmdlet 將 `ConnectorsEnabled` 或 `ConnectorsEnabledForTeams` 參數設定為 `$true`。 連線到 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true)。
+
+* 如果將連接器新增至團隊的使用者離開團隊，連接器會繼續運作。
+
+* 下列連接器自 2023 年 1 月起不提供使用：
+
+  * 哈哈
+  * AIRBRAKE
+  * AIRCALL
+  * APPLINKS
+  * APPSIGNAL
+  * 青苗
+  * BITBUCKET
+  * BITBUCKETSERVER
+  * 夥計
+  * BUGSNAG
+  * BUILDKITE
+  * CATSONE
+  * CHATRA
+  * CIRCLECI
+  * CODESHIP
+  * GETRESPONSE
+  * GHOSTINSPECTOR
+  * 槽
+  * HEROKU
+  * HONEYBADGER
+  * 對講機
+  * LOGENTRIES
+  * NEWRELIC
+  * OPSGENIE
+  * PAGERDUTY
+  * PAPERTRAIL
+  * PINGDOM
+  * TRACKTRACKER
+  * RAYGUN
+  * ROLLBAR
+  * RUNSCOPE
+  * SATISMETER
+  * 信號
+  * 哨兵
+  * SHAREPOINT。
+  * SIMPLEINOUT
+  * STATUSPAGEIO
+  * 顛覆
+  * TEAMFOUNDATIONSERVER
+  * TESTFAIRY
+  * TRAVISCI
+  * UPDOWN
+  * USERLIKE
+  * XPDEV
+
 ## <a name="related-articles"></a>相關文章
 
-* [自訂連接器和 Webhook 概觀](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
-* [建立 Office 365 連接器](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)
+* [自訂連接器和網路任務的概觀](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [如何建立連接器Office 365](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)
