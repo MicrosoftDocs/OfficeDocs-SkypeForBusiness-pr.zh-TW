@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62e1ca6b2254047a14a11cf4c4c9ffb10477a0e3
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: c5b1c9adda541926b48a943f796380fa8730a4a5
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194924"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990398"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -38,7 +38,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 > [!NOTE]
 > Microsoft Teams 會議室登入 Microsoft Teams、商務用 Skype Server 2019 或 商務用 Skype Server 2015，並可加入由這些服務所主持的會議。
 >
-> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft 365 或由 21Vianet 營運的 Office 365 或 DoD 環境不支援Microsoft Teams 會議室。
+> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft Teams 會議室不支援由 21Vianet 或 DoD 環境營運的 Microsoft 365 或 Office 365。
 >
 > 如果您擁有內部部署 Exchange Server，則 Microsoft Teams 會議室需要使用 Exchange Server 2013 SP1 或更新版本。
 
@@ -97,6 +97,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
   |[Poly G85-T Kit with Poly Eagle Eye Director II， with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |配備 Lenovo Thinksmart Core 的 Poly GC8 主機|Core i5|8 GB|128 GB|
   |Poly GC8 Console with Dell Optiplex 7080|Core i5|8 GB|128 GB|
+  |[Poly GC8 主機搭配 HP 800 G9 計算 -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows)|Core i5|8 GB|128 GB|
   |[Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 with Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|

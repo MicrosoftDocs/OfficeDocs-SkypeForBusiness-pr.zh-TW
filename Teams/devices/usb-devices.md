@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f8c964dddf2214540e9c384993f46c5a3d944da1
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749069"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990388"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -81,13 +81,27 @@ ms.locfileid: "69749069"
 
 ## <a name="certified-devices"></a>已認證的裝置
 
-*2022 年 12 月更新表格*
+*2023 年 1 月更新表格*
 
 > [!NOTE]
 > 日期格式為 MM/DD/YYYY。
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |SDW 5061 耳機搭配 SDW D1 DECT USB 硬體鎖              |1/20/2023       |已通過 Microsoft Teams 認證                           |
+|EPOS                 |SDW 5031 耳機搭配 SDW D1 DECT USB 硬體鎖              |1/20/2023       |已通過 Microsoft Teams 認證                           |
+|EPOS                 |SDW 5011 耳機搭配 SDW D1 DECT USB 硬體鎖              |1/20/2023       |已通過 Microsoft Teams 認證                           |
+|戴爾                 |P2424HEB 監視器                                           |1/18/2023       |已通過 Microsoft Teams 認證                           |
+|戴爾                 |P2724DEB 監視器                                           |1/18/2023       |已通過 Microsoft Teams 認證                           |
+|戴爾                 |P3424WEB 監視器                                           |1/18/2023       |已通過 Microsoft Teams 認證                           |
+|Yealink              |BH76 頭戴式裝置                                               |12/22/2022      |已通過 Microsoft Teams 認證                           |
+|羅技             |Brio 300/301/305 相機                                    |12/22/2022      |已通過 Microsoft Teams 認證                           |
+|聚                 |S性 7310 UC Series 耳機與硬體鎖版本 v1008     |12/22/2022      |已通過 Microsoft Teams 認證                           |
+|聚                 |S性 7320 UC Series 耳機與硬體鎖版本 v1008     |12/22/2022      |已通過 Microsoft Teams 認證                           |
+|Yealink              |WH62 Dual/Mono 可攜式耳機                            |12/21/2022      |已通過 Microsoft Teams 認證                           |
+|Yealink              |WH63 可攜式耳機搭配 DECT 硬體鎖                     |12/21/2022      |已通過 Microsoft Teams 認證                           |
+|Cisco                |320 系列 (321/322) 頭戴式裝置                              |12/20/2022      |已通過 Microsoft Teams 認證                           |
+|Cisco                |720 系列 (721/722) 耳機                              |12/20/2022      |已通過 Microsoft Teams 認證                           |
 |聯想               |T24mv-30 監視器                                           |12/19/2022      |已通過 Microsoft Teams 認證                           |
 |聯想               |T27hv-30 監視器                                           |12/19/2022      |已通過 Microsoft Teams 認證                           |
 |聯想               |電話會議基本免持聽筒                          |12/19/2022      |已通過 Microsoft Teams 認證                           |
@@ -97,15 +111,18 @@ ms.locfileid: "69749069"
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |已通過 Microsoft Teams 認證                           |
 |聯想               |移至耳機In-Ear USB-C ANC                             |9/20/2022       |已通過 Microsoft Teams 認證                           |
 |Logi                 |Brio 500/505/501 相機                                   |9/14/2022       |已通過 Microsoft Teams 認證                           |
+|索尼                 |YY2969 Earbuds                                             |9/6/2022        |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |已通過 Microsoft Teams 認證                           |
+|微軟            |Audio Dock Speakerphone                                    |7/12/2022       |已通過 Microsoft Teams 認證                           |
 |戴爾                 |WB5023 相機                                              |6/29/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 560 II 頭戴式裝置                                       |6/22/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |C10/C20/C50 系列耳機                                |5/31/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage55 Mono/身歷聲耳機                               |5/25/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |已通過 Microsoft Teams 認證                           | 
 |戴爾                 |U3223QZ 監視器                                            |5/24/2022       |已通過 Microsoft Teams 認證                           |
+|微軟            |簡報者+                                                 |5/12/2022       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P21 監視器                                         |5/12/2022       |已通過 Microsoft Teams 認證                           |
 |Yealink              |UH38 頭戴式裝置                                               |5/2/2022        |已通過 Microsoft Teams 認證                           |   
 |Yealink              |BH72 頭戴式裝置                                               |5/2/2022        |已通過 Microsoft Teams 認證                           |

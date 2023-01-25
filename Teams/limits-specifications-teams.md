@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ee791259b938345876e9761344616fac7d1d9e45
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307528"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990408"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -123,16 +123,14 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 |功能     | 最大限制 |
 |------------|---------------|
-|一場會議中的人數 (可以交談和通話)  | 1000 位，包含 GCC、GCCH 和 DoD，但不包含 A1 (300)。 **僅檢視** 會允許高達 20,000 名僅限聆聽參與者加入會議，其中的召集人擁有 E3/E5/A3/A5 SKU 以及政府用 (GCC、GCC High、DoD) 的授權。 網路研討會也即將推出僅檢視體驗。 深入了解[僅供檢視體驗](view-only-meeting-experience.md)。<sup>1，2</sup>|
+|一場會議中的人數 (可以交談和通話)  | 1000 位，包含 GCC、GCCH 和 DoD，但不包含 A1 (300)。|
 |交談視訊或音訊通話中的人員數目 | 20 |
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
 | 會議錄製長度上限 | 4 小時或 1.5 GB。 達到此限制時，錄製作業將會結束並自動重新啟動。
+
+如需詳細資訊，請參閱 [會議、網路研討會和即時活動](/microsoftteams/quick-start-meetings-live-events)。  
   
-<sup>1</sup> 為了在大型會議、網路研討會和即時活動中獲得最佳體驗，Microsoft 建議使用最新版的 Teams 桌面用戶端或 Teams 行動裝置用戶端。
-
-<sup>2</sup> 大型會議、網路研討會和即時活動中的簡報者應該使用 Teams 桌面用戶端。 如需主持大型會議的更多秘訣，請參閱 [大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
-
 > [!NOTE]
 > 分組會議室只能在少於 300 名出席者的會議中建立。 此外，在會議中建立分組會議室會自動將會議出席者人數限制為 300 人。 建議使用者不要在預期超過 300 名參與者的會議中初始化分組會議室。 如需大型團隊會議的資訊，請與使用者分享指南 [適用於大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
 
@@ -152,15 +150,19 @@ Users who participate in conversations that are part of the chat list in Teams m
 > [!NOTE]
 > Microsoft Teams 會議的時間限制為 30 小時。
 
-## <a name="teams-live-events"></a>Teams 即時活動
+## <a name="live-events"></a>即時活動
+  
+即時活動是結構化的會議，可讓貴組織排程並產生活動，向大批線上觀眾串流播放，最多可讓 20,000 人參與。 使用即時活動時，觀眾互動是受管理的問與答體驗。
 
 |功能     | 最大限制 |
 |------------|---------------|
-|對象數目 | 10,000 位出席者 |
+|對象數目 | 最多 20，000 名出席者 <sup>1</sup> |
 |活動持續時間 | 4 小時 |
-|在 Microsoft 365 或 Office 365 組織中並行執行即時活動 <sup>1</sup> | 15 |
+|在 Microsoft 365 或Office 365組織<sup>2</sup>中執行的並行即時活動 | 15 |
 
-<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
+<sup>1</sup> 一般 10，000 人會增加到 20，000 人，到 2023 年 6 月 30 日為止。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](/stream/live-events-assistance)。  
+  
+<sup>2</sup> 您可以視需要排程任意數量的即時活動，但一次只能執行 15 個。 製作人一加入即時活動，就表示該活動執行中。 嘗試加入第 16 個即時活動的製作人會收到錯誤。
 
 如需即時活動的詳細資訊，請移至 [Teams 即時活動](teams-live-events/plan-for-teams-live-events.md#teams-live-events)。 請參閱[排程 Teams 即時活動](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 

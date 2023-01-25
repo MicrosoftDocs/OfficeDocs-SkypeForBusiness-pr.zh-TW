@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 適用于 IT 專業人員 - 瞭解 Microsoft Teams 中匿名會議參與的運作方式。
-ms.openlocfilehash: fe4dbec2bc606838bd5cafbaec5ef9d9ecdd8a88
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: a4f1833059febf2f8481cba9f1b3716519613e89
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948683"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983731"
 ---
 # <a name="manage-anonymous-participant-access-to-teams-meetings-it-admins"></a> (IT 系統管理員管理 Teams 會議的匿名參與者存取權) 
 
@@ -34,9 +34,9 @@ ms.locfileid: "69948683"
 - **匿名使用者可以加入會議** Teams 會議設定 (必須開啟組織層級) 。
 - 會議召集人必須獲派 Teams 會議原則，其中已開啟 **[讓匿名人員加入會議** ] 控制項。
 
-匿名加入預設會針對組織和預設的全域會議原則開啟。
+匿名會議加入預設會針對組織和預設的全域會議原則開啟。 我們建議保持開啟組織層級設定，並使用會議原則針對 (會議召集人) 的不同使用者開啟或關閉匿名會議加入。
 
-請注意，如果啟用匿名加入，大廳原則會影響匿名參與者加入會議的程度。 如需詳細資料，請參閱 [控制誰可以略過 Microsoft Teams 中的會議大廳](who-can-bypass-meeting-lobby.md)。
+請注意，如果已啟用匿名會議加入，大廳原則會影響匿名參與者加入會議的程度。 如需詳細資料，請參閱 [控制誰可以略過 Microsoft Teams 中的會議大廳](who-can-bypass-meeting-lobby.md)。
 
 #### <a name="meetings-with-trusted-organizations"></a>與信任的組織開會
 
@@ -81,15 +81,15 @@ ms.locfileid: "69948683"
 
 您可以使用下列方法來控制匿名參與者是否可以加入會議：
 
-- `-DisableAnonymousJoin`設定組織層級設定的[Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration)中的參數。  (建議您將此設定保留為 False，並使用 Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting 在使用者或群組層級控制匿名加入。) 
+- `-DisableAnonymousJoin`設定組織層級設定的[Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration)中的參數。  (我們建議將此設定保留為 False，並使用 Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting 來控制使用者或群組層級的匿名會議加入。) 
 - `-AllowAnonymousUsersToJoinMeeting` [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)中用來設定使用者層級會議原則的參數
 
-若要允許匿名參與者加入會議，您必須設定這兩者，以設定下列值以允許匿名加入：
+若要允許匿名參與者加入會議，您必須設定這兩者，以設定下列值以允許匿名會議加入：
 
 - `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin` 設定為 **[$false**
 - `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting` 設定為 **$true** 的相關會議召集人
 
-## <a name="block-anonymous-join-for-specific-client-types"></a>針對特定用戶端類型封鎖匿名加入
+## <a name="block-anonymous-meeting-join-for-specific-client-types"></a>針對特定用戶端類型封鎖匿名會議加入
 
 允許匿名參與者加入會議時，他們可以使用 Teams 用戶端或使用Azure 通訊服務建置的自訂客戶[端](/azure/communication-services/)。 
 

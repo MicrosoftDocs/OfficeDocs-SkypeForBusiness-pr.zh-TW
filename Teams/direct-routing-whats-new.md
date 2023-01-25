@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 87befd2ff63fc5e3f0aa9e1c715972e5061b8fc7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948580"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981868"
 ---
 # <a name="whats-new-for-direct-routing"></a>直接路由的新功能
 
@@ -43,7 +43,7 @@ Microsoft 將于 2022 年 6 月 1 日從直接路由設定中移除對 sip-all.p
 
 若要防止服務影響：
 
-- 針對任何分類或 ACL 規則，請使用建議的子網： (52.112.0.0/14 和 52.120.0.0/14) 。
+- 針對任何分類或 ACL 規則，請使用建議的子網： (52.112.0.0/14 和 52.122.0.0/15) 。
 - 在設定直接路由的會話框線控制項時，停止使用 sip-all FQDN。
 
 如需詳細資訊，請參閱 [規劃直接路由](direct-routing-plan.md)。
