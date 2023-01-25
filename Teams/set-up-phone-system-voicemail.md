@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為使用者設定雲端語音信箱。
-ms.openlocfilehash: f73587fe2fe9a9449d938d9eac3d6193bbd7aa47
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c34b95db32906e81f60fc68dff6fce36e5913140
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614466"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981798"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定 [雲端語音信箱]
 
@@ -121,7 +121,7 @@ Teams 使用者的布建與商務用 Skype Online 使用者的布建並不相同
 - Exchange 規則：
   - 條件：
     - **頁首符合模式**：Content-Class = Voice-CA
-    - **寄件者的 IP 位址是**：13.107.64.0/18， 52.112.0.0/14、52.120.0.0/14、52.238.119.141/32、52.244.160.207/32
+    - **寄件者的 IP 位址是**：13.107.64.0/18， 52.112.0.0/14、52.122.0.0/15、52.238.119.141/32、52.244.160.207/32
 
 - 若 **要選擇要自動套用的標籤**，請選取您在上述步驟中為語音信箱建立的敏感度標籤。
 
