@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何使用電話系統直接路由來規劃媒體略過，這可讓您縮短媒體流量路徑並改善效能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 638a39a843648ab8fab770c28d92b196201e20f5
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: ea92103789927d35ae8bdd317987f32863d4d74e
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680506"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981788"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -151,7 +151,7 @@ Microsoft Cloud 中有兩個可以位於媒體流量路徑的元件：媒體處�
 
 IP 範圍如下：
 - 52.112.0.0/14 (IP 位址從 52.112.0.1 到 52.115.255.254) 
-- 52.120.0.0/14 (IP 位址從 52.120.0.1 到 52.123.255.254) 
+- 52.122.0.0/15 (IP 位址從 52.122.0.1 到 52.123.255.254) 
 
 \* 轉譯說明： 
 
@@ -199,7 +199,7 @@ IP 範圍如下：
 
 FQDN **sip.pstnhub.microsoft.com**、 **sip2.pstnhub.microsoft.com** 和 **sip3.pstnhub.microsoft.com** 將解析為來自下列子網的 IP 位址：
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 您必須在防火牆中開啟所有這些 IP 範圍的埠，以允許內送和外寄流量從位址進入和移出訊號。
 
